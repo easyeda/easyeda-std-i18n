@@ -1,0 +1,3222 @@
+﻿#Menu
+User=用户
+Join...=注册...
+Login...=登录...
+Log in=登录
+Logout=退出登录
+Change password...=修改密码...
+User Preference = 个人偏好
+System Settings... =系统设置...
+System Settings = 系统设置
+Crash =恢复备份数据...
+Invite friends...=邀请好友...
+Language=语言
+Language Setting = 语言设置
+English=English (英语)
+Polski (Polish)=Polski (波兰语)
+Deutsch (German)=Deutsch (德语)
+Français (French)=Française (法语)
+简体中文 (Chinese - Simplified)=简体中文
+正體中文 (Chinese - Traditional)=繁体中文
+한국어 (Korean)=한국어 (韩语)
+日本語 (Japanese) = 日本語 (日语)
+Tiếng Việt (Vietnamese) = Tiếng Việt (越南语)
+Document Recovery = 文档恢复
+Your Preferences Information = 你的个人偏好信息
+File=文件
+New=新建
+Project...=工程...
+Schematic=原理图
+Schematic-Simulation=原理图-仿真
+Spice Symbol=仿真符号
+Spice Subckt=Spice子电路
+spicePre = 仿真编号
+PCB=PCB
+Schematic Module=原理图模块
+PCB Module=PCB模块
+Save...=保存...
+Save As...=另存为...
+Save As Module...=另存为模块...
+Print=打印
+Export Document=导出文档
+LTspice...=LTspice...
+Eagle...=Eagle...
+Altium...=Altium...
+Cadence...=Cadence...
+Pads...=Pads...
+DXF=DXF
+Import=导入
+Super Menu = 超级菜单
+
+Edit=编辑
+Undo=撤销
+Redo=重做
+Cut=剪切
+Copy=复制
+Paste=粘贴
+Select=选择
+Delete=删除
+Clear All = 清空画布
+Move=移动
+Drag=拖移
+Bring to Front=移到顶层
+Send to Back=移到底层
+Align=对齐
+Align Left=左对齐
+Align Right=右对齐
+Align Top=顶对齐
+Align Bottom=底对齐
+Align Horizontal Centers=水平居中对齐
+Align Vertical Centers=垂直居中对齐
+Distribute Horizontally=水平等距分布
+Distribute Vertically=垂直等距分布
+Distribute Left Edges Equidistantly=左边沿等距分布
+Distribute Top Edges Equidistantly=上边沿等距分布
+Align Grid=对齐网格
+Rotate=逆时针旋转90度
+Rotate Left=逆时针旋转90度
+Rotate Right=顺时针旋转90度
+Flip Horizontal=水平翻转
+Flip Vertical=垂直翻转
+Rotate and Flip=旋转与镜像
+Group/Ungroup Symbol...= 组合/解散符号
+
+[menu_project]
+View=查看
+[/menu_project]
+Find = 查找
+Zoom In=放大
+Zoom Out=缩小
+Fit in Window=适合窗口
+Refresh=刷新
+Snap=吸附
+Cross Cursor=十字光标
+Toolbars=工具栏
+Drawing Tools=绘图工具
+Wiring Tools=电气工具
+Power Objects=电源
+PCB Tools = PCB工具
+Footprint Tools = 封装工具
+Layers Tool = 层工具
+Layer Manager = 层管理器
+Enable and Show All Layers = 开启和显示全部图层
+Net Visible = 显示网络
+Auto = 自动
+Digital Objects=数字实体
+Tools = 工具
+Arc Center = 中心圆弧
+Arc Type = 圆弧类型
+Center Point Arc = 中心圆弧
+Two-point Arc = 两点圆弧
+
+Place=放置
+Drawing Tools=绘图工具
+Arc=圆弧
+Elliptical Arc=椭圆弧
+Ellipse=椭圆
+Circle=圆
+Pie=饼形
+Line=线条
+Polyline=折线
+Rectangle=矩形
+Rectangular = 矩形
+The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = 矩形不支持非 90 度角旋转，请使用实心填充代替。
+
+Rect=矩形
+Round Rectangle=圆角矩形
+Polygon=多边形
+Bezier=贝塞尔曲线
+Path=路径
+Graphic=图片
+Bus=总线
+Bus Entry=总线分支
+Junction=节点
+Net Port =网络端口
+Voltage Probe =电压探针
+Power Port=电源
+Wire=导线
+Annotation=文本注释
+Track=导线
+Image=图片
+Arrow Head=箭头
+Arrowhead = 箭头
+Arrow=箭头
+No Connect Flag = 非连接标志
+Place=放置
+Pin=管脚
+Lock Selected Objects = 锁定选中对象
+
+Miscellaneous=杂项
+Find Component=查找元件
+Component = 元件
+Footprint... = 封装...
+This component is deleted! = 这个元件已经被删除！
+Convert = 转换
+Convert Schematic to PCB = 原理图转PCB
+The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: = 将根据元件编号重置元件ID，该操作将清空撤销记录。重置前请注意：
+Please make sure the component prefixes of the schematic and PCB are corresponding = 请确保原理图和 PCB 的元件编号相对应
+Please reset the component ID of corresponding schematic or corresponding PCB too = 请把对应的原理图或者PCB也进行重置操作
+Do you want to continue? = 是否继续？
+Reset Component ID = 重置元件ID
+Component ID reset successfully! = 元件ID重置成功！
+Convert to PCB = 转到PCB
+Update PCB =更新PCB
+Shortcut Keys Setting = 快捷键设置
+Edit Symbol... = 修改符号...
+Highlight Net... = 高亮网络...
+Simulate =仿真
+Simulation =仿真
+Standard Mode = 标准模式
+Simulation Mode = 仿真模式
+Change to Standard Mode = 切换至标准模式
+Change to Simulation Mode = 切换至仿真模式
+Welcome to Use LCEDA = 欢迎使用立创EDA
+Welcome to Use EasyEDA = 欢迎使用EasyEDA
+Enable Education Edition Features for Free >>> = 免费开启教育版功能>>>
+Quick Start = 快速开始
+More Help = 更多帮助
+Explore = 开源平台
+Message = 消息
+[start]
+Example = 示例工程
+Forum = 立创社区
+Tutorials = 文档教程
+Videos = 视频教程
+[/start]
+Custom Data = 自定义数据
+LCEDA = 立创EDA
+
+Copy Result Image = 复制图形结果
+Export Result Image = 导出图形结果
+Simulation Result = 仿真结果
+Simulation Results... = 仿真结果...
+Simulate this Sheet = 仿真当前页
+Simulate this Project = 仿真当前工程
+Non-simulation mode, please switch to the simulation mode first and then run = 非仿真模式，请先切换至仿真模式再运行
+Run the Document = 运行当前文档
+Run the Project... = 运行整个工程...
+Netlist for Document = 生成本文件网络
+Netlist for Project = 生成本工程网络
+LTspice for This Sheet... = LTspice格式(当前页)...
+Spice for this Project... = 当前工程Spice网表...
+Protel/Altium for PCB... = Protel/Altium格式...
+PADS for PCB... = PADS格式...
+FreePCB for PCB... = FreePCB格式...
+Eagle for PCB... = Eagle 格式...F
+Kicad for PCB... = Kicad 格式...
+OrCAD for PCB... = OrCAD 格式...
+BOM report... = 元器件清单...
+BOM for Document... = 当前文档清单...
+BOM for Project... = 当前工程清单...
+Pin Manager... = 引脚管理器...
+Spice Model... = 仿真模型...
+Layer Manager... =  层管理器...
+Net Color... = 网络颜色...
+Design Rule... = 设计规则...
+Copper Area = 铺铜
+Rebuild Selected = 重建所选
+Rebuild All = 重建全部
+Copper Area Manager... = 铺铜管理器...
+Export Pick and Place File = 导出坐标文件
+Measure Distance = 测量距离
+Set Canvas Origin by Mouse Location = 修改原点
+Generates Pick and Place File = 生成贴片坐标文件
+Unroute All = 清除布线
+Auto Route = 自动布线
+Export Autorouter File(DSN) = 导出自动布线文件(DSN)
+Import Autorouter Session File(SES) = 导入自动布线会话(SES)
+Autorouter File(DSN) = 自动布线文件(DSN)
+Autorouter Session File(SES) = 自动布线会话(SES)
+Terminate Routing Automatically = 自动结束布线
+Delete Segments = 删除线段
+Unroute Connections = 删除连接
+Unroute Connection = 删除连接
+Unroute Nets = 删除网络
+Select = 选择
+Segments = 线段
+Connection = 连接
+Net = 网络
+Apply Design Rule While Routing and Auto Placing Via = 布线切层时自动放置的过孔与导线应用设计规则
+
+Add SubPart=添加子模块
+Annotate... = 标注编号...
+Config=配置
+
+Help=帮助
+About=关于
+Shortcut Keys = 快捷键
+FAQ = 常见问题
+Tutorials = 使用教程
+Basic Tutorials = 基础教程
+Video Tutorials = 视频教程
+Essential Check = 特别检查
+Simulation Tutorials = 仿真教程
+Updated Instructions = 更新说明
+Open File Format = 文件格式
+About Upgrade = 关于升级
+#Github Repository = Github仓库
+Github Repository = 文档仓库
+#Support Forum = 支持论坛
+User Forum = 用户论坛
+Feature Request = 功能建议
+Feature Requests = 功能建议
+Bug Report = Bug 报告
+Bug Reports = Bug 报告
+Tips & Skill = 小技巧
+Ask for Help = 寻求帮助
+Schematic Capture = 原理图
+Spice Simulation = 仿真
+Non-simulation mode = 非仿真模式
+PCB Layout = PCB设计
+General Discussion = 一般讨论
+More Information = 更多信息
+Privacy Policy = 隐私政策
+#Terms of Use & Privacy Policy = 使用条款与隐私
+Terms of Service = 服务条款
+Plans and Pricing = 价格政策
+Help Translate = 帮助翻译
+About Us = 团队介绍
+Contact Us = 联系我们
+Change History=更新日志
+Join Us = 诚聘英才
+#PCB Fabrication Capabilities = PCB制造能力
+PCB Fabrication = PCB制造
+Order Capabilities = 工艺能力
+Order Price = 价格计算
+Order Essential Check = 特别检查
+Order FAQ = 常见问题
+Order Process = 下单流程
+Full Screen = 全屏
+
+Support = 支持
+[leftNavTabs]
+Support = 技术支持
+[/leftNavTabs]
+Historical Records... = 历史记录...
+Extensions = 扩展
+Order PCB... = 订购PCB...
+Import Changes = 导入变更
+Press {0}F11{1} to switch to full screen. = 按{0}F11{1}切换到全屏模式
+Delete Selected = 删除所选
+Simulate... = 仿真...
+Config = 配置
+Terms of Service & Privacy Policy = 服务条款和隐私政策
+Help Topics = 帮助
+3D Model(obj) = 3D模型(obj)
+3D Model(step) = 3D模型(step)
+SVG Source... = SVG源码...
+File Source = 文件源码
+Group These Items as a Symbol = 组合这些图形为一个符号
+Group These Items as a Footprint = 组合这些图形成为一个封装
+Set Canvas Origin = 画布原点
+Document Setting = 图纸设置
+Sheet Attributes = 表格属性
+Set Board Outline = 边框设置
+Teardrop... = 泪滴...
+Panelize... = 拼板...
+Check Dimension = 尺寸检查
+Smart Dimension = 智能尺寸
+Footprint Wizard = 封装向导
+Footprint Wizard... = 封装向导...
+Select package type = 选择封装类型
+Smart Dimension Attributes = 智能尺寸属性
+Global Delete = 全局删除
+Cross Probe = 交叉选择
+Cross Probe and Place = 布局传递
+Paper Size = 纸张大小
+Register = 注册
+User Center = 个人中心
+
+By Mouse Location = 从光标位置
+Set Coordinate = 设置坐标
+By Coordinates... = 从输入坐标...
+By Center of Pads = 从焊盘中央
+By Center Grid of Symbols = 从图形中心格点
+
+#Schematic Canvas Attributes
+Properties=属性
+Attributes=属性
+Apply=应用
+Save as default=存为默认值
+Canvas Attributes=画布属性
+Width=宽
+Height=高
+Background=背景色
+Visible Grid=网格可见
+Grid Visible = 显示网格
+Real-Time Track Length = 显示实时线长
+Display Real-Time Track Length = 显示实时线长
+Grid Color=网格颜色
+Grid Size=网格大小
+Grid Style=网格样式
+Grid.Line Width = 网格线宽
+Grid.Line Spacing = 网格间距
+Copper to Board Outline = 到边框间距
+Improve Fabrication = 制造优化
+Spoke Width = 发散线宽
+Stroke Color=线条颜色
+Stroke Width=线条宽度
+Stroke Style=线条样式
+Fill Color=填充颜色
+Selected Objects=选中数量
+Frame Size = 外形尺寸
+Alt Snap = ALT键栅格
+Snap size when pressing the Alt key = 按下ALT键时的栅格尺寸
+Prefix Start = 标注起始
+
+#Text Attributes
+Text Attributes =文本属性
+Text = 文本
+Color = 颜色
+Font Family = 字体
+Font Size = 字体大小
+Font Weight = 字体粗细
+Font Style = 样式
+Text Type = 文本类型
+Text Anchor = 文本锚点
+Baseline = 基线
+(Auto)=(自动)
+(auto)=(自动)
+start = 头部
+middle = 中间
+end = 尾部
+inherit = 继承
+comment = 注释
+spice = Spice仿真
+normal = 正常
+italic = 斜体
+Default = 默认
+Add = 新增
+bold = 粗体
+bolder = 更粗
+lighter = 更细
+Failed to parse the font file: {name} = 解析字体失败: {name}
+Please select a font file of ttf or woff format. = 请选择一个格式为 ttf 或 woff 的字体文件
+Add font success: {name} = 字体添加成功: {name}
+Failed to add font: {name} = 字体添加失败: {name}
+Add Font = 添加字体
+Failed to parse cached font: {name} = 加载缓存字体失败: {name}
+Load cached fonts fail! = 加载缓存字体失败
+
+#Stroke
+Stroke Color = 颜色
+Stroke Width = 线宽
+Stroke Style = 样式
+Fill Color = 填充颜色
+X Radius = X 半径
+Y Radius = Y 半径
+
+#spice
+Switch mode = 切换模式
+The current documents will be closed, and reopen after switching mode, do you want to continue? = 将关闭当前文档，切换模式后重新打开，是否继续？
+PCB related documents are not allowed in emulation mode = 仿真模式下不允许打开PCB相关文档
+Please change the editor to "Simulation" mode first at the top left corner. = 请先点击左上角切换编辑器至“仿真”模式
+Please change the editor to "Standard" mode first at the top left corner. = 请先点击编辑器左上角切换至“标准”模式
+Common = 通用器件
+spice.open = 断开
+spice.close = 闭合
+Sources = 电源
+Instrument = 仪器
+Transistors = 晶体管
+Digital Circuits = 数字电路
+Operational Amplifier = 运算放大器
+multimeter = 万用表
+multimeter Settings = 万用表设置
+FunctionGenerator Settings = 函数发生器设置
+Voltage Source Settings = 电压源设置
+Current Source Settings = 电流源设置
+Powersw Settings = 电流开关设置
+Resistor Settings = 电阻设置
+Capacitor Settings = 电容设置
+Diode Settings = 二极管设置
+voltPowersw Settings = 电压控制开关设置
+Inductor Settings = 电感设置
+VCVS Settings = 电压控制电压源设置
+CCCS Settings = 电流控制电流源设置
+VCCS Settings = 电压控制电流源设置
+CCVS Settings = 电流控制电压源设置
+JFET Settings = 结形场效应管设置
+FET Settings = 场效应管设置
+Transmission Line Settings = 传输线设置
+Oscilloscope Settings = 示波器设置
+XFMR Settings = 变压器设置
+LOGIC Settings = 逻辑器件设置
+LOGICSTATE Settings = 逻辑门设置
+DIGITALCLOCK Settings = 数字钟设置
+Potentiometer Settings = 滑动变阻器设置
+MUTUAL_INDUCTORS Settings = 变压器设置
+NE555 Settings = NE555 设置
+THREE_PHASE Settings = 三相交流电源设置
+Logic_Probe Settings = 逻辑探针设置
+78XX Settings = 78XX 设置
+79XX Settings = 79XX 设置
+OPAMP5PEE Settings = 5端放大运算器设置
+OPAMP5PEECN Settings = 5端放大运算器设置
+OPAMP3PEE Settings = 3端放大运算器设置
+OPAMP3PEECN Settings = 3端放大运算器设置
+DELAY_FUSE Settings = 延时保险丝设置
+Ratio = 变比
+K[%] = 比例因子[%]
+Model = 模型
+States = 电平
+Voltage[V] = 电压[V]
+Voltage gain[V/V] = 电压增益[V/V]
+Current gain[A/A] = 电流增益[A/A]
+Transconductance[Mho] = 跨导[Mho]
+Transresistance[Ω] = 互阻[Ω]
+Voltage Source Type = 电压源类型
+Current Source Type = 电流源类型
+multimeter type = 万用表类型
+power type = 电源类型
+Voltmeter Resistance(R)(Ω) = 伏特计电阻(R)(Ω)
+Amperometer Resistance(R)(Ω) = 安培计电阻(R)(Ω)
+mu.V = 伏特计
+mu.A = 安培计
+Sine Wave = 正弦波
+Triangular Wave = 三角波
+Rectangular Wave = 矩形波
+AC = 交流
+DC = 直流源
+SINE = 正弦源
+PULSE = 脉冲源
+EXP = 指数源
+SFFM = 单频调频源
+PWL = 分段线性源
+B.spice = 行为源
+DC Value[V] = 直流值[V]
+DC Value[A] = 直流值[A]
+DC offset[V] = 直流偏移[V]
+DC offset[A] = 直流偏移[A]
+Amplitude[V] = 振幅[V]
+Amplitude[A] = 振幅[A]
+Freq[Hz] = 频率[Hz]
+Theta[1/s] = 阻尼因子[1/s]
+Tdelay[s] = 延时[s]
+Phi[deg] = 相位[deg]
+Tperiod[s] = 脉冲周期[s]
+Ton[s] = 脉冲宽度[s]
+Tfall[s] = 下降时间[s]
+Trise[s] = 上升时间[s]
+Von[V] = 脉动值[V]
+Von[A] = 脉动值[A]
+Vinitial[V] = 初始值[V]
+Vinitial[A] = 初始值[A]
+Vpulsed[V] = 峰值[V]
+Vpulsed[A] = 峰值[A]
+Rise Delay[s] = 上升延迟[s]
+Rise Tau[s] = 上升时间常数[s]
+Fall Delay[s] = 下降延迟[s]
+Fall Tau[s] = 下降时间常数[s]
+Carrier Freq[Hz] = 载波频率[Hz]
+Modulation Index = 调制指数
+Signal Freq[Hz] = 信号频率[Hz]
+Time[s] = 时间[s]
+Value[V] = 值[V]
+Value[A] = 值[A]
+Waveforms = 波形
+Duty cycle[%] = 占空比[%]
+Amplitude[Vp] = 振幅[Vp]
+Offset[V] = 偏置[V]
+Rise/Fall Time[sec] = 上升/下降时间[sec]
+Capacitance[F] = 容值[F]
+sComponent = 模型
+Inductance[H] = 电感[H]
+Gbw = 增益带宽积
+Slewrate = 摆率
+Avol = 开环增益
+Rout(Ω) = 输出电阻
+Rin(Ω) = 输入电阻
+Ibias[A] = 输入偏置电流[A]
+Inhi[V] =  共模输入电压(Vp)
+Inlo[V] =  共模输入电压(Vn)
+Isc[A] = 短路输出电流[A]
+Outhi[V] = 空载输出电压差(Vp)
+Outlo[V] = 空载输出电压差(Vn)
+Vabsmax[V] = 电压最大压差[V]
+Vmin[V] = 最小供电电压[V]
+Iq[A] = 静态电流[A]
+Cin[F] = 输入电容[F]
+high = 高
+low = 低
+Oscilloscope = 双通道示波器
+Logic Analyzer = 逻辑分析仪
+Channel_A = 通道_A
+Channel_B = 通道_B
+Channel A = 通道 A
+Channel B = 通道 B
+Time = 时间
+Reverse = 反向
+Simulation file exceed = 仿真文件过大
+The simulation file is too large and has been stopped for performance reasons. = 仿真文件过大，出于性能原因已停止。
+Timebase = 时基
+Scale: = 刻度：
+X pos.(Div): = X 轴位移(格)：
+Y pos.(Div): = Y 轴位移(格)：
+View meter... = 查看仪表...
+The circuit has components without simulation model: = 该电路存在没有仿真模型的元器件：
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = 您两次仿真的时间间隔过短，请等待 5 秒后再次尝试；如果仍然提示该信息，可能你已经超过每天 500 次的仿真次数限制。
+Resistor1_US = 电阻器1_美标
+Resistor1_EU/IEC = 电阻器1_欧标
+Resistor1_3D = 电阻器1_3D
+Capacitor1_US = 电容器_美标
+Capacitor1_EU/IEC = 电容器_欧标
+Capacitor1_3D = 电容器_3D
+Rheostat_US = 变阻器_美标
+Rheostat_EU/IEC = 变阻器_欧标
+Rheostat_3D = 变阻器_3D
+Capacitor_Electrolytic_US = 电解电容器_美标
+Capacitor_Electrolytic_EU/IEC = 电解电容器_欧标
+Capacitor_Electrolytic_3D = 电解电容器_3D
+Inductor_US = 电感器_美标
+Inductor_EU/IEC = 电感器_欧标
+Inductor_3D = 电感器_3D
+Resistor2_US = 电阻器2_美标
+Resistor2_EU/IEC = 电阻器2_欧标
+Resistor2_3D = 电阻器2_3D
+Multimeter = 万用表
+Multimeter_3D  = 万用表_3D
+Oscilloscope = 示波器
+Oscilloscope_3D  = 示波器_3D
+Signal_Generator = 函数发生器
+Signal Generator_3D  = 函数发生器_3D
+Wattmeter = 瓦特计
+Wattmeter_3D = 瓦特计_3D
+NSSWS1080T_3D = 发光二极管_3D
+Voltage_Source_VDC = 电压源_直流源(DC)
+Voltage_Source_VSin = 电压源_正弦源(SINE)
+Voltage_Source_VPULSE = 电压源_脉冲源(PULSE)
+Voltage_Source_VEXP = 电压源_指数源(EXP)
+Voltage_Source_VSFFM = 电压源_单频调频源(SFFM)
+Voltage_Source_VPWL = 电压源_分段线性源(PWL)
+Voltage_Source_V_Behavioral_Source = 电压源_行为源(B)
+Current_Source_IDC = 电流源_直流源(DC)
+Current_Source_ISin = 电流源_正弦源(SINE)
+Current_Source_IPULSE = 电流源_脉冲源(PULSE)
+Current_Source_IEXP = 电流源_指数源(EXP)
+Current_Source_ISFFM = 电流源_单频调频源(SFFM)
+Current_Source_IPWL = 电流源_分段线性源(PWL)
+Current_Source_I_Behavioral_Source = 电流源_行为源(B)
+CCCS_1 = 电流控制电流源_1
+CCCS_2 = 电流控制电流源_2
+CCVS_1 = 电流控制电压源_1
+CCVS_2 = 电流控制电压源_2
+VCCS = 电压控制电流源
+VCVS = 电压控制电压源
+Three_Phase_Wye_Load = 三相电源Y型
+Three_Phase_Delta_Load = 三相电源三角型
+78XX = 78系列稳压器
+79XX = 79系列稳压器
+555 = 555定时器
+555_3D = 555定时器_3D
+Transformer_US = 变压器_美标
+Transformer_EU/IEC = 变压器_欧标
+Transformer_Center_Tapped_US = 中心抽头变压器_美标
+Transformer_Center_Tapped_EU/IEC = 中心抽头变压器_欧标
+Mutual_Inductor_US = 互感器1_美标
+Mutual_Inductor_EU/IEC = 互感器1_欧标
+Mutual_Inductor2_US = 互感器2_美标
+Mutual_Inductor2_EU/IEC = 互感器2_欧标
+OR2EE_US = 2输入或门_美标
+OR3EE_US = 3输入或门_美标
+OR4EE_US = 4输入或门_美标
+OR2EE_CN = 2输入或门_国标
+OR3EE_CN = 3输入或门_国标
+OR4EE_CN = 4输入或门_国标
+NOR2EE_US = 2输入或非门_美标
+NOR3EE_US = 3输入或非门_美标
+NOR4EE_US = 4输入或非门_美标
+NOR2EE_CN = 2输入或非门_国标
+NOR3EE_CN = 3输入或非门_国标
+NOR4EE_CN = 4输入或非门_国标
+AND2EE_US = 2输入与门_美标
+AND3EE_US = 3输入与门_美标
+AND4EE_US = 4输入与门_美标
+AND2EE_CN = 2输入与门_国标
+AND3EE_CN = 3输入与门_国标
+AND4EE_CN = 4输入与门_国标
+NAND2EE_US = 2输入与非门_美标
+NAND3EE_US = 3输入与非门_美标
+NAND4EE_US = 4输入与非门_美标
+NAND2EE_CN = 2输入与非门_国标
+NAND3EE_CN = 3输入与非门_国标
+NAND4EE_CN = 4输入与非门_国标
+XOR2EE_US = 异或门_美标
+XOR2EE_CN = 异或门_国标
+XNOR2EE_US = 同或门_美标
+XNOR2EE_CN = 同或门_国标
+Digital_Clock_1Hz = 数字钟
+Logicstate_0 = 逻辑状态_0
+Logicstate_1 = 逻辑状态_1
+Logic_Probe = 逻辑探针
+Buffee = 驱动门
+INVEE_US = 取反指令_美标
+INVEE_CN = 取反指令_国标
+Schmittbuffee = 施密特驱动门
+LM358N_US = LM358N_美标
+LM358N_CN = LM358N_国标
+OPAMP3PEE_US = 3端运算放大器_美标
+OPAMP3PEE_CN = 3端入运算放大器_国标
+OPAMP5PEE_US = 5端入运算放大器_美标
+OPAMP5PEE_CN = 5端入运算放大器_国标
+Voltage_Controlled_Switch = 电压控制开关
+Current_Controlled_Switch = 电流控制开关
+FUSE = 熔断器
+Delay_Fuse = 延时熔断器
+Transmission_Line = 传输线
+Crystal = 晶体
+DFFEE = D触发器
+TFFEE = T触发器
+JKFFEE = JK触发器
+SRFFEE = SR触发器
+SRLATCHEE = SR锁存器
+SRNANDFFEE = 与非型基本SR触发器
+SRNORFFEE = 或非型基本SR触发器
+INVTSEE = 施密特反相器
+INVODEE = 集电极开路反相器
+Schmittbuffee = 施密特驱动门
+Cbuffer = 缓冲器
+SPDT_Open = 单刀双掷（断开）
+SPDT_Close = 单刀双掷（闭合）
+SPST_Close = 单刀单掷（闭合）
+SPST_Open = 单刀单掷（断开）
+Fast_Crystal = 快速晶振
+Lamp = 灯泡
+BCD_Segment = 数码管
+Seven_Segment = 七段数码管
+Traffic_Light = 交通灯
+Lamp Settings = 灯泡设置
+Power[W] = 功率[W]
+Dropout Voltage[V] = 压差[V]
+Current[A] = 电流[A]
+Threshold[V] = 阈值电压[V]
+Clock Rate = 时钟频率
+TrafficLight Settings = 交通灯设置
+BCDSegment Settings = 数码管设置
+SevenSegment Settings = 七段数码管设置
+SPDT Settings = 单刀双掷开关设置
+SPST Settings = 单刀单掷开关设置
+LogicAnalyzer Settings = 逻辑分析仪设置
+Fuse Settings = 熔断器设置
+Wattmeter Settings = 瓦特计设置
+open = 打开
+close = 关闭
+Common Anode = 共阳
+Common Cathode = 共阴
+AC Amplitude = AC幅度
+AC Phase = AC相位
+There are some parts haven't spice model, please use "EElib" and "Spice Symol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = 存在没有仿真模型的元器件，请优先使用仿真模式下的“基础库”和元件库中的“仿真符号”进行仿真，或指定仿真模型：
+
+#Pin
+Pin Attributes = 引脚属性
+Orientation = 方向
+Line 45° = 线条45°
+Line 90° = 线条90°
+Arc 45° = 圆弧45°
+Arc 90° = 圆弧90°
+Free Angle = 自由角度
+Start X = 起点X
+Start Y = 起点Y
+Length = 长度
+Name = 名称
+name = 名称
+Number = 编号
+Spice Pin Order = spice管脚编号
+Display Number = 显示编号
+Clock = 时钟
+Show = 显示引脚
+Electric = 电气特性
+
+#Junction
+Junction Attributes = 节点属性
+X Location = X坐标
+Y Location = Y坐标
+Size = 大小
+Color = 颜色
+
+#Net Label
+Net Label = 网络标签
+
+#Part
+Prefix = 编号
+
+#Image Attributes and Dialog
+Add Image = 添加图片
+Image Attributes = 图片属性
+Image URL = 图片网址
+Input an image URL = 请输入图片网址
+Invalid image URL = 无效的图片网址
+Invalid Prefix = 无效的编号
+Failed to load the image = 图片加载失败
+Image URL contains special characters = 图片网址包含特殊字符
+From Web URL = 图片网址
+From Local Computer = 从本地计算机
+Please select a png/gif/jpg file. = 请选择一个png/gif/jpg文件
+Please select an image file. = 请选择一个图片文件
+Select an image file = 选择一个图片文件
+Insert Image to PCB = 插入图片到PCB
+Tolerance = 容差
+tolerance = 容差
+capacitance = 容量
+frequency = 频率
+Rated Voltage = 额定电压
+Rated Current = 额定电流
+resistance = 阻值
+Resistance = 阻值
+Resistance[Ω] = 阻值[Ω]
+inductance = 电感系数
+Operating Temperature = 工作温度
+Shape Invert = 图形反转
+Image Size = 图片尺寸
+Color Tolerance = 颜色容差
+Simplify Level = 简化水平
+Corner Threshold = 平滑尖角
+
+#PCB Canvas Attributes
+Units = 单位
+Snap Size = 栅格尺寸
+Other = 其它
+Routing Width = 线宽
+[router]
+Routing Width = 布线宽度
+[/router]
+Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = 在布线过程中，请使用快捷键 {0}{shiftw}{1} 或者 {2}{tab}{3} 修改线宽。
+Routing Angle = 拐角
+Routing Conflict = 布线冲突
+Remove Loop = 移除回路
+Cut SilkScreen = 裁剪丝印
+Grid = 网格
+Grid 90 = 网格90
+Grid 45 = 网格45
+Copper Zone = 铺铜区
+Visible = 可见
+Invisible = 不可见
+Ignore = 忽略
+Block = 阻挡
+RoundTrack = 环绕
+
+#Track
+Track Properties = 导线属性
+Layer = 层
+Net = 网络
+Start X = 起点X
+Start Y = 起点Y
+End X = 终点X
+End Y = 终点Y
+ID= ID
+
+#Pad Properties
+Pad Properties = 焊盘属性
+Shape = 形状
+Hole(D) = 孔直径
+Center X = 中心X
+Center Y = 中心Y
+Round = 圆形
+Oval = 长圆形
+Hole Shape = 孔形状
+Slot = 槽形
+Hole(Length) = 孔长度
+Plated = 金属化
+None = 否
+Paste Mask Expansion = 助焊扩展
+Solder Mask Expansion = 阻焊扩展
+
+#Via Properties
+Via Properties = 过孔属性
+Diameter = 直径
+Drill Diameter = 过孔内径
+
+#Hole Properties
+Hole Properties = 孔属性
+
+
+#TEXT
+Text Properties = 文本属性
+Line Width = 线宽
+Rotation = 旋转角度
+Fonts Management = 字体管理
+
+#Dimension Attributes
+Dimension Attributes = 尺寸属性
+
+#Footprint Attributes
+Component Attributes = 元件属性
+Display Prefix = 显示编号
+Pin Name = 引脚名称
+Pin Number = 引脚编号
+Spice Pin Number = 仿真引脚编号
+Graphics = 图形
+Pattern = 形状
+
+#Arc Properties
+Arc Properties = 圆弧属性
+Start Angle = 起始角度
+End Angle = 结束角度
+Rotation Direction = 旋转方向
+
+#Rect Properties
+Rect Properties = 矩形属性
+Round radius = 圆角半径
+
+#Circle Properties
+Circle Properties = 圆属性
+Radius = 半径
+
+#CopperArea Properties
+CopperArea Properties = 铺铜属性
+Clearance = 间距
+Pad Connection = 焊盘连接
+Direct = 直接
+Spoke = 轮辐状
+Keep Island = 保留孤岛
+Fill Style = 填充样式
+CopperArea conflict: copper area outlines in same layer with different net names must not overlap = 铺铜区冲突: 同一层的不同铺铜区边界不能重叠
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = 铺铜完成！单击空白区后在右边属性面板可以设置“铺铜区”为“可见”。
+Please create board outline first. = 请先创建电路板边界
+Board outlines are not closed. = 电路板边界没有闭合
+Rebuild CopperArea = 重建铺铜区
+Edit Points= 编辑点
+Direct = 直连
+Spoke = 发散
+No Solid = 无填充
+Board Cutout = 槽孔
+Solid = 全填充
+[copperArea]
+None = 无填充
+[/copperArea]
+
+#Custom Attributes
+Custom Attributes = 自定义属性
+Fixed Attributes = 固定属性
+Add new parameter = 增加参数
+Add New Parameter = 增加参数
+Add New Supplier = 增加供应商
+Mounted = 上件
+Unknown = 未知
+
+Custom = 自定义
+Scan the QR code below and open it on the mobile side = 扫描下方二维码，在移动端打开
+How to create a single layer PCB = 如何绘制单层板
+Currently doesn't support layout single layer directly, please refer at: = 暂不支持直接绘制单层板，单层板的绘制方法请查看：
+
+#Dialog Register
+Create an account = 创建账号
+Username = 用户名
+Password = 密码
+Confirm Password = 确认密码
+Email = 电子邮件
+Please read this before you register = 注册前建议阅读
+Hi {username} = 你好，{username}
+
+#Dialog lostPassword
+Lost Password... = 丢失密码...
+Find the password using your email = 通过邮件找回密码
+
+
+
+#Dialog Login
+Login = 登录
+Username or Email = 用户名或邮件
+Remember Me = 记住我
+Third party = 第三方
+Login and Register = 登录与注册
+Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = 你的登录信息好像已经失效，请重新登录。已打开的文档不需要关闭，登录后可继续保存。
+
+#Dialog Reset Password
+Reset a password using your email = 输入你注册的email,重置密码
+Your registered email = 注册邮件
+
+#Dialog Reaction
+Re-send an activation code to your email  = 重发邮件激活码
+
+#Dialog Invite
+Invite friends to register = 邀请朋友注册
+Your friend's email = 朋友邮件
+
+#Dialog Add A New Parameter
+Add a new parameter = 添加自定义参数
+Key = 名称
+Value.new_para = 参数
+In BOM = 添加在BOM中
+Add into BOM = 加入BOM
+Invalid key = 不合法的名称
+This field is required. = 该输入框必填。
+
+#Dialog Change Your Password
+Change your password = 修改密码
+Old password = 旧密码
+New Password = 新密码
+Confirm Password =确认密码
+
+#Dialog Create New Design
+Save as a New Project = 另存为新工程
+Save as a schematic = 保存为原理图
+Save as Symbol = 保存为符号
+Save as a spice Symbol = 保存为仿真符号
+Save as a spice subckt = 保存为Spice子电路
+YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = 注意你必须创建一个与之同名的仿真符号
+Save as a PCB file  = 保存为PCB文件
+Save as Footprint = 保存为封装
+Save as a Schematic Module = 保存为原理图模块
+Save as a PCB Module = 保存为PCB模块
+Save as 3D Model = 保存为3D模型
+Save as a WaveForm = 保存为波形
+Title = 标题
+Share = 分享
+Add file = 添加文件
+Visibility = 可见性
+Allow Comments = 允许评论
+Public (Anyone can see this project but only you can modify it.) = 公开 (只有你能修改该工程，所有人都可以看到它)
+Private (Only you can see and modify this project) = 私有(只能你能看到并修改它)
+Create new project success! = 新建工程成功
+You can now create files under this project = 现在可以在工程下创建文档了
+This file must be saved under a project, choose other project or create a new project = 该文件必须保存在工程下，请选择或新建一个过程。
+Please login to save this kind of document = 请登录后保存该文档
+Duplicated project title = 工程标题已存在
+#Duplicated document title = 文件标题已存在
+Project does not exist = 工程不存在
+Document does not exist = 文件不存在
+document not exists = 文件不存在
+
+Categories = 目录
+Project = 工程
+Short description = 简短描述
+Content = 内容
+Modify this project info. = 修改该工程信息
+Modify this file info. = 修改该文档信息
+Notice = 注意
+Search for it before creating a new one.= 创建前先尝试查询一下
+Manufacturer Part Number = 制造商元器件编号
+Supplier = 供应商
+Or = 或
+Supplier Part = 供应商编号
+Supplier Part Number = 供应商料号
+Link = 链接
+link = 链接
+The professional function please refer at: = 高级功能请查阅：
+
+#Dialog Clone My Part
+#Clone it to a project = 克隆它到你自己的工程中
+#Clone it, then edit it = 克隆它,然后你就可以重新修改它
+Clone your file = 克隆文件
+
+#Dialog Subckt
+Attach a Subckt to this spice symbol = 为该器件添加仿真模型数据
+Subckt string  = 模型数据
+Spice symbol title just allow [0-9][a-z][A-Z] and _ = 仿真符号的标题只允许数字，字母和下划线！
+
+#Design Manager
+Design Manager = 设计管理器
+Nets = 网络
+DRC Errors = DRC错误
+Are you sure you want to unroute this net? = 确定要清除该网络的布线吗？
+Unroute = 清除布线
+Track Length = 线长
+Via/Hole Outer Size = 孔外径
+Filter nets = 筛选网络
+Design Rule Checking = 设计规则检查
+Board Outline = 边框
+Plane Zone = 内电层
+[drcRule]
+Width = 宽
+DRC Width = DRC宽
+Length = 线长
+DRC Length = DRC线长
+Drill Diameter = 孔内径
+DRC Drill Diameter = DRC孔内径
+Diameter = 孔外径
+DRC Diameter = DRC孔外径
+Object = 元素
+DRC Clearance = DRC间距
+[/drcRule]
+#It will take a while to unroute this net, do you want to continue? = 清除布线可能要多花一些时间，确定要继续吗？
+More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = 该导线存在多个网络标签，请注意是否正常，若是设计需要，可忽略当前警告。
+Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = 该网络连接不完整，完整的网络需要连接两个及以上引脚，若是设计需要，可忽略当前警告。
+This netlabel is not connected with any pin. = 该网络标签未与任何引脚连接。
+Incomplete connection, please check. = 该网络连接不完整，请检查。
+The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = 这两个不同网络的元素间距小于设计规则(DRC)的间距
+The diameter is less than Design Rule Checking (DRC) diameter = 孔外径小于设计规则(DRC)的孔外径
+The drill diameter is less than Design Rule Checking (DRC) drill diameter = 孔内径小于设计规则(DRC)的孔内径
+The track length is longer than Design Rule Checking (DRC) track length = 导线总长度大于设计规则(DRC)的线长
+The track width is less than Design Rule Checking (DRC) track width = 导线宽度不能小于设计规则(DRC)的线宽
+
+#Dialog Simulation
+Show your simulation report = 显示仿真报告
+Download netlist = 下载网络表
+Run = 运行
+Components = 元件
+
+#Dialog Import
+Import file from your computer = 从你的电脑导入文件
+Maximum file size: 30 MB = 最大文件尺寸: 30MB
+Maximum file size: 100 MB = 最大文件尺寸: 100MB
+Chose file  = 选择文件
+File Operation = 文件操作
+Import File = 导入文件
+Extract Libs = 提取库文件
+Import File and Extract Libs = 导入文件并提取库
+File type = 文件类型
+The file size is too large. = 文件尺寸过大
+Please selected the file type. = 请选择文件类型
+No component was found! = 没有发现器件
+Import successfully = 导入成功
+Import failed = 导入失败
+Click OK to continue with the import = 点击确认将继续导入文件
+Select None=全不选
+
+#Dialog Modify Symbol Information
+Modify symbol information = 修改符号信息
+Spice Prefix = 仿真编号
+Hide Pin = 隐藏引脚
+Pin Manager = 引脚管理器
+When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = 当一个电源引脚被隐藏，它将被标记为网络标签，你不需要连接它。如果您使用它进行仿真，请将它显示或为它创建一个GND/VCC网络。
+Assign = 分配
+Supplier.bom = 供应商
+LCSC.bom = LCSC编号
+Price = 价格
+Quantity.bom = 数量
+Package.bom = 封装
+Components.bom = 元件编号
+Manufacturer Part.bom = 制造商料号
+Manufacturer.bom = 制造商
+
+One-click Purchasing at LCSC = 从立创商城购买
+Order Parts/Check Stock = 购买元件/检查库存
+Export BOM = 导出BOM
+Export PCB BOM = 导出 PCB BOM
+Export Schematic BOM = 导出原理图BOM
+ID.bom = 编号
+Name.bom = 元件名称
+[bom]
+Name = 元件名称
+LCSC Assembly=立创贴片零件
+Value = 元件名称
+ID = 编号
+Supplier = 供应商
+LCSC = LCSC编号
+Price = 价格
+Quantity = 数量
+Package = 封装
+Components = 元件编号
+Manufacturer = 制造商
+[/bom]
+Manufacturer Part = 制造商料号
+
+#Dialog Run
+Run your simulation = 运行仿真
+Transient = 暂态
+Maximum Timestep = 最大步长
+Stop Time = 终止时间
+Start Time = 起始时间
+
+AC Analysis = 交流分析
+Type of Sweep = 描述类型
+Number of points = 数据点
+Start Frequency = 起始频率
+Stop Frequency = 终止频率
+
+DC sweep= 直流扫描
+Source to Sweep = 扫描源
+Start Value = 起始值
+Stop Value = 终止值
+Increment = 步进
+DC Transfer = DC 变换
+Output = 输出
+Source = 源
+
+DC op pnt = 静态工作点
+Compute the DC operating point treating capacitances as opens and inductances as shorts = 计算静态工作点，电容开路，电感短路
+
+#Dialog Share Info
+Active File = 当前文档
+Active Project =当前工程
+Embed it in your html files. = 嵌入到你的网页文件中
+Share it by e-mail, IM, blog, etc. = 通过邮件,QQ,博客,微博等分享
+BBCode (used by many online discussion forums)=BBCode(大部分论坛支持这种分享方式)
+HTML code = HTML代码,适合插入到网页中
+QRCode (Share your schematic address by QRCode ) = 以二维码分享你的电路图网址
+Short Url = 短网址
+Share a copy of this document = 分享当前文档的副本
+Readonly = 只读
+Editable = 可编辑
+Active file's owner project page = 当前文档所属工程的页面
+Active project editor page = 当前工程的编辑器打开网址
+Active file image URL = 当前文档的图片网址
+
+#Dialog Document Recovery
+All Projects = 所有工程
+Document Recovery = 文档恢复
+Unsaved files=未保存的文档
+Please select a file! = 请选中一个文档
+Please expand the folder first, then select a document to recover. = 请先展开文件夹，再选中一个文档备份进行恢复。
+Are you sure you want to remove this backup? = 您确定要删除该备份吗？
+
+#Dialog Find Libs
+Search = 搜索
+Search Results = 搜索结果
+Search and press Enter = 按回车键搜索
+Keywords at least 3 characters = 关键字至少3个字符
+Assembled = 可贴片
+Verified = 已认证
+In stock = 可购买
+{page} of {pagecount} pages = 第 {page} 页 / 共 {pagecount} 页
+Common Modules = 通用模块
+User Contributions = 用户贡献
+More = 更多
+Add Favorite = 添加收藏
+Remove Favorite = 取消收藏
+Add Sub Part = 添加子库
+Untagged = 无标签
+Package = 封装
+package = 封装
+Title(PartNO)=标题(零件名称)
+No Data! = 没有数据
+Quantity = 数量
+Manufacturer Part = 制造商料号
+manufacturer Part = 制造商料号
+Manufacturer = 制造商
+manufacturer = 制造商
+voltage = 电压
+Library = 元件库
+LCSC Assembled = 立创贴片
+JLCPCB Assembled = 嘉立创贴片
+User Contributed = 用户贡献
+Symbol = 符号
+Follow = 关注
+Types = 类型
+Classes = 库别
+power = 功率
+Power = 功率
+LCSC Part# = 立创商城编号
+Stock = 库存
+Report Error... = 报告错误...
+Report Error = 报告错误
+Thanks for your feedback! = 感谢您的反馈！
+Report error success, thanks for your report! = 报告错误成功，感谢您的反馈！
+The content must be at least 2 characters! = 内容至少包含两个字符！
+This library is user contributed, please check before using. = 这个库是用户贡献库，使用前请注意检查。
+[lib]
+All = 全部
+System = 系统库
+Personal = 个人库
+Created = 创建的
+Favorite = 收藏的
+No Team found. Please join or create a team first. = 无团队，请先加入或创建一个团队。
+Create a team = 创建团队
+No follow user found. Please follow your friend first. = 无关注用户，请先进行关注。
+[/lib]
+
+
+BUY = 购买
+In Stock = 件库存
+Out of Stock = 缺货
+Minimum = 起订量
+Distributor = 销售商
+
+Capacitance = 容量
+Frequency Tolerance = 误差
+Power (Watts) = 功率
+Power - Max = 功率(最大)
+Frequency = 频率
+Voltage Rating(Vdc,Vac) = 额定电压
+Voltage = 额定电压
+Current Rating = 额定电流
+Rated current = 额定电流
+Resistance (Ohms) = 阻值
+Resistance(Ohms) = 阻值
+Inductance = 电感系数
+FET Type = 类型
+Current Rating(Max) = 额定电流(最大)
+Impedance @ Frequency = 阻抗@频率
+Voltage - Input (Max) = 输入电压(最大)
+Voltage - Input (Min) = 输入电压(最小)
+Voltage - Supply = 供电电压
+Voltage - Max = 最大电压
+Current - Output = 输出电流
+
+#Dialog Export Your Works
+Export your works = 导出你的作品
+Export to = 导出为
+Zoom = 放大
+Image Type = 图形类型
+Qualify = 品质
+0 means real size = 0代表实际尺寸
+Merged layer = 合并层
+Separated layer = 分离层
+Paged layer = 分页层
+Layer = 层
+Export = 导出
+Mirror = 镜像
+TopLayer = 顶层
+BottomLayer = 底层
+TopSilkLayer = 顶层丝印层
+Protractor Attributes = 量角器属性
+BottomSilkLayer = 底层丝印层
+#后面还有个BoardOutline,仅仅一个字母大小写的差别
+BoardOutLine = 边框层
+TopAssembly = 顶层装配层
+BottomAssembly = 底层装配层
+Mechanical = 机械层
+DocumentLayer = 文档层
+Inner{number} = 内层{number}
+Substrate{number} = 基板{number}
+Color=色彩
+Full Color = 全彩
+Canvas Setting = 画布设置
+Full Graphics = 全图形
+Assembly Drawings = 装配图
+Object Outlines = 元素边界
+Invalid file format = 无效的文件格式
+Failed to export file = 导出文件失败
+Download now = 立即下载
+Wire Width = 线宽
+Sheet = 页面
+Merged sheet = 合并页面
+Separated sheet = 单独页面
+Engine = 引擎
+Exporting PDF = 导出PDF
+Export 3D Model = 导出3D模型
+[exportDocument]
+Size = 尺寸
+[/exportDocument]
+
+#Dialog Import Changes
+Confirm Importing changes information = 确认导入信息
+You can't undo this operation, Please run a Design Rule Checking (DRC) after this operation. = 你不能撤销该操作, 完成该操作后,请运行一次设计规则(DRC)验证
+Apply Changes = 应用修改
+This is a simple Design Rule Checking (DRC). = 这只是简单的设计规则(DRC)验证
+It just can help you to find the obvious errors = 仅能帮你发现部分很明显的错误
+There are some unfinished nets, do you want to check the nets first? = 存在未完成的网络，是否先检查网络？
+Yes, Check Nets = 是，检查网络
+No, Keep Going = 否，继续进行
+
+#Dialog Layer Manager
+Configured = 可配置
+Layer Name = 层名称
+TopPasterLayer = 顶层助焊层
+BottomPasterLayer = 底层助焊层
+TopSolderLayer = 顶层阻焊层
+BottomSolderLayer = 底层阻焊层
+TopPasteMaskLayer = 顶层锡膏层
+BottomPasteMaskLayer = 底层锡膏层
+TopSolderMaskLayer = 顶层阻焊层
+BottomSolderMaskLayer = 底层阻焊层
+ComponentShapeLayer = 元件外形层
+LeadShapeLayer = 引脚外形层
+ComponentMarkingLayer = 元件标识层
+Ratlines = 飞线层
+Ratlines Color = 飞线颜色
+Manage Colors = 管理颜色
+BoardOutline = 边框
+Multi-Layer = 多层
+Hole = 通孔
+DRCError = 错误
+Setting = 设置
+Drawing area = 画图区域
+Export area =导出区域
+Transparency(%) = 透明度(%)
+Copper Layer = 铜箔层
+Signal = 信号层
+Plane = 内电层
+Non-Signal = 非信号层
+Other = 其他
+Please delete all the objects of the layers first! The layers are: = 请先删除对应层的全部元素! 对应层为：
+You are converting Signal Layer to Plane Layer, There're some non-track objects remain on following layers. Please delete the objects manually on the canvas. = 你正在将信号层转为内电层。以下层中有些非导线的元素，请手动将它们删除。
+Please delete all the objects of this layer first! = 请先删除该层的所有元素！
+
+#Dialog Fabrication Output
+Create Files = 输出文件
+Check your {0}Gerber files{1} carefully before sending them to the factory = 发送到工厂前，请仔细检查你的{0}Gerber文件{1}
+Download free Gerber Viewer (gerbv) = 下载免费开源的Gerber文件查看软件
+Before generating the Gerber files = 在生成Gerber前
+Please check the packages size and orientation carefully. =请仔细检查封装尺寸，极性。
+Please check for Design Rule Checking (DRC) errors in the Design Manager. = 请在设计管理器检查设计规则(DRC)错误。
+Please rebuild the copper area after modifying tracks and packages. = 请确保在修改封装和布线后已经重新铺铜。
+After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = 在生成Gerber后，请使用{0}Gerber预览器{1}查看Gerber图形是否符合设计要求。
+Order at JLCPCB = 一键下单PCB/SMT
+Found the complicated polygon object can not be generated at Gerber, please remove or replace = 发现复杂多边形图元无法输出到 Gerber，请删除或者更换
+ID: {id}, Object: {object}, Location: {location} = ID: {id}, 图元: {object}, 位置: {location}
+
+#Dialog DRC
+Item = 项目
+Value = 值
+value = 值
+Unit = 单位
+Track Width = 线宽
+Track to Track = 线距
+Track to Pad = 线到焊盘
+Pad to Pad = 焊盘到焊盘
+Via to Via = 过孔间距
+Via Hole Size = 过孔直径
+Realtime DRC = 实时设计规则检测
+{0} is too small! = {0}的值太小
+Invalid DRC Rule = 无效的DRC规则
+Rule = 规则
+Via Diameter = 孔外径
+Via Drill Diameter = 孔内径
+Net List = 网络列表
+Rule = 规则
+Set Rule = 设置规则
+Check Object to Copper Area = 检测元素到铺铜的距离
+Show DRC Boundary while Routing = 在布线时显示DRC安全边界
+Check Object to Board Outline = 检测元素到边框的距离
+Rule name already exists! = 规则已存在！
+You should not delete default rule! = 不能删除默认的规则！
+Rule list contains invalid rule setting! = 发现有无效的规则设置！
+Duplicate rule name exists! = 发现有重复的规则名称！
+via diameter is smaller than via drill diameter! = 孔外径比孔内径还小！
+Currently rule name is not allowed to contain magical characters like . and $ = 目前规则名称不允许出现“.”及“$”等特殊字符！
+[drcRule]
+All = 全部
+[/drcRule]
+
+#Dialog  Update PCB
+Update PCB(Synchronizing PCB from schematics) = 更新PCB(同步原理图与PCB)
+
+
+#Dialog Hotkey
+Change Canvas Unit = 修改画布单位
+Copy Selected Object(s) by Reference Point = 根据参考点复制元素
+Fullscreen = 全屏
+Undo the Previous Draw = 撤销到上次绘制
+Set Canvas Origin by Coordinate = 打开原点坐标对话框
+Switch to the Next Signal Layer = 切换到下一个信号层
+Switch to the Previous Signal Layer = 切换到前一个信号层
+Switch object to top layer or bottom layer = 将元素切换到顶层或底层
+Cycle Forward to the Next Open Tabbed Document = 循环切换到下一个文档
+Cycle Backward to the Previous Open Tabbed Document = 循环切换到前一个文档
+Switch to the Previous Layer(on the Numeric Keypad) = 切换至上一个层(数字键盘)
+Switch to the Next Layer(on the Numeric Keypad) = 切换至下一个层(数字键盘)
+Toggle Layers Which is Not Active = 显示或隐藏未选中的层
+Hotkey Setting = 快捷键
+Document Type = 文档类型
+Shortcut = 快捷键
+Function = 功能
+ALL = 所有
+SCH = 原理图
+Rotate Selected Objects = 旋转所选图形
+Scroll or Move Selected Left = 向左滚动或者左移所选图形
+Scroll or Move Selected Right = 向右滚动或者右移所选图形
+Scroll or Move Selected Up = 向上滚动或者上移所选图形
+Scroll or Move Selected Down = 向下滚动或者下移所选图形
+Set canvas origin to the center grid of graphics in symbol; Set canvas origin to the center of pads in footprint. = 在符号设置原点到图形中心格点；在封装设置原点到焊盘中央。
+Cross Document Paste = 跨文档粘贴
+Explore & Find Components = 浏览与查找元件库
+Select All=全选
+Cancel Current Drawing=取消绘制
+Save = 保存
+Drag Tool=拖动
+Draw Wire=绘制导线
+Draw Bus=绘制总线
+Bus Entry=总线分支
+Junction=节点
+Net Flag GND=标识符GND
+Net Flag=标识符
+Draw Polyline=绘制折线
+Draw Polygon=绘制多边形
+Draw Bezier=绘制贝塞尔曲线
+Draw Arc=绘制圆弧
+Draw Rect=绘制矩形
+Draw Ellipse=绘制椭圆形
+Freehand Draw=自由绘制
+Freedraw = 自由绘制
+Draw Text=绘制文本
+Edit Selected Symbol = 修改选中符号
+Draw Track=绘制导线
+Draw Circle=绘制圆形
+Cycle Select Object at Current Location = 循环选择当前位置的元素
+Draw Dimension=绘制尺寸
+Draw Connect=绘制连接线
+Draw CopperArea=绘制铺铜
+Change to TopLayer;<br/>Change Seleted Component's Layer to TopLayer; = 切换到顶层；<br/>切换选择的元件的层到顶层；
+Change to BottomLayer;<br/>Change Seleted Component's Layer to BottomLayer; = 切换到底层；<br/>切换选择的元件的层到底层；
+Change to Inner1=切换到内层1
+Change to Inner2=切换到内层2
+Change to Inner3=切换到内层3
+Change to Inner4=切换到内层4
+Highlight Net=高亮网络
+Place Pad=放置焊盘
+Place Via=放置过孔
+Measure=测量距离
+Change Routing Angle=改变布线角度
+Change Routing Conflict = 改变布线冲突
+Decrease Routing Width=减少线宽
+Increase Routing Width=增加线宽
+Decrease Snap Size= 减少栅格尺寸
+Increase Snap Size=增加栅格尺寸
+Change Copper Zone Visible or Invisible = 循环切换铺铜区可见性
+Rebuild All Copper Area = 重建所有铺铜
+Toggle PCB Net Display = 切换PCB网络显示
+Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = 当放置元素时显示属性对话框;<br/>当粘贴时显示定位元素对话框;
+Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = 当放置元素时显示属性对话框;<br/>当选中元素时显示绝对偏移量对话框;<br/>当粘贴时显示定位元素对话框;
+Show Relative Offset Dialog When Selecting Object(s) = 当选中元素时显示相对偏移量对话框
+Open the FAQ Page = 打开常见问题页面
+Move Object(s) by Reference Point = 根据参考点移动元素
+Choose Favorite Track Width While Routing = 布线时改变线宽值
+Copy Selected Object(s) and Paste Repeatedly = 复制选中的元素连续粘贴
+
+#My Projects Tree Menu
+New Project = 新建工程
+New Schematic = 新建原理图
+New PCB = 新建PCB
+New Spice Subckt = 新建仿真子电路
+Modify = 修改
+Delete = 删除
+Add sub part = 增加子器件
+Clone = 克隆
+Version History = 历史版本
+Refresh List = 刷新列表
+Create New Project = 新建工程
+Delete = 删除
+Attachment = 附件
+Archive = 归档
+Transfer = 转移
+
+#Dialog Verify Package
+Footprints Verification = 检验封装
+
+#Dialog Edit Polygon Pad points
+Edit Points = 编辑坐标点
+Center point is outside the pad = 中心点在焊盘外
+Hole should be inside the pad = 孔必须在焊盘内
+Hole is draggable = 可拖动孔来修改位置
+
+#My Part Tree Menu
+Clone = 克隆
+Reload parts = 重新加载
+Layers = 层
+
+#Dialog Preferences
+Language = 语言
+Display Name = 显示名称
+HotKey Sync = 同步热键
+My Theme Sync = 同步我的主题
+Document Recovery Setting = 文档恢复设置
+Enable auto backup = 启用自动备份
+Maximum backup level = 最大备份级数
+Auto backup interval = 自动备份间隔
+minutes = 分钟
+Save to Server = 保存到服务器
+Load from Server = 从服务器加载
+
+
+#Dialog Schematic Library Wizard
+Symbol Wizard = 符号向导
+Style = 样式
+Picture = 图片
+Pin Names =引脚名字
+Contributor = 贡献者
+contributor = 贡献者
+owner = 所有者
+
+#Dialog Annotate
+Annotate =标注
+Scope=应用范围
+Active Schematic only =仅当前原理图
+All Opened Schematics = 所有打开的原理图
+Method=方法
+Re-annotate all=重新标注
+Keep existing annotation = 保留原来的标注
+Direction=方向
+Rows=行
+Cols=列
+Reset =重置
+
+#Dialog Order
+Order... = 订购...
+PCB Qty.= 板子数量
+PCB Thickness= 板子厚度
+PCB Dimension= 板子大小
+Automatic calculation = 自动计算
+PCB Color= 阻焊颜色
+Green = 绿色
+White=白色
+Blue=蓝色
+Red=红色
+Yellow=黄色
+Black=黑色
+Purple=紫色
+Copper=铜色
+Gold=金色
+Silver=银色
+Surface Finish= 焊盘喷镀
+Hasl=有铅
+Hasl(Lead Free)=无铅
+ENIG=沉金
+E-Test= 飞针测试
+Shipping Cost = 运费
+Cost Estimate=成本估算
+Actual cost will be confirmed by email.= 最终费用将通过邮件确认
+Shipping information=货运信息
+Address=地址
+ZIP/Post code=邮编
+City=城市
+Country=国家
+Tel.= 电话
+After filling out the form above, we will email you with (i) the results of the Design Rule Checking (DRC), (ii) a quote and (iii) a payment link using Paypal. Shipping is normally one week from receipt of payment.= 填写上述表格后，我们将对您的PCB进行设计规则(DRC)检测，我们将把检测结果、报价、Paypal付款链接通过邮件发送給您
+
+
+
+#Dialog Hot Key config
+Restore All Default Shortcuts = 恢复全部默认快捷键
+Save Changes = 保存修改
+
+
+
+#Dialog Polyline Maybe Wire
+To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = 请用导线(快捷键W)来连接电气节点,而非用直线(快捷键L).
+
+Anonymous File = 匿名文档
+Anonymous File can not be cloned, but you can open it, then save it as a new file. = 匿名文档不能克隆，可以打开后再另存为新文档。
+Free Documents = 自由文档
+You must close the file before delete it! = 删除前请先关闭该文件！
+Offline Project = 离线工程
+
+#Message box
+Confirmation = 确认
+Alert = 警示
+Information = 信息
+information = 信息
+Prompt = 询问
+Error = 错误
+error = 错误
+error! = 错误!
+Warning = 警告
+Imported ok! = 导入成功
+Some changes have not been saved. = 文档修改尚未保存
+Your file hasn't been saved. Please save first! = 你的文档没有保存，请先保存!
+Your file hasn't been saved. Are you sure you want to close it? = 你的文档没有保存，确定关闭它吗?
+Error! Please try again later. = 发生错误！请稍后重试。
+Are you sure you want to reload this page? = 确定要重新加载当前页面吗？
+Are you sure you want to leave this page? = 确定要离开当前页面吗？
+Confirm Reload = 确认重新加载
+Confirm Close = 确认关闭
+Reload this page = 重新加载
+Leave this page = 离开该页面
+Stay on this page = 留在该页面
+Don't reload = 不重新加载
+No connect flag only can be placed on Pin dot or the wire which is connected one Pin. = 非连接标志只能放置在引脚端点或者连接单个引脚的导线端点上。
+can not be placed on the wire which is placing No Connect Flag. = 不能放置在含有非连接标志的导线上。
+The footprint transfer to LCSC library class successfully = 封装已成功转移到立创商城库别
+Device/Footprint goes into "SMT Device/Footprint Verified" list successfully = 器件/封装已经成功进入“已审核SMT器件/封装”列表
+
+Load failure! = 加载失败
+Load projects failed = 加载工程列表失败
+error info = 错误信息
+error information = 错误信息
+Guest can't create a new project. Please login! = 访客不能创建新工程，请先登录
+Please create a project before you do this! = 执行该操作前请先创建一个新工程
+Add Part success = 成功添加模块
+Click the new part and then edit it!= 点击新添加的子库，然后编辑它
+Delete my work = 删除我的作品
+Delete my work. (Only deletes it from this list but not from the server) = 删除该文档(仅从该列表内删除，文档没有被真正的删除)
+Do you confirm this? =你是否确认该操作?
+Successfully deleted! = 成功删除！
+Successfully Copied! = 成功复制！
+Cloning success! = 克隆成功!
+Your title is too short! = 你的文件标题太短!
+Remove this part = 移除这个文件
+Find and Jump to ...  =查找并跳转到该器件...
+Please type the prefix, such as U1, R1, C1 = 输入该器件的标识符，如U1,R1,C1
+Zoom as 1:1, you can print it and then create artwork for etching the PCB. = 1:1缩放，你可以打印该文件，然后自己腐蚀PCB
+Exporting your works! = 导出你的作品
+Guests can't import a file. Please login! = 访客不能导入文件，请登录先!
+Please create a project before you import a file! = 导入文件前请先创建一个工程
+Import your LTspice file! = 导入你的LTspice文件!
+Open LTspice file = 打开LTspice文件
+Please make sure the selected LTspice file is a file saved in LTspice V and above. = 请确保选择的LTspice文件是LTspice V 及以上版本保存的文件.
+Saved successfully! = 保存成功
+Save failed! = 保存失败
+Can not place parts into this document. = 不能放置该器件在本文档中，文档类型不匹配
+User Package = 用户封装
+System Package = 系统封装
+File error = 文件错误
+Please save your file first! = 请先保存你的文件
+Email address is too short! =邮件地址太短
+You have not selected a file to upload. = 你还没有选择文件
+Update = 更新
+Import.Import Changes = 导入更新
+No changes, the PCB already matches the schematic! = 无变更，PCB与原理图已经匹配！
+Only public files can be shared =只有公开文件才能被分享，当前文件是私有文件
+Conversion to PCB has failed! = 转换PCB失败
+Your username is too short! =用户名太短
+Your password is too short, it must be more than 6 characters! = 密码太短，必须大于6个字符
+Conflicting shortcut = 热键冲突
+There is an empty PCB file. Please first run Convert Project To PCB... from the schematic =这是一个空白PCB,请先打开原理图运行"原理图转PCB"
+This file has been modified, are you sure you want to run this simulation before saving it first? =该文档已经被修改，你确认仿真它?也许你应该先保存它。
+Please enter the Maximum Timestep! = 请填写最大步长
+Please enter the Stop Time! = 请填写终止时间
+All of these fields are needed. = 所有选项必须填写
+Either your spice netlist is too big or the server is busy. Please try again later. = 你的spice 网络表太大,或者服务器太忙,稍后再尝试
+Your spice netlist is too big! Try breaking your circuit into smaller simulatable blocks. = 你的spice网络表太大，请把电路差分成子电路仿真
+Too many users in simulation. Please try again later! =太多用户正在运行仿真，稍后再尝试.
+Due to limited server resources, please wait 10 seconds for the interval in every time simulation. = 由于服务器资源限制，每次仿真请等待10秒。
+Your circuit is too complex, we have not enough CPU resouce to support this simulation, please reduce your circuit as small as you can. = 您的电路有点复杂，我们没有足够的资源来支持你的这次仿真，请尽可能简化你的电路或减少仿真时长。
+Simulation is queuing, try again after 30s. = 仿真正在排队中，请稍后再试。
+Timeout = 仿真超时
+Demo accounts don't support simulation, please login first=不允许演示账号仿真，请登录
+Please login first = 请先登录
+The schematic is showing errors, please check the simulation report carefully! =这个电路中貌似有些错误，请仔细阅读仿真报告,尝试找出这些错误。
+Simulation too long, maybe your schematic is too complex. = 仿真超时,也许你的电路太复杂.
+Non-simulated file = 非仿真文件
+This file can only be opened in standard mode. To open it, please switch to standard mode. = 该文件只能在标准模式打开，如要打开请切换至标准模式
+Load your preferences success! = 成功加载你的个人偏好!
+Save your preferences success! = 成功保存你的个人偏好!
+Update subckt ok! = 更新子电路成功 。
+Clone your file = 克隆你的文件
+Please type a new file name = 请输入一个新的文件名
+Create file failure! = 创建文件失败
+Schematics and PCBs can't be imported under My Libs folder, please choose a different folder = 原理图与PCB不能导入到My Libs目录下，请选择其它目录
+Libraries to be imported under My Libs folder = 库文件仅能导入到My Libs目录下
+Please choose only the libraries needed = 请仅仅选择需要的库文件
+Maximum import is 200 libs at one time! = 我们不支持一次导入多于200个库文件
+You libraries will be found under the My Libs folder = 你的库文件将出现在My Libs文件夹下
+Add to Library = 添加到库中
+No items have been checked! = 没有勾选任何器件!
+Nothing was found, please create it for yourself= 什么也没有找到，你可以自己创建它
+Search result = 搜索结果
+At least 3 characters needed = 最少3个英文字母
+Add to my Favorite Parts = 添加到我的收藏
+Added it OK. Please find it in your Favorite Parts = 添加成功，请检查你的收藏器件
+Please select its parent node = 请选择它的父节点
+Libraries can not be exported as active project pdf. =库文件不能作为工程PDF文件导出
+Error:No GND = 错误：没有GND(地)
+This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = 该电路没有GND(地)，请从电路工具中选取GND(地)加入到电路中。
+Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = 当前电路没有电压源或电流源符号，请先在左侧基础库或仿真库放置。
+Probe can not connect with ground(GND)! = 探针不能与地(GND)连接！
+Spice symbols's attributes can't be empty. = 请完善仿真器件参数。
+Error:No Spice Symbol = 没有仿真模型
+Simulation limit = 仿真限制
+There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = 电路中存在万用表，需要使用仿真命令 .tran 或 .op 进行仿真
+An oscilloscope exists in the circuit and needs to be simulated using the simulation command .tran = 电路中存在示波器，需要使用仿真命令 .tran 进行仿真
+There are components in this circuit that do not have a simulation model. Please use the base library component of the simulation mode for simulation. = 该电路存在没有仿真模型的元器件，请使用仿真模式的基础库元件进行仿真。
+Circuit does not have a probe = 该电路没有探针
+Make sure your pin numbers are even numbers = 请确认你输入的引脚的个数是偶数
+Duplicate Components Prefix = 器件标注重复
+All components are hidden successfully! = 全部元件隐藏成功！
+All ratlines are hidden successfully! = 全部飞线已隐藏成功！
+Hidden the ratline of net {netName} successfully! = 网络 {netName} 的飞线隐藏成功！
+Duplicate Component Prefix = 元件标注重复
+{0} exist = {0} 已存在
+There are some invalid packages, are you sure? = 有些封装是无效的，你确认该操作?
+Invalid Characters, library only allows [0-9a-zA-Z-_] = 非法字符，库文件只允许[0-9a-zA-Z-_]等字符
+Annotation success = 标注成功
+If you accept this annotation operation, please save your files. If not, close your files without saving. = 假如你接受该标注操作，请保存你的文件.否则直接关闭你的文件不要保存它.
+This file can't be saved under libs project. Please choose other project or create a new project=该文档不能保存在库工程下，请选择其它工程，或者创建一个新的工程
+Your file is unsaved.= 你的文档没有保存
+You can close the editor now. Have a good day! = 现在你可以关闭编辑器，祝生活愉快!
+Successfully logged out = 退出成功
+You have at least one unsaved file open. Please save it or close it. = 你至少有一个文档没有保存，请保存它或者关闭它
+Please select a reference point = 请选择参考点
+Please save your file before this operation = 请先保存文件后再进行该操作
+Please open a PCB document = 请打开一个PCB文档
+Please save your file before '{0}'. = 进行{0}前请先保存你的文件。
+Please try again after saving this file. = 保存文档后再试一次
+This text can not be empty! = 此处文本不能为空！
+Export to Altium fail, please try again or contact us. = 导出Altium失败，请再次尝试或联系我们。
+Connecting to server = 正在连接服务器
+Please login before asking for help = 寻求帮助前请先登录
+This file has been modified, please save it first! = 该文档已经被修改，请先保存!
+Remove this param = 移除该参数
+You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. = 不支持直接拖动元件到画布中，请点击元件，再移动鼠标到画布，再点击鼠标左键进行放置。
+Undo/Redo temporary error = 撤销/重做临时错误
+We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. = 撤销重做暂时出现不可预知错误,我们将尽快修复这个问题, 同时你的设计作品是安全的,你可以放心继续工作.
+The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. = 当前原理图存在重复的元件编号，请修改它们并确保是唯一的。你可以在设计管理器中查看它们。
+Found duplicated prefix components, can not Import Changes, please modify the duplicated prefix or delete related component. = PCB存在相同编号器件，无法导入更新，请手动修改重复的编号或者删除对应的器件。
+Please click the below help button to find out how to fix this problem. = 请点击下面的帮助按钮获知如何修复这个错误
+Please create a board outline! Click the help button to find out how to create a board outline. = 请先创建PCB边框, 点击帮助按钮了解如何创建PCB边框
+Can not fetch files from server, please check your network and try again = 不能从服务器端获取文档, 检查网络后重试
+Please open a schematic first! = 请先打开一个原理图.
+Can not find the schematic of this PCB = 不能找到该PCB对应的原理图
+invalid points! = 含有无效坐标点
+This file does not support this operation. = 该文档不支持该操作
+Net Name Conflict = 网络名冲突
+Net name = 网络名
+{0} are in the same wire, please remove others and just keep one. = {0} 在同一条导线上，请删除其它的，仅保留一个
+This field can't be removed! = 该字段不能被移除
+Annular ring of the pad/via is too small = 导电孔或插件孔单边焊环过小
+The size of the hole cannot exceed the size of the pad = 焊盘上孔的尺寸不能超过焊盘的大小
+Are you sure you want to create a multi-sheet designs? = 你确定要创建一个多页原理图工程？
+Are you sure you want to create a {0}multi-sheet designs{1}? = 你确定要创建一个{0}多页原理图{1}工程？
+Please build the copper area! Click the help button to find out how to build the copper area. = 请重建铺铜层，点击帮助按钮获取更多信息
+Suggest to set a package for this component first! = 建议先对这个零件设置封装再保存!
+Please select an opened document first. = 请先选择一个打开的文档
+Some files failed to load. Please reload the page. = 部分文件加载失败，请重新加载页面。
+
+#UI Intro
+Skip = 跳过
+« Back = « 上一个
+Next » = 下一个 »
+Done = 完成
+This is the user management menu. = 这里是用户菜单
+This is the toolbar. = 这里是顶部工具栏
+This is the navigation list. Under here you can find projects, files, parts and libraries. = 这里是文档导航，在这里查看工程、文档、库。
+Show or hide the toolbar to the top of the window here. = 这里是顶部工具栏切换开关
+Show, resize or hide the left sidebar to the left of the window here. = 这里是左侧栏切换开关
+Show or hide the right sidebar to the right of the window here. = 这里是右侧栏切换开关
+
+#Standard libs
+Passive Components = 无源器件
+Power Supply = 电源
+Diodes = 二极管
+Regulator = 稳压器件
+Transistor = 晶体管
+Transformers = 变压器
+Gates = 逻辑门
+Vacuum Tubes = 真空管
+Switch = 开关
+Relay = 继电器
+Capacitor(US) = 电容(美式)
+Capacitor(EU) = 电容(欧式)
+Capacitor(EU)2 = 电容(欧式)2
+Electrolytic Capacitor(US) = 电解电容(美式)
+Electrolytic Capacitor(EU)= 电解电容(欧式)
+Electrolytic Capacitor(US)2 = 电解电容(美式)2
+Electrolytic Capacitor(EU)2 = 电解电容(欧式)2
+Inductor(US) = 电感(美式)
+Inductor(EU) = 电感(欧式)
+Potentiometer_US = 可变电阻_美标
+Potentiometer_EU/IEC = 可变电阻_欧标
+Potentiometer_3D = 可变电阻_3D
+Resistor(US) = 电阻(美式)
+Resistor(EU) = 电阻(欧式)
+Resistor 45 Deg(US) = 电阻 45 度(美式)
+Resistor 45 Deg(EU) = 电阻 45 度(欧式)
+Variable Capacitor(US) = 可调电容(美式)
+Variable Capacitor(EU) = 可调电容(欧式)
+Variable Resistor(US) = 可调电阻(美式)
+Variable Resistor(EU) = 可调电阻(欧式)
+Variable Inductor(US) = 可调电感(美式)
+Variable Inductor(EU) = 可调电感(欧式)
+Varistor = 压敏电阻
+Inductor2(US) = 电感2(美式)
+Inductor2(EU) = 电感2(欧式)
+Battery = 电池
+Voltage Source = 电压源
+Current Source = 电流源
+CCCS(Current Controlled Current Source) = CCCS(电流控制电流源)
+CCCS2(Current Controlled Current Source) = CCCS2(电流控制电流源)
+VCCS(Voltage Controlled Current Source) = VCCS(电压控制电流源)
+VCVS(Voltage Controlled Voltage Source) = VCVS(电压控制电压源)
+CCVS(Current Controlled Voltage Source) = CCVS(电流控制电压源)
+CCVS2(Current Controlled Voltage Source) = CCVS2(电流控制电压源)
+
+BV(Behavioral Voltage Sources) = BV(行为电压源)
+BI(Behavioral Voltage Sources) = BI(行为电流源)
+Epoly(Non-linear Voltage Source) = Epoly(非线性电压源)
+Gpoly(Non-linear Current Source) = Gpoly(非线性电流源)
+
+Diode = 二极管
+LED = 发光二极管
+LED_3D = 发光二极管_3D
+Schottky Diode = 肖特基二极管
+Varactor Diode = 变容二极管
+Zener = 稳压二极管
+Unidirectional TVS Diode = 单向瞬态电压抑制二极管
+Bidirectional TVS Diode = 双向瞬态电压抑制二极管
+Diac = 双向触发二极管
+Bridge = 整流桥
+78XX = 78系列稳压器
+79XX =  79系列稳压器
+LM317 = LM317
+LM337 = LM337
+TL431 = TL431
+BJT(NPN) = 三极管(NPN)
+BJT(PNP) = 三极管(PNP)
+MOSFET(Nch) = 场效应管(N沟道)
+MOSFET(Nch) Depletion Four-pins = 耗尽型场效应管(N沟道)4脚
+MOSFET(Nch) Enhancement = 增强型场效应管(N沟道)
+MOSFET(Nch) Enhancement Four-pins = 增强型场效应管(N沟道)4脚
+MOSFET(Pch) = 场效应管(P沟道)
+MOSFET(Pch) Depletion Four-pins = 耗尽型场效应管(P沟道)4脚
+MOSFET(Pch) Enhancement = 增强型场效应管(P沟道)
+MOSFET(Pch) Enhancement Four-pins = 增强型场效应管(P沟道)4脚
+JFET(Nch) = 结型场效应管(N沟道)
+JFET(Pch) = 结型场效应管(P沟道)
+Darlington NPN = 达林顿(NPN)
+Darlington PNP = 达林顿(PNP)
+MESFET(Nch) = 金属半导体场效应晶体管(N沟道)
+MESFET(Pch) = 金属半导体场效应晶体管(P沟道)
+
+IGBT = 绝缘栅双极型晶体管
+SCR = 可控硅
+Triac = 双向晶闸管
+Transform(US) = 变压器(美式)
+Transform(EU) = 变压器(欧式)
+Transfrom(NEUTRAL-CTR TAP)(US) = 中心抽头变压器(美式)
+Transfrom(NEUTRAL-CTR TAP)(EU) = 中心抽头变压器(欧式)
+Mutual Inductors = 互感
+Mutual Inductors2 = 互感2
+Or Gate = 或门
+Xor Gate = 异或门
+And Gate = 与门
+Nor Gate = 或非门
+Nand Gate = 与非门
+Not Gate = 非门
+Xnor Gate = 同或门
+Tube Diode = 真空二极管
+Tube Triode = 真空三极管
+Tube Tetrode = 真空四极管
+Tube Pentode = 真空五极管
+Voltage Controlled Switch = 电压控制开关
+Current Controlled Switch = 电流控制开关
+SPST ON = 单刀单闸(合)
+SPST OFF = 单刀单闸(开)
+Fuse = 保险丝
+555 = 555定时器
+555(Style2) = 555定时器(Style2)
+Speaker = 喇叭
+XTAL = 晶振
+5pin Operational Amplifier = 5端运放
+3pin Operational amplifier = 3端运放
+Transmission Line = 传输线
+Voltmeter = 电压表
+Ammeter = 电流表
+LAMP = 灯泡
+Opto Transistor = 光电三极管
+
+#Server Message
+Need login = 需要登录
+Bad password = 错误的密码
+We can't find your username or your email, please check it! =我们不能找到这个用户名或者邮件,请仔细检查
+Make sure your uploaded file size is less than 3MB!=请确保您上传的文件大小不超过3MB！
+Bad file type = 错误的文件类型
+Empty file or bad file type, ensure your file is Eagle 6.0+  = 错误的文件类型,请确认你的eagle文件版本大于6.0
+This operation not supported on demo account = 演示账号禁止该操作
+Can not share this file under a private project, please set the active project to public! = 不能分享私有文档，请把但前工程设置为公开
+Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = 密码错误次数太多，假如忘记密码，请点击{0}重置密码{1}
+
+#Dialog Common Buttons
+Common Buttons Setting = 按钮设置
+Menu Setting... = 菜单栏设置...
+Show/Hide = 显示/隐藏
+Move Up = 上移
+Move Down = 下移
+Reset All = 重置
+Zoom = 缩放
+Place Pin = 放置管脚
+
+#System Setting Dialog
+System = 系统
+Zoom Mode = 缩放方式
+Scroll Key = 滚轮缩放
+CTRL + Scroll = CTRL+滚轮
+Canvas Coordinate System = 画布坐标系统
+SVG Coordinate = SVG坐标系
+Cartesian Coordinate = 笛卡尔坐标系
+Open Wizard Dialog for New Schematic = 新建原理图时打开向导
+Default Unit = 默认单位
+Canvas Zoom Effect = 画布缩放效果
+Quality Priority = 质量优先
+Speed Priority = 速度优先
+Rotation Step = 每次旋转角度
+Add Teardrop Automatically = 自动添加泪滴
+Assign Net for Free Track/Arc/Circle = 为自由导线/圆弧/圆分配网络
+Open Wizard Dialog for New PCB = 新建PCB时打开向导
+Rebuild Plane Automatically = 自动重建内电层
+The Track's Routing Follows Component's Rotation = 元件旋转时导线跟随
+Display Pad's Number and Net = 焊盘同时显示网络与编号
+Favorite Track width = 常用导线宽度
+Track Width Setting = 导线宽度设置
+
+
+#Dialog Access Control
+Permissions = 权限
+Operation = 操作
+Access Control = 访问控制
+Project Access Control = 工程访问控制
+Reject = 拒绝
+Add User = 添加用户
+Bad email address = 错误的邮件地址
+#后端返回英文的错误信息
+Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = 用户不存在.
+
+#Dialog waveForm
+Grid Background = 网格背景
+Pane Background = 面板背景
+WaveForm Config = 波形配置
+Export Waveform = 导出波形为CSV文件
+
+
+#attr-canvas-grid-style
+dot = 点
+line = 实线
+
+#attr-canvas-frame-size
+Other = 其它
+A4 Portrait = A4纵向
+A4 Landscape = A4横向
+A3 Portrait = A3纵向
+A3 Landscape = A3横向
+A2 Portrait = A2纵向
+A2 Landscape = A2横向
+A1 Portrait = A1纵向
+A1 Landscape = A1横向
+Landscape = 横向
+Portrait = 纵向
+
+#Stroke Style
+solid = 实线
+dashed = 短划线
+dotted = 点线
+
+#Solid Region
+Solid Region = 实心填充
+Type = 类型
+type = 类型
+
+#Dialog Libs Management
+Report error = 报告错误
+Please give us some information to help us find the problem. = 请给我们一点提示以找到错误信息
+Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = 文档类型不匹配,原理图库只能放置到原理图上,PCB封装只能放置到PCB上
+Save it as a favorite part = 保存它为收藏器件
+Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = 仅登录用户能保存它为收藏器件, 访客允许放置该器件到画布, 你愿意现在放置该器件到画布吗?
+
+#Others
+Find libs=查找库
+My Projects=我的工程
+My Parts=我的库文件
+My Modules=我的模块
+Assembly LCSC Components=立创贴片零件
+Modules=模块
+SCH Module=原理图模块
+PCB Module=PCB模块
+System IC=系统库
+LCSC (Official) = 立创商城
+LCSC Electronics = 立创商城
+Simple Mode = 精简模式
+Expand Mode = 放大模式
+Help Verify = 帮助审核
+Favorite Parts = 收藏器件
+Shared With Me = 与我分享
+Preview=预览
+Preview Window = 预览窗口
+System Default = 系统默认
+User Defined = 用户自定义
+Theme = 主题
+Theme Setting= 主题设置
+Close=关闭
+Open=打开
+Collapse=折叠
+Toggle toolbar=打开/关闭工具栏
+Toggle left bar=打开/关闭左侧栏
+Toggle right bar=打开/关闭右侧栏
+Reload=刷新
+Mouse-X=光标X
+Mouse-Y=光标Y
+Mouse-DX=光标DX
+Mouse-DY=光标DY
+Bus entry x1 = 总线入口x1
+Bus entry x2 = 总线入口x2
+Bus entry y1 = 总线入口y1
+Bus entry y2 = 总线入口y2
+Yes=是
+No=否
+OK=确定
+Confirm=确定
+Continue = 继续
+Cancel = 取消
+Update = 更新
+Bus entry= 总线分支
+Filter = 过滤
+Check = 检查
+Guest Project = 访客工程
+Insert into = 插入到
+Insert into {site} = 插入到{site}
+# Upload {site} 目前仅有波兰论坛使用
+Upload {site} = 上传到 {site}
+Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = 拷贝文本框中的内容到记事本中，并保存它。你可以把内容粘贴到这里并再次编辑它。
+Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = 拷贝文本框中的内容到记事本中，以.svg后缀保存之。你可以用inkscape编辑它，也可以用浏览器打开它.
+Content is too big to show, you can download it directly. = 内容太长无法直接显示，你可以直接下载。
+SVG format = SVG 格式
+SVG File = SVG文件
+Description should be no more than 250 letters = 描述不能超过 250 个字符
+The file save operation has timed out. Try again and check your Internet connection. = 文件保存操作超时,检测网络连接并重试
+Export Netlist = 导出网表
+Notifications = 通知
+Please select txt or json files. = 请选择txt或json文件
+Failed to read file [{file}] = 读取文件 [{file}] 失败
+[{file}] is not a valid json file = [{file}] 不是一个有效的JSON文件
+Invalid parameters! = 无效参数
+Download = 下载
+Start = 开始
+You have unsaved files, are you sure you want to log out without saving the files? = 还有未保存的文件，是否忽略它们并退出登录？
+Please use the web version to run this function. = 请在网页版中使用该功能
+Please save this file to you project! = 请保存文档到工程中
+Nothing changed = 没有任何改变
+Delete Node = 删除节点
+This layer is invisible. = 该层为不可见状态
+When the solid region is Board Cutout, please set the layer to Multi-Layer. = 实心填充为槽孔类型时，它的层必须设为多层。
+You should not try to assign a net to a Board Cutout solid region. = 实心填充为槽孔类型时，不应设置网络。
+Net Length = 网络长度
+You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = 原理图中可以直接放置引脚，但别忘了将引脚组合到元件中。点击帮助按钮查看组合功能的使用。如果只是需要为导线做标记，请使用网络端口或网络标签。
+Please input the modification = 请填写修改的内容
+The content must be between {0} and {1} characters = 内容必须在 {0} 到 {1} 个字符之间
+
+Coming soon = 敬请期待
+No tool = 无
+Help us translate into your language = 帮助我们翻译
+Pad = 焊盘
+Via/Hole = 过孔
+PCB Layers = PCB层
+Order PCB = 订购PCB
+Share = 分享
+Free = 免费
+Small = 小
+Medium = 中
+Big  = 大
+
+
+Embed = Embed
+HTML = HTML
+URL = URL
+BBCode = BBCode
+PNG = PNG
+Exporting as = 导出为
+Exporting as image = 导出为图片
+Exporting as {0}SVG{1} file. = 导出为{0}SVG{1}文件
+Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = 推荐导出为PDF，打印质量高，文件尺寸小。
+Generate PCB Fabrication File(Gerber) = 生成PCB制板文件(Gerber)
+PenWidth-Increase = 线宽增量
+
+#Generate Gerber
+Generate Gerber = 生成Gerber
+Gerber View = Gerber预览
+Dimensions(Estimated) = 尺寸(估算)
+PCB Qty = 板子数量
+Copper Weight = 铜厚
+PCB Price = PCB参考价格
+Estimated Delivery Time = 快递时间
+For your first time order, less than $20 discount on the freight! = 首次下单，将有20美元以内的运费折扣。
+HASL(with lead) = 有铅喷锡
+LeadFree HASL-RoHS = 无铅喷锡
+ENIG-RoHS = 沉金
+Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = 在生成Gerber之前是否检查设计规则(DRC)？
+Yes, Check DRC = 是，检查DRC
+No, Generate Gerber = 否，生成Gerber
+This PCB has uncompleted connection(s), do you want to check the connection(s)? = 该PCB存在未完成布线的网络连接，是否检查网络？
+Yes, Check Connection(s) = 是，检查网络
+It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = 即将前往我们的兄弟公司JLCPCB完成订单，是否继续？
+Failed to submit your order, please contact us via support@easyeda.com for help. = 下单失败，请联系support@easyeda.com获取帮助。
+Failed to submit your order, please contact us via QQ 800821856.  = 提交订单失败，请联系技术支持：QQ 800821856
+Order data generated finish, please click OK button and continue. = 下单数据生成完毕，请点击“ 确定 ”按钮继续。
+[generateGerber]
+Layers = 层数
+[/generateGerber]
+
+[version]
+Switch = 切换
+[/version]
+
+
+Export your file, then print it yourself. = 导出文件再打印
+Trace width is too small = 导线宽度太少
+Share = 分享
+
+Images Attribute = 图片属性
+Connect Pad to Pad = 连接焊盘
+Copper Area  = 铺铜
+Dimension  = 尺寸
+
+
+Please check that you have used Wire and not Line to connect electrical elements. = 也许你应该使用导线(Wire)而不是折线(Polyline)连接电气元素。
+PCB Fabrication Prices & capabilities = PCB加工价格与能力
+Flip all texts on bottom layer = 镜像翻转所有底层文字
+Create New Document = 新建文档
+General Package = 常用封装
+General Packages = 常用封装
+favorite Package = 收藏封装
+Board Cutout = 槽孔
+Surface Mount = 贴片
+JLCPCB Part Class = 嘉立创库类别
+base = 基础库
+expand = 扩展库
+recommend = 推荐库
+Basic Part = 基础库
+Extended Part = 扩展库
+Recommended Part = 推荐库
+smtWeld = SMT贴片
+thtWeld = THT波峰焊
+manualWeld = 手工焊接
+furnaceWeld = 炉前焊接
+Multi-Layer = 多层
+Markdown Syntax = Markdown语法
+Markdown supported = 支持Markdown
+Read only = 只读
+Read/Write = 读写
+More Libraries... = 更多库元件...
+Decompress failed! = 解压失败！
+Load failed! = 加载失败
+Loading = 加载中
+No Result = 没有结果
+
+#Dialog Place Pin in schematic warning
+Place Pin in schematic warning = 在原理图放置引脚的注意事项
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = 可以在原理图放置引脚，但别忘了要将引脚组合为原理图符号，点击帮助按钮查看用法。如果只是标注导线，请使用网络标签。
+I know. Do not show this again. = 我知道了，不要再提示该信息。
+
+#Extensions Setting
+Extensions Setting = 扩展配置
+Remove = 移除
+Disable = 禁用
+Enable = 启用
+(Disabled) = (已禁用)
+(Enabled) = (已启用)
+Load Extension = 加载扩展
+Enable or disable will be applied after reload page = 启用或禁用将在刷新页面后生效
+Your browser cannot run this function. = 您的浏览器无法运行该功能。
+Your browser mode does not support indexedDB. Some features may not work properly. Are you using Private Browsing Mode? = 你的浏览器模式不支持indexedDB。一些功能可能无法正常工作。你是否在使用浏览器的隐身模式？
+Extension Files = 扩展文件
+Extension ID = 扩展ID
+Select Files = 选择文件
+
+#Scripts
+Script = 脚本
+Scripts = 脚本
+Script Content = 脚本内容
+Load from js file = 从JS文件加载
+UTF-8 encoded js file = UTF-8编码的JS文件
+Description = 描述
+description=描述
+Not a *.js file = 不是*.js文件
+Failed to read file = 加载文件失败
+System scripts cannot be modified = 系统脚本不能被修改
+Create Subfolder = 创建子目录
+Create Script = 创建脚本
+Install Script = 安装脚本
+Install = 安装
+Are you sure you want to remove this script? = 确定要移除该脚本吗？
+Folder Name = 目录名称
+Rename = 重命名
+Please select a script = 请选择一个脚本
+Failed to load script = 加载脚本失败
+Run Script = 运行脚本
+Load Script = 加载脚本
+Title is required = 标题是必需的
+Script content is required = 脚本内容是必需的
+System Scripts = 系统脚本
+User Scripts = 用户脚本
+You can right click on the tree nodes. = 你可以在树节点上鼠标右击。
+
+#PCB photoView toolbar
+Top Side = 顶面
+Bottom Side = 底面
+With Silk Layer = 有丝印层
+No Silk Layer = 无丝印层
+Photo View = 照片预览
+
+#check update
+Check Update = 检查更新
+EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = EasyEDA V{ver} 已发布，是否现在切换到新版本？
+LCEDA Editor {ver} is released. Would you like to switch to the new version now? = 立创EDA V{ver} 已发布，是否现在切换到新版本？
+Switch to New Version = 切换到新版本
+Next Time = 下次再说
+
+#download project dialog
+Generating download link... = 正在生成下载链接...
+Download project now = 点击下载工程
+
+#Import DXF
+Import DXF = 导入DXF
+Apply Unit = 应用单位
+Convert circle to HOLE on BoardOutLine layer = 将边框层的圆转为孔
+No shapes found = 无内容
+Fail to load the file = 加载文件失败
+Please select a DXF file. = 请选择DXF文件
+This feature only works for PCB document. = 该功能仅能针对PCB文档使用
+Select a DXF file = 选择DXF文件
+
+#Export DXF
+Export DXF = 导出DXF
+Plated-Through-Hole Pads = 金属化焊盘
+Non-Plated-Through-Hole Pads = 非金属化焊盘
+Silkscreen = 丝印
+Surface Pad = 表面焊盘
+
+#Data Sync
+Data Sync = 数据同步
+Data Conflicts = 数据冲突
+Project or Document = 工程或文档
+Cloud-Side = 云端
+Local-Side = 本地端
+Decision = 决策
+Modified = 已修改
+Deleted = 已删除
+As Cloud = 按云端
+As Local = 按本地
+Skip = 忽略
+Data sync completed = 数据同步完成
+
+#Team
+Team = 团队
+Teams = 团队
+Switching team = 切换团队
+Switch team failed = 切换团队失败
+Load team info fail! = 读取团队信息失败
+Load team info fail! Please reload. = 读取团队信息失败，请刷新重试
+My Teams = 我的团队
+Create Team = 新建团队
+
+#Dialog Footprint Manager
+Footprint Manager = 封装管理器
+Open Footprint Manager = 打开封装管理器
+Schematic Components = 原理图器件
+Edit Pin Map Information = 编辑引脚映射
+Package Categories = 封装分类
+Components List = 元件列表
+Personal = 个人
+Component PIN information = 元件引脚信息
+Footprint PAD information = 封装焊盘信息
+Footprint Categories = 封装分类
+Pad Number = 焊盘编号
+Search Footprint = 搜索封装
+Filter by keyword = 关键字筛选
+System Libs = 系统库
+
+#dialog global delete
+Drawings = 其他
+Netlabel and netFlag = 网络标签和标识符
+Texts = 文本
+Wires = 导线
+Board outlines = 边框
+Footprints = 封装
+Footprint = 封装
+Tracks = 导线
+
+#dialog board outline settings
+Current Size = 当前大小
+Paramenters = 参数
+Start X: = 起始X:
+Start Y: = 起始Y:
+Round Rectangular = 圆角矩形
+radius = 半径
+only number is allowed! = 只允许输入数字！
+please input valid value of width! = 请输入有效的宽度值！
+please input valid value of height! = 请输入有效的高度值！
+please input valid value of radius! = 请输入有效的半径值！
+
+#cross probe
+The object you selected was not found in other documents. = 其他文档里没有找到相应的元件。
+No valid object for cross probe selected. = 没有选中能进行交叉选中的元件。
+Can not probe. Refreshing the window may get it to work. = 交叉选中失败，刷新下试试。
+You need to login for this function to work. = 登录后才能使用此功能。
+
+#About Dialog
+An Easier EDA Experience = 高效的在线电子设计工具
+Version = 版本
+BuiltDate = 编译日期
+
+#Auto Router Dialog
+Auto Router Config = 自动布线设置
+General Options = 通用选项
+All Layers = 所有层
+Configure = 配置
+Sorry, your web browser does not support this feature. Please run a modern browser. = 当前浏览器不支持该功能，请使用现代浏览器。
+Please make sure all objects with net are inside the board outline! = 请确保全部有网络的对象均在边框内部！
+Cannot start again before previous activity is stopped = 前一次布线未结束前不能再开始
+Please select a net = 请选择一个网络
+TrackWidth cannot be empty = 线宽不能为空
+Clearance cannot be empty = 间距不能为空
+Router is time out. = 布线超时
+Server is busy, please try again later. = 服务器忙，请稍后重试
+Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) = 受限于自动布线服务器资源，同时多任务布线不支持，请稍后重试。
+Track Width is invalid = 线宽无效
+General Clearance is invalid = 通用间隙无效
+SMD Clearance is invalid = SMT间隙无效
+Diameter is invalid = 直径无效
+Drill Diameter is invalid = 过孔内径无效
+Track width cannot be less than Design Rule Checking (DRC) setting value. = 走线宽度不能少于设计规则(DRC)的设定值。
+General Clearance cannot be less than Design Rule Checking (DRC) setting value. = 通用间隙不能少于设计规则(DRC)的设定值。
+SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = SMD间隙不能少于设计规则(DRC)的设定值。
+Hole size cannot be less than Design Rule Checking (DRC) setting value. = 过孔直径不能少于设计规则(DRC)的设定值。
+Design Rule's via diameter must larger than via drill diameter = 设计规则的过孔外径必须大于孔内径
+Clearance cannot be less than Design Rule Checking (DRC) setting value. = 间隙不能少于设计规则(DRC)的设定值。
+Not a valid PCB, please check it again = 无效的PCB，请重新检查
+Previous connection must be closed = 必须关闭先前的连接
+Network error. Please try again. = 网络错误，请稍后重试
+Router error. = 布线错误
+Invalid PCB. = 无效PCB
+General Clearance = 通用间隙
+SMD Clearance = SMD间隙
+#Ripup Nets = 分割网络
+Skip Routed Nets = 忽略已布线的网络
+Remove Existing Tracks = 清除已有布线
+Real-time Display = 实时显示
+Router Layers = 布线层
+Via = 过孔
+Special = 特殊
+Special Nets = 特殊网络
+Skip Nets = 忽略网络
+Router Server = 布线服务器
+Local = 本地
+Cloud = 云端
+Available = 可用
+Unavailable = 不可用
+Checking = 检测中
+Install Local Auto Router = 安装本地自动布线
+Checking local auto router server... = 正在检测本地布线服务...
+Stop Router = 停止布线
+Auto Router is running... = 自动布线运行中...
+
+#Left Siderbar
+EELib = 基础库
+Basic = 基础
+Extend = 扩展
+Design Manager = 设计管理器
+Library = 元件库
+Spice Library = 仿真库
+Shared = 共享
+LCSC = 立创商城
+LCSC Parts = 立创商城
+Supply Flag = 电气标识符
+US = 美标样式
+EU/IEC = 欧标样式
+US Style = 美标样式
+Resistor = 电阻
+Capacitor = 电容
+Inductor = 电感
+Switch/Key = 开关/按键
+EU/IEC Style = 欧标样式
+CN = 国标样式
+Connector = 连接器
+Switch/Relay = 开关/继电器
+JLCPCB = 嘉立创
+Recycle Bin = 回收站
+
+#量角器
+Font Height = 字体高度
+Precision = 精度
+Protractor = 量角器
+
+#attr-pcbtext-line-width
+Only default font family supports to change font width. = 仅默认字体支持修改字体宽度。
+Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = 字体缺失，请使用默认字体或添加该字体。
+
+#Common
+Owner = 所有者
+License = 协议
+Part Pins = 元件引脚
+Net Pins = 网络引脚
+Net Ratlines = 网络飞线
+Add Parameter = 添加新参数
+Histories record = 历史记录
+Create Team = 创建团队
+Can't find this footprint on the server, please re-associate it. = 服务器上未找到该封装，请重新关联。
+The footprint name associated with the component and the footprint name on the server are inconsistent, please re-associate it. = 元件关联的封装名和服务器上的封装名不一致，请重新关联。
+The symbol pin number(s) of the component does not match the associated footprint pad number(s), please modify the symbol pin number(s) or re-associate the footprint = 元件的符号引脚编号与关联的封装焊盘编号不匹配，请修改符号引脚编号或重新关联封装
+No footprint, please associate the footprint first. = 没有封装，请先关联封装。
+Can't find the package = 未找到封装
+The path is for the project URL identify, it is unique (the identity of the project owned by the user cannot be the same)=工程路径用于工程url的后缀，路径具有唯一性（用户所拥有工程的路径不能相同）
+It's with a letter or a number and can contain only numbers, letters, line-through, underscores, and points. It cannot be modified after saving. = 路径以字母或数字开头，只能包含数字、字母、中划线、下划线及点，保存后不能修改
+Updating document to new format, please wait......After finishing please save your document with Ctrl + S. = 正在更新文档至新格式，请稍候......更新完成后请按Ctrl+S保存文件。
+Open at current project? = 在当前工程打开？
+Please select a history to recover. = 请选择一个历史记录恢复。
+Be careful! When you click the "Recover" button, this sheet will be overwritten! = 请注意！若你点击了“恢复”按钮后，该页会被覆盖！
+Recover = 恢复
+There is no PCB under this project, would you like to create one? = 工程下无PCB，是否创建一个？
+Please make sure that the chose Altium Designer files are saved as ASCII files. = 请确保选择的Altium Designer文件是另存为ASCII格式的文件。
+Export to Altium function is currently in beta: = 导出Altium功能暂时在测试版：
+1. Please be sure to read the notice before exporting:  = 1、导出前请务必阅读：
+Export Altium notice and disclaimer = 导出Altium注意事项与免责声明
+2. Please be sure to check again after export! = 2、导出后请务必再次检查！
+I have read and agree = 我已阅读并同意
+Export to Altium = 导出Altium
+Please make sure that the chose Eagle files are saved in Eagle v6.0 and above. = 请确保选择的Eagle文件是Eagle v6.0及以上版本保存的文件。
+Please make sure that the Kicad files were compressed as the .zip file. = 请确保Kicad文件是压缩在zip压缩包文件中。
+Open Altium Designer file =  打开Altium Designer文件
+The more information please refer at : = 更多信息请查看：
+Please use Gerber file instead of exporting Altium if you are going to do PCB manufacturing. All PCB factories support the Gerber file. Is it ok to Generate the Gerber file? = 如果你需要生产PCB，建议使用Gerber文件而不是导出Altium文件，板厂均支持使用Gerber生产PCB。是否生成Gerber？
+Yes, Generate Gerber = 是，生成Gerber
+No, Export Altium = 否，导出Altium
+Open Eagle file = 打开Eagle文件
+Open Kicad file = 打开Kicad文件
+Select file(s) = 选择文件
+Append to current project? = 插入到当前工程？
+Append = 插入
+Open as new project = 打开为新工程
+Tip: Press {0}SPACE{1} or {2}R{3} to rotate the placing object or selected object. = 提示：按 {0}空格键{1} 或 {2}R键{3} 旋转待放置或选中的零件。
+Hotkeys Setting = 快捷键设置
+I know. Don't show this again. = 我知道，不再显示该提示。
+Manufacturer Part Number can not be less than 2 characters. = 制造商元件编号不能少于2个字符。
+This prefix was changed to non-subpart format. = 编号已被修改为非子库格式。
+Save as New Project = 保存至新工程
+Save to Existing Project = 保存至已有工程
+Sheet Setting = 文档设置
+Sheet Size = 文档尺寸
+Pre = 编号
+pre = 编号
+Invalid Data = 数据格式不对
+Others = 其它
+You are not authorized to share this project. = 你无权限分享该工程。
+This project is private: if you continue sharing it will be made public. = 该工程是私有工程，继续分享将公开。
+Modify file info = 修改文档信息
+Please input search keyword = 请输入搜索关键词
+Sort By = 排序
+Date Created = 创建时间
+Date Modified = 修改时间
+Title = 标题
+Ascending = 升序
+Descending = 降序
+Pin to Top = 置顶
+Unpin from Top = 取消置顶
+Expand All = 全部展开
+Collapse All = 全部折叠
+Your file hasn't been saved, do you want to save it? = 你的文件尚未保存，是否保存？
+Don't Save = 不保存
+Library Owner: = 库所有者：
+verifyPkg.Value = 名称
+State = 状态
+Please select! = 请选择！
+Route = 布线
+Import successfully: = 导入成功：
+Import failed: = 导入失败：
+The title length must be between 2~128 characters. = 标题长度必须在2~128字符
+Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = 路径只能包含'a-z、A-Z、- 、_ 、0-9'！
+Path must begin as 'a-z、A-Z、0-9'! = 路径必须以'a-z、A-Z、0-9'开头！
+The path length must be between 4~128 characters! = 路径长度必须为4~128字节！
+The title length must be between 2~256 characters! = 标题长度必须为2~256字节！
+The title can not less than 3 charaters! = 标题不能少于3个字符！
+Do you want to delete this file? = 你确认你需要删除该文件吗？
+Add sub part success = 添加子库成功
+Please input name and prefix! = 请输入编号和名称
+Board outlines are not closed = 板子边框没有闭合
+Import Altium file fail, the file needs to be an ASCII file encoded in UTF-8. = 导入Altium文件失败，文件需为 UTF-8 编码的 ASCII 格式的文件。
+The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = 引脚“{0}”没有吸附在格点上！这个库在原理图里可能会产生错误。
+Check Pin = 引脚检测
+Failed to read {0} = 加载{0}失败
+{0} is invalid = {0}不可用
+{0} not found = {0}不存在
+Failed to execute script: = 执行脚本失败：
+One or more js files not found = 一个或多个js未找到
+Only ONE {0} file is required = 只有{0}一个文件
+Extension ID is required = 扩展ID不能为空
+Extension ID is invalid = 扩展ID不合法
+Extension ID is duplicated = 扩展ID已存在
+No Result! = 无结果！
+Load Error = 加载失败
+loading = 正在加载
+Failed to load spice data = 加载仿真数据失败
+Netlist = 网表
+Tags = 标签
+Pin Information: = 引脚信息：
+Format incorrect, please check for the extra spaces or commas! = 格式错误，请检查是否有多余的空格或逗号！
+Round Radius = 圆角半径
+Keyword: = 关键词：
+Image = 图片
+Image copied. = 图像已复制
+Copy failed. = 复制失败
+Image Attribute = 图片属性
+Locked = 锁定
+Unlock All = 解锁全部
+Unlock = 解锁
+Lock = 锁定
+Please input pin name and pin number! = 请输入引脚名称和引脚编号！
+Left-Hand Panel = 左侧栏
+Right-Hand Panel = 右侧栏
+Update All = 更新全部
+The pin number(s) can't find the same pad number(s) = 引脚编号未找到相同焊盘编号
+Designator = 编号
+Replace = 替换
+Update failed = 更新失败
+Successfully updated = 更新成功
+Update failed! = 更新失败！
+Successfully updated! = 更新成功！
+Successfully updated {0} component(s)! = 成功更新 {0} 个元件！
+Change = 变更
+Check  Footprints = 检查封装
+Network Error! = 网络错误！
+Find Similar Objects = 查找相似对象
+Current Sheet = 当前页面
+All Sheets = 全部页面
+Kind = 种类
+Range = 范围
+Net Label/Net Flag/Net Port/Voltage Probe = 网络标签/标识符/网络端口/电压探针
+Bezier/Freehand Draw = 贝塞尔曲线/自由绘制
+Arc/Pie = 圆弧/饼形
+Objects Attributes = 多对象属性
+Any = 任意
+Same = 相等
+Different = 不等
+Circular= 圆形
+Expose Copper = 创建开窗区
+"{0}" font is missing. Please add the font to the font family list. = "{0}"字体丢失，请添加该字体。
+Place Component = 放置元件
+Delete Segment = 删除线段
+Angle = 角度
+Board Thickness = 板厚
+Layer Distance = 层距
+Silk Screen = 丝印颜色
+Surface Finish Color = 焊盘喷镀
+Colors = 颜色
+Board Color = 板子颜色
+Board Side = 板面
+Silk Screen = 丝印
+Silk Screen Color = 丝印颜色
+Display = 显示
+
+# 阵列分布与阵列克隆
+Distribute Array = 阵列分布
+Array Type = 阵列类型
+Matrix Array = 矩形阵列
+Circular Array = 圆形阵列
+Item Rotation = 元素旋转角度
+Location = 位置
+Items per Column = 每列数量
+Items per Row = 每行数量
+# Column Spacing = 列距
+# Row Spacing = 行距
+Spacing(Degrees) = 间隔(角度)
+Start Degree = 起始角度
+Rotate Item to Match = 旋转对象以适合圆形
+Clockwise = 顺时针
+Anti-Clockwise = 逆时针
+Distribute by = 分布类型
+Column = 列
+Row = 行
+Array Clone = 阵列副本
+Number of Rows = 行数
+Number of Columns = 列数
+Number of Copies = 副本数量
+Distribute Range(Degrees) = 分布范围(跨度)
+
+#主题颜色对话框
+BusEntry = 总线分支
+Foreground = 前景色
+Common Used = 常用
+Original Theme = 原始主题
+Theme Setting = 主题设置
+Change the theme colors of your design = 修改设计图的主题颜色。
+White on Black = 黑底白图
+Black on White = 白底黑图
+Custom Theme = 自定义主题
+Color Setting = 颜色配置
+Apply Setting = 应用设置
+Theme Setting... = 主题设置...
+Bus Entry = 总线分支
+Foreground = 前景色
+Symbol Graphics = 元件图形
+Common Used = 常用
+Draw = 绘图
+Sheet = 表格
+The original theme only works for placing the new symbols. = 原始主题仅对新放置的符号有效。
+Selection Highlight = 选择高亮
+Net Label / Port = 网络标签 / 端口
+
+My Theme = 我的主题
+My Theme Settings = 我的主题设置
+Apply 'Custom Theme' On = 在以下情形应用 “自定义主题”
+Creating New Schematic = 创建新的原理图
+Opening Existed Schematic = 打开已存在的原理图
+Please fill in all parameters! = 请填写全部参数
+Convert to Board Cutout = 转换成槽孔
+Prefix Position = 编号位置
+Name Position = 名称位置
+Center = 中间
+Top = 上边
+Bottom = 下边
+Left = 左边
+Right = 右边
+Does not support multiple objects to convert to Board Cutout at the same time = 不支持多对象同时转为槽孔
+Does not support multiple objects to convert to pad at the same time = 不支持多对象同时转为焊盘
+Convert to Board Cutout = 转为槽孔
+Convert to Pad = 转为焊盘
+Convert to Component Shape = 转为元件外形
+Combine to Continuous Track = 合并为连续导线
+Convert to Solid Region = 转为实心填充
+Substrate = 基板
+3D View = 3D预览
+2D View = 2D预览
+Pin Color = 引脚颜色
+Name Color = 名称颜色
+Number Color = 编号颜色
+Dot = 圆圈
+
+[theme]
+Sheet = 表格
+[/theme]
+
+
+#history dialog
+[history-dlg]
+Number = 编号
+Editor = 编辑者
+[/history-dlg]
+View File History = 历史记录
+Save Time = 保存时间
+
+Invalid Format = 格式错误
+
+#Dialog Teardrop
+Round Pad / Via = 圆形焊盘 / 过孔
+Rectangle / Oval / Polygon Pad = 矩形 / 椭圆 / 多边形焊盘
+Applying Teardrops = 正在应用泪滴
+Removing Teardrops = 正在移除泪滴
+Waiting = 请等待
+Progressing... = 执行中...
+
+No schematic in the project! = 工程内无原理图！
+
+Move Forward = 前移
+Move Backward = 后移
+
+#Dialog Panelize
+V-CUT = V割
+Stamp Hole = 邮票孔
+No Panelize = 不拼板
+Border and Marking = 边界与标记
+Create Border = 创建边界
+Border Height = 边界高度
+Border Position = 边界位置
+Create Positioning Holes = 创建定位孔
+Create Fiducial Marks = 创建定位点
+Top and Bottom = 顶部和底部
+Left and Right = 左边和右边
+Stamp Hole Group - Column = 邮票孔组数 - 列
+Stamp Hole Group - Row = 邮票孔组数 - 行
+The number of rows and columns cannot be set to 1 simultaneously = 行数或列数不能同时设置为1
+
+#edit path point
+[editPathPoints-dlg]
+Arc(R) = 圆弧半径
+Type = 圆弧类型
+Action = 操作
+add before = 在前面添加一行
+add after = 在后面添加一行
+delete = 删除
+[/editPathPoints-dlg]
+
+#edit polygon point
+[editPolygonPoints-dlg]
+Action = 操作
+add before = 在前面添加一行
+add after = 在后面添加一行
+delete = 删除
+[/editPolygonPoints-dlg]
+You have unconfirmed edit! = 你还没有完成编辑！
+Invalid edit! = 你所编辑的点不符合规则！
+
+#Dialog PCB Information
+PCB Information... = PCB信息...
+Signal Layers = 信号层
+None Signal Layers = 非信号层
+Pads = 焊盘
+Surface Pads = 单层焊盘
+Plated Through-hole Pads = 金属化焊盘
+None Plated Through-hole Pads = 非金属化焊盘
+Holes = 孔
+Vias = 过孔
+Length of Tracks = 导线长度
+Copper Areas = 铺铜数量
+
+#Differential Pair Routing
+Differential Pair Routing = 差分对布线
+Differential Pair Rule Setting = 差分对布线规则
+Please input track width = 请输入线宽
+Please input clearance = 请输入间距
+Routing Rules = 布线规则
+
+#Route Length Tuning
+Track Length Tuning... = 线长调整...
+Tracks with different net or non-track found in current targets. = 当前目标中存在不同网络的导线或非导线。
+Please select the signal tracks to be tuning. = 请选择要调整的信号层导线。
+The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = 总长度超过了设计规则(DRC)限制，是否继续？
+45° Angle = 45° 角
+90° Angle = 90°角
+DRC Track Length : = DRC导线长度 :
+Current Length : = 当前长度 :
+Additional Length : = 要增加的长度 :
+Target Length: = 目标长度:
+Current Length: = 当前长度:
+
+can not connect to the server = 无法连接服务器
+
+#Dialog Copper Area Manager
+Copper Area Manager... = 铺铜管理器...
+Copper Area Manager = 铺铜管理器
+Order = 序号
+Name = 名称
+Layer = 层
+Color = 颜色
+Net = 网络
+Move Up = 上移
+Move Down = 下移
+Apply = 应用
+Cancel = 取消
+Copper Area do not allow self-intersection! = 铺铜不允许自相交！
+No copper area! = 无铺铜！
+#Dialog report error
+Datasheet = 规格书
+Verification = 审核
+Symbol = 符号
+Pad Number = 焊盘编号
+Pad Size = 焊盘尺寸
+Remark= 备注
+Correct = 正确
+Incorrect = 错误
+Submit = 提交
+Tip = 提示
+Please select one component = 请选择一个元件
+Location X = X 坐标
+Location Y = Y 坐标
+Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = 您当前的浏览器版本可能不支持某些功能。请使用最新的谷歌或者火狐浏览器，或使用客户端。
+EasyEDA Client = EasyEDA客户端
+LCEDA Client = 立创EDA客户端
+Chrome = 谷歌浏览器
+FireFox = 火狐浏览器
+New Version = 新建版本
+Switch Version = 切换版本
+Member = 成员
+Update Time = 更新时间
+Editor = 编辑者
+Current Version: = 当前版本：
+Select a version to switch = 请选择一个版本切换
+3D Model = 3D库
+Board Side = 板面
+Display = 显示
+Copper = 铜色
+Create New Version = 创建新版本
+Create new version success! = 新版本创建成功！
+Version Management = 版本管理
+Switch success! = 切换成功！
+Please close current version's documents first! = 请先关闭当前版本的所有文档！
+Creator = 创建者
+Create Time = 创建时间
+Fail to connect to server! Please check your internet connection status and try again! = 连接服务器失败！请检查你的联网状态并再次尝试！
+Spice Number = 仿真编号
+Create = 创建
+3D Outline = 3D体形线
+Cannot create the slot hole via the board outline, please use the following methods: = 不支持边框挖槽，挖槽方法请参考下方：
+Use the solid region and set its type as Board Cutout = 直接使用实心填充的槽孔
+Select a Track/Arc, right-click to use the "Convert to Board Cutout" = 选中导线或圆弧，右键选择“转为槽孔”
+Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cutout" = 全选闭合的导线或圆弧框，右键选择“转为槽孔”
+The more information please refer at = 更多信息请查看
+Save "{0}" success! = 保存 "{0}" 成功！
+Save "{0}" failed! = 保存 "{0}" 失败！
+Invalid Size = 非法尺寸
+Processing = 处理
+Invalid Size = 非法尺寸
+NetFlag GND = 标识符GND
+NetFlag VCC = 标识符VCC
+NetFlag +5v = 标识符+5v
+No Useful Data! = 无可用数据！
+SVG Preview = SVG预览
+Prefix contains not supported charater(s) ! = 编号包含了不支持的字符！
+Name contains not supported charater(s) ! = 名称包含了不支持的字符！
+Create Grid Path = 生成网格路径
+Please Input Name = 请输入名称
+Building Copper Area = 正在铺铜
+Processing = 处理中
+Opening File = 正在打开文件
+Update from Library = 从库里更新
+Update Footprint = 更新封装
+Find footprint(s) have been updated, do you want to update? = 发现一些封装有更新，是否更新？
+3D File: = 3D文件
+Model List = 模型列表
+Are you sure merge net {0} and net {1}? = 你确定合并网络 {0} 和网络 {1} 吗？
+Display Footprint = 显示封装
+Display Footprint Name While Placing Component = 放置元件显示封装名
+Annotate Prefix Automatically After Placing Component = 放置元件自动编号
+Program Error, Please Contact Technical Support! = 程序错误，请联系技术支持。
+Search Engine = 搜索引擎
+Keyword to Filter = 输入关键字过滤
+Normal Mode = 精简模式
+Expand Mode = 放大模式
+3D Model Manager = 3D模型管理器
+3D Model Preview = 3D模型预览
+3D Model = 3D模型
+3DModel = 3D模型
+Document = 文档
+
+[pcblayer]
+3DModel = 3D模型层
+Document = 文档层
+[/pcblayer]
+
+Adjustment = 校准
+View Larger Image = 点击查看大图
+Previous = 上一步
+Previous Image = 上一组图片
+Next Image = 下一组图片
+Notice: For reference only, please refer to the real product = 温馨提醒：图片仅供参考，商品以实物为准
+It's under designing, please wait. = 正在设计中，敬请期待。
+The width of track/arc/circle can not less than 0.1mil! = 导线/圆弧/圆的线宽不能小于0.1mil！
+clone success ! = 克隆成功！
+Footprint Naming Reference = 封装命名参考
+3D Model Manager = 3D模型管理器
+Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = 将跳转到立创开源硬件平台(OSHWHub.com)完善信息后进行分享。是否继续？
+Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? = 将跳转到EasyEDA开源硬件平台(OSHWLab.com)完善信息后进行分享。是否继续？
+The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. = 将打开工程内容页面，你可以补充描述和把工程设置为公开后，再点击分享按钮获取分享链接。
+This project is not public, can not view homepage! = 工程没有公开，无法查看工程主页！
+
+[grid]
+None = 无填充
+[/grid]
+
+#lib verify and mounted
+This component is verified = 元件已经验证
+This component is unmounted = 元件不上件
+
+#find component
+Find Next = 下一个
+Object not found = 没有找到相应元件
+
+##offset Elements
+Offset X = 偏移X
+Offset Y = 偏移Y
+Offset = 偏移
+Absolute Offset = 绝对偏移
+Relative Offset = 相对偏移
+Absolute Offset... = 绝对偏移...
+Relative Offset... = 相对偏移...
+Reference Point X = 参考点X
+Reference Point Y = 参考点Y
+
+#内电层
+Rebuild Plane = 重建内电层
+PlaneZone Properties = 内电层属性
+Change to a plane layer is not allowed during track routing. = 在布线时不允许将导线切换到内电层。
+#pcblib rect
+Fill = 填充
+Fill Type = 填充类型
+[PlaneZone]
+Solid = 填充
+[/PlaneZone]
+
+Solid Region do not allow self-intersection! = 实心填充不允许自相交！
+
+The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. =  编号或名称或文本距离封装太远，如果不想让它显示请隐藏它。
+The prefixes are not allowed to repeat! = 编号不允许重复！
+Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = 保存失败！画布原点没有在图形内部！是否自动设置原点？
+The origin of the canvas has been set in the graphics now, you can save again. = 画布原点已设在图形内部，你可以再次保存
+Backup Project = 备份工程
+Open Project Directory = 打开工程目录
+
+{0} items updated = {0} 个元件已更新
+
+The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. = 当前文件 {0} 存在更新的版本，是否进行覆盖？如需打开最新版本，请关闭当前文件再重新打开。
+Yes, Overwrite It = 是，覆盖
+No, Keep It = 否，保留
+
+Download Client = 下载客户端
+
+Search tutorial、open source projects etc. = 搜索教程、开源工程等
+
+Go to LCSC and search for = 去立创商城搜索
+Go to LCSC = 去立创商城
+
+Hide Ratline Layer and Keep the Component Prefix When Paste Objects = 当粘贴元素时隐藏飞线层并保持元件编号不变
+
+ALL.layer = 全部层
+Copper.layer = 铜箔层
+Non-Copper.layer = 非铜箔层
+Other.layer = 其他层
+
+Please enter at least 2 characters! = 请输入至少2个字符！
+View Datasheet = 查看规格书
+View Datasheet... = 查看规格书...
+
+The corresponding package or network could not be found in the currently open PCB document = 当前打开的PCB文档中找不到相应的封装或网络
+delete fail = 删除失败
+
+[crashRecovery]
+Libraries = 库文件
+[/crashRecovery]
+Canvas origin anomaly! = 画布原点异常
+
+Component's Name = 元件名称
+Component's Prefix = 元件编号
+Component's Footprint = 元件封装
+
+[findlib]
+Clear = 清除筛选
+Apply Filters = 应用筛选
+Result= 筛选结果
+Place = 放置在画布
+Prev = 上一页
+Next = 下一页
+Total {count} Count = 共{count}条记录
+About = 约
+Items = 条结果
+[/findlib]
+
+Object = 元素
+Layers and Objects = 层与元素
+All = 全部
+
+Add custom = 新增自定义
+
+Connections = 连接
+Attempted: = 全部:
+Completed: = 已完成:
+Failed: = 失败:
+Total Vias: = 过孔数:
+
+Please confirm moving option = 请确认移动方式
+Only this pad = 仅移动焊盘
+For this component = 移动整个元件
+View Owner = 查看所有者
+View Detail = 查看详情
+
+
+# 批量放置过孔
+Place Vias = 放置过孔
+Placing Vias = 正在放置过孔
+Removing Vias = 正在移除过孔
+Batch Vias for Copper = 铺铜批量过孔
+Add/Remove Vias = 添加/移除过孔
+Diameter = 直径
+Drill Diameter = 过孔内径
+Column Spacing = 列距
+Row Spacing = 行距
+Multiple vias have been placed, do you want to rebuild the copper area? = 批量放置过孔已经完成。是否重建铺铜？
+Remove vias finish, do you want to rebuild the copper area? = 批量移除过孔已经完成。是否重建铺铜？
+The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! = 导线/圆弧/圆的线宽不能小于0.051mm/2mil/0.0002inch！
+Save fail! Please try again! = 保存失败！请重试！
+Please select a copper outline = 请选择铺铜边框
+Can't find copper area at other layers, please add the copper area with the same net at other layer first. = 未找到其它层的铺铜，请先在其他层绘制相同网络的铺铜。
+
+Add favorite success! = 收藏成功！
+Remove favorite success! = 取消收藏成功！
+Remove favorite failed! = 取消收藏失败！
+Whether if remove favorite? = 是否取消收藏?
+Split by ';' for multi tags = 用分号分隔多个标签
+
+This size is the determined size! = 这个尺寸是已经确定的尺寸！
+The associated pad has been locked = 相关联的焊盘已被锁定
+Split by space or , for multi tags = 用空格或逗号分隔多个标签
+
+Rotation X = X轴旋转
+Rotation Y = Y轴旋转
+Rotation Z = Z轴旋转
+
+Some fields are filled invalid data = 某些字段填充了无效数据
+start time should be earlier than stop time = 起始时间应小于结束时间
+Number of points should be less than 100 in octave variation = octave类型变化中的点数应小于100
+Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = 起始频率应小于停止频率。后缀meg代表Mrga，m代表milli
+Get historical records fail! = 获取历史记录失败！
+This 3D model didn't create the outlines successfully, please import it again or contact with us. = 这个 3D 模型的外形数据没有创建成功，请再次导入或者联系我们。
+There is No Tag! = 没有分类！
+Assign successful! = 分配成功！
+Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = 发现封装焊盘编号不匹配原理图器件的引脚编号，请手动修正焊盘编号后再重试！
+Update Attribute = 更新属性
+Please fill in at least 5 words. = 请至少填写 5 个字。
+Mouse hovering over the track to highlight the entire network = 鼠标悬浮在导线上高亮整个网络
+Net Highlighting While Cursor Hover the Track = 鼠标在导线上时高亮网络
+When circle set as "Yes", the Pin length must more than 6 = 当圆圈设置为“是”时，引脚长度需要大于 6
+Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = 你好，我发现了你的一个库可能存在错误。\n标题：{title}\n类型：{type}\n链接：{link}\n{content}\n谢谢！
+
+Logout fail! Please try again! = 退出登录失败！请再次尝试！
+Logout success! We look forward you to use LCEDA again! = 退出成功！期待您再次使用立创EDA！
+Logout success! We look forward you to use EasyEDA again! = 退出成功！期待您再次使用EasyEDA！
+Click to Preview 3D = 点击预览3D
+[logoutDialog]
+Logout = 退出登录
+[/logoutDialog]
+
+[findlibTag]
+All = 全部
+[/findlibTag]
+
+Export Pick and Place File = 导出坐标文件
+Mirror the bottom component's X coordinate (JLCPCB doesn't need) = 镜像底层元件X坐标(嘉立创不需要)
+Work Space = 工作区
+Include panelized components' coordinates = 包含拼板后的元件坐标
+Personal Workspace = 个人工作区
+Work Space - {name} = 工作区 - {name}
+Work Space - Personal = 工作区 - 个人
+Cloning = 克隆中
+
+Project Owner = 工程所属
+Clone Project = 克隆工程
+Homepage = 个人主页
+Apply for Education Edition = 申请教育版
+Load Organization failed = 加载组织失败
+Joined = 我参与的
+Favorite = 我收藏的
+This operation will unfavorite this project, do you want to continue? = 此操作将取消收藏该工程，是否继续？
+View Homepage = 查看主页
+Private Project = 私有工程
+3-7 days = 3-7 天
+Close Tab = 关闭标签
+Close Other Tabs = 关闭其他标签
+Close All Tabs = 关闭所有标签
+Open in New Window = 在新窗口打开
+Cursor Snap to Component's Origin or Pad Center While Dragging Component = 移动元件时光标吸附到元件原点或焊盘中心
+Undefined = 未定义
+Input = 输入
+Model Unit = 模型单位
+File Unit = 文件单位
+This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? = 这个库含有多个子库，报错前请确保已经检测其他子库，是否继续？
+
+[saveAs]
+Power = 电源
+[/saveAs]
+
+Assign LCSC Part# = 分配立创编号
+Unexpected error while converting. Perhaps unsupported file type or program bug. = 转换时出现意外错误。可能是不支持的文件类型或程序错误
+Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = 发现重复的器件ID，请点击“确认”后重新自动分配器件ID，并保存文档，再次重试。
+
+#electromagneticSimulation
+Electromagnetic Simulation... = 电磁仿真...
+You will upload Gerebr to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = 你将上传 Gerber 到 SuperEM 进行电磁仿真(仅上传 Gerber 数据，不包含账号数据)，是否继续？
+SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM 是杭州法动科技推出的一款用于高速印刷电路板电路与微带天线结构的，三维全波电磁仿真设计软件
+Visit the SuperEM = 访问 SuperEM
+SuperEM User Guide = SuperEM使用手册
+Upload Gerber to SuperEM successfully, please click "OK" buttun to continue  = 已经成功上传 Gerber 到 SuperEM，请点击“确定”按钮继续
+
+Format = 格式
+View = 视图
+Design = 设计
+Simulation = 仿真
+Advanced = 高级
+Fabrication = 制造
+Check DRC = 检查DRC
+Simulation Setting = 仿真设置
+BOM = 物料清单(BOM)
+PCB Fabrication File(Gerber) = PCB制板文件(Gerber)
+Pick and Place File = 坐标文件
+Parts Order = 元件购买
+PCB Order = PCB下单
+SIM = 仿真
+STD = 标准
+WaveForm = 波形
+
+Place Module = 放置模块
+Please enter identification letters: = 请输入标识字母：
+Only support English letters, up to 5. = 仅支持英文字母，最多 5 个。
+
+Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = 模块里面存在未编号的元件，请先分配一个唯一的编号给元件，再进行放置。
+Opening = 正在打开
+
+Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 同时更新导线的网络(只适用于元件编号或网络标签变更的场景，不适用于元件或导线增删的场景)
+
+# 客户端返回的错误提示
+Cannot open online documents on Project Offline mode. = 工程离线版模式下不支持打开在线工程！
+
+Please select a project = 请选择一个工程
+Opened Projects = 已打开的工程
+Open Project= 打开工程
+Close Project = 关闭工程
+Open All Projects = 打开所有工程
+Close All Projects = 关闭所有工程
+
+Doesn't support JLCPCB SMT Service = 不支持嘉立创贴片
+for JLCPCB SMT Service = 嘉立创贴片库存
+
+Reset failed! There are duplicate component prefixes in the current schematic: = 重置失败！当前原理图存在重复的元件编号：
+Reset failed! There are duplicate component prefixes in the current PCB: = 重置失败！当前PCB存在重复的元件编号：
+Please modify the component prefixes first to ensure that the component prefix is unique. = 请先修改编号确保元件编号是唯一的。
+
+LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = 立创EDA(标准版) - 免费、易用、强大的在线电路设计软件
+EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(标准版) - 免费、易用、强大的在线电路设计软件
+
+#Dialog for Package Custom Data
+Please input the data title = 请输入数据标题
+Data title duplicated = 数据标题重复
+Cannot be more than {0} characters! = 不能超过 {0} 个字符！
+Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = 仅限使用英文字母、数字、下划线(_)、短横线(-)。
+Invalid value of item {0} = {0} 项的值无效
+Update DFM = 更新DFM
+Custom DFM Data = 自定义DFM数据
+Saved custom data successfully! = 保存自定义数据成功
+Save custom data failed! = 保存自定义数据失败
+Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = 将替换当前文档的全部图形和自定义数据，导入后请重新调整3D模型。是否继续？
+Open footprint "Custom Data" dialog = 打开封装自定义数据对话框
+
+#创建引脚外形
+Create Lead Shape = 创建引脚外形
+Base on Pad Center = 基于焊盘中心
+Base on Canvas Origin = 基于画布原点
+Lead shape = 引脚外形
+Footprint Type = 封装类型
+From pad shape = 从焊盘外形
+Lead length = 引脚长度
+Lead width = 引脚宽度
+Lead diameter = 引脚直径
+Scaling ratio = 缩放比例
+Leads creating direction = 引脚创建方向
+Auto = 自动
+Horizontal = 横向
+Vertical = 纵向
+Canvas origin to lead edge = 画布原点到引脚边界
+Canvas origin to body edge = 画布原点到外形边界
+Lead soldering length = 引脚焊接长度
+Lead soldering part diameter = 引脚焊接部分的直径
+Component shape object doesn't overlap lead shape object, please check carefully. = 元件外形层与引脚外形层(悬空或焊接部分)图元没有进行相交重叠，请仔细检查。
+The solder mask expansion of pads ({0},{1}) has a small clearance(less then 0.08mm), it will cause the soldering too short, please modify. = 焊盘 ({0},{1}) 阻焊扩展或自定义阻焊层图元间距小于 0.08mm，将导致连锡，请修改。
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less then 0.15mm), it will cause the stencil to create fail, please modify. = 焊盘 ({0},{1}) 助焊扩展或自定义锡膏层图元间距小于 0.15mm，将导致无法正常开钢网，请修改。
+System footprint must exist pad number 1 or A1, please modify the pad number. = 系统封装必须存在焊盘编号是 1 或者 A1 的焊盘，请修改焊盘编号。
+System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. = 系统封装不允许出现两个及以上焊盘编号是 1 或者 A1 的焊盘，请修改焊盘编号。
+Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = 封装文档层存在圆，但 jlcPara 的 polarity 是 0，请注意检查自定义数据。
+There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = 焊盘编号存在重复: {padNumber}，请检查是否正常，如果正常请忽略该提示。
+Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = 封装没有绘制元件极性层的圆形，或者标识层的圆和第一脚焊盘不在相同象限，请检查是否正常。
+
+ROUND = 圆形
+RECTANGLE = 矩形
+OCTAGONAL = 长圆形
+Upper left = 左上
+Lower left = 左下
+Center of Pads = 焊盘中央
+First Pin = 第一引脚
+Package Name = 封装名
+Pins Number = 引脚数量
+Rows Of Pin = 引脚行数
+Columns Of Pin = 引脚列数
+Polarity = 极性
+Pad Shape = 焊盘形状
+Body Diameter = 本体直径
+Lead Span = 引脚跨距
+Lead Vertical Span = 引脚纵向跨距
+Body Length = 本体长度
+Body Height = 本体宽度
+Pin Diameter = 引脚直径
+Pin Length = 引脚长度
+Pin Height = 引脚宽度
+Pin Solid Width = 引脚焊接长度
+Pin Solid Height = 引脚焊接宽度
+Pin Spacing = 引脚间距
+Pin Horizontal Spacing = 引脚横向间距
+Pin Vertical Spacing = 引脚纵向间距
+ThermalPad = 热焊盘
+Pad Expansion = 焊盘扩展
+Custom PasteMask = 自定义锡膏层
+Fabrication Tolerance = 制造容差
+Plcarment Tolerance = 放置容差
+FirstPin Position = 第一引脚位置
+Package Origin = 封装原点
+Expansion Size = 扩展尺寸
+Corner = 拐角
+Angle = 直角
+Fillet = 圆角
+Chamfer = 倒角
+Update Preview = 更新预览
+Number of pins (left and right) = 引脚数(左右)
+Number of pins (up and down) = 引脚数(上下)
+Reference Use Cases = 参考用例
+Package Type = 封装类型
+Capacitance = 电容
+Resistance = 电阻
+Bidirectional Diode = 双向二极管
+Inductance = 电感
+Crystal Oscillator = 晶振
+Diode = 二极管
+LED = 发光二极管
+Fuse = 保险丝
+Entity height = 实体高度
+Lead Overhang = 引脚悬垂长度
+Lead Thickness = 引脚厚度
+Unknown mistake = 未知错误
+Has ThermalVias = 散热过孔
+Polar Capacitance = 极性电容
+
+Create Component Marking = 生成元件标识
+Create component marking successfully! = 创建元件标识成功！
+No elements on component shape layer! = 元件外形层没有图元！
+No elements on lead shape layer! = 引脚外形层没有图元！
+No pad of number 1 or A1, please modify the pad number. = 焊盘编号是 1 或者 A1 的焊盘，请修改焊盘编号。
+Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = 保存失败！元件标识层的圆在坐标轴上，是否重新生成元件标识？
+If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = 如果自动布线失败，你可以导出自动布线文件(DSN)到第三方布线工具(如 Konekt Electra、Eremex TopoR等)，完成自动布线后导出会话文件(SES)，再导入PCB。
+Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = 自动布线失败！发现异常焊盘数据异常，请手动重新调整焊盘宽高：
+Select Properties = 选择属性
+Combine the same parts' prefixes in one row = 合并相同元件的编号在同一行
+Please check at least one item! = 请至少勾选一项!
+Pins = 引脚数
