@@ -1,13 +1,13 @@
 #Menu
 User = Usuário
 Join... = Registrar...
-Login... = Logar...
+Login... = Conectar...
 Log in = Conectar
 Logout = Desconectar
 Change password... = Trocar senha...
 User Preference = Preferências de usuário
-System Settings... = 
-System Settings = 
+System Settings... = Configurações do sistema...
+System Settings = Configurações do sistema
 Crash = Pane
 Invite friends... = Convidar amigos...
 Language = Idioma
@@ -166,10 +166,10 @@ Edit Symbol... = Editar Símbolo…
 Highlight Net... = Realce Net…
 Simulate = Simular
 Simulation = Simulação
-Standard Mode = 
-Simulation Mode = 
-Change to Standard Mode = 
-Change to Simulation Mode = 
+Standard Mode = Modo padrão
+Simulation Mode = Modo de simulação
+Change to Standard Mode = Mudar para o modo padrão
+Change to Simulation Mode = Mudar para o modo de simulação
 Welcome to Use LCEDA = 
 Welcome to Use EasyEDA = 
 Enable Education Edition Features for Free >>> = 
@@ -554,7 +554,7 @@ X pos.(Div): =
 Y pos.(Div): = 
 View meter... = 
 The circuit has components without simulation model: = 
-Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = 
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = O intervalo da sua simulação é muito curto, espere 5 segundos e tente novamente; se esta mensagem persistir, talvez você tenha simulado mais de 500 vezes, que é o limite diáro.
 Resistor1_US = 
 Resistor1_EU/IEC = 
 Resistor1_3D = 
@@ -930,7 +930,7 @@ Re-send an activation code to your email = Reenvie um código de ativação para
 
 #Dialog Invite
 Invite friends to register = Convide amigos para se cadastrarem
-Your friend's email = E-mail do seus amigos
+Your friend's email = E-mail do seu amigo
 
 #Dialog Add A New Parameter
 Add a new parameter = Adicione um novo parâmetro
@@ -958,11 +958,11 @@ Save as a PCB file = Salvar como um arquivo PCB
 Save as Footprint = 
 Save as a Schematic Module = Salvar como um módulo esquemático
 Save as a PCB Module = Salvar como um módulo PCB
-Save as 3D Model = 
+Save as 3D Model = Salvar como modelo 3D
 Save as a WaveForm = 
 Title = Título
 Share = Compartilhar
-Add file = 
+Add file = Adicionar arquivo
 Visibility = Visibilidade
 Allow Comments = Permitir comentários
 Public (Anyone can see this project but only you can modify it.) = Público (qualquer um pode ver este projeto, mas somente você pode modificá-lo)
@@ -979,7 +979,7 @@ document not exists =
 
 Categories = Categorias
 Project = Projeto
-Short description = 
+Short description = Pequena descrição
 Content = Conteúdo
 Modify this project info. = Modifique esta informação do projeto.
 Modify this file info. = Modifique esta informação de arquivo.
@@ -1234,8 +1234,8 @@ Voltage - Max = Tensão - Max
 Current - Output = Tensão - Saída
 
 #Dialog Export Your Works
-Export your works = Exportar suas trabalhos
-Export to = 
+Export your works = Exportar seus trabalhos
+Export to = Exportar para
 Zoom = Zoom
 Image Type = Tipo de imagem
 Qualify = Qualificar
@@ -1273,8 +1273,8 @@ Sheet = Folha
 Merged sheet = Folha mesclada
 Separated sheet = Folha separada
 Engine = 
-Exporting PDF = 
-Export 3D Model = 
+Exporting PDF = Exportando PDF
+Export 3D Model = Exportar modelo 3D
 [exportDocument]
 Size = Tamanho
 [/exportDocument]
@@ -1285,9 +1285,9 @@ You can't undo this operation, Please run a Design Rule Checking (DRC) after thi
 Apply Changes = Aplicar alterações
 This is a simple Design Rule Checking (DRC). = 
 It just can help you to find the obvious errors = Ele só pode ajudá-lo a encontrar os erros óbvios
-There are some unfinished nets, do you want to check the nets first? = 
-Yes, Check Nets = 
-No, Keep Going = 
+There are some unfinished nets, do you want to check the nets first? = Há algumas redes não finalizadas, deseja verificar as redes primeiro?
+Yes, Check Nets = Sim, verifique redes
+No, Keep Going = Não, continue
 
 #Dialog Layer Manager
 Configured = Configurado
@@ -1405,8 +1405,8 @@ Select All = Selecione tudo
 Cancel Current Drawing = 
 Save = Salvar
 Drag Tool = Arrastar Ferramenta
-Draw Wire = Desenhe Fio
-Draw Bus = Empate Bus
+Draw Wire = Desenhar Fio
+Draw Bus = Desenhar Bus
 Bus Entry = Entrada de Bus
 Junction = Junção
 Net Flag GND = Net Flag GND
@@ -1928,7 +1928,7 @@ Reject = Rejeitar
 Add User = Adicionar usuário
 Bad email address = Endereço de email incorreto
 #后端返回英文的错误信息
-Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Não é possível encontrar este endereço de e-mail no EasyEDA. Seu parceiro deve ser um usuário EasyEDA.
+Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Não foi possível encontrar este endereço de e-mail no EasyEDA. Seu parceiro deve ser um usuário EasyEDA.
 
 #Dialog waveForm
 Grid Background = Contexto da Grade
@@ -2039,7 +2039,7 @@ Failed to read file [{file}]
 Invalid parameters! = Parâmetros inválidos!
 Download = Download
 Start = Iniciar
-You have unsaved files, are you sure you want to log out without saving the files? = Você tem arquivos não salvos, tem certeza de que deseja efetuar logout sem salvar os arquivos?
+You have unsaved files, are you sure you want to log out without saving the files? = Você tem arquivos não salvos, tem certeza de que deseja sair sem salvar os arquivos?
 Please use the web version to run this function. = Por favor, use a versão web para executar esta função.
 Please save this file to you project! = Por favor, salve este arquivo para o seu projeto!
 Nothing changed = Nada mudou
@@ -2096,8 +2096,8 @@ No, Generate Gerber =
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = 
 Yes, Check Connection(s) = 
 It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = Em seguida, ele será redirecionado para o site do terceiro JLCPCB com o qual nós cooperamos. Você está pronto?
-Failed to submit your order, please contact us via support@easyeda.com for help. = Falha ao enviar seu pedido, entre em contato conosco pelo support@easyeda.com para obter ajuda.
-Failed to submit your order, please contact us via QQ 800821856. = 
+Failed to submit your order, please contact us via support@easyeda.com for help. = Houve uma falha ao enviar seu pedido, entre em contato conosco pelo e-mail support@easyeda.com para obter ajuda.
+Failed to submit your order, please contact us via QQ 800821856. = Houve uma falha ao enviar seu pedido. Por favor entre em contato via QQ 800821856
 Order data generated finish, please click OK button and continue. = 
 [generateGerber]
 Layers = Camadas
@@ -2146,7 +2146,7 @@ Read/Write = Leitura / gravação
 More Libraries... = Mais bibliotecas...
 Decompress failed! = Falha na descompressão!
 Load failed! = Erro de carregamento!
-Loading = 
+Loading = Carregando
 No Result = Nenhum resultado
 
 #Dialog Place Pin in schematic warning
@@ -2308,8 +2308,8 @@ BuiltDate = BuiltDate
 #Auto Router Dialog
 Auto Router Config = Auto Router Config
 General Options = 
-All Layers = 
-Configure = 
+All Layers = Todas camadas
+Configure = Configurar
 Sorry, your web browser does not support this feature. Please run a modern browser. = Desculpe, o seu navegador não suporta este recurso. Por favor, execute em um navegador moderno.
 Please make sure all objects with net are inside the board outline! = 
 Cannot start again before previous activity is stopped = Não é possível iniciar novamente antes que a atividade anterior seja interrompida
@@ -2380,7 +2380,7 @@ CN =
 Connector = Conector
 Switch/Relay = Interruptor / Relé
 JLCPCB = JLCPCB
-Recycle Bin = 
+Recycle Bin = Lixeira
 
 #量角器
 Font Height = Altura da Fonte
@@ -2418,8 +2418,8 @@ Export to Altium function is currently in beta: =
 1. Please be sure to read the notice before exporting: = 
 Export Altium notice and disclaimer = 
 2. Please be sure to check again after export! = 
-I have read and agree = 
-Export to Altium = 
+I have read and agree = Eu li e concordo
+Export to Altium = Exportar para Altium
 Please make sure that the chose Eagle files are saved in Eagle v6.0 and above. = Por favor, certifique-se de que os arquivos Eagle escolhidos estão salvos no Eagle v6.0 e superiores.
 Please make sure that the Kicad files were compressed as the .zip file. = Por favor, certifique-se de que os arquivos do Kicad foram compactados como arquivos .zip.
 Open Altium Designer file = Abra o arquivo Altium Designer
@@ -2474,7 +2474,7 @@ Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = O caminho contém apenas 'a-z'
 Path must begin as 'a-z、A-Z、0-9'! = O caminho deve começar como 'a-z' A-Z '0-9'!
 The path length must be between 4~128 characters! = O comprimento do caminho deve estar entre 4 ~ 128 caracteres!
 The title length must be between 2~256 characters! = O tamanho do título deve estar entre 2 e 256 caracteres!
-The title can not less than 3 charaters! = 
+The title can not less than 3 charaters! = O título não pode ser menor que 3 caractéres!
 Do you want to delete this file? = Você quer apagar este arquivo?
 Add sub part success = Sub-parte adicionado com sucesso
 Please input name and prefix! = Por favor insira o nome e o prefixo!
@@ -2588,8 +2588,8 @@ Change the theme colors of your design = Mude as cores do tema do seu design
 White on Black = Branco em preto
 Black on White = Preto em branco
 Custom Theme = 
-Color Setting = 
-Apply Setting = 
+Color Setting = Configuração de cor
+Apply Setting = Aplicar Configuração
 Theme Setting... = Definição de Tema…
 Bus Entry = Entrada de Bus
 Foreground = Primeiro plano
@@ -2603,7 +2603,7 @@ Net Label / Port = Rótulo Net / Porta
 
 My Theme = Meu tema
 My Theme Settings = Minhas configurações de tema
-Apply 'Custom Theme' On = 
+Apply 'Custom Theme' On =  
 Creating New Schematic = Criando Novo Esquema
 Opening Existed Schematic = Abrindo o esquema existente
 Please fill in all parameters! = Por favor, preencha todos os parâmetros!
@@ -2624,7 +2624,7 @@ Combine to Continuous Track =
 Convert to Solid Region = 
 Substrate = Substrato
 3D View = Visualização 3D
-2D View = 
+2D View = Visualização 2D
 Pin Color = Cor do Pino
 Name Color = Nome da Cor
 Number Color = Cor do Número
@@ -2643,7 +2643,7 @@ Editor = Editor
 View File History = Visualizar Histórico do Arquivo
 Save Time = Economize Tempo
 
-Invalid Format = 
+Invalid Format = Formato inválido
 
 #Dialog Teardrop
 Round Pad / Via = Pad Redondo / Via
@@ -2651,7 +2651,7 @@ Rectangle / Oval / Polygon Pad = Retângulo / Oval / Polígono Pad
 Applying Teardrops = Aplicando Teardrops
 Removing Teardrops = 
 Waiting = Esperando
-Progressing... = 
+Progressing... = Processando...
 
 No schematic in the project! = Nenhum esquema no projeto!
 
@@ -2759,7 +2759,7 @@ Location X = Localização X
 Location Y = Localização Y
 Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = A versão atual do seu navegador pode não oferecer suporte a alguns recursos. Use a versão mais recente do Chrome ou Firefox ou experimente o cliente.
 EasyEDA Client = Cliente EasyEDA
-LCEDA Client = 
+LCEDA Client = Cliente LCEDA
 Chrome = Chrome
 FireFox = FireFox
 New Version = Nova versão
@@ -2922,17 +2922,17 @@ Libraries = Bibliotecas
 [/crashRecovery]
 Canvas origin anomaly! = 
 
-Component's Name = 
-Component's Prefix = 
+Component's Name = Nome do componente
+Component's Prefix = Prefixo do componente
 Component's Footprint = 
 
 [findlib]
-Clear = 
-Apply Filters = 
-Result = 
+Clear = Limpar
+Apply Filters = Aplicar filtros 
+Result = Resultado
 Place = Colocar
-Prev = 
-Next = 
+Prev = Anterior
+Next = Próximo
 Total {count} Count = 
 About = Sobre
 Items = 
@@ -3035,11 +3035,11 @@ Favorite = Favorito
 This operation will unfavorite this project, do you want to continue? = 
 View Homepage = 
 Private Project = 
-3-7 days = 
-Close Tab = 
-Close Other Tabs = 
-Close All Tabs = 
-Open in New Window = 
+3-7 days = 3-7 dias
+Close Tab = Fechar aba
+Close Other Tabs = Fechar outras abas
+Close All Tabs = Fechar todas abas
+Open in New Window = Abrir em uma nova janela
 Cursor Snap to Component's Origin or Pad Center While Dragging Component = 
 Undefined = 
 Input = 
