@@ -24,6 +24,20 @@ Select = 选择
 Select = Выбрать
 
 ```
+If the text has free dot(...) or '{}', you need to keep it, for example:
+```
+Join... = Collegati...
+
+or
+
+Add font success: {name} = 字体添加成功: {name}      //keep the {name}
+```
+The "#" charater start line, just the comment line, please ingore it
+```
+#spice            //this is comment line, don't need to translate
+Switch mode = 切换模式
+```
+
 
 3) when you finish, please make a pull request, we will merge it.
 4) we check your translations if they are correctly, we will add it at next editor/website release.
