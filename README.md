@@ -32,6 +32,11 @@ or
 
 Add font success: {name} = 字体添加成功: {name}      //keep the {name}
 ```
+The "#" charater start line, just the comment line, please ingore it
+```
+#spice            //this is comment line, don't need to translate
+Switch mode = 切换模式
+```
 
 
 3) when you finish, please make a pull request, we will merge it.
