@@ -16,7 +16,7 @@ If you want to help to translation:
 the language code please refer at https://www.w3schools.com/tags/ref_language_codes.asp  
 and then remove the Chinese text, translate the English to your language. The characters before `=` need to be preserved  
 for example:
-```
+```js
 // at ui_data_hans.txt
 Select = 选择
 
@@ -25,7 +25,7 @@ Select = Выбрать
 
 ```
 If the text has free dot(...) or '{}', you need to keep it, for example:
-```
+```js
 Join... = Collegati...
 
 or
@@ -33,13 +33,13 @@ or
 Add font success: {name} = 字体添加成功: {name}      //keep the {name}
 ```
 The "#" charater start line, just the comment line, please ingore it
-```
+```js
 #spice            //this is comment line, don't need to translate
 Switch mode = 切换模式
 ```
 
 
-3) when you finish, please make a pull request, we will merge it.
+3) when you finish, please make a pull request, we will merge it. There is no good way to test the translation yet, need to wait us to release a new editor version.
 4) we check your translations if they are correctly, we will add it at next editor/website release.
 
 
