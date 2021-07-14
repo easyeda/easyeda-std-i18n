@@ -13,12 +13,10 @@ If you want to help to translation:
 
 1) please fork this project
 2) change to the forked project, then edit your language file such as `ui_data_uk.txt` etc. 
+3) if you can't find your language file, you can copy `ui_data_hans.txt`, and then modify the txt file name with language code, for example `ui_data_xx.txt`, xx is your language code.   
+the language code please refer at https://www.w3schools.com/tags/ref_language_codes.asp   
+and then remove the Chinese text, translate the English to your language. The characters before `=` need to be preserved.  
 
-if you can't find your language file, you can copy `ui_data_hans.txt`, and then modify the txt file name with language code, for example `ui_data_xx.txt`, xx is your language code.   
-
-the language code please refer at https://www.w3schools.com/tags/ref_language_codes.asp  
-
-and then remove the Chinese text, translate the English to your language. The characters before `=` need to be preserved  
 for example:
 ```js
 // at ui_data_hans.txt
