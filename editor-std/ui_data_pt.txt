@@ -1566,7 +1566,7 @@ Save Changes = Salvar alterações
 To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = Para conectar elementos elétricos, use Wire (tecla de atalho W) e não Line (tecla de atalho L).
 
 Anonymous File = Arquivo anônimo
-Anonymous File can not be cloned, but you can open it, then save it as a new file. = Um arquivo anônimo não pode ser clonado, mas você pode abri-lo e salvá-lo como um novo arquivo.
+Anonymous File can not be cloned, but you can open it, then save it as a new file. = Arquivo anônimo não pode ser clonado, mas você pode abri-lo e salvá-lo como um novo arquivo.
 Free Documents = 
 You must close the file before delete it! = Você deve fechar o arquivo antes de excluí-lo!
 Offline Project = 
