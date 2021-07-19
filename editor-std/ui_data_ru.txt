@@ -429,59 +429,59 @@ Powersw Settings = Настройки Текущего Источника
 Resistor Settings = Настройки Резистора
 Capacitor Settings = Настройки Конденсатора
 Diode Settings = Настройки Диода
-voltPowersw Settings = 
+voltPowersw Settings =
 Inductor Settings = Настройки катушки индуктивности
-VCVS Settings = 
-CCCS Settings = 
-VCCS Settings = 
-CCVS Settings = 
-JFET Settings = 
-FET Settings = 
-Transmission Line Settings = 
-Oscilloscope Settings = 
-XFMR Settings = 
-LOGIC Settings = 
-LOGICSTATE Settings = 
-DIGITALCLOCK Settings = 
-Potentiometer Settings = 
-MUTUAL_INDUCTORS Settings = 
-NE555 Settings = 
-THREE_PHASE Settings = 
-Logic_Probe Settings = 
-78XX Settings = 
-79XX Settings = 
-OPAMP5PEE Settings = 
-OPAMP5PEECN Settings = 
-OPAMP3PEE Settings = 
-OPAMP3PEECN Settings = 
-DELAY_FUSE Settings = 
-Ratio = 
+VCVS Settings = Настройки VCVS
+CCCS Settings = Настройки CCCS
+VCCS Settings = Настройки VCCS
+CCVS Settings = Настройки CCVS
+JFET Settings = Настройки JFET
+FET Settings = Настройки FET
+Transmission Line Settings = Настройки Линии Передачи
+Oscilloscope Settings = Настройки Осциллографа
+XFMR Settings = Настройки XFMR
+LOGIC Settings = Настройки Логического Устройства
+LOGICSTATE Settings = Настройки Логического Состояния
+DIGITALCLOCK Settings = Настройки Цифровых Часов
+Potentiometer Settings = Настройки Потенциометра
+MUTUAL_INDUCTORS Settings = Настройки взаимной индуктивности
+NE555 Settings = Настройка NE555
+THREE_PHASE Settings = Настройка трехфазного источника
+Logic_Probe Settings = Настройка Logic_Probe
+78XX Settings = Настройка 78XX
+79XX Settings = Настройка 79XX
+OPAMP5PEE Settings = Настройка OPAMP5PEE
+OPAMP5PEECN Settings = Настройка OPAMP5PEECN
+OPAMP3PEE Settings = Настройка OPAMP3PEE
+OPAMP3PEECN Settings = Настройка OPAMP3PEECN
+DELAY_FUSE Settings = Настройка DELAY_FUSE
+Ratio = Соотношение
 K[%]
-Model = 
-States = 
+Model = Модель
+States = Состояния
 Voltage[V]
 Voltage gain[V/V]
 Current gain[A/A]
 Transconductance[Mho]
 Transresistance[Ω]
-Voltage Source Type = 
-Current Source Type = 
-multimeter type = 
-power type = 
-Voltmeter Resistance(R)(Ω) = 
-Amperometer Resistance(R)(Ω) = 
-mu.V = 
-mu.A = 
-Sine Wave = 
-Triangular Wave = 
-Rectangular Wave = 
-AC = 
-DC = 
-SINE = 
-PULSE = 
-EXP = 
-SFFM = 
-PWL = 
+Voltage Source Type = Тип Источника Питания
+Current Source Type = Тип Источника Тока
+multimeter type = тип мультиметра
+power type = тип питания
+Voltmeter Resistance(R)(Ω) = Внутреннее Сопротивление Мультиметра(R)(Ω)
+Amperometer Resistance(R)(Ω) = Внутреннее Сопротивление Амперметра(R)(Ω)
+mu.V = Вольтметр
+mu.A = Амперметр
+Sine Wave = Синусоидальный
+Triangular Wave = Треугольный
+Rectangular Wave = Прямоугольный
+AC = Переменный Ток
+DC = Постоянный Ток
+SINE = Синусоидальный
+PULSE = Импульс
+EXP = Экспоненциальный
+SFFM = SFFM
+PWL = PWL
 B.spice = 
 DC Value[V]
 DC Value[A]
@@ -508,12 +508,12 @@ Rise Tau[s]
 Fall Delay[s]
 Fall Tau[s]
 Carrier Freq[Hz]
-Modulation Index = 
+Modulation Index = Коэффициент Модуляции
 Signal Freq[Hz]
 Time[s]
 Value[V]
 Value[A]
-Waveforms = 
+Waveforms = Формы Сигнала
 Duty cycle[%]
 Amplitude[Vp]
 Offset[V]
@@ -538,24 +538,24 @@ Iq[A]
 Cin[F]
 high = 
 low = 
-Oscilloscope = 
-Logic Analyzer = 
-Channel_A = 
-Channel_B = 
-Channel A = 
-Channel B = 
-Time = 
-Reverse = 
-Simulation file exceed = 
-The simulation file is too large and has been stopped for performance reasons. = 
-Timebase = 
-Scale: = 
-X pos.(Div): = 
-Y pos.(Div): = 
+Oscilloscope = Осциллограф
+Logic Analyzer = Логический Анализатор
+Channel_A = Канал_А
+Channel_B = Канал_Б
+Channel A = Канал А
+Channel B = Канал Б
+Time = Время
+Reverse = Инверсия фона
+Simulation file exceed = Превышен размер файла с симуляцией
+The simulation file is too large and has been stopped for performance reasons. =
+Timebase = Развёртка
+Scale: = Шакала
+X pos.(Div): = X позиция (Дел):
+Y pos.(Div): = Y позиция (Дел):
 View meter... = 
-The circuit has components without simulation model: = 
-Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = 
-Resistor1_US = 
+The circuit has components without simulation model: =
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = Интервал симуляции слишком короткий, пожалуйста, подождите 5 секунд и  повторите снова; если данное сообщение появляется снова, возможно вы превысили лимит по запуску симуляции в 500 раз в день.
+Resistor1_US =
 Resistor1_EU/IEC = 
 Resistor1_3D = 
 Capacitor1_US = 
@@ -573,28 +573,28 @@ Inductor_3D =
 Resistor2_US = 
 Resistor2_EU/IEC = 
 Resistor2_3D = 
-Multimeter = 
-Multimeter_3D = 
-Oscilloscope = 
-Oscilloscope_3D = 
-Signal_Generator = 
-Signal Generator_3D = 
-Wattmeter = 
-Wattmeter_3D = 
+Multimeter = Мультиметр
+Multimeter_3D = Мультиметр 3D
+Oscilloscope = Осциллограф
+Oscilloscope_3D = Осциллограф 3D
+Signal_Generator = Генератор Сигналов
+Signal Generator_3D = Генератор Сигналов 3D
+Wattmeter = Ваттметр
+Wattmeter_3D = Ваттметр 3D
 NSSWS1080T_3D = 
-Voltage_Source_VDC = 
-Voltage_Source_VSin = 
-Voltage_Source_VPULSE = 
-Voltage_Source_VEXP = 
-Voltage_Source_VSFFM = 
-Voltage_Source_VPWL = 
+Voltage_Source_VDC = Источник_Напряжения_VDC
+Voltage_Source_VSin = Источник_Напряжения_VSin
+Voltage_Source_VPULSE = Источник_Напряжения_VPULSE
+Voltage_Source_VEXP = Источник_Напряжения_VEXP
+Voltage_Source_VSFFM = Источник_Напряжения_VSFFM
+Voltage_Source_VPWL = Источник_Напряжения_VPWL
 Voltage_Source_V_Behavioral_Source = 
-Current_Source_IDC = 
-Current_Source_ISin = 
-Current_Source_IPULSE = 
-Current_Source_IEXP = 
-Current_Source_ISFFM = 
-Current_Source_IPWL = 
+Current_Source_IDC = Источник_Напряжения_IDC
+Current_Source_ISin = Источник_Напряжения_ISin
+Current_Source_IPULSE = Источник_Напряжения_IPULSE
+Current_Source_IEXP = Источник_Напряжения_IEXP
+Current_Source_ISFFM = Источник_Напряжения_ISFFM
+Current_Source_IPWL = Источник_Напряжения_IPWL
 Current_Source_I_Behavioral_Source = 
 CCCS_1 = 
 CCCS_2 = 
@@ -680,48 +680,47 @@ SPDT_Close =
 SPST_Close = 
 SPST_Open = 
 Fast_Crystal = 
-Lamp = 
+Lamp = Лампа
 BCD_Segment = 
-Seven_Segment = 
+Seven_Segment = Семисегментный индикатор
 Traffic_Light = 
-Lamp Settings = 
+Lamp Settings = Настройки Лампы
 Power[W]
 Dropout Voltage[V]
 Current[A]
 Threshold[V]
-Clock Rate = 
+Clock Rate =
 TrafficLight Settings = 
 BCDSegment Settings = 
-SevenSegment Settings = 
+SevenSegment Settings = Настройки семисегментного индикатора
 SPDT Settings = 
 SPST Settings = 
-LogicAnalyzer Settings = 
-Fuse Settings = 
-Wattmeter Settings = 
+LogicAnalyzer Settings = Настройки Логического Анализатора
+Fuse Settings = Настройки Предохранителя
+Wattmeter Settings = Настройки Ваттметра
 open = 
 close = 
-Common Anode = 
-Common Cathode = 
-AC Amplitude = 
-AC Phase = 
-There are some parts haven't spice model, please use "EElib" and "Spice Symol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = 
-
+Common Anode = Общий Анод
+Common Cathode = Общий Катод
+AC Amplitude = Амплитуда Переменного Тока
+AC Phase = Фаза Переменного Тока
+There are some parts haven't spice model, please use "EElib" and "Spice Symol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Некоторые элементы не имеют SPICE-модели, пожалуйста используйте "EElib" и "Spice Symbol" в "Libraries" из Режима Симуляции, или присвойте им SPICE-модель
 #Pin
 Pin Attributes = Параметры контакта
 Orientation = Ориентация
-Line 45° = 
-Line 90° = 
-Arc 45° = 
-Arc 90° = 
-Free Angle = Free Angle
+Line 45° = Линия 45°
+Line 90° = Линия 90°
+Arc 45° = Дуга 45°
+Arc 90° = Дуга 90°
+Free Angle = Свободный угол
 Start X = Начало по X
 Start Y = Начало по Y
 Length = Длина
 Name = Имя
 name = имя
 Number = Номер
-Spice Pin Order = spice порядок контакта
-Display Number = 
+Spice Pin Order = Spice Порядок Контакта
+Display Number = Отображаемый Номер
 Clock = 
 Show = Показать
 Electric = Электрический
@@ -740,15 +739,15 @@ Net Label = Имя шины
 Prefix = Префикс
 
 #Image Attributes and Dialog
-Add Image = 
-Image Attributes = Параметры изображения
-Image URL = URL изображения
-Input an image URL = 
-Invalid image URL = 
-Invalid Prefix = 
+Add Image = Добавить Изображение
+Image Attributes = Параметры Иизображения
+Image URL = URL Изображения
+Input an image URL = Введите URL изображения
+Invalid image URL = Некорректный URL изображения
+Invalid Prefix = Некорректный Префикс
 Failed to load the image = Не удалось загрузить изображение
-Image URL contains special characters = 
-From Web URL = По ссылке
+Image URL contains special characters = URL изображения содержит спецсимволы
+From Web URL = По ссылке из Web
 From Local Computer = С устройства
 Please select a png/gif/jpg file. = Пожалуйста, выберите png/gif/jpg файл.
 Please select an image file. = Пожалуйста, выберите файл изображения.
@@ -761,7 +760,7 @@ frequency = частота
 Rated Voltage = Номинальное напряжение
 Rated Current = Номинальный ток
 resistance = сопритивление
-Resistance = 
+Resistance = Сопротивление
 Resistance[Ω]
 inductance = индуктивность
 Operating Temperature = Рабочая температура
@@ -781,18 +780,18 @@ Routing Width = Ширина дорожки
 [/router]
 Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = 
 Routing Angle = Угол дорожки
-Routing Conflict = 
+Routing Conflict = Конфликт Трассировки
 Remove Loop = 
-Cut SilkScreen = 
+Cut SilkScreen = Разрезать Шелкографию
 Grid = Сетка
-Grid 90 = 
-Grid 45 = 
+Grid 90 = Сетка 90
+Grid 45 = Сетка 45
 Copper Zone = Медная площадка
 Visible = Видимая
 Invisible = Невидимая
-Ignore = 
-Block = 
-RoundTrack = 
+Ignore = Игнорировать
+Block = Блокировать
+RoundTrack = Округление Дорожки
 
 #Track
 Track Properties = Параметры дорожки
@@ -823,7 +822,7 @@ Solder Mask Expansion =
 #Via Properties
 Via Properties = Свойства переходного отверстия
 Diameter = Диаметр
-Drill Diameter = 
+Drill Diameter = Диаметр сверла
 
 #Hole Properties
 Hole Properties = Параметры отверстия
@@ -833,38 +832,38 @@ Hole Properties = Параметры отверстия
 Text Properties = Свойства текста
 Line Width = Ширина линий
 Rotation = Поворот
-Fonts Management = 
+Fonts Management = Настройка Шрифтов
 
 #Dimension Attributes
 Dimension Attributes = Параметры измерения
 
 #Footprint Attributes
-Component Attributes = 
-Display Prefix = 
-Pin Name = Имя контакта
-Pin Number = Номер контакта
-Spice Pin Number = Номер контакта Spice
+Component Attributes = Параметры Компонента
+Display Prefix = Отображаемый Префикс
+Pin Name = Имя Контакта
+Pin Number = Номер Контакта
+Spice Pin Number = Номер Контакта Spice
 Graphics = 
 Pattern = 
 
 #Arc Properties
-Arc Properties = Параметры дуги
-Start Angle = 
-End Angle = 
-Rotation Direction = 
+Arc Properties = Параметры Дуги
+Start Angle = Начало Угла
+End Angle = Конец Угла
+Rotation Direction = Направление Вращения
 
 #Rect Properties
-Rect Properties = Параметры прямоугольника
-Round radius = Радиус скругления
+Rect Properties = Параметры Прямоугольника
+Round radius = Радиус Скругления
 
 #Circle Properties
-Circle Properties = Параметры круга
+Circle Properties = Параметры Круга
 Radius = Радиус
 
 #CopperArea Properties
 CopperArea Properties = Параметры медного полигона
 Clearance = Чистота
-Pad Connection = Подключение полигона
+Pad Connection = Подключение Полигона
 Direct = Прямое
 Spoke = Spoke
 Keep Island = Keep Island
@@ -877,7 +876,7 @@ Rebuild CopperArea = Перестроить медный полигон
 Edit Points = Редактировать точки
 Direct = Прямое
 Spoke = Spoke
-No Solid = 
+No Solid =
 Board Cutout = 
 Solid = Сплошной
 [copperArea]
