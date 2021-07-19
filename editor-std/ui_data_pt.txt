@@ -173,15 +173,15 @@ Change to Simulation Mode = Mudar para o modo de simulação
 Welcome to Use LCEDA = 
 Welcome to Use EasyEDA = 
 Enable Education Edition Features for Free >>> = 
-Quick Start = 
-More Help = 
-Explore = 
-Message = 
+Quick Start = Início Rápido 
+More Help = Mais Ajuda
+Explore = Explorar
+Message = Mensagens
 [start]
-Example = 
-Forum = 
+Example = Exemplo
+Forum = Fórum
 Tutorials = Tutoriais
-Videos = 
+Videos = Vídeos
 [/start]
 Custom Data = 
 LCEDA = 
@@ -1462,7 +1462,7 @@ New Spice Subckt = New Spice Subckt
 Modify = Modificar
 Delete = Deletar
 Add sub part = Adicionar subpartição
-Clone = Clone
+Clone = Clonar
 Version History = Histórico de versões
 Refresh List = Atualizar lista
 Create New Project = Criar novo projeto
@@ -1481,7 +1481,7 @@ Hole should be inside the pad =
 Hole is draggable = 
 
 #My Part Tree Menu
-Clone = Clone
+Clone = Clonar
 Reload parts = Recarregar peças
 Layers = Camadas
 
@@ -1566,7 +1566,7 @@ Save Changes = Salvar alterações
 To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = Para conectar elementos elétricos, use Wire (tecla de atalho W) e não Line (tecla de atalho L).
 
 Anonymous File = Arquivo anônimo
-Anonymous File can not be cloned, but you can open it, then save it as a new file. = Arquivo anônimo não pode ser clonado, mas você pode abri-lo e salvá-lo como um novo arquivo.
+Anonymous File can not be cloned, but you can open it, then save it as a new file. = Um arquivo anônimo não pode ser clonado, mas você pode abri-lo e salvá-lo como um novo arquivo.
 Free Documents = 
 You must close the file before delete it! = Você deve fechar o arquivo antes de excluí-lo!
 Offline Project = 
@@ -1995,7 +1995,7 @@ User Defined = Definido pelo usuário
 Theme = Tema
 Theme Setting = Definição de Tema
 Close = Fechar
-Open = Aberto
+Open = Abrir
 Collapse = Colapso
 Toggle toolbar = Barra de alternância
 Toggle left bar = Alternar barra esquerda
@@ -2898,7 +2898,7 @@ No, Keep It =
 
 Download Client = 
 
-Search tutorial、open source projects etc. = 
+Search tutorial、open source projects etc. = Procure por tutoriais、projetos de código aberto etc.
 
 Go to LCSC and search for = 
 Go to LCSC = 
@@ -3093,11 +3093,11 @@ Also update track's net (Only applies to circumstance under which prefix/netlabe
 Cannot open online documents on Project Offline mode. = 
 
 Please select a project = 
-Opened Projects = 
-Open Project = Projeto Aberto
-Close Project = 
-Open All Projects = 
-Close All Projects = 
+Opened Projects = Projetos Abertos
+Open Project = Abrir Projeto
+Close Project = Fechar Projeto
+Open All Projects = Abrir Todos os Projetos
+Close All Projects = Fechar Todos os Projetos
 
 Doesn't support JLCPCB SMT Service = 
 for JLCPCB SMT Service = 
