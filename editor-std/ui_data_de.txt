@@ -2676,199 +2676,199 @@ The number of rows and columns cannot be set to 1 simultaneously =
 
 #edit path point
 [editPathPoints-dlg]
-Arc(R) = 
-Type = 
-Action = 
-add before = 
-add after = 
-delete = 
+Arc(R) = Bogen (R)
+Type = Typ
+Action = Aktion
+add before = Vorher hinzufügen
+add after = Nachher hinzufügen
+delete = löschen
 [/editPathPoints-dlg]
 
 #edit polygon point
 [editPolygonPoints-dlg]
-Action = 
-add before = 
-add after = 
-delete = 
+Action = Aktion
+add before = Vorher hinzufügen
+add after = Nachher hinzufügen
+delete = löschen
 [/editPolygonPoints-dlg]
-You have unconfirmed edit! = 
-Invalid edit! = 
+You have unconfirmed edit! = Nicht-gespeicerte Änderungen ausstehend!
+Invalid edit! = Ungültige Änderung
 
 #Dialog PCB Information
-PCB Information... = 
-Signal Layers = 
-None Signal Layers = 
-Pads = 
-Surface Pads = 
-Plated Through-hole Pads = 
-None Plated Through-hole Pads = 
-Holes = 
-Vias = 
-Length of Tracks = 
-Copper Areas = 
+PCB Information... = Infos PCB...
+Signal Layers = Signalebenen
+None Signal Layers = Nicht-Signalebenen
+Pads = Pads
+Surface Pads = Oberflächliche Pads
+Plated Through-hole Pads = Plattierte, durchgebohrte Pads (PTH)
+None Plated Through-hole Pads = Nicht-plattierte, durchgebohrte Pads (NPTH)
+Holes = Löcher
+Vias = Vias
+Length of Tracks = Spurlängen
+Copper Areas = Kupferbeiche
 
 #Differential Pair Routing
-Differential Pair Routing = 
+Differential Pair Routing =
 Differential Pair Rule Setting = 
-Please input track width = 
-Please input clearance = 
-Routing Rules = 
+Please input track width = Bitte Spurbreite angeben
+Please input clearance = Bitte Abstand angeben
+Routing Rules = Routing-Regeln
 
 #Route Length Tuning
 Track Length Tuning... = 
 Tracks with different net or non-track found in current targets. = 
 Please select the signal tracks to be tuning. = 
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = 
-45° Angle = 
-90° Angle = 
-DRC Track Length : = 
-Current Length : = 
-Additional Length : = 
-Target Length: = 
-Current Length: = 
+The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = Die totale Länge verletzt eine DRC-Restriktion. Weiterfahren?
+45° Angle = 45° Grad
+90° Angle = 90° Grad
+DRC Track Length : = DRC Spurlänge:
+Current Length : = Aktuelle länge:
+Additional Length : = Zusätzliche Länge:
+Target Length: = Ziellänge:
+Current Length: = Aktuelle Länge:
 
-can not connect to the server = 
+can not connect to the server = Kann nicht mit dem Server verbinden
 
 #Dialog Copper Area Manager
-Copper Area Manager... = 
-Copper Area Manager = 
-Order = 
+Copper Area Manager... = Kupferbereiche verwalten...
+Copper Area Manager = Manager Kupferbereiche
+Order = Ordnung
 Name = Name
 Layer = Lage
 Color = Farbe
 Net = Netz
-Move Up = 
-Move Down = 
+Move Up = Nach oben
+Move Down = Nach unten
 Apply = Anwenden
-Cancel = Abrechen
-Copper Area do not allow self-intersection! = 
-No copper area! = 
+Cancel = Abbrechen
+Copper Area do not allow self-intersection! = Kupferbereich darf sich nicht mit sich selbst schneiden!
+No copper area! = Kein Kupferbereich!
 #Dialog report error
-Datasheet = 
-Verification = 
-Symbol = 
-Pad Number = 
-Pad Size = 
-Remark = 
-Correct = 
-Incorrect = 
+Datasheet = Datenblatt
+Verification = Verifizierung
+Symbol = Symbol
+Pad Number = Padnumber
+Pad Size = Padgrösse
+Remark = Notiz
+Correct = Korrekt
+Incorrect = Inkorrekt
 Submit = Senden
-Tip = 
-Please select one component = 
-Location X = 
-Location Y = 
-Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = 
+Tip = Tipp
+Please select one component = Bitte eine Komponente auswählen
+Location X = X-Position
+Location Y = Y-Position
+Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = Ihre aktuelle Browserversion unterstützt ggf. einige Funktionen nicht. Bitte auf einen modernen Browser oder den Desktop-Client wechseln.
 EasyEDA Client = 
 LCEDA Client = 
-Chrome = 
-FireFox = 
-New Version = 
-Switch Version = 
-Member = 
-Update Time = 
-Editor = 
-Current Version: = 
-Select a version to switch = 
-3D Model = 
+Chrome = Chrome
+FireFox = Firefox
+New Version = Neue Version
+Switch Version = Version wechseln
+Member = Mitglied
+Update Time = Modifiziert am
+Editor = Editor
+Current Version: = Aktuelle Version: 
+Select a version to switch = Version zum wechseln auswählen
+3D Model = 3D Modell
 Board Side = 
 Display = 
-Copper = 
-Create New Version = 
-Create new version success! = 
-Version Management = 
-Switch success! = 
-Please close current version's documents first! = 
-Creator = 
-Create Time = 
-Fail to connect to server! Please check your internet connection status and try again! = 
+Copper = Kupfer
+Create New Version = Neue Version erstellen
+Create new version success! = Neue Version wurde erstellt!
+Version Management = Versionsmanagement
+Switch success! = Erfolgreich gewechselt!
+Please close current version's documents first! = Bitte aktuelle Version des Dokumentes zuerst schliessenè
+Creator = Ersteller
+Create Time = Erstellt am
+Fail to connect to server! Please check your internet connection status and try again! = Verbindung mit dem Server unterbrochen. Bitte Verbindung überprüfen und neu versuchen!
 Spice Number = 
-Create = 
-3D Outline = 
+Create = Erstellen
+3D Outline = 3D-Umriss
 Cannot create the slot hole via the board outline, please use the following methods: = 
 Use the solid region and set its type as Board Cutout = 
 Select a Track/Arc, right-click to use the "Convert to Board Cutout" = 
 Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cutout" = 
-The more information please refer at = 
-Save "{0}" success! = 
-Save "{0}" failed! = 
-Invalid Size = 
-Processing = 
-Invalid Size = 
+The more information please refer at = Folgende Seite für mehr Informationen abgreifen:
+Save "{0}" success! = "{0}" wurde gespeichert!
+Save "{0}" failed! = Konnte "{0}" nicht speichern!
+Invalid Size = Ungültige Grösse
+Processing = In Arbeit
+Invalid Size = Ungültige Grösse
 NetFlag GND = Netzbezeichnung GND
 NetFlag VCC = Netzbezeichnung VCC
 NetFlag +5v = Netzbezeichnung +5V
-No Useful Data! = 
-SVG Preview = 
+No Useful Data! = Unnütze Daten.
+SVG Preview = Vorschau (SVG)
 Prefix contains not supported charater(s) ! = 
 Name contains not supported charater(s) ! = 
-Create Grid Path = 
-Please Input Name = 
-Building Copper Area = 
-Processing = 
-Opening File = 
-Update from Library = 
-Update Footprint = 
-Find footprint(s) have been updated, do you want to update? = 
-3D File: = 
-Model List = 
-Are you sure merge net {0} and net {1}? = 
-Display Footprint = 
-Display Footprint Name While Placing Component = 
-Annotate Prefix Automatically After Placing Component = 
-Program Error, Please Contact Technical Support! = 
-Search Engine = 
-Keyword to Filter = 
-Normal Mode = 
-Expand Mode = 
-3D Model Manager = 
-3D Model Preview = 
-3D Model = 
-3DModel = 
+Create Grid Path = Gitterpfad erstellen
+Please Input Name = Bitte namen angeben
+Building Copper Area = Kupferbereich wird erstellt
+Processing = In Arbeit
+Opening File = Öffne Datei...
+Update from Library = Von Bibliothek aktualisieren
+Update Footprint = Fussabdruck aktualisieren
+Find footprint(s) have been updated, do you want to update? = Fussabdruck/abdrücke wurden aktualisiert. Datei ebenfalls aktualisieren?
+3D File: = Datei für 3D-Modell:
+Model List = Modellliste
+Are you sure merge net {0} and net {1}? = Wirklich Netz {0} mit {1} zusammenführen?
+Display Footprint = Fussabdruck anzeigen
+Display Footprint Name While Placing Component = Namen des Fussabdruckes beim platzieren der Komponente anzeigen
+Annotate Prefix Automatically After Placing Component = Präfix automatisch nach platzierung einer Komponente annotieren
+Program Error, Please Contact Technical Support! = Programmfehler, bitte technischer Support kontaktieren!
+Search Engine = Suchmaschine
+Keyword to Filter = Nach Schlüsselwort filtern
+Normal Mode = Normaler Modus
+Expand Mode = Erweiterungsmodus
+3D Model Manager = Manager 3D Modelle
+3D Model Preview = Vorschau 3D Modell
+3D Model = 3D Modell
+3DModel = 3DModell
 Document = Dokumente
 
 [pcblayer]
-3DModel = 
+3DModel = 3DModell
 Document = Dokumente
 [/pcblayer]
 
 Adjustment = 
 View Larger Image = 
-Previous = 
-Previous Image = 
-Next Image = 
-Notice: For reference only, please refer to the real product = 
+Previous = Vorherig
+Previous Image = Vorheriges Bild
+Next Image = Nächstes Bild
+Notice: For reference only, please refer to the real product = Hinweis: Bitte echtes Produkt als Referenz angeben
 It's under designing, please wait. = 
-The width of track/arc/circle can not less than 0.1mil! = 
-clone success ! = 
+The width of track/arc/circle can not less than 0.1mil! = Die Breite der Spur/ des Bogen/Kreises darf nicht weniger als 0.1mil sein!
+clone success ! = Klonen erfolgreich!
 Footprint Naming Reference = 
 3D Model Manager = 
 Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = 
 Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? = 
 The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. = 
-This project is not public, can not view homepage! = 
+This project is not public, can not view homepage! = Die Webseite kann nicht angezeigt werden: Dieses Projekt ist nicht öffentlich.
 
 [grid]
 None = 
 [/grid]
 
 #lib verify and mounted
-This component is verified = 
-This component is unmounted = 
+This component is verified = Diese Komponente wurde nicht verifiziert
+This component is unmounted = Diese Komponente ist unmontiert
 
 #find component
-Find Next = 
-Object not found = 
+Find Next = Nächste finden
+Object not found = Objekt nicht gefunden
 
 ##offset Elements
-Offset X = 
-Offset Y = 
-Offset = 
-Absolute Offset = 
-Relative Offset = 
-Absolute Offset... = 
-Relative Offset... = 
-Reference Point X = 
-Reference Point Y = 
+Offset X = X-Offset
+Offset Y = Y-Offset
+Offset = Offset
+Absolute Offset = Absolutes Offset
+Relative Offset = Relatives Offset
+Absolute Offset... = Absolutes Offset...
+Relative Offset... = Relatives Offset...
+Reference Point X = X-Referenzpunkt
+Reference Point Y = Y-Referenzpunkt
 
 #内电层
 Rebuild Plane = 
@@ -2881,92 +2881,92 @@ Fill Type =
 Solid = 
 [/PlaneZone]
 
-Solid Region do not allow self-intersection! = 
+Solid Region do not allow self-intersection! = Solide Region darf sich nicht mit sich selbst schneiden.
 
-The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. = 
-The prefixes are not allowed to repeat! = 
+The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. = Präfixe, Namen oder Texte sind zu weit vom Fussabdruck entfernt. Bitte manuell ausblenden, falls Sie sie nicht anzeigen möchten.
+The prefixes are not allowed to repeat! = Präfixe dürfen sich nicht wiederholen.
 Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = 
-The origin of the canvas has been set in the graphics now, you can save again. = 
-Backup Project = 
-Open Project Directory = 
+The origin of the canvas has been set in the graphics now, you can save again. =
+Backup Project = Projekt sichern
+Open Project Directory = Projektordner öffnen
 
-{0} items updated = 
+{0} items updated = {0} Elemente aktualisiert
 
-The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. = 
-Yes, Overwrite It = 
-No, Keep It = 
+The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. = Die aktuelle Datei {0} hat eine aktualisierte Version. Diese überschreiten? Falls Nein, bitte das aktuelle Dokument erneut öffnen.
+Yes, Overwrite It = Ja, überschreiten
+No, Keep It = Nein, beibehalten
 
-Download Client = 
+Download Client = Client herunterladen
 
 Search tutorial、open source projects etc. = 
 
-Go to LCSC and search for = 
-Go to LCSC = 
+Go to LCSC and search for = Gehe zu LCSC und suche nach
+Go to LCSC = Gehe zu LCSC
 
 Hide Ratline Layer and Keep the Component Prefix When Paste Objects = 
 
-ALL.layer = 
-Copper.layer = 
-Non-Copper.layer = 
-Other.layer = 
+ALL.layer = Alle.Layer
+Copper.layer = Kupfer.Layer
+Non-Copper.layer = Nicht-Kupfer.Layer
+Other.layer = Andere.Layer
 
-Please enter at least 2 characters! = 
-View Datasheet = 
-View Datasheet... = 
+Please enter at least 2 characters! = Bitte mindestens zwei Zeichen angeben! 
+View Datasheet = Datenblatt anzeigen
+View Datasheet... = Datenblatt anzeigen...
 
 The corresponding package or network could not be found in the currently open PCB document = 
-delete fail = 
+delete fail = Konnte nicht löschen
 
 [crashRecovery]
-Libraries = 
+Libraries = Bibliotheken
 [/crashRecovery]
-Canvas origin anomaly! = 
+Canvas origin anomaly! = Quelle des Canvas ist fehlerhaft!
 
-Component's Name = 
-Component's Prefix = 
-Component's Footprint = 
+Component's Name = Name (Komponente)
+Component's Prefix = Präfix (Komponente)
+Component's Footprint = Fussabdruck (Komponente)
 
 [findlib]
 Clear = Leeren
-Apply Filters = 
-Result = 
+Apply Filters = Filter anwenden
+Result = Ergebnis
 Place = Plazieren
-Prev = 
-Next = 
-Total {count} Count = 
+Prev = Vorherig
+Next = Nächste
+Total {count} Count = Anzahl: {count}
 About = Über
-Items = 
+Items = Elemente
 [/findlib]
 
-Object = 
-Layers and Objects = 
+Object = Objekt
+Layers and Objects = Schichten und Objekte
 All = Alle
 
-Add custom = 
+Add custom = Eigene hinzufügen
 
-Connections = 
-Attempted: = 
-Completed: = 
-Failed: = 
-Total Vias: = 
+Connections = Verbindungen
+Attempted: = Versucht:
+Completed: = Fertiggestellt:
+Failed: = Fehlgeschlagen:
+Total Vias: = Anzahl Vias:
 
 Please confirm moving option = 
-Only this pad = 
-For this component = 
-View Owner = 
-View Detail = 
+Only this pad = Nur dieses Pad
+For this component = Für diese Komponente
+View Owner = Inhaber anzeigen
+View Detail = Detail anzeigen
 
 
 # 批量放置过孔
-Place Vias = 
-Placing Vias = 
-Removing Vias = 
+Place Vias = Vias platzieren
+Placing Vias = Vias werden platziert
+Removing Vias = Vias werden entfernt
 Batch Vias for Copper = 
-Add/Remove Vias = 
+Add/Remove Vias = Vias hinzufügen/entfernen
 Diameter = Durchmesser
-Drill Diameter = 
-Column Spacing = 
-Row Spacing = 
+Drill Diameter = Bohrdurchmesser
+Column Spacing = Abstand Spalten
+Row Spacing = Abstand Reihen
 Multiple vias have been placed, do you want to rebuild the copper area? = 
 Remove vias finish, do you want to rebuild the copper area? = 
 The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! = 
@@ -2974,40 +2974,40 @@ Save fail! Please try again! =
 Please select a copper outline = 
 Can't find copper area at other layers, please add the copper area with the same net at other layer first. = 
 
-Add favorite success! = 
-Remove favorite success! = 
-Remove favorite failed! = 
-Whether if remove favorite? = 
-Split by ';' for multi tags = 
+Add favorite success! = Element in Favoriten aufgenommen.
+Remove favorite success! = Element aus Favoriten entfernt.
+Remove favorite failed! = Element konnte nicht aus Favoriten entfernt werden!
+Whether if remove favorite? = Aus Favoriten entfernen?
+Split by ';' for multi tags = Tags mit ';' trennen.
 
-This size is the determined size! = 
-The associated pad has been locked = 
-Split by space or , for multi tags = 
+This size is the determined size! =
+The associated pad has been locked = Das assoziierte Pad wurde gesperrt.
+Split by space or , for multi tags = Tags mit Leerschlag oder ',' trennen.
 
-Rotation X = 
-Rotation Y = 
-Rotation Z = 
+Rotation X = X-Rotation
+Rotation Y = Y-Rotation
+Rotation Z = Z-Rotation
 
-Some fields are filled invalid data = 
-start time should be earlier than stop time = 
+Some fields are filled invalid data = Einige Felder beinhalten ungültige Werte
+start time should be earlier than stop time = Startzeit sollte früher als die Stoppzeit sein
 Number of points should be less than 100 in octave variation = 
-Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = 
-Get historical records fail! = 
-This 3D model didn't create the outlines successfully, please import it again or contact with us. = 
-There is No Tag! = 
-Assign successful! = 
+Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = Startfrequenz sollte kleiner als Stoppfrequenz sein. (Suffixe: meg = Mega, m = milli)
+Get historical records fail! = Konnte historische Einträge nicht abfragen!
+This 3D model didn't create the outlines successfully, please import it again or contact with us. = Dieses 3D-Modell hat die Umrisse nicht erfolgreich erstellt. Bitte neu importieren oder Kontakt mit dem Support aufnehmen.
+There is No Tag! = Es wurde kein Tag definiert.
+Assign successful! = Erfolgreich zugewiesen.
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = 
-Update Attribute = 
-Please fill in at least 5 words. = 
-Mouse hovering over the track to highlight the entire network = 
-Net Highlighting While Cursor Hover the Track = 
+Update Attribute = Attributen aktualisieren
+Please fill in at least 5 words. = Bitte mindestens fünf Wörter angeben
+Mouse hovering over the track to highlight the entire network = Das gesamte Netz wird hervorgehebt, sobald die Maus über eine Spur schwebt.
+Net Highlighting While Cursor Hover the Track = Netz beim schweben über einer Spur hervorheben.
 When circle set as "Yes", the Pin length must more than 6 = 
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = 
 
-Logout fail! Please try again! = 
-Logout success! We look forward you to use LCEDA again! = 
-Logout success! We look forward you to use EasyEDA again! = 
-Click to Preview 3D = 
+Logout fail! Please try again! = Fehler während der Abmeldung!
+Logout success! We look forward you to use LCEDA again! = Abmeldung erfolgreich! Bis zum nächsten Mal bei LCEDA!
+Logout success! We look forward you to use EasyEDA again! = Abmeldung erfolgreich! Bis zum nächsten Mal bei EasyEDA!
+Click to Preview 3D = 3D-Vorschau öffnen
 [logoutDialog]
 Logout = Ausloggen
 [/logoutDialog]
@@ -3016,33 +3016,33 @@ Logout = Ausloggen
 All = Alle
 [/findlibTag]
 
-Export Pick and Place File = 
+Export Pick and Place File = Datei für Pick-and-Place exportieren
 Mirror the bottom component's X coordinate (JLCPCB doesn't need) = 
-Work Space = 
+Work Space = Arbeitsfläche
 Include panelized components' coordinates = 
-Personal Workspace = 
-Work Space - {name} = 
-Work Space - Personal = 
-Cloning = 
+Personal Workspace = Persönliche Arbeitsfläche
+Work Space - {name} = Arbeitsfläche - {name}
+Work Space - Personal = Arbeitsfläche - Personal
+Cloning = Klonung
 
-Project Owner = 
-Clone Project = 
-Homepage = 
-Apply for Education Edition = 
-Load Organization failed = 
-Joined = 
-Favorite = 
-This operation will unfavorite this project, do you want to continue? = 
-View Homepage = 
-Private Project = 
-3-7 days = 
-Close Tab = 
-Close Other Tabs = 
-Close All Tabs = 
-Open in New Window = 
+Project Owner = Projektinhaber
+Clone Project = Projekt klonen
+Homepage = Webseite
+Apply for Education Edition = Für Education Edition bewerben
+Load Organization failed = Laden der Organisation fehlgeschlagen
+Joined = Beigetreten
+Favorite = Favorit
+This operation will unfavorite this project, do you want to continue? = Dieses Projekt wird von den Favoriten entfernt. Weiterfahren?
+View Homepage = Webseite öffnen
+Private Project = Privates Projekt
+3-7 days = 3 bis 7 Tage
+Close Tab = Tab schliessen
+Close Other Tabs = Alle anderen Tabs schliessen
+Close All Tabs = Alle Tabs schliessen
+Open in New Window = In neuem Fenster öffnen
 Cursor Snap to Component's Origin or Pad Center While Dragging Component = 
-Undefined = 
-Input = 
+Undefined = Undefiniert
+Input = Eingabe
 Model Unit = 
 File Unit = 
 This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? = 
@@ -3051,38 +3051,38 @@ This part contains subparts, please make sure you have checked other subparts be
 Power = 
 [/saveAs]
 
-Assign LCSC Part# = 
-Unexpected error while converting. Perhaps unsupported file type or program bug. = 
-Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = 
+Assign LCSC Part# = LCSC Partnummer Zuordnen
+Unexpected error while converting. Perhaps unsupported file type or program bug. = Unerwarter Fehler beim Konvertierungsprozess.
+Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = Duplikate von Komponenten-IDs wurden detektiert. Bitte mit "OK" diese Komponenten-IDs dynamisch neu zuweisen, das Dokument speichern und den Vorgang anschliessend wiederholen.
 
 #electromagneticSimulation
-Electromagnetic Simulation... = 
-You will upload Gerebr to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = 
-SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = 
-Visit the SuperEM = 
-SuperEM User Guide = 
+Electromagnetic Simulation... = Elektromagnetische Simulation...
+You will upload Gerebr to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = Eine Gerber-Datei (Exklusiv Kontodaten) wird an SuperEM für eine elektromagnetische Simulation transferiert. Weiterfahren?
+SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. =
+Visit the SuperEM = SuperEM besuchen
+SuperEM User Guide = SuperEM Benutzerhandbuch
 Upload Gerber to SuperEM successfully, please click "OK" buttun to continue = 
 
-Format = 
+Format = Format
 View = Ansichten
-Design = 
-Simulation = 
-Advanced = 
-Fabrication = 
-Check DRC = 
-Simulation Setting = 
-BOM = 
-PCB Fabrication File(Gerber) = 
-Pick and Place File = 
-Parts Order = 
-PCB Order = 
-SIM = 
-STD = 
-WaveForm = 
+Design = Entwurf
+Simulation = Simulation
+Advanced = Erweitert
+Fabrication = Fabrizierung
+Check DRC = DRC überprüfen
+Simulation Setting = Simulationseinstellungen
+BOM = BOM
+PCB Fabrication File(Gerber) = Gerber-Datei
+Pick and Place File = Pick-and-Place Datei
+Parts Order = Bauelemente bestellen
+PCB Order = Leiterplatte bestellen
+SIM = SIM
+STD = STD
+WaveForm = Wellenform
 
-Place Module = 
-Please enter identification letters: = 
-Only support English letters, up to 5. = 
+Place Module = Modul platzieren
+Please enter identification letters: = Bitte Identifzierungszeichen angeben.
+Only support English letters, up to 5. = Nur bis zu 5 englische Zeichen werden unterstützt.
 
 Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = 
 Opening = 
@@ -3090,17 +3090,17 @@ Opening =
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 
 
 # 客户端返回的错误提示
-Cannot open online documents on Project Offline mode. = 
+Cannot open online documents on Project Offline mode. = Kann nur-online Dokumente nicht öffnen: Dieses Projekt ist im Offline-Modus.
 
-Please select a project = 
-Opened Projects = 
+Please select a project = Bitte Projekt auswählen
+Opened Projects = Offene Projekte
 Open Project = Offenes Projekt
-Close Project = 
-Open All Projects = 
-Close All Projects = 
+Close Project = Projekt schliessen
+Open All Projects = Alle Projekte öffnen
+Close All Projects = Alle Projekte schliessen
 
-Doesn't support JLCPCB SMT Service = 
-for JLCPCB SMT Service = 
+Doesn't support JLCPCB SMT Service = Unterstützt den JLCPCB SMT-Dienst nicht
+for JLCPCB SMT Service = für JLCPCB SMT-Dienst
 
 Reset failed! There are duplicate component prefixes in the current schematic: = 
 Reset failed! There are duplicate component prefixes in the current PCB: = 
@@ -3123,17 +3123,17 @@ Will replace the graphics and custom data of current document, after imported pl
 Open footprint "Custom Data" dialog = "Benutzerdefinierte Daten" für diesen Fussabdruck öffnen.
 
 #创建引脚外形
-Create Lead Shape = 
-Base on Pad Center = 
-Base on Canvas Origin = 
-Lead shape = 
-Footprint Type = 
+Create Lead Shape = Form für Leitung erstellen
+Base on Pad Center = Auf Pad-Mitte basieren
+Base on Canvas Origin = Auf Canvas-Quelle basieren
+Lead shape = Leitungsform
+Footprint Type = Typ Fussabdruck
 From pad shape = 
-Lead length = 
-Lead width = 
-Lead diameter = 
-Scaling ratio = 
-Leads creating direction = 
+Lead length = Leitungslänge
+Lead width = Leitungsbreite
+Lead diameter = Leitungsdurchmesser
+Scaling ratio = Skalierungsverhältnis
+Leads creating direction = Ausrichtung neuer Leitungen
 Auto = Auto
 Horizontal = Horizontal
 Vertical = Vertikal
@@ -3158,14 +3158,14 @@ Lower left = Unten links
 Center of Pads = Mitte der Pads
 First Pin = Erster Pin
 Package Name = Gehäusename
-Pins Number = 
-Rows Of Pin = 
-Columns Of Pin = 
-Polarity = 
-Pad Shape = 
-Body Diameter = 
-Lead Span = 
-Lead Vertical Span = 
+Pins Number = Anzahl Pins
+Rows Of Pin = Reihen Pins
+Columns Of Pin = Spalten Pins
+Polarity = Polarität
+Pad Shape = Pad-Form
+Body Diameter = Körperdurchmesser
+Lead Span = Spannweite Leitung
+Lead Vertical Span = Vertikale Spannweite Leitung
 Body Length = Körperlänge
 Body Height = Körpergrösse
 Pin Diameter = Pin-Durchmesser
@@ -3178,7 +3178,7 @@ Pin Horizontal Spacing = Horizontaler Abstand Pin
 Pin Vertical Spacing = Vertikaler Abstand Pin
 ThermalPad = Thermisches Pad
 Pad Expansion = Ausdehnung Pad
-Custom PasteMask = 
+Custom PasteMask = Eigene 
 Fabrication Tolerance = Fabrikationstoleranz
 Plcarment Tolerance = Platzierungstoleranz
 FirstPin Position = Position erster Pin
@@ -3202,8 +3202,8 @@ Diode = Diode
 LED = LED
 Fuse = Sicherung
 Entity height = Höhe (Entität)
-Lead Overhang = Überhang Zuleitung
-Lead Thickness = Dicke Zuleitung
+Lead Overhang = Leitungsüberhang
+Lead Thickness = Leitungsdicke
 Unknown mistake = Unbekannter Fehler
 Has ThermalVias = Hat Thermische Vias
 Polar Capacitance = Polare Kapazität
