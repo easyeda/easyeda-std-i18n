@@ -810,7 +810,7 @@ Shape = Forma
 Hole(D) = Buraco (D)
 Center X = Centro X
 Center Y = Centro Y
-Round = Rodada
+Round = Arredondado
 Oval = Oval
 Hole Shape = Forma do Buraco
 Slot = Slot
@@ -863,7 +863,7 @@ Radius = Raio
 
 #CopperArea Properties
 CopperArea Properties = Propriedades de CopperArea
-Clearance = Apuramento
+Clearance = Afastamento
 Pad Connection = Conexão do Pad
 Direct = Direto
 Spoke = Spoke
