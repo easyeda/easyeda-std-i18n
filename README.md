@@ -54,7 +54,7 @@ Switch mode = 切换模式
 
 ## Contributor
 
-Thanks for the contributor to help to translate the EasyEDA editor.
+**Thanks for all the contributors to help to translate the EasyEDA editor. Thanks**
 
 Andrew and Adambyw: Help translated EasyEDA from English to Polish. http://and.elektroda.eu/
 
