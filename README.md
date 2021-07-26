@@ -1,7 +1,8 @@
 # easyeda-i18n
-This is EasyEDA editor and website i18n files, the more language translations contribution will be welcome, if you want to show your language at EasyEDA editor, you can help to translate it.
 
-EasyEDA is free and and powerful and easy to use online PCB tool, it helps a lot of people to bring the idea to real design. 
+EasyEDA is free and and powerful and easy to use online PCB tool, it helps a lot of people to bring the idea to real design. If you using EasyEDA and love to share it to your conutry people, please help us to make a translation.
+
+This porject is EasyEDA editor and website i18n files, the more language translations contribution will be welcome.
 
 ## Folder
 
@@ -9,12 +10,16 @@ EasyEDA is free and and powerful and easy to use online PCB tool, it helps a lot
 
 ## Translations
 
-If you want to help to translation:
+If you would like to help to translation:
 
 1) please fork this project
+
 2) change to the forked project, then edit your language file such as `ui_data_uk.txt` etc. 
+
 3) if you can't find your language file, you can copy `ui_data_hans.txt`, and then modify the txt file name with language code, for example `ui_data_xx.txt`, xx is your language code.   
+
 the language code please refer at https://www.w3schools.com/tags/ref_language_codes.asp   
+
 and then remove the Chinese text, translate the English to your language. The characters before `=` need to be preserved.  
 
 for example:
@@ -30,8 +35,6 @@ If the text has free dot(...) or '{}', you need to keep it, for example:
 ```js
 Join... = Collegati...
 
-or
-
 Add font success: {name} = 字体添加成功: {name}      //keep the {name}
 ```
 The "#" charater start line, just the comment line, please ingore it
@@ -41,8 +44,9 @@ Switch mode = 切换模式
 ```
 
 
-3) when you finish, please make a pull request(before pull request, please pull this main branch first to avoid the merge conflict), we will merge it. There is no good way to test the translation yet, need to wait us to release a new editor version.
-4) we check your translations if they are correctly, we will add it at next editor/website release.
+4) when you finish, please make a pull request(before pull request, please pull this main branch first to avoid the merge conflict), we will merge it. There is no good way to test the translation yet, need to wait us to release a new editor version.
+
+5) we check your translations if they are correctly, we will add it at next editor/website release.
 
 
 ## Notice
