@@ -41,7 +41,7 @@ Switch mode = 切换模式
 ```
 
 
-3) when you finish, please make a pull request, we will merge it. There is no good way to test the translation yet, need to wait us to release a new editor version.
+3) when you finish, please make a pull request(before pull request, please pull this main branch first to avoid the merge conflict), we will merge it. There is no good way to test the translation yet, need to wait us to release a new editor version.
 4) we check your translations if they are correctly, we will add it at next editor/website release.
 
 
