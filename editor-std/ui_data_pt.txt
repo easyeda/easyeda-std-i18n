@@ -408,7 +408,7 @@ Y Radius = Raio Y
 
 #spice
 Switch mode = 
-The current documents will be closed, and reopen after switching mode, do you want to continue? = Os Documentos em aberto serão fechados e, após a troca de modo, reabertos. Deseja continuar?
+The current documents will be closed, and reopen after switching mode, do you want to continue? = Os Documentos em aberto serão fechados e, após a troca de modo, serão reabertos. Deseja continuar?
 PCB related documents are not allowed in emulation mode = 
 Please change the editor to "Simulation" mode first at the top left corner. = 
 Please change the editor to "Standard" mode first at the top left corner. = 
@@ -1915,7 +1915,7 @@ Open Wizard Dialog for New PCB =
 Rebuild Plane Automatically = Refazer plano automaticamente
 The Track's Routing Follows Component's Rotation = O Roteamento das Trilhas acompanha a Rotação do Componente
 Display Pad's Number and Net = Mostrar Número e Rede das Ilhas
-Favorite Track width = Largura de Trilha favorita.
+Favorite Track width = Largura de Trilha favorita
 Track Width Setting = Configuração de Largura de Trilha
 
 
@@ -2265,8 +2265,8 @@ Package Categories = Categorias de pacote
 Components List = Lista de Componentes
 Personal = Pessoal
 Component PIN information = Informação do PINO do componente
-Footprint PAD information = Informações sobre as ILHAS do footprint
-Footprint Categories = Categorias de footprint
+Footprint PAD information = Informações sobre as ILHAS do Footprint
+Footprint Categories = Categorias de Footprint
 Pad Number = Número da Ilha
 Search Footprint = 
 Filter by keyword = Filtrar por palavra-chave
