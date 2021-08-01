@@ -219,7 +219,7 @@ Rebuild All =
 Copper Area Manager... = Gerenciamento da Área de Cobre…
 Export Pick and Place File = Exportar Arquivo de Pick and Place
 Measure Distance = Medir Distância
-Set Canvas Origin by Mouse Location = 
+Set Canvas Origin by Mouse Location = Colocar Origem da Tela pela Localização do Mouse
 Generates Pick and Place File = Gerar Arquivo Pick and Place
 Unroute All = Remover todas as Rotas
 Auto Route = 
@@ -327,9 +327,9 @@ Paper Size = Tamanho do papel
 Register = Registrador
 User Center = Centro de Usuários
 
-By Mouse Location = 
-Set Coordinate = 
-By Coordinates... = 
+By Mouse Location = Pela Localização do Mouse 
+Set Coordinate = Colocar Coordenadas
+By Coordinates... = Por Coordenadas
 By Center of Pads = 
 By Center Grid of Symbols = 
 
@@ -408,7 +408,7 @@ Y Radius = Raio Y
 
 #spice
 Switch mode = 
-The current documents will be closed, and reopen after switching mode, do you want to continue? = 
+The current documents will be closed, and reopen after switching mode, do you want to continue? = Os Documentos em aberto serão fechados e, após a troca de modo, reabertos. Deseja continuar?
 PCB related documents are not allowed in emulation mode = 
 Please change the editor to "Simulation" mode first at the top left corner. = 
 Please change the editor to "Standard" mode first at the top left corner. = 
@@ -839,10 +839,10 @@ Fonts Management = Gerenciamento de fontes
 Dimension Attributes = Atributos de dimensão
 
 #Footprint Attributes
-Component Attributes = 
-Display Prefix = 
-Pin Name = Nome do Pin
-Pin Number = Número do Pin
+Component Attributes = Características do Componente
+Display Prefix = Mostrar Prefixo
+Pin Name = Nome do Pino
+Pin Number = Número do Pino
 Spice Pin Number = Número do Spice Pin
 Graphics = 
 Pattern = 
@@ -937,7 +937,7 @@ Add a new parameter = Adicione um novo parâmetro
 Key = Chave
 Value.new_para = Value.new_para
 In BOM = Na lista de materiais (BOM)
-Add into BOM = 
+Add into BOM = Adicionar à BOM
 Invalid key = Chave inválida
 This field is required. = Este campo é obrigatório.
 
@@ -1080,10 +1080,10 @@ Manufacturer Part.bom = Fabricante Part.bom
 Manufacturer.bom = Manufacturer.bom
 
 One-click Purchasing at LCSC = Compre com um clique em LCSC
-Order Parts/Check Stock = 
+Order Parts/Check Stock = Encomendar Peças/Verificar Estoque
 Export BOM = Exportar BOM
-Export PCB BOM = 
-Export Schematic BOM = 
+Export PCB BOM = Exportar BOM da PCB
+Export Schematic BOM = Exportar BOM do Esquema
 ID.bom = ID.bom
 Name.bom = Name.bom
 [bom]
@@ -1488,13 +1488,13 @@ Layers = Camadas
 #Dialog Preferences
 Language = Idioma
 Display Name = Nome de exibição
-HotKey Sync = Sincronização HotKey
+HotKey Sync = Sincronização das Teclas de Atalho
 My Theme Sync = Minha sincronia de tema
 Document Recovery Setting = Configuração de Recuperação de Documentos
-Enable auto backup = 
+Enable auto backup = Habilitar backup automático
 Maximum backup level = Nível máximo de backup
-Auto backup interval = 
-minutes = 
+Auto backup interval = Intervalo de backup automático
+minutes = minutos
 Save to Server = Salvar no servidor
 Load from Server = Carregar do servidor
 
@@ -1633,7 +1633,7 @@ File error = Erro de arquivo
 Please save your file first! = Por favor, salve seu arquivo primeiro!
 Email address is too short! = Endereço de email é muito curto!
 You have not selected a file to upload. = Você não selecionou um arquivo para upload.
-Update = Atualização
+Update = Atualizar
 Import.Import Changes = 
 No changes, the PCB already matches the schematic! = 
 Only public files can be shared = Somente arquivos públicos podem ser compartilhados
@@ -1897,26 +1897,26 @@ Place Pin = Coloque o Pin
 
 #System Setting Dialog
 System = Sistema
-Zoom Mode = 
-Scroll Key = 
-CTRL + Scroll = 
-Canvas Coordinate System = 
-SVG Coordinate = 
-Cartesian Coordinate = 
+Zoom Mode = Modo de Zoom
+Scroll Key = Tecla de Rolagem do Mouse
+CTRL + Scroll = CTRL + Rolagem
+Canvas Coordinate System = Sistema de Coordenadas da Tela
+SVG Coordinate = Coordenadas SVG
+Cartesian Coordinate = Coordenadas Cartesianas
 Open Wizard Dialog for New Schematic = 
 Default Unit = 
-Canvas Zoom Effect = 
-Quality Priority = 
-Speed Priority = 
-Rotation Step = 
-Add Teardrop Automatically = 
+Canvas Zoom Effect = Efeito do Zoom na Tela
+Quality Priority = Priorizar Qualidade
+Speed Priority = Priorizar Velocidade
+Rotation Step = Passo de Rotação
+Add Teardrop Automatically =
 Assign Net for Free Track/Arc/Circle = 
 Open Wizard Dialog for New PCB = 
-Rebuild Plane Automatically = 
-The Track's Routing Follows Component's Rotation = 
-Display Pad's Number and Net = 
-Favorite Track width = 
-Track Width Setting = 
+Rebuild Plane Automatically = Refazer plano automaticamente
+The Track's Routing Follows Component's Rotation = O Roteamento das Trilhas acompanha a Rotação do Componente
+Display Pad's Number and Net = Mostrar Número e Rede das Ilhas
+Favorite Track width = Largura de Trilha favorita.
+Track Width Setting = Configuração de Largura de Trilha
 
 
 #Dialog Access Control
@@ -2012,10 +2012,10 @@ Bus entry y2 = Entrada de ônibus y2
 Yes = Sim
 No = Não
 OK = OK
-Confirm = 
+Confirm = Confirmar
 Continue = Continue
 Cancel = Cancelar
-Update = Atualização
+Update = Atualizar
 Bus entry = Entrada de ônibus
 Filter = Filtro
 Check = Check
@@ -2264,10 +2264,10 @@ Edit Pin Map Information = Editar informações do mapa de pinos
 Package Categories = Categorias de pacote
 Components List = Lista de Componentes
 Personal = Pessoal
-Component PIN information = Informação do PIN do componente
-Footprint PAD information = Informações sobre a pegada do PAD
-Footprint Categories = Categorias de pegada
-Pad Number = Número do Pad
+Component PIN information = Informação do PINO do componente
+Footprint PAD information = Informações sobre as ILHAS do footprint
+Footprint Categories = Categorias de footprint
+Pad Number = Número da Ilha
 Search Footprint = 
 Filter by keyword = Filtrar por palavra-chave
 System Libs = Libs do sistema
@@ -2812,26 +2812,26 @@ Find footprint(s) have been updated, do you want to update? =
 3D File: = 
 Model List = 
 Are you sure merge net {0} and net {1}? = 
-Display Footprint = 
-Display Footprint Name While Placing Component = 
-Annotate Prefix Automatically After Placing Component = 
+Display Footprint = Mostrar Footprint
+Display Footprint Name While Placing Component = Mostrar Nome do Footprint ao Colocar Componentes
+Annotate Prefix Automatically After Placing Component = Atribuir Prefixo Automaticamente após Colocar Componentes
 Program Error, Please Contact Technical Support! = 
 Search Engine = 
 Keyword to Filter = 
 Normal Mode = 
 Expand Mode = 
-3D Model Manager = 
-3D Model Preview = 
-3D Model = 
-3DModel = 
+3D Model Manager = Gerenciador de Modelos 3D
+3D Model Preview = Pré-visualização do Modelo 3D
+3D Model = Modelo 3D
+3DModel = Modelo3D
 Document = Documento
 
 [pcblayer]
-3DModel = 
+3DModel = Modelo3D 
 Document = Documento
 [/pcblayer]
 
-Adjustment = 
+Adjustment = Ajuste
 View Larger Image = 
 Previous = 
 Previous Image = 
@@ -2887,7 +2887,7 @@ The prefix or name or text too far away from the footprint, if you don't want it
 The prefixes are not allowed to repeat! = 
 Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = 
 The origin of the canvas has been set in the graphics now, you can save again. = 
-Backup Project = 
+Backup Project = Fazer Backup do Projeto
 Open Project Directory = 
 
 {0} items updated = 
@@ -2984,9 +2984,9 @@ This size is the determined size! =
 The associated pad has been locked = 
 Split by space or , for multi tags = 
 
-Rotation X = 
-Rotation Y = 
-Rotation Z = 
+Rotation X = Rotação em X
+Rotation Y = Rotação em Y
+Rotation Z = Rotação em Z
 
 Some fields are filled invalid data = 
 start time should be earlier than stop time = 
@@ -3000,7 +3000,7 @@ Found footprint's pad number doesn't match the schematic component's pin number,
 Update Attribute = 
 Please fill in at least 5 words. = 
 Mouse hovering over the track to highlight the entire network = 
-Net Highlighting While Cursor Hover the Track = 
+Net Highlighting While Cursor Hover the Track = Iluminar Net ao passar o Cursor sobre a Trilha
 When circle set as "Yes", the Pin length must more than 6 = 
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = 
 
@@ -3040,7 +3040,7 @@ Close Tab = Fechar aba
 Close Other Tabs = Fechar outras abas
 Close All Tabs = Fechar todas abas
 Open in New Window = Abrir em uma nova janela
-Cursor Snap to Component's Origin or Pad Center While Dragging Component = 
+Cursor Snap to Component's Origin or Pad Center While Dragging Component = Fixar o Cursor à Origem do Componente ou ao Centro da Ilha enquanto estiver arrastando o Componente
 Undefined = 
 Input = 
 Model Unit = 
