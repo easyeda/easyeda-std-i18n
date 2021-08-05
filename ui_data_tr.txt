@@ -1,0 +1,3219 @@
+﻿#Menu
+User= Kullanıcı
+Join...= Katıl...
+Login...= Giriş...
+Log in= Giriş
+Logout= Çıkış
+Change password...= Şifre Değiştir...
+User Preference = Kullanıcı Tercihleri
+System Settings... = Sistem Ayarları...
+System Settings = Sistem Ayarları
+Crash = Çökme...
+Invite friends...= Arkadaşlarını davet et...
+Language= Dil
+Language Setting = Dil Ayarı
+English= İngilizce
+Polski (Polish)= Lehçe
+Deutsch (German)= Almanca
+Français (French)= Fransızca
+简体中文 (Chinese - Simplified)= Çince - Basitleştirilmiş
+正體中文 (Chinese - Traditional)= Çince - Geleneksel
+한국어 (Korean)= Korece
+日本語 (Japanese) = Japonca
+Tiếng Việt (Vietnamese) = Vietnamca
+Document Recovery = Belge Kurtarma
+Your Preferences Information = Tercih Bilgileriniz
+File= Dosya
+New= Yeni
+Project...= Proje...
+Schematic= Şematik
+Schematic-Simulation= Şematik Simülasyonu
+Spice Symbol= Spice Sembolü
+Spice Subckt= Spice(Alt) Devre Sembolü
+spicePre = spicePre
+PCB= PCB
+Schematic Module= Şematik Modülü
+PCB Module= PCB Modülü
+Save...= Kaydet...
+Save As...= Farklı Kaydet...
+Save As Module...= Modül Olarak Kaydet...
+Print= Yazdır
+Export Document= Belgeyi Dışa Aktar
+LTspice...= LTspice...
+Eagle...= Eagle...
+Altium...= Altium...
+Cadence...= Cadence...
+Pads...= Pads...
+DXF= DXF
+Import= İçe Aktar
+Super Menu = Süper Menü
+
+Edit= Düzenle
+Undo= Geri Al
+Redo= Yinele
+Cut= Kes
+Copy= Kopyala
+Paste= Yapıştır
+Select= Seç
+Delete= Sil
+Clear All = Tümünü Temizle
+Move= Taşı
+Drag= Sürükle
+Bring to Front= Öne Getir
+Send to Back= Arkaya Yolla
+Align= Hizala
+Align Left= Sola Hizala
+Align Right= Sağa Hizala
+Align Top= Üste Hizala
+Align Bottom= Alta Hizala
+Align Horizontal Centers= Yatay Merkezleri Hizala
+Align Vertical Centers= Dikey Merkezleri Hizala
+Distribute Horizontally= Yatay Olarak Dağıt
+Distribute Vertically= Dikey Olarak Dağıt
+Distribute Left Edges Equidistantly= Sol Kenarları Eşit Uzaklıkta Dağıt
+Distribute Top Edges Equidistantly= Üst Kenarları Eşit Uzaklıkta Dağıt
+Align Grid= Izgarayı Hizala
+Rotate= Döndür
+Rotate Left= Sola Döndür
+Rotate Right= Sağa Döndür
+Flip Horizontal= Yatay Çevir
+Flip Vertical= Dikey Çevir
+Rotate and Flip= Döndür ve Çevir
+Group/Ungroup Symbol...= Sembolü Grupla/Ayır
+
+[menu_project]
+View= Görüntüle
+[/menu_project]
+Find = Bul
+Zoom In= Yakınlaştır
+Zoom Out= Uzaklaştır
+Fit in Window= Pencereye Sığdır
+Refresh= Yenile
+Snap= Yasla
+Cross Cursor= Artı İmleç
+Toolbars= Araç Çubukları
+Drawing Tools= Çizim Araçları
+Wiring Tools= Kablolama Araçları
+Power Objects= Güç Nesneleri
+PCB Tools = PCB Araçları
+Footprint Tools = Ayak İzi Araçları
+Layers Tool = Katman Aracı
+Layer Manager = Katman Yöneticisi
+Enable and Show All Layers = Tüm Katmanları Etkinleştir ve Göster
+Net Visible = Görünür Ağ
+Auto = Otomatik
+Digital Objects= Dijital Nesneler
+Tools = Araçlar
+Arc Center = Kavis Merkezi
+Arc Type = Kavis Tipi
+Center Point Arc = Merkez Noktası Kavisi
+Two-point Arc = İki Nokta Arkı
+
+Place= Yerleştir
+Drawing Tools= Çizim Araçları
+Arc= Kavis
+Elliptical Arc= Eliptik Kavis
+Ellipse= Elips
+Circle= Çember
+Pie= Pasta
+Line= Çizgi
+Polyline= Çoklu Çizgi
+Rectangle= Dikdörtgen
+Rectangular = Dikdörtgensel
+The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = Dikdörtgen 90 derece dışı döndürmeyi desteklememektedir. Lütfen bunun yerine Tam Bölge'yi kullanın. 
+
+Rect= Dikdörtgen Fonksiyonu
+Round Rectangle= Yuvarlarılmış Dikdörtgen
+Polygon= Poligon
+Bezier= Bezier Eğrisi
+Path= Patika
+Graphic= Grafik
+Bus= Veriyolu
+Bus Entry= Veriyolu Giriş
+Junction= Kavşak
+Net Port = Ağ Portu
+Voltage Probe = Gerilim Probu
+Power Port= Güç Portu
+Wire= Kablo
+Annotation= Dipnot
+Track= Hat
+Image= Görsel
+Arrow Head= Ok Ucu
+Arrowhead = Ok Ucu
+Arrow= Ok
+No Connect Flag = Bağlantı Yok Bayrağı
+Place= Yerleştir
+Pin= Pin
+Lock Selected Objects = Seçili Nesneleri Kilitle
+
+Miscellaneous= Diğer
+Find Component= Bileşen Bul
+Component = Bileşen
+Footprint... = Ayak İzi...
+This component is deleted! = Bu bileşen silindi!
+Convert = Dönüştür
+Convert Schematic to PCB = Şematiği PCB'ye dönüştür
+The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: = Bileşen kimliği, bileşen ön ekine göre sıfırlanacak; bu işlem geri alma geçmişlerini temizleyecektir. Lutfen dikkat ediniz:
+Please make sure the component prefixes of the schematic and PCB are corresponding = Lütfen şematik ve PCB'nin bileşen ön eklerinin uyuştuğunda emin olun. 
+Please reset the component ID of corresponding schematic or corresponding PCB too = Lütfen ilgili şematik veya PCB'nin bileşen kimliğini de sıfırlayın 
+Do you want to continue? = Devam etmek istiyor musunuz？
+Reset Component ID = Bileşen kimliğini sıfırla
+Component ID reset successfully! = Bileşen kimliği başarıyla sıfırlandı！
+Convert to PCB = PCB'ye dönüştür
+Update PCB = PCB'yi güncelle
+Shortcut Keys Setting = Kısayol Tuşları Ayarı
+Edit Symbol... = Sembolü Düzenle...
+Highlight Net... = Ağı Vurgula...
+Simulate = Simüle Et
+Simulation = Simülasyon
+Standard Mode = Standart Mod
+Simulation Mode = Simülasyon Modu
+Change to Standard Mode = Standart Moda Geç
+Change to Simulation Mode = Simülasyon Moduna Geç
+Welcome to Use LCEDA = LCEDA Kullanmaya Hoşgeldiniz
+Welcome to Use EasyEDA = EasyEDA Kullanmaya Hoşgeldiniz
+Enable Education Edition Features for Free >>> = Eğitim Sürümü Özelliklerini Ücretsiz Etkinleştirin>>>
+Quick Start = Hızlı Başlat
+More Help = Daha Fazla Yardım
+Explore = Keşfet
+Message = Mesaj
+[start]
+Example = Örnek
+Forum = Forum
+Tutorials = Öğreticiler
+Videos = Videolar
+[/start]
+Custom Data = Özel Data
+LCEDA = LCEDA
+
+Copy Result Image = Sonuç Görselini Kopyala
+Export Result Image = Sonuç Görselini Dışa Aktar
+Simulation Result = Simülasyon Sonucu
+Simulation Results... = Simülasyon Sonuçları...
+Simulate this Sheet = Bu Çalışma Sayfasını Simüle et
+Simulate this Project = Bu Projeyi Simüle Et
+Non-simulation mode, please switch to the simulation mode first and then run = Simülasyon dışı mod, lütfen önce simülasyon moduna geçin ve ardından çalıştırın
+Run the Document = Belgeyi Çalıştır
+Run the Project... = Projeyi Çalıştır...
+Netlist for Document = Belge İçin Bağlantı Listesi
+Netlist for Project = Proje İçin Bağlantı Listesi
+LTspice for This Sheet... = Bu Çalışma Sayfası İçin LTspice...
+Spice for this Project... = Bu Proje İçin Spice...
+Protel/Altium for PCB... = PCM için Protel/Altium...
+PADS for PCB... = PCB için PADS...
+FreePCB for PCB... = PCB için FreePCB...
+Eagle for PCB... = PCB için Eagle...
+Kicad for PCB... = PCB için Kicad...
+OrCAD for PCB... = PCB için OrCAD...
+BOM report... = BOM raporu...
+BOM for Document... = Belge için BOM...
+BOM for Project... = Proje için BOM...
+Pin Manager... = Pin Yöneticisi...
+Spice Model... = Spice Modeli...
+Layer Manager... =  Katman Yöneticisi...
+Net Color... = Ağ Rengi...
+Design Rule... = Tasarım Kuralı...
+Copper Area = Bakır Alanı
+Rebuild Selected = Seçili Olanı Tekrar Kur
+Rebuild All = Tümünü Tekrar Kur
+Copper Area Manager... = Bakır Alanı Yöneticisi...
+Export Pick and Place File = Seçme ve Yerleştirme Dosyasını Dışa Aktar
+Measure Distance = Mesafeyi Ölç
+Set Canvas Origin by Mouse Location = Tuval Orijinini Fare Konumuna Göre Belirle
+Generates Pick and Place File = Seçme ve Yerleştirme Dosyası Oluşturur
+Unroute All = Tüm Yol Atamaları Kaldır
+Auto Route = Otomatik Yol Ata
+Export Autorouter File(DSN) = Otomatik Yol Atayıcı Dosyasını Dışa Aktar(DSN)
+Import Autorouter Session File(SES) = Otomatik Yol Atayıcı Oturumu Dosyasını İçe Aktar(SES)
+Autorouter File(DSN) = Otomatik Yol Atayıcı Dosyası(DSN)
+Autorouter Session File(SES) = Otomatik Yol Atayıcı Oturumu Dosyası(SES)
+Terminate Routing Automatically = Yol Atamayı Otomatik Olarak Sonlandır
+Delete Segments = Segmentleri Sil
+Unroute Connections = Bağlantıların Yollarını Kaldır
+Unroute Connection = Bağlantının Yollarını Kaldır
+Unroute Nets = Ağ Yollarını Kaldır
+Select = Seç
+Segments = Segmentler
+Connection = Bağlantı
+Net = Ağ
+Apply Design Rule While Routing and Auto Placing Via = Yol Atama ve Oto Via Yerleştirme Sırasında Tasarım Kuralını Uygula
+
+Add SubPart= Alt Bölüm Ekle
+Annotate... = Ek Açıklama...
+Config= Yapılandırma
+
+Help= Yardım
+About= Hakkında
+Shortcut Keys = Kısayol Tuşları
+FAQ = SSS
+Tutorials = Öğreticiler
+Basic Tutorials = Temel Öğreticiler
+Video Tutorials = Video Öğreticileri
+Essential Check = Esas Kontrol
+Simulation Tutorials = Simülasyın Öğreticileri
+Updated Instructions = Güncellenmiş Talimatlar
+Open File Format = Dosya Formatını Aç
+About Upgrade = Güncelleme Hakkında
+#Github Repository = Github Deposu
+Github Repository = Github Deposu
+#Support Forum = Destek Forumu
+User Forum = Kullanıcı Forumu
+Feature Request = Özellik Talebi
+Feature Requests = Özellik Talepleri
+Bug Report = Bug Raporu
+Bug Reports = Bug Raporları
+Tips & Skill = İpuçları ve Beceri
+Ask for Help = Yardım İste
+Schematic Capture = Şematik Yakalama
+Spice Simulation = Spice Simülasyonu
+Non-simulation mode = Simülasyon Dışı Mod
+PCB Layout = PCB Yerleşimi
+General Discussion = Genel Tartışma
+More Information = Daha Fazla Bilgi
+Privacy Policy = Gizlilik Politikası
+#Terms of Use & Privacy Policy = Kullanım Koşulları ve Gizlilik Politikası
+Terms of Service = Kullanım Koşulları
+Plans and Pricing = Planlar ve Ücretlendirme
+Help Translate = Çeviriye Yardımcı Ol
+About Us = Hakkımızda
+Contact Us = Bize Ulaşın
+Change History= Geçmişi Değiştir
+Join Us = Bize Katıl	
+#PCB Fabrication Capabilities = PCB Üretimi Olanakları
+PCB Fabrication = PCB Üretimi
+Order Capabilities = Olanakları Sırala
+Order Price = Fiyat Sırala
+Order Essential Check = Esas Kontrolü Sırala
+Order FAQ = SSS Sırala
+Order Process = İşlem Sırala
+Full Screen = Tam Ekran
+
+Support = Destek
+[leftNavTabs]
+Support = Destek
+[/leftNavTabs]
+Historical Records... = Tarihsel Kayıtlar...
+Extensions = Uzantılar
+Order PCB... = PCB Sipariş Et...
+Import Changes = Değişiklikleri İçe Aktar
+Press {0}F11{1} to switch to full screen. = Tam ekrana geçmek için {0}F11{1} tuşuna bas.
+Delete Selected = Seçili Olanı Sil
+Simulate... = Simüle Et...
+Config = Yapılandırma
+Terms of Service & Privacy Policy = Kullanım Koşulları ve Gizlilik Politikası
+Help Topics = Yardım Başlıkları
+3D Model(obj) = 3D Model(obj)
+3D Model(step) = 3D Model(step)
+SVG Source... = SVG Kaynağı...
+File Source = Dosya Kaynağı
+Group These Items as a Symbol = Bu Ögeleri Sembol Olarak Grupla
+Group These Items as a Footprint = Bu Ögeleri Ayak İzi Olarak Grupla
+Set Canvas Origin = Tuval Orjinini Belirle
+Document Setting = Belge Ayarı
+Sheet Attributes = Çalışma Sayfası Nitelikleri
+Set Board Outline = Kart Anahattını Belirle
+Teardrop... = Gözyaşı...
+Panelize... = Panelize Et...
+Check Dimension = Boyutu Kontrol Et
+Smart Dimension = Akıllı Boyutlandırma
+Footprint Wizard = Ayak İzi Sihirbazı
+Footprint Wizard... = Ayak İzi Sihirbazı...
+Select package type = Paket Tipi Seçin
+Smart Dimension Attributes = Akıllı Boyutlandırma Nitelikleri
+Global Delete = Global Silme
+Cross Probe = Çapraz Prob
+Cross Probe and Place = Çarpaz Probla ve Yerleştir
+Paper Size = Kağıt Boyutu
+Register = Kayıt Ol
+User Center = Kullanıcı Merkezi
+
+By Mouse Location = Fare Konumuna Göre
+Set Coordinate = Koordinat Belirle
+By Coordinates... = Koordinatlara Göre...
+By Center of Pads = Pad'lere Göre
+By Center Grid of Symbols = Sembollerin Merkez Izgarasına Göre
+
+#Schematic Canvas Attributes
+Properties= Özellikler
+Attributes= Nitelikler
+Apply= Uygula
+Save as default= Varsayılan olarak kaydet
+Canvas Attributes= Tuval Nitelikleri
+Width= Genişlik
+Height= Yükseklik
+Background= Arkaplan
+Visible Grid= Görünür Izgara
+Grid Visible = Izgara Görünür
+Real-Time Track Length = Gerçek Zamanlı Hat Uzunluğu
+Display Real-Time Track Length = Gerçek Zamanlı Hat Uzunluğunu Görüntüle
+Grid Color= Izgara Rengi
+Grid Size= Izgara Boyutu
+Grid Style= Izgara Biçimi
+Grid.Line Width = Izgara.Çizgi Genişlik
+Grid.Line Spacing = Izgara.Çizgi Aralık
+Copper to Board Outline = Bakırdan Kart Anahattına
+Improve Fabrication = Üretimi Geliştir
+Spoke Width = Spoke Genişliği
+Stroke Color= Stroke Rengi
+Stroke Width= Stroke Genişliği
+Stroke Style= Stroke Biçimi
+Fill Color= Dolgu Rengi
+Selected Objects= Seçili Nesneler
+Frame Size = Çerçeve Boyutu
+Alt Snap = Alt Yasla
+Snap size when pressing the Alt key = Alt tuşuna basarkenki Yaslama Boyutu
+Prefix Start = Ön Ek Başlangıcı
+
+#Text Attributes
+Text Attributes = Metin Nitelikleri
+Text = Metin
+Color = Renk
+Font Family = Yazı Tipi Ailesi
+Font Size = Yazı Tipi Boyutu
+Font Weight = Yazı Tipi Ağırlığı
+Font Style = Yazı Tipi Biçimi
+Text Type = Metin Tipi
+Text Anchor = Metin Çapası
+Baseline = Taban Çizgisi
+(Auto)=(Oto)
+(auto)=(oto)
+start = başlangıç
+middle = orta
+end = son
+inherit = devral
+comment = yorum
+spice = spice
+normal = normal
+italic = italik
+Default = Varsayılan
+Add = Ekle
+bold = kalın
+bolder = daha kalın
+lighter = daha ince
+Failed to parse the font file: {name} = Yazı tipi dosyası ayrıştırılamadı: {name}
+Please select a font file of ttf or woff format. = Lütfen ttf veya woff formatında bir yazı tipi dosyası seçin.
+Add font success: {name} = Yazı tipi ekleme başarılı: {name}
+Failed to add font: {name} = Yazı tipi eklenilemedi: {name}
+Add Font = Yazı Tipi Ekle
+Failed to parse cached font: {name} = Önbelleğe alınmış yazı tipi ayrıştırılamadı: {name}
+Load cached fonts fail! = Önbelleğe alınmış yazı tipleri yüklenemedi!
+
+#Stroke
+Stroke Color = Stroke Rengi
+Stroke Width = Stroke Genişliği
+Stroke Style = Stroke Biçimi
+Fill Color = Dolgu Rengi
+X Radius = X Yarıçapı
+Y Radius = Y Yarıçapı
+
+#spice
+Switch mode = Modu değiştir
+The current documents will be closed, and reopen after switching mode, do you want to continue? = Mevcut belgeler kapatılacak ve mod değiştirildikten sonra yeniden açılacak. Devam etmek istiyor musunuz?
+PCB related documents are not allowed in emulation mode = Öykünme modunda PCB ile ilgili belgeler izinli değildir
+Please change the editor to "Simulation" mode first at the top left corner. = Lütfen önce sol üst köşedeki düzenleyiciyi "Simülasyon" moduna değiştirin 
+Please change the editor to "Standard" mode first at the top left corner. = Lütfen önce sol üst köşedeki düzenleyiciyi "Standart" moduna değiştirin 
+Common = Ortak
+spice.open = spice.açık
+spice.close = spice.kapalı
+Sources = Kaynaklar
+Instrument = Alet
+Transistors = Transistörler
+Digital Circuits = Dijital Devreler
+Operational Amplifier = Operasyonel Amplifikatör
+multimeter = multimetre
+multimeter Settings = multimetre Ayarları
+FunctionGenerator Settings = İşlevJeneratörü Ayarları
+Voltage Source Settings = Gerilim Kaynağı Ayarları
+Current Source Settings = Akım Kaynağı SAyarları
+Powersw Settings = Powersw Ayarları
+Resistor Settings = Direnç Ayarları
+Capacitor Settings = Kapasitör Ayarları
+Diode Settings = Diyot Ayarları
+voltPowersw Settings = voltPowersw Ayarları
+Inductor Settings = İndüktör Ayarları
+VCVS Settings = VCVS Ayarları
+CCCS Settings = CCCS Ayarları
+VCCS Settings = VCCS Ayarları
+CCVS Settings = CCVS Ayarları
+JFET Settings = JFET Ayarları
+FET Settings = FET Seçenekleri
+Transmission Line Settings = İletim Hattı Ayarları
+Oscilloscope Settings = Osiloskop Ayarları
+XFMR Settings = XFMR Ayarları
+LOGIC Settings = LOGIC Ayarları
+LOGICSTATE Settings = LOGICSTATE Ayarları
+DIGITALCLOCK Settings = DIGITALCLOCK Ayarları
+Potentiometer Settings = Potansiyometre Ayarları
+MUTUAL_INDUCTORS Settings = ORTAK_İNDÜKTÖRLER Ayarları
+NE555 Settings = NE555 Ayarları
+THREE_PHASE Settings = ÜÇ_FAZ Ayarları
+Logic_Probe Settings = Logic_Prob Ayarları
+78XX Settings = 78XX Ayarları
+79XX Settings = 79XX Ayarları
+OPAMP5PEE Settings = OPAMP5PEE Ayarları
+OPAMP5PEECN Settings = OPAMP5PEECN Ayarları
+OPAMP3PEE Settings = OPAMP3PEE Ayarları
+OPAMP3PEECN Settings = OPAMP5PEECN Ayarları
+DELAY_FUSE Settings = GECİKME_SİGORTASI Ayarları
+Ratio = Oran
+K[%] = K[%]
+Model = Model
+States = Durumlar
+Voltage[V] = Gerilim[V]
+Voltage gain[V/V] = Gerilim Kazancı[V/V]
+Current gain[A/A] = Akım Kazancı[A/A]
+Transconductance[Mho] = Transkondüktans[Mho]
+Transresistance[Ω] = Transrezistans[Ω]
+Voltage Source Type = Voltaj Kaynağı Tipi
+Current Source Type = Akım Kaynağı Tipi
+multimeter type = multimetre tipi
+power type = güç tipi
+Voltmeter Resistance(R)(Ω) = Voltmetre Direnci(R)(Ω)
+Amperometer Resistance(R)(Ω) = Ampermetre Direnci(R)(Ω)
+mu.V = mu.V
+mu.A = mu.A
+Sine Wave = Sinüs Dalgası
+Triangular Wave = Üçgensel Dalga
+Rectangular Wave = Dikdörtgensel Dalga
+AC = AC
+DC = AC
+SINE = SINE
+PULSE = PULSE
+EXP = EXP
+SFFM = SFFM
+PWL = PWL
+B.spice = B.spice
+DC Value[V] = DC Değeri[V]
+DC Value[A] = DC Değeri[A]
+DC offset[V] = DC offset[V]
+DC offset[A] = DC offset[A]
+Amplitude[V] = Genlik[V]
+Amplitude[A] = Genlik[A]
+Freq[Hz] = Frekans[Hz]
+Theta[1/s] = Theta[1/s]
+Tdelay[s] = Tgecikme[s]
+Phi[deg] = Pi[deg]
+Tperiod[s] = Tperiyot[s]
+Ton[s] = Ton[s]
+Tfall[s] = Tdüşüş[s]
+Trise[s] = Tyükseliş[s]
+Von[V] = Von[V]
+Von[A] = Von[A]
+Vinitial[V] = Vinitial[V]
+Vinitial[A] = Vinitial[A]
+Vpulsed[V] = Vpulsed[V]
+Vpulsed[A] = Vpulsed[A]
+Rise Delay[s] = Yükseliş Gecikmesi[s]
+Rise Tau[s] = Yükseliş Tau[s]
+Fall Delay[s] = Düşüş Gecikmesi[s]
+Fall Tau[s] = Düşüş Tau[s]
+Carrier Freq[Hz] = Taşıyıcı Frekansı[Hz]
+Modulation Index = Modülasyon İndeksi
+Signal Freq[Hz] = Sinyal Frekansı[Hz]
+Time[s] = Zaman[s]
+Value[V] = Değer[V]
+Value[A] = Değer[A]
+Waveforms = Dalga Formları
+Duty cycle[%] = Görev döngüsü[%]
+Amplitude[Vp] = Genlik[Vp]
+Offset[V] = Offset[V]
+Rise/Fall Time[sec] = Yükseliş/Düşüş Süresi[sec]
+Capacitance[F] = Kapasite[F]
+sComponent = sComponent
+Inductance[H] = İndüktans[H]
+Gbw = Gbw
+Slewrate = Slewrate
+Avol = Avol
+Rout(Ω) = Rout(Ω)
+Rin(Ω) = Rin(Ω)
+Ibias[A] = Ibias[A]
+Inhi[V] =  Inhi[V]
+Inlo[V] =  Inlo[V]
+Isc[A] = Isc[A]
+Outhi[V] = Outhi[V]
+Outlo[V] = Outlo[V]
+Vabsmax[V] = Vabsmax[V]
+Vmin[V] = Vmin[V]
+Iq[A] = Iq[A]
+Cin[F] = Cin[F]
+high = yüksek
+low = alçak
+Oscilloscope = Osiloskop
+Logic Analyzer = Logic Analizörü
+Channel_A = Kanal_A
+Channel_B = Kanal_B
+Channel A = Kanal A
+Channel B = Kanal B
+Time = Süre
+Reverse = Ters
+Simulation file exceed = Simülasyon Dosyası Aşımı
+The simulation file is too large and has been stopped for performance reasons. = Simülasyon dosyası çok büyük ve performans nedenleriyle durduruldu. 
+Timebase = Zaman Tabanı(Timebase)
+Scale: = Ölçek
+X pos.(Div): = X pos.(Div)：
+Y pos.(Div): = Y pos.(Div)：
+View meter... = Gösterge...
+The circuit has components without simulation model: = Devre, simülasyon modeli olmayan bileşenlere sahiptir:
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = Simülasyon aralığınız simüle etmek için çok kısa, lütfen 5 saniye sonra bekleyin ve tekrar deneyin; hala bu mesaj gösteriliyorsa günlük maksimum simülasyon süresinin 500 katının üzerinde simüle edilmiş olabilirsiniz.
+Resistor1_US = Direnç1_US
+Resistor1_EU/IEC = Direnç1_EU/IEC
+Resistor1_3D = Direnç1_3D
+Capacitor1_US = Kapasitör1_US
+Capacitor1_EU/IEC = Kapasitör1_EU/IEC
+Capacitor1_3D = Kapasitör_3D
+Rheostat_US = Reosta_US
+Rheostat_EU/IEC = Reosta_EU/IEC
+Rheostat_3D = Reosta_3D
+Capacitor_Electrolytic_US = Kapasitör_Elektrolitik_US
+Capacitor_Electrolytic_EU/IEC = Kapasitör_Elektrolitik_EU/IEC
+Capacitor_Electrolytic_3D = Kapasitör_3D
+Inductor_US = İndüktör_US
+Inductor_EU/IEC = İndüktör_EU/IEC 
+Inductor_3D = İndüktör_3D
+Resistor2_US = Direnç2_US
+Resistor2_EU/IEC = Direnç2_EU/IEC
+Resistor2_3D = Direnç2_3D
+Multimeter = Multimetre
+Multimeter_3D  = Multimetre_3D
+Oscilloscope = Osiloskop
+Oscilloscope_3D  = Osiloskop_3D
+Signal_Generator = Sinyal_Jeneratörü
+Signal Generator_3D  = Sinyal Jeneratörü_3D
+Wattmeter = Wattmetre
+Wattmeter_3D = Wattmetre_3D
+NSSWS1080T_3D = NSSWS1080T_3D
+Voltage_Source_VDC = Gerilim_Kaynağı_VDC
+Voltage_Source_VSin = Gerilim_Kaynağı_Vsin
+Voltage_Source_VPULSE = Gerilim_Kaynağı_VPULSE
+Voltage_Source_VEXP = Gerilim_Kaynağı_VEXP
+Voltage_Source_VSFFM = Gerilim_Kaynağı_VSFFM
+Voltage_Source_VPWL = Gerilim_Kaynağı_VPWL
+Voltage_Source_V_Behavioral_Source = Gerilim_Kaynağı_V_Davranışsal_Kaynak
+Current_Source_IDC = Akım_Kaynağı_IDC
+Current_Source_ISin = Akım_Kaynağı_ISin
+Current_Source_IPULSE = Akım_Kaynağı_IPULSE
+Current_Source_IEXP = Akım_Kaynağı_IEXP
+Current_Source_ISFFM = Akım_Kaynağı_ISFFM
+Current_Source_IPWL = Akım_Kaynağı_IPWL
+Current_Source_I_Behavioral_Source = Akım_Kaynağı_I_Davranışsal_Kaynak
+CCCS_1 = CCCS_1
+CCCS_2 = CCCS_2
+CCVS_1 = CCVS_1
+CCVS_2 = CCVS_2
+VCCS = VCCS
+VCVS = VCVS
+Three_Phase_Wye_Load = Üç_Faz_Wye_Yükleme
+Three_Phase_Delta_Load = Üç_Faz_Delta_Yükleme
+78XX = 78XX
+79XX = 79XX
+555 = 555
+555_3D = 555_3D
+Transformer_US = Transformatör_US
+Transformer_EU/IEC = Transformatör_EU/IEC
+Transformer_Center_Tapped_US = Transformatör_Center_Tapped_US
+Transformer_Center_Tapped_EU/IEC = Transformatör_Center_Tapped_EU/IEC
+Mutual_Inductor_US = Ortak_İndüktör_US
+Mutual_Inductor_EU/IEC = Ortak_İndüktör_EU/IEC
+Mutual_Inductor2_US = Ortak_İndüktör2_US
+Mutual_Inductor2_EU/IEC = Ortak_İndüktör2_EU/IEC
+OR2EE_US = OR2EE_US
+OR3EE_US = OR3EE_US
+OR4EE_US = OR4EE_US
+OR2EE_CN = OR2EE_CN
+OR3EE_CN = OR3EE_CN
+OR4EE_CN = OR4EE_CN
+NOR2EE_US = NOR2EE_US
+NOR3EE_US = NOR3EE_US
+NOR4EE_US = NOR4EE_US
+NOR2EE_CN = NOR2EE_CN
+NOR3EE_CN = NOR3EE_CN
+NOR4EE_CN = NOR4EE_CN
+AND2EE_US = AND2EE_US
+AND3EE_US = AND3EE_US
+AND4EE_US = AND4EE_US
+AND2EE_CN = AND2EE_CN
+AND3EE_CN = AND3EE_CN
+AND4EE_CN = AND4EE_CN
+NAND2EE_US = NAND2EE_US
+NAND3EE_US = NAND3EE_US
+NAND4EE_US = NAND4EE_US
+NAND2EE_CN = NAND2EE_CN
+NAND3EE_CN = NAND3EE_CN
+NAND4EE_CN = NAND4EE_CN
+XOR2EE_US = XOR2EE_US
+XOR2EE_CN = XOR2EE_CN
+XNOR2EE_US = XNOR2EE_US
+XNOR2EE_CN = XNOR2EE_CN
+Digital_Clock_1Hz = Dijital_Saat_1Hz
+Logicstate_0 =
+Logicstate_1 =
+Logic_Probe =
+Buffee =
+INVEE_US =
+INVEE_CN =
+Schmittbuffee =
+LM358N_US = LM358N_US
+LM358N_CN = LM358N_CN
+OPAMP3PEE_US =
+OPAMP3PEE_CN =
+OPAMP5PEE_US =
+OPAMP5PEE_CN =
+Voltage_Controlled_Switch = Gerilim_Kontrollü_Anahtar
+Current_Controlled_Switch = Akım_Kontrollü_Anahtar
+FUSE = SİGORTA
+Delay_Fuse = Gecikme_Sigortası
+Transmission_Line = İletim_Hattı
+Crystal = Kristal
+DFFEE =
+TFFEE =
+JKFFEE =
+SRFFEE =
+SRLATCHEE =
+SRNANDFFEE =
+SRNORFFEE =
+INVTSEE =
+INVODEE =
+Schmittbuffee =
+Cbuffer =
+SPDT_Open = SPDT_Açık
+SPDT_Close = SPDT_Kapalı
+SPST_Close = SPST_Kapalı
+SPST_Open = SPST_Açık
+Fast_Crystal = Hızlı_Kristal
+Lamp = Lamba
+BCD_Segment =
+Seven_Segment = Yedi_Segment
+Traffic_Light = Trafik_Işığı
+Lamp Settings = Lamba Ayarları
+Power[W] = Güç[W]
+Dropout Voltage[V] = Dropout Gerilimi[V]
+Current[A] = Akım[A]
+Threshold[V] = Eşik[V]
+Clock Rate = Saat Hızı
+TrafficLight Settings = TrafikIşığı Ayarları
+BCDSegment Settings = BCDSegment Ayarları
+SevenSegment Settings = YediSegment Ayarları
+SPDT Settings = SPDT Ayarları
+SPST Settings = SPST Ayarları
+LogicAnalyzer Settings = LogicAnalizörü Ayarları
+Fuse Settings = Sigorta Ayarları
+Wattmeter Settings = Wattmetre Ayarları
+open = açık
+close = kapalı
+Common Anode = Ortak Anot
+Common Cathode = Ortak Katot
+AC Amplitude = AC Genlik
+AC Phase = AC Faz
+There are some parts haven't spice model, please use "EElib" and "Spice Symol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Spice modeli olmayan bazı bölümler var. Lütfen "Simülasyon" modunun "Kütüphaneler" kısmındaki "EElib" ve "Spice Symbol" kullanın; veya bunlara spice modelini atayın:
+
+#Pin
+Pin Attributes = Pin Nitelikleri
+Orientation = Yönelim
+Line 45° = Çizgi 45°
+Line 90° = Çizgi 90°
+Arc 45° = Kavis 45°
+Arc 90° = Kavis 90°
+Free Angle = Serbest Açı
+Start X = Başlangıç X
+Start Y = Başlangıç Y
+Length = Uzunluk
+Name = İsim
+name = isim
+Number = numara
+Spice Pin Order = Spice Pin Sırası
+Display Number = Görüntüleme Numarası
+Clock = Saat
+Show = Göster
+Electric = Elektrik
+
+#Junction
+Junction Attributes = Kavşak Nitelikleri
+X Location = X Konumu
+Y Location = Y Konumu
+Size = Boyut
+Color = Renk
+
+#Net Label
+Net Label = Ağ Etiketi
+
+#Part
+Prefix = Ön Ek
+
+#Image Attributes and Dialog
+Add Image = Görsel Ekle
+Image Attributes = Görsel Nitelikleri
+Image URL = Görsel URL'si
+Input an image URL = Bir görsel URL'si girin 
+Invalid image URL = Geçersiz görsel URL'si
+Invalid Prefix = Geçersiz Ön Ek
+Failed to load the image = Görseli yüklemede başarısız olundu
+Image URL contains special characters = Görsel URL'si özel karakterler içeriyor 
+From Web URL = Web URL'sinden
+From Local Computer = Yerel Bilgisayardan
+Please select a png/gif/jpg file. = Lütfen bir png/gif/jpg dosyası seçin. 
+Please select an image file. = Lütfen bir görsel dosyası seçin. 
+Select an image file = Bir görsel dosyası seçin
+Insert Image to PCB = Görseli PCB'ye yerleştir
+Tolerance = Tolerans
+tolerance = tolerans
+capacitance = kapasitans
+frequency = frekans
+Rated Voltage = Anma Gerilimi
+Rated Current = Anma Akımı
+resistance = direnç
+Resistance = Direnç
+Resistance[Ω] = Direnç[Ω]
+inductance = indüktans
+Operating Temperature = Çalışma Sıcaklığı
+Shape Invert = Şekli Çevir
+Image Size = Görsel Boyutu
+Color Tolerance = Renk Toleransı
+Simplify Level = Basitleştirme Seviyesi
+Corner Threshold = Köşe Eşiği
+
+#PCB Canvas Attributes
+Units = Birimler
+Snap Size = Yaslama Boyutu
+Other = Diğer
+Routing Width = Yol Atama Genişliği
+[router]
+Routing Width = Yol Atama Genişliği
+[/router]
+Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Yol atama sırasında hat genişliğini değiştirmek için lütfen {0}{shiftw}{1} veya {2}{tab}{3} kısayol tuşunu kullanın. 
+Routing Angle = Yol Atama Açısı
+Routing Conflict = Yol Atama Çatışması
+Remove Loop = Döngüyü Kaldır
+Cut SilkScreen = Baskıyı Kes
+Grid = Izgara
+Grid 90 = Izgara 90
+Grid 45 = Izgara 45
+Copper Zone = Bakır Alanı
+Visible = Görünür
+Invisible = Görünmez
+Ignore = Yoksay
+Block = Engelle
+RoundTrack = Yuvarlak Hat
+
+#Track
+Track Properties = Hat Özellikleri
+Layer = Katman
+Net = Ağ
+Start X = Başlangıç X
+Start Y = Başlangıç Y
+End X = Son X
+End Y = Son Y
+ID = Kimlik
+
+#Pad Properties
+Pad Properties = Pad Özellikleri
+Shape = Şekil
+Hole(D) = Delik(D)
+Center X = Merkez X
+Center Y = Merkez Y
+Round = Daire
+Oval = Oval
+Hole Shape = Delik Şekli
+Slot = Yuva
+Hole(Length) = Delik(Uzunluk)
+Plated = Kaplanmış
+None = Hiçbiri
+Paste Mask Expansion = Macun Maskesi Genişlemesi
+Solder Mask Expansion = Lehim Maskesi Genişlemesi
+
+#Via Properties
+Via Properties = Via Özellikleri
+Diameter = Çap
+Drill Diameter = Delgi Çapı
+
+#Hole Properties
+Hole Properties = Delik Özellikleri
+
+
+#TEXT
+Text Properties = Metin Özellikleri
+Line Width = Çizgi Genişliği
+Rotation = Dönüş
+Fonts Management = Yazı Tipi Yönetimi
+
+#Dimension Attributes
+Dimension Attributes = Boyut Nitelikleri
+
+#Footprint Attributes
+Component Attributes = Ayak İzi Nitelikleri
+Display Prefix = Ön Eki Görüntüle
+Pin Name = Pin Adı
+Pin Number = Pin Numarası
+Spice Pin Number = Spice Pin Numarası
+Graphics = Grafikler
+Pattern = Desen
+
+#Arc Properties
+Arc Properties = Kavis Özellikleri
+Start Angle = Başlangıç Açısı
+End Angle = Bitiş Açısı
+Rotation Direction = Dönüş Yönü
+
+#Rect Properties
+Rect Properties = Dikdörtgen Özellikleri
+Round radius = Daire Yarıçapı
+
+#Circle Properties
+Circle Properties = Çember Özellikleri
+Radius = Yarıçap
+
+#CopperArea Properties
+CopperArea Properties = BakırAlanı Özellikleri
+Clearance = Açıklık
+Pad Connection = Pad Bağlantısı
+Direct = Yol Göster
+Spoke = Spoke
+Keep Island = Adayı Tut
+Fill Style = Doldurma Biçimi
+CopperArea conflict: copper area outlines in same layer with different net names must not overlap = BakırAlanı çakışması: aynı katmandaki farklı ağ adlarına sahip bakır alanı anahatları üst üste gelmemelidir 
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Bakır alanı yeniden kurulumu tamamlandı! Boş alana bir kez tıkladıktan sonra sağdaki özellik panelinde "Bakır Bölge"yi "Görünür" olarak ayarlayabilirsiniz. 
+Please create board outline first. = Lütfen önce kart anahattını oluşturun.
+Board outlines are not closed. = Kart anahatları kapalı değil.
+Rebuild CopperArea = BakırAlanı'ını tekrar yeniden kur.
+Edit Points= Noktaları Düzenle
+Direct = Yol Göster
+Spoke = Spoke
+No Solid = Ayrık
+Board Cutout = Kesik
+Solid = Tam
+[copperArea]
+None = Hiçbiri
+[/copperArea]
+
+#Custom Attributes
+Custom Attributes = Özel Özellikler
+Fixed Attributes = Kararlaştırılmış Özellikler
+Add new parameter = Yeni değişken ekle
+Add New Parameter = Yeni Değişken Ekle
+Add New Supplier = Yeni Tedarikçi Ekle
+Mounted = Takılı
+Unknown = Bilinmeyen
+
+Custom = Özel
+Scan the QR code below and open it on the mobile side = Aşağıdaki QR kodunu tarayın ve mobil tarafta açın 
+How to create a single layer PCB = Tek katmanlı bir PCB nasıl oluşturulur 
+Currently doesn't support layout single layer directly, please refer at: = Şu anda doğrudan tek katman düzeni desteklemiyor, lütfen şu adrese bakın:
+
+#Dialog Register
+Create an account = Hesap Aç
+Username = Kullanıcı Adı
+Password = Şifre
+Confirm Password = Şifreyi Doğrula
+Email = E-posta
+Please read this before you register = Lütfen kayıt olmadan önce bunu okuyun
+Hi {username} = Merhaba {username}
+
+#Dialog lostPassword
+Lost Password... = Kayıp Şifre...
+Find the password using your email = E-postanızı kullanarak şifreyi bulun 
+
+
+
+#Dialog Login
+Login = Giriş
+Username or Email = Kullanıcı Adı veya Email-posta
+Remember Me = Beni Hatırla
+Third party = Üçüncü Parti
+Login and Register = Giriş ve Kayıt
+Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = Giriş bilgilerinizin süresi dolmuş görünüyor, lütfen tekrar giriş yapın. Açılış dosyalarını kapatmanıza gerek yok, giriş yaptıktan sonra kaydetmeye devam edebilirsiniz.
+
+#Dialog Reset Password
+Reset a password using your email = E-postanızı kullanarak şifre sıfırlayın 
+Your registered email = Kayıtlı e-postanız 
+
+#Dialog Reaction
+Re-send an activation code to your email  = E-postanıza yeniden bir aktivasyon kodu gönderin 
+
+#Dialog Invite
+Invite friends to register = Arkadaşlarınızı kaydolmaya davet edin 
+Your friend's email = Arkadaşınızın e-postası
+
+#Dialog Add A New Parameter
+Add a new parameter = Yeni bir değişken ekle
+Key = Anahtar
+Value.new_para =
+In BOM = BOM içinde
+Add into BOM = BOM'a ekle
+Invalid key = Geçersiz Anahtar
+This field is required. = Bu alan gereklidir.
+
+#Dialog Change Your Password
+Change your password = Şifreni değiştir
+Old password = Eski Şifre
+New Password = Yeni Şifre
+Confirm Password = Şifreyi Onayla
+
+#Dialog Create New Design
+Save as a New Project = Yeni Proje olarak kaydet
+Save as a schematic = Şematik olarak kaydet
+Save as Symbol = Sembol olarak kaydet
+Save as a spice Symbol = Spice sembolü olarak kaydet
+Save as a spice subckt = Spice Subckt olarak kaydet
+YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = BU SUBCKT İLE TAMAMEN AYNI İSİMDE BİR SPICE SEMBOLÜ OLUŞTURMALISINIZ 
+Save as a PCB file  = PCB dosyası olarak kaydet
+Save as Footprint = Ayak izi olarak Kaydet
+Save as a Schematic Module = Şematik Modülü olarak kaydet
+Save as a PCB Module = PCM Modülü olarak kaydet
+Save as 3D Model = 3D Model olarak kaydet
+Save as a WaveForm = DalgaFormu olarak kaydet
+Title = Başlık
+Share = Paylaş
+Add file = Dosya Ekle
+Visibility = Görünürlük
+Allow Comments = Yorumlara İzin Ver
+Public (Anyone can see this project but only you can modify it.) = Herkese Açık (Bu projeyi herkes görebilir, ancak yalnızca siz değiştirebilirsiniz.)
+Private (Only you can see and modify this project) = Şahsi (Bu projeyi sadece siz görebilir ve değiştirebilirsiniz)
+Create new project success! = Yeni proje başarıyla oluşturuldu!
+You can now create files under this project = Artık bu proje altında dosyalar oluşturabilirsiniz.
+This file must be saved under a project, choose other project or create a new project = Bu dosya bir proje altında kaydedilmelidir. Başka bir proje seçin veya yeni bir proje oluşturun.
+Please login to save this kind of document = Bu tür bir belgeyi kaydetmek için lütfen giriş yapın 
+Duplicated project title = Yinelenen proje başlığı 
+#Duplicated document title = Yinelenen proje başlığı
+Project does not exist = Proje yok
+Document does not exist = Belge yok
+document not exists = belge yok
+
+Categories = Kategoriler
+Project = Proje
+Short description = Kısa açıklama
+Content = İçerik
+Modify this project info. = Bu proje bilgilerini değiştir.
+Modify this file info. = Bu dosya bilgilerini değiştir 
+Notice = Duyuru
+Search for it before creating a new one.= Yeni bir tane oluşturmadan önce onu arayın. 
+Manufacturer Part Number = İmalatçı Parça Numarası 
+Supplier = Tedarikçi
+Or = Veya
+Supplier Part = Tedarikçi Parça
+Supplier Part Number = Tedarikçi Parça Numarası
+Link = Link
+link = link
+The professional function please refer at: = Profesyonel işlev için lütfen bkz. ：
+
+#Dialog Clone My Part
+#Clone it to a project = Bir projeye klonla
+#Clone it, then edit it = Klonla, sonra düzenle
+Clone your file = Dosyanızı klonlayın
+
+#Dialog Subckt
+Attach a Subckt to this spice symbol = Bu spice sembolüne bir Subckt ekleyin
+Subckt string  =
+Spice symbol title just allow [0-9][a-z][A-Z] and _ = Spice sembolü başlığı sadece [0-9][a-z][A-Z] ve _ karakterlerine izin verir
+
+#Design Manager
+Design Manager = Tasarım Yöneticisi
+Nets = Ağlar
+DRC Errors = DRC Hataları
+Are you sure you want to unroute this net? = Bu ağın yolunu kaldırmak istediğinizden emin misiniz? 
+Unroute = Yolu kaldır
+Track Length = Hat Uzunluğu
+Via/Hole Outer Size = Via/Delik Dış Boyutu
+Filter nets = Ağları Filtrele
+Design Rule Checking = Tasarım Kuralı Denetimi
+Board Outline = Kart Anahattı
+Plane Zone = Düzlem Bölgesi
+[drcRule]
+Width = Genişlik
+DRC Width = DRC Genişliği
+Length = Uzunluk
+DRC Length = DRC Uzunluğu
+Drill Diameter = Delgi Çapı
+DRC Drill Diameter = DRC Delgi Çapı
+Diameter = Çap
+DRC Diameter = DRC Çapı
+Object = Nesne
+DRC Clearance = DRC Açıklığı
+[/drcRule]
+#It will take a while to unroute this net, do you want to continue? = Bu ağın yolunu kaldırmak biraz zaman alacak, devam etmek istiyor musunuz? 
+More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Kabloda birden fazla ağ etiketi bulundu. Lütfen bunun doğru olup olmadığını kontrol edin, eğer bilerek tasarladıysanız lütfen bu uyarıyı dikkate almayın. 
+Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = Tamamlanmamış ağ. Tam bir ağ iki veya daha fazla pin içermelidir, eğer bilerek tasarlarsanız lütfen bu uyarıyı dikkate almayın. 
+This netlabel is not connected with any pin. = Bu ağ etiketi herhangi bir pin'e bağlı değil.
+Incomplete connection, please check. = Tamamlanmamış bağlantı, lütfen kontrol edin. 
+The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = İki nesne arasındaki açıklık, farklı ağlara sahip Tasarım Kuralı Denetimi (DRC) boşluğundan daha az.
+The diameter is less than Design Rule Checking (DRC) diameter = Çap, Tasarım Kuralı Denetimi (DRC) çapından daha küçük 
+The drill diameter is less than Design Rule Checking (DRC) drill diameter = Delgi çapı, Tasarım Kuralı Denetimi (DRC) delgi çapından daha az 
+The track length is longer than Design Rule Checking (DRC) track length = Hat uzunluğu, Tasarım Kuralı Denetimi (DRC) hat uzunluğundan daha uzun 
+The track width is less than Design Rule Checking (DRC) track width = Hat genişliği, Tasarım Kuralı Denetimi (DRC) hat genişliğinden daha az 
+
+#Dialog Simulation
+Show your simulation report = Simülasyon raporunuzu gösteriniz
+Download netlist = Ağ listesini indir
+Run = Çalıştır
+Components = Bileşenler
+
+#Dialog Import
+Import file from your computer = Dosyayı bilgisayarınızdan içe aktarın 
+Maximum file size: 30 MB = Maksimum dosya boyutu: 30 MB 
+Maximum file size: 100 MB = Maksimum dosya boyutu: 100 MB 
+Chose file  = Dosya seç
+File Operation = Dosya İşlemi
+Import File = Dosya İçe Aktar
+Extract Libs = Kütüphaneleri Çıkart
+Import File and Extract Libs = Dosya İçe Aktar ve Kütüphaneleri Çıkart
+File type = Dosya tipi
+The file size is too large. = Dosya boyutu çok büyük.
+Please selected the file type. = Lütfen bir dosya tipi seçiniz.
+No component was found! = Hiçbir bileşen bulunamadı!
+Import successfully = İçe aktarma başarılı!
+Import failed = İçe aktarma başarısız
+Click OK to continue with the import = İçe aktarmaya devam etmek için Tamam tuşuna basın
+Select None= Hiçbirini Seçme
+
+#Dialog Modify Symbol Information
+Modify symbol information = Sembol bilgilerini değiştir
+Spice Prefix = Spice ön eki
+Hide Pin = Pin'i gizle
+Pin Manager = Pin Yöneticisi
+When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = Bir güç pini gizlendiğinde, ağ etiketi olarak işaretlenir; kablolamanız gerekmez. Simülasyon olarak kullanıyorsanız, lütfen gösterin veya bunun için bir GND/VCC Ağı oluşturun.
+Assign = Atama yap
+Supplier.bom = Tedarikçi.bom
+LCSC.bom = LCSC.bom
+Price = Fiyat
+Quantity.bom = Miktor.bom
+Package.bom = Paket.bom
+Components.bom = Bileşenler.bom
+Manufacturer Part.bom = İmalatçı Parça.bom
+Manufacturer.bom = İmalatçı.bom
+
+One-click Purchasing at LCSC = LCSC'de Tek Tıkla Satın Alma 
+Order Parts/Check Stock = Parça Siparişi/Stok Kontrolü
+Export BOM = BOM Dışa Aktar
+Export PCB BOM = PCB BOM Dışa Aktar
+Export Schematic BOM = BOM Şematiği Dışa Aktar
+ID.bom = Kimlik.bom
+Name.bom = İsim.bom
+[bom]
+Name = İsim
+LCSC Assembly= LCSC Assembly
+Value = Değer
+ID = Kimlik
+Supplier = Tedarikçi
+LCSC = LCSC
+Price = Fiyat
+Quantity = Miktar
+Package = Paket
+Components = Bileşenler
+Manufacturer = İmalatçı
+[/bom]
+Manufacturer Part = İmalatçı Parça
+
+#Dialog Run
+Run your simulation = Simülasyonunuzu çalıştırın 
+Transient = Geçici
+Maximum Timestep = Maksimum Zaman Adımı
+Stop Time = Durma Zamanı
+Start Time = Başlangıç Zamanı
+
+AC Analysis = AC Analizi
+Type of Sweep = Sweep Tipi
+Number of points = Noktaların Sayısı
+Start Frequency = Başlangıç Frekansı
+Stop Frequency = Bitiş Frekansı
+
+DC sweep= DC sweep
+Source to Sweep = Kaynaktan Sweep'e
+Start Value = Başlangıç Değeri
+Stop Value = Bitiş Değeri
+Increment = Artış
+DC Transfer = DC Transfer
+Output = Çıktı
+Source = Kaynak
+
+DC op pnt = DC op pnt
+Compute the DC operating point treating capacitances as opens and inductances as shorts = Kapasitansları açık devre ve endüktansları kısa devre olarak ele alan DC çalışma noktasını hesaplayın
+
+#Dialog Share Info
+Active File = EtkinDosya
+Active Project = Etkin Proje
+Embed it in your html files. = Html dosyalarınıza gömün.
+Share it by e-mail, IM, blog, etc. = E-posta, IM, blog vb. ile paylaşın.
+BBCode (used by many online discussion forums)= BBCode (birçok çevrimiçi tartışma forumu tarafından kullanılır)
+HTML code = HTML Kodu
+QRCode (Share your schematic address by QRCode ) = QRCode (Şematik adresinizi QRCode ile paylaşın) 
+Short Url = Short Url
+Share a copy of this document = Bu belgenin bir kopyasını paylaşın
+Readonly = Salt Okunur
+Editable = Düzenlenebilir
+Active file's owner project page = Etkin dosyanın sahibinin proje sayfası
+Active project editor page = Etkin proje editor sayfası
+Active file image URL = Etkin dosya görseli URL'si
+
+#Dialog Document Recovery
+All Projects = Tüm projeler
+Document Recovery = Belge Kurtarma
+Unsaved files= Kayıtsız Dosyalar
+Please select a file! = Lütfen bir dosya seçin!
+Please expand the folder first, then select a document to recover. = Lütfen önce klasörü genişletin, ardından kurtarılacak bir belge seçin.
+Are you sure you want to remove this backup? = Bu yedeği kaldırmak istediğinizden emin misiniz? 
+
+#Dialog Find Libs
+Search = Ara
+Search Results = Sonuç Ara
+Search and press Enter = Ara ve Enter'a bas
+Keywords at least 3 characters = En az 3 karakterli anahtar kelime
+Assembled = Assembled
+Verified = Doğrulanmış
+In stock = Stokta
+{page} of {pagecount} pages = {page} / {pagecount} sayfa
+Common Modules = Ortak Modüller
+User Contributions = Kullanıcı Katkıları
+More = Daha Fazla
+Add Favorite = Favorilere Ekle
+Remove Favorite = Favorilerden Çıkar
+Add Sub Part = Alt Bölüm Ekle
+Untagged = Etiketsiz
+Package = Paket
+package = paket
+Title(PartNO)= Başlık(PartNO)
+No Data! = Veri yok!
+Quantity = Miktar
+Manufacturer Part = İmalatçı Parça
+manufacturer Part = İmalatçı Parça
+Manufacturer = İmalatçı
+manufacturer = imalatçı
+voltage = gerilim
+Library = Kütüphane
+LCSC Assembled =
+JLCPCB Assembled =
+User Contributed = Kullanıcı Katkılı
+Symbol = Sembol
+Follow = Takip Et
+Types = Tipler
+Classes = Sınıflar
+power = güç
+Power = Güç
+LCSC Part# = LCSC Parça#
+Stock = Stok
+Report Error... = Hata Raporla...
+Report Error = Hata Raporla
+Thanks for your feedback! = Geribildiriminiz için teşekkürler！
+Report error success, thanks for your report! = Hata raporu başarılı, raporunuz için teşekkürler！
+The content must be at least 2 characters! = İçerik en az 2 karakter olmalıdır!
+This library is user contributed, please check before using. = Bu kütüphane kullanıcı katkısı kapsamında oluşturulmuştur, lütfen kullanmadan önce kontrol ediniz.
+[lib]
+All = Tümü
+System = Sistem
+Personal = Kişisel
+Created = Oluşturulmuş
+Favorite = Favori
+No Team found. Please join or create a team first. = Hiçbir ekip bulunamadı. Lütfen önce katılın veya bir ekip oluşturun. 
+Create a team = Bir ekip oluştur.
+No follow user found. Please follow your friend first. = Takip eden kullanıcı bulunamadı. Lütfen önce arkadaşınızı takip edin.
+[/lib]
+
+
+BUY = SATIN AL
+In Stock = Stokta Var
+Out of Stock = Stokta Yok
+Minimum = Minimum
+Distributor = Distribütör 
+
+Capacitance = Kapasitans
+Frequency Tolerance = Frekans Toleransı
+Power (Watts) = Güç (Watt)
+Power - Max = Güç - Max
+Frequency = Frekans
+Voltage Rating(Vdc,Vac) = Gerilim Derecesi(Vdc,Vac)
+Voltage = Gerilim
+Current Rating = Akım Derecesi
+Rated current = Derecelendirmiş Akım
+Resistance (Ohms) = Direnç (Ohm)
+Resistance(Ohms) = Direnç(Ohm)
+Inductance = İndüktans
+FET Type = FET Tipi
+Current Rating(Max) = Akım Derecesi(Max)
+Impedance @ Frequency = Empedans @ Frekans
+Voltage - Input (Max) = Gerilim - Girdi (Max)
+Voltage - Input (Min) = Gerilim - Girdi (Min)
+Voltage - Supply = Gerilim - Besleme
+Voltage - Max = Gerilim - Max
+Current - Output = Akım - Çıktı
+
+#Dialog Export Your Works
+Export your works = Çalışmalarınızı dışa aktarın 
+Export to = Dışa Aktar
+Zoom = Yakınlaştır
+Image Type = Görsel Tipi
+Qualify = Kalifiye Et
+0 means real size = 0 gerçek boyut anlamına gelir
+Merged layer = Birleştirilmiş katman
+Separated layer = Ayrılmış katman
+Paged layer = Sayfalandırılmış katman
+Layer = Katman
+Export = Dışa Aktar
+Mirror = Ayna
+TopLayer = ÜstKatman
+BottomLayer = AltKayman
+TopSilkLayer = ÜstBaskıKatmanı
+Protractor Attributes = Açıölçer Nitelikleri
+BottomSilkLayer = TabanBaskıKatmanı
+#后面还有个BoardOutline,仅仅一个字母大小写的差别
+BoardOutLine = KartAnahattı
+TopAssembly = ÜstAssembly
+BottomAssembly = AltAssembly
+Mechanical = Mekanik
+DocumentLayer = BelgeKatmanı
+Inner{number} = İç{number}
+Substrate{number} = Alt Madde{number}
+Color=Renk
+Full Color = Tüm Renk
+Canvas Setting = Tuval Ayarı
+Full Graphics = Tüm Grafikler
+Assembly Drawings = Assembly Çizimleri
+Object Outlines = Nesne Anahatları
+Invalid file format = Geçersiz dosya formatı
+Failed to export file = Dosyayı dışa aktarılamadı
+Download now = Şimdi indir
+Wire Width = Kablo Genişliği
+Sheet = Çalışma Sayfası
+Merged sheet = Birleştirilmiş Çalışma Sayfası
+Separated sheet = Ayrılmış Çalışma Sayfası
+Engine = Motor
+Exporting PDF = PDF Dışa Aktarma
+Export 3D Model = 3D Modeli Dışa Aktar
+[exportDocument]
+Size = Boyut
+[/exportDocument]
+
+#Dialog Import Changes
+Confirm Importing changes information = Değişiklik bilgilerini içe aktarmayı onaylayın 	
+You can't undo this operation, Please run a Design Rule Checking (DRC) after this operation. = Bu işlemi geri alamazsınız. Lütfen bu işlemden sonra Tasarım Kuralı Denetimi'nü (DRC) çalıştırın.
+Apply Changes = Değişiklikleri Uygula
+This is a simple Design Rule Checking (DRC). = Bu basit bir Tasarım Kuralı Denetimi'dür (DRC).
+It just can help you to find the obvious errors = Size sadece bariz hataları bulmakta yardımcı olabilir
+There are some unfinished nets, do you want to check the nets first? = Bazı tamamlanmamış ağlar bulunmakta, ilk önce ağları kontrol etmek ister misiniz?
+Yes, Check Nets = Evet, Ağları Kontrol Et
+No, Keep Going = Hayır, Devam Et
+
+#Dialog Layer Manager
+Configured = Yapılandırılmış
+Layer Name = Katman İsmi
+TopPasterLayer = ÜstMacunKatmanı
+BottomPasterLayer = AltMacunKatmanı
+TopSolderLayer = ÜstLehimKatmanı
+BottomSolderLayer = AltLehimKatmanı
+TopPasteMaskLayer = ÜstMacunMaskesiKatmanı
+BottomPasteMaskLayer = AltMacunMaskesiKatmanı
+TopSolderMaskLayer = ÜstLehimMaskesiKatmanı
+BottomSolderMaskLayer = AltLehimMaskesiKatmanı
+ComponentShapeLayer = BileşenŞekliKatmanı
+LeadShapeLayer = KurşunŞekliKatmanı
+ComponentMarkingLayer = BileşenİşaretlemeKatmanı
+Ratlines = İskalarya
+Ratlines Color = İskalarya Rengi
+Manage Colors = Renkleri Yönet
+BoardOutline = KartAnahattı
+Multi-Layer = Çok Katmanlı
+Hole = Delik
+DRCError = DRCHatası
+Setting = Ayar
+Drawing area = Çizim alanı
+Export area = Dışa aktarım alanı
+Transparency(%) = Saydamlık(%)
+Copper Layer = Bakır Katmanı
+Signal = Sinyal
+Plane = Düzlem
+Non-Signal = Sinyal Yok
+Other = Diğer
+Please delete all the objects of the layers first! The layers are: = Lütfen önce katmanların tüm nesnelerini silin! Katmanlar: 
+You are converting Signal Layer to Plane Layer, There're some non-track objects remain on following layers. Please delete the objects manually on the canvas. = Sinyal Katmanını Düzlem Katmanına dönüştürüyorsunuz, takip eden katmanlarda hattı olmayan bazı nesneler kalıyor. Lütfen tuval üzerindeki nesneleri manuel olarak silin.
+Please delete all the objects of this layer first! = Lütfen önce bu katmanın tüm nesnelerini silin! 
+
+#Dialog Fabrication Output
+Create Files = Dosya Oluştur
+Check your {0}Gerber files{1} carefully before sending them to the factory = Fabrikaya göndermeden önce {0}Gerber dosyalarını{1} dikkatlice kontrol edin. 
+Download free Gerber Viewer (gerbv) = Ücretsiz Gerber Görüntüleyicisi'ni indirin (gerbv)
+Before generating the Gerber files = Gerber dosyalarını oluşturmadan önce 
+Please check the packages size and orientation carefully. = Lütfen paket boyutunu ve yönelimini dikkatlice kontrol edin. 
+Please check for Design Rule Checking (DRC) errors in the Design Manager. = Lütfen Tasarım Yöneticisi'nde Tasarım Kuralı Denetimi (DRC) hatalarını kontrol edin.
+Please rebuild the copper area after modifying tracks and packages. = Lütfen hatları ve paketleri değiştirdikten sonra bakır alanını yeniden oluşturun.
+After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Gerber dosyasını oluşturduktan sonra, tasarım gereksinimlerine uygun olup olmadığını kontrol etmek için lütfen {0}Gerber Görüntüleyici{1} kullanın.
+Order at JLCPCB = JLCPCB'den sipariş verin
+Found the complicated polygon object can not be generated at Gerber, please remove or replace = Gerber'de oluşturulamayan karmaşık poligon nesnesi bulundu , lütfen kaldırın veya değiştirin.
+ID: {id}, Object: {object}, Location: {location} = Kimlik: {id}, Nesne: {object}, Konum: {location}
+
+#Dialog DRC
+Item = Öge
+Value = Değer
+value = değer
+Unit = Birim
+Track Width = Hat Genişliği
+Track to Track = Hattan hata
+Track to Pad = Hatta pad'e
+Pad to Pad = Pad'den pad'e
+Via to Via = Via'dan via'ya
+Via Hole Size = Via Deliği Boyutu
+Realtime DRC = Gerçek Zamanlı DRC
+{0} is too small! = {0} çok küçük!
+Invalid DRC Rule = Geçersiz DRC Kuralı
+Rule = Kural
+Via Diameter = Via Çapı
+Via Drill Diameter = Via Delgi Çapı
+Net List = Ağ Listesi
+Rule = Kural
+Set Rule = Kural Belirle
+Check Object to Copper Area = Nesneden Bakır Alana Kontrol Et
+Show DRC Boundary while Routing = Yol Atama sırasında DRC Sınırını Göster
+Check Object to Board Outline = Nesneden Kart Anahattına Kontrol Et
+Rule name already exists! = Kural adı zaten mevcut! 
+You should not delete default rule! = Varsayılan kuralı silmemelisiniz!
+Rule list contains invalid rule setting! = Kural listesi geçersiz kural ayarı içeriyor! 
+Duplicate rule name exists! = Yinelenen kural adı var! 
+via diameter is smaller than via drill diameter! = via çapı, delgi çapından daha küçük! 
+Currently rule name is not allowed to contain magical characters like . and $ = Şu anda kural adının . ve $ gibi sihirli karakterler içermesine izin verilmiyor 
+[drcRule]
+All = Tümü
+[/drcRule]
+
+#Dialog  Update PCB
+Update PCB(Synchronizing PCB from schematics) = PCB'yi güncelle (PCB şematiklerden senkronize ediliyor) 
+
+
+#Dialog Hotkey
+Change Canvas Unit = Tuval Birimini Değiştir
+Copy Selected Object(s) by Reference Point = Seçili Nesneyi/Nesneleri Referans Noktasına Göre Kopyala
+Fullscreen = Tam Ekran
+Undo the Previous Draw = Önceki Çizimi Geri Al
+Set Canvas Origin by Coordinate = Tuval Orijinini Koordinata Göre Ayarla
+Switch to the Next Signal Layer = Sonraki Sinyal Katmanına Geç
+Switch to the Previous Signal Layer = Önceki Sinyal Katmanına Geç
+Switch object to top layer or bottom layer = Nesneyi üst veya alt katmana geçir
+Cycle Forward to the Next Open Tabbed Document = Sonraki Açık Sekmeli Belgeye Geç
+Cycle Backward to the Previous Open Tabbed Document = Önceki Açık Sekmeli Belgeye Dön
+Switch to the Previous Layer(on the Numeric Keypad) = Önceki Katmana Geç (Numerik Tuş Takımında) 
+Switch to the Next Layer(on the Numeric Keypad) = Sonraki Katmana Geç (Numerik Tuş Takımında) 
+Toggle Layers Which is Not Active = Etkin Olmayan Katmanları Aç/Kapat
+Hotkey Setting =Kısayol Tuşu Ayarı
+Document Type = Belge Tipi
+Shortcut = Kısayol
+Function = İşlev
+ALL = TÜMÜ
+SCH = SCH
+Rotate Selected Objects = Seçili Nesneleri Döndür
+Scroll or Move Selected Left = Seçileni Sola Kaydır veya Taşı 
+Scroll or Move Selected Right = Seçileni Sağa Kaydır veya Taşı 
+Scroll or Move Selected Up = Seçileni Yukarı Kaydır veya Taşı 
+Scroll or Move Selected Down = Seçileni Aşağı Kaydır veya Taşı 
+Set canvas origin to the center grid of graphics in symbol; Set canvas origin to the center of pads in footprint. = Tuval orijinini semboldeki grafiklerin orta ızgarasına yerleştirin; Ayak İzinde tuval orijinini pad'lerin ortasına ayarlayın.
+Cross Document Paste = Çapraz Belge Yapıştırma
+Explore & Find Components = Bileşen Bul ve Keşfet
+Select All= Tümünü Seç
+Cancel Current Drawing= Mevcut Çizimi İptal Et
+Save = Kaydet
+Drag Tool= Sürükleme Aracı
+Draw Wire= Kablo Çiz
+Draw Bus= Veriyolu Çiz
+Bus Entry= Veriyolu Girişi
+Junction= Kavşak
+Net Flag GND= Ağ Bayrağı GND
+Net Flag= Ağ Bayrağı
+Draw Polyline= Polyline Çiz
+Draw Polygon= Poligon Çiz
+Draw Bezier= Bezier Çiz
+Draw Arc= Kavis Çiz
+Draw Rect= Dikdörtgen Çiz
+Draw Ellipse= Elips Çiz
+Freehand Draw= Serbest Çizim 
+Freedraw = Serbestçizim
+Draw Text= Metin Çiz
+Edit Selected Symbol = Seçili Sembolü Düzenle
+Draw Track= Hat Çiz
+Draw Circle= Çember Çiz
+Cycle Select Object at Current Location = Mevcut Konumdaki Nesnede Döngü Seçimi Yap
+Draw Dimension= Boyut Çiz
+Draw Connect= Bağlantı Çiz
+Draw CopperArea= BakırAlanı Çiz
+Change to TopLayer;<br/>Change Seleted Component's Layer to TopLayer; = ÜstKatman'a Geç;<br/>Seçili Bileşenler Katmanını ÜstKatman'a Geçir;
+Change to BottomLayer;<br/>Change Seleted Component's Layer to BottomLayer; = AltKatman'a Geç;<br/>Seçili Bileşenler Katmanını AltKatman'a Geçir;
+Change to Inner1= İç1 olarak değiştir
+Change to Inner2= İç2 olarak değiştir
+Change to Inner3= İç3 olarak değiştir
+Change to Inner4= İç4 olarak değiştir
+Highlight Net= Ağı Vurgula
+Place Pad= Pad Yerleştir
+Place Via= Via Yerleştir
+Measure= Ölç
+Change Routing Angle= Yol Atama Açısını Değiştir
+Change Routing Conflict = Yol Atama Çatışmasını Değiştir
+Decrease Routing Width= Yol Atama Genişliğini Azalt
+Increase Routing Width= Yol Atama Genişliğini Artır
+Decrease Snap Size= Yaslama Boyutunu Azalt
+Increase Snap Size= Yaslama Boyutunu Artır
+Change Copper Zone Visible or Invisible = Bakır Alanını Görünür veya Görünmez Olarak Değiştir
+Rebuild All Copper Area = Tüm Bakır Alanını Yeniden Kur
+Toggle PCB Net Display = PCB Ağ Görünümünü Aç/Kapat
+Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Nesne Yerleştirirken Nitelik İletişim Kutusunu Göster;<br/>Nesneleri Yapıştırırken Konum Ayarı İletişim Kutusunu Göster
+Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Nesneyi Yerleştirirken Nitelik İletişim Kutusunu Göster;<br/>Nesneleri Seçerken Mutlak Offset İletişim Kutusunu Göster;<br/>Nesneleri Yapıştırırken Konum Ayarı İletişim Kutusunu Göster
+Show Relative Offset Dialog When Selecting Object(s) = Nesne(ler)i Seçerken Göreceli Offset İletişim Kutusunu Göster
+Open the FAQ Page = SSS Sayfasını Aç
+Move Object(s) by Reference Point = Nesneleri Referans Noktasına Göre Taşı 
+Choose Favorite Track Width While Routing = Yol Atama Esnasında Kullanacağınız Favori Hat Genişliğini Seçin 
+Copy Selected Object(s) and Paste Repeatedly = Seçili Nesneleri Kopyalayın ve Tekrar Tekrar Yapıştırın 
+
+#My Projects Tree Menu
+New Project = Yeni Proje
+New Schematic = Yeni Şematik
+New PCB = Yeni PCB
+New Spice Subckt = Yeni Spice Subckt
+Modify = Değiştir
+Delete = Sil
+Add sub part = Alt bölüm ekle
+Clone = Klonla
+Version History = Sürüm Geçmişi
+Refresh List = Yenileme Listesi
+Create New Project = Yeni Proje Oluştur
+Delete = Sil
+Attachment = Ek
+Archive = Arşiv
+Transfer = Transfer
+
+#Dialog Verify Package
+Footprints Verification = Ayak İzi Doğrulama
+
+#Dialog Edit Polygon Pad points
+Edit Points = Noktaları Düzenle
+Center point is outside the pad = Merkez noktası pad'in dışında
+Hole should be inside the pad = Delik pad'in içinde olmalıdır
+Hole is draggable = Delik sürüklenebilir
+
+#My Part Tree Menu
+Clone = Klonla
+Reload parts = Bölümleri Yeniden Yükle
+Layers = Katmanlar
+
+#Dialog Preferences
+Language = Dil
+Display Name = Görüntülenecek İsim
+HotKey Sync = Kısayol Tuşu Senkronizasyonu
+My Theme Sync = Tema Senkronizasyonu
+Document Recovery Setting = Belge Kurtarma Ayarı
+Enable auto backup = Otomatik yedeklemeyi etkinleştir 
+Maximum backup level = Maksimum yedekleme düzeyi 
+Auto backup interval = Otomatik yedekleme aralığı 
+minutes = dakikalar
+Save to Server = Sunucuya Kaydet
+Load from Server = Sunucudan Yükle
+
+
+#Dialog Schematic Library Wizard
+Symbol Wizard = Sembol Sihirbazı
+Style = Biçim
+Picture = Resim
+Pin Names = Pin İsimleri
+Contributor = İştirakçi
+contributor = iştirakçi
+owner = sahip
+
+#Dialog Annotate
+Annotate = Ek Açıklama
+Scope= Kapsam
+Active Schematic only = Sadece Etkin Şematik
+All Opened Schematics = Tüm Açık Şematikler
+Method= Metot
+Re-annotate all= Tümüne tekrar ek açıklama ekle
+Keep existing annotation = Mevcut dipnotu koru
+Direction= Yön
+Rows= Satırlar
+Cols= Sütunlar
+Reset = Sıfırla
+
+#Dialog Order
+Order... = Sipariş Ver...
+PCB Qty.= PCB Miktarı
+PCB Thickness= PCB Kalınlığı
+PCB Dimension= PCB Boyutu
+Automatic calculation = Otomatik Hesaplama
+PCB Color= PCB Rengi
+Green = Yeşil
+White= Beyaz
+Blue= Mavi
+Red= Kırmızı
+Yellow= Sarı
+Black= Siyah
+Purple= Mor
+Copper= Bakır
+Gold= Altın
+Silver= Gümüş
+Surface Finish= Yüzey İşleme
+Hasl= Hasl
+Hasl(Lead Free)= Hasl (Kurşunsuz)
+ENIG= ENIG
+E-Test= E-Test
+Shipping Cost = Nakliye Maliyeti
+Cost Estimate= Tahmini Maliyet
+Actual cost will be confirmed by email.= Asıl maliyet e-posta ile teyit edilecektir. 
+Shipping information= Nakliye Bilgileri
+Address= Adres
+ZIP/Post code= ZIP/Posta Kodu
+City= Şehir
+Country= Ülke
+Tel.= Telefon
+After filling out the form above, we will email you with (i) the results of the Design Rule Checking (DRC), (ii) a quote and (iii) a payment link using Paypal. Shipping is normally one week from receipt of payment.= Yukarıdaki formu doldurduktan sonra size (i) Tasarım Kuralı Denetimi (DRC) sonuçlarını, (ii) bir fiyat teklifini ve (iii) Paypal kullanarak bir ödeme bağlantısını e-posta ile göndereceğiz. Nakliye normalde ödemenin alınmasından itibaren bir hafta sonrasındadır.
+
+
+
+#Dialog Hot Key config
+Restore All Default Shortcuts = Tüm Varsayılan Kısayolları Onar
+Save Changes = Değişiklikleri Kaydet
+
+
+
+#Dialog Polyline Maybe Wire
+To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = Elektrik elemanlarını bağlamak için, lütfen Çizgi (L kısayol tuşu) değil, Kablo (W kısayol tuşu) kullanın.
+
+Anonymous File = Anonim Dosya
+Anonymous File can not be cloned, but you can open it, then save it as a new file. = Anonim Dosya klonlanamaz, ancak onu açıp yeni bir dosya olarak kaydedebilirsiniz.
+Free Documents = Ücretsiz Belgeler
+You must close the file before delete it! = Silmeden önce dosyayı kapatmalısınız!
+Offline Project = Çevrimdışı Proje
+
+#Message box
+Confirmation = Onay
+Alert = Alarm
+Information = Bilgi
+information = bilgi
+Prompt = Komut İstemi
+Error = Hata
+error = hata
+error! = hata!
+Warning = Uyarı
+Imported ok! = İçe aktarılma tamam!
+Some changes have not been saved. = Bazı değişiklikler kaydedilmedi.
+Your file hasn't been saved. Please save first! = Dosyanız kaydedilmedi. Lütfen önce kaydediniz!
+Your file hasn't been saved. Are you sure you want to close it? = Dosyanız kaydedilmedi. Kapatmak istediğinizden emin misiniz?
+Error! Please try again later. = Hata! Lütfen sonra tekrar deneyin.
+Are you sure you want to reload this page? = Bu sayfayı yenilemek istediğinizden emin misiniz?
+Are you sure you want to leave this page? = Bu sayfayı terk etmek istediğinizden emin misiniz?
+Confirm Reload = Yenilemeyi Onayla
+Confirm Close = Kapatmayı Onayla
+Reload this page = Sayfayı Yenile
+Leave this page = Sayfayı terk et
+Stay on this page = Bu sayfada kal
+Don't reload = Yenileme yapma
+No connect flag only can be placed on Pin dot or the wire which is connected one Pin. = Bağlantı Yok Bayrağı sadece pin noktasına veya bir pin'in bağlı olduğu kabloya yerleştirilebilir. 
+can not be placed on the wire which is placing No Connect Flag. = Bağlantı Yok Bayrağı yerleştiren kablonun üzerine yerleştirilemez 
+The footprint transfer to LCSC library class successfully = Ayak izi, LCSC kütüphane sınıfına başarıyla aktarılıyor
+Device/Footprint goes into "SMT Device/Footprint Verified" list successfully = Aygıt/Ayak İzi başarıyla "SMT Aygıtı/Ayak İzi Doğrulandı" listesine giriyor
+
+Load failure! = Yükleme başarısız!
+Load projects failed = Projeler yüklenemedi
+error info = hata bilgisi
+error information = hata bilgisi
+Guest can't create a new project. Please login! = Misafirler yeni bir proje oluşturamaz. Lütfen giriş yapın! 
+Please create a project before you do this! = Lütfen bunu yapmadan önce bir proje oluşturun!
+Add Part success = Parça yükleme başarılı
+Click the new part and then edit it!= Yeni parçaya tıklayın ve ardından düzenleyin! 
+Delete my work = Çalışmamı Sil
+Delete my work. (Only deletes it from this list but not from the server) = Çalışmamı sil. (Sadece bu listeden siler fakat sunucudan silmez) 
+Do you confirm this? = Bunu onaylıyor musunuz?
+Successfully deleted! = Başarıyla silindi!
+Successfully Copied! = Başarıyla kopyalandı!
+Cloning success! = Klonlama başarılı!
+Your title is too short! = Başlığınız çok kısa!
+Remove this part = Bu parçayı kaldır
+Find and Jump to ...  = Bul ve Atla...
+Please type the prefix, such as U1, R1, C1 = Lütfen U1, R1, C1 gibi ön ek yazın
+Zoom as 1:1, you can print it and then create artwork for etching the PCB. = 1:1 olarak yakınlaştırın. Yazdırabilir ve ardından PCB'ye oymak için resim oluşturabilirsiniz.
+Exporting your works! = Çalışmalarınız dışa aktarılıyor!
+Guests can't import a file. Please login! = Misafirler dosya içe aktaramaz. Lütfen giriş yapın! 
+Please create a project before you import a file! = Lütfen bir dosya içe aktarmadan önce bir proje oluşturun! 
+Import your LTspice file! = LTspice dosyanızı içe aktarın!
+Open LTspice file = LTspice dosyasını aç
+Please make sure the selected LTspice file is a file saved in LTspice V and above. = Lütfen seçilen LTspice dosyasının LTspice V ve üzerinde kaydedilmiş bir dosya olduğundan emin olun. 
+Saved successfully! = Kayıt başarılı!
+Save failed! = Kayıt başarısız!
+Can not place parts into this document. = Bu belgeye parçalar yerleştirilemez. 
+User Package = Kullanıcı Paketi
+System Package = Sistem Paketi
+File error = Dosya hatası
+Please save your file first! = Önce dosyanızı kaydediniz!
+Email address is too short! = E-posta adresi çok kısa!
+You have not selected a file to upload. = Yüklemek için bir dosya seçmediniz.
+Update = Güncelle
+Import.Import Changes =
+No changes, the PCB already matches the schematic! = Değişiklik yok, PCB zaten şematik ile eşleşiyor!
+Only public files can be shared = Yalnızca herkese açık dosyalar paylaşılabilir 
+Conversion to PCB has failed! = PCB'ye dönüştürme başarısız oldu!
+Your username is too short! = Kullanıcı adınız çok kısa!
+Your password is too short, it must be more than 6 characters! = Şifreniz çok kısa, 6 karakterden fazla olmalı!
+Conflicting shortcut = Çakışan kısayol 
+There is an empty PCB file. Please first run Convert Project To PCB... from the schematic = Boş bir PCB dosyası var. Lütfen önce şematikten Projeyi PCB'ye Dönüştür'e basıp çalıştırın ... 
+This file has been modified, are you sure you want to run this simulation before saving it first? = Bu dosya değiştirildi. Kaydetmeden önce bu simülasyonu çalıştırmak istediğinizden emin misiniz?
+Please enter the Maximum Timestep! = Lütfen Maksimum Zaman Adımını girin! 
+Please enter the Stop Time! = Lütfen Durma Zamanını giriniz! 
+All of these fields are needed. = Tüm bu alanlar gereklidir.
+Either your spice netlist is too big or the server is busy. Please try again later. = Ya spice ağ listeniz çok büyük ya da sunucu meşgul. Lütfen daha sonra tekrar deneyiniz. 
+Your spice netlist is too big! Try breaking your circuit into smaller simulatable blocks. = Spice ağ listeniz çok büyük! Devrenizi daha küçük simüle edilebilir bloklara ayırmayı deneyin. 
+Too many users in simulation. Please try again later! = Simülasyonda çok fazla kullanıcı var. Lütfen daha sonra tekrar deneyiniz! 
+Due to limited server resources, please wait 10 seconds for the interval in every time simulation. = Sınırlı sunucu kaynakları nedeniyle, lütfen her simülasyonda aralık için 10 saniye bekleyin. 
+Your circuit is too complex, we have not enough CPU resouce to support this simulation, please reduce your circuit as small as you can. = Devreniz çok karmaşık, bu simülasyonu desteklemek için yeterli CPU kaynağımız yok. Lütfen devrenizi olabildiğince küçültün. 
+Simulation is queuing, try again after 30s. = Simülasyon kuyruğa giriyor, 30 saniye sonra tekrar deneyin.
+Timeout = Zaman Aşımı
+Demo accounts don't support simulation, please login first= Demo hesaplar simülasyonu desteklemiyor, lütfen önce giriş yapın
+Please login first = Lütfen önce giriş yapın
+The schematic is showing errors, please check the simulation report carefully! = Şematik hatalar gösteriyor, lütfen simülasyon raporunu dikkatlice kontrol edin! 
+Simulation too long, maybe your schematic is too complex. = Simülasyon çok uzun, şematiğiniz çok karmaşık olabilir. 
+Non-simulated file = Simüle edilmemiş dosya
+This file can only be opened in standard mode. To open it, please switch to standard mode. = Bu dosya yalnızca standart modda açılabilir. Açmak için lütfen standart moda geçin.
+Load your preferences success! = Tercihleriniz başarıyla yüklendi!
+Save your preferences success! = Tercihleriniz başarıyla kaydedildi!
+Update subckt ok! = Subckt güncelleme tamam!
+Clone your file = Dosyanızı klonlayın
+Please type a new file name = Lütfen yeni bir dosya adı yazın
+Create file failure! = Dosya oluşturma hatalı! 
+Schematics and PCBs can't be imported under My Libs folder, please choose a different folder = Şematikler ve PCB'ler Kütüphanelerim klasörüne aktarılamaz, lütfen farklı bir klasör seçin
+Libraries to be imported under My Libs folder = Kütüphaneler, Kütüphanelerim klasörü altında içe aktarılacak 
+Please choose only the libraries needed = Lütfen sadece gerekli kütüphaneleri seçin 
+Maximum import is 200 libs at one time! = Maksimum içe aktarma bir seferde 200 kütüphanedir! 
+You libraries will be found under the My Libs folder = Kütüphaneleriniz, Kütüphanelerim klasörü altında bulunacaktır. 
+Add to Library = Kütüphaneye ekle
+No items have been checked! = Hiçbir öge seçilmedi!
+Nothing was found, please create it for yourself= Hiçbir şey bulunamadı, lütfen kendiniz oluşturun
+Search result = Arama Sonucu
+At least 3 characters needed = En az 3 karakter gereklidir
+Add to my Favorite Parts = Favori Parçalarıma ekle
+Added it OK. Please find it in your Favorite Parts = Eklenme tamam. Lütfen Favori Parçalarınızda bulun. 
+Please select its parent node = Lütfen üst düğümünü seçin
+Libraries can not be exported as active project pdf. = Kütüphaneler etkin proje pdf'i olarak dışa aktarılamaz.
+Error:No GND = Hata: GND Yok
+This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Bu devrede GND mevcut değil. Devreye eklemek için lütfen devre aracından GND'yi seçin. 
+Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Mevcut devre Gerilim Kaynağı veya Akım Kaynağı sembolüne sahip değil, lütfen önce sol taraftaki EElib veya Spice Kütüphanesi'ne yerleştirin.
+Probe can not connect with ground(GND)! = Prob toprağa(GND) bağlanamıyor!
+Spice symbols's attributes can't be empty. = Spice sembolü nitelikleri boş bırakılamaz.
+Error:No Spice Symbol = Hata: Spice Sembolü yok
+Simulation limit = Simülasyonu limiti
+There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = Devrede .tran veya .op emülasyon komutu kullanılarak simüle edilmesi gereken bir multimetre var.
+An oscilloscope exists in the circuit and needs to be simulated using the simulation command .tran = Devrede bir osiloskop var ve simülasyon komutu .tran kullanılarak simüle edilmesi gerekiyor.
+There are components in this circuit that do not have a simulation model. Please use the base library component of the simulation mode for simulation. = Bu devrede simülasyon modeline sahip olmayan bileşenler var. Lütfen simülasyon için simülasyon modunun temel kütüphane bileşenini kullanın.
+Circuit does not have a probe = Devrenin bir prob'u yok
+Make sure your pin numbers are even numbers = Pin numaralarınızın çift sayı olduğundan emin olun
+Duplicate Components Prefix = Yinelenen Bileşenler Ön Eki 
+All components are hidden successfully! = Tüm bileşenler başarıyla gizlendi! 
+All ratlines are hidden successfully! = Tüm iskalaryalar başarıyla gizlendi! 
+Hidden the ratline of net {netName} successfully! = {netName} ağının iskalaryası başarıyla gizlendi!
+Duplicate Component Prefix = Yinelenen Bileşen Ön Eki
+{0} exist = {0} var
+There are some invalid packages, are you sure? = Bazı geçersiz paketler var, emin misiniz? 
+Invalid Characters, library only allows [0-9a-zA-Z-_] = Geçersiz Karakterler, kütüphane yalnızca [0-9a-zA-Z-_]'ye izin verir
+Annotation success = Dipnot başarılı
+If you accept this annotation operation, please save your files. If not, close your files without saving. = Bu dipnot işlemini kabul ediyorsanız, lütfen dosyalarınızı kaydedin. Kabul etmiyorsanız, dosyalarınızı kaydetmeden kapatın. 
+This file can't be saved under libs project. Please choose other project or create a new project= Bu dosya kütüphaneler projesi altında kaydedilemez. Lütfen başka bir proje seçin veya yeni bir proje oluşturun.
+Your file is unsaved.= Dosyanız kaydedilmedi. 
+You can close the editor now. Have a good day! = Editörü şimdi kapatabilirsiniz. İyi günler! 
+Successfully logged out = Başarıyla çıkış yapıldı 
+You have at least one unsaved file open. Please save it or close it. = Açık olan en az bir kaydedilmemiş dosyanız var. Lütfen kaydedin veya kapatın. 
+Please select a reference point = Lütfen bir referans noktası seçin 
+Please save your file before this operation = Lütfen bu işlemden önce dosyanızı kaydedin
+Please open a PCB document = Lütfen bir PCB belgesi açın
+Please save your file before '{0}'. = Lütfen dosyanızı '{0}' öncesinde kaydedin. 
+Please try again after saving this file. = Lütfen bu dosyayı kaydettikten sonra tekrar deneyin.
+This text can not be empty! = Bu metin boş olamaz!
+Export to Altium fail, please try again or contact us. = Altium'a aktarım başarısız, lütfen tekrar deneyin veya bizimle iletişime geçin. 
+Please login before asking for help = Lütfen yardım istemeden önce giriş yapın
+This file has been modified, please save it first! = Bu dosya değiştirildi, lütfen önce kaydedin! 
+Remove this param = Bu parametreyi kaldır
+You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. = Bir parçayı tuvale sürükleyemezsiniz. Lütfen parçaya tıklayın ve imleci tuvale taşıyın ve ardından yerleştirmek için sağ tıklayın.
+Undo/Redo temporary error = Geçici hatayı geri al/yinele  
+We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. = Üzgünüz, ancak geri alma/yineleme işleminde öngörülemeyen bir hata var. Bu sorun yakında çözülecek, ancak bu arada tasarımınız üzerinde çalışmaya devam etmek güvenlidir.
+The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. = Şematik, bileşenlerin yinelenen ön eklerine sahip. Lütfen bunları benzersiz yapın. Tasarım Yöneticisini kullanarak bunları kontrol edebilirsiniz.
+Found duplicated prefix components, can not Import Changes, please modify the duplicated prefix or delete related component. = Yinelenen ön ek bileşenleri bulundu, değişiklikler içe aktarılamıyor. Lütfen yinelenen öneki değiştirin veya ilgili bileşeni silin.
+Please click the below help button to find out how to fix this problem. = Bu sorunun nasıl çözüleceğini öğrenmek için lütfen aşağıdaki yardım butonuna tıklayın
+Please create a board outline! Click the help button to find out how to create a board outline. = Lütfen bir kart taslağı oluşturun! Bir kart taslağının nasıl oluşturulacağını öğrenmek için yardım düğmesine tıklayın.
+Can not fetch files from server, please check your network and try again = Sunucudan dosya alınamıyor, lütfen ağınızı kontrol edin ve tekrar deneyin
+Please open a schematic first! = Lütfen önce bir şema açın! 
+Can not find the schematic of this PCB = Bu PCB'nin şemasını bulunamadı
+invalid points! = geçersiz noktalar!
+This file does not support this operation. = Bu dosya bu işlemi desteklemiyor.
+Net Name Conflict = Ağ İsmi Çakışması
+Net name = Ağ ismi
+{0} are in the same wire, please remove others and just keep one. = {0} aynı kabloda, lütfen diğerlerini kaldırın ve bir tanesini saklayın.
+This field can't be removed! = Bu alan kaldırılamaz!
+Annular ring of the pad/via is too small = Pad/via'nın dairesel halkası çok küçük 
+The size of the hole cannot exceed the size of the pad = Deliğin boyutu, pad'in boyutunu aşamaz 
+Are you sure you want to create a multi-sheet designs? = Çok sayfalı tasarımlar oluşturmak istediğinizden emin misiniz?
+Are you sure you want to create a {0}multi-sheet designs{1}? = {0}Çok sayfalı tasarımlar{1} oluşturmak istediğinizden emin misiniz? 
+Please build the copper area! Click the help button to find out how to build the copper area. = Lütfen bakır alanını oluşturun! Bakır alanının nasıl oluşturulacağını öğrenmek için yardım düğmesine tıklayın.
+Suggest to set a package for this component first! = Önce bu bileşen için bir paket ayarlamayı önerin! 
+Please select an opened document first. = Lütfen önce açılmış bir belge seçin. 
+Some files failed to load. Please reload the page. = Bazı dosyalar yüklenemedi. Lütfen sayfayı yenileyin.
+
+#UI Intro
+Skip = Atla
+« Back = « Geri
+Next » = İleri »
+Done = Tamam
+This is the user management menu. = Bu kullanıcı yönetimi menüsüdür. 
+This is the toolbar. = Bu araç çubuğudur.
+This is the navigation list. Under here you can find projects, files, parts and libraries. = Bu navigasyon listesidir. Burada projeleri, dosyaları, parçaları ve kütüphaneleri bulabilirsiniz.
+Show or hide the toolbar to the top of the window here. = Araç çubuğunu burada pencerenin üst kısmında gösterin veya gizleyin. 
+Show, resize or hide the left sidebar to the left of the window here. = Pencerenin solundaki sol kenar çubuğunu burada gösterin, yeniden boyutlandırın veya gizleyin.
+Show or hide the right sidebar to the right of the window here. = Pencerenin sağındaki sağ kenar çubuğunu burada gösterin veya gizleyin.
+
+#Standard libs
+Passive Components = Pasif Bileşenler
+Power Supply = Güç Kaynağı
+Diodes = Diyotlar
+Regulator = Regülatör
+Transistor = Transistör
+Transformers = Transformatörler
+Gates = Kapılar
+Vacuum Tubes = Vakum Tüpleri
+Switch = Anahtar
+Relay = Röle
+Capacitor(US) = Kapasitör(US)
+Capacitor(EU) = Kapasitör(EU)
+Capacitor(EU)2 = Kapasitör(EU)2
+Electrolytic Capacitor(US) = Elektrolitik Kapasitör(US)
+Electrolytic Capacitor(EU)= Elektrolitik Kapasitör(EU)
+Electrolytic Capacitor(US)2 = Elektrolitik Kapasitör(US)2
+Electrolytic Capacitor(EU)2 = Elektrolitik Kapasitör(EU)2
+Inductor(US) = İndüktör(US)
+Inductor(EU) = İndüktör(EU)
+Potentiometer_US = Potansiyometre_US
+Potentiometer_EU/IEC = Potansiyometre_EU/IEC
+Potentiometer_3D = Potansiyometre_3D
+Resistor(US) = Direnç(US)
+Resistor(EU) = Direnç(EU)
+Resistor 45 Deg(US) = Direnç 45 Derece(US)
+Resistor 45 Deg(EU) = Direnç 45 Derece(EU)
+Variable Capacitor(US) = Varyabl Kapasitör(US)
+Variable Capacitor(EU) = Varyabl Kapasitör(EU)
+Variable Resistor(US) = Varyabl Direnç(US)
+Variable Resistor(EU) = Varyabl Direnç(EU)
+Variable Inductor(US) = Varyabl İndüktör(US)
+Variable Inductor(EU) = Varyabl İndüktör(EU)
+Varistor = Varistör
+Inductor2(US) = İndüktör2(US)
+Inductor2(EU) = İndüktör2(EU)
+Battery = Pil
+Voltage Source = Gerilim Kaynağı
+Current Source = Akım Kaynağı
+CCCS(Current Controlled Current Source) = CCCS(Akım Kontrollü Akım Kaynağı)
+CCCS2(Current Controlled Current Source) = CCCS2(Akım Kontrollü Akım Kaynağı)
+VCCS(Voltage Controlled Current Source) = VCCS(Gerilim Kontrollü Akım Kaynağı
+VCVS(Voltage Controlled Voltage Source) = VCVS(Gerilim Kontrollü Gerilim Kaynağı)
+CCVS(Current Controlled Voltage Source) = CCVS(Akım Kontrollü Gerilim Kaynağı)
+CCVS2(Current Controlled Voltage Source) = CCVS2(Akım Kontrollü Gerilim Kaynağı)
+
+BV(Behavioral Voltage Sources) = BV(Davranışsal Gerilim Kaynakları)
+BI(Behavioral Voltage Sources) = BI(Davranışsal Gerilim Kaynakları)
+Epoly(Non-linear Voltage Source) = Epoly(Lineer Olmayan Gerilim Kaynakları)
+Gpoly(Non-linear Current Source) = Gpoly(Lineer Olmayan Akım Kaynakları)
+
+Diode = Diyot
+LED = LED
+LED_3D = LED_3D
+Schottky Diode = Schottky Diyot
+Varactor Diode = Varaktör Diyot
+Zener = Zener
+Unidirectional TVS Diode = Tek Yönlü TVS Diyot
+Bidirectional TVS Diode = Çift Yönlü TVS Diyot
+Diac = Diac
+Bridge = Köprü
+78XX = 78XX
+79XX =  79XX
+LM317 = LM317
+LM337 = LM337
+TL431 = TL431
+BJT(NPN) = BJT(NPN)
+BJT(PNP) = BJT(PNP)
+MOSFET(Nch) =
+MOSFET(Nch) Depletion Four-pins =
+MOSFET(Nch) Enhancement =
+MOSFET(Nch) Enhancement Four-pins =
+MOSFET(Pch) =
+MOSFET(Pch) Depletion Four-pins =
+MOSFET(Pch) Enhancement =
+MOSFET(Pch) Enhancement Four-pins =
+JFET(Nch) =
+JFET(Pch) =
+Darlington NPN =
+Darlington PNP =
+MESFET(Nch) =
+MESFET(Pch) =
+
+IGBT =
+SCR =
+Triac =
+Transform(US) =
+Transform(EU) =
+Transfrom(NEUTRAL-CTR TAP)(US) =
+Transfrom(NEUTRAL-CTR TAP)(EU) =
+Mutual Inductors = Ortak İndüktörler
+Mutual Inductors2 = Ortak İndüktörler2
+Or Gate = Or Kapısı
+Xor Gate = Xor Kapısı
+And Gate = And Kapısı
+Nor Gate = Nor Kapısı
+Nand Gate = Nand Kapısı
+Not Gate = Not Kapısı
+Xnor Gate = Xnor Kapısı
+Tube Diode = Tüp Diyot
+Tube Triode = Tüp Triyot
+Tube Tetrode = Tüp Tetrot
+Tube Pentode = tüp Pentot
+Voltage Controlled Switch = Gerilim Kontrollü Anahtar
+Current Controlled Switch = Akım Kontrollü Anahtar
+SPST ON = SPST AÇIK
+SPST OFF = SPST KAPALI
+Fuse = Sigorta
+555 = 555
+555(Style2) = 555(Biçim2)
+Speaker = Hoparlör
+XTAL =
+5pin Operational Amplifier = 5pin Operasyonel Amplifikatör
+3pin Operational amplifier = 3pin Operasyonel Amplifikatör
+Transmission Line = İletim Hattı
+Voltmeter = Voltmetre
+Ammeter = Ampermetre
+LAMP =
+Opto Transistor = Opto Transistör
+
+#Server Message
+Need login = Giriş gerekli
+Bad password = Kötü parola
+We can't find your username or your email, please check it! = Kullanıcı adınızı veya e-posta adresinizi bulamıyoruz, lütfen kontrol edin! 
+Make sure your uploaded file size is less than 3MB!= Yüklediğiniz dosya boyutunun 3MB'den az olduğundan emin olun!
+Bad file type = Kötü dosya tipi
+Empty file or bad file type, ensure your file is Eagle 6.0+  = Boş veya hatalı dosya türü, dosyanızın Eagle 6.0+ olduğundan emin olun 
+This operation not supported on demo account = Bu işlem demo hesapta desteklenmiyor 
+Can not share this file under a private project, please set the active project to public! = Bu dosya şahsi bir proje altında paylaşılamaz, lütfen etkin projeyi herkese açık olarak ayarlayın! 
+Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = Giriş Başarısız, çok fazla deneme yapıldı. Şifrenizi unuttuysanız, lütfen {0}şifrenizi sıfırlayın{1} veya support@easyeda.com adresine bir e-posta gönderin. 
+
+#Dialog Common Buttons
+Common Buttons Setting = Ortak Butonlar Ayarı
+Menu Setting... = Menü Ayarı...
+Show/Hide = Göster/Gizle
+Move Up = Yukarı Taşı
+Move Down = Aşağı Taşı
+Reset All = Tümünü Sıfırla
+Zoom = Yakınlaştır
+Place Pin = Pin Yerleştir
+
+#System Setting Dialog
+System = Sistem
+Zoom Mode = Yakınlaştırma Modu
+Scroll Key = Kaydırma Tuşu
+CTRL + Scroll = CTRL+ Scroll
+Canvas Coordinate System = Tuval Koordinat Sistemi
+SVG Coordinate = SVG Koordinatı
+Cartesian Coordinate = Kartezyen Koordinat
+Open Wizard Dialog for New Schematic = Yeni Şematik için Sihirbaz İletişim Kutusunu Aç
+Default Unit = Varsayılan Birim
+Canvas Zoom Effect = Tuval Yakınlaştırma Efekti
+Quality Priority = Kalite Önceliği
+Speed Priority = Hız Önceliği
+Rotation Step = Döndürme Adımı
+Add Teardrop Automatically = Otomatik Olarak Gözyaşı Ekle
+Assign Net for Free Track/Arc/Circle = Serbest Hat/Kavis/Çember için Ağ Ataması Yap
+Open Wizard Dialog for New PCB = Yeni PCN için Sihirbaz İletişim Kutusunu Aç
+Rebuild Plane Automatically = Düzlemi Otomatik Olarak Yeniden Oluştur
+The Track's Routing Follows Component's Rotation = Hattın Yol Ataması, Bileşenin Dönüşünü Takip Ediyor
+Display Pad's Number and Net = Pad'in Numarasını ve Ağını Görüntüle
+Favorite Track width = Favori Hat Genişliği
+Track Width Setting = Hat Genişliği Ayarı
+
+
+#Dialog Access Control
+Permissions = İzinler
+Operation = İşlem
+Access Control = Erişim Kontrolü
+Project Access Control = Proje Erişim Kontrolü
+Reject = Reddet
+Add User = Kullanıcı Ekle
+Bad email address = Kötü e-posta adresi
+#后端返回英文的错误信息
+Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Bu e-posta adresi EasyEDA'da bulunamadı. Partneriniz bir EasyEDA kullanıcısı olmalıdır. 
+
+#Dialog waveForm
+Grid Background = Izgara Arkaplanı
+Pane Background = Bölme Arkaplanı
+WaveForm Config = DalgaFormu Yapılandırması
+Export Waveform = DalgaFormunu Dışa Aktar
+
+
+#attr-canvas-grid-style
+dot = nokta
+line = çizgi
+
+#attr-canvas-frame-size
+Other = Diğer
+A4 Portrait = A4 Portresi
+A4 Landscape = A4 Peyzajı
+A3 Portrait = A3 Portresi
+A3 Landscape = A3 Peyzajı
+A2 Portrait = A2 Portresi
+A2 Landscape = A2 Peyzajı
+A1 Portrait = A1 Portresi
+A1 Landscape = A1 Peyzajı
+Landscape = Peyzaj
+Portrait = Portre
+
+#Stroke Style
+solid = tam
+dashed = kesikli
+dotted = noktalı
+
+#Solid Region
+Solid Region = Tam Bölge
+Type = Tip
+type = tip
+
+#Dialog Libs Management
+Report error = Hata raporla
+Please give us some information to help us find the problem. = Lütfen bize sorunu bulmamıza yardımcı olacak biraz bilgi verin. 
+Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = Parçalar bu belgeye yerleştirilemiyor: Şematik Semboller yalnızca bir Şematik içine yerleştirilebilir; PCB Ayak İzleri yalnızca bir PCB'ye yerleştirilebilir. 
+Save it as a favorite part = Favori parça olarak kaydet
+Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can pslace this component into their design directly. Would you like to place this component now? = Yalnızca oturum açmış kullanıcılar bu bileşeni Favori Parça olarak kaydedebilir, ancak misafir (Anonim) kullanıcılar bu bileşeni doğrudan tasarımlarına yerleştirebilir. Bu bileşeni şimdi yerleştirmek ister misiniz?
+
+#Others
+Find libs= Kütüphaneleri Bul
+My Projects= Projelerim
+My Parts= Parçalarım
+My Modules= Modüllerim
+Assembly LCSC Components= Assembly LCSC Bileşenleri
+Modules= Modülleri
+SCH Module= SCH Modülü
+PCB Module= PCB Modülü
+System IC= Sistem IC
+LCSC (Official) = LCSC (Resmi)
+LCSC Electronics = LCSC Elektronik
+Simple Mode = Basit Mod
+Expand Mode = Genişleme Modu
+Help Verify = Doğrulamaya Yardım Et
+Favorite Parts = Favori Parçalar
+Shared With Me = Benimle Paylaşılan
+Preview= Önizleme
+Preview Window = Önizleme Ekranı
+System Default = Sistem Varsayılanı
+User Defined = Tanımlı Kullanıcı
+Theme = Tema
+Theme Setting= Tema Ayarı
+Close= Kapat
+Open= Aç
+Collapse= Daralt
+Toggle toolbar= Araç Çubuğunu Aç/Kapa
+Toggle left bar= Sol Çubuğu Aç/Kapa
+Toggle right bar= Sağ Çubuğu Aç/Kapa
+Reload= Tekrar Yükle
+Mouse-X= Fare-X
+Mouse-Y= Fare-Y
+Mouse-DX= Fare-DX
+Mouse-DY= Fare-DY
+Bus entry x1 = Veriyolu Girişi x1
+Bus entry x2 = Veriyolu Girişi x2
+Bus entry y1 = Veriyolu Girişi x3
+Bus entry y2 = Veriyolu Girişi x4
+Yes= Evet
+No= Hayır
+OK= Tamam
+Confirm= Onayla
+Continue = Devam Et
+Cancel = İptal Et
+Update = Güncelle
+Bus entry= Veriyolu Girişi
+Filter = Filtrele
+Check = Kontrol Et
+Guest Project = Misafir Proje
+Insert into = Yerleştir
+Insert into {site} = Yerleştir {site}
+# Upload {site} 目前仅有波兰论坛使用
+Upload {site} = Yükle {site}
+Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Bu kutunun içeriğini bir metin düzenleyiciye kopyalayın, ardından dosyayı kaydedin. Düzenlenen metni bu kutuya geri yapıştırın ve ekranı güncellemek için Uygula'ya tıklayın.
+Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Bu kutunun içeriğini bir metin düzenleyiciye kopyalayın, ardından dosyayı bir .svg uzantısıyla kaydedin. Inkscape'de düzenleyebilir veya tarayıcınızda açabilirsiniz.
+Content is too big to show, you can download it directly. = İçerik gösterilemeyecek kadar büyük, doğrudan indirebilirsiniz. 
+SVG format = SVG Formatı
+SVG File = SVG Dosyası
+Description should be no more than 250 letters = Açıklama 250 harften fazla olmamalıdır
+The file save operation has timed out. Try again and check your Internet connection. = Dosya kaydetme işlemi zaman aşımına uğradı. Tekrar deneyin ve internet bağlantınızı kontrol edin.
+Notifications = Bildirimler
+Please select txt or json files. = Lütfen txt veya json dosyalarını seçin. 
+Failed to read file [{file}] = [{file}] dosyası okunamadı
+[{file}] is not a valid json file = [{file}] geçerli bir json dosyası değil 
+Invalid parameters! = Geçersiz değişkenler!
+Download = İndir
+Start = Başlat
+You have unsaved files, are you sure you want to log out without saving the files? = Kaydedilmemiş dosyalarınız var. Dosyaları kaydetmeden çıkış yapmak istediğinizden emin misiniz? 
+Please use the web version to run this function. = Bu işlevi çalıştırmak için lütfen web sürümünü kullanın. 
+Please save this file to you project! = Lütfen bu dosyayı projenize kaydedin! 
+Nothing changed = Bir değişiklik olmadı
+Delete Node = Node'u Sil
+This layer is invisible. = Bu katman görünmez.
+When the solid region is Board Cutout, please set the layer to Multi-Layer. = Tam bölge Kesik Alan olduğunda, lütfen katmanı Çok Katmanlı olarak ayarlayın.
+You should not try to assign a net to a Board Cutout solid region. = Bir Kesik Alan tam bölgesine bir ağ atamaya çalışmamalısınız.
+Net Length = Ağ Uzunluğu
+You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Devre şemasına bir Pin yerleştirebilirsiniz, ancak tüm Pinleri bir şematik bileşende gruplamayı unutmayın. Bunları nasıl gruplayacağınızı öğrenmek için lütfen yardım düğmesine tıklayın. Sadece kabloyu işaretlemek istiyorsanız, lütfen AğPortu veya AğEtiketi kullanın.
+Please input the modification = Lütfen değişikliği girin
+The content must be between {0} and {1} characters = İçerik, {0} ile {1} karakter arasında olmalıdır
+
+Coming soon = Çok yakında
+No tool = Araç yok
+Help us translate into your language = Dilinize çevirmemize yardımcı olun
+Pad = Pad
+Via/Hole = Via/Delik
+PCB Layers = PCB Katmanları
+Order PCB = PCB Sipariş Et
+Share = Paylaş
+Free = Ücretsiz
+Small = Küçük
+Medium = Orta
+Big  = Büyük
+
+
+Embed = Embed
+HTML = HTML
+URL = URL
+BBCode = BBCode
+PNG = PNG
+Exporting as = Olarak dışa aktar
+Exporting as image = Görsel olarak dışa aktar
+Exporting as {0}SVG{1} file. = {0}SVG{1} dosyası olarak dışa aktar
+Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = Pdf olarak dışa aktarma önerilir: Pdf, iyi kalitede basılı çıktı ve küçük bir dosya boyutu sağlar. 
+Generate PCB Fabrication File(Gerber) = PCB Üretim Dosyası Oluştur(Gerber)
+PenWidth-Increase = KalemGenişliği-Arttır
+
+#Generate Gerber
+Generate Gerber = Gerber Oluştur
+Gerber View = Gerber Görüntüle
+Dimensions(Estimated) = Boyutlar(Yaklaşık)
+PCB Qty = PCB Miktarı
+Copper Weight = Bakır Ağırlığı
+PCB Price = PCB Fiyatı
+Estimated Delivery Time = Tahmini Varış Zamanı
+For your first time order, less than $20 discount on the freight! = İlk siparişinizde, nakliye için 20 dolardan az indirim! 
+HASL(with lead) = HASL(kurşunlu)
+LeadFree HASL-RoHS = Kurşunsuz HASL-RoHS
+ENIG-RoHS = ENIG-RoHS
+Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = Gerber dosyalarını oluşturmadan önce Tasarım Kuralı Denetimi (DRC) yapmak ister misiniz? 
+Yes, Check DRC = Evet, DRC'yi kontrol et
+No, Generate Gerber = Hayır, Gerber oluştur
+This PCB has uncompleted connection(s), do you want to check the connection(s)? = Bu PCB'de tamamlanmamış bağlantı(lar) var, bağlantı(lar)ı kontrol etmek istiyor musunuz?
+Yes, Check Connection(s) = Evet, Bağlantıları Kontrol Et
+It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = Ardından, işbirliği yaptığımız bir üçüncü taraf JLCPCB'nin web sitesine yönlendirilecektir. Hazır mısın?
+Failed to submit your order, please contact us via support@easyeda.com for help. = Siparişiniz gönderilemedi, lütfen yardım için support@easyeda.com adresinden bizimle iletişime geçin.
+Failed to submit your order, please contact us via QQ 800821856.  = Siparişiniz gönderilemedi, lütfen QQ 800821856 aracılığıyla bizimle iletişime geçin. 
+Order data generated finish, please click OK button and continue. = Oluşturulan sipariş verileri tamamlandı, lütfen Tamam düğmesine tıklayın ve devam edin. 
+[generateGerber]
+Layers = Katmanlar
+[/generateGerber]
+
+[version]
+Switch = Değiştir
+[/version]
+
+
+Export your file, then print it yourself. = Dosyanızı dışa aktarın, ardından kendiniz yazdırın.
+Trace width is too small = Hat genişliği çok küçük
+Share = Paylaş
+
+Images Attribute = Görsel Niteliği
+Connect Pad to Pad = Pad'den Pad'e Bağla
+Copper Area  = Bakır Alanı
+Dimension  = Boyut
+
+
+Please check that you have used Wire and not Line to connect electrical elements. = Lütfen elektrik elemanlarını bağlamak için çizgi değil kablo kullandığınızdan emin olun.
+PCB Fabrication Prices & capabilities = PCB Üretim Fiyatları ve kabiliyetleri
+Flip all texts on bottom layer = Alt katmandaki tüm metinleri çevirin
+Create New Document = Yeni Belge Oluştur
+General Package = Genel Paket
+General Packages = Genel Paketler
+favorite Package = favori paket
+Board Cutout = Kesik Alan
+Surface Mount = Yüzeye Montaj
+JLCPCB Part Class = JLCPCB Parça Sınıfı
+base = taban
+expand = genişlet
+recommend = öner
+Basic Part = Temel Parça
+Extended Part = Genişletilmiş Parça
+Recommended Part = Önerilen Parça
+smtWeld = smtKaynak
+thtWeld = thtKaynak
+manualWeld = manuelKaynak
+furnaceWeld = fırınKaynak
+Multi-Layer = Çok Katmanlı
+Markdown Syntax = Markdown Syntax
+Markdown supported = Markdown destekli
+Read only = Salt Okunur
+Read/Write = Oku/Yaz
+More Libraries... = Daha Fazla Kütüphane...
+Decompress failed! = Sıkışmışı açma başarısız!
+Load failed! = Yükleme başarısız!
+Loading = Yükleniyor
+No Result = Sonuç Yok
+
+#Dialog Place Pin in schematic warning
+Place Pin in schematic warning = Pin'i şematik uyarısına yerleştirin 
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = Şematiğe bir pin yerleştirebilirsiniz, ancak tüm pinleri bir şematik bileşenine gruplamayı unutmayın. Nasıl gruplanacağını öğrenmek için lütfen yardım düğmesine tıklayın. Sadece kabloyu işaretlemek istiyorsanız, lütfen AğPortu veya AğEtiketi kullanın.
+I know. Do not show this again. = Biliyorum. Bunu tekrar gösterme.
+
+#Extensions Setting
+Extensions Setting = Uzantılar Ayarı
+Remove = Kaldır
+Disable = Devre Dışı Bırak
+Enable = Etkinleştir
+(Disabled) = (Devre Dışı Bırakıldı)
+(Enabled) = (Etkinleştirildi)
+Load Extension = Uzantıyı Yükle
+Enable or disable will be applied after reload page = Etkinleştirme veya devre dışı bırakma sayfayı yeniden yükledikten sonra uygulanacak
+Your browser cannot run this function. = Tarayıcınız bu işlevi çalıştıramaz. 
+Your browser mode does not support indexedDB. Some features may not work properly. Are you using Private Browsing Mode? = Tarayıcı modunuz indexedDB'yi desteklemiyor. Bazı özellikler düzgün çalışmayabilir. Gizli Sekme Modunu kullanıyor musunuz?
+Extension Files = Uzantı Dosyaları
+Extension ID = Uzantı Kimliği
+Select Files = Dosyaları Seç
+
+#Scripts
+Script = Komut Dosyası
+Scripts = Komut Dosyaları
+Script Content = Komut Dosyası İçeriği
+Load from js file = js dosyasından yükle
+UTF-8 encoded js file = UTF-8 kodlu js dosyası
+Description = Tanım
+description= tanım
+Not a *.js file = Bir *.js dosyası değil
+Failed to read file = Dosya okunamadı
+System scripts cannot be modified = Sistem komut dosyaları değiştirilemez 
+Create Subfolder = Alt Klasör Oluştur
+Create Script = Komut Dosyası Oluştur
+Install Script = Komut Dosyası Kur
+Install = Kur
+Are you sure you want to remove this script? = Bu komut dosyasını kaldırmak istediğinizden emin misiniz? 
+Folder Name = Klasör Adı
+Rename = Yeniden Adlandır
+Please select a script = Lütfen bir komut dosyası seçin
+Failed to load script = Komut dosyası yüklenemedi
+Run Script = Komut Dosyası Çalıştır
+Load Script = Komut Dosyası Yükle
+Title is required = Başlık gerekli
+Script content is required = Komut dosyası içeriği gerekli 
+System Scripts = Sistem Komut Dosyaları
+User Scripts = Kullanıcı Komut Dosyaları
+You can right click on the tree nodes. = Ağaç düğümlerine sağ tıklayabilirsiniz. 
+#PCB photoView toolbar
+Top Side = Üst Taraf
+Bottom Side = Alt
+With Silk Layer = Baskı Katmanı Dahil
+No Silk Layer = Baskı Katmanı Hariç
+Photo View = Fotoğraf Görünümü 
+
+#check update
+Check Update = Güncellemeyi Kontrol Et
+EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = EasyEDA Editör {ver} yayınlandı. Şimdi yeni sürüme geçmek ister misiniz?
+LCEDA Editor {ver} is released. Would you like to switch to the new version now? = LCEDA Editör {ver} yayınlandı. Şimdi yeni sürüme geçmek ister misiniz?
+Switch to New Version = Yeni Sürüme Geç
+Next Time = Bir Dahakine
+
+#download project dialog
+Generating download link... = İndirme linki oluşturuluyor...
+Download project now = Projeyi şimdi indir
+
+#Import DXF
+Import DXF = DXF İçeri Aktar
+Apply Unit = Birimi Uygula
+Convert circle to HOLE on BoardOutLine layer = KartAnahattı katmanında daireyi DELİK'e dönüştürün
+No shapes found = Şekil bulunamadı
+Fail to load the file = Dosya yüklenemedi
+Please select a DXF file. = Lütfen bir DXF dosyası seçin. 
+This feature only works for PCB document. = Bu özellik yalnızca PCB belgesi için çalışır. 
+Select a DXF file = Bir DXF dosyası seçin 
+
+#Export DXF
+Export DXF = DXF Dışa Aktar
+Plated-Through-Hole Pads = Kaplamalı Delikli Pad'ler
+Non-Plated-Through-Hole Pads = Kaplamasız Delikli Pad'ler
+Silkscreen = Baskı
+Surface Pad = Yüzey Pad'i
+
+#Data Sync
+Data Sync = Veri Senkronizasyonu
+Data Conflicts = Veri Çakışması
+Project or Document = Proje veya Belge
+Cloud-Side = Cloud-Taraf
+Local-Side = Yerel-Taraf
+Decision = Karar
+Modified = Değiştirildi
+Deleted = Silindi
+As Cloud = Cloud Olarak
+As Local = Yerel Olarak
+Skip = Atla
+Data sync completed = Veri Senkronu
+
+#Team
+Team = Takım
+Teams = Takımlar
+Switching team = Takım değiştiriliyor
+Switch team failed = Takım değiştirme başarısız!
+Load team info fail! = Takım bilgisi indirme başarısız!
+Load team info fail! Please reload. = Takım bilgisi indirme başarısız! Lütfen yeniden yükleyin.
+My Teams = Takımlarım
+Create Team = Takım Oluştur
+
+#Dialog Footprint Manager
+Footprint Manager = Ayak İzi Yöneticisi
+Open Footprint Manager = Ayak İzi Yöneticisini Aç
+Schematic Components = Şematik Bileşenleri
+Edit Pin Map Information = Pin Haritası Bilgilerini Düzenle
+Package Categories = Paket Kategorileri
+Components List = Bileşenler Listesi
+Personal = Kişisel
+Component PIN information = Bileşen PİN bilgileri
+Footprint PAD information = Bileşen PAD bilgileri
+Footprint Categories = Ayak İzi Kategorileri
+Pad Number = Pad Numarası
+Search Footprint = Ayak İzi Ara
+Filter by keyword = Anahtar kelime ile filtrele
+System Libs = Sistem Kütüphaneleri
+
+#dialog global delete
+Drawings = Çizimler
+Netlabel and netFlag = AğEtiketi ve ağBayrağı
+Texts = Metinler
+Wires = Kablolar
+Board outlines = Kart Anahatları
+Footprints = Ayak İzleri
+Footprint = Ayak İzi
+Tracks = Hatlar
+
+#dialog board outline settings
+Current Size = Mevcut Boyut
+Paramenters = Değişkenler
+Start X: = Başlangıç X:
+Start Y: = Başlangıç Y:
+Round Rectangular = Yuvarlarılmış Dikdörtgen
+radius = yarıçap
+only number is allowed! = yalnızca sayı girebilirsiniz!
+please input valid value of width! = lütfen geçerli bir genişlik değeri giriniz!
+please input valid value of height! = lütfen geçerli bir yükseklik değeri giriniz!
+please input valid value of radius! = lütfen geçerli bir yarıçap eğeri giriniz!
+
+#cross probe
+The object you selected was not found in other documents. = Seçtiğiniz nesne diğer belgelerde bulunamadı.
+No valid object for cross probe selected. = Seçili çapraz prob için geçerli nesne yok. 
+Can not probe. Refreshing the window may get it to work. = Problanamadı. Pencereyi yenilemek işe yarayabilir. 
+You need to login for this function to work. = Bu işlevin çalışması için oturum açmanız gerekir.
+
+#About Dialog
+An Easier EDA Experience = Daha Kolay Bir EDA Deneyimi 
+Version = Sürüm
+BuiltDate = Yapı Tarihi
+
+#Auto Router Dialog
+Auto Router Config = Otomatik Yol Atayıcı Yapılandırması
+General Options = Genel Seçenekler
+All Layers = Tüm Katmanlar
+Configure = Yapılandır
+Sorry, your web browser does not support this feature. Please run a modern browser. = Üzgünüz, web tarayıcınız bu özelliği desteklemiyor. Lütfen modern bir tarayıcı çalıştırın.
+Please make sure all objects with net are inside the board outline! = Lütfen ağa sahip tüm nesnelerin kart anahattı içerisinde olduğundan emin olun! 
+Cannot start again before previous activity is stopped = Önceki etkinlik durdurulmadan yeniden başlatılamıyor
+Please select a net = Lütfen bir ağ seçin
+TrackWidth cannot be empty = HatGenişliği boş bırakılamaz
+Clearance cannot be empty = Açıklık boş bırakılamaz
+Router is time out. = Yol Atayıcı zaman aşımına uğradı
+Server is busy, please try again later. = Sunucu meşgul, lütfen daha sonra tekrar deneyin.
+Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) = {0}Yol atayıcı sunucusu{1} kaynaklarının sınırlaması nedeniyle, aynı anda çalışan birden çok yol atayıcı desteklenmez. Lütfen daha sonra tekrar deneyin veya manuel olarak yapın :-)
+Track Width is invalid = Hat Genişliği geçersiz
+General Clearance is invalid = Genel Açıklık geçersiz
+SMD Clearance is invalid = SMD Açıklığı geçersiz
+Diameter is invalid = Çap geçersiz
+Drill Diameter is invalid = Delgi Çapı geçersiz
+Track width cannot be less than Design Rule Checking (DRC) setting value. = Hat genişliği, Tasarım Kuralı Denetimi (DRC) ayarı değerinden az olamaz.
+General Clearance cannot be less than Design Rule Checking (DRC) setting value. = Genel Açıklık, Tasarım Kuralı Denetimi (DRC) ayarı değerinden az olamaz 
+SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = SMD Açıklığı, Tasarım Kuralı Denetimi(DRC) ayarı değerinden az olamaz.
+Hole size cannot be less than Design Rule Checking (DRC) setting value. = Delgi boyutu, Tasarım Kuralı Denetimi (DRC) ayarı değerinden küçük olamaz.
+Design Rule's via diameter must larger than via drill diameter = Tasarım Kuralının via çapı, delgi çapından daha büyük olmalıdır
+Clearance cannot be less than Design Rule Checking (DRC) setting value. = Açıklık, Tasarım Kuralı Denetimi (DRC) ayarı değerinden az olamaz. 
+Not a valid PCB, please check it again = Geçerli bir PCB değil, lütfen tekrar gözden geçirin
+Previous connection must be closed = Önceki bağlantı kapatılmalıdır 
+Network error. Please try again. = Ağ hatası. Lütfen tekrar deneyin.
+Router error. = Yol atayıcı hatası.
+Invalid PCB. = Geçersiz PCB.
+General Clearance = Genel Açıklık
+SMD Clearance = SMD Açıklığı
+#Ripup Nets = Yırtma Ağları
+Skip Routed Nets = Yolu Atanmış Ağları Atla
+Remove Existing Tracks = Mevcut Hatları Kaldır
+Real-time Display = Gerçek Zamanlı Görüntüleme
+Router Layers = Yol Atayıcı Katmanları
+Via = Via
+Special = Özel
+Special Nets = Özel Ağlar
+Skip Nets = Ağları Atla
+Router Server = Yol Atayıcı Sunucusu
+Local = Yerel
+Cloud = Cloud
+Available = Kullanıma Açık
+Unavailable = Kullanım Dışı
+Checking = Denetleme
+Install Local Auto Router = Yerel Otomatik Yol Atayıcı Kur
+Checking local auto router server... = Yerel Otomatik Yol Atayıcı sunucusu aranıyor...
+Stop Router = Yol Atayıcıyı Durdur
+Auto Router is running... = Yol Atayıcı çalışıyor...
+
+#Left Siderbar
+EELib = EELib
+Basic = Temel
+Extend = Genişlet
+Design Manager = Tasarım Yöneticisi
+Library = Kütüphane
+Spice Library = Spice Kütüphanesi
+Shared = Paylaşılanlar
+LCSC = LCSC
+LCSC Parts = LCSC Parçaları
+Supply Flag = Kaynak Bayrağı
+US = US
+EU/IEC = EU/IEC
+US Style = US Biçimi
+Resistor = Direnç
+Capacitor = Kapasitör
+Inductor = İndüktör
+Switch/Key = Switch/Anahtar
+EU/IEC Style = EU/IEC Biçimi
+CN = CN
+Connector = Konnektör
+Switch/Relay = Switch/Röle
+JLCPCB = JLPCB
+Recycle Bin = Geri Dönüşüm Kutusu
+
+#量角器
+Font Height = Yazı Tipi Yüksekliği
+Precision = Hassasiyet
+Protractor = Açıölçer
+
+#attr-pcbtext-line-width
+Only default font family supports to change font width. = Yalnızca varsayılan yazı tipi ailesi, yazı tipi genişliğini değiştirmeyi destekler. 
+Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = Yazı tipi bulunamadı! İletişim kutusunu onaylayabilir ve bunun yerine varsayılan yazı tipini kullanabilir veya iletişim kutusunu iptal edip kendi yazı tipinizi yükleyebilir ve yeniden yapabilirsiniz. 
+
+#Common
+Owner = Sahip
+License = Lisans
+Part Pins = Parça Pinleri
+Net Pins = Ağ Pinleri
+Net Ratlines = Ağ İskalaryaları
+Add Parameter = Değişken Ekle
+Histories record = Geçmiş Kaydı
+Create Team = Takım Oluştur
+Can't find this footprint on the server, please re-associate it. = Bu ayak izi sunucuda bulunamadı, lütfen yeniden ilişkilendirin.
+The footprint name associated with the component and the footprint name on the server are inconsistent, please re-associate it. = Bileşenle ilişkili ayak izi adı ve sunucudaki ayak izi adı tutarsız, lütfen yeniden ilişkilendirin.
+The symbol pin number(s) of the component does not match the associated footprint pad number(s), please modify the symbol pin number(s) or re-associate the footprint = Bileşenin sembol pin numaraları, ilişkili ayak izi pad numaraları ile eşleşmiyor. Lütfen sembol pin numaralarını değiştirin veya ayak izini yeniden ilişkilendirin
+No footprint, please associate the footprint first. = Ayak izi yok, lütfen önce ayak izini ilişkilendirin.
+Can't find the package = Paket bulunamadı 
+The path is for the project URL identify, it is unique (the identity of the project owned by the user cannot be the same)= Yol, proje URL'sinin tanımlanması içindir; benzersizdir (kullanıcının sahip olduğu projenin kimliği aynı olamaz) 
+It's with a letter or a number and can contain only numbers, letters, line-through, underscores, and points. It cannot be modified after saving. = Bir harf veya sayı içerir ve yalnızca sayılar, harfler, satır arası, alt çizgiler ve noktalar içerebilir. Kaydettikten sonra değiştirilemez.
+Updating document to new format, please wait......After finishing please save your document with Ctrl + S. = Belge yeni formata güncelleniyor, lütfen bekleyin......Bittikten sonra lütfen belgenizi Ctrl + S ile kaydedin
+Open at current project? = Mevcut projede aç?
+Please select a history to recover. = Lütfen kurtarmak için bir geçmiş seçin. 
+Be careful! When you click the "Recover" button, this sheet will be overwritten! = Dikkat edin! "Kurtar" düğmesine tıkladığınızda, bu sayfanın üzerine yazılacaktır!
+Recover = Kurtar
+There is no PCB under this project, would you like to create one? = Bu projede PCB yok, oluşturmak ister misiniz? 
+Please make sure that the chose Altium Designer files are saved as ASCII files. = Lütfen seçilen Altium Designer dosyalarının ASCII dosyaları olarak kaydedildiğinden emin olun.
+Export to Altium function is currently in beta: = Altium'a dışa aktarma işlevi şu anda beta aşamasındadır: 
+1. Please be sure to read the notice before exporting:  = 1. Lütfen dışa aktarmadan önce bildirimi okuduğunuzdan emin olun:
+Export Altium notice and disclaimer = Altium bildirim ve sorumluluk reddini dışa aktar
+2. Please be sure to check again after export! = Dışa aktarımdan sonra lütfen tekrar kontrol ettiğinizden emin olun! 
+I have read and agree = Okudum ve kabul ediyorum
+Export to Altium = Altium'a dışa aktar
+Please make sure that the chose Eagle files are saved in Eagle v6.0 and above. = Lütfen seçilen Eagle dosyalarının Eagle v6.0 ve üzeri sürümlerde kaydedildiğinden emin olun.
+Please make sure that the Kicad files were compressed as the .zip file. = Lütfen Kicad dosyalarının .zip dosyası olarak sıkıştırıldığından emin olun.
+Open Altium Designer file =  Altium Designer dosyası aç
+The more information please refer at : = Daha fazla bilgi lütfen şu adrese bakın: 
+Please use Gerber file instead of exporting Altium if you are going to do PCB manufacturing. All PCB factories support the Gerber file. Is it ok to Generate the Gerber file? = PCB üretimi yapacaksanız Altium'u dışa aktarmak yerine lütfen Gerber dosyası kullanın. Tüm PCB fabrikaları Gerber dosyasını destekler. Gerber dosyasını oluşturmak ister misiniz?
+Yes, Generate Gerber = Evet, Gerber Oluştur
+No, Export Altium = Hayır, Altium'u Dışa Aktar
+Open Eagle file = Eagle dosyası aç
+Open Kicad file = Kicad dosyası aç
+Select file(s) = Seçili dosya(lar)
+Append to current project? = Mevcut projeye iliştirilsin mi? 
+Append = İliştir
+Open as new project = Yeni proje olarak aç
+Tip: Press {0}SPACE{1} or {2}R{3} to rotate the placing object or selected object. = İpucu: Yerleştirme nesnesini veya seçilen nesneyi döndürmek için {0}BOŞLUK{1} veya {2}R{3} tuşuna basın. 
+Hotkeys Setting = Kısayol Tuşları Ayarı
+I know. Don't show this again. = Biliyorum. Bunu tekrar gösterme.
+Manufacturer Part Number can not be less than 2 characters. = Üretici Parça Numarası 2 karakterden az olamaz.
+This prefix was changed to non-subpart format. = Bu ön ek, alt bölüm olmayan formata değiştirildi 
+Save as New Project = Yeni Proje Olarak Kaydet
+Save to Existing Project = Mevcut Projeye Kaydet
+Sheet Setting = Çalışma Sayfası Ayarı
+Sheet Size = Çalışma Sayfası Boyutu
+Pre = Ön
+pre = ön
+Invalid Data = Geçersiz Veri
+Others = Diğerleri
+You are not authorized to share this project. = Bu projeyi paylaşma yetkiniz yok. 
+This project is private: if you continue sharing it will be made public. = Bu proje şahsi: paylaşmaya devam ederseniz herkese açık hale getirilecek.
+Modify file info = Dosya bilgisini değiştir
+Please input search keyword = Lütfen arama anahtar kelimesini girin
+Sort By = Sırala
+Date Created = Oluşturulma Tarihi
+Date Modified = Değiştirilme Tarihi
+Title = Başlık
+Ascending = Yükselen
+Descending = Düşen
+Pin to Top = Başa Sabitle
+Unpin from Top = Baştan Sabitlemeyi Kaldır
+Expand All = Tümünü Genişlet
+Collapse All = Tümünü Daralt
+Your file hasn't been saved, do you want to save it? = Dosyanız kaydedilmedi, kaydetmek istiyor musunuz?
+Don't Save = Kaydetme
+Library Owner: = Kütüphane Sahibi:
+verifyPkg.Value = verifyPkg.Value
+State = Durum
+Please select! = Lütfen seçin
+Route = Yol Ata
+Import successfully: = İçe aktarma başarılı：
+Import failed: = İçe aktarma başarısız：
+The title length must be between 2~128 characters. = Başlık uzunluğu 2~128 karakter arasında olmalıdır.
+Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Yol yalnızca 'a-z、A-Z、- 、 _ 、0-9' içerir!
+Path must begin as 'a-z、A-Z、0-9'! = Yol 'a-z、A-Z、0-9' olarak başlamalıdır!
+The path length must be between 4~128 characters! = Yol uzunluğu 4~128 karakter arasında olmalıdır! 
+The title length must be between 2~256 characters! = Başlık uzunluğu 2~256 karakter arasında olmalıdır! 
+The title can not less than 3 charaters! = Başlık 3 karakterden az olamaz!
+Do you want to delete this file? = Bu dosyayı silmek istiyor musunuz?
+Add sub part success = Alt bölüm ekleme başarılı
+Please input name and prefix! = Lütfen isim ve ön ek girin! 
+Board outlines are not closed = Kart ana hatları kapalı değil 
+Import Altium file fail, the file needs to be an ASCII file encoded in UTF-8. = Altium dosyası içe aktarılamadı, dosyanın UTF-8 ile kodlanmış bir ASCII dosyası olması gerekiyor.
+The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = "{0}" Pinleri ızgara noktasına yaslanamaz! Bu kısım şematikte bazı hatalara neden olabilir. 
+Check Pin = Pini Denetle
+Failed to read {0} = {0} okunamadı
+{0} is invalid = {0} geçersiz
+{0} not found = {0} bulunamadı
+Failed to execute script: = Komut dosyası yürütülemedi:
+One or more js files not found = Bir veya daha fazla js dosyası bulunamadı
+Only ONE {0} file is required = Yalnızca BİR {0} dosya gerekli
+Extension ID is required = Uzantı kimliği gerekli
+Extension ID is invalid = Uzantı kimliği geçersiz
+Extension ID is duplicated = Uzantı kimliği kopyalandı
+No Result! = Sonuç Yok!
+Load Error = Yükleme Hatası
+loading = yükleniyor
+Failed to load spice data = Spice data yüklenemedi
+Netlist = Ağ Listesi
+Tags = Etiketler
+Pin Information: = Pin Bilgileri:
+Format incorrect, please check for the extra spaces or commas! = Format yanlış, lütfen fazladan boşluk veya virgül olup olmadığını kontrol edin! 
+Round Radius = Yuvarlarılmış Yarıçap
+Keyword: = Anahtar Kelime: 
+Image = Görsel
+Image copied. = Görsel kopyalandı
+Copy failed. = Kopyalama başarısız
+Image Attribute = Görsel Niteliği
+Locked = Kilitli
+Unlock All = Hepsinin Kilidini Aç
+Unlock = Kilidi Aç
+Lock = Kilitle
+Please input pin name and pin number! = Lütfen pin adını ve numarasını girin!
+Left-Hand Panel = Sol Panel
+Right-Hand Panel = Sağ Panel
+Update All = Hepsini Güncelle
+The pin number(s) can't find the same pad number(s) = Pin numaraları aynı ped numaralarını bulamıyor
+Designator = Tasarımcı
+Replace = Yer Değiştir
+Update failed = Güncelleme başarısız
+Successfully updated = Başarıyla güncellendi
+Update failed! = Güncelleme başarısız!
+Successfully updated! = Başarıyla güncellendi!
+Successfully updated {0} component(s)! = {0} bileşen başarıyla güncellendi!
+Change = Değiştir
+Check  Footprints = Ayak İzlerini Denetle
+Network Error! = Ağ Hatası
+Find Similar Objects = Benzer Nesneler Bul
+Current Sheet = Mevcut Çalışma Sayfası
+All Sheets = Tüm Çalışma Sayfaları
+Kind = Tür
+Range = Aralık
+Net Label/Net Flag/Net Port/Voltage Probe = Ağ Etiketi/Ağ Bayrağı/Ağ Portu/Gerilim Probu
+Bezier/Freehand Draw = Bezier/Serbest Çizim
+Arc/Pie = Kavis/Pasta
+Objects Attributes = Nesne Nitelikleri
+Any = Herhangi
+Same = Aynı
+Different = Farklı
+Circular= Çembersel
+Expose Copper = Bakırı Sergile
+"{0}" font is missing. Please add the font to the font family list. = "{0}" yazı tipi eksik. Lütfen yazı tipini yazı tipi ailesi listesine ekleyin.
+Place Component = Bileşeni Yerleştir
+Delete Segment = Segmenti Sil
+Angle = Açı
+Board Thickness = Kart Kalınlığı
+Layer Distance = Katman Mesafesi
+Silk Screen = Baskı
+Surface Finish Color = Yüzey İşleme Rengi
+Colors = Renkler
+Board Color = Kart Rengi
+Board Side = Kart Yüzü
+Silk Screen = Baskı
+Silk Screen Color = Baskı Rengi
+Display = Görüntüle
+
+# 阵列分布与阵列克隆
+Distribute Array = Dizini Dağıt
+Array Type = Dizin Tipi
+Matrix Array = Matris Dizini
+Circular Array = Çembersel Dizin
+Item Rotation = Öge Döndürme
+Location = Konum
+Items per Column = Sütun başına öge
+Items per Row = Satır başına öge
+# Column Spacing = Sütun Aralığı 
+# Row Spacing = Satır Aralığı 
+Spacing(Degrees) = Aralık(Derece)
+Start Degree = Başlangıç Derecesi
+Rotate Item to Match = Eşleştirmek İçin Ögeyi Döndür
+Clockwise = Saat Yönüne
+Anti-Clockwise = Saat Yönünün Tersine
+Distribute by = Dağıt
+Column = Sütun
+Row = Satır
+Array Clone = Dizin Klonu
+Number of Rows = Satır Sayısı
+Number of Columns = Sütun Sayısı
+Number of Copies = Kopya Sayısı
+Distribute Range(Degrees) = Dağıtım Aralığı(Derece)
+
+#主题颜色对话框
+BusEntry = VeriyoluGirişi
+Foreground = Ön Alan
+Common Used = Ortak Kullanımda
+Original Theme = Orijinal Tema
+Theme Setting = Tema Ayarı
+Change the theme colors of your design = Tasarımınızın tema renklerini değiştirin
+White on Black = Siyah üstünde Beyaz
+Black on White = Beyaz üstünde Siyah
+Custom Theme = Özel Tema
+Color Setting = Renk Ayarı
+Apply Setting = Ayarı Uygula
+Theme Setting... = Tema Ayarı...
+Bus Entry = Veriyolu Girişi
+Foreground = Ön Alan
+Symbol Graphics = Sembol Grafikleri
+Common Used = Ortak Kullandım
+Draw = Çiz
+Sheet = Çalışma Sayfası
+The original theme only works for placing the new symbols. = Orijinal tema yalnızca yeni sembolleri yerleştirmek için çalışır. 
+Selection Highlight = Seçim Vurgusu 
+Net Label / Port = Ağ Etiketi / Port
+
+My Theme = Temam
+My Theme Settings = Temam Seçeneği
+Apply 'Custom Theme' On = 'Özel Tema'yı Uygula 
+Creating New Schematic = Yeni Şematik Oluşturma
+Opening Existed Schematic = Var Olan Şematiği Açma
+Please fill in all parameters! = Lütfen tüm değişkenleri doldurunuz!
+Convert to Board Cutout = Kesik Alan'a Dönüştür
+Prefix Position = Konuma Ön Ek Ekle
+Name Position = Konumu İsimlendir
+Center = Merkez
+Top = Üst
+Bottom = Alt
+Left = Sol
+Right = Sağ
+Does not support multiple objects to convert to Board Cutout at the same time = Aynı anda birden fazla nesneyi Kesik Alan'na dönüştürmeyi desteklemez
+Does not support multiple objects to convert to pad at the same time = Aynı anda birden fazla nesneyi pad'e dönüştürmeyi desteklemez
+Convert to Board Cutout = Kesik Alan'a dönüştür
+Convert to Pad = Pad'e dönüştür
+Convert to Component Shape = Bileşen Şekli'ne dönüştür
+Combine to Continuous Track = Devamlı Hat'a dönüştür
+Convert to Solid Region = Tam Bölge'ye dönüştür
+Substrate = Alt Madde
+3D View = 3D Görünüm
+2D View = 2D Görünüm
+Pin Color = Pin Rengi
+Name Color = İsim Rengi
+Number Color = Sayı Rengi
+Dot = Nokta
+
+[theme]
+Sheet = Çalışma Sayfası
+[/theme]
+
+
+#history dialog
+[history-dlg]
+Number = Sayı
+Editor = Editör
+[/history-dlg]
+View File History = Dosya Geçmişini Görüntüle
+Save Time = Kayıt Zamanı
+
+Invalid Format = Geçersiz format
+
+#Dialog Teardrop
+Round Pad / Via = Daire Pad / Via
+Rectangle / Oval / Polygon Pad = Dikdörtgen / Oval / Poligon 
+Applying Teardrops = Gözyaşları Uygulanıyor
+Removing Teardrops = Gözyaşları Kaldırılıyor
+Waiting = Bekleniyor
+Progressing... = İlerleniyor...
+
+No schematic in the project! = Projede şematik yok!
+
+Move Forward = İleri Git
+Move Backward = Geri Git
+
+#Dialog Panelize
+V-CUT = V-CUT
+Stamp Hole = Damga Deliği
+No Panelize = Panelize Yok
+Border and Marking = Sınır ve İşaretleme
+Create Border = Kenarlık Oluştur
+Border Height = Kenarlık Yüksekliği
+Border Position = Kenarlık Konumu
+Create Positioning Holes = Konumlandırma Delikleri Oluştur
+Create Fiducial Marks = Referans İşaretleri Oluştur
+Top and Bottom = Üst ve Alt
+Left and Right = Sol ve Sağ
+Stamp Hole Group - Column = Damga Deliği Grubu - Sütun
+Stamp Hole Group - Row = Damga Deliği Grubu - Satır
+The number of rows and columns cannot be set to 1 simultaneously = Satır ve sütun sayısı aynı anda 1'e ayarlanamaz 
+
+#edit path point
+[editPathPoints-dlg]
+Arc(R) = Kavis(R)
+Type = Tip
+Action = Eylem
+add before = önce ekle
+add after = sonra ekle
+delete = sil
+[/editPathPoints-dlg]
+
+#edit polygon point
+[editPolygonPoints-dlg]
+Action = Eylem
+add before = önce ekle
+add after = sonra ekle
+delete = sil
+[/editPolygonPoints-dlg]
+You have unconfirmed edit! = Onaylanmamış düzenlemeniz var!
+Invalid edit! = Geçersiz düzenleme!
+
+#Dialog PCB Information
+PCB Information... = PCB Bilgileri...
+Signal Layers = Sinyal Katmanları
+None Signal Layers = Sinyal Dışı Katmanlar
+Pads = Pad'ler
+Surface Pads = Yüzey Pad'leri
+Plated Through-hole Pads = Kaplamalı Delikli Pad'ler 
+None Plated Through-hole Pads = Kaplamasız Delikli Pad'ler
+Holes = Delikler
+Vias = Via'lar
+Length of Tracks = Hatların Uzunluğu
+Copper Areas = Bakır Alanları
+
+#Differential Pair Routing
+Differential Pair Routing = Diferansiyel Çifti Yol Ataması
+Differential Pair Rule Setting = Diferansiyel Çifti Kural Seçeneği
+Please input track width = Lütfen hat genişliğini girin
+Please input clearance = Lütfen aralığı girin
+Routing Rules = Yol Atama Kuralları
+
+#Route Length Tuning
+Track Length Tuning... = Hat Uzunluğu Ayarlama
+Tracks with different net or non-track found in current targets. = Mevcut hedeflerde farklı ağ veya hat olmayan izler bulundu. 
+Please select the signal tracks to be tuning. = Lütfen ayarlanacak sinyal rotalarını seçin.
+The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = Toplam uzunluk Tasarım Kuralı Denetimi (DRC) kısıtlamasını aşıyor, devam? 
+45° Angle = 45° Açı
+90° Angle = 90° Açı
+DRC Track Length : = DRC Hat Uzunluğu:
+Current Length : = Mevcut Uzunluk:
+Additional Length : = İlave Uzunluk:
+Target Length: = Hedef Uzunluk:
+Current Length: = Mevcut Uzunluk:
+
+can not connect to the server = sunucuya bağlanamadı
+
+#Dialog Copper Area Manager
+Copper Area Manager... = Bakır Alanı Yöneticisi...
+Copper Area Manager = Bakır Alanı Yöneticisi...
+Order = Sırala
+Name = İsim
+Layer = Katman
+Color = Renk
+Net = Ağ
+Move Up = Yukarı Çık
+Move Down = Aşağı İndir
+Apply = Uygula
+Cancel = İptal Et
+Copper Area do not allow self-intersection! = Bakır Alanı kendi kendine kesişmeye izin vermez!
+No copper area! = Bakır alanı yok!
+#Dialog report error
+Datasheet = Veri Sayfası
+Verification = Doğrulama
+Symbol = Sembol
+Pad Number = Pad Numarası
+Pad Size = Pad Boyutu
+Remark= Görüş
+Correct = Doğru
+Incorrect = Yanlış
+Submit = Teslim Et
+Tip = İpucu
+Please select one component = Lütfen bir bileşen seçin
+Location X = X Konumu
+Location Y = Y Konumu
+Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = Mevcut tarayıcı sürümünüz bazı özellikleri desteklemiyor olabilir. Lütfen Chrome veya Firefox'un en son sürümünü kullanın veya masaüstü istemcisini deneyin.
+EasyEDA Client = EasyEDA Client
+LCEDA Client = LCEDA Client
+Chrome = Chrome
+FireFox = FireFox
+New Version = Yeni Sürüm
+Switch Version = Sürüm Değiştir
+Member = Üye
+Update Time = Güncelleme Zamanı
+Editor = Editör
+Current Version: = Mevcut Sürüm：
+Select a version to switch = Geçiş yapmak için bir sürüm seçin
+3D Model = 3D Model
+Board Side = Kart Tarafı
+Display = Görüntüle
+Copper = Bakır
+Create New Version = Yeni Sürüm Oluştur
+Create new version success! = Yeni sürüm oluşturma başarılı!
+Version Management = Sürüm Yönetimi
+Switch success! = Değişim başarılı!
+Please close current version's documents first! = Lütfen önce mevcut sürümün dosyalarını kapatın!
+Creator = Oluşturucu
+Create Time = Süre Oluştur
+Fail to connect to server! Please check your internet connection status and try again! = Sunucuya bağlanılamadı! Lütfen internet bağlantı durumunuzu kontrol edin ve tekrar deneyin!
+Spice Number = Spice Numarası
+Create = Oluştur
+3D Outline = 3D Anahat
+Cannot create the slot hole via the board outline, please use the following methods: = Kart anahattı yoluyla yuva deliği oluşturulamıyor, lütfen aşağıdaki yöntemleri kullanın: 
+Use the solid region and set its type as Board Cutout = Tam bölgeyi kullanın ve türünü Kart Kesimi olarak ayarlayın 
+Select a Track/Arc, right-click to use the "Convert to Board Cutout" = Bir Hat/Kavis seçin, "Kesim Alanına dönüştür"ü kullanmak için sağ tıklayın
+Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cutout" = Tüm kapalı Hatları/Kavisleri seçin, "Kesim Alanına Dönüştür"ü kullanmak için sağ tıklayın
+The more information please refer at = Daha fazla bilgi için bkz.
+Save "{0}" success! = Kayıt "{0}" başarılı!
+Save "{0}" failed! = Kayıt "{0}" başarısız!
+Invalid Size = Geçersiz Boyut
+Processing = İşleniyor
+Invalid Size = Geçersiz Boyut
+NetFlag GND = AğBayrağı GND
+NetFlag VCC = AğBayrağı VCC
+NetFlag +5v = AğBayrağı 5v
+No Useful Data! = Yararlı Veri Yok!
+SVG Preview = SVG Önizleme
+Prefix contains not supported charater(s) ! = Ön ek desteklenmeyen karakter(ler) içeriyor !
+Name contains not supported charater(s) ! = İsim desteklenmeyen karakter(ler) içeriyor !
+Create Grid Path = Izgara Yolu Oluştur
+Please Input Name = Lütfen isim girin
+Building Copper Area = Bakın Alan oluşturuluyor
+Processing = İşleniyor
+Opening File = Dosya Açılıyor
+Update from Library = Kütüphaneden Güncelle
+Update Footprint = Ayak İzini Güncelle
+Find footprint(s) have been updated, do you want to update? = Ayak izi(ler) güncellendi, güncellemek istiyor musunuz?
+3D File: = 3D Dosya:
+Model List = Model Listesi
+Are you sure merge net {0} and net {1}? = Net {0} ve net {1}'i birleştirmek istediğinizden emin misiniz? 
+Display Footprint = Ayak İzini Görüntüle
+Display Footprint Name While Placing Component = Bileşen Yerleştirirken Ayak İzi Adını Görüntüle
+Annotate Prefix Automatically After Placing Component = Bileşeni Yerleştirdikten Sonra Ön Eki Otomatik Olarak Dipnot Ekle 
+Program Error, Please Contact Technical Support! = Program Hatası, Lütfen Teknik Destek ile İletişime Geçin!
+Search Engine = Arama Motoru
+Keyword to Filter = Filtreleme için Anahtar Kelime
+Normal Mode = Normal Mod
+Expand Mode = Geniş Mod
+3D Model Manager = 3D Model Yöneticisi
+3D Model Preview = 3D Model Ön İzlemesi
+3D Model = 3D Model
+3DModel = 3DModel
+Document = Belge
+
+[pcblayer]
+3DModel = 3DModel
+Document = Belge
+[/pcblayer]
+
+Adjustment = 校准
+View Larger Image = Daha Büyük Görseli Görüntüle 
+Previous = Önceki
+Previous Image = Önceki Görsel
+Next Image = Sonraki görsel
+Notice: For reference only, please refer to the real product = Uyarı: Yalnızca referans için lütfen gerçek ürüne bakın
+It's under designing, please wait. = Tasarım aşamasında, lütfen bekleyin.
+The width of track/arc/circle can not less than 0.1mil! = Hat/kavis/çember genişliği 0.1mil'den az olamaz! 
+clone success ! = klonlama başarılı !
+Footprint Naming Reference = Ayak İzi İsimlendirme Referansı
+3D Model Manager = 3D Model Yöneticisi
+Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = Bilgileri geliştirmek ve paylaşmak için Lichuang açık kaynak donanım platformuna (OSHWHub.com) atlayacaktır. Devam edilsin mi?
+Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? = Bilgileri geliştirmek ve paylaşmak için EasyEDA açık kaynak donanım platformuna (OSHWLab.com) atlayacaktır. Devam edilsin mi?
+The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. = Proje içerik sayfası açılacaktır. Açıklama ekledikten ve projeyi herkese açık hale getirdikten sonra paylaş butonuna tıklayarak paylaşım linkine ulaşabilirsiniz.
+This project is not public, can not view homepage! = Bu proje herkese açık değil, ana sayfa görüntülenemiyor! 
+
+[grid]
+None = Hiçbiri
+[/grid]
+
+#lib verify and mounted
+This component is verified = Bu bileşen doğrulanmış
+This component is unmounted = Bu bileşen takılmamış
+
+#find component
+Find Next = Sonrakini Bul
+Object not found = Nesne bulunamadı
+
+##offset Elements
+Offset X = Offset X
+Offset Y = Offset Y
+Offset = Offset
+Absolute Offset = Mutlak Offset
+Relative Offset = Göreli Offset
+Absolute Offset... = Mutlak...
+Relative Offset... = Göreli...
+Reference Point X = Referans Noktası X
+Reference Point Y = Referans Noktası Y
+
+#内电层
+Rebuild Plane = Düzlemi Yeniden Kur
+PlaneZone Properties = DüzlemBölgesi Özellikleri
+Change to a plane layer is not allowed during track routing. = Hat yolu ataması sırasında bir düzlem katmanına geçişe izin verilmez.
+#pcblib rect
+Fill = Doldur
+Fill Type = Doldurma Tipi
+[PlaneZone]
+Solid = Tam
+[/PlaneZone]
+
+Solid Region do not allow self-intersection! = Tam Bölge kendi kendine kesişmeye izin vermez! 
+
+The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. =  Ön ek veya ad veya metin, ayak izinden çok uzakta. Görünmesini istemiyorsanız lütfen gizleyin.
+The prefixes are not allowed to repeat! = Ön eklerin tekrarlanmasına izin verilmez! 
+Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = Kayıt başarısız! Tuvalin orijini grafiklerde değil! Orijini otomatik olarak ayarlamak ister misiniz?
+The origin of the canvas has been set in the graphics now, you can save again. = Tuvalin orijini artık grafiklerde ayarlandı, tekrar kaydedebilirsiniz.
+Backup Project = Yedekleme Projesi
+Open Project Directory = Proje Dizinini Aç
+
+{0} items updated = {0} öge güncellendi 
+
+The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. = Geçerli dosyanın {0} güncellenmiş bir sürümü var. Üzerine yazmak istiyor musunuz? En son sürümü açmak istiyorsanız, lütfen mevcut dosyayı kapatın ve yeniden açın.
+Yes, Overwrite It = Evet, Üstüne Yaz.
+No, Keep It = Hayır, Sakla.
+
+Download Client = İstemciyi İndir
+
+Search tutorial、open source projects etc. = Öğretici, açık kaynak projeleri vb. ara 
+
+Go to LCSC and search for = LCSC'ye git ve şunu ara
+Go to LCSC = LCSC'ye git
+
+Hide Ratline Layer and Keep the Component Prefix When Paste Objects = İskalarya Katmanını Gizle ve Nesneleri Yapıştırırken Bileşen Ön Ekini Koru
+
+ALL.layer = Tüm.katman
+Copper.layer = Bakır.katman
+Non-Copper.layer = Bakırsız.katman
+Other.layer = Diğer.katman
+
+Please enter at least 2 characters! = Lütfen en az 2 karakter giriniz!
+View Datasheet = Veri Sayfasını Görüntüle
+View Datasheet... = Veri Sayfasını Görüntüle...
+
+The corresponding package or network could not be found in the currently open PCB document = 当前打开的PCB文档中找不到相应的封装或网络
+delete fail = silme başarısız
+
+[crashRecovery]
+Libraries = Kütüphaneler
+[/crashRecovery]
+Canvas origin anomaly! = Tuval orijini anomalisi!
+
+Component's Name = Bileşenin Adı
+Component's Prefix = Bileşenin Ön Eki
+Component's Footprint = Bileşenin Ayak İzi
+
+[findlib]
+Clear = Temizle
+Apply Filters = Filtreleri Uygula
+Result= Sonuç
+Place = Yerleştir
+Prev = Önceki
+Next = Sonraki
+Total {count} Count = Toplam {count} Sayım
+About = Hakkında
+Items = Ögeler
+[/findlib]
+
+Object = Nesne
+Layers and Objects = Katmanlar ve Nesneler
+All = Tümü
+
+Add custom = Özel ekle
+
+Connections = Bağlantılar
+Attempted: = Denendi:
+Completed: = Tamamlandı:
+Failed: = Başarılamadı:
+Total Vias: = Toplam Via:
+
+Please confirm moving option = Lütfen taşıma seçeneğini onaylayın
+Only this pad = Sadece bu pad
+For this component = Bu bileşen için
+View Owner = Sahibini Görüntüle
+View Detail = Detayı Görüntüle
+
+
+# 批量放置过孔
+Place Vias = Via'ları Yerleştir
+Placing Vias = Via'lar Yerleştiriliyor
+Removing Vias = Via'lar Kaldırılıyor
+Batch Vias for Copper = Bakır için Via'ları Kümele
+Add/Remove Vias = Via'ları Ekle/Kaldır
+Diameter = Map
+Drill Diameter = Delgi Çapı
+Column Spacing = Sütun Aralığı
+Row Spacing = Satır Aralığı
+Multiple vias have been placed, do you want to rebuild the copper area? = Birden fazla via yerleştirildi, bakır alanı yeniden oluşturmak ister misiniz?
+Remove vias finish, do you want to rebuild the copper area? = Viaları kaldırma tamamlandı. Bakır alanı yeniden olmuşturmak ister misiniz?
+The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! = Hat/Kavis/Çember genişliği 0.051 mm/2mil/0.002 inçten az olamaz! 
+Save fail! Please try again! = Kayıt başarısız! Lütfen tekrar deneyin! 
+Please select a copper outline = Lütfen bir bakır anahattı seçin 
+Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Diğer katmanlarda bakır alanı bulunamıyor. Lütfen önce aynı ağ ile bakır alanı diğer katmana ekleyin.
+
+Add favorite success! = Favori ekleme başarılı!
+Remove favorite success! = Favori kaldırma başarılı!
+Remove favorite failed! = Favori kaldırma başarısız!
+Whether if remove favorite? = Favoriyi kaldırmak mı istersiniz?
+Split by ';' for multi tags = Çoklu etiketler için ';' ile böl
+
+This size is the determined size! = Bu boyut belirlenen boyuttur! 
+The associated pad has been locked = İlişkili pad kilitlendi 
+Split by space or , for multi tags = Çoklı etiketler için boşlukla böl
+
+Rotation X = Rotasyon X
+Rotation Y = Rotasyon Y
+Rotation Z = Rotasyon Z
+
+Some fields are filled invalid data = Bazı alanlar geçersiz verilerle doldurulmuş
+start time should be earlier than stop time = başlama zamanı durma zamanından önce olmalıdır
+Number of points should be less than 100 in octave variation = Oktav varyasyonunda nokta sayısı 100'den az olmalıdır.
+Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = Başlangıç frekansı, bitiş frekansından daha az olmalıdır. "meg" son eki "Mega" anlamına gelir,  "m" ise "milli" anlamına gelir.
+Get historical records fail! = Geçmiş kaydını alma başarısız!
+This 3D model didn't create the outlines successfully, please import it again or contact with us. = Bu 3D model, ana hatları başarıyla oluşturamadı. Lütfen tekrar içe aktarın veya bizimle iletişime geçin. 
+There is No Tag! = 没有分类！
+Assign successful! = 分配成功！
+Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = 发现封装焊盘编号不匹配原理图器件的引脚编号，请手动修正焊盘编号后再重试！
+Update Attribute = Niteliği Güncelle
+Please fill in at least 5 words. = Lütfen en az 5 kelime girin.
+Mouse hovering over the track to highlight the entire network = Hat üzerinde fare ile gezinirken tüm ağı vurgulama
+Net Highlighting While Cursor Hover the Track = İmleç Hattın Üzerine Geldiğinde Ağı Vurgulama
+When circle set as "Yes", the Pin length must more than 6 = Çember "Evet" olarak ayarlandığında, Pin uzunluğu 6'dan fazla olmalıdır.
+Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Merhaba, kütüphanenizle ilgili bir sorun buldum, bu kitaplık yanlış görünüyor.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nTeşekkürler!
+
+Logout fail! Please try again! = Çıkış başarısız! Lütfen tekrar deneyin!
+Logout success! We look forward you to use LCEDA again! = Çıkış başarılı! LCEDA'yı tekrar kullanmanızı sabırsızlıkla bekliyoruz!
+Logout success! We look forward you to use EasyEDA again! = Çıkış başarılı! EasyEDA'yı tekrar kullanmanızı sabırsızlıkla bekliyoruz!
+Click to Preview 3D = 3D Önizleme için Tıkla
+[logoutDialog]
+Logout = Çıkış Yap
+[/logoutDialog]
+
+[findlibTag]
+All = Tümü
+[/findlibTag]
+
+Export Pick and Place File = Seçme ve Yerleştirme Dosyasını Dışa Aktar 
+Mirror the bottom component's X coordinate (JLCPCB doesn't need) = Alt bileşenin X koordinatını yansıtın (JLCPCB'ye ihtiyaç duymaz)
+Work Space = Çalışma Alanı
+Include panelized components' coordinates = Panelize edilmiş bileşenlerin koordinatlarını dahil et 
+Personal Workspace = Kişisel Çalışma Alanı
+Work Space - {name} = Çalışma Alanı - {name}
+Work Space - Personal = Çalışma Alanı - Kişisel
+Cloning = Klonlama
+
+Project Owner = Proje Sahibi
+Clone Project = Projeyi Klonla
+Homepage = Anasayfa
+Apply for Education Edition = Eğitim Sürümüne Başvurun
+Load Organization failed = Yükleme Organizasyonu Başarısız
+Joined = Katılındı
+Favorite = Favori
+This operation will unfavorite this project, do you want to continue? = Bu işlem bu projeyi favorinizden çıkaracak, devam etmek istiyor musunuz? 
+View Homepage = Anasayfayı Gör
+Private Project = Gizli Proje
+3-7 days = 3-7 Gün
+Close Tab = Sekmeyi Kapat
+Close Other Tabs = Diğer Sekmeleri Kapat
+Close All Tabs = Tüm Sekmeleri Kapat
+Open in New Window = Ağ Penceresinde Aç
+Cursor Snap to Component's Origin or Pad Center While Dragging Component = Bileşeni Sürüklerken Bileşenin Orijinine veya Pad Merkezine İmleç Yaslama
+Undefined = Tanımsız
+Input = Girdi
+Model Unit = Model Birimi
+File Unit = Dosya Birimi
+This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? = Bu bölüm alt bölümler içeriyor, lütfen hatayı bildirmeden önce diğer alt bölümleri kontrol ettiğinizden emin olun. Devam etmek istiyor musunuz?
+
+[saveAs]
+Power = Güç
+[/saveAs]
+
+Assign LCSC Part# = LCSC Part# Ata
+Unexpected error while converting. Perhaps unsupported file type or program bug. = Dönüştürme sırasında beklenmeyen hata. Desteklenmeyen dosya tipi veya program hatası olabilir. 
+Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = Yinelenen bileşen kimlikleri bulundu. Bileşen kimliğini otomatik olarak yeniden atamak için lütfen "OK" tıklayın ve ardından belgeyi kaydedip yeniden deneyin.
+
+#electromagneticSimulation
+Electromagnetic Simulation... = Elektromanyetik Simülasyon...
+You will upload Gerebr to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = Elektromanyetik simülasyon için Gerber'i SuperEM'y yükleyeceksiniz (sadece Gerber'i yükleyin, hesap verileri dahil değil). Devam etmek istiyor musunuz?
+SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM, Faraday Dynamics, Ltd. tarafından geliştirilen yüksek hızlı PCB devreleri ve antenler için 3-D tam dalga elektromanyetik simülasyon ve tasarım platformudur.
+Visit the SuperEM = SuperEM'i Ziyaret Edin
+SuperEM User Guide = SuperEM Kullanıcı Kılavuzu
+Upload Gerber to SuperEM successfully, please click "OK" buttun to continue  = Gerber, SuprEME'e başarıyla yüklendi. Devam etmek için lütfen "Ok" tuşuna basın
+
+Format = Format
+View = Görüntü
+Design = Tasarım
+Simulation = Simülasyon
+Advanced = Gelişmiş
+Fabrication = İmalat
+Check DRC = DRC Kontrol Et
+Simulation Setting = Simülasyon Seçeneği
+BOM =
+PCB Fabrication File(Gerber) = PCB İmalat Dosyası(Gerber)
+Pick and Place File = Dosya Seç ve Yerleştir
+Parts Order = Parça Siparişi
+PCB Order = PCB Siparişi
+SIM =
+STD =
+WaveForm = DalgaFormu
+
+Place Module = Modül Yerleştir
+Please enter identification letters: = Lütfen kimlik tanıma harflerini girin:
+Only support English letters, up to 5. = Yalnızca 5'e kadar İngilizce harfleri desteklenmektedir.
+
+Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = Exist, modüldeki ön ek bileşen(ler)ine açıklama eklemiyor, lütfen önce bileşen(ler) için benzersiz ön ek(ler)i düzenleyin ve açıklama ekleyin.
+Opening = Açılış
+
+Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = Ayrıca hattın ağını da güncelleyin (Yalnızca ön ek/ağ etiketinin değiştiği ve hiçbir bileşen/kablonun eklenmediği veya çıkarılmadığı durumlar için geçerlidir)
+
+# 客户端返回的错误提示
+Cannot open online documents on Project Offline mode. = Çevrimdışı Proje modunda çevrimiçi belgeler açılamıyor.
+
+Please select a project = Lütfen bir proje seçiniz
+Opened Projects = Açık Projeler
+Open Project= Proje Aç
+Close Project = Projeyi Kapat
+Open All Projects = Tüm Projeleri Aç
+Close All Projects = Tüm Projeleri Kapat
+
+Doesn't support JLCPCB SMT Service = JLCPCB SMT Hizmetini desteklememekte
+for JLCPCB SMT Service = JLCPCB SMT Hizmeti için
+
+Reset failed! There are duplicate component prefixes in the current schematic: = Sıfırlama başarısız! Geçerli şematikte yinelenen bileşen önekleri var: 
+Reset failed! There are duplicate component prefixes in the current PCB: = Sıfırlama başarısız! Geçerli PCB'de yinelenen bileşen önekleri var: 
+Please modify the component prefixes first to ensure that the component prefix is unique. = Bileşen ön ekinin benzersiz olduğundan emin olmak için lütfen önce bileşen öneklerini değiştirin.
+
+LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA(Standart) - Basit ve Güçlü Bir Elektronik Devre Tasarım Aracı 
+EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(Standart) - Basit ve Güçlü Elektronik Devre Tasarım Aracı 
+
+#Dialog for Package Custom Data
+Please input the data title = Lütfen veri başlığını girin 
+Data title duplicated = Veri başlığı çoğaltıldı
+Cannot be more than {0} characters! = {0} karakterden fazla olamaz!
+Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = Yalnızca latin alfabesi, rakamlar, alt çizgi (_) ve kısa çizgi (-) geçerlidir. 
+Invalid value of item {0} = Öge {0} geçersiz değerde
+Update DFM = DFM'i Güncelle
+Custom DFM Data = Özel DFM Verisi
+Saved custom data successfully! = Özel veri başarıyla kaydedildi!
+Save custom data failed! = Özel veriyi kaydetme başarısız!
+Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = Mevcut belgenin grafiklerinin ve özel verilerinin yerini alacak. İçe aktarıldıktan sonra lütfen 3D modeli ayarlayın. Devam et ya da etme?
+Open footprint "Custom Data" dialog = Ayak izi "Özel Veriler" diyaloğunu aç 
+
+#创建引脚外形
+Create Lead Shape = Kurşun Şekli Oluştur
+Base on Pad Center = Pad Merkezi Tabanı
+Base on Canvas Origin = Tuval Merkezi Tabanı
+Lead shape = Kurşun Şekli
+Footprint Type = Ayak İzi Tipi
+From pad shape = Pad Şeklinden Gelen
+Lead length = Kurşun Uzunluğu
+Lead width = Kurşun Genişliği
+Lead diameter = Kurşun 
+Scaling ratio = Ölçekleme oranı
+Leads creating direction = Yön oluşturan kurşunlar
+Auto = Otomatik
+Horizontal = Yatay
+Vertical = Dikey
+Canvas origin to lead edge = Kurşun kenarına olan tuval orijini
+Canvas origin to body edge = Gövde kenarına olan tuval orijini
+Lead soldering length = Kurşun lehim uzunluğu 
+Lead soldering part diameter = Kurşun lehim parçası çapı 
+Component shape object doesn't overlap lead shape object, please check carefully. = Bileşen şekli nesnesi, kurşun şeklindeki nesneyle örtüşmüyor, lütfen dikkatlice kontrol edin.
+The solder mask expansion of pads ({0},{1}) has a small clearance(less then 0.08mm), it will cause the soldering too short, please modify. = Padlerin ({0},{1}) lehim maskesi genişlemesi küçük bir aralığa (0,08 mm'den az) sahiptir, bu lehimlemenin çok kısa olmasına neden olur, lütfen değiştirin.
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less then 0.15mm), it will cause the stencil to create fail, please modify. = Padlerin ({0},{1}) yapıştırma maskesi genişletmesi veya özel yapıştırma maskesi katmanı nesneleri küçük bir açıklığa (0,15 mm'den az) sahiptir, bu, kalıbın hata vermesine neden olur, lütfen değiştirin.
+System footprint must exist pad number 1 or A1, please modify the pad number. = Sistem ayak izi 1 veya A1 numaralı pad olmalıdır. Lütfen pad numarasını değiştirin. 
+System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. = Sistem ayak izi, iki veya daha fazla pad numarasının 1 veya A1 olmasına izin vermemekte, lütfen pad numarasını değiştirin. 
+Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = Belge katmanında daire nesnesi var, ancak jlcPara'nın polaritesi 0, lütfen Özel Verileri kontrol edin. 
+There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = Tekrarlanan pad numaraları var: {padNumber}, lütfen kontrol edin, doğru ise bunu görmezden gelin. 
+Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = Bileşen işaretleme katmanında daire bulunamadı veya bu daire 1. pad ile aynı kadranda değil, lütfen doğru olup olmadığını kontrol edin. 
+
+ROUND = DAİRE
+RECTANGLE = DİKDÖRTGEN
+OCTAGONAL = SEKİZGEN
+Upper left = Üst Sol
+Lower left = Alt Sol
+Center of Pads = Pad'lerin Merkezi
+First Pin = İlk Pin
+Package Name = Paket Adı
+Pins Number = Pinler Numara
+Rows Of Pin = Pin Satırları
+Columns Of Pin = Pin Sütunları
+Polarity = Polarite
+Pad Shape = Pad Şekli
+Body Diameter = Gövde Çapı
+Lead Span = Kurşun Açıklığı
+Lead Vertical Span = Kurşun Dikey Açıklığı
+Body Length = Gövde Uzunluğu
+Body Height = Gövde Yüksekliği
+Pin Diameter = Pin Çapı
+Pin Length = Pin Uzunluğu
+Pin Height = Pin Yüksekliği
+Pin Solid Width = Pin Solid Genişlik
+Pin Solid Height = Pin Solid Yükseklik
+Pin Spacing = Pin Aralığı
+Pin Horizontal Spacing = Pin Yatay Aralığı
+Pin Vertical Spacing = Pin Dikey Aralığı
+ThermalPad = TermalPad
+Pad Expansion = Pad Genişleme
+Custom PasteMask = Özel PasteMask
+Fabrication Tolerance = Üretim Toleransı
+Plcarment Tolerance = Plcarment Toleransı
+FirstPin Position = İlkPin Pozisyonu
+Package Origin = Paket Orijini
+Expansion Size = Genişleme Boyutu
+Corner = Köşe
+Angle = Açı
+Fillet = Köşe Yuvarla (Fillet)
+Chamfer = Yiv (Chamfer)
+Update Preview = Önizlemeyi Güncelle
+Number of pins (left and right) = Pin sayısı (sol ve sağ) 
+Number of pins (up and down) = Pin sayısı (yukarı ve aşağı) 
+Reference Use Cases = Referans Kullanım Örnekleri 
+Package Type = Paket Tipi
+Capacitance = Kapasitans
+Resistance = Direnç
+Bidirectional Diode = Çift Yönlü Diyot
+Inductance = İndüktans
+Crystal Oscillator = Kristal Osilatör
+Diode = Diyot
+LED = LED
+Fuse = Sigorta
+Entity height = Eleman Yüksekliği
+Lead Overhang = Kurşun Çıkıntısı
+Lead Thickness = Kurşun Kalınlığı
+Unknown mistake = Bilinmeyen Hata
+Has ThermalVias = Termal Via'lara Sahip
+Polar Capacitance = Polar Kapasitans
+
+Create Component Marking = Bileşen İşaretlemesi Oluşturma
+Create component marking successfully! = Bileşen işaretlemesi oluşumu başarılı!
+No elements on component shape layer! = Bileşen şekli katmanında öğe yok! 
+No elements on lead shape layer! = Kurşun şekli katmanında eleman yok! 
+No pad of number 1 or A1, please modify the pad number. = 1 veya A1 numaralı pad yok, lütfen pad numarasını değiştirin. 
+Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = Kayıt başarısız! Bileşen işaretleme dairesi eksendedir. Bileşen işaretlemesini yeniden oluşturmak istiyor musunuz? 
+If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = Otomatik yol atama başarısız olursa, otomatik yönlendirme dosyasını (DSN) üçüncü parti otomatik yönlendirici aracına (Örneğin: Konekt Electra, Eremex TopoR vb.) dışa aktarabilir ve otomatik yönlendirme tamamlandıktan sonra oturum dosyasını (SES) dışa aktarabilir ve ardından PCB'ye aktarabilirsiniz.
+Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = Otomatik yol atama başarısız oldu! Anormal pad(ler) verileri bulundu, lütfen pad genişliğini ve yüksekliğini değiştirin:
+Select Properties = Özellikleri Seçin
+Combine the same parts' prefixes in one row = Aynı parçaların ön eklerini bir satırda birleştirin
+Please check at least one item! = Lütfen en az bir ögeyi kontrol edin! 
+Pins = Pinler
