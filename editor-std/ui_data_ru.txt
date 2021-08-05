@@ -12,15 +12,15 @@ Crash = Восстановить бекап...
 Invite friends... = Пригласить друзей...
 Language = Язык
 Language Setting = Языковые Настройки
-English = English (English)
-Polski (Polish) = Polski (Polish)
-Deutsch (German) = Deutsch (German)
-Français (French) = Française (French)
-简体中文 (Chinese - Simplified) = 简体中文 (Chinese - Simplified)
-正體中文 (Chinese - Traditional) = 繁体中文 (Chinese - Traditional)
-한국어 (Korean) = 한국어 (Korean)
-日本語 (Japanese) = 日本語 (Japanese)
-Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
+English = Английский (English)
+Polski (Polish) = Польский (Polish)
+Deutsch (German) = Немецкий (German)
+Français (French) = Французский (French)
+简体中文 (Chinese - Simplified) = Упрощенный китайский (Chinese - Simplified)
+正體中文 (Chinese - Traditional) = Традиционный китайский(Chinese - Traditional)
+한국어 (Korean) = Корейский (Korean)
+日本語 (Japanese) = Японский (Japanese)
+Tiếng Việt (Vietnamese) = Вьетнамский (Vietnamese)
 Document Recovery = Восстановление файла
 Your Preferences Information = Информация по вашим настройкам
 File = Файл
@@ -173,17 +173,17 @@ Change to Simulation Mode = Переключиться к Режиму Симу�
 Welcome to Use LCEDA = 
 Welcome to Use EasyEDA = 
 Enable Education Edition Features for Free >>> = 
-Quick Start =
-More Help =
+Quick Start = Быстрый Старт
+More Help = Расширенная поддержка
 Explore = 
-Message = 
+Message = Сообщение
 [start]
-Example = 
-Forum = 
+Example = Образец
+Forum = Форум
 Tutorials = Обучение
-Videos = 
+Videos = Видео
 [/start]
-Custom Data = 
+Custom Data = Пользовательские данные
 LCEDA = 
 
 Copy Result Image = Копировать как изображение
@@ -223,9 +223,9 @@ Set Canvas Origin by Mouse Location = Задать положение холст
 Generates Pick and Place File = Генерирует pick and place файл
 Unroute All = Удалить всю разводку
 Auto Route = Автоматическая Разводка
-Export Autorouter File(DSN) = 
+Export Autorouter File(DSN) = Экспортировать Файл с Автоматической разводкой
 Import Autorouter Session File(SES) = 
-Autorouter File(DSN) = 
+Autorouter File(DSN) = Файл с Автоматической разводкой
 Autorouter Session File(SES) = 
 Terminate Routing Automatically = 
 Delete Segments = Удалить Сегменты
@@ -296,14 +296,14 @@ Historical Records... = История...
 Extensions = Расширения
 Order PCB... = Заказать Плату...
 Import Changes = Импортировать изменения
-Press {0}F11{1} to switch to full screen. = 
+Press {0}F11{1} to switch to full screen. = Нажмите {0}F11{1} переключиться в полноэкранный режим
 Delete Selected = Удалить Выбранные
 Simulate... = Симулировать...
 Config = Конфигурация
 Terms of Service & Privacy Policy = 
 Help Topics = Темы Помощи
-3D Model(obj) = 
-3D Model(step) = 
+3D Model(obj) = 3D Модель(obj)
+3D Model(step) = 3D Модель(step)
 SVG Source... = SVG Исходник...
 File Source = Путь к файлу
 Group These Items as a Symbol = Группировать элементы как символ
@@ -344,8 +344,8 @@ Height = Высота
 Background = Фон
 Visible Grid = Видимость сетки
 Grid Visible = Видимость сетки
-Real-Time Track Length = 
-Display Real-Time Track Length =
+Real-Time Track Length = Длина дорожки в реальном времени
+Display Real-Time Track Length = Отображать в реальном времени длину дорожки
 Grid Color = Цвет сетки
 Grid Size = Размер сетки
 Grid Style = Стиль сетки
@@ -353,7 +353,7 @@ Grid.Line Width = Ширина Сетки
 Grid.Line Spacing = Шаг Сетки
 Copper to Board Outline = Отступ от медного полигона до границ платы
 Improve Fabrication = 
-Spoke Width = 
+Spoke Width = Ширина контактной площадки
 Stroke Color = Цвет Линий
 Stroke Width = Ширина Линий
 Stroke Style = Стиль Линий
@@ -412,7 +412,7 @@ The current documents will be closed, and reopen after switching mode, do you wa
 PCB related documents are not allowed in emulation mode = Документы печатных плат не доступны в режиме эмуляции
 Please change the editor to "Simulation" mode first at the top left corner. = Пожалуйста измените режим редактора на "Симуляция" в левом верхнем углу.
 Please change the editor to "Standard" mode first at the top left corner. = Пожалуйста измените режим редактора на "Стандартный" в левом верхнем углу.
-Common = 
+Common = Общие
 spice.open = 
 spice.close = 
 Sources = Источники питания
@@ -459,9 +459,9 @@ Ratio = Соотношение
 K[%]
 Model = Модель
 States = Состояния
-Voltage[V]
-Voltage gain[V/V]
-Current gain[A/A]
+Voltage[V] = Напряжение [В]
+Voltage gain[V/V] = Усиление по напряжению [В/В]
+Current gain[A/A] = Усиление по току [А/А]
 Transconductance[Mho]
 Transresistance[Ω]
 Voltage Source Type = Тип Источника Питания
@@ -480,8 +480,8 @@ DC = Постоянный Ток
 SINE = Синусоидальный
 PULSE = Импульс
 EXP = Экспоненциальный
-SFFM = SFFM
-PWL = PWL
+SFFM = Сигнал с синусоидальной частотной модуляцией (SFFM)
+PWL = Вилка на плату (PWL)
 B.spice = 
 DC Value[V]
 DC Value[A]
@@ -489,11 +489,11 @@ DC offset[V]
 DC offset[A]
 Amplitude[V]
 Amplitude[A]
-Freq[Hz]
+Freq[Hz] = Частота[Гц]
 Theta[1/s]
 Tdelay[s]
 Phi[deg]
-Tperiod[s]
+Tperiod[s] = Tпериод[сек]
 Ton[s]
 Tfall[s]
 Trise[s]
@@ -509,23 +509,23 @@ Fall Delay[s]
 Fall Tau[s]
 Carrier Freq[Hz]
 Modulation Index = Коэффициент Модуляции
-Signal Freq[Hz]
-Time[s]
-Value[V]
-Value[A]
+Signal Freq[Hz] = Частота сигнала[Гц]
+Time[s] = Время[сек]
+Value[V] = Значение[В]
+Value[A] = Значение[А]
 Waveforms = Формы Сигнала
-Duty cycle[%]
-Amplitude[Vp]
-Offset[V]
+Duty cycle[%] = Скважность[%]
+Amplitude[Vp] = Амплитуда[Vp]
+Offset[V] = Смещение[V]
 Rise/Fall Time[sec]
-Capacitance[F]
+Capacitance[F] = Емкость[Ф]
 sComponent = 
-Inductance[H]
+Inductance[H] = Индуктивность[Гн]
 Gbw = 
 Slewrate = 
 Avol = 
-Rout(Ω) = 
-Rin(Ω) = 
+Rout(Ω) = Rвых[Ом]
+Rin(Ω) = Rвх[Ом]
 Ibias[A]
 Inhi[V]
 Inlo[V]
@@ -536,8 +536,8 @@ Vabsmax[V]
 Vmin[V]
 Iq[A]
 Cin[F]
-high = 
-low = 
+high = высокий
+low = низкий
 Oscilloscope = Осциллограф
 Logic Analyzer = Логический Анализатор
 Channel_A = Канал_А
@@ -553,20 +553,20 @@ Scale: = Шакала
 X pos.(Div): = X позиция (Дел):
 Y pos.(Div): = Y позиция (Дел):
 View meter... = 
-The circuit has components without simulation model: =
+The circuit has components without simulation model: = Эта цепь содержит элементы, которые не имеют модели для проведения симуляции
 Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = Интервал симуляции слишком короткий, пожалуйста, подождите 5 секунд и  повторите снова; если данное сообщение появляется снова, возможно вы превысили лимит по запуску симуляции в 500 раз в день.
-Resistor1_US =
-Resistor1_EU/IEC = 
-Resistor1_3D = 
-Capacitor1_US = 
-Capacitor1_EU/IEC = 
-Capacitor1_3D = 
-Rheostat_US = 
-Rheostat_EU/IEC = 
-Rheostat_3D = 
-Capacitor_Electrolytic_US = 
-Capacitor_Electrolytic_EU/IEC = 
-Capacitor_Electrolytic_3D = 
+Resistor1_US = Резистор1_US
+Resistor1_EU/IEC = Резистор1_EU/IEC
+Resistor1_3D = Резистор1_3D
+Capacitor1_US = Конденсатор1_US
+Capacitor1_EU/IEC = Конденсатор1_EU/IEC
+Capacitor1_3D = Конденсатор1_3D
+Rheostat_US = Реостат_US
+Rheostat_EU/IEC = Реостат_EU/IEC
+Rheostat_3D = Реостат_3D
+Capacitor_Electrolytic_US = Конденсатор_Электролитический_US
+Capacitor_Electrolytic_EU/IEC = Конденсатор_Электролитический_EU/IEC
+Capacitor_Electrolytic_3D = Конденсатор_Электролитический_3D
 Inductor_US = 
 Inductor_EU/IEC = 
 Inductor_3D = 
@@ -607,11 +607,11 @@ Three_Phase_Delta_Load =
 78XX = 78XX
 79XX = 79XX
 555 = 555
-555_3D = 
-Transformer_US = 
-Transformer_EU/IEC = 
-Transformer_Center_Tapped_US = 
-Transformer_Center_Tapped_EU/IEC = 
+555_3D = 555_3D
+Transformer_US = Трансформатор_US
+Transformer_EU/IEC = Трансформатор_EU/IEC
+Transformer_Center_Tapped_US = Трансформатор_Center_Tapped_US
+Transformer_Center_Tapped_EU/IEC = Трансформатор_Center_Tapped_EU/IEC
 Mutual_Inductor_US = 
 Mutual_Inductor_EU/IEC = 
 Mutual_Inductor2_US = 
@@ -683,12 +683,12 @@ Fast_Crystal =
 Lamp = Лампа
 BCD_Segment = 
 Seven_Segment = Семисегментный индикатор
-Traffic_Light = 
+Traffic_Light = Светофор
 Lamp Settings = Настройки Лампы
-Power[W]
+Power[W] = Мощность[Вт]
 Dropout Voltage[V]
-Current[A]
-Threshold[V]
+Current[A] = Ток[А]
+Threshold[V] = Пороговое напряжение[V]
 Clock Rate =
 TrafficLight Settings = 
 BCDSegment Settings = 
@@ -698,8 +698,8 @@ SPST Settings =
 LogicAnalyzer Settings = Настройки Логического Анализатора
 Fuse Settings = Настройки Предохранителя
 Wattmeter Settings = Настройки Ваттметра
-open = 
-close = 
+open = открыт
+close = закрыт
 Common Anode = Общий Анод
 Common Cathode = Общий Катод
 AC Amplitude = Амплитуда Переменного Тока
@@ -721,7 +721,7 @@ name = имя
 Number = Номер
 Spice Pin Order = Spice Порядок Контакта
 Display Number = Отображаемый Номер
-Clock = 
+Clock = Часы
 Show = Показать
 Electric = Электрический
 
@@ -761,31 +761,32 @@ Rated Voltage = Номинальное напряжение
 Rated Current = Номинальный ток
 resistance = сопритивление
 Resistance = Сопротивление
-Resistance[Ω]
+Resistance[Ω] = Сопротивление[Ом]
 inductance = индуктивность
 Operating Temperature = Рабочая температура
 Shape Invert = Инвертирование формы
 Image Size = Размер изображения
 Color Tolerance = Допуск цвета
 Simplify Level = Понизить уровень
-Corner Threshold = 
+Corner Threshold = Ограничитель размера угла
 
 #PCB Canvas Attributes
 Units = Единицы
 Snap Size = Размер сдвига
 Other = Другое
-Routing Width = Ширина дорожки
+Routing Width = Ширина Дорожки
 [router]
-Routing Width = Ширина дорожки
+Routing Width = Ширина Дорожки
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = 
+Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Пожалуйста, используйте горячую клавишу {0}{Shift+W}{1} или {2}{Tab}{3}, чтобы изменить ширину дорожки во время маршрутизации.
+
 Routing Angle = Угол дорожки
 Routing Conflict = Конфликт Трассировки
-Remove Loop = 
-Cut SilkScreen = Разрезать Шелкографию
+Remove Loop = Удалить замкнутую цепь
+Cut SilkScreen = Вырезать Шелкографию
 Grid = Сетка
-Grid 90 = Сетка 90
-Grid 45 = Сетка 45
+Grid 90 = Сетка 90 градусов
+Grid 45 = Сетка 45 градусов
 Copper Zone = Медная площадка
 Visible = Видимая
 Invisible = Невидимая
@@ -816,12 +817,12 @@ Slot = Slot
 Hole(Length) = Отверстие (глубина)
 Plated = Plated
 None = Нет
-Paste Mask Expansion = 
-Solder Mask Expansion = 
+Paste Mask Expansion = Вставить расширение маски
+Solder Mask Expansion = Размер окна в трафарете для защитной маски
 
 #Via Properties
 Via Properties = Свойства переходного отверстия
-Diameter = Диаметр
+Diameter = Диаметр переходного отверстия
 Drill Diameter = Диаметр сверла
 
 #Hole Properties
@@ -843,8 +844,8 @@ Display Prefix = Отображаемый Префикс
 Pin Name = Имя Контакта
 Pin Number = Номер Контакта
 Spice Pin Number = Номер Контакта Spice
-Graphics = 
-Pattern = 
+Graphics = Графика
+Pattern = Шаблон
 
 #Arc Properties
 Arc Properties = Параметры Дуги
@@ -865,17 +866,17 @@ CopperArea Properties = Параметры медного полигона
 Clearance = Чистота
 Pad Connection = Подключение Полигона
 Direct = Прямое
-Spoke = Spoke
+Spoke = Контактная площадка
 Keep Island = Keep Island
 Fill Style = Стиль заполнения
 CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Конфликт медных полигонов: медный полигон перекрывает другие дорожки в том же слое
-Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = 
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Восстановление медного полигона завершено! Вы можете установить "Медный полигон" как "Видимый" на правой панели свойств после одного щелчка по пустой области.
 Please create board outline first. = Пожалуйста, сначала создайте границы платы.
 Board outlines are not closed. = Границы платы не замкнуты.
 Rebuild CopperArea = Перестроить медный полигон
 Edit Points = Редактировать точки
-Direct = Прямое
-Spoke = Spoke
+Direct = Напрямую
+Spoke = Контактная площадка
 No Solid =
 Board Cutout = 
 Solid = Сплошной
@@ -885,7 +886,7 @@ None = Нет
 
 #Custom Attributes
 Custom Attributes = Пользовательские параметры
-Fixed Attributes = 
+Fixed Attributes = Фиксированные параметры
 Add new parameter = Добавить новый параметр
 Add New Parameter = Добавить новый параметр
 Add New Supplier = Добавить нового поставщика
@@ -894,7 +895,7 @@ Unknown = Неизвестно
 
 Custom = 
 Scan the QR code below and open it on the mobile side = 
-How to create a single layer PCB = 
+How to create a single layer PCB = Как создать однослойную плату
 Currently doesn't support layout single layer directly, please refer at: = 
 
 #Dialog Register
@@ -903,22 +904,22 @@ Username = Имя пользователя
 Password = Пароль
 Confirm Password = Подтвердить пароль
 Email = Эл. почта
-Please read this before you register = 
+Please read this before you register = Пожалуйста прочитайте это перед регистрацией на сайте
 Hi {username} = Привет，{username}
 
 #Dialog lostPassword
 Lost Password... = Забыли пароль...
-Find the password using your email = Восстановите пароль, используя эл. почту
+Find the password using your email = Восстановите пароль, используя электронную почту
 
 
 
 #Dialog Login
 Login = Логин
-Username or Email = Имя пользователя или эл. почта
+Username or Email = Имя пользователя или электронная почта
 Remember Me = Запомнить меня
-Third party = Треться сторона
+Third party = Третья сторона
 Login and Register = Войти или зарегистрироваться
-Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = 
+Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = Похоже, срок действия сессии истек, пожалуйста, войдите снова. Не нужно закрывать открытые файлы, вы можете продолжать сохранять их после входа в систему.
 
 #Dialog Reset Password
 Reset a password using your email = Сбросить пароль, используя вашу эл. почту
@@ -936,7 +937,7 @@ Add a new parameter = Добавить номер параметр
 Key = Ключ
 Value.new_para = параметр
 In BOM = В BOM
-Add into BOM = 
+Add into BOM = Добавить в BOM
 Invalid key = Некорректный ключ
 This field is required. = Это поле обязательное.
 
@@ -949,7 +950,7 @@ Confirm Password = Подтвердить пароль
 #Dialog Create New Design
 Save as a New Project = Сохранить как новый проект
 Save as a schematic = Сохранить как схему
-Save as Symbol = 
+Save as Symbol = Сохранить как символ
 Save as a spice Symbol = Сохранить как spice Symbol
 Save as a spice subckt = Сохранить как spice subckt
 YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = ВЫ ДОЛЖНЫ СОЗДАВАТЬ SPICE SYMBOL С ТОЧНО ТАКИМ ЖЕ ИМЕНЕМ КАК И ЕГО SUBCKT
@@ -957,41 +958,41 @@ Save as a PCB file = Сохранить как файл платы
 Save as Footprint = Сохранить как шелкографию
 Save as a Schematic Module = Сохранить как компонент
 Save as a PCB Module = Сохранить как корпус
-Save as 3D Model = 
-Save as a WaveForm = 
+Save as 3D Model = Сохранить как 3D модель
+Save as a WaveForm = Сохранить как волновые формы
 Title = Название
 Share = Поделиться
-Add file = 
+Add file = Добавить файл
 Visibility = Видимость
 Allow Comments = Разрешить комментарии
-Public (Anyone can see this project but only you can modify it.) = 
+Public (Anyone can see this project but only you can modify it.) = Публично (Каждый может видеть этот проект, но только Вы можете вносить изменения)
 Private (Only you can see and modify this project) = Приватный (Только вы можете просматривать и редактировать этот проект)
 Create new project success! = Новый проект создан!
 You can now create files under this project = 
-This file must be saved under a project, choose other project or create a new project = 
-Please login to save this kind of document = 
-Duplicated project title = 
+This file must be saved under a project, choose other project or create a new project = Этот файл необходимо сохранить в рамках проекта, выбрать другой проект или создать новый проект
+Please login to save this kind of document = Пожалуйста, войдите, чтобы сохранить этот документ
+Duplicated project title = Повторяющееся название проекта
 #Duplicated document title
-Project does not exist = 
-Document does not exist = 
-document not exists = 
+Project does not exist = Проект не существует
+Document does not exist = Документ не существует
+document not exists = документ не существует
 
 Categories = Категории
 Project = Проект
-Short description = 
+Short description = Краткое описание
 Content = Контент
 Modify this project info. = Изменить информацию об этом проекте
 Modify this file info. = Изменить информацию об этом файле
 Notice = Замечание
-Search for it before creating a new one. = 
-Manufacturer Part Number = 
+Search for it before creating a new one. = Найдите его, прежде чем создавать новый.
+Manufacturer Part Number = Номер детали производителя
 Supplier = Поставщик
 Or = Или
 Supplier Part = 
 Supplier Part Number = Номер компонента у поставщика
 Link = 
 link = 
-The professional function please refer at: = 
+The professional function please refer at: = Профессиональная функция, пожалуйста, обратитесь по адресу:
 
 #Dialog Clone My Part
 #Clone it to a project
@@ -1001,7 +1002,7 @@ Clone your file = Клонировать мой файл
 #Dialog Subckt
 Attach a Subckt to this spice symbol = Прикрепите Subckt к этому spice symbol
 Subckt string = Subckt строка
-Spice symbol title just allow [0-9][a-z][A-Z] and _
+Spice symbol title just allow [0-9][a-z][A-Z] and _ = В названии можно указать только [0-9] [a-z] [A-Z] и _
 
 #Design Manager
 Design Manager = Менеджер проектирования
@@ -1009,23 +1010,23 @@ Nets = Шины
 DRC Errors = DRC ошибки
 Are you sure you want to unroute this net? = 
 Unroute = Удалить разводку
-Track Length = 
-Via/Hole Outer Size = 
+Track Length = Длина дорожки
+Via/Hole Outer Size = Наружный Размер Переходного отверстия/Отверстия
 Filter nets = 
 Design Rule Checking = 
-Board Outline = 
+Board Outline = Контур печатной платы
 Plane Zone = 
 [drcRule]
 Width = Ширина
-DRC Width = 
+DRC Width = Программа контроля проектных норм Ширина
 Length = Длина
-DRC Length = 
-Drill Diameter = 
-DRC Drill Diameter = 
+DRC Length = Программа контроля проектных норм Длина
+Drill Diameter = Диаметр сверла
+DRC Drill Diameter = Программа контроля проектных норм Диаметр сверла
 Diameter = Диаметр
-DRC Diameter = 
-Object = 
-DRC Clearance = 
+DRC Diameter = Программа контроля проектных норм Диаметр
+Object = Объект
+DRC Clearance = Программа контроля проектных норм Зазор
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = 
@@ -1047,25 +1048,25 @@ Components = Компоненты
 #Dialog Import
 Import file from your computer = Импортировать файл с вашего устройства
 Maximum file size: 30 MB = Максимальный размер файла: 30MB
-Maximum file size: 100 MB = 
+Maximum file size: 100 MB = Максимальный размер файла: 100MB
 Chose file = Выберите файл
 File Operation = Операции с файлами
 Import File = Импортировать файл
 Extract Libs = Распаковать библиотеки
-Import File and Extract Libs = 
+Import File and Extract Libs = Импортировать файл и Распаковать библиотеки
 File type = Тип файла
 The file size is too large. = Размер файла слишком большой.
 Please selected the file type. = Пожалуйста, выберите тип файла.
 No component was found! = Компонентов не найдено!
 Import successfully = Успешно импортировано
 Import failed = Импорт не удался
-Click OK to continue with the import = 
+Click OK to continue with the import = Нажмите ОК, чтобы продолжить импорт.
 Select None = Ничего не выбрано
 
 #Dialog Modify Symbol Information
 Modify symbol information = Изменить информацию symbol
 Spice Prefix = Префикс Spice
-Hide Pin = 
+Hide Pin = Скрыть Пин
 Pin Manager = 
 When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = 
 Assign = Назначить
@@ -1081,7 +1082,7 @@ Manufacturer.bom = Производитель
 One-click Purchasing at LCSC = Покупка у LCSC в один клик
 Order Parts/Check Stock = 
 Export BOM = Экспорт BOM
-Export PCB BOM = 
+Export PCB BOM = Экспорт PCB BOM
 Export Schematic BOM = 
 ID.bom = ID
 Name.bom = Название
@@ -1145,18 +1146,18 @@ Active file image URL =
 All Projects = Все проекты
 Document Recovery = Восстановление файла
 Unsaved files = Несохранённые файлы
-Please select a file! = 
-Please expand the folder first, then select a document to recover. = 
-Are you sure you want to remove this backup? = 
+Please select a file! = Пожалуйста, выберите файл!
+Please expand the folder first, then select a document to recover. = Сначала откройте папку, затем выберите документ для восстановления.
+Are you sure you want to remove this backup? = Вы уверены, что хотите удалить эту резервную копию?
 
 #Dialog Find Libs
 Search = Поиск
 Search Results = Результаты поиска
 Search and press Enter = Нажмите Enter для поиска
-Keywords at least 3 characters = 
+Keywords at least 3 characters = Ключевое слово должно содержать минимум 3 символа
 Assembled = 
-Verified = 
-In stock = 
+Verified = Подтверждено
+In stock = В магазине
 {page} of {pagecount} pages = страница {page} из {pagecount}
 Common Modules = Все модули
 User Contributions = Добавленные пользователями
@@ -1168,14 +1169,14 @@ Untagged = Нет тегов
 Package = Корпус
 package = корпус
 Title(PartNO) = Название(PartNO)
-No Data! = 
+No Data! = Нет данных!
 Quantity = Количество
 Manufacturer Part = Название
 manufacturer Part = название
 Manufacturer = Производитель
 manufacturer = производитель
 voltage = напряжение
-Library = 
+Library = Библиотека
 LCSC Assembled = LCSC Assembled
 JLCPCB Assembled = 
 User Contributed = Добавлено пользователем
@@ -1184,24 +1185,24 @@ Follow = Подписаться
 Types = Типы
 Classes = Классы
 power = мощность
-Power = 
+Power = Мощность
 LCSC Part# = LCSC Part#
 Stock = Наличие
-Report Error... = 
-Report Error = 
-Thanks for your feedback! = 
-Report error success, thanks for your report! = 
-The content must be at least 2 characters! = 
-This library is user contributed, please check before using. = 
+Report Error... = Сообщить об ошибке...
+Report Error = Сообщить об ошибке
+Thanks for your feedback! = Спасибо за Ваш отзыв!
+Report error success, thanks for your report! = Сообщение об ошибке отправлено успешно, спасибо за ваше сообщение!
+The content must be at least 2 characters! = Этот контент должен содержать минимум 2 символа!
+This library is user contributed, please check before using. = Эта библиотека предоставлена пользователем, пожалуйста, проверьте перед использованием.
 [lib]
 All = Все
 System = Система
 Personal = Личные
 Created = Созданные
 Favorite = Любимые
-No Team found. Please join or create a team first. = 
-Create a team = 
-No follow user found. Please follow your friend first. = 
+No Team found. Please join or create a team first. = Группа не найдена. Пожалуйста, присоединитесь или создайте группу сначала.
+Create a team = Создать группу
+No follow user found. Please follow your friend first. = Не найдено подписчиков. Пожалуйста, сначала подпишитесь на своего друга.
 [/lib]
 
 
@@ -1211,33 +1212,33 @@ Out of Stock = Нет в наличии
 Minimum = Минимум
 Distributor = Дистрибьютор
 
-Capacitance = 
-Frequency Tolerance = 
-Power (Watts) = 
-Power - Max = 
-Frequency = 
+Capacitance = Емкость
+Frequency Tolerance = Точность частоты
+Power (Watts) = Мощность (Вт)
+Power - Max = Мощность - Макс
+Frequency = Частота
 Voltage Rating(Vdc,Vac) = 
-Voltage = 
+Voltage = Напряжение
 Current Rating = 
 Rated current = 
-Resistance (Ohms) = 
-Resistance(Ohms) = 
-Inductance = 
+Resistance (Ohms) = Сопротивление (Ом)
+Resistance(Ohms) = Сопротивление(Ом)
+Inductance = Индуктивность
 FET Type = 
 Current Rating(Max) = 
 Impedance @ Frequency = 
-Voltage - Input (Max) = 
-Voltage - Input (Min) = 
-Voltage - Supply = 
-Voltage - Max = 
-Current - Output = 
+Voltage - Input (Max) = Напряжение - Входное (Макс)
+Voltage - Input (Min) = Напряжение - Входное (Мин)
+Voltage - Supply = Напряжение - Питание
+Voltage - Max = Напряжение - Максимальное
+Current - Output = Ток - Выходной
 
 #Dialog Export Your Works
 Export your works = Экспорт вашей работы
-Export to = 
+Export to = Экспорт в
 Zoom = Зум
 Image Type = Тип изображения
-Qualify = Qualify
+Qualify = Качество
 0 means real size = 0 означает реальный размер
 Merged layer = Объединённый слой
 Separated layer = Отделённый слой
@@ -1251,19 +1252,19 @@ TopSilkLayer = Верхняя шелкография
 Protractor Attributes = Свойства протрактора
 BottomSilkLayer = Нижняя шелкография
 #后面还有个BoardOutline,仅仅一个字母大小写的差别
-BoardOutLine = BoardOutLine
+BoardOutLine = КонтурПлаты
 TopAssembly = TopAssembly
 BottomAssembly = BottomAssembly
-Mechanical = Mechanical
-DocumentLayer = DocumentLayer
+Mechanical = Механический
+DocumentLayer = СлойДокумента
 Inner{number} = 
 Substrate{number} = 
 Color = Цвет
-Full Color = 
+Full Color = Полноцветный
 Canvas Setting = Настройки окна редактора
 Full Graphics = 
 Assembly Drawings = Монтажные чертежи
-Object Outlines = 
+Object Outlines = Контуры Объекта
 Invalid file format = Некорректный формат файла
 Failed to export file = Не удалось экспортировать файл
 Download now = Скачать сейчас
@@ -1271,9 +1272,9 @@ Wire Width = Ширина провода
 Sheet = Лист
 Merged sheet = Объединённый лист
 Separated sheet = Отделённый лист
-Engine = 
-Exporting PDF = 
-Export 3D Model = 
+Engine = Движок
+Exporting PDF = Экспортировать в PDF
+Export 3D Model = Экспортировать 3D модель
 [exportDocument]
 Size = Размер
 [/exportDocument]
@@ -1312,9 +1313,9 @@ DRCError = Ошибка DRC
 Setting = Настройки
 Drawing area = Область рисования
 Export area = Экспортировать область
-Transparency(%) = 
-Copper Layer = 
-Signal = 
+Transparency(%) = Прозрачность(%)
+Copper Layer = Медный полигон
+Signal = Сигнал
 Plane = 
 Non-Signal = 
 Other = Другое
@@ -1327,7 +1328,7 @@ Create Files = Создать файлы
 Check your {0}Gerber files{1} carefully before sending them to the factory = Внимательно проверьте ваши{0}Gerber-файлы{1} перед отправкой их на производство
 Download free Gerber Viewer (gerbv) = Скачать бесплатный просмотрщик Gerber (gerbv)
 Before generating the Gerber files = Перед созданием Gerber-файлов
-Please check the packages size and orientation carefully. = 
+Please check the packages size and orientation carefully. = Пожалуйста, внимательно проверьте размер и ориентацию.
 Please check for Design Rule Checking (DRC) errors in the Design Manager. = 
 Please rebuild the copper area after modifying tracks and packages. = Пожалуйста, перестройте медные полигины, после добавления дорожек и компонентов.
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = После создания Gerber-файлов, пожалуйста, используйте {0}просмотрщик Gerber{1}, чтобы проверить, что соответсвуют вашим требованиям.
@@ -1349,20 +1350,20 @@ Via Hole Size = Диаметр переходного отверстия
 Realtime DRC = Realtime DRC
 {0} is too small! = {0} слишком маленький!
 Invalid DRC Rule = 
-Rule = 
-Via Diameter = 
-Via Drill Diameter = 
-Net List = 
-Rule = 
-Set Rule = 
+Rule = Правило
+Via Diameter = Диаметр переходного отверстия
+Via Drill Diameter = Диаметр сверла переходного отверстия
+Net List = Список соединений
+Rule = Правило
+Set Rule = Установить правило
 Check Object to Copper Area = 
 Show DRC Boundary while Routing = 
 Check Object to Board Outline = 
-Rule name already exists! = 
+Rule name already exists! = Имя данного правила уже существует!
 You should not delete default rule! = 
 Rule list contains invalid rule setting! = 
 Duplicate rule name exists! = 
-via diameter is smaller than via drill diameter! = 
+via diameter is smaller than via drill diameter! = Диаметр переходного отверстия меньше, чем диаметр сверла переходного отверстия!
 Currently rule name is not allowed to contain magical characters like . and $ = 
 [drcRule]
 All = Все
@@ -1387,16 +1388,16 @@ Switch to the Previous Layer(on the Numeric Keypad) =
 Switch to the Next Layer(on the Numeric Keypad) = 
 Toggle Layers Which is Not Active = 
 Hotkey Setting = Настройки горячих клавиш
-Document Type = 
-Shortcut = 
-Function = 
+Document Type = Тип документа
+Shortcut = Ярлык
+Function = Функция
 ALL = ВСЕ
 SCH = SCH
-Rotate Selected Objects = 
-Scroll or Move Selected Left = 
-Scroll or Move Selected Right = 
-Scroll or Move Selected Up = 
-Scroll or Move Selected Down = 
+Rotate Selected Objects = Повернуть выделенные объекты
+Scroll or Move Selected Left = Пролистать или Передвинуть Выделенное Влево
+Scroll or Move Selected Right = Пролистать или Передвинуть Выделенное Вправо
+Scroll or Move Selected Up = Пролистать или Передвинуть Выделенное Вверх
+Scroll or Move Selected Down = Пролистать или Передвинуть Выделенное Вниз
 Set canvas origin to the center grid of graphics in symbol; Set canvas origin to the center of pads in footprint. = 
 Cross Document Paste = Вставить из другого документа
 Explore & Find Components = Найти компоненты
@@ -1417,7 +1418,7 @@ Draw Arc = Нарисовать дугу
 Draw Rect = Нарисовать прямоугольник
 Draw Ellipse = Нарисовать овал
 Freehand Draw = Свободное рисование
-Freedraw = 
+Freedraw = Свободное рисование
 Draw Text = Нарисовать текст
 Edit Selected Symbol = Редактировать выбранный Symbol
 Draw Track = Нарисовать дорожку
@@ -1425,13 +1426,13 @@ Draw Circle = Нарисовать круг
 Cycle Select Object at Current Location = 
 Draw Dimension = Draw Dimension
 Draw Connect = Нарисовать соединение
-Draw CopperArea = 
+Draw CopperArea = Нарисовать медный полигон
 Change to TopLayer;<br/>Change Seleted Component's Layer to TopLayer; = 
 Change to BottomLayer;<br/>Change Seleted Component's Layer to BottomLayer; = 
-Change to Inner1 = 
-Change to Inner2 = 
-Change to Inner3 = 
-Change to Inner4 = 
+Change to Inner1 = Изменить на Inner1
+Change to Inner2 = Изменить на Inner2
+Change to Inner3 = Изменить на Inner3
+Change to Inner4 = Изменить на Inner4
 Highlight Net = Highlight Net
 Place Pad = Вставить полигон
 Place Via = Вставить переходное отверстие
@@ -1448,7 +1449,7 @@ Toggle PCB Net Display = Toggle PCB Net Display
 Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = 
 Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = 
 Show Relative Offset Dialog When Selecting Object(s) = 
-Open the FAQ Page = 
+Open the FAQ Page = Открыть страницу FAQ
 Move Object(s) by Reference Point = 
 Choose Favorite Track Width While Routing = 
 Copy Selected Object(s) and Paste Repeatedly = 
@@ -1466,9 +1467,9 @@ Version History = История изменений
 Refresh List = Обновить список
 Create New Project = Создать новый проект
 Delete = Удалить
-Attachment = 
-Archive = 
-Transfer = 
+Attachment = Вложение
+Archive = Архив
+Transfer = Переместить
 
 #Dialog Verify Package
 Footprints Verification = 
@@ -1492,8 +1493,8 @@ My Theme Sync =
 Document Recovery Setting = Бекап настроек
 Enable auto backup = 
 Maximum backup level = Максимальный уровень бекапов
-Auto backup interval = 
-minutes = 
+Auto backup interval = Интервал между автосохранениями
+minutes = минуты
 Save to Server = Сохранять на сервер
 Load from Server = Загружать с сервера
 
@@ -1505,7 +1506,7 @@ Picture = Изображение
 Pin Names = Имена контактов
 Contributor = Помощник
 contributor = помощник
-owner = 
+owner = владелец
 
 #Dialog Annotate
 Annotate = Комментировать
@@ -1564,11 +1565,11 @@ Save Changes = Сохранить изменения
 #Dialog Polyline Maybe Wire
 To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = Чтобы соединять электронные компоненты, пожалуйста, используйте Провод (клавиша W), а не Линию (клавиша L).
 
-Anonymous File = 
+Anonymous File = Анонимный Файл
 Anonymous File can not be cloned, but you can open it, then save it as a new file. = 
 Free Documents = 
 You must close the file before delete it! = 
-Offline Project = 
+Offline Project = Оффлайн проект
 
 #Message box
 Confirmation = Подтверждение
@@ -1580,7 +1581,7 @@ Error = Ошибка
 error = ошибка
 error! = ошибка!
 Warning = Предупреждение
-Imported ok! = 
+Imported ok! = Импортирование завершено успешно!
 Some changes have not been saved. = Некоторые изменения не были сохранены.
 Your file hasn't been saved. Please save first! = Ваш файл не сохранён. Пожалуйста, сначала сохраните его!
 Your file hasn't been saved. Are you sure you want to close it? = 
@@ -1589,7 +1590,7 @@ Are you sure you want to reload this page? = Вы действительно х�
 Are you sure you want to leave this page? = Вы действительно хотите покинуть эту страницу?
 Confirm Reload = Подтвердить перезагрузку
 Confirm Close = Подтвердить закрытие
-Reload this page = 
+Reload this page = Перезагрузить данную страницу
 Leave this page = Покинуть эту страницу
 Stay on this page = Остаться на этой странице
 Don't reload = Не перезагружать
@@ -1609,11 +1610,11 @@ Click the new part and then edit it! = Нажмите на новый компо
 Delete my work = Удалить мою работу
 Delete my work. (Only deletes it from this list but not from the server) = 
 Do you confirm this? = Вы уверены?
-Successfully deleted! = 
-Successfully Copied! = 
-Cloning success! = 
-Your title is too short! = 
-Remove this part = 
+Successfully deleted! = Успешно удалено!
+Successfully Copied! = Успешно скопировано!
+Cloning success! = Успешно клонировано!
+Your title is too short! = Название слишком короткое!
+Remove this part = Удалить эту часть
 Find and Jump to ... = Найти и перейти...
 Please type the prefix, such as U1, R1, C1 = 
 Zoom as 1:1, you can print it and then create artwork for etching the PCB. = 
@@ -1623,22 +1624,22 @@ Please create a project before you import a file! = Пожалуйста, соз
 Import your LTspice file! = Импортируйте ваш LTspice файл!
 Open LTspice file = 
 Please make sure the selected LTspice file is a file saved in LTspice V and above. = 
-Saved successfully! = 
-Save failed! = 
+Saved successfully! = Сохранено успешно!
+Save failed! = Сохранить не удалось!
 Can not place parts into this document. = Не удалось вставить компоненты в этот документ.
 User Package = Пользовательский корпус
-System Package = 
+System Package = Системный корпус
 File error = Ошибка файла
 Please save your file first! = Пожалуйста, сначала сохраните ваш файл!
 Email address is too short! = Адрес эл. почты слишком короткий!
 You have not selected a file to upload. = Вы не выбрали файл для загрузки.
 Update = Обновить
-Import.Import Changes = 
-No changes, the PCB already matches the schematic! = 
+Import.Import Changes = Импорт. Импортировать изменения
+No changes, the PCB already matches the schematic! = Никаких изменений, плата уже соответствует схеме!
 Only public files can be shared = Можно делиться только публичными файлами
 Conversion to PCB has failed! = Не удалось сконвертировать в плату!
 Your username is too short! = Имя пользователя слишком короткое!
-Your password is too short, it must be more than 6 characters! = 
+Your password is too short, it must be more than 6 characters! = Ваш пароль слишком короткий, он должен содержать более 6 символов!
 Conflicting shortcut = Конфликт горячих клавиш
 There is an empty PCB file. Please first run Convert Project To PCB... from the schematic = Пустой файл платы. Пожалуйста, сначала запустите конвертирование проекта в плату...
 This file has been modified, are you sure you want to run this simulation before saving it first? = 
@@ -1650,8 +1651,8 @@ Your spice netlist is too big! Try breaking your circuit into smaller simulatabl
 Too many users in simulation. Please try again later! = Слишком много пользователей запустили симуляцию. Пожалуйста, попробуйте позже!
 Due to limited server resources, please wait 10 seconds for the interval in every time simulation. = 
 Your circuit is too complex, we have not enough CPU resouce to support this simulation, please reduce your circuit as small as you can. = 
-Simulation is queuing, try again after 30s. = 
-Timeout = 
+Simulation is queuing, try again after 30s. = Симуляция в очереди, повторите попытку через 30 секунд.
+Timeout = Перерыв
 Demo accounts don't support simulation, please login first = Демо аккаунтам не разрешено запускать симуляцию, пожалуйста, сначала войдите
 Please login first = Пожалуйста, сначала войдите
 The schematic is showing errors, please check the simulation report carefully! = Эта схема содержит ошибки, пожалуйста, посмотрите отчёт о симуляции!
@@ -1663,7 +1664,7 @@ Save your preferences success! =
 Update subckt ok! = 
 Clone your file = Клонировать мой файл
 Please type a new file name = Пожалуйста, введите имя нового файла
-Create file failure! = 
+Create file failure! = Ошибка создания файла!
 Schematics and PCBs can't be imported under My Libs folder, please choose a different folder = Схемы и платы не могут быть импортированы в папку Мои библиотеки, пожалуйста, выберите другую папку
 Libraries to be imported under My Libs folder = Файлы библиотек могут быть импортированы только в папку Мои библиотеки
 Please choose only the libraries needed = Пожалуйста, выберите только необходимые библиотеки
@@ -1678,10 +1679,10 @@ Add to my Favorite Parts = Добавить в мои любимые компо�
 Added it OK. Please find it in your Favorite Parts = Успешно добавлено. Теперь вы сможете найти этот компонент в любимых
 Please select its parent node = 
 Libraries can not be exported as active project pdf. = Библиотеки не могут быть экспортированы в формате pdf.
-Error:No GND = 
+Error:No GND = Ошибка: Нет GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = 
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = 
-Probe can not connect with ground(GND)! = 
+Probe can not connect with ground(GND)! = Зонд не может подключиться к земле (GND)!
 Spice symbols's attributes can't be empty. = 
 Error:No Spice Symbol = 
 Simulation limit = 
@@ -1806,7 +1807,7 @@ Gpoly(Non-linear Current Source) = Gpoly(Нелинейный источник �
 
 Diode = Диод
 LED = Светодиод
-LED_3D = 
+LED_3D = Светодиод(3D)
 Schottky Diode = Диод Шоттки
 Varactor Diode = Варактор
 Zener = Стабилитрон
@@ -1874,11 +1875,11 @@ LAMP = Лампа
 Opto Transistor = Опто-транзистор
 
 #Server Message
-Need login = 
-Bad password = 
-We can't find your username or your email, please check it! = 
+Need login = Нужен логин
+Bad password = Неправильный пароль
+We can't find your username or your email, please check it! = Мы не можем найти имя пользователя или адрес электронной почты, проверьте данные!
 Make sure your uploaded file size is less than 3MB! = 
-Bad file type = 
+Bad file type = Неправильный формат файла
 Empty file or bad file type, ensure your file is Eagle 6.0+ = Пустой файл или плохой тип файла, убедитесь, что ваш файл создан в Eagle 6.0+
 This operation not supported on demo account = Эта операция не поддерживается на демо аккаунте
 Can not share this file under a private project, please set the active project to public! = 
@@ -1886,7 +1887,7 @@ Login Failed Too many attempts. If you forgot your password, please {0}reset you
 
 #Dialog Common Buttons
 Common Buttons Setting = Общие настройки клавиш
-Menu Setting... = 
+Menu Setting... = Настройки меню
 Show/Hide = Показать/Скрыть
 Move Up = Переместить выше
 Move Down = Переместить ниже
@@ -1905,17 +1906,17 @@ Cartesian Coordinate =
 Open Wizard Dialog for New Schematic = 
 Default Unit = 
 Canvas Zoom Effect = 
-Quality Priority = 
-Speed Priority = 
-Rotation Step = 
+Quality Priority = Приоритет: качество
+Speed Priority = Приоритет: скорость работы
+Rotation Step = Шаг вращения
 Add Teardrop Automatically = 
 Assign Net for Free Track/Arc/Circle = 
 Open Wizard Dialog for New PCB = 
 Rebuild Plane Automatically = 
 The Track's Routing Follows Component's Rotation = 
 Display Pad's Number and Net = 
-Favorite Track width = 
-Track Width Setting = 
+Favorite Track width = Избранная ширина дорожки
+Track Width Setting = Настройка ширины дорожки
 
 
 #Dialog Access Control
@@ -1925,9 +1926,9 @@ Access Control = Контроль доступа
 Project Access Control = Контроль доступа к проекту
 Reject = Отклонить
 Add User = Добавить пользователя
-Bad email address = Плохой адрес эл. почты
+Bad email address = Неверный адрес эл. почты
 #后端返回英文的错误信息
-Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = 
+Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Не удается найти этот адрес электронной почты в EasyEDA. Ваш партнер должен быть пользователем EasyEDA.
 
 #Dialog waveForm
 Grid Background = Фон сетки
@@ -1961,11 +1962,11 @@ dotted = точечная
 #Solid Region
 Solid Region = Сплошная область
 Type = Тип
-type = 
+type = тип
 
 #Dialog Libs Management
 Report error = Отчёт об ошибке
-Please give us some information to help us find the problem. = 
+Please give us some information to help us find the problem. = Пожалуйста, предоставьте нам некоторую информацию, которая поможет нам найти проблему.
 Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = Не удалось разместить компоненты в этом документе: элементы схем нужно размещать на схеме, шелкографию элементов на печатной плате.
 Save it as a favorite part = Сохранить как любимый компонент
 Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = Только вошедшие пользователи могут сохранить этот компонент в любимые, а гости (анонимы) могут разместить этот компонент столько сразу в документ. Вы хотите разместить этот компонент в документе?
@@ -1977,13 +1978,13 @@ My Parts = Мои компоненты
 My Modules = Мои модули
 Assembly LCSC Components = Assembly LCSC Components
 Modules = Модули
-SCH Module = 
+SCH Module = Модуль Системного контроллера-концентратора
 PCB Module = Модуль корпусов
 System IC = System IC
 LCSC (Official) = LCSC (Оффициальный)
 LCSC Electronics = 
-Simple Mode = 
-Expand Mode = 
+Simple Mode = Простой режим
+Expand Mode = Расширенный режим
 Help Verify = 
 Favorite Parts = Любимые компоненты
 Shared With Me = Поделились со мной
@@ -2011,8 +2012,8 @@ Bus entry y2 = Bus entry y2
 Yes = Да
 No = Нет
 OK = Ок
-Confirm = 
-Continue = 
+Confirm = Подтвердить
+Continue = Продолжить
 Cancel = Отмена
 Update = Обновить
 Bus entry = Ветка шины
@@ -2078,22 +2079,22 @@ Generate PCB Fabrication File(Gerber) = Создать Gerber
 PenWidth-Increase = Pen Width Increase
 
 #Generate Gerber
-Generate Gerber = 
-Gerber View = Просмотр Gerber
+Generate Gerber = Генерировать Gerber файл
+Gerber View = Просмотр Gerber файла
 Dimensions(Estimated) = Размеры (примерно)
 PCB Qty = Количество плат
 Copper Weight = Толщина меди
-PCB Price = 
-Estimated Delivery Time = 
+PCB Price = Цена печатной платы
+Estimated Delivery Time = Расчетное время доставки
 For your first time order, less than $20 discount on the freight! = 
 HASL(with lead) = HASL(со свинцом)
-LeadFree HASL-RoHS = HASL-RoHS(бессвинец)
+LeadFree HASL-RoHS = HASL-RoHS(без свинца)
 ENIG-RoHS = ENIG-RoHS
 Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = 
-Yes, Check DRC = 
-No, Generate Gerber = 
+Yes, Check DRC = Да, проверить плату на соответствие правилам проектирования
+No, Generate Gerber = Нет, генерировать Gerber файл
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = 
-Yes, Check Connection(s) = 
+Yes, Check Connection(s) = Да, проверить соединение(я)
 It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = 
 Failed to submit your order, please contact us via support@easyeda.com for help. = 
 Failed to submit your order, please contact us via QQ 800821856. = 
@@ -2145,7 +2146,7 @@ Read/Write = Чтение/запись
 More Libraries... = Больше библиотек...
 Decompress failed! = Распаковка не удалась！
 Load failed! = Загрузка не удалась!
-Loading = 
+Loading = Загрузка
 No Result = Нет результатов
 
 #Dialog Place Pin in schematic warning
@@ -2225,10 +2226,10 @@ This feature only works for PCB document. = Эта функция работае
 Select a DXF file = 
 
 #Export DXF
-Export DXF = 
+Export DXF = Экспорт DXF
 Plated-Through-Hole Pads = 
 Non-Plated-Through-Hole Pads = 
-Silkscreen = 
+Silkscreen = Шелкография
 Surface Pad = 
 
 #Data Sync
@@ -2278,20 +2279,20 @@ Texts = Текст
 Wires = Провода
 Board outlines = Границы платы
 Footprints = Шелкографию
-Footprint = 
+Footprint = Шелкография
 Tracks = Дорожки
 
 #dialog board outline settings
-Current Size = 
-Paramenters = 
-Start X: = 
-Start Y: = 
-Round Rectangular = 
+Current Size = Текущий размер
+Paramenters = Параметры
+Start X: = Начало X:
+Start Y: = Начало Y:
+Round Rectangular = Закруглить углы четырехугольника
 radius = радиус
-only number is allowed! = 
-please input valid value of width! = 
-please input valid value of height! = 
-please input valid value of radius! = 
+only number is allowed! = можно вводить только цифры!
+please input valid value of width! = пожалуйста введите существующее значение ширины!
+please input valid value of height! = пожалуйста введите существующее значение высоты!
+please input valid value of radius! = пожалуйста введите существующее значение радиуса!
 
 #cross probe
 The object you selected was not found in other documents. = 
@@ -2307,7 +2308,7 @@ BuiltDate = Дата сборки
 #Auto Router Dialog
 Auto Router Config = Настройки автотрассировщика
 General Options = 
-All Layers = 
+All Layers = Все слои
 Configure = 
 Sorry, your web browser does not support this feature. Please run a modern browser. = Извините, ваш браузер не поддерживает эту функцию. Пожалуйста, используйте современный браузер.
 Please make sure all objects with net are inside the board outline! = 
@@ -2322,8 +2323,8 @@ Track Width is invalid = Ширина дорожки некорректна
 General Clearance is invalid = Отступ по умолчанию некорректен
 SMD Clearance is invalid = Некорректный отступ между SMD
 Diameter is invalid = Диаметр некорректен
-Drill Diameter is invalid = 
-Track width cannot be less than Design Rule Checking (DRC) setting value. = 
+Drill Diameter is invalid = Диаметр сверла некорректен
+Track width cannot be less than Design Rule Checking (DRC) setting value. = Ширина дорожки не может быть меньше значения настройки проверки правил проектирования (DRC).
 General Clearance cannot be less than Design Rule Checking (DRC) setting value. = 
 SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = 
 Hole size cannot be less than Design Rule Checking (DRC) setting value. = 
@@ -2351,31 +2352,31 @@ Cloud = Облачный
 Available = Доступно
 Unavailable = Недоступно
 Checking = Проверка
-Install Local Auto Router = 
+Install Local Auto Router = Установить автоматический разводчик плат на компьютер
 Checking local auto router server... = Проверяем локальный сервер автотрассировщика...
 Stop Router = Остановить трассировщик
 Auto Router is running... = Автотрассировщик в работе...
 
 #Left Siderbar
 EELib = EELib
-Basic = 
-Extend = 
+Basic = Базовый
+Extend = Расширенный
 Design Manager = Менеджер проектирования
-Library = 
+Library = Библиотека
 Spice Library = 
 Shared = Shared
 LCSC = LCSC
-LCSC Parts = 
+LCSC Parts = LCSC комплектующие
 Supply Flag = Supply Flag
-US = 
+US = США
 EU/IEC = 
 US Style = Американский стиль
-Resistor = 
-Capacitor = 
-Inductor = 
-Switch/Key = 
+Resistor = Резистор
+Capacitor = Конденсатор
+Inductor = Индуктивность
+Switch/Key = Переключатель/кнопка
 EU/IEC Style = Европейский стиль
-CN = 
+CN = Китай
 Connector = Коннектор
 Switch/Relay = Переключатель/Реле
 JLCPCB = JLCPCB
@@ -2396,7 +2397,7 @@ License = Лицензия
 Part Pins = Контакты компонентов
 Net Pins = Подключение к шине
 Net Ratlines = 
-Add Parameter = 
+Add Parameter = Добавить параметр
 Histories record = История
 Create Team = Создать команду
 Can't find this footprint on the server, please re-associate it. = 
@@ -2418,14 +2419,14 @@ Export to Altium function is currently in beta: =
 Export Altium notice and disclaimer = 
 2. Please be sure to check again after export! = 
 I have read and agree = 
-Export to Altium = 
+Export to Altium = Экспорт в Altium
 Please make sure that the chose Eagle files are saved in Eagle v6.0 and above. = Пожалуйста, убедитесь, что файлы Eagle сохранены в Eagle v6.0 или выше.
 Please make sure that the Kicad files were compressed as the .zip file. = Пожалуйста, убедитесь, что Kicad файлы были упакованы в .zip архив.
 Open Altium Designer file = Открыть файл Altium Designer
 The more information please refer at : = 
 Please use Gerber file instead of exporting Altium if you are going to do PCB manufacturing. All PCB factories support the Gerber file. Is it ok to Generate the Gerber file? = 
-Yes, Generate Gerber = 
-No, Export Altium = 
+Yes, Generate Gerber = Да, генерировать Gerber
+No, Export Altium = Нет, экспортировать в Altium
 Open Eagle file = Открыть файл Eagle
 Open Kicad file = Открыть файл Kicad
 Select file(s) = Выберите файл(ы)
@@ -2499,11 +2500,11 @@ Tags =
 Pin Information: = 
 Format incorrect, please check for the extra spaces or commas! = 
 Round Radius = 
-Keyword: = 
+Keyword: = Ключевое слово
 Image = Изображение
-Image copied. = 
-Copy failed. = 
-Image Attribute = 
+Image copied. = Изображение скопировано.
+Copy failed. = Не удалось скопировать
+Image Attribute = Аттрибуты изображения
 Locked = 
 Unlock All = 
 Unlock = 
@@ -2511,74 +2512,74 @@ Lock =
 Please input pin name and pin number! = 
 Left-Hand Panel = 
 Right-Hand Panel = 
-Update All = 
+Update All = Обновить всё
 The pin number(s) can't find the same pad number(s) = 
 Designator = 
 Replace = 
-Update failed = 
+Update failed = Не удалось обновить
 Successfully updated = 
-Update failed! = 
-Successfully updated! = 
+Update failed! = Не удалось обновить!
+Successfully updated! = Обновление прошло успешно!
 Successfully updated {0} component(s)! = 
-Change = 
+Change = Заменить
 Check  Footprints = 
 Network Error! = 
-Find Similar Objects = 
-Current Sheet = 
-All Sheets = 
+Find Similar Objects = Найти похожие объекты
+Current Sheet = Текущий Лист
+All Sheets = Все Листы
 Kind = 
 Range = 
 Net Label/Net Flag/Net Port/Voltage Probe = 
 Bezier/Freehand Draw = 
 Arc/Pie = 
-Objects Attributes = 
-Any = 
-Same = 
-Different = 
-Circular = 
+Objects Attributes = Свойства объекта
+Any = Любой
+Same = Тот же
+Different = Разный
+Circular = Круглый
 Expose Copper = 
 "{0}" font is missing. Please add the font to the font family list. = 
 Place Component = 
-Delete Segment = 
-Angle = 
-Board Thickness = 
+Delete Segment = Удалить сегмент
+Angle = Угол
+Board Thickness = Толщина платы
 Layer Distance = 
-Silk Screen = 
+Silk Screen = Шелкография
 Surface Finish Color = 
-Colors = 
-Board Color = 
-Board Side = 
-Silk Screen = 
-Silk Screen Color = 
+Colors = Цвета
+Board Color = Цвет платы
+Board Side = Размер платы
+Silk Screen = Шелкография
+Silk Screen Color = Цвет Шелкографии
 Display = 
 
 # 阵列分布与阵列克隆
 Distribute Array = 
-Array Type = 
-Matrix Array = 
-Circular Array = 
-Item Rotation = 
-Location = 
-Items per Column = 
-Items per Row = 
+Array Type = Тип массива
+Matrix Array = Матричный массив
+Circular Array = Куговой массив
+Item Rotation = Предмет для вращения
+Location = Расположение
+Items per Column = Количество элементов в колонке
+Items per Row = Количество элементов в строке
 # Column Spacing
 # Row Spacing
-Spacing(Degrees) = 
-Start Degree = 
+Spacing(Degrees) = Интервал(градусы)
+Start Degree = Начальный угол
 Rotate Item to Match = 
-Clockwise = 
-Anti-Clockwise = 
+Clockwise = По часовой стрелке
+Anti-Clockwise = Против часовой стрелки
 Distribute by = 
-Column = 
-Row = 
-Array Clone = 
-Number of Rows = 
-Number of Columns = 
-Number of Copies = 
+Column = Колонка
+Row = Строка
+Array Clone = Клонировать массив
+Number of Rows = Количество строк
+Number of Columns = Количество колонок
+Number of Copies = Количество объектов в массиве
 Distribute Range(Degrees) = 
 
 #主题颜色对话框
-BusEntry = 
+BusEntry = Ветка шины
 Foreground = Foreground
 Common Used = Часто используемые
 Original Theme = 
@@ -2586,10 +2587,10 @@ Theme Setting = Настройки темы
 Change the theme colors of your design = 
 White on Black = Белое на чёрном
 Black on White = Чёрное на белом
-Custom Theme = 
-Color Setting = 
-Apply Setting = 
-Theme Setting... = 
+Custom Theme = Пользовательская тема
+Color Setting = Настройки цвета
+Apply Setting = Применить настройки
+Theme Setting... = Настройки темы...
 Bus Entry = Ветка шины
 Foreground = Foreground
 Symbol Graphics = 
@@ -2600,8 +2601,8 @@ The original theme only works for placing the new symbols. =
 Selection Highlight = 
 Net Label / Port = 
 
-My Theme = 
-My Theme Settings = 
+My Theme = Моя тема
+My Theme Settings = Настройки моей темы
 Apply 'Custom Theme' On = 
 Creating New Schematic = 
 Opening Existed Schematic = 
@@ -2609,11 +2610,11 @@ Please fill in all parameters! =
 Convert to Board Cutout = 
 Prefix Position = 
 Name Position = 
-Center = 
-Top = 
-Bottom = 
-Left = 
-Right = 
+Center = Центр
+Top =  Верх
+Bottom = Низ
+Left = Лево
+Right = Право
 Does not support multiple objects to convert to Board Cutout at the same time = 
 Does not support multiple objects to convert to pad at the same time = 
 Convert to Board Cutout = 
@@ -2622,12 +2623,12 @@ Convert to Component Shape =
 Combine to Continuous Track = 
 Convert to Solid Region = 
 Substrate = 
-3D View = 
-2D View = 
+3D View = 3D вид
+2D View = 2D вид
 Pin Color = 
 Name Color = 
 Number Color = 
-Dot = 
+Dot = Точка
 
 [theme]
 Sheet = Лист
@@ -2642,45 +2643,45 @@ Editor = Редактор
 View File History = Посмотреть историю файла
 Save Time = Время сохранения
 
-Invalid Format = 
+Invalid Format = Неправильный формат
 
 #Dialog Teardrop
-Round Pad / Via = 
-Rectangle / Oval / Polygon Pad = 
-Applying Teardrops = 
-Removing Teardrops = 
-Waiting = 
+Round Pad / Via = Круглый пад / Переходное отверстие
+Rectangle / Oval / Polygon Pad = Прямоугольник / Овал / Многоугольник пад
+Applying Teardrops = Применить Teardrops
+Removing Teardrops = Удалить Teardrops
+Waiting = Ожидание
 Progressing... = 
 
-No schematic in the project! = 
+No schematic in the project! = Нет схемы в данном проекте!
 
 Move Forward = 
 Move Backward = 
 
 #Dialog Panelize
-V-CUT = 
+V-CUT = V-CUT
 Stamp Hole = 
 No Panelize = 
 Border and Marking = 
-Create Border = 
-Border Height = 
-Border Position = 
-Create Positioning Holes = 
+Create Border = Создать границу
+Border Height = Высота границы
+Border Position = Положение границы
+Create Positioning Holes = Создать позиционные отверстия
 Create Fiducial Marks = 
-Top and Bottom = 
-Left and Right = 
+Top and Bottom = Верх и низ
+Left and Right = Лево и право
 Stamp Hole Group - Column = 
 Stamp Hole Group - Row = 
-The number of rows and columns cannot be set to 1 simultaneously = 
+The number of rows and columns cannot be set to 1 simultaneously = Количество строк и столбцов не может быть установлено равным 1 одновременно.
 
 #edit path point
 [editPathPoints-dlg]
 Arc(R) = 
 Type = Тип
 Action = 
-add before = 
-add after = 
-delete = 
+add before = добавить после
+add after = добавить перед
+delete = удалить
 [/editPathPoints-dlg]
 
 #edit polygon point
@@ -2694,17 +2695,17 @@ You have unconfirmed edit! =
 Invalid edit! = 
 
 #Dialog PCB Information
-PCB Information... = 
-Signal Layers = 
-None Signal Layers = 
-Pads = 
-Surface Pads = 
-Plated Through-hole Pads = 
-None Plated Through-hole Pads = 
-Holes = 
-Vias = 
-Length of Tracks = 
-Copper Areas = 
+PCB Information... = Информация о печатной плате...
+Signal Layers = Сигнальные слои
+None Signal Layers = Не сигнальные слои
+Pads = Пады
+Surface Pads = Поверхностные пады
+Plated Through-hole Pads = Сквозные металлизированные отверстия
+None Plated Through-hole Pads = Сквозные неметаллизированные отверстия
+Holes = Отверстия
+Vias = Переходные отверстия
+Length of Tracks = Длина дорожек
+Copper Areas = Площадь медного полигона
 
 #Differential Pair Routing
 Differential Pair Routing = 
@@ -2718,15 +2719,15 @@ Track Length Tuning... =
 Tracks with different net or non-track found in current targets. = 
 Please select the signal tracks to be tuning. = 
 The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = 
-45° Angle = 
-90° Angle = 
+45° Angle = угол 45°
+90° Angle = угол 90°
 DRC Track Length : = 
-Current Length : = 
+Current Length : = Текущая длина:
 Additional Length : = 
 Target Length: = 
-Current Length: = 
+Current Length: = Текущая длина:
 
-can not connect to the server = 
+can not connect to the server = невозможно соединиться с сервером
 
 #Dialog Copper Area Manager
 Copper Area Manager... = 
@@ -2753,18 +2754,18 @@ Correct =
 Incorrect = 
 Submit = 
 Tip = 
-Please select one component = 
+Please select one component = Пожалуйста выберите один компонент
 Location X = 
 Location Y = 
-Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = 
-EasyEDA Client = 
+Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = Ваша текущая версия браузера может не поддерживать некоторые функции. Пожалуйста, используйте последнюю версию Chrome или Firefox или попробуйте программу для работы на компьютере. 
+EasyEDA Client = EasyEDA клиент
 LCEDA Client = 
 Chrome = 
 FireFox = 
 New Version = 
-Switch Version = 
-Member = 
-Update Time = 
+Switch Version = Переключить версию
+Member = Член
+Update Time = Обновить время
 Editor = Редактор
 Current Version: = 
 Select a version to switch = 
@@ -2777,11 +2778,11 @@ Create new version success! =
 Version Management = 
 Switch success! = 
 Please close current version's documents first! = 
-Creator = 
-Create Time = 
+Creator = Создатель
+Create Time = Время создания
 Fail to connect to server! Please check your internet connection status and try again! = 
 Spice Number = 
-Create = 
+Create = Создать
 3D Outline = 
 Cannot create the slot hole via the board outline, please use the following methods: = 
 Use the solid region and set its type as Board Cutout = 
@@ -2790,9 +2791,9 @@ Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cuto
 The more information please refer at = 
 Save "{0}" success! = 
 Save "{0}" failed! = 
-Invalid Size = 
+Invalid Size = Неправильный размер
 Processing = 
-Invalid Size = 
+Invalid Size = Неправильный размер
 NetFlag GND = Флаг GND
 NetFlag VCC = Флаг VCC
 NetFlag +5v = Флаг +5v
@@ -2801,15 +2802,15 @@ SVG Preview =
 Prefix contains not supported charater(s) ! = 
 Name contains not supported charater(s) ! = 
 Create Grid Path = 
-Please Input Name = 
+Please Input Name = Пожалуйста введите имя
 Building Copper Area = 
 Processing = 
-Opening File = 
-Update from Library = 
+Opening File = Открытие файла
+Update from Library = Обновить из библиотеки
 Update Footprint = 
 Find footprint(s) have been updated, do you want to update? = 
 3D File: = 
-Model List = 
+Model List = Список моделей
 Are you sure merge net {0} and net {1}? = 
 Display Footprint = 
 Display Footprint Name While Placing Component = 
@@ -2817,8 +2818,8 @@ Annotate Prefix Automatically After Placing Component =
 Program Error, Please Contact Technical Support! = 
 Search Engine = 
 Keyword to Filter = 
-Normal Mode = 
-Expand Mode = 
+Normal Mode = Нормальный режим
+Expand Mode = Расширенный режим
 3D Model Manager = 
 3D Model Preview = 
 3D Model = 
@@ -2851,8 +2852,8 @@ None = Нет
 [/grid]
 
 #lib verify and mounted
-This component is verified = 
-This component is unmounted = 
+This component is verified = Этот компонент подтвержденный
+This component is unmounted = Этот компонент демонтированный
 
 #find component
 Find Next = 
@@ -2895,7 +2896,7 @@ The current file {0} has an updated version. Do you want to overwrite it? If you
 Yes, Overwrite It = 
 No, Keep It = 
 
-Download Client = 
+Download Client = Загрузить клиент
 
 Search tutorial、open source projects etc. = 
 
@@ -3149,8 +3150,8 @@ Document layer has circle object, but jlcPara's polarity is 0, please check the 
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = 
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = 
 
-ROUND = 
-RECTANGLE = 
+ROUND = КРУГ
+RECTANGLE = ПРЯМОУГОЛЬНИК
 OCTAGONAL = 
 Upper left = 
 Lower left = 
@@ -3183,8 +3184,8 @@ Plcarment Tolerance =
 FirstPin Position = 
 Package Origin = 
 Expansion Size = 
-Corner = 
-Angle = 
+Corner = Угол платы
+Angle = Угол (градусы)
 Fillet = 
 Chamfer = 
 Update Preview = 
@@ -3192,10 +3193,10 @@ Number of pins (left and right) =
 Number of pins (up and down) = 
 Reference Use Cases = 
 Package Type = 
-Capacitance = 
-Resistance = 
+Capacitance = Емкость
+Resistance = Сопротивление
 Bidirectional Diode = 
-Inductance = 
+Inductance = Индуктивность
 Crystal Oscillator = 
 Diode = Диод
 LED = Светодиод
