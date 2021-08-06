@@ -40,6 +40,21 @@ The "#" charater start line, just the comment line, please ingore it
 Switch mode = 切换模式
 ```
 
+The language list please don't translate, otherwise, people will not easy to retrieve the original language if they mistakenly switch other languages.
+please keep the language list as below:
+```
+English = English (English)
+Polski (Polish) = Polski (Polish)
+Deutsch (German) = Deutsch (German)
+Français (French) = Française (French)
+简体中文 (Chinese - Simplified) = 简体中文 (Chinese - Simplified)
+正體中文 (Chinese - Traditional) = 繁体中文 (Chinese - Traditional)
+한국어 (Korean) = 한국어 (Korean)
+日本語 (Japanese) = 日本語 (Japanese)
+Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
+```
+
+
 
 4) when you finish, please make a pull request(before pull request, please fetch and merge this main branch first to avoid the merge conflict), we will merge it. There is no good way to test the translation yet, need to wait us to release a new editor version.
 
