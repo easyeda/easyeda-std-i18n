@@ -20,25 +20,38 @@ If you would like to help to translation:
 the language code please refer at https://www.w3schools.com/tags/ref_language_codes.asp   
 and then remove the Chinese text, translate the English to your language. The characters before `=` need to be preserved.  
 for example:  
-```js
+```
 // at ui_data_hans.txt
 Select = 选择
 
 // at ui_data_ru.txt
 Select = Выбрать
-
 ```   
 If the text has free dot(...) or '{}', you need to keep it, for example:  
-```js
+```
 Join... = Collegati...
 
 Add font success: {name} = 字体添加成功: {name}      //keep the {name}
 ```  
 The "#" charater start line, just the comment line, please ingore it  
-```js
+```
 #spice            //this is comment line, don't need to translate
 Switch mode = 切换模式
 ```
+
+If the text has such structure, please keep it
+```
+[menu_project]    //keep this structure
+View=查看
+[/menu_project]   //keep this structure
+```
+
+If you find out the text miss '=' charater, you can add it by yourself:
+```
+Carrier Freq[Hz]  //before
+Carrier Freq[Hz] = 载波频率[Hz]  //after
+```
+
 
 If add a new language file, need to add it at 'language_list.md'. We will add this list to editor language menu list
 language list as below:
