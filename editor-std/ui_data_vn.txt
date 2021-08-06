@@ -1,4 +1,4 @@
-#Menu
+# Menu
 User = Người dùng
 Join... = Tham gia...
 Login... = Đăng nhập...
@@ -12,15 +12,7 @@ Crash = Khôi phục dữ liệu dự phòng...
 Invite friends... = Mời bạn bè...
 Language = Ngôn ngữ
 Language Setting = Cài đặt ngôn ngữ
-English = English (英语)
-Polski (Polish) = Polski (波兰语)
-Deutsch (German) = Deutsch (德语)
-Français (French) = Française (法语)
-简体中文 (Chinese - Simplified) = 简体中文
-正體中文 (Chinese - Traditional) = 繁体中文
-한국어 (Korean) = 한국어 (韩语)
-日本語 (Japanese) = 日本語
-Tiếng Việt (Vietnamese) = 
+
 Document Recovery = Phục hồi tài liệu
 Your Preferences Information = Thông tin Ưu đãi của bạn
 File = Tập tin

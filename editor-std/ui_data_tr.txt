@@ -1,4 +1,4 @@
-﻿#Menu
+﻿# Menu
 User= Kullanıcı
 Join...= Katıl...
 Login...= Giriş...
@@ -12,15 +12,7 @@ Crash = Çökme...
 Invite friends...= Arkadaşlarını davet et...
 Language= Dil
 Language Setting = Dil Ayarı
-English= İngilizce
-Polski (Polish)= Lehçe
-Deutsch (German)= Almanca
-Français (French)= Fransızca
-简体中文 (Chinese - Simplified)= Çince - Basitleştirilmiş
-正體中文 (Chinese - Traditional)= Çince - Geleneksel
-한국어 (Korean)= Korece
-日本語 (Japanese) = Japonca
-Tiếng Việt (Vietnamese) = Vietnamca
+
 Document Recovery = Belge Kurtarma
 Your Preferences Information = Tercih Bilgileriniz
 File= Dosya

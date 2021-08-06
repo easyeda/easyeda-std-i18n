@@ -1,4 +1,4 @@
-#Menu
+# Menu
 User = Користувач
 Join... = Приєднатися...
 Login... = Увійти...
@@ -12,15 +12,7 @@ Crash =
 Invite friends... = Запросити друзів...
 Language = Мова
 Language Setting = 
-English = Англійська (English)
-Polski (Polish) = Польська (Polski)
-Deutsch (German) = Німецька (Deutsch)
-Français (French) = Французька (Français)
-简体中文 (Chinese - Simplified) = Китайська спрощена (简体中文)
-正體中文 (Chinese - Traditional) = Китайська традиційна (正體中文)
-한국어 (Korean) = Корейська (한국어)
-日本語 (Japanese) = 
-Tiếng Việt (Vietnamese) = 
+
 Document Recovery = Відновлення документу
 Your Preferences Information = Інформація про ваші уподобання
 File = Файл

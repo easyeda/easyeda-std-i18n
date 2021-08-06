@@ -1,4 +1,4 @@
-#Menu
+# Menu
 User = Uživatel
 Join... = Připojit...
 Login... = Přihlásit...
@@ -11,16 +11,8 @@ System Settings =
 Crash = Zhroucení
 Invite friends... = Pozvat přátele...
 Language = Jazyk
-Language Setting = Jazykové nastavení
-English = English
-Polski (Polish) = Polski (Polish)
-Deutsch (German) = Deutsch (German)
-Français (French) = Français (French)
-简体中文 (Chinese - Simplified) = 简体中文 (Chinese - Simplified)
-正體中文 (Chinese - Traditional) = 正體中文 (Chinese - Traditional)
-한국어 (Korean) = 한국어 (Korean)
-日本語 (Japanese) = 日本語 (Japanese)
-Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
+Language Setting = Jazykové Nastavení
+
 Document Recovery = Obnova dokumentu
 Your Preferences Information = Vaše uživatelské nastavení
 File = Soubor

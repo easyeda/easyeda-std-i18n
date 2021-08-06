@@ -1,4 +1,4 @@
-﻿#Menu
+﻿# Menu
 User=用户
 Join...=注册...
 Login...=登录...
@@ -12,15 +12,7 @@ Crash =恢复备份数据...
 Invite friends...=邀请好友...
 Language=语言
 Language Setting = 语言设置
-English=English (英语)
-Polski (Polish)=Polski (波兰语)
-Deutsch (German)=Deutsch (德语)
-Français (French)=Française (法语)
-简体中文 (Chinese - Simplified)=简体中文
-正體中文 (Chinese - Traditional)=繁体中文
-한국어 (Korean)=한국어 (韩语)
-日本語 (Japanese) = 日本語 (日语)
-Tiếng Việt (Vietnamese) = Tiếng Việt (越南语)
+
 Document Recovery = 文档恢复
 Your Preferences Information = 你的个人偏好信息
 File=文件

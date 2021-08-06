@@ -1,4 +1,4 @@
-#Menu
+# Menu
 User = ユーザーログアウト
 Join... = 参加
 Login... = ログイン
@@ -12,15 +12,7 @@ Crash =
 Invite friends... = 友達を招く
 Language = 言語
 Language Setting = 
-English = English（英語）
-Polski (Polish) = Polski（ポーランド語）
-Deutsch (German) = Deutsch（ドイツ語）
-Français (French) = Français（フランス語）
-简体中文 (Chinese - Simplified) = 中国語（簡体字）
-正體中文 (Chinese - Traditional) = 中国語（繁体字）
-한국어 (Korean) = 한국어（韓国語）
-日本語 (Japanese) = 
-Tiếng Việt (Vietnamese) = 
+
 Document Recovery = 文章の回復
 Your Preferences Information = あなたの設定情報
 File = ファイル

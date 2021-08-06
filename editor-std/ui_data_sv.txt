@@ -1,4 +1,4 @@
-#Menu
+# Menu
 User = Användare
 Join... = Anslut
 Login... = Inloggning
@@ -12,15 +12,7 @@ Crash =
 Invite friends... = Invetera vänner
 Language = Svenska
 Language Setting = 
-English = Engelska
-Polski (Polish) = Polska
-Deutsch (German) = Tyska
-Français (French) = Franska
-简体中文 (Chinese - Simplified) = Förenklad Kinesiska
-正體中文 (Chinese - Traditional) = Traditionell Kinesiska
-한국어 (Korean) = Koreanska
-日本語 (Japanese) = 
-Tiếng Việt (Vietnamese) = 
+
 Document Recovery = Återställ dokument
 Your Preferences Information = Din inställnings information
 File = Fil

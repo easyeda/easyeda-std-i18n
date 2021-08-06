@@ -1,4 +1,4 @@
-#Menu
+# Menu
 User = Пользователь
 Join... = Присоединиться...
 Login... = Войти...
@@ -12,15 +12,7 @@ Crash = Восстановить бекап...
 Invite friends... = Пригласить друзей...
 Language = Язык
 Language Setting = Языковые Настройки
-English = Английский (English)
-Polski (Polish) = Польский (Polish)
-Deutsch (German) = Немецкий (German)
-Français (French) = Французский (French)
-简体中文 (Chinese - Simplified) = Упрощенный китайский (Chinese - Simplified)
-正體中文 (Chinese - Traditional) = Традиционный китайский(Chinese - Traditional)
-한국어 (Korean) = Корейский (Korean)
-日本語 (Japanese) = Японский (Japanese)
-Tiếng Việt (Vietnamese) = Вьетнамский (Vietnamese)
+
 Document Recovery = Восстановление файла
 Your Preferences Information = Информация по вашим настройкам
 File = Файл

@@ -1,4 +1,4 @@
-#Menu
+# Menu
 User = Utilisateur
 Join... = Rejoindre
 Login... = S'identifier...
@@ -12,15 +12,7 @@ Crash = Crash
 Invite friends... = Inviter des amis...
 Language = Langue
 Language Setting = 
-English = Anglais
-Polski (Polish) = Polonais
-Deutsch (German) = Allemand
-Français (French) = Français
-简体中文 (Chinese - Simplified) = Chinois simplifié
-正體中文 (Chinese - Traditional) = Chinois traditionnel
-한국어 (Korean) = Coréen
-日本語 (Japanese) = Japonais
-Tiếng Việt (Vietnamese) = Vietnamien  
+
 Document Recovery = Récupération de Document
 Your Preferences Information = Information sur Vos préférences
 File = Fichiers
