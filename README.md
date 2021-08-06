@@ -41,7 +41,7 @@ Switch mode = 切换模式
 ```
 
 If add a new language file, need to add it at 'language_list.md'. We will add this list to editor language menu list
-please keep the language list as below:
+language list as below:
 ```
 # local language (English name) = local language (English name)
 
