@@ -40,7 +40,7 @@ The "#" charater start line, just the comment line, please ingore it
 Switch mode = 切换模式
 ```
 
-The language list please don't translate, otherwise, people will not easy to retrieve the original language if they mistakenly switch other languages.
+The language list please don't translate, otherwise, people will not easy to retrieve the original language if they mistakenly switch other languages. If add a new language file, need to add it at language list.
 please keep the language list as below:
 ```
 English = English (English)
@@ -51,7 +51,7 @@ Français (French) = Française (French)
 正體中文 (Chinese - Traditional) = 繁体中文 (Chinese - Traditional)
 한국어 (Korean) = 한국어 (Korean)
 日本語 (Japanese) = 日本語 (Japanese)
-Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
+Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)    // add a new ui_data_vn.txt need to add this line
 ```
 
 
