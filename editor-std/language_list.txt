@@ -1,11 +1,11 @@
 # language list, add a new language file need to add language description at here. don't need to translate this list
 # local language (English name) = local language (English name),
-# sort by language English name first charater
+
 
 # ui_data_zh-hans.txt
 简体中文 (Chinese - Simplified) = 简体中文 (Chinese - Simplified)
 # ui_data_zh-hant.txt
-正體中文 (Chinese - Traditional) = 繁体中文 (Chinese - Traditional)
+繁體中文 (Chinese - Traditional) = 繁体中文 (Chinese - Traditional)
 # ui_data_cs.txt
 Čeština (Czech) = Čeština (Czech)
 # English
@@ -37,7 +37,7 @@ Svenska (Swedish) = Svenska (Swedish)
 # ui_data_vn.txt
 Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
 # ui_data_bn.txt
-বেঙ্গলি (bengali) = বেঙ্গলি (bengali)
+বেঙ্গলি (Bengali) = বেঙ্গলি (Bengali)
 
 
 
