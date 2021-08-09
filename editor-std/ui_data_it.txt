@@ -451,22 +451,22 @@ Ratio = Rapporto
 K[%]
 Model = Modello
 States = Stati
-Voltage[V]
-Voltage gain[V/V]
-Current gain[A/A]
-Transconductance[Mho]
-Transresistance[Ω]
-Voltage Source Type = 
-Current Source Type = 
-multimeter type = 
-power type = 
-Voltmeter Resistance(R)(Ω) = 
-Amperometer Resistance(R)(Ω) = 
+Voltage[V] = Voltaggio[V]
+Voltage gain[V/V] = Guadagno Tensione[V/V]
+Current gain[A/A] = Guadagno Corrente[A/A]
+Transconductance[Mho] = Transconduttanza[Mho]
+Transresistance[Ω] = Transresistenza[Ω]
+Voltage Source Type = Tipo Sorgente Tensione
+Current Source Type = Tipo Sorgente Corrente
+multimeter type = tipo multimentro
+power type = tipo potenza
+Voltmeter Resistance(R)(Ω) = Resistenza Volmetro(R)(Ω)
+Amperometer Resistance(R)(Ω) = Resistenza Amperometro(R)(Ω)
 mu.V = 
 mu.A = 
-Sine Wave = 
-Triangular Wave = 
-Rectangular Wave = 
+Sine Wave = Onda Sinusoidale
+Triangular Wave = Onda Triangolare
+Rectangular Wave = Onda Rettangolare
 AC = 
 DC = 
 SINE = 
@@ -475,12 +475,12 @@ EXP =
 SFFM = 
 PWL = 
 B.spice = 
-DC Value[V]
-DC Value[A]
-DC offset[V]
-DC offset[A]
-Amplitude[V]
-Amplitude[A]
+DC Value[V] = Valore DC[V]
+DC Value[A] = Valore DC[A]
+DC offset[V] = DC offset[V]
+DC offset[A] = DC offset[A]
+Amplitude[V] = Ampiezza[V]
+Amplitude[A] = Ampiezza[A]
 Freq[Hz]
 Theta[1/s]
 Tdelay[s]
@@ -537,16 +537,16 @@ Channel_B =
 Channel A = 
 Channel B = 
 Time = Tempo
-Reverse = 
-Simulation file exceed = Il file di simulazione supera
+Reverse = Inverti
+Simulation file exceed = Il file di simulazione è troppo grande
 The simulation file is too large and has been stopped for performance reasons. = Il file di simulazione é troppo grande ed è stato fermato per ragioni di performance.
-Timebase = 
-Scale: = 
+Timebase = Tempo base
+Scale: = Scala:
 X pos.(Div): = 
 Y pos.(Div): = 
-View meter... = 
-The circuit has components without simulation model: = 
-Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = 
+View meter... = Vedi misuratori...
+The circuit has components without simulation model: = Il circuito ha componenti senza il modello di simulazione:
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = L'intervallo di simulazione è troppo breve, attendi 5 secondi e riprova; se ancora vedi questo messaggio, potresti aver superato il limite giornaliero di simulazioni.
 Resistor1_US = 
 Resistor1_EU/IEC = 
 Resistor1_3D = 
@@ -672,31 +672,31 @@ SPDT_Close =
 SPST_Close = 
 SPST_Open = 
 Fast_Crystal = 
-Lamp = 
+Lamp = Lampadina
 BCD_Segment = 
 Seven_Segment = 
 Traffic_Light = 
-Lamp Settings = 
-Power[W]
-Dropout Voltage[V]
-Current[A]
-Threshold[V]
-Clock Rate = 
-TrafficLight Settings = 
-BCDSegment Settings = 
-SevenSegment Settings = 
-SPDT Settings = 
-SPST Settings = 
-LogicAnalyzer Settings = 
-Fuse Settings = 
-Wattmeter Settings = 
-open = 
+Lamp Settings = Impostazioni Lampadina
+Power[W] = Potenza[W]
+Dropout Voltage[V] = Caduta Tensione[V]
+Current[A] = Corrente[A]
+Threshold[V] = Soglia[V]
+Clock Rate = Frequenza Clock
+TrafficLight Settings = Impostazioni Semaforo
+BCDSegment Settings = Impostazioni BCDSegmenti
+SevenSegment Settings = Impostazioni SetteSegmenti
+SPDT Settings = Impostazioni SPDT
+SPST Settings = Impostazioni SPST
+LogicAnalyzer Settings = Impostazioni AnalizzatoreLogico
+Fuse Settings = Impostazioni Fusibile
+Wattmeter Settings = Impostazioni Misuratore Potenza
+open =
 close = 
-Common Anode = 
-Common Cathode = 
-AC Amplitude = 
-AC Phase = 
-There are some parts haven't spice model, please use "EElib" and "Spice Symol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = 
+Common Anode = Anodo Comune
+Common Cathode = Catodo Comune
+AC Amplitude = Ampiezza AC
+AC Phase = Fase AC
+There are some parts haven't spice model, please use "EElib" and "Spice Symol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Alcune parti non hanno un modello associato, usa "EELib" e "Simbolo Spice" in "Librerie" in modalità Simulazione, oppure puoi assegnare un modello spice manualmente:
 
 #Pin
 Pin Attributes = Attributi dei piedini
