@@ -1,6 +1,6 @@
 # easyeda-i18n
 
-EasyEDA is free and and powerful and easy to use online PCB tool, it helps a lot of people to bring the idea to real design. If you using EasyEDA and love to share it to your conutry people, please help us to make a translation.
+EasyEDA is free and and powerful and easy to use online PCB tool, it helps a lot of people to bring the idea to real design. If you using EasyEDA and love to share it to your conutry people, please help us to make a translation. 
 
 This porject is EasyEDA editor and website i18n files, the more language translations contribution will be welcome.
 
@@ -12,50 +12,53 @@ This porject is EasyEDA editor and website i18n files, the more language transla
 
 If you would like to help to translation:
 
-1) please fork this project
+1 please fork this project
 
-2) change to the forked project, then edit your language file such as `ui_data_uk.txt` etc. 
+2 change to the forked project, then edit your language file such as `ui_data_uk.txt` etc. 
 
-3) if you can't find your language file, you can copy `ui_data_hans.txt`, and then modify the txt file name with language code, for example `ui_data_xx.txt`, xx is your language code.   
+3 if you can't find your language file, 
+3.1 you can copy **`ui_data_hans.txt`**, 
+3.2 and then modify the txt file name with your language code, for example `ui_data_xx.txt`, xx is your language code.   
 the language code please refer at https://www.w3schools.com/tags/ref_language_codes.asp   
-and then remove the Chinese text, translate the English to your language. The characters before `=` need to be preserved.  
+3.3 and then remove the Chinese text, translate the English to your language. The characters before `=` need to be preserved.  
 for example:  
-```
+```js
 // at ui_data_hans.txt
 Select = 选择
 
 // at ui_data_ru.txt
 Select = Выбрать
 ```   
-If the text has free dot(...) or '{}', you need to keep it, for example:  
-```
+3.4 If the text has free dot(...) or '{}', you need to keep it, for example:  
+```js
 Join... = Collegati...
 
 Add font success: {name} = 字体添加成功: {name}      //keep the {name}
 ```  
-The "#" charater start line, just the comment line, please ingore it  
-```
+3.5 The "#" charater start line, just the comment line, please ingore it  
+```js
 #spice            //this is comment line, don't need to translate
 Switch mode = 切换模式
 ```
 
-If the text has such structure, please keep it
-```
+3.6 If the text has such structure, please keep it
+```js
 [menu_project]    //keep this structure
 View=查看
 [/menu_project]   //keep this structure
 ```
 
-If you find out the text miss '=' charater, you can add it by yourself:
-```
+3.7 If you find out the text miss '=' charater, you can add it by yourself:
+```js
 Carrier Freq[Hz]  //before
 Carrier Freq[Hz] = 载波频率[Hz]  //after
 ```
 
 
-If add a new language file, need to add it at 'language_list.md'. We will add this list to editor language menu list
+3.8 If add a new language file, you need to add it at 'language_list.txt'. We will add this list to editor language menu list
+
 language list as below:
-```
+```js
 # local language (English name) = local language (English name)
 
 # ui_data_zh-hans.txt
@@ -96,9 +99,9 @@ Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
 
 
 
-4) when you finish, please make a pull request(before pull request, please fetch and merge this main branch first to avoid the merge conflict), we will merge it. There is no good way to test the translation yet, need to wait us to release a new editor version.
+4 when you finish, please make a pull request(before pull request, please fetch and merge this main branch first to avoid the merge conflict), we will merge it. There is no good way to test the translation yet, need to wait us to release a new editor version.
 
-5) we check your translations if they are correctly, we will add it at next editor/website release.
+5 we check your translations if they are correctly, we will add it at next editor/website release.
 
 
 ## Notice
