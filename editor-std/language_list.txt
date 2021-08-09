@@ -37,6 +37,8 @@ Svenska (Swedish) = Svenska (Swedish)
 # ui_data_vn.txt
 Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
 
+# ui_data_bn.txt
+বাংলা (Bangla) = বাংলা (Bangla)
 
 
 
