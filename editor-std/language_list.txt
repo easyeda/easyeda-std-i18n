@@ -36,8 +36,8 @@ Svenska (Swedish) = Svenska (Swedish)
 Украинский (Ukrainian) = Украинский (Ukrainian)
 # ui_data_vn.txt
 Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
-
-
+# ui_data_bn.txt
+বেঙ্গলি (bengali) = বেঙ্গলি (bengali)
 
 
 
