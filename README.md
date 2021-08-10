@@ -17,10 +17,15 @@ If you would like to help to translation:
 2 change to the forked project, then edit your language file such as `ui_data_uk.txt` etc. 
 
 3 if you can't find your language file, 
+
 3.1 you can copy **`ui_data_hans.txt`**, 
+
 3.2 and then modify the txt file name with your language code, for example `ui_data_xx.txt`, xx is your language code.   
+
 the language code please refer at https://www.w3schools.com/tags/ref_language_codes.asp   
+
 3.3 and then remove the Chinese text, translate the English to your language. The characters before `=` need to be preserved.  
+
 for example:  
 ```js
 // at ui_data_hans.txt
@@ -29,12 +34,14 @@ Select = 选择
 // at ui_data_ru.txt
 Select = Выбрать
 ```   
+
 3.4 If the text has free dot(...) or '{}', you need to keep it, for example:  
 ```js
 Join... = Collegati...
 
 Add font success: {name} = 字体添加成功: {name}      //keep the {name}
 ```  
+
 3.5 The "#" charater start line, just the comment line, please ingore it  
 ```js
 #spice            //this is comment line, don't need to translate
