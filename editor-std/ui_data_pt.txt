@@ -448,14 +448,14 @@ OPAMP3PEE Settings = Configurações OPAMP3PEE
 OPAMP3PEECN Settings = Configurações OPAMP3PEECN
 DELAY_FUSE Settings = Configurações DELAY_FUSE
 Ratio = Razão
-K[%]
+K[%] = K[%]
 Model = Modelo
 States = Estados
-Voltage[V]
-Voltage gain[V/V]
-Current gain[A/A]
-Transconductance[Mho]
-Transresistance[Ω]
+Voltage[V] = Tensão[V]
+Voltage gain[V/V] = Ganho de Tensão[V/V]
+Current gain[A/A] = Ganho de Corrente[A/A]
+Transconductance[Mho] = Transcondutância[Mho]
+Transresistance[Ω] = Transresistência[Ω]
 Voltage Source Type = Tipo de Voltagem da Fonte
 Current Source Type = Tipo de Corrente da Fonte
 multimeter type = tipo de multímetro
@@ -475,59 +475,59 @@ EXP = EXP
 SFFM = SFFM
 PWL = PWL
 B.spice = B.spice
-DC Value[V]
-DC Value[A]
-DC offset[V]
-DC offset[A]
-Amplitude[V]
-Amplitude[A]
-Freq[Hz]
-Theta[1/s]
-Tdelay[s]
-Phi[deg]
-Tperiod[s]
-Ton[s]
-Tfall[s]
-Trise[s]
-Von[V]
-Von[A]
-Vinitial[V]
-Vinitial[A]
-Vpulsed[V]
-Vpulsed[A]
-Rise Delay[s]
-Rise Tau[s]
-Fall Delay[s]
-Fall Tau[s]
-Carrier Freq[Hz]
+DC Value[V] = Valor CC[V]
+DC Value[A] = Valor CC[A]
+DC offset[V] = Deslocamento CC[V]
+DC offset[A] = Deslocamento CC[A]
+Amplitude[V] = Amplitude[V]
+Amplitude[A] = Amplitude[A]
+Freq[Hz] = Freq[Hz]
+Theta[1/s] = Theta[1/s]
+Tdelay[s] = Tatraso[s]
+Phi[deg] = Phi[graus]
+Tperiod[s] = Tperíodo[s]
+Ton[s] = Tligado[s]
+Tfall[s] = Tdescida[s]
+Trise[s] = Tsubida[s]
+Von[V] = Vligado[V]
+Von[A] = Vligado[A]
+Vinitial[V] = Vinicial[V]
+Vinitial[A] = Vinicial[A]
+Vpulsed[V] = Vpulsado[V]
+Vpulsed[A] = Vpulsado[A]
+Rise Delay[s] = Atraso de Subida[s]
+Rise Tau[s] = Tau de Subida[s]
+Fall Delay[s] = Atraso de Descida[s]
+Fall Tau[s] = Tau de Descida[s]
+Carrier Freq[Hz] = Freq Portadora[Hz]
 Modulation Index = Índice de Modulação
-Signal Freq[Hz]
-Time[s]
-Value[V]
-Value[A]
+Signal Freq[Hz] = Freq do Sinal[Hz]
+Time[s] = Tempo[s]
+Value[V] = Valor[V]
+Value[A] = Valor[A]
 Waveforms = Forma de Onda
-Duty cycle[%]
-Amplitude[Vp]
-Offset[V]
-Rise/Fall Time[sec]
-Capacitance[F]
+Duty cycle[%] = Ciclo de Trabalho[%]
+Amplitude[Vp] = Amplitude[Vp]
+Offset[V] = Deslocamento[V]
+Rise/Fall Time[sec] = Tempo de Subida/Descida[seg]
+Capacitance[F] = Capacitância[F]
 sComponent = sComponente
-Inductance[H]
+Inductance[H] = Indutância[H]
 Gbw = Gbw
-Slewrate = Velocidade de Varredura
+Slewrate = Slewrate
 Avol = Avol
 Rout(Ω) = Rout(Ω)
 Rin(Ω) = Rin(Ω)
-Ibias[A]
-Inhi[V]
-Inlo[V]
-Isc[A]
-Outhi[V]
-Outlo[V]
-Vabsmax[V]
-Vmin[V]
-Iq[A]
-Cin[F]
+Ibias[A] = Ipolarização[A]
+Inhi[V] = 
+Inlo[V] =
+Isc[A] = 
+Outhi[V] = 
+Outlo[V] = 
+Vabsmax[V] = 
+Vmin[V] =
+Iq[A] =
+Cin[F] =
 high = alto
 low = baixo
 Oscilloscope = Osciloscópio
@@ -547,32 +547,32 @@ Y pos.(Div): = Y pos.(Div)
 View meter... = Ver medidor...
 The circuit has components without simulation model: = O circuito tem componentes sem modelo de simulação
 Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = O intervalo da sua simulação é muito curto, espere 5 segundos e tente novamente; se esta mensagem persistir, talvez você tenha simulado mais de 500 vezes, que é o limite diáro.
-Resistor1_US = 
-Resistor1_EU/IEC = 
-Resistor1_3D = 
-Capacitor1_US = 
-Capacitor1_EU/IEC = 
-Capacitor1_3D = 
+Resistor1_US = Resistor1_US
+Resistor1_EU/IEC = Resistor1_EU/IEC
+Resistor1_3D = Resistor1_3D
+Capacitor1_US = Capacitor1_US
+Capacitor1_EU/IEC = Capacitor1_EU/IEC
+Capacitor1_3D = Capacitor1_3D
 Rheostat_US = 
 Rheostat_EU/IEC = 
 Rheostat_3D = 
-Capacitor_Electrolytic_US = 
-Capacitor_Electrolytic_EU/IEC = 
-Capacitor_Electrolytic_3D = 
-Inductor_US = 
-Inductor_EU/IEC = 
-Inductor_3D = 
-Resistor2_US = 
-Resistor2_EU/IEC = 
-Resistor2_3D = 
+Capacitor_Electrolytic_US = Capacitor_Electrolítico_US
+Capacitor_Electrolytic_EU/IEC = Capacitor_Electrolítico_EU/IEC
+Capacitor_Electrolytic_3D = Capacitor_Electrolítico_3D
+Inductor_US = Indutor_US
+Inductor_EU/IEC = Indutor_EU/IEC
+Inductor_3D = Indutor_3D
+Resistor2_US = Resistor2_US
+Resistor2_EU/IEC = Resistor2_EU/IEC
+Resistor2_3D = Resistor2_3D
 Multimeter = Multímetro
-Multimeter_3D = 
+Multimeter_3D = Multímetro_3D
 Oscilloscope = Osciloscópio
-Oscilloscope_3D = 
+Oscilloscope_3D = Osciloscópio_3D
 Signal_Generator = Gerador_de_Sinais
 Signal Generator_3D = Gerador de Sinais_3D
-Wattmeter = Medidor de Watts
-Wattmeter_3D = 
+Wattmeter = Wattímetro
+Wattmeter_3D = Wattímetro_3D
 NSSWS1080T_3D = 
 Voltage_Source_VDC = 
 Voltage_Source_VSin = 
