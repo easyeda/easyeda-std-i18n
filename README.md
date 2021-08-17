@@ -12,11 +12,11 @@ This porject is EasyEDA editor and website i18n files, the more language transla
 
 If you would like to help to translation:
 
-1 please fork this project
+1> please fork this project
 
-2 change to the forked project, then edit your language file such as `ui_data_uk.txt` etc. 
+2> change to the forked project, then edit your language file such as `ui_data_uk.txt` etc. 
 
-3 if you can't find your language file, 
+3> if you can't find your language file, 
 
 3.1 you can copy **`ui_data_hans.txt`**, 
 
@@ -80,35 +80,14 @@ English (English) = English (English)
 Français (French) = Française (French)
 # ui_data_de.txt
 Deutsch (German) = Deutsch (German)
-# ui_data_id.txt
-Indonesia (Indonesian) = Indonesia (Indonesian)
-# ui_data_it.txt
-Italian (Italiano) = Italian (Italiano)
-# ui_data_ja.txt
-日本語 (Japanese) = 日本語 (Japanese)
-# ui_data_ko.txt
-한국어 (Korean) = 한국어 (Korean)
-# ui_data_pl.txt
-Polski (Polish) = Polski (Polish)
-# ui_data_pt.txt
-Português (Portuguese) = Português (Portuguese)
-# ui_data_ru.txt
-Русский (Russian) = Русский (Russian)
-# ui_data_es.txt
-Spanish (Spain) = Spanish (Spain)
-# ui_data_sv.txt
-Svenska (Swedish) = Svenska (Swedish)
-# ui_data_uk.txt
-Украинский (Ukrainian) = Украинский (Ukrainian)
-# ui_data_vn.txt
-Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
+
 ```
+the more language list please refer at https://github.com/EasyEDA2021/easyeda-i18n/blob/main/editor-std/language_list.txt
 
 
+4> when you finish, please make a pull request(before pull request, please fetch and merge this main branch first to avoid the merge conflict), we will merge it. There is no good way to test the translation yet, need to wait us to release a new editor version.
 
-4 when you finish, please make a pull request(before pull request, please fetch and merge this main branch first to avoid the merge conflict), we will merge it. There is no good way to test the translation yet, need to wait us to release a new editor version.
-
-5 we check your translations if they are correctly, we will add it at next editor/website release.
+5> we check your translations if they are correctly, we will add it at next editor/website release.
 
 
 ## Notice
@@ -121,6 +100,9 @@ Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
 ## Contributor
 
 **Thanks for all the contributors to help to translate the EasyEDA editor. Thanks**
+https://github.com/EasyEDA2021/easyeda-i18n/graphs/contributors
+
+previous contibutor:
 
 Andrew and Adambyw: Help translated EasyEDA from English to Polish. http://and.elektroda.eu/
 
