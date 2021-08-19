@@ -940,7 +940,7 @@ New Password = Nuova password
 Confirm Password = Conferma password
 
 #Dialog Create New Design
-Save as a New Project = 
+Save as a New Project = Salva come Nuovo Progetto
 Save as a schematic = 
 Save as Symbol = 
 Save as a spice Symbol = 
