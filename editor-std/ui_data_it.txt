@@ -935,9 +935,9 @@ This field is required. =
 
 #Dialog Change Your Password
 Change your password = Cambia la tua password
-Old password = 
-New Password = 
-Confirm Password = 
+Old password = Vecchia password
+New Password = Nuova password
+Confirm Password = Conferma password
 
 #Dialog Create New Design
 Save as a New Project = 
