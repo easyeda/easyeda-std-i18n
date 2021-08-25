@@ -1,6 +1,6 @@
 # Menu
 User = Utente
-Join... = Unisciti...
+Join... = Registrati...
 Login... = Login...
 Log in = Login
 Logout = Logout
@@ -14,16 +14,16 @@ Language = Lingua
 Language Setting = Impostazioni Lingua
 
 Document Recovery = Recupero Documenti
-Your Preferences Information = Preferenze Utente
+Your Preferences Information = Informazioni sulle Preferenze Utente
 File = File
 New = Nuovo
 Project... = Progetto...
 Schematic = Schema
 Schematic-Simulation = Simulazione dello Schema 
 Spice Symbol = Simbolo Spice
-Spice Subckt = 
+Spice Subckt = Sottocircuito Spice
 spicePre = 
-PCB = Circuito stampato
+PCB = PCB
 Schematic Module = Modulo per Schema
 PCB Module = Modulo per PCB
 Save... = Salva...
@@ -86,15 +86,15 @@ Cross Cursor = Cursore a Croce
 Toolbars = Barre degli Strumenti
 Drawing Tools = Strumenti di Disegno
 Wiring Tools = Strumenti di Cablaggio
-Power Objects = 
+Power Objects = Componenti di Potenza
 PCB Tools = Strumenti per PCB
-Footprint Tools = 
+Footprint Tools = Strumenti per Footprint
 Layers Tool = Strumenti per Livelli
 Layer Manager = Gestione Livelli
 Enable and Show All Layers = Abilita e Mostra Tutti i Livelli
 Net Visible = Reti Visibili
 Auto = 
-Digital Objects = 
+Digital Objects = Componenti Digitali
 Tools = Strumenti
 Arc Center = Centro dell'Arco
 Arc Type = Tipo di Arco
@@ -125,13 +125,13 @@ Bus Entry =
 Junction = Giunzione
 Net Port = Porta di rete
 Voltage Probe = Sonda di tensione
-Power Port = 
+Power Port = Connettore di Tensione
 Wire = Filo
 Annotation = Annotazione
 Track = Pista
 Image = Immagine
-Arrow Head = 
-Arrowhead = 
+Arrow Head = Punta della Freccia
+Arrowhead = Punta della Freccia
 Arrow = Freccia
 No Connect Flag = Non Connesso
 Place = Posiziona
@@ -187,8 +187,8 @@ Simulate this Project = Simula questo Progetto
 Non-simulation mode, please switch to the simulation mode first and then run = Non sei in modalità simulazione, prima passa alla modalità simulazione e poi eseguila
 Run the Document = Esegui il documento
 Run the Project... = Esegui il progetto...
-Netlist for Document = 
-Netlist for Project = 
+Netlist for Document = Netlist per il Documento
+Netlist for Project = Netlist per il Progetto
 LTspice for This Sheet... = LTspice per questo Foglio...
 Spice for this Project... = Spice per questo Progetto...
 Protel/Altium for PCB... = Protel/Altium per PCB...
@@ -273,11 +273,11 @@ Change History = Cronologia Modifiche
 Join Us = Iscriviti
 #PCB Fabrication Capabilities
 PCB Fabrication = Fabbricazione PCB
-Order Capabilities = 
+Order Capabilities = Opzioni Ordine
 Order Price = Prezzo Ordine
-Order Essential Check = 
-Order FAQ = 
-Order Process = 
+Order Essential Check = Verifica di Base Ordine
+Order FAQ = FAQ Ordine
+Order Process = Processo di Ordine
 Full Screen = Schermo intero
 
 Support = Supporto
@@ -395,8 +395,8 @@ Stroke Color = Colore del Tratto
 Stroke Width = Spessore del Tratto
 Stroke Style = Stile del Tratto
 Fill Color = Colori di Riempimento
-X Radius = X Raggio
-Y Radius = Y Raggio
+X Radius = Raggio X
+Y Radius = Raggio Y
 
 #spice
 Switch mode = Cambia modalità
@@ -880,7 +880,7 @@ None =
 Custom Attributes = Attributi personalizzati
 Fixed Attributes = 
 Add new parameter = Aggiungi nuovo parametro
-Add New Parameter = 
+Add New Parameter = Aggiungi nuovo Parametro
 Add New Supplier = 
 Mounted = 
 Unknown = 
@@ -891,10 +891,10 @@ How to create a single layer PCB =
 Currently doesn't support layout single layer directly, please refer at: = 
 
 #Dialog Register
-Create an account = Crea un account:
-Username = 
+Create an account = Crea un account
+Username = Nome Utente
 Password = 
-Confirm Password = 
+Confirm Password = Confemra Password
 Email = 
 Please read this before you register = Leggete questo prima di effettuare la registrazione
 Hi {username} = Ciao {username}
@@ -907,18 +907,18 @@ Find the password using your email = Ottenete la vostra password utilizzando la 
 
 #Dialog Login
 Login = Accesso
-Username or Email = 
+Username or Email = Nome Utente o Email
 Remember Me = Ricordami
 Third party = 
-Login and Register = 
-Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = 
+Login and Register = Login e Registrarsi
+Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = Le informazioni di login sembrano scadute, per favore esegui nuovamente l'accesso. Non hai bisogno di chiudere i file aperti, puoi continuare a salvarli dopo l'accesso.
 
 #Dialog Reset Password
-Reset a password using your email = 
-Your registered email = 
+Reset a password using your email = Reimporta la password usando la tua email
+Your registered email = Email registrata
 
 #Dialog Reaction
-Re-send an activation code to your email = 
+Re-send an activation code to your email = Invia nuovamente il codice di attivazione alla tua email
 
 #Dialog Invite
 Invite friends to register = Invita amici per la registrazione
@@ -941,7 +941,7 @@ Confirm Password = Conferma password
 
 #Dialog Create New Design
 Save as a New Project = Salva come Nuovo Progetto
-Save as a schematic = 
+Save as a schematic = Salva come schema
 Save as Symbol = 
 Save as a spice Symbol = 
 Save as a spice subckt = 
@@ -969,13 +969,13 @@ Project does not exist =
 Document does not exist = 
 document not exists = 
 
-Categories = 
-Project = 
-Short description = 
-Content = 
+Categories = Categorie
+Project = Progetto
+Short description = Breve descrizione
+Content = Contenuto
 Modify this project info. = Modifica le informazioni di questo progetto.
 Modify this file info. = Modifica le informazioni di questo file.
-Notice = 
+Notice = Nota
 Search for it before creating a new one. = Trovalo prima di crearlo.
 Manufacturer Part Number = 
 Supplier = 
@@ -1073,9 +1073,9 @@ Manufacturer.bom =
 
 One-click Purchasing at LCSC = 
 Order Parts/Check Stock = 
-Export BOM = 
-Export PCB BOM = 
-Export Schematic BOM = 
+Export BOM = Esporta BOM
+Export PCB BOM = Esporta BOM PCB
+Export Schematic BOM = Esporta BOM Schema
 ID.bom = 
 Name.bom = 
 [bom]
@@ -1137,10 +1137,10 @@ Active file image URL =
 #Dialog Document Recovery
 All Projects = Tutti i progetti
 Document Recovery = Recupero documenti
-Unsaved files = 
-Please select a file! = 
-Please expand the folder first, then select a document to recover. = 
-Are you sure you want to remove this backup? = 
+Unsaved files = File non salvati
+Please select a file! = Seleziona un file!
+Please expand the folder first, then select a document to recover. = Per favore espandi dapprima la cartella, poi scegli il documento da ripristinare.
+Are you sure you want to remove this backup? = Sei sicuro di voler eliminare questo backup?
 
 #Dialog Find Libs
 Search = 
