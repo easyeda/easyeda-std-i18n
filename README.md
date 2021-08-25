@@ -103,28 +103,19 @@ the more language list please refer at https://github.com/EasyEDA2021/easyeda-i1
 ## Contributor
 
 **Thanks for all the contributors to help to translate the EasyEDA editor. Thanks**
+
 https://github.com/EasyEDA2021/easyeda-i18n/graphs/contributors
 
-previous contibutor:
+Previous contributors:
 
-Andrew and Adambyw: Help translated EasyEDA from English to Polish. http://and.elektroda.eu/
-
-A.Noda: Help translated EasyEDA from English to Japanese language. http://signalkhobho.com/
-
-JM TERRADE:  Help translated EasyEDA from English to French language. http://terrade.com/
-
-José Miguel: Help translated EasyEDA from English to Spanish language.
-
-Kent Ahlberg: Help translated EasyEDA from English to Swedish language.
-
-Marcel Kuesters: Help translated EasyEDA from English to German language.
-
-Гололобов Владимир Николаевич: Help translated EasyEDA Tutorial from English to Russian language http://vgololobov.narod.ru/
-
-Victor Bychek and Травников Александр: Help translated EasyEDA from English to Russian language http://bychek.ru
-
-君子兰: Help translated EasyEDA editor from English to Vietnamese language.
-
-Zdenek Hubner: Help translated EasyEDA from English to Czech language.
-
-William Kazan: Help translated EasyEDA from English to Portuguese language.
+- Andrew and Adambyw: Help translated EasyEDA from English to Polish. http://and.elektroda.eu/
+- A.Noda: Help translated EasyEDA from English to Japanese language. http://signalkhobho.com/
+- JM TERRADE:  Help translated EasyEDA from English to French language. http://terrade.com/
+- José Miguel: Help translated EasyEDA from English to Spanish language.
+- Kent Ahlberg: Help translated EasyEDA from English to Swedish language.
+- Marcel Kuesters: Help translated EasyEDA from English to German language.
+- Гололобов Владимир Николаевич: Help translated EasyEDA Tutorial from English to Russian language http://vgololobov.narod.ru/
+- Victor Bychek and Травников Александр: Help translated EasyEDA from English to Russian language http://bychek.ru
+- 君子兰: Help translated EasyEDA editor from English to Vietnamese language.
+- Zdenek Hubner: Help translated EasyEDA from English to Czech language.
+- William Kazan: Help translated EasyEDA from English to Portuguese language.
