@@ -31,12 +31,12 @@ Save As... = Salva con nome...
 Save As Module... = Salva come Modulo...
 Print = Stampa
 Export Document = Esporta Documento
-LTspice... = 
-Eagle... = 
-Altium... = 
-Cadence... = 
-Pads... = 
-DXF = 
+LTspice... =  LTspice...
+Eagle... = Eagle... 
+Altium... = Altium... 
+Cadence... = Cadence 
+Pads... = Pads... 
+DXF = DXF 
 Import = Importa
 Super Menu =
 
@@ -77,11 +77,11 @@ Group/Ungroup Symbol... = Raggruppa/Separa Simbolo...
 View = Visualizza
 [/menu_project]
 Find = Trova
-Zoom In = Zoom Più
-Zoom Out = Zoom Meno
+Zoom In = Zoom Avanti
+Zoom Out = Zoom Indietro
 Fit in Window = Adatta a Finestra
 Refresh = Aggiorna
-Snap = Allineamento
+Snap = Allineama
 Cross Cursor = Cursore a Croce
 Toolbars = Barre degli Strumenti
 Drawing Tools = Strumenti di Disegno
@@ -115,13 +115,13 @@ Rectangular = Rettangolare
 The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = Il rettangolo non supporta la rotazione diversa da 90 gradi. Per questo puoi usare lo strumento Regione.
 
 Rect = Rettangolo
-Round Rectangle = Rettangolo arrotondato
+Round Rectangle = Rettangolo Arrotondato
 Polygon = Poligono
 Bezier = Curva Bezier
 Path = Percorso
 Graphic = Grafico
-Bus =
-Bus Entry = 
+Bus = Bus
+Bus Entry = Bus Entry 
 Junction = Giunzione
 Net Port = Porta di rete
 Voltage Probe = Sonda di tensione
@@ -141,7 +141,7 @@ Lock Selected Objects = Blocca Oggetti Selezionati
 Miscellaneous = Miscellanea
 Find Component = Trova Componente
 Component = Componente
-Footprint... = 
+Footprint... = Footprint...
 This component is deleted! = Questo componente è stato eliminato!
 Convert = Converti
 Convert Schematic to PCB = Converti diagramma in un PCB
@@ -197,28 +197,28 @@ FreePCB for PCB... = FreePCB per PCB...
 Eagle for PCB... = Eagle per PCB...
 Kicad for PCB... = Kicad per PCB...
 OrCAD for PCB... = OrCAD per PCB...
-BOM report... = 
+BOM report... = Genera BOM...
 BOM for Document... = BOM per Documento 
 BOM for Project... = BOM per Progetto
-Pin Manager... = Gestore Piedini...
+Pin Manager... = Gestisci Piedini...
 Spice Model... = Modello Spice...
-Layer Manager... = Gestore Livelli...
+Layer Manager... = Gestisci Livelli...
 Net Color... = Colore della Rete...
 Design Rule... = Regole di Progettazione
 Copper Area = Area di Rame
 Rebuild Selected = Rigenera Selezionati
 Rebuild All = Ricostruisci Tutto
-Copper Area Manager... = Gestore Aree di Rame...
+Copper Area Manager... = Gestisci Aree di Rame...
 Export Pick and Place File = Esporta file per Pick and Place
 Measure Distance = Misura distanza
 Set Canvas Origin by Mouse Location = Imposta Origine Foglio con Mouse
 Generates Pick and Place File = Genera File per Pick and Place
 Unroute All = Disfa Tutto lo Sbroglio
-Auto Route = Sbroglia Automaticamente
-Export Autorouter File(DSN) = 
-Import Autorouter Session File(SES) = 
-Autorouter File(DSN) = 
-Autorouter Session File(SES) = 
+Auto Route = Sbroglio Automatico
+Export Autorouter File(DSN) = Esporta File Autorouter(DSN)
+Import Autorouter Session File(SES) = Importa File di Sessione Autorouter(SES)
+Autorouter File(DSN) = File Autorouter(DSN)
+Autorouter Session File(SES) = File die Sessione Autorouter(SES)
 Terminate Routing Automatically = Termina Sbroglio Automaticamente
 Delete Segments = Cancella Segmenti
 Unroute Connections = Disfa Sbroglio
@@ -294,8 +294,8 @@ Simulate... = Simula...
 Config = Configura
 Terms of Service & Privacy Policy = Termini di Servizio & Privacy
 Help Topics = Aiuti
-3D Model(obj) = 
-3D Model(step) = 
+3D Model(obj) = Modello 3D(obj)
+3D Model(step) = Modello 3D(step)
 SVG Source... = Sorgente SVG...
 File Source = File Sorgente
 Group These Items as a Symbol = Raggruppa Elementi come un Simbolo
@@ -304,17 +304,17 @@ Set Canvas Origin = Imposta Origine Foglio
 Document Setting = Impostazioni Documento
 Sheet Attributes = Attributi del Foglio
 Set Board Outline = Imposta Contorno della Scheda
-Teardrop... = 
-Panelize... = Crea Pannello
+Teardrop... = Teardrop...
+Panelize... = Pannelizza...
 Check Dimension = Controlla Dimensioni
 Smart Dimension = Dimensioni Intelligenti
-Footprint Wizard = 
-Footprint Wizard... = 
+Footprint Wizard = Procedura guidata per Footprint
+Footprint Wizard... = Procedura guidata per Footprint...
 Select package type = Seleziona Tipo di Package
-Smart Dimension Attributes = 
+Smart Dimension Attributes = Dimensioni Attributi Intelligenti
 Global Delete = Cancella Globale
-Cross Probe = 
-Cross Probe and Place = 
+Cross Probe = Cross Probe
+Cross Probe and Place = Cross Probe e Piazza
 Paper Size = Dimensione Foglio
 Register = Registrati
 User Center = Account
@@ -360,10 +360,10 @@ Prefix Start = Inizio Prefisso
 Text Attributes = Attributi del Testo
 Text = Testo
 Color = Colore
-Font Family = Famiglia Font
-Font Size = Dimensione Font
-Font Weight = Spessore Font
-Font Style = Stile Font
+Font Family = Famiglia
+Font Size = Dimensione
+Font Weight = Spessore
+Font Style = Stile
 Text Type = Tipo Testo
 Text Anchor = Allineamento Testo
 Baseline = Linea di Base
@@ -377,7 +377,7 @@ comment = commento
 spice = 
 normal = normale
 italic = corsivo
-Default = 
+Default = Predefinito
 Add = Aggiungi
 bold = spesso
 bolder = più spesso
@@ -408,10 +408,10 @@ Common = Comune
 spice.open = 
 spice.close = 
 Sources = Sorgenti
-Instrument = Strumento
+Instrument = Strumenti
 Transistors = Transistori
 Digital Circuits = Circuiti Digitali
-Operational Amplifier = Amplificatore Operazionale
+Operational Amplifier = Amplificatori Operazionali
 multimeter = multimetro
 multimeter Settings = Impostazioni Multimetro
 FunctionGenerator Settings = Impostazioni Generatore di Funzioni
@@ -448,7 +448,7 @@ OPAMP3PEE Settings = Impostazioni OPAMP3PEE
 OPAMP3PEECN Settings = Impostazioni OPAMP3PEECN
 DELAY_FUSE Settings = Impostazioni Fusibile Ritardato
 Ratio = Rapporto
-K[%]
+K[%] =
 Model = Modello
 States = Stati
 Voltage[V] = Voltaggio[V]
@@ -481,31 +481,31 @@ DC offset[V] = DC offset[V]
 DC offset[A] = DC offset[A]
 Amplitude[V] = Ampiezza[V]
 Amplitude[A] = Ampiezza[A]
-Freq[Hz]
-Theta[1/s]
-Tdelay[s]
-Phi[deg]
-Tperiod[s]
-Ton[s]
-Tfall[s]
-Trise[s]
-Von[V]
-Von[A]
-Vinitial[V]
-Vinitial[A]
-Vpulsed[V]
-Vpulsed[A]
-Rise Delay[s]
-Rise Tau[s]
-Fall Delay[s]
-Fall Tau[s]
-Carrier Freq[Hz]
+Freq[Hz] = Frequenza[Hz]
+Theta[1/s] =
+Tdelay[s] =
+Phi[deg] =
+Tperiod[s] =
+Ton[s] = 
+Tfall[s] =
+Trise[s] = 
+Von[V] = 
+Von[A] = 
+Vinitial[V] = 
+Vinitial[A] =
+Vpulsed[V] = 
+Vpulsed[A] = 
+Rise Delay[s] =
+Rise Tau[s] =
+Fall Delay[s] =
+Fall Tau[s] =
+Carrier Freq[Hz] =
 Modulation Index = 
-Signal Freq[Hz]
+Signal Freq[Hz] =
 Time[s]
 Value[V]
 Value[A]
-Waveforms = 
+Waveforms = Forma Onda 
 Duty cycle[%]
 Amplitude[Vp]
 Offset[V]
@@ -719,7 +719,7 @@ Show = Mostra
 Electric = Elettrico
 
 #Junction
-Junction Attributes = Attributi della giunzione
+Junction Attributes = Attributi Giunzione
 X Location = Posizione X
 Y Location = Posizione Y
 Size = Dimensione
@@ -733,7 +733,7 @@ Prefix = Prefisso
 
 #Image Attributes and Dialog
 Add Image = Aggiungi Immagine
-Image Attributes = Attributi dell'immagine
+Image Attributes = Attributi Immagine
 Image URL = URL dell'immagine
 Input an image URL = Inserisci Indirizzo URL dell'Immagine
 Invalid image URL = Indirizzo URL Immagine non valido
@@ -754,7 +754,7 @@ Rated Voltage = Voltaggio nominale
 Rated Current = Corrente nominale
 resistance = resistenza
 Resistance = Resistenza
-Resistance[Ω]
+Resistance[Ω] = Resistenza[Ω]
 inductance = induttanza
 Operating Temperature = Temperatura Operativa
 Shape Invert = 
@@ -764,8 +764,8 @@ Simplify Level =
 Corner Threshold = 
 
 #PCB Canvas Attributes
-Units = 
-Snap Size = 
+Units = Unità 
+Snap Size =  
 Other = 
 Routing Width = 
 [router]
@@ -787,9 +787,9 @@ Block = Blocca
 RoundTrack = 
 
 #Track
-Track Properties = 
-Layer = 
-Net = 
+Track Properties = Attributi Pista 
+Layer = Layer 
+Net = Net 
 Start X = Inizio X
 Start Y = Inizio Y
 End X = Fine X
@@ -797,28 +797,28 @@ End Y = Fine Y
 ID = ID
 
 #Pad Properties
-Pad Properties = 
-Shape = 
-Hole(D) = 
-Center X = 
-Center Y = 
-Round = 
-Oval = 
-Hole Shape = 
-Slot = 
-Hole(Length) = 
-Plated = 
+Pad Properties = Attributi Pad
+Shape = Forma 
+Hole(D) = Foro(D) 
+Center X = Centro X 
+Center Y = Centro Y 
+Round = Rotondo 
+Oval = Ovale 
+Hole Shape = Forma Foro 
+Slot = Slot
+Hole(Length) = Foro(Larghezza) 
+Plated = Metallizzato 
 None = 
 Paste Mask Expansion = 
 Solder Mask Expansion = 
 
 #Via Properties
-Via Properties = 
+Via Properties = Attributi Via 
 Diameter = Diametro
-Drill Diameter = 
+Drill Diameter = Diametro Foro
 
 #Hole Properties
-Hole Properties = 
+Hole Properties = Attributi Foro
 
 
 #TEXT
@@ -831,8 +831,8 @@ Fonts Management =
 Dimension Attributes = Proprietà delle dimensioni
 
 #Footprint Attributes
-Component Attributes = 
-Display Prefix = 
+Component Attributes = Proprietà Componente 
+Display Prefix = Mostra Prefisso 
 Pin Name = 
 Pin Number = 
 Spice Pin Number = 
@@ -1002,7 +1002,7 @@ Nets =
 DRC Errors = Errori DRC
 Are you sure you want to unroute this net? = 
 Unroute = 
-Track Length = 
+Track Length = Lunghezza Pista 
 Via/Hole Outer Size = 
 Filter nets = 
 Design Rule Checking = 
@@ -1272,14 +1272,14 @@ Size = Dimensione
 [/exportDocument]
 
 #Dialog Import Changes
-Confirm Importing changes information = 
+Confirm Importing changes information =  
 You can't undo this operation, Please run a Design Rule Checking (DRC) after this operation. = 
 Apply Changes = Applica le modifiche
 This is a simple Design Rule Checking (DRC). = 
 It just can help you to find the obvious errors = Ti può aiutare per trovare gli errori ovvi
 There are some unfinished nets, do you want to check the nets first? = 
-Yes, Check Nets = 
-No, Keep Going = 
+Yes, Check Nets = Sì, Verifica Reti 
+No, Keep Going = No, Continua 
 
 #Dialog Layer Manager
 Configured = 
@@ -1300,7 +1300,7 @@ Ratlines Color =
 Manage Colors = 
 BoardOutline = 
 Multi-Layer = 
-Hole = 
+Hole = Foro 
 DRCError = 
 Setting = Impostazione
 Drawing area = Area di disegno
@@ -1474,12 +1474,12 @@ Hole is draggable =
 
 #My Part Tree Menu
 Clone = Clona
-Reload parts = Ricarica parti
+Reload parts = Ricarica componenti
 Layers = Layer
 
 #Dialog Preferences
 Language = Lingua
-Display Name = 
+Display Name = Mostra Nome 
 HotKey Sync = 
 My Theme Sync = 
 Document Recovery Setting = 
@@ -1953,8 +1953,8 @@ dotted =
 
 #Solid Region
 Solid Region = 
-Type = 
-type = 
+Type = Tipo 
+type = tipo 
 
 #Dialog Libs Management
 Report error = 
@@ -1964,156 +1964,156 @@ Save it as a favorite part =
 Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = 
 
 #Others
-Find libs = 
-My Projects = 
-My Parts = 
-My Modules = 
+Find libs = Trova librerie
+My Projects = Progetti Personali 
+My Parts = Componenti Personali 
+My Modules = Moduli Personali
 Assembly LCSC Components = 
-Modules = 
-SCH Module = 
-PCB Module = 
+Modules = Moduli 
+SCH Module = Modulo SCH
+PCB Module = Modulo PCB 
 System IC = 
-LCSC (Official) = 
-LCSC Electronics = 
-Simple Mode = 
-Expand Mode = 
-Help Verify = 
-Favorite Parts = 
-Shared With Me = 
-Preview = 
-Preview Window = 
-System Default = 
-User Defined = 
-Theme = 
-Theme Setting = 
-Close = 
-Open = 
-Collapse = 
-Toggle toolbar = 
-Toggle left bar = 
-Toggle right bar = 
-Reload = 
-Mouse-X = 
-Mouse-Y = 
-Mouse-DX = 
-Mouse-DY = 
-Bus entry x1 = 
-Bus entry x2 = 
-Bus entry y1 = 
-Bus entry y2 = 
-Yes = 
-No = 
-OK = 
-Confirm = 
-Continue = 
-Cancel = 
-Update = 
-Bus entry = 
-Filter = 
-Check = 
-Guest Project = 
-Insert into = 
-Insert into {site} = 
+LCSC (Official) = LCSC (Ufficiale)
+LCSC Electronics = LCSC Elettronica 
+Simple Mode = Modalità Semplice
+Expand Mode = Modalità Estesa 
+Help Verify = Verifica Help 
+Favorite Parts = Componenti Favoriti 
+Shared With Me = Condivisi Con Me 
+Preview = Anteprima 
+Preview Window = Finestra Anteprima 
+System Default = Predefinito Sistema 
+User Defined = Predefinito Utente 
+Theme = Tema 
+Theme Setting = Impostazioni Tema 
+Close = Chiudi 
+Open = Apri 
+Collapse = Comprimi 
+Toggle toolbar = Alterna toolbar
+Toggle left bar = Alterna barra sinistra   
+Toggle right bar = Alterna barra destra 
+Reload = Ricarica
+Mouse-X = Mouse-X 
+Mouse-Y = Mouse-Y 
+Mouse-DX = Mouse-DX 
+Mouse-DY = Mouse-DY 
+Bus entry x1 = Bus entry x1 
+Bus entry x2 = Bus entry x2 
+Bus entry y1 = Bus entry y1 
+Bus entry y2 = Bus entry y2 
+Yes = Sì 
+No = No
+OK = OK
+Confirm = Accetta 
+Continue = Continua 
+Cancel = Annulla 
+Update = Aggiorna 
+Bus entry = Bus entry 
+Filter = Filtro 
+Check = Verifica 
+Guest Project = Progetto Visitatore
+Insert into = Inserisci in 
+Insert into {site} = Inserisci in {site} 
 # Upload {site} 目前仅有波兰论坛使用
-Upload {site} = 
-Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = 
-Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = 
-Content is too big to show, you can download it directly. = 
-SVG format = 
-SVG File = 
-Description should be no more than 250 letters = 
-The file save operation has timed out. Try again and check your Internet connection. = 
-Export Netlist = 
-Notifications = 
-Please select txt or json files. = 
-Failed to read file [{file}]
-[{file}] is not a valid json file
-Invalid parameters! = 
-Download = 
-Start = 
-You have unsaved files, are you sure you want to log out without saving the files? = 
-Please use the web version to run this function. = 
-Please save this file to you project! = 
-Nothing changed = 
-Delete Node = 
-This layer is invisible. = 
+Upload {site} =  
+Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Copia il seguente contenuto in un editor di testo e salvalo. Dopo averlo modificato, copialo nuovamente all'interno di questa casella di testo e premi Applica per aggiornare il display.  
+Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Copia il seguente contenuto in un editor di testo e salvalo con l'estensione .svg. Puoi modificarlo con Inkscape o aprirlo con il tuo browser.
+Content is too big to show, you can download it directly. = Il contenuto è troppo grande per essere visualizzato, puoi scaricarlo direttamente. 
+SVG format = Formato SVG 
+SVG File = File SVG 
+Description should be no more than 250 letters = La descrizione non deve superare i 250 caratteri 
+The file save operation has timed out. Try again and check your Internet connection. = Il tempo per l'operazione di salvataggio é scaduto. Riprova e verifica la tua connessione internet. 
+Export Netlist = Esporta Netlist 
+Notifications = Notifiche 
+Please select txt or json files. = Seleziona dei file txt or json. 
+Failed to read file [{file}] = Impossibile leggere il file [{file}]
+[{file}] is not a valid json file = [{file}] non è un file json valido
+Invalid parameters! = Parametri invalidi! 
+Download = Scarica 
+Start = Avvia 
+You have unsaved files, are you sure you want to log out without saving the files? = Ci sono dei file non salvati, sei sicuro di voler uscire senza salvarli? 
+Please use the web version to run this function. = Questa funzione è disponibile solo nella versione web.  
+Please save this file to you project! = Per favore salva questo file nel tuo progetto! 
+Nothing changed = Nessuna modifica 
+Delete Node = Elimina Nodo 
+This layer is invisible. = Questo layer é invisibile. 
 When the solid region is Board Cutout, please set the layer to Multi-Layer. = 
 You should not try to assign a net to a Board Cutout solid region. = 
-Net Length = 
-You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = 
-Please input the modification = 
-The content must be between {0} and {1} characters = 
+Net Length = Lunghezza Rete 
+You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Puoi piazzare un Pin nello schemra, ma non dimenticarti di raggruppare tutti i Pins nello schemo del componente. Premi il bottone help per scoprire come raggrupparli. Se vuoi semplicemente marcare il filo, usa NetPort o NetLabel. 
+Please input the modification = Inserisci la modifica 
+The content must be between {0} and {1} characters = Il contenuto deve contenere tra i {0} e {1} caratteri 
 
-Coming soon = 
-No tool = 
-Help us translate into your language = 
-Pad = 
-Via/Hole = 
-PCB Layers = 
-Order PCB = 
-Share = 
-Free = 
-Small = 
-Medium = 
-Big = 
+Coming soon = Prossimamente 
+No tool = Nessun tool 
+Help us translate into your language = Aiutaci a tradurre nella tua lingua 
+Pad = Pad 
+Via/Hole = Via/Hole 
+PCB Layers = Layers PCB 
+Order PCB = Ordina PCB 
+Share = Condividi 
+Free = Gratuito 
+Small = Piccolo 
+Medium = Medio 
+Big = Grande 
 
 
-Embed = 
-HTML = 
-URL = 
-BBCode = 
-PNG = 
-Exporting as = 
-Exporting as image = 
-Exporting as {0}SVG{1} file. = 
-Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = 
-Generate PCB Fabrication File(Gerber) = 
-PenWidth-Increase = 
+Embed = Embed 
+HTML = HTML 
+URL = URL 
+BBCode = BBCode 
+PNG = PNG 
+Exporting as = Esporta come
+Exporting as image = Esporta come immagine 
+Exporting as {0}SVG{1} file. = Esporta come file {0}SVG{1} .
+Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = E' raccomandato di esportarlo come PDF: produce una buona qualità di stampa e occupa poco spazio. 
+Generate PCB Fabrication File(Gerber) = Genera File Fabbricazione PCB(Gerber) 
+PenWidth-Increase = Incremento PenWidth 
 
 #Generate Gerber
-Generate Gerber = 
-Gerber View = 
-Dimensions(Estimated) = 
-PCB Qty = 
-Copper Weight = 
-PCB Price = 
-Estimated Delivery Time = 
-For your first time order, less than $20 discount on the freight! = 
-HASL(with lead) = 
-LeadFree HASL-RoHS = 
-ENIG-RoHS = 
-Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = 
-Yes, Check DRC = 
-No, Generate Gerber = 
-This PCB has uncompleted connection(s), do you want to check the connection(s)? = 
-Yes, Check Connection(s) = 
-It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = 
-Failed to submit your order, please contact us via support@easyeda.com for help. = 
-Failed to submit your order, please contact us via QQ 800821856. = 
-Order data generated finish, please click OK button and continue. = 
+Generate Gerber = Genera Gerber
+Gerber View = Visualizza Gerber 
+Dimensions(Estimated) = Dimensioni(Stima) 
+PCB Qty = Quantità PCB 
+Copper Weight = Peso Rame 
+PCB Price = Prezzo PCB 
+Estimated Delivery Time = Stima Tempo di Consegna 
+For your first time order, less than $20 discount on the freight! = Per il primo ordine, 20$ di sconto sul trasporto! 
+HASL(with lead) = HASL(con piombo)
+LeadFree HASL-RoHS = Senza Piombo HASL-RoHS 
+ENIG-RoHS = ENIG-RoHS 
+Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = Vuoi eseguire la Regola di Controllo di Design (DRC) prima di generare i file Gerber?
+Yes, Check DRC = Sì, Esegui DRC 
+No, Generate Gerber = No, Genera Gerber 
+This PCB has uncompleted connection(s), do you want to check the connection(s)? = Questo PCB contiene una connessione/delle connessioni incomplete, vuoi controllare la connessione/le connessioni? 
+Yes, Check Connection(s) = Sì, controlla connessione/i
+It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = Verrai reindirizzato su una pagina terza JLCPCB con cui collaboriamo. Sei pronto? 
+Failed to submit your order, please contact us via support@easyeda.com for help. = Invio ordine fallito, per favore contattaci tramite support@easyeda.com per ulteriore aiuto.
+Failed to submit your order, please contact us via QQ 800821856. = Invio ordine fallito, per favore contattaci tramite QQ 800821856.                                                                                                              
+Order data generated finish, please click OK button and continue. = Dati dell'ordine generati, premi il bottone OK e continua. 
 [generateGerber]
 Layers = Layer
 [/generateGerber]
 
 [version]
-Switch = 
+Switch = Cambia 
 [/version]
 
 
-Export your file, then print it yourself. = 
-Trace width is too small = 
-Share = 
+Export your file, then print it yourself. = Esporta il file, poi puoi stamparlo personalmente.
+Trace width is too small = Larghezza traccia é troppo stretta 
+Share = Condividi 
 
-Images Attribute = 
-Connect Pad to Pad = 
-Copper Area = 
-Dimension = 
+Images Attribute = Attributi Immagine 
+Connect Pad to Pad = Connetti Pad a Pad 
+Copper Area = Area di Rame 
+Dimension = Dimensione 
 
 
-Please check that you have used Wire and not Line to connect electrical elements. = 
-PCB Fabrication Prices & capabilities = 
-Flip all texts on bottom layer = 
-Create New Document = 
+Please check that you have used Wire and not Line to connect electrical elements. = Controlla di aver usato Filo e non Linea per connettere i componenti elettrici. 
+PCB Fabrication Prices & capabilities = Prezzo & Capacità di produzione PCB 
+Flip all texts on bottom layer = Specchia tutti i testi sul layer posteriore 
+Create New Document = Crea Nuovo Documento 
 General Package = 
 General Packages = 
 favorite Package = 
@@ -2197,15 +2197,15 @@ No Silk Layer =
 Photo View = 
 
 #check update
-Check Update = 
-EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = 
-LCEDA Editor {ver} is released. Would you like to switch to the new version now? = 
-Switch to New Version = 
-Next Time = 
+Check Update = Verifica Aggiornamenti 
+EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = Una nuova versione di EasyEDA Editor {ver} é disponibile. Vuoi passare alla nuova versione ora? 
+LCEDA Editor {ver} is released. Would you like to switch to the new version now? = Una nuova versione di LCEDA Editor {ver} é disponibile. Vuoi passare alla nuova versione ora?
+Switch to New Version = Passa alla Nuova Versione 
+Next Time = Non Ora 
 
 #download project dialog
-Generating download link... = 
-Download project now = 
+Generating download link... = Genera link per il download... 
+Download project now = Scarica progetto ora 
 
 #Import DXF
 Import DXF = 
@@ -2275,12 +2275,12 @@ Footprint =
 Tracks = 
 
 #dialog board outline settings
-Current Size = 
+Current Size =  
 Paramenters = 
-Start X: = 
-Start Y: = 
-Round Rectangular = 
-radius = 
+Start X: = Origine X: 
+Start Y: = Origine Y: 
+Round Rectangular = Rettangolo Arrotondato 
+radius = Raggio 
 only number is allowed! = 
 please input valid value of width! = 
 please input valid value of height! = 
@@ -2384,14 +2384,14 @@ Only default font family supports to change font width. =
 Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = 
 
 #Common
-Owner = 
-License = 
+Owner = Proprietario
+License = Licenza 
 Part Pins = 
 Net Pins = 
 Net Ratlines = 
-Add Parameter = 
+Add Parameter = Aggiungi Parametro
 Histories record = 
-Create Team = 
+Create Team = Crea Team 
 Can't find this footprint on the server, please re-associate it. = 
 The footprint name associated with the component and the footprint name on the server are inconsistent, please re-associate it. = 
 The symbol pin number(s) of the component does not match the associated footprint pad number(s), please modify the symbol pin number(s) or re-associate the footprint = 
@@ -2528,7 +2528,7 @@ Objects Attributes =
 Any = 
 Same = 
 Different = 
-Circular = 
+Circular = Cerchio 
 Expose Copper = 
 "{0}" font is missing. Please add the font to the font family list. = 
 Place Component = 
@@ -2669,7 +2669,7 @@ The number of rows and columns cannot be set to 1 simultaneously =
 #edit path point
 [editPathPoints-dlg]
 Arc(R) = 
-Type = 
+Type = Tipo
 Action = 
 add before = 
 add after = 
@@ -2687,17 +2687,17 @@ You have unconfirmed edit! =
 Invalid edit! = 
 
 #Dialog PCB Information
-PCB Information... = 
-Signal Layers = 
-None Signal Layers = 
-Pads = 
-Surface Pads = 
-Plated Through-hole Pads = 
-None Plated Through-hole Pads = 
-Holes = 
-Vias = 
-Length of Tracks = 
-Copper Areas = 
+PCB Information... = Informazioni PCB...
+Signal Layers = Strati Segnale
+None Signal Layers = Strati Senza Segnale 
+Pads = Pads  
+Surface Pads = Pads Superficiali
+Plated Through-hole Pads = Pads placcati a foro passante
+None Plated Through-hole Pads = Pads non placcati a foro passante
+Holes = Fori
+Vias = Vias
+Length of Tracks = Lunghezza delle Piste
+Copper Areas = Aree con Rame
 
 #Differential Pair Routing
 Differential Pair Routing = 
@@ -2833,7 +2833,7 @@ It's under designing, please wait. =
 The width of track/arc/circle can not less than 0.1mil! = 
 clone success ! = 
 Footprint Naming Reference = 
-3D Model Manager = 
+3D Model Manager = Gestisci Modello 3D
 Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = 
 Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? = 
 The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. = 
@@ -2848,8 +2848,8 @@ This component is verified =
 This component is unmounted = 
 
 #find component
-Find Next = 
-Object not found = 
+Find Next = Trova Successivo
+Object not found = Componente non trovato 
 
 ##offset Elements
 Offset X = 
@@ -2976,9 +2976,9 @@ This size is the determined size! =
 The associated pad has been locked = 
 Split by space or , for multi tags = 
 
-Rotation X = 
-Rotation Y = 
-Rotation Z = 
+Rotation X = Rotazione X
+Rotation Y = Rotazione Y 
+Rotation Z = Rotazione Z
 
 Some fields are filled invalid data = 
 start time should be earlier than stop time = 
@@ -3008,7 +3008,7 @@ Logout = Esci
 All = 
 [/findlibTag]
 
-Export Pick and Place File = 
+Export Pick and Place File = Esporta File Pick and Place 
 Mirror the bottom component's X coordinate (JLCPCB doesn't need) = 
 Work Space = 
 Include panelized components' coordinates = 
@@ -3055,19 +3055,19 @@ Visit the SuperEM =
 SuperEM User Guide = 
 Upload Gerber to SuperEM successfully, please click "OK" buttun to continue = 
 
-Format = 
+Format = Disponi 
 View = Visualizza
-Design = 
-Simulation = 
-Advanced = 
-Fabrication = 
-Check DRC = 
-Simulation Setting = 
-BOM = 
-PCB Fabrication File(Gerber) = 
-Pick and Place File = 
-Parts Order = 
-PCB Order = 
+Design = Disegno
+Simulation = Simulazione
+Advanced = Avanzate
+Fabrication = Fabbricazione
+Check DRC = Controllo DRC
+Simulation Setting = Impostazioni della Simulazione
+BOM = BOM 
+PCB Fabrication File(Gerber) = File di Fabbricazione PCB(Gerber) 
+Pick and Place File = File Pick and Place 
+Parts Order = Ordina Componenti
+PCB Order = Ordina PCB 
 SIM = 
 STD = 
 WaveForm = 
