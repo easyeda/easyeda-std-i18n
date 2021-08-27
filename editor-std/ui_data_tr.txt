@@ -38,7 +38,7 @@ Cadence...= Cadence...
 Pads...= Pads...
 DXF= DXF
 Import= İçe Aktar
-Super Menu = Süper Menü
+
 
 Edit= Düzenle
 Undo= Geri Al
@@ -246,9 +246,9 @@ Simulation Tutorials = Simülasyın Öğreticileri
 Updated Instructions = Güncellenmiş Talimatlar
 Open File Format = Dosya Formatını Aç
 About Upgrade = Güncelleme Hakkında
-#Github Repository = Github Deposu
-Github Repository = Github Deposu
-#Support Forum = Destek Forumu
+
+
+
 User Forum = Kullanıcı Forumu
 Feature Request = Özellik Talebi
 Feature Requests = Özellik Talepleri
@@ -1121,18 +1121,18 @@ Compute the DC operating point treating capacitances as opens and inductances as
 #Dialog Share Info
 Active File = EtkinDosya
 Active Project = Etkin Proje
-Embed it in your html files. = Html dosyalarınıza gömün.
-Share it by e-mail, IM, blog, etc. = E-posta, IM, blog vb. ile paylaşın.
-BBCode (used by many online discussion forums)= BBCode (birçok çevrimiçi tartışma forumu tarafından kullanılır)
-HTML code = HTML Kodu
-QRCode (Share your schematic address by QRCode ) = QRCode (Şematik adresinizi QRCode ile paylaşın) 
-Short Url = Short Url
-Share a copy of this document = Bu belgenin bir kopyasını paylaşın
+
+
+
+
+
+
+
 Readonly = Salt Okunur
 Editable = Düzenlenebilir
 Active file's owner project page = Etkin dosyanın sahibinin proje sayfası
 Active project editor page = Etkin proje editor sayfası
-Active file image URL = Etkin dosya görseli URL'si
+
 
 #Dialog Document Recovery
 All Projects = Tüm projeler
@@ -1243,7 +1243,7 @@ BottomLayer = AltKayman
 TopSilkLayer = ÜstBaskıKatmanı
 Protractor Attributes = Açıölçer Nitelikleri
 BottomSilkLayer = TabanBaskıKatmanı
-#后面还有个BoardOutline,仅仅一个字母大小写的差别
+
 BoardOutLine = KartAnahattı
 TopAssembly = ÜstAssembly
 BottomAssembly = AltAssembly
@@ -1534,17 +1534,17 @@ Surface Finish= Yüzey İşleme
 Hasl= Hasl
 Hasl(Lead Free)= Hasl (Kurşunsuz)
 ENIG= ENIG
-E-Test= E-Test
-Shipping Cost = Nakliye Maliyeti
-Cost Estimate= Tahmini Maliyet
-Actual cost will be confirmed by email.= Asıl maliyet e-posta ile teyit edilecektir. 
-Shipping information= Nakliye Bilgileri
-Address= Adres
-ZIP/Post code= ZIP/Posta Kodu
-City= Şehir
-Country= Ülke
-Tel.= Telefon
-After filling out the form above, we will email you with (i) the results of the Design Rule Checking (DRC), (ii) a quote and (iii) a payment link using Paypal. Shipping is normally one week from receipt of payment.= Yukarıdaki formu doldurduktan sonra size (i) Tasarım Kuralı Denetimi (DRC) sonuçlarını, (ii) bir fiyat teklifini ve (iii) Paypal kullanarak bir ödeme bağlantısını e-posta ile göndereceğiz. Nakliye normalde ödemenin alınmasından itibaren bir hafta sonrasındadır.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2076,7 +2076,7 @@ PCB Qty = PCB Miktarı
 Copper Weight = Bakır Ağırlığı
 PCB Price = PCB Fiyatı
 Estimated Delivery Time = Tahmini Varış Zamanı
-For your first time order, less than $20 discount on the freight! = İlk siparişinizde, nakliye için 20 dolardan az indirim! 
+
 HASL(with lead) = HASL(kurşunlu)
 LeadFree HASL-RoHS = Kurşunsuz HASL-RoHS
 ENIG-RoHS = ENIG-RoHS
@@ -2371,7 +2371,7 @@ Switch/Relay = Switch/Röle
 JLCPCB = JLPCB
 Recycle Bin = Geri Dönüşüm Kutusu
 
-#量角器
+# Protractor
 Font Height = Yazı Tipi Yüksekliği
 Precision = Hassasiyet
 Protractor = Açıölçer
@@ -2542,7 +2542,7 @@ Silk Screen = Baskı
 Silk Screen Color = Baskı Rengi
 Display = Görüntüle
 
-# 阵列分布与阵列克隆
+# # Array and Clone
 Distribute Array = Dizini Dağıt
 Array Type = Dizin Tipi
 Matrix Array = Matris Dizini
@@ -2567,7 +2567,7 @@ Number of Columns = Sütun Sayısı
 Number of Copies = Kopya Sayısı
 Distribute Range(Degrees) = Dağıtım Aralığı(Derece)
 
-#主题颜色对话框
+## Theme color dialog
 BusEntry = VeriyoluGirişi
 Foreground = Ön Alan
 Common Used = Ortak Kullanımda
@@ -2859,7 +2859,7 @@ Relative Offset... = Göreli...
 Reference Point X = Referans Noktası X
 Reference Point Y = Referans Noktası Y
 
-#内电层
+# Inner Plane layer
 Rebuild Plane = Düzlemi Yeniden Kur
 PlaneZone Properties = DüzlemBölgesi Özellikleri
 Change to a plane layer is not allowed during track routing. = Hat yolu ataması sırasında bir düzlem katmanına geçişe izin verilmez.
@@ -2946,7 +2946,7 @@ View Owner = Sahibini Görüntüle
 View Detail = Detayı Görüntüle
 
 
-# 批量放置过孔
+# place batch vias
 Place Vias = Via'ları Yerleştir
 Placing Vias = Via'lar Yerleştiriliyor
 Removing Vias = Via'lar Kaldırılıyor
@@ -3078,7 +3078,7 @@ Opening = Açılış
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = Ayrıca hattın ağını da güncelleyin (Yalnızca ön ek/ağ etiketinin değiştiği ve hiçbir bileşen/kablonun eklenmediği veya çıkarılmadığı durumlar için geçerlidir)
 
-# 客户端返回的错误提示
+# desktop client error feedback
 Cannot open online documents on Project Offline mode. = Çevrimdışı Proje modunda çevrimiçi belgeler açılamıyor.
 
 Please select a project = Lütfen bir proje seçiniz
@@ -3111,7 +3111,7 @@ Save custom data failed! = Özel veriyi kaydetme başarısız!
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = Mevcut belgenin grafiklerinin ve özel verilerinin yerini alacak. İçe aktarıldıktan sonra lütfen 3D modeli ayarlayın. Devam et ya da etme?
 Open footprint "Custom Data" dialog = Ayak izi "Özel Veriler" diyaloğunu aç 
 
-#创建引脚外形
+# Create lead shape
 Create Lead Shape = Kurşun Şekli Oluştur
 Base on Pad Center = Pad Merkezi Tabanı
 Base on Canvas Origin = Tuval Merkezi Tabanı

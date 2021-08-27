@@ -38,7 +38,7 @@ Cadence...=Cadence...
 Pads...=Pads...
 DXF=DXF
 Import=導入
-Super Menu = 超級菜單
+
 
 Edit=編輯
 Undo=撤銷
@@ -246,9 +246,9 @@ Simulation Tutorials = 仿真教程
 Updated Instructions = 更新說明
 Open File Format = 文件格式
 About Upgrade = 關於升級
-#Github Repository = Github倉庫
-Github Repository = 文檔倉庫
-#Support Forum = 支持論壇
+
+
+
 User Forum = 用戶論壇
 Feature Request = 功能建議
 Feature Requests = 功能建議
@@ -1121,18 +1121,18 @@ Compute the DC operating point treating capacitances as opens and inductances as
 #Dialog Share Info
 Active File = 當前文檔
 Active Project =當前工程
-Embed it in your html files. = 嵌入到你的網頁文件中
-Share it by e-mail, IM, blog, etc. = 通過郵件,QQ,博客,微博等分享
-BBCode (used by many online discussion forums)=BBCode(大部分論壇支持這種分享方式)
-HTML code = HTML代碼,適合插入到網頁中
-QRCode (Share your schematic address by QRCode ) = 以二維碼分享你的電路圖網址
-Short Url = 短網址
-Share a copy of this document = 分享當前文檔的副本
+
+
+
+
+
+
+
 Readonly = 只讀
 Editable = 可編輯
 Active file's owner project page = 當前文檔所屬工程的頁面
 Active project editor page = 當前工程的編輯器打開網址
-Active file image URL = 當前文檔的圖片網址
+
 
 #Dialog Document Recovery
 All Projects = 所有工程
@@ -1534,17 +1534,17 @@ Surface Finish= 焊盤噴鍍
 Hasl=有鉛
 Hasl(Lead Free)=無鉛
 ENIG=沈金
-E-Test= 飛針測試
-Shipping Cost = 運費
-Cost Estimate=成本估算
-Actual cost will be confirmed by email.= 最終費用將通過郵件確認
-Shipping information=貨運信息
-Address=地址
-ZIP/Post code=郵編
-City=城市
-Country=國家
-Tel.= 電話
-After filling out the form above, we will email you with (i) the results of the Design Rule Checking (DRC), (ii) a quote and (iii) a payment link using Paypal. Shipping is normally one week from receipt of payment.= 填寫上述表格後，我們將對您的PCB進行設計規則(DRC)檢測，我們將把檢測結果、報價、Paypal付款鏈接通過郵件發送給您
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2078,7 +2078,7 @@ PCB Qty = 板子數量
 Copper Weight = 銅厚
 PCB Price = PCB參考價格
 Estimated Delivery Time = 快遞時間
-For your first time order, less than $20 discount on the freight! = 首次下單，將有20美元以內的運費折扣。
+
 HASL(with lead) = 有鉛噴錫
 LeadFree HASL-RoHS = 無鉛噴錫
 ENIG-RoHS = 沈金
@@ -2374,7 +2374,7 @@ Switch/Relay = 開關/繼電器
 JLCPCB = 嘉立創
 Recycle Bin = 回收站
 
-#量角器
+# Protractor
 Font Height = 字體高度
 Precision = 精度
 Protractor = 量角器
