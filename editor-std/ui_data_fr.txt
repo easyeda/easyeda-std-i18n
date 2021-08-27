@@ -1919,7 +1919,7 @@ Project Access Control =
 Reject = Rejeter
 Add User = Ajouter un utilisateur
 Bad email address = Adresse mail invalide
-#后端返回英文的错误信息
+# backend return error info
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = 
 
 #Dialog waveForm
@@ -2011,11 +2011,11 @@ Update = Mettre à jour
 Bus entry = Entrés de Bus
 Filter = Filtre
 Check = Vérifier
-Guest Project = Projet Invité
-Insert into = Inérer dans
-Insert into {site} = 
-# Upload {site} 目前仅有波兰论坛使用
-Upload {site} = 
+
+
+
+
+
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = 
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Copier le contenu de cette fenêtre dans le Bloc-notes et enregistrer le fichier avec une extension SVG. Vous pouvez alors le modifier avec Inkscape ou l'ouvrir dans un navigateur.
 Content is too big to show, you can download it directly. = 

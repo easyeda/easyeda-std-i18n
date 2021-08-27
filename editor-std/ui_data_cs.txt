@@ -245,6 +245,7 @@ Essential Check = Nezbytná kontrola
 Simulation Tutorials = Tutoriály simulací
 Updated Instructions = Co je nového
 Open File Format = Otevřít formát souboru
+About Upgrade = 
 
 
 
@@ -1918,7 +1919,7 @@ Project Access Control = Přístup k projektu
 Reject = Zamítnout
 Add User = Přidat uživatele
 Bad email address = Špatná emailová adresa
-#后端返回英文的错误信息
+# backend return error info
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Zadanou emailovou adresu nebylo možné nalézt v EasyEDA. Ujistěte, že váš partner je uživatelem EasyEDA.
 
 #Dialog waveForm
@@ -2010,11 +2011,11 @@ Update = Aktualizovat
 Bus entry = Vstup sběrnice
 Filter = Filtr
 Check = Zkontrolovat
-Guest Project = Projekt hosta
-Insert into = Vložit do
-Insert into {site} = Vložit do {site}
-# Upload {site} 目前仅有波兰论坛使用
-Upload {site} = Načíst {site}
+
+
+
+
+
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Zkopírujte obsah tohoto boxu do textového editoru a uložte soubor. Vložte upravený text zpět do tohoto boxu a klikněte na Použít pro aktualizaci zobrazení.
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Zkopírujte obsah tohoto boxu do textového editoru a uložte soubor s příponou .svg. Můžete jej pak upravit přes Inkscape nebo otevřít ve vašem prohlížeči.
 Content is too big to show, you can download it directly. = Obsah je pro zobrazení příliš velký, můžete jej stáhnout.

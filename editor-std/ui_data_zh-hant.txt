@@ -2011,11 +2011,11 @@ Update = 更新
 Bus entry= 總線分支
 Filter = 過濾
 Check = 檢查
-Guest Project = 訪客工程
-Insert into = 插入到
-Insert into {site} = 插入到{site}
-# Upload {site} 目前僅有波蘭論壇使用
-Upload {site} = 上傳到 {site}
+
+
+
+
+
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = 拷貝文本框中的內容到記事本中，並保存它。你可以把內容粘貼到這裏並再次編輯它。
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = 拷貝文本框中的內容到記事本中，以.svg後綴保存之。你可以用inkscape編輯它，也可以用瀏覽器打開它.
 Content is too big to show, you can download it directly. = 內容太長無法直接顯示，你可以直接下載。
