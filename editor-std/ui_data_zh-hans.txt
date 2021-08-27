@@ -38,7 +38,7 @@ Cadence...=Cadence...
 Pads...=Pads...
 DXF=DXF
 Import=导入
-Super Menu = 超级菜单
+
 
 Edit=编辑
 Undo=撤销
@@ -246,9 +246,9 @@ Simulation Tutorials = 仿真教程
 Updated Instructions = 更新说明
 Open File Format = 文件格式
 About Upgrade = 关于升级
-#Github Repository = Github仓库
-Github Repository = 文档仓库
-#Support Forum = 支持论坛
+
+
+
 User Forum = 用户论坛
 Feature Request = 功能建议
 Feature Requests = 功能建议
@@ -1121,18 +1121,18 @@ Compute the DC operating point treating capacitances as opens and inductances as
 #Dialog Share Info
 Active File = 当前文档
 Active Project =当前工程
-Embed it in your html files. = 嵌入到你的网页文件中
-Share it by e-mail, IM, blog, etc. = 通过邮件,QQ,博客,微博等分享
-BBCode (used by many online discussion forums)=BBCode(大部分论坛支持这种分享方式)
-HTML code = HTML代码,适合插入到网页中
-QRCode (Share your schematic address by QRCode ) = 以二维码分享你的电路图网址
-Short Url = 短网址
-Share a copy of this document = 分享当前文档的副本
+
+
+
+
+
+
+
 Readonly = 只读
 Editable = 可编辑
 Active file's owner project page = 当前文档所属工程的页面
 Active project editor page = 当前工程的编辑器打开网址
-Active file image URL = 当前文档的图片网址
+
 
 #Dialog Document Recovery
 All Projects = 所有工程
@@ -1243,7 +1243,7 @@ BottomLayer = 底层
 TopSilkLayer = 顶层丝印层
 Protractor Attributes = 量角器属性
 BottomSilkLayer = 底层丝印层
-#后面还有个BoardOutline,仅仅一个字母大小写的差别
+
 BoardOutLine = 边框层
 TopAssembly = 顶层装配层
 BottomAssembly = 底层装配层
@@ -1534,17 +1534,17 @@ Surface Finish= 焊盘喷镀
 Hasl=有铅
 Hasl(Lead Free)=无铅
 ENIG=沉金
-E-Test= 飞针测试
-Shipping Cost = 运费
-Cost Estimate=成本估算
-Actual cost will be confirmed by email.= 最终费用将通过邮件确认
-Shipping information=货运信息
-Address=地址
-ZIP/Post code=邮编
-City=城市
-Country=国家
-Tel.= 电话
-After filling out the form above, we will email you with (i) the results of the Design Rule Checking (DRC), (ii) a quote and (iii) a payment link using Paypal. Shipping is normally one week from receipt of payment.= 填写上述表格后，我们将对您的PCB进行设计规则(DRC)检测，我们将把检测结果、报价、Paypal付款链接通过邮件发送給您
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1919,7 +1919,7 @@ Project Access Control = 工程访问控制
 Reject = 拒绝
 Add User = 添加用户
 Bad email address = 错误的邮件地址
-#后端返回英文的错误信息
+# backend return error info
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = 用户不存在.
 
 #Dialog waveForm
@@ -2011,11 +2011,11 @@ Update = 更新
 Bus entry= 总线分支
 Filter = 过滤
 Check = 检查
-Guest Project = 访客工程
-Insert into = 插入到
-Insert into {site} = 插入到{site}
-# Upload {site} 目前仅有波兰论坛使用
-Upload {site} = 上传到 {site}
+
+
+
+
+
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = 拷贝文本框中的内容到记事本中，并保存它。你可以把内容粘贴到这里并再次编辑它。
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = 拷贝文本框中的内容到记事本中，以.svg后缀保存之。你可以用inkscape编辑它，也可以用浏览器打开它.
 Content is too big to show, you can download it directly. = 内容太长无法直接显示，你可以直接下载。
@@ -2078,7 +2078,7 @@ PCB Qty = 板子数量
 Copper Weight = 铜厚
 PCB Price = PCB参考价格
 Estimated Delivery Time = 快递时间
-For your first time order, less than $20 discount on the freight! = 首次下单，将有20美元以内的运费折扣。
+
 HASL(with lead) = 有铅喷锡
 LeadFree HASL-RoHS = 无铅喷锡
 ENIG-RoHS = 沉金
@@ -2374,7 +2374,7 @@ Switch/Relay = 开关/继电器
 JLCPCB = 嘉立创
 Recycle Bin = 回收站
 
-#量角器
+#Protractor
 Font Height = 字体高度
 Precision = 精度
 Protractor = 量角器
@@ -2545,7 +2545,7 @@ Silk Screen = 丝印
 Silk Screen Color = 丝印颜色
 Display = 显示
 
-# 阵列分布与阵列克隆
+# # Array and Clone
 Distribute Array = 阵列分布
 Array Type = 阵列类型
 Matrix Array = 矩形阵列
@@ -2570,7 +2570,7 @@ Number of Columns = 列数
 Number of Copies = 副本数量
 Distribute Range(Degrees) = 分布范围(跨度)
 
-#主题颜色对话框
+# Theme color dialog
 BusEntry = 总线分支
 Foreground = 前景色
 Common Used = 常用
@@ -2862,7 +2862,7 @@ Relative Offset... = 相对偏移...
 Reference Point X = 参考点X
 Reference Point Y = 参考点Y
 
-#内电层
+# Inner Plane layer
 Rebuild Plane = 重建内电层
 PlaneZone Properties = 内电层属性
 Change to a plane layer is not allowed during track routing. = 在布线时不允许将导线切换到内电层。
@@ -2949,7 +2949,7 @@ View Owner = 查看所有者
 View Detail = 查看详情
 
 
-# 批量放置过孔
+# place batch vias
 Place Vias = 放置过孔
 Placing Vias = 正在放置过孔
 Removing Vias = 正在移除过孔
@@ -3081,7 +3081,7 @@ Opening = 正在打开
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 同时更新导线的网络(只适用于元件编号或网络标签变更的场景，不适用于元件或导线增删的场景)
 
-# 客户端返回的错误提示
+# desktop client error feedback
 Cannot open online documents on Project Offline mode. = 工程离线版模式下不支持打开在线工程！
 
 Please select a project = 请选择一个工程
@@ -3114,7 +3114,7 @@ Save custom data failed! = 保存自定义数据失败
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = 将替换当前文档的全部图形和自定义数据，导入后请重新调整3D模型。是否继续？
 Open footprint "Custom Data" dialog = 打开封装自定义数据对话框
 
-#创建引脚外形
+# Create lead shape
 Create Lead Shape = 创建引脚外形
 Base on Pad Center = 基于焊盘中心
 Base on Canvas Origin = 基于画布原点

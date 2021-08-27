@@ -38,7 +38,7 @@ Cadence... = Cadence...
 Pads... = 
 DXF = 
 Import = Importar
-Super Menu = Super Menu
+
 
 Edit = Editar
 Undo = Deshacer
@@ -246,9 +246,9 @@ Simulation Tutorials = Tutoriales de simulación
 Updated Instructions = Actializar instrucciones
 Open File Format =
 About Upgrade = 
-#Github Repository
-Github Repository = Repositorio Github
-#Support Forum
+
+
+
 User Forum = 
 Feature Request = 
 Feature Requests = 
@@ -1121,18 +1121,18 @@ Compute the DC operating point treating capacitances as opens and inductances as
 #Dialog Share Info
 Active File = Activar archivo
 Active Project = Activar Proyecto
-Embed it in your html files. = Incrustar en tus archivos html.
-Share it by e-mail, IM, blog, etc. = 
-BBCode (used by many online discussion forums) = BBCode (Usado en la mayoría de foros)
-HTML code = Código HTML
-QRCode (Share your schematic address by QRCode ) = QRCode (Comparte la dirección de tu Esquemático vía QRCode)
-Short Url = Url corta
-Share a copy of this document = Compartir una copia de este documento
+
+
+
+
+
+
+
 Readonly = Solo lectura
 Editable = 
 Active file's owner project page = 
 Active project editor page = 
-Active file image URL = 
+
 
 #Dialog Document Recovery
 All Projects = 
@@ -1243,7 +1243,7 @@ BottomLayer = Capa inferior
 TopSilkLayer = Capa de serigrafica superior
 Protractor Attributes = 
 BottomSilkLayer = Capa de serigrafica inferior
-#后面还有个BoardOutline,仅仅一个字母大小写的差别
+
 BoardOutLine = 
 TopAssembly = 
 BottomAssembly = 
@@ -1919,7 +1919,7 @@ Project Access Control =
 Reject = Rechazar
 Add User = Añadir usuario
 Bad email address = Dirección de correo erronea
-#后端返回英文的错误信息
+# backend return error info
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = 
 
 #Dialog waveForm
@@ -2011,11 +2011,11 @@ Update = Actualizar
 Bus entry = Entrada Bus
 Filter = Filtro
 Check = Comprobar
-Guest Project = Proyecto de invitados
-Insert into = Insertar dentro
-Insert into {site} = 
-# Upload {site} 目前仅有波兰论坛使用
-Upload {site} = 
+
+
+
+
+
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Copiar los contenidos de esta caja en el editor de texto, después guarda el archivo. Pega el texto editado de vuelta en esta caja y haz clic en Aplicar para actualizar el display.
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Copiar los contenidos de esta caja en el editor de texto, después guarda el archivo con la extensión .svg. Puedes editarlo en Inkscape o abrirlo en tu buscador.
 Content is too big to show, you can download it directly. = 
@@ -2078,7 +2078,7 @@ PCB Qty =
 Copper Weight = 
 PCB Price = 
 Estimated Delivery Time = 
-For your first time order, less than $20 discount on the freight! = 
+
 HASL(with lead) = 
 LeadFree HASL-RoHS = 
 ENIG-RoHS = 
@@ -2374,7 +2374,7 @@ Switch/Relay =
 JLCPCB = 
 Recycle Bin = 
 
-#量角器
+# Protractor
 Font Height = 
 Precision = 
 Protractor = 
@@ -2545,7 +2545,7 @@ Silk Screen =
 Silk Screen Color = 
 Display = 
 
-# 阵列分布与阵列克隆
+# # Array and Clone
 Distribute Array = 
 Array Type = 
 Matrix Array = 
@@ -2570,7 +2570,7 @@ Number of Columns =
 Number of Copies = 
 Distribute Range(Degrees) = 
 
-#主题颜色对话框
+## Theme color dialog
 BusEntry = 
 Foreground = 
 Common Used = 
@@ -2862,7 +2862,7 @@ Relative Offset... =
 Reference Point X = 
 Reference Point Y = 
 
-#内电层
+# Inner Plane layer
 Rebuild Plane = 
 PlaneZone Properties = 
 Change to a plane layer is not allowed during track routing. = 
@@ -2949,7 +2949,7 @@ View Owner = Ver propietario
 View Detail = Ver detalle
 
 
-# 批量放置过孔
+# place batch vias
 Place Vias = Colocar Vías
 Placing Vias = 
 Removing Vias = 
@@ -3081,7 +3081,7 @@ Opening =
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 
 
-# 客户端返回的错误提示
+# desktop client error feedback
 Cannot open online documents on Project Offline mode. = No se puede abrir documentos en línea en modo Proyecto fuera de línea
 
 Please select a project = Porfavor selecciona un proyecto
@@ -3114,7 +3114,7 @@ Save custom data failed! =
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = 
 Open footprint "Custom Data" dialog = 
 
-#创建引脚外形
+# Create lead shape
 Create Lead Shape = 
 Base on Pad Center = 
 Base on Canvas Origin = 

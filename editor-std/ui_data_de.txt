@@ -38,7 +38,7 @@ Cadence... = Cadence…
 Pads... = Pads…
 DXF = DXF
 Import = Importieren
-Super Menu = Hauptmenü
+
 
 Edit = Editieren
 Undo = Rückgängig
@@ -246,9 +246,9 @@ Simulation Tutorials = Simulations Tutorial
 Updated Instructions = aktualisierte Anleitung
 Open File Format = Open-Datei-Format
 About Upgrade = Über Aktualisierung
-#Github Repository
-Github Repository = Github Repository
-#Support Forum
+
+
+
 User Forum = Benutzer Forum
 Feature Request = Feature Anfrage
 Feature Requests = Feature Anfragen
@@ -1121,18 +1121,18 @@ Compute the DC operating point treating capacitances as opens and inductances as
 #Dialog Share Info
 Active File = Aktive Datei
 Active Project = Aktives Projekt
-Embed it in your html files. = In Ihre HTML Datei einbetten.
-Share it by e-mail, IM, blog, etc. = Über E-Mail, IM, Blog etc. teilen.
-BBCode (used by many online discussion forums) = BBCode (Wird in den meisten Onlineforen benutzt)
-HTML code = HTML Code
-QRCode (Share your schematic address by QRCode ) = QR Code (Adresse Ihres Schaltplans)
-Short Url = Kurze URL
-Share a copy of this document = Teile eine Kopie dieses Dokumentes
+
+
+
+
+
+
+
 Readonly = Nur Lesen
 Editable = Veränderbar
 Active file's owner project page = Projektseite des aktuellen Projektinhabers
 Active project editor page = Seite des aktuellen Projektbearbeiters
-Active file image URL = URL des aktuellen Bildes
+
 
 #Dialog Document Recovery
 All Projects = Alle Projekte
@@ -1243,7 +1243,7 @@ BottomLayer =
 TopSilkLayer = 
 Protractor Attributes = 
 BottomSilkLayer = 
-#后面还有个BoardOutline,仅仅一个字母大小写的差别
+
 BoardOutLine = 
 TopAssembly = 
 BottomAssembly = 
@@ -1919,7 +1919,7 @@ Project Access Control =
 Reject = 
 Add User = 
 Bad email address = 
-#后端返回英文的错误信息
+# backend return error info
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = 
 
 #Dialog waveForm
@@ -2011,11 +2011,11 @@ Update = Aktualisieren
 Bus entry = Datenbus Einspeisung
 Filter = Filter
 Check = Überprüfen
-Guest Project = 
-Insert into = 
-Insert into {site} = 
-# Upload {site} 目前仅有波兰论坛使用
-Upload {site} = 
+
+
+
+
+
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = 
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = 
 Content is too big to show, you can download it directly. = 
@@ -2078,7 +2078,7 @@ PCB Qty =
 Copper Weight = 
 PCB Price = 
 Estimated Delivery Time = 
-For your first time order, less than $20 discount on the freight! = 
+
 HASL(with lead) = 
 LeadFree HASL-RoHS = 
 ENIG-RoHS = 
@@ -2374,7 +2374,7 @@ Switch/Relay =
 JLCPCB = 
 Recycle Bin = 
 
-#量角器
+# Protractor
 Font Height = 
 Precision = 
 Protractor = 
@@ -2545,7 +2545,7 @@ Silk Screen =
 Silk Screen Color = 
 Display = 
 
-# 阵列分布与阵列克隆
+# # Array and Clone
 Distribute Array = 
 Array Type = 
 Matrix Array = 
@@ -2570,7 +2570,7 @@ Number of Columns =
 Number of Copies = 
 Distribute Range(Degrees) = 
 
-#主题颜色对话框
+## Theme color dialog
 BusEntry = 
 Foreground = 
 Common Used = 
@@ -2862,7 +2862,7 @@ Relative Offset... = Relatives Offset...
 Reference Point X = X-Referenzpunkt
 Reference Point Y = Y-Referenzpunkt
 
-#内电层
+# Inner Plane layer
 Rebuild Plane = 
 PlaneZone Properties = 
 Change to a plane layer is not allowed during track routing. = 
@@ -2949,7 +2949,7 @@ View Owner = Inhaber anzeigen
 View Detail = Detail anzeigen
 
 
-# 批量放置过孔
+# place batch vias
 Place Vias = Vias platzieren
 Placing Vias = Vias werden platziert
 Removing Vias = Vias werden entfernt
@@ -3081,7 +3081,7 @@ Opening =
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 
 
-# 客户端返回的错误提示
+# desktop client error feedback
 Cannot open online documents on Project Offline mode. = Kann nur-online Dokumente nicht öffnen: Dieses Projekt ist im Offline-Modus.
 
 Please select a project = Bitte Projekt auswählen
@@ -3114,7 +3114,7 @@ Save custom data failed! = Benutzerdefinierte Daten konnten nicht gespeichert we
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = Diese Aktion wird Grafiken und Benutzerdefinierte Daten für das aktuelle Dokument ersetzen. Nach Import bitte das 3D-Model wieder anpassen. Fortfahren?
 Open footprint "Custom Data" dialog = "Benutzerdefinierte Daten" für diesen Fussabdruck öffnen.
 
-#创建引脚外形
+# Create lead shape
 Create Lead Shape = Form für Leitung erstellen
 Base on Pad Center = Auf Pad-Mitte basieren
 Base on Canvas Origin = Auf Canvas-Quelle basieren

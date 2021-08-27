@@ -38,7 +38,7 @@ Cadence... = Cadence…
 Pads... = Pads…
 DXF = DXF
 Import = Importar
-Super Menu = Super Menu
+
 
 Edit = Editar
 Undo = Desfazer
@@ -246,9 +246,9 @@ Simulation Tutorials = Tutoriais de Simulação
 Updated Instructions = Instruções Atualizadas
 Open File Format = Abrir Formato de Arquivo
 About Upgrade = Sobre Atualização
-#Github Repository
-Github Repository = Repositório Github
-#Support Forum
+
+
+
 User Forum = Fórum de Usuário
 Feature Request = Solicitação de Recurso
 Feature Requests = Solicitações de Recurso
@@ -1121,18 +1121,18 @@ Compute the DC operating point treating capacitances as opens and inductances as
 #Dialog Share Info
 Active File = Arquivo Ativo
 Active Project = Projeto ativo
-Embed it in your html files. = Incorporá-lo em seus arquivos html.
-Share it by e-mail, IM, blog, etc. = Compartilhe por e-mail, mensagens instantâneas, blog, etc.
-BBCode (used by many online discussion forums) = BBCode (usado por muitos fóruns de discussão online)
-HTML code = Código HTML
-QRCode (Share your schematic address by QRCode ) = QRCode (compartilhe seu endereço esquemático por QRCode)
-Short Url = URL curto
-Share a copy of this document = Compartilhar uma cópia deste documento
+
+
+
+
+
+
+
 Readonly = Somente Leitura
 Editable = Editável
 Active file's owner project page = Arquivo Ativo da Página do projeto do proprietário
 Active project editor page = Projeto Ativo do Editor de Página
-Active file image URL = Arquivo de imagem URL ativo
+
 
 #Dialog Document Recovery
 All Projects = Todos os projetos
@@ -1243,7 +1243,7 @@ BottomLayer = BottomLayer
 TopSilkLayer = TopSilkLayer
 Protractor Attributes = Atributos do transferidor
 BottomSilkLayer = BottomSilkLayer
-#后面还有个BoardOutline,仅仅一个字母大小写的差别
+
 BoardOutLine = BoardOutLine
 TopAssembly = TopAssembly
 BottomAssembly = BottomAssembly
@@ -1919,7 +1919,7 @@ Project Access Control = Projeto de Controle de acesso
 Reject = Rejeitar
 Add User = Adicionar usuário
 Bad email address = Endereço de email incorreto
-#后端返回英文的错误信息
+# backend return error info
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Não foi possível encontrar este endereço de e-mail no EasyEDA. Seu parceiro deve ser um usuário EasyEDA.
 
 #Dialog waveForm
@@ -2011,11 +2011,11 @@ Update = Atualizar
 Bus entry = Entrada de ônibus
 Filter = Filtro
 Check = Check
-Guest Project = Projeto Convidado
-Insert into = Inserir em
-Insert into {site} = Inserir em {site}
-# Upload {site} 目前仅有波兰论坛使用
-Upload {site} = Carregar {site}
+
+
+
+
+
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Copie o conteúdo dessa caixa em um editor de texto e salve o arquivo. Cole o texto editado de volta nesta caixa e clique em Aplicar para atualizar a exibição.
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Copie o conteúdo dessa caixa em um editor de texto e salve o arquivo com uma extensão .svg. Você pode editá-lo no Inkscape ou abri-lo no seu navegador.
 Content is too big to show, you can download it directly. = O conteúdo é muito grande para mostrar, você pode baixá-lo diretamente.
@@ -2078,7 +2078,7 @@ PCB Qty = PCB Qtd
 Copper Weight = Peso do Cobre
 PCB Price = Preço do PCB
 Estimated Delivery Time = Tempo estimado de entrega
-For your first time order, less than $20 discount on the freight! = Para o seu primeiro pedido de tempo, menos de US $ 20 de desconto no frete!
+
 HASL(with lead) = HASL (com chumbo)
 LeadFree HASL-RoHS = LeadFree HASL-RoHS
 ENIG-RoHS = ENIG-RoHS
@@ -2374,7 +2374,7 @@ Switch/Relay = Interruptor / Relé
 JLCPCB = JLCPCB
 Recycle Bin = Lixeira
 
-#量角器
+# Protractor
 Font Height = Altura da Fonte
 Precision = Precisão
 Protractor = Transferidor
@@ -2545,7 +2545,7 @@ Silk Screen = Tela Silk
 Silk Screen Color = Cor da tela de seda
 Display = Display
 
-# 阵列分布与阵列克隆
+# # Array and Clone
 Distribute Array = Distribuir Matriz
 Array Type = Tipo de Matriz
 Matrix Array = Matriz Matriz
@@ -2570,7 +2570,7 @@ Number of Columns = Número de Colunas
 Number of Copies = Número de Cópias
 Distribute Range(Degrees) = 
 
-#主题颜色对话框
+## Theme color dialog
 BusEntry = BusEntry
 Foreground = Primeiro plano
 Common Used = Mais Usado
@@ -2862,7 +2862,7 @@ Relative Offset... = Offset Relativo...
 Reference Point X = Ponto de Referência X
 Reference Point Y = Ponto de Referência Y
 
-#内电层
+# Inner Plane layer
 Rebuild Plane = Reconstruir Plano
 PlaneZone Properties = 
 Change to a plane layer is not allowed during track routing. = 
@@ -2949,7 +2949,7 @@ View Owner = Ver Dono
 View Detail = Ver Detalhe
 
 
-# 批量放置过孔
+# place batch vias
 Place Vias = Colocar Vias
 Placing Vias = Colocando Vias
 Removing Vias = Removendo Vias
@@ -3081,7 +3081,7 @@ Opening =
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 
 
-# 客户端返回的错误提示
+# desktop client error feedback
 Cannot open online documents on Project Offline mode. = 
 
 Please select a project = Por favor, selecione um projeto
@@ -3114,7 +3114,7 @@ Save custom data failed! =
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = 
 Open footprint "Custom Data" dialog = 
 
-#创建引脚外形
+# Create lead shape
 Create Lead Shape = 
 Base on Pad Center = 
 Base on Canvas Origin = 
