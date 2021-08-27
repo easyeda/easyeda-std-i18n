@@ -38,7 +38,7 @@ Cadence... = Cadence...
 Pads... = Tấm lót...
 DXF = DXF
 Import = Nhập khẩu
-Super Menu = Super Menu
+
 
 Edit = Chỉnh sửa
 Undo = Hoàn tác
@@ -246,9 +246,9 @@ Simulation Tutorials = Hướng dẫn Mô phỏng
 Updated Instructions = Hướng dẫn cập nhật
 Open File Format = Mở Định dạng Tệp
 About Upgrade = Giới thiệu về Nâng cấp
-#Github Repository
-Github Repository = Kho Github
-#Support Forum
+
+
+
 User Forum = Diễn đàn người dùng
 Feature Request = Yêu cầu tính năng
 Feature Requests = Yêu cầu tính năng
@@ -1121,18 +1121,18 @@ Compute the DC operating point treating capacitances as opens and inductances as
 #Dialog Share Info
 Active File = Tài liệu hiện tại
 Active Project = Dự án hiện tại
-Embed it in your html files. = Nhúng vào tệp trang web của bạn
-Share it by e-mail, IM, blog, etc. = Bằng thư, QQ, blog, tiểu blog và như vậy
-BBCode (used by many online discussion forums) = BBCode (hầu hết các diễn đàn hỗ trợ phương pháp chia sẻ này)
-HTML code = Mã HTML, thích hợp để chèn vào trang web
-QRCode (Share your schematic address by QRCode ) = Chia sẻ URL giản đồ của bạn với mã QR
-Short Url = URL Ngắn
-Share a copy of this document = Chia sẻ bản sao của tài liệu hiện tại
+
+
+
+
+
+
+
 Readonly = Chỉ đọc
 Editable = Có thể chỉnh sửa được
 Active file's owner project page = Tài liệu hiện tại thuộc về trang dự án
 Active project editor page = Trình soạn thảo dự án hiện tại mở ra địa chỉ web
-Active file image URL = URL hình ảnh của tài liệu hiện tại
+
 
 #Dialog Document Recovery
 All Projects = Tất cả các tác phẩm
@@ -1243,7 +1243,7 @@ BottomLayer = Lớp dưới cùng
 TopSilkLayer = Tầng trên Tơ lụa
 Protractor Attributes = Thuộc tính góc ngắm
 BottomSilkLayer = Tầng tơ dưới cùng
-#后面还有个BoardOutline,仅仅一个字母大小写的差别
+
 BoardOutLine = Biên giới
 TopAssembly = Lớp lắp ráp hàng đầu
 BottomAssembly = Lớp lắp ráp phía dưới
@@ -1919,7 +1919,7 @@ Project Access Control = Kiểm soát truy cập dự án
 Reject = Bị từ chối
 Add User = Thêm người dùng
 Bad email address = Địa chỉ email sai
-#后端返回英文的错误信息
+# backend return error info
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Người dùng không tồn tại
 
 #Dialog waveForm
@@ -2011,11 +2011,11 @@ Update = Đã cập nhật
 Bus entry = Đầu vào Bus
 Filter = Bộ lọc
 Check = Kiểm tra
-Guest Project = Dự án khách
-Insert into = Chèn vào
-Insert into {site} = Chèn vào {site}
-# Upload {site} 目前仅有波兰论坛使用
-Upload {site} = Tải lên {site}
+
+
+
+
+
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Sao chép nội dung của hộp văn bản vào máy tính xách tay và lưu nó. Bạn có thể dán nội dung ở đây và chỉnh sửa lại.
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Sao chép nội dung của hộp văn bản vào máy tính xách tay và lưu nó bằng đuôi .svg. Bạn có thể chỉnh sửa nó bằng inkscape, hoặc bạn có thể mở nó bằng trình duyệt của bạn.
 Content is too big to show, you can download it directly. = 
@@ -2078,7 +2078,7 @@ PCB Qty = Số lượng PCB
 Copper Weight = Độ dày đồng
 PCB Price = 
 Estimated Delivery Time = Thời gian nhanh
-For your first time order, less than $20 discount on the freight! = 
+
 HASL(with lead) = Chì
 LeadFree HASL-RoHS = không chì
 ENIG-RoHS = Mạ vàng
@@ -2374,7 +2374,7 @@ Switch/Relay = Chuyển mạch / chuyển tiếp
 JLCPCB = Jia Li Chong
 Recycle Bin = 
 
-#量角器
+# Protractor
 Font Height = Chiều cao chữ
 Precision = Độ chính xác
 Protractor = Đo góc
@@ -2545,7 +2545,7 @@ Silk Screen =
 Silk Screen Color = 
 Display = 
 
-# 阵列分布与阵列克隆
+# # Array and Clone
 Distribute Array = 
 Array Type = 
 Matrix Array = 
@@ -2570,7 +2570,7 @@ Number of Columns =
 Number of Copies = 
 Distribute Range(Degrees) = 
 
-#主题颜色对话框
+## Theme color dialog
 BusEntry = 
 Foreground = Màu mặt trước
 Common Used = Thường được sử dụng
@@ -2862,7 +2862,7 @@ Relative Offset... =
 Reference Point X = 
 Reference Point Y = 
 
-#内电层
+# Inner Plane layer
 Rebuild Plane = 
 PlaneZone Properties = 
 Change to a plane layer is not allowed during track routing. = 
@@ -2949,7 +2949,7 @@ View Owner =
 View Detail = 
 
 
-# 批量放置过孔
+# place batch vias
 Place Vias = 
 Placing Vias = 
 Removing Vias = 
@@ -3081,7 +3081,7 @@ Opening =
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 
 
-# 客户端返回的错误提示
+# desktop client error feedback
 Cannot open online documents on Project Offline mode. = 
 
 Please select a project = 
@@ -3114,7 +3114,7 @@ Save custom data failed! =
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = 
 Open footprint "Custom Data" dialog = 
 
-#创建引脚外形
+# Create lead shape
 Create Lead Shape = 
 Base on Pad Center = 
 Base on Canvas Origin = 

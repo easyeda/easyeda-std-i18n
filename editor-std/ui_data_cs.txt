@@ -38,7 +38,7 @@ Cadence... = Cadence...
 Pads... = Pads...
 DXF = DXF
 Import = Import
-Super Menu = Super menu
+
 
 Edit = Upravit
 Undo = Zpět
@@ -245,10 +245,10 @@ Essential Check = Nezbytná kontrola
 Simulation Tutorials = Tutoriály simulací
 Updated Instructions = Co je nového
 Open File Format = Otevřít formát souboru
-About Upgrade = O aktualizaci
-#Github Repository
-Github Repository = Github repozitoř
-#Support Forum
+About Upgrade = 
+
+
+
 User Forum = Uživatelské fórum
 Feature Request = Požadavek na vylepšení
 Feature Requests = Požadavky na vylepšení
@@ -1121,18 +1121,18 @@ Compute the DC operating point treating capacitances as opens and inductances as
 #Dialog Share Info
 Active File = Aktivní soubor
 Active Project = Aktivní projekt
-Embed it in your html files. = Zahrnout ve vašem html souboru.
-Share it by e-mail, IM, blog, etc. = Sdílet pře email, IM, blog, atd.
-BBCode (used by many online discussion forums) = BBCode (používá se na mnoha online diskuzních fórech)
-HTML code = HTML kód
-QRCode (Share your schematic address by QRCode ) = QR kód (sdílejte adresu vašeho schéma přes QR kód)
-Short Url = Zkrácená URL
-Share a copy of this document = Sdílet kopii tohoto dokumentu
+
+
+
+
+
+
+
 Readonly = Pouze pro čtení
 Editable = Editovatelný
 Active file's owner project page = Stránka aktivního souboru vlastníka projektu
 Active project editor page = Stránka editoru aktivního projektu
-Active file image URL = URL souboru aktivního obrázku
+
 
 #Dialog Document Recovery
 All Projects = Všechny projekty
@@ -1243,7 +1243,7 @@ BottomLayer = Spodní vrstva
 TopSilkLayer = Vrchní vrstva potisku
 Protractor Attributes = Vlastnosti úhloměru
 BottomSilkLayer = Spodní vrstva potisku
-#后面还有个BoardOutline,仅仅一个字母大小写的差别
+
 BoardOutLine = Okraj desky
 TopAssembly = Vrchní sestavení
 BottomAssembly = Spodní sestavení
@@ -1919,7 +1919,7 @@ Project Access Control = Přístup k projektu
 Reject = Zamítnout
 Add User = Přidat uživatele
 Bad email address = Špatná emailová adresa
-#后端返回英文的错误信息
+# backend return error info
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Zadanou emailovou adresu nebylo možné nalézt v EasyEDA. Ujistěte, že váš partner je uživatelem EasyEDA.
 
 #Dialog waveForm
@@ -2011,11 +2011,11 @@ Update = Aktualizovat
 Bus entry = Vstup sběrnice
 Filter = Filtr
 Check = Zkontrolovat
-Guest Project = Projekt hosta
-Insert into = Vložit do
-Insert into {site} = Vložit do {site}
-# Upload {site} 目前仅有波兰论坛使用
-Upload {site} = Načíst {site}
+
+
+
+
+
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Zkopírujte obsah tohoto boxu do textového editoru a uložte soubor. Vložte upravený text zpět do tohoto boxu a klikněte na Použít pro aktualizaci zobrazení.
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Zkopírujte obsah tohoto boxu do textového editoru a uložte soubor s příponou .svg. Můžete jej pak upravit přes Inkscape nebo otevřít ve vašem prohlížeči.
 Content is too big to show, you can download it directly. = Obsah je pro zobrazení příliš velký, můžete jej stáhnout.
@@ -2078,7 +2078,7 @@ PCB Qty = Počet PCB
 Copper Weight = Hmotnost mědi
 PCB Price = Cena PCB
 Estimated Delivery Time = Odhadovaný čas doručení
-For your first time order, less than $20 discount on the freight! = Pro první objednávku, sleva na dopravu méně než $20.
+
 HASL(with lead) = HASL (s olovem)
 LeadFree HASL-RoHS = Bez olova HASL-RoHS
 ENIG-RoHS = ENIG-RoHS
@@ -2374,7 +2374,7 @@ Switch/Relay = Přepínač/Relé
 JLCPCB = JLCPCB
 Recycle Bin = 
 
-#量角器
+# Protractor
 Font Height = Výška písma
 Precision = Přesnost
 Protractor = Úhloměr
@@ -2545,7 +2545,7 @@ Silk Screen =
 Silk Screen Color = 
 Display = 
 
-# 阵列分布与阵列克隆
+# # Array and Clone
 Distribute Array = Distribuovat pole
 Array Type = Typ pole
 Matrix Array = Maticové pole
@@ -2570,7 +2570,7 @@ Number of Columns =
 Number of Copies = 
 Distribute Range(Degrees) = 
 
-#主题颜色对话框
+## Theme color dialog
 BusEntry = Vstup sběrnice
 Foreground = Barva popředí
 Common Used = Běžně užívané
@@ -2862,7 +2862,7 @@ Relative Offset... =
 Reference Point X = 
 Reference Point Y = 
 
-#内电层
+# Inner Plane layer
 Rebuild Plane = 
 PlaneZone Properties = 
 Change to a plane layer is not allowed during track routing. = 
@@ -2949,7 +2949,7 @@ View Owner =
 View Detail = 
 
 
-# 批量放置过孔
+# place batch vias
 Place Vias = 
 Placing Vias = 
 Removing Vias = 
@@ -3081,7 +3081,7 @@ Opening =
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 
 
-# 客户端返回的错误提示
+# desktop client error feedback
 Cannot open online documents on Project Offline mode. = 
 
 Please select a project = 
@@ -3114,7 +3114,7 @@ Save custom data failed! =
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = 
 Open footprint "Custom Data" dialog = 
 
-#创建引脚外形
+# Create lead shape
 Create Lead Shape = 
 Base on Pad Center = 
 Base on Canvas Origin = 
