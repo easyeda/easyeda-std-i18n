@@ -13,7 +13,7 @@ Invite friends... = Invita amici...
 Language = Lingua
 Language Setting = Impostazioni Lingua
 
-Document Recovery = Recupero Documenti
+Document Recovery = Ripristina Documento
 Your Preferences Information = Informazioni sulle Preferenze Utente
 File = File
 New = Nuovo
@@ -35,7 +35,7 @@ LTspice... =  LTspice...
 Eagle... = Eagle... 
 Altium... = Altium... 
 Cadence... = Cadence 
-Pads... = Pads... 
+Pads... = Pad... 
 DXF = DXF 
 Import = Importa
 
@@ -62,14 +62,14 @@ Align Horizontal Centers = Allinea Centri Orizzontalmente
 Align Vertical Centers = Allinea Centri Verticalmente
 Distribute Horizontally = Distribuisci Orizzontalmente
 Distribute Vertically = Distribuisci Verticalmente
-Distribute Left Edges Equidistantly =  Distribuisci Uniformemente Lati Sinistri 
+Distribute Left Edges Equidistantly = Distribuisci Uniformemente Lati Sinistri 
 Distribute Top Edges Equidistantly = Distribuisci Uniformemente Lati Superiori
 Align Grid = Allinea alla Griglia
 Rotate = Ruota
 Rotate Left = Ruota a Sinistra
 Rotate Right = Ruota a Destra
-Flip Horizontal = Scambia in Orizzontale
-Flip Vertical = Scambia in Verticale
+Flip Horizontal = Capovolgi Orizzontalmente
+Flip Vertical = Capovolgi Verticalmente
 Rotate and Flip = Ruota e Capovolgi
 Group/Ungroup Symbol... = Raggruppa/Separa Simbolo...
 
@@ -81,7 +81,7 @@ Zoom In = Zoom Avanti
 Zoom Out = Zoom Indietro
 Fit in Window = Adatta a Finestra
 Refresh = Aggiorna
-Snap = Allinea
+Snap = Aggancio
 Cross Cursor = Cursore a Croce
 Toolbars = Barre degli Strumenti
 Drawing Tools = Strumenti di Disegno
@@ -89,10 +89,10 @@ Wiring Tools = Strumenti di Cablaggio
 Power Objects = Componenti di Potenza
 PCB Tools = Strumenti per PCB
 Footprint Tools = Strumenti per Footprint
-Layers Tool = Strumenti per Livelli
-Layer Manager = Gestione Livelli
-Enable and Show All Layers = Abilita e Mostra Tutti i Livelli
-Net Visible = Reti Visibili
+Layers Tool = Strumenti per Strati
+Layer Manager = Gestisci Strati
+Enable and Show All Layers = Abilita e Mostra Tutti gli Strati
+Net Visible = Visualizza Reti
 Auto = 
 Digital Objects = Componenti Digitali
 Tools = Strumenti
@@ -102,9 +102,9 @@ Center Point Arc = Punto Centrale dell'Arco
 Two-point Arc = Arco 2 Punti
 
 Place = Posiziona
-Drawing Tools = Strumenti di disegno
+Drawing Tools = Strumenti di Disegno
 Arc = Arco
-Elliptical Arc = Arco ellittico
+Elliptical Arc = Arco Ellittico
 Ellipse = Ellisse
 Circle = Cerchio
 Pie = Torta
@@ -112,7 +112,7 @@ Line = Linea
 Polyline = Polilinea
 Rectangle = Rettangolo
 Rectangular = Rettangolare
-The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = Il rettangolo non supporta la rotazione diversa da 90 gradi. Per questo puoi usare lo strumento Regione.
+The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = Il rettangolo non supporta una rotazione diversa da 90 gradi. Per questo puoi usare lo strumento Regione Solida.
 
 Rect = Rettangolo
 Round Rectangle = Rettangolo Arrotondato
@@ -176,7 +176,7 @@ Tutorials = Tutorial
 Videos = Video
 [/start]
 Custom Data = Dati Personalizzati
-LCEDA = 
+LCEDA = LCEDA
 
 Copy Result Image = Copia Immagine Generata 
 Export Result Image = Esporta Immagine Generata
@@ -192,7 +192,7 @@ Netlist for Project = Netlist per il Progetto
 LTspice for This Sheet... = LTspice per questo Foglio...
 Spice for this Project... = Spice per questo Progetto...
 Protel/Altium for PCB... = Protel/Altium per PCB...
-PADS for PCB... = PADS per PCB...
+PADS for PCB... = PAD per PCB...
 FreePCB for PCB... = FreePCB per PCB...
 Eagle for PCB... = Eagle per PCB...
 Kicad for PCB... = Kicad per PCB...
@@ -202,7 +202,7 @@ BOM for Document... = BOM per Documento
 BOM for Project... = BOM per Progetto
 Pin Manager... = Gestisci Piedini...
 Spice Model... = Modello Spice...
-Layer Manager... = Gestisci Livelli...
+Layer Manager... = Gestisci Strati...
 Net Color... = Colore della Rete...
 Design Rule... = Regole di Progettazione
 Copper Area = Area di Rame
@@ -228,7 +228,7 @@ Select = Seleziona
 Segments = Segmenti
 Connection = Connessione
 Net = Rete
-Apply Design Rule While Routing and Auto Placing Via = Applica Regole di Design Durante il Routing e Posizionamento Fori
+Apply Design Rule While Routing and Auto Placing Via = Applica Regole di Design Durante lo Sbroglio e Posizionamento Vie Automatico
 
 Add SubPart = Aggiungi SubPart
 Annotate... = Annota...
@@ -278,7 +278,7 @@ Order Price = Prezzo Ordine
 Order Essential Check = Verifica di Base Ordine
 Order FAQ = FAQ Ordine
 Order Process = Processo di Ordine
-Full Screen = Schermo intero
+Full Screen = Schermo Intero
 
 Support = Supporto
 [leftNavTabs]
@@ -302,7 +302,7 @@ Group These Items as a Symbol = Raggruppa Elementi come un Simbolo
 Group These Items as a Footprint = Raggruppa Elementi come un Footprint
 Set Canvas Origin = Imposta Origine Foglio
 Document Setting = Impostazioni Documento
-Sheet Attributes = Attributi del Foglio
+Sheet Attributes = Proprietà Foglio
 Set Board Outline = Imposta Contorno della Scheda
 Teardrop... = Teardrop...
 Panelize... = Pannelizza...
@@ -311,7 +311,7 @@ Smart Dimension = Dimensioni Intelligenti
 Footprint Wizard = Procedura guidata per Footprint
 Footprint Wizard... = Procedura guidata per Footprint...
 Select package type = Seleziona Tipo di Package
-Smart Dimension Attributes = Dimensioni Attributi Intelligenti
+Smart Dimension Attributes = Attributi Dimensioni Intelligenti
 Global Delete = Cancella Globale
 Cross Probe = Cross Probe
 Cross Probe and Place = Cross Probe e Piazza
@@ -330,7 +330,7 @@ Properties = Proprietà
 Attributes = Attributi
 Apply = Applica
 Save as default = Salva come default
-Canvas Attributes = Attributi del Foglio
+Canvas Attributes = Proprietà Foglio
 Width = Larghezza
 Height = Altezza
 Background = Sfondo
@@ -352,12 +352,12 @@ Stroke Style = Stile Tratto
 Fill Color = Colore di Riempimento
 Selected Objects = Oggetti Selezionati
 Frame Size = Dimensione Cornice
-Alt Snap = Allineamento Alt
-Snap size when pressing the Alt key = Spaziatura Allineamento quando Premi Alt
+Alt Snap = Aggancio Alt
+Snap size when pressing the Alt key = Spaziatura aggancio premendo il tasto Alt
 Prefix Start = Inizio Prefisso
 
 #Text Attributes
-Text Attributes = Attributi del Testo
+Text Attributes = Proprietà Testo
 Text = Testo
 Color = Colore
 Font Family = Famiglia
@@ -405,8 +405,8 @@ PCB related documents are not allowed in emulation mode = I documenti PCB non so
 Please change the editor to "Simulation" mode first at the top left corner. = Prima devi cambiare l'editor in modalità "Simulazione" nell'angolo in alto a sinistra.
 Please change the editor to "Standard" mode first at the top left corner. = Prima devi cambiare l'editor in modalità "Standard" nell'angolo in alto a sinistra.
 Common = Comune
-spice.open = 
-spice.close = 
+spice.open = apri spice
+spice.close = chiudi spice
 Sources = Sorgenti
 Instrument = Strumenti
 Transistors = Transistori
@@ -451,16 +451,16 @@ Ratio = Rapporto
 K[%] =
 Model = Modello
 States = Stati
-Voltage[V] = Voltaggio[V]
+Voltage[V] = Tensione[V]
 Voltage gain[V/V] = Guadagno Tensione[V/V]
 Current gain[A/A] = Guadagno Corrente[A/A]
 Transconductance[Mho] = Transconduttanza[Mho]
 Transresistance[Ω] = Transresistenza[Ω]
-Voltage Source Type = Tipo Sorgente Tensione
-Current Source Type = Tipo Sorgente Corrente
+Voltage Source Type = Tipo Generatore Tensione
+Current Source Type = Tipo Generatore Corrente
 multimeter type = tipo multimentro
 power type = tipo potenza
-Voltmeter Resistance(R)(Ω) = Resistenza Volmetro(R)(Ω)
+Voltmeter Resistance(R)(Ω) = Resistenza Voltmetro(R)(Ω)
 Amperometer Resistance(R)(Ω) = Resistenza Amperometro(R)(Ω)
 mu.V = 
 mu.A = 
@@ -502,9 +502,9 @@ Fall Tau[s] =
 Carrier Freq[Hz] =
 Modulation Index = 
 Signal Freq[Hz] =
-Time[s]
-Value[V]
-Value[A]
+Time[s] =
+Value[V] =
+Value[A] =
 Waveforms = Forma Onda 
 Duty cycle[%]
 Amplitude[Vp]
@@ -518,16 +518,16 @@ Slewrate =
 Avol = 
 Rout(Ω) = 
 Rin(Ω) = 
-Ibias[A]
-Inhi[V]
-Inlo[V]
-Isc[A]
-Outhi[V]
-Outlo[V]
-Vabsmax[V]
-Vmin[V]
-Iq[A]
-Cin[F]
+Ibias[A] =
+Inhi[V] =
+Inlo[V] =
+Isc[A] =
+Outhi[V] =
+Outlo[V] =
+Vabsmax[V] =
+Vmin[V] =
+Iq[A] =
+Cin[F] =
 high = 
 low = 
 Oscilloscope = 
@@ -542,52 +542,52 @@ Simulation file exceed = Il file di simulazione è troppo grande
 The simulation file is too large and has been stopped for performance reasons. = Il file di simulazione é troppo grande ed è stato fermato per ragioni di performance.
 Timebase = Tempo base
 Scale: = Scala:
-X pos.(Div): = 
-Y pos.(Div): = 
+X pos.(Div): = pos.X(Div)
+Y pos.(Div): = pos.Y(Div) 
 View meter... = Vedi misuratori...
 The circuit has components without simulation model: = Il circuito ha componenti senza il modello di simulazione:
 Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = L'intervallo di simulazione è troppo breve, attendi 5 secondi e riprova; se ancora vedi questo messaggio, potresti aver superato il limite giornaliero di simulazioni.
-Resistor1_US = 
-Resistor1_EU/IEC = 
-Resistor1_3D = 
-Capacitor1_US = 
-Capacitor1_EU/IEC = 
-Capacitor1_3D = 
-Rheostat_US = 
-Rheostat_EU/IEC = 
-Rheostat_3D = 
-Capacitor_Electrolytic_US = 
-Capacitor_Electrolytic_EU/IEC = 
-Capacitor_Electrolytic_3D = 
-Inductor_US = 
-Inductor_EU/IEC = 
-Inductor_3D = 
-Resistor2_US = 
-Resistor2_EU/IEC = 
-Resistor2_3D = 
-Multimeter = 
-Multimeter_3D = 
-Oscilloscope = 
-Oscilloscope_3D = 
-Signal_Generator = 
-Signal Generator_3D = 
-Wattmeter = 
-Wattmeter_3D = 
-NSSWS1080T_3D = 
-Voltage_Source_VDC = 
-Voltage_Source_VSin = 
-Voltage_Source_VPULSE = 
-Voltage_Source_VEXP = 
-Voltage_Source_VSFFM = 
-Voltage_Source_VPWL = 
+Resistor1_US = Resistenza1_US
+Resistor1_EU/IEC = Resistenza1_EU/IEC 
+Resistor1_3D = Resistenza1_3D 
+Capacitor1_US = Condensatore1_US 
+Capacitor1_EU/IEC = Condensatore1_EU/IEC 
+Capacitor1_3D = Condensatore1_3D 
+Rheostat_US = Reostato_US  
+Rheostat_EU/IEC = Reostato_EU/IEC 
+Rheostat_3D = Reostato_3D 
+Capacitor_Electrolytic_US = Condensatore_Elettrolitico_US 
+Capacitor_Electrolytic_EU/IEC = Condensatore_Elettrolitico_EU/IEC 
+Capacitor_Electrolytic_3D = Condensatore_Elettrolitico_3D 
+Inductor_US = Induttore_US 
+Inductor_EU/IEC = Induttore_EU/IEC 
+Inductor_3D = Induttore_3D 
+Resistor2_US = Resistenza2_US
+Resistor2_EU/IEC = Resistenza2_EU/IEC 
+Resistor2_3D = Resistenza2_3D 
+Multimeter = Multimetro 
+Multimeter_3D = Multimetro_3D 
+Oscilloscope = Oscilloscopio 
+Oscilloscope_3D = Oscilloscopio_3D 
+Signal_Generator = Generatore_Segnale 
+Signal Generator_3D = Generatore_Segnale_3D 
+Wattmeter = Wattmetro 
+Wattmeter_3D = Wattmetro_3D 
+NSSWS1080T_3D =  
+Voltage_Source_VDC = Generatore_Tensione_VDC 
+Voltage_Source_VSin = Generatore_Tensione_VSIN 
+Voltage_Source_VPULSE = Generatore_Tensione_VPULSE 
+Voltage_Source_VEXP = Generatore_Tensione_VEXP 
+Voltage_Source_VSFFM = Generatore_Tensione_VSFFM 
+Voltage_Source_VPWL = Generatore_Tensione_VPWL 
 Voltage_Source_V_Behavioral_Source = 
-Current_Source_IDC = 
-Current_Source_ISin = 
-Current_Source_IPULSE = 
-Current_Source_IEXP = 
-Current_Source_ISFFM = 
-Current_Source_IPWL = 
-Current_Source_I_Behavioral_Source = 
+Current_Source_IDC = Generatore_Corrente_ IDC
+Current_Source_ISin = Generatore_Corrente_ISIN 
+Current_Source_IPULSE = Generatore_Corrente_IPULSE 
+Current_Source_IEXP = Generatore_Corrente_IEXP 
+Current_Source_ISFFM = Generatore_Corrente_ISFFM 
+Current_Source_IPWL = Generatore_Corrente_IPWL 
+Current_Source_I_Behavioral_Source = Generatore_Corrente_I_Comportamentale
 CCCS_1 = 
 CCCS_2 = 
 CCVS_1 = 
@@ -699,7 +699,7 @@ AC Phase = Fase AC
 There are some parts haven't spice model, please use "EElib" and "Spice Symol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Alcune parti non hanno un modello associato, usa "EELib" e "Simbolo Spice" in "Librerie" in modalità Simulazione, oppure puoi assegnare un modello spice manualmente:
 
 #Pin
-Pin Attributes = Attributi dei piedini
+Pin Attributes = Proprietà Pin
 Orientation = Orientazione
 Line 45° = Linea 45°
 Line 90° = Linea 90°
@@ -712,31 +712,31 @@ Length = Lunghezza
 Name = Nome
 name = nome
 Number = Numero
-Spice Pin Order = 
-Display Number =
+Spice Pin Order = Ordine Pin Spice
+Display Number = Mostra Numero
 Clock = 
 Show = Mostra
 Electric = Elettrico
 
 #Junction
-Junction Attributes = Attributi Giunzione
+Junction Attributes = Proprietà Giunzione
 X Location = Posizione X
 Y Location = Posizione Y
 Size = Dimensione
 Color = Colore
 
 #Net Label
-Net Label = 
+Net Label = Etichetta Rete
 
 #Part
 Prefix = Prefisso
 
 #Image Attributes and Dialog
 Add Image = Aggiungi Immagine
-Image Attributes = Attributi Immagine
+Image Attributes = Proprietà Immagine
 Image URL = URL dell'immagine
-Input an image URL = Inserisci Indirizzo URL dell'Immagine
-Invalid image URL = Indirizzo URL Immagine non valido
+Input an image URL = Inserisci Indirizzo URL dell'immagine
+Invalid image URL = Indirizzo URL immagine non valido
 Invalid Prefix = Prefisso non valido
 Failed to load the image = Problema nel caricamento dell'immagine
 Image URL contains special characters = L'indirizzo URL dell'immagine contiene caratteri speciali
@@ -745,7 +745,7 @@ From Local Computer = Da Computer Locale
 Please select a png/gif/jpg file. = Per favore seleziona un file png/gif/jpg.
 Please select an image file. = Per favore seleziona un file immagine. 
 Select an image file = Seleziona un file con un immagine
-Insert Image to PCB = 
+Insert Image to PCB = Inserisci Immagine al PCB 
 Tolerance = Tolleranza
 tolerance = tolleranza
 capacitance = capacità
@@ -758,38 +758,38 @@ Resistance[Ω] = Resistenza[Ω]
 inductance = induttanza
 Operating Temperature = Temperatura Operativa
 Shape Invert = 
-Image Size = Dimensione immagine
-Color Tolerance = Tolleranza colore
+Image Size = Dimensione Immagine
+Color Tolerance = Colore Tolleranza
 Simplify Level = 
 Corner Threshold = 
 
 #PCB Canvas Attributes
 Units = Unità 
-Snap Size =  
-Other = 
-Routing Width = 
+Snap Size = Spaziatura Aggancio 
+Other = Altro
+Routing Width = Larghezza Pista   
 [router]
-Routing Width = 
+Routing Width = Larghezza Pista
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = 
-Routing Angle = 
-Routing Conflict = 
-Remove Loop = 
-Cut SilkScreen = 
+Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Usa la combinazione {0}{shiftw}{1}  o {2}{tab}{3} per cambiare la larghezza della pista durante lo sbroglio.
+Routing Angle = Angolo Sbroglio
+Routing Conflict = Conflitto Sbroglio 
+Remove Loop = Rimuovi Loop 
+Cut SilkScreen = Taglia Serigrafia  
 Grid = Griglia
 Grid 90 = Griglia 90
 Grid 45 = Griglia 45
-Copper Zone = 
+Copper Zone = Zona Ramata 
 Visible = Visibile
-Invisible = invisibile
+Invisible = Invisibile
 Ignore = Ignora
 Block = Blocca
-RoundTrack = 
+RoundTrack = Aggira 
 
 #Track
-Track Properties = Attributi Pista 
-Layer = Layer 
-Net = Net 
+Track Properties = Proprietà Pista 
+Layer = Strato 
+Net = Rete 
 Start X = Inizio X
 Start Y = Inizio Y
 End X = Fine X
@@ -797,7 +797,7 @@ End Y = Fine Y
 ID = ID
 
 #Pad Properties
-Pad Properties = Attributi Pad
+Pad Properties = Proprietà Pad
 Shape = Forma 
 Hole(D) = Foro(D) 
 Center X = Centro X 
@@ -809,99 +809,99 @@ Slot = Slot
 Hole(Length) = Foro(Larghezza) 
 Plated = Metallizzato 
 None = 
-Paste Mask Expansion = 
-Solder Mask Expansion = 
+Paste Mask Expansion = Espansione Maschera Pasta
+Solder Mask Expansion = Espansione Maschera Saldatura 
 
 #Via Properties
-Via Properties = Attributi Via 
+Via Properties = Proprietà Via 
 Diameter = Diametro
 Drill Diameter = Diametro Foro
 
 #Hole Properties
-Hole Properties = Attributi Foro
+Hole Properties = Proprietà Foro
 
 
 #TEXT
-Text Properties = Proprietà del testo
-Line Width = 
+Text Properties = Proprietà Testo
+Line Width = Larghezza Linea
 Rotation = Rotazione
-Fonts Management = 
+Fonts Management = Gestisci Font 
 
 #Dimension Attributes
-Dimension Attributes = Proprietà delle dimensioni
+Dimension Attributes = Proprietà Dimensioni
 
 #Footprint Attributes
 Component Attributes = Proprietà Componente 
 Display Prefix = Mostra Prefisso 
-Pin Name = 
-Pin Number = 
-Spice Pin Number = 
-Graphics = 
-Pattern = 
+Pin Name = Nome Pin
+Pin Number = Numero Pin 
+Spice Pin Number = Numero Pin Spice 
+Graphics = Grafica 
+Pattern = Modello
 
 #Arc Properties
-Arc Properties = Proprietà dell'arco
-Start Angle = 
-End Angle = 
-Rotation Direction = 
+Arc Properties = Proprietà Arco
+Start Angle = Inizio Angolo
+End Angle = Fine Angolo 
+Rotation Direction = Direzione Rotazione 
 
 #Rect Properties
-Rect Properties = Proprietà del rettangolo
+Rect Properties = Proprietà Rettangolo
 Round radius = Raggio del raccordo
 
 #Circle Properties
-Circle Properties = Proprietà del cerchio
+Circle Properties = Proprietà Cerchio
 Radius = Raggio
 
 #CopperArea Properties
-CopperArea Properties = 
-Clearance = 
-Pad Connection = 
-Direct = 
-Spoke = 
-Keep Island = 
-Fill Style = 
-CopperArea conflict: copper area outlines in same layer with different net names must not overlap = 
-Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = 
-Please create board outline first. = 
-Board outlines are not closed. = 
-Rebuild CopperArea = 
-Edit Points = 
-Direct = 
-Spoke = 
-No Solid = 
-Board Cutout = 
-Solid = 
+CopperArea Properties = Proprietà Aree di Rame
+Clearance = Isolamento
+Pad Connection = Connessione Pad 
+Direct = Diretto 
+Spoke = Raggi 
+Keep Island = Mantieni Isolette
+Fill Style = Stile Riempimento 
+CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Conflitto area ramata: le sagome di rame nello stesso strato ma con diverse reti non possono sovrapporsi 
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Area di rame rigenerata! Puoi impostare la "Zona Ramata" come "Visibile" nelle proprietà del menu destro dopo aver premuto su una area vuota.   
+Please create board outline first. = Prima deve essere creato il contorno della scheda.
+Board outlines are not closed. = Contorno della scheda non é chiusa.  
+Rebuild CopperArea = Rigenera Area Ramata 
+Edit Points = Modifica Punti 
+Direct = Diretto 
+Spoke = Raggi 
+No Solid = Non Solido 
+Board Cutout = Ritaglio Scheda
+Solid = Solido
 [copperArea]
 None = 
 [/copperArea]
 
 #Custom Attributes
-Custom Attributes = Attributi personalizzati
-Fixed Attributes = 
+Custom Attributes = Proprietà Personalizzati
+Fixed Attributes = Proprietà Fisse
 Add new parameter = Aggiungi nuovo parametro
-Add New Parameter = Aggiungi nuovo Parametro
-Add New Supplier = 
+Add New Parameter = Aggiungi Nuovo Parametro
+Add New Supplier = Aggiungi Nuovo Fornitore
 Mounted = 
-Unknown = 
+Unknown = Sconosciuto 
 
-Custom = 
-Scan the QR code below and open it on the mobile side = 
-How to create a single layer PCB = 
-Currently doesn't support layout single layer directly, please refer at: = 
+Custom = Personalizzato
+Scan the QR code below and open it on the mobile side = Acquisisci il codice QR seguente e aprilo sul cellulare
+How to create a single layer PCB = Come create un PCB con un singolo strato
+Currently doesn't support layout single layer directly, please refer at: = Al momento un layout con un singolo strato non é supportato direttamente, fare riferimento a:
 
 #Dialog Register
 Create an account = Crea un account
 Username = Nome Utente
-Password = 
+Password = Password
 Confirm Password = Confemra Password
-Email = 
+Email = Email
 Please read this before you register = Leggete questo prima di effettuare la registrazione
 Hi {username} = Ciao {username}
 
 #Dialog lostPassword
-Lost Password... = Password persa...
-Find the password using your email = Ottenete la vostra password utilizzando la vostra email
+Lost Password... = Password Persa...
+Find the password using your email = Ripristina la password utilizzando la tua email
 
 
 
@@ -926,12 +926,12 @@ Your friend's email = L'email del tuo amico
 
 #Dialog Add A New Parameter
 Add a new parameter = Aggiungi un nuovo parametro
-Key = 
-Value.new_para = 
-In BOM = 
-Add into BOM = 
-Invalid key = 
-This field is required. = 
+Key = Chiave
+Value.new_para = Valore.new_para
+In BOM = Nel BOM
+Add into BOM = Aggiungi al BOM
+Invalid key = Chiave invalida 
+This field is required. = Questa casella é necessaria. 
 
 #Dialog Change Your Password
 Change your password = Cambia la tua password
@@ -941,33 +941,33 @@ Confirm Password = Conferma password
 
 #Dialog Create New Design
 Save as a New Project = Salva come Nuovo Progetto
-Save as a schematic = Salva come schema
-Save as Symbol = 
-Save as a spice Symbol = 
-Save as a spice subckt = 
-YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = 
-Save as a PCB file = Salva come file PCB
-Save as Footprint = 
-Save as a Schematic Module = 
-Save as a PCB Module = 
-Save as 3D Model = 
-Save as a WaveForm = 
-Title = 
-Share = 
-Add file = 
-Visibility = 
-Allow Comments = 
+Save as a schematic = Salva come Schema
+Save as Symbol = Salva come Simbolo
+Save as a spice Symbol = Salva come Simbolo Spice 
+Save as a spice subckt = Salva come Sottocircuito Spice 
+YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = DEVI CREARE UN SIMBOLO SPICE CON LO STESSO IDENTICO NOME COME QUESTO SOTTOCIRCUITO 
+Save as a PCB file = Salva come File PCB
+Save as Footprint = Salva come Footprint 
+Save as a Schematic Module = Salva come Modulo Schematico
+Save as a PCB Module = Salva come Modulo PCB 
+Save as 3D Model = Salva come Modello 3D 
+Save as a WaveForm = Salva come Forma Wave 
+Title = Titolo 
+Share = Condividi 
+Add file = Aggiungi File 
+Visibility = Visibile
+Allow Comments = Permetti Commenti 
 Public (Anyone can see this project but only you can modify it.) = Pubblico (Solo tu potrai modificare questo progetto. Tutti potranno vederlo)
 Private (Only you can see and modify this project) = Privato (Solo tu potrai vedere e modificare questo progetto)
-Create new project success! = 
-You can now create files under this project = 
-This file must be saved under a project, choose other project or create a new project = 
-Please login to save this kind of document = 
-Duplicated project title = 
+Create new project success! = Nuovo progetto creato con successo!
+You can now create files under this project = Ora puoi creare file all'interno di questo progetto 
+This file must be saved under a project, choose other project or create a new project = Il file deve essere salvato in un progetto, selezionane uno o crea un nuovo progetto
+Please login to save this kind of document = Effettua il login per salvare questo tipo di documento 
+Duplicated project title = Titolo progetto già presente 
 #Duplicated document title
-Project does not exist = 
-Document does not exist = 
-document not exists = 
+Project does not exist = Progetto non esiste
+Document does not exist = Documento non esiste 
+document not exists = documento non esistente 
 
 Categories = Categorie
 Project = Progetto
@@ -977,48 +977,48 @@ Modify this project info. = Modifica le informazioni di questo progetto.
 Modify this file info. = Modifica le informazioni di questo file.
 Notice = Nota
 Search for it before creating a new one. = Trovalo prima di crearlo.
-Manufacturer Part Number = 
-Supplier = 
-Or = 
-Supplier Part = 
-Supplier Part Number = 
-Link = 
-link = 
-The professional function please refer at: = 
+Manufacturer Part Number = Numero Parte Produttore
+Supplier = Fornitore
+Or = O 
+Supplier Part = Parte Fornitore
+Supplier Part Number = Numero Parte Fornitore 
+Link = Link 
+link = link 
+The professional function please refer at: = La funzione professionale fare riferimento a: 
 
 #Dialog Clone My Part
 #Clone it to a project
 #Clone it, then edit it
-Clone your file = 
+Clone your file = Clona il documento 
 
 #Dialog Subckt
-Attach a Subckt to this spice symbol = 
-Subckt string = 
-Spice symbol title just allow [0-9][a-z][A-Z] and _
+Attach a Subckt to this spice symbol = Collega un sottocircuito a questo simbolo spice
+Subckt string = Stringa sottocircuito 
+Spice symbol title just allow [0-9][a-z][A-Z] and _ = Il titolo del simbolo spice permette solo [0-9][a-z][A-Z] e _
 
 #Design Manager
-Design Manager = 
-Nets = 
+Design Manager = Gestisci Design  
+Nets = Reti
 DRC Errors = Errori DRC
-Are you sure you want to unroute this net? = 
-Unroute = 
+Are you sure you want to unroute this net? = Sei sicuro di voler disfare lo sbroglio di questa rete? 
+Unroute = Disfa Sbroglio 
 Track Length = Lunghezza Pista 
-Via/Hole Outer Size = 
-Filter nets = 
-Design Rule Checking = 
-Board Outline = 
-Plane Zone = 
+Via/Hole Outer Size = Dimensione Esteriore Via/Foro 
+Filter nets = Filtro Reti 
+Design Rule Checking = Controllo Regole di Progettazione 
+Board Outline = Contorno Scheda 
+Plane Zone =  
 [drcRule]
 Width = Larghezza
-DRC Width = 
+DRC Width = Larghezza DRC 
 Length = Lunghezza
-DRC Length = 
-Drill Diameter = 
-DRC Drill Diameter = 
+DRC Length = Lunghezza DRC
+Drill Diameter = Diametro Foro 
+DRC Drill Diameter = Diametro Foro DRC 
 Diameter = Diametro
-DRC Diameter = 
-Object = 
-DRC Clearance = 
+DRC Diameter = Diametro DRC 
+Object = Componente 
+DRC Clearance = Isolazione DRC 
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = 
@@ -1433,8 +1433,8 @@ Change Routing Angle =
 Change Routing Conflict = 
 Decrease Routing Width = 
 Increase Routing Width = 
-Decrease Snap Size = 
-Increase Snap Size = 
+Decrease Snap Size = Dominuisci Spaziatura Aggancio
+Increase Snap Size = Aumenta Spaziatura Aggancio 
 Change Copper Zone Visible or Invisible = 
 Rebuild All Copper Area = 
 Toggle PCB Net Display = 
@@ -1952,7 +1952,7 @@ dashed =
 dotted = 
 
 #Solid Region
-Solid Region = 
+Solid Region = Regione Solida 
 Type = Tipo 
 type = tipo 
 
@@ -2036,7 +2036,7 @@ Please use the web version to run this function. = Questa funzione è disponibil
 Please save this file to you project! = Per favore salva questo file nel tuo progetto! 
 Nothing changed = Nessuna modifica 
 Delete Node = Elimina Nodo 
-This layer is invisible. = Questo layer é invisibile. 
+This layer is invisible. = Questo strato é invisibile. 
 When the solid region is Board Cutout, please set the layer to Multi-Layer. = 
 You should not try to assign a net to a Board Cutout solid region. = 
 Net Length = Lunghezza Rete 
@@ -2049,7 +2049,7 @@ No tool = Nessun tool
 Help us translate into your language = Aiutaci a tradurre nella tua lingua 
 Pad = Pad 
 Via/Hole = Via/Hole 
-PCB Layers = Layers PCB 
+PCB Layers = Strati PCB 
 Order PCB = Ordina PCB 
 Share = Condividi 
 Free = Gratuito 
@@ -2092,7 +2092,7 @@ Failed to submit your order, please contact us via support@easyeda.com for help.
 Failed to submit your order, please contact us via QQ 800821856. = Invio ordine fallito, per favore contattaci tramite QQ 800821856.                                                                                                              
 Order data generated finish, please click OK button and continue. = Dati dell'ordine generati, premi il bottone OK e continua. 
 [generateGerber]
-Layers = Layer
+Layers = Strati
 [/generateGerber]
 
 [version]
@@ -2104,7 +2104,7 @@ Export your file, then print it yourself. = Esporta il file, poi puoi stamparlo 
 Trace width is too small = Larghezza traccia é troppo stretta 
 Share = Condividi 
 
-Images Attribute = Attributi Immagine 
+Images Attribute = Proprietà Immagine 
 Connect Pad to Pad = Connetti Pad a Pad 
 Copper Area = Area di Rame 
 Dimension = Dimensione 
@@ -2112,7 +2112,7 @@ Dimension = Dimensione
 
 Please check that you have used Wire and not Line to connect electrical elements. = Controlla di aver usato Filo e non Linea per connettere i componenti elettrici. 
 PCB Fabrication Prices & capabilities = Prezzo & Capacità di produzione PCB 
-Flip all texts on bottom layer = Specchia tutti i testi sul layer posteriore 
+Flip all texts on bottom layer = Capovolgi tutti i testi sullo strato inferiore 
 Create New Document = Crea Nuovo Documento 
 General Package = 
 General Packages = 
@@ -2417,8 +2417,8 @@ Please make sure that the Kicad files were compressed as the .zip file. =
 Open Altium Designer file = 
 The more information please refer at : = 
 Please use Gerber file instead of exporting Altium if you are going to do PCB manufacturing. All PCB factories support the Gerber file. Is it ok to Generate the Gerber file? = 
-Yes, Generate Gerber = 
-No, Export Altium = 
+Yes, Generate Gerber = Sì, Genera Gerber 
+No, Export Altium = No, Esporta Altium 
 Open Eagle file = 
 Open Kicad file = 
 Select file(s) = 
@@ -2690,14 +2690,14 @@ Invalid edit! =
 PCB Information... = Informazioni PCB...
 Signal Layers = Strati Segnale
 None Signal Layers = Strati Senza Segnale 
-Pads = Pads  
-Surface Pads = Pads Superficiali
-Plated Through-hole Pads = Pads placcati a foro passante
-None Plated Through-hole Pads = Pads non placcati a foro passante
+Pads = Pad  
+Surface Pads = Pad Superficiali
+Plated Through-hole Pads = Pad placcati con foro passante
+None Plated Through-hole Pads = Pad non placcati con foro passante
 Holes = Fori
-Vias = Vias
+Vias = Via
 Length of Tracks = Lunghezza delle Piste
-Copper Areas = Aree con Rame
+Copper Areas = Aree Ramate
 
 #Differential Pair Routing
 Differential Pair Routing = 
@@ -2722,11 +2722,11 @@ Current Length: =
 can not connect to the server = 
 
 #Dialog Copper Area Manager
-Copper Area Manager... = 
-Copper Area Manager = 
-Order = 
+Copper Area Manager... = Gestisci Aree Ramate
+Copper Area Manager = Gestisci Aree Ramate 
+Order = Ordine
 Name = Nome
-Layer = 
+Layer = Strato 
 Color = Colore
 Net = 
 Move Up = 
@@ -2812,10 +2812,10 @@ Search Engine =
 Keyword to Filter = 
 Normal Mode = 
 Expand Mode = 
-3D Model Manager = 
-3D Model Preview = 
-3D Model = 
-3DModel = 
+3D Model Manager = Gestisci Modello 3D 
+3D Model Preview = Anteprima Modello 3D 
+3D Model = Modello 3D 
+3DModel = Modello3D
 Document = Documento
 
 [pcblayer]
@@ -2996,28 +2996,28 @@ Net Highlighting While Cursor Hover the Track =
 When circle set as "Yes", the Pin length must more than 6 = 
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = 
 
-Logout fail! Please try again! = 
-Logout success! We look forward you to use LCEDA again! = 
-Logout success! We look forward you to use EasyEDA again! = 
-Click to Preview 3D = 
+Logout fail! Please try again! = Logout fallito! Prova nuovamente!
+Logout success! We look forward you to use LCEDA again! = Logout effettuato con successo! Speriamo tu possa usare LCEDA nuovamente! 
+Logout success! We look forward you to use EasyEDA again! = Logout effettuato con successo! Speriamo tu possa usare EasyEDA nuovamente! 
+Click to Preview 3D = Premi per Anteprima 3D
 [logoutDialog]
 Logout = Esci
 [/logoutDialog]
 
 [findlibTag]
-All = 
+All = Tutti
 [/findlibTag]
 
 Export Pick and Place File = Esporta File Pick and Place 
 Mirror the bottom component's X coordinate (JLCPCB doesn't need) = 
-Work Space = 
+Work Space = Area di Lavoro
 Include panelized components' coordinates = 
-Personal Workspace = 
-Work Space - {name} = 
-Work Space - Personal = 
+Personal Workspace = Area di Lavoro Personale
+Work Space - {name} = Area di Lavoro - {name} 
+Work Space - Personal = Area di Lavoro - Personale 
 Cloning = 
 
-Project Owner = 
+Project Owner = Proprietario Progetto
 Clone Project = 
 Homepage = 
 Apply for Education Edition = 
@@ -3032,7 +3032,7 @@ Close Tab =
 Close Other Tabs = 
 Close All Tabs = 
 Open in New Window = 
-Cursor Snap to Component's Origin or Pad Center While Dragging Component = 
+Cursor Snap to Component's Origin or Pad Center While Dragging Component = Aggancia Cursore all'Origine o Centro del Componente Quando Trascinato 
 Undefined = 
 Input = 
 Model Unit = 
