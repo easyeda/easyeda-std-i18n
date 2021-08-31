@@ -170,7 +170,7 @@ More Help = Ulteriore aiuto
 Explore = Esplora
 Message = Messaggio
 [start]
-Example = Esempio
+Example = Esempi
 Forum = Forum
 Tutorials = Tutorial
 Videos = Video
@@ -3017,9 +3017,9 @@ Work Space - {name} = Area di Lavoro - {name}
 Work Space - Personal = Area di Lavoro - Personale 
 Cloning = 
 
-Project Owner = Proprietario Progetto
-Clone Project = 
-Homepage = 
+Project Owner = Proprietario progetto
+Clone Project = Clona progetto  
+Homepage = Homepage 
 Apply for Education Edition = 
 Load Organization failed = 
 Joined = 
@@ -3084,12 +3084,12 @@ Also update track's net (Only applies to circumstance under which prefix/netlabe
 # desktop client error feedback
 Cannot open online documents on Project Offline mode. = 
 
-Please select a project = 
-Opened Projects = 
+Please select a project = Seleziona un progetto
+Opened Projects = Progetti aperti 
 Open Project = Apri progetto
-Close Project = 
-Open All Projects = 
-Close All Projects = 
+Close Project = Chiudi progetto 
+Open All Projects = Apri tutti i progetti 
+Close All Projects = Chiudi tutti i progetti 
 
 Doesn't support JLCPCB SMT Service = 
 for JLCPCB SMT Service = 
