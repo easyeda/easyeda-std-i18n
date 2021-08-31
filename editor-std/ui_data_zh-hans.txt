@@ -1,4 +1,4 @@
-﻿# Menu
+﻿#Menu
 User=用户
 Join...=注册...
 Login...=登录...
@@ -149,7 +149,7 @@ The component ID will be reset according to the component prefix, this operation
 Please make sure the component prefixes of the schematic and PCB are corresponding = 请确保原理图和 PCB 的元件编号相对应
 Please reset the component ID of corresponding schematic or corresponding PCB too = 请把对应的原理图或者PCB也进行重置操作
 Do you want to continue? = 是否继续？
-Reset Component ID = 重置元件ID
+Reset Component Unique ID = 重置元件唯一ID
 Component ID reset successfully! = 元件ID重置成功！
 Convert to PCB = 转到PCB
 Update PCB =更新PCB
@@ -246,9 +246,6 @@ Simulation Tutorials = 仿真教程
 Updated Instructions = 更新说明
 Open File Format = 文件格式
 About Upgrade = 关于升级
-
-
-
 User Forum = 用户论坛
 Feature Request = 功能建议
 Feature Requests = 功能建议
@@ -665,7 +662,6 @@ SRNANDFFEE = 与非型基本SR触发器
 SRNORFFEE = 或非型基本SR触发器
 INVTSEE = 施密特反相器
 INVODEE = 集电极开路反相器
-Schmittbuffee = 施密特驱动门
 Cbuffer = 缓冲器
 SPDT_Open = 单刀双掷（断开）
 SPDT_Close = 单刀双掷（闭合）
@@ -696,7 +692,7 @@ Common Anode = 共阳
 Common Cathode = 共阴
 AC Amplitude = AC幅度
 AC Phase = AC相位
-There are some parts haven't spice model, please use "EElib" and "Spice Symol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = 存在没有仿真模型的元器件，请优先使用仿真模式下的“基础库”和元件库中的“仿真符号”进行仿真，或指定仿真模型：
+There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = 存在没有仿真模型的元器件，请优先使用仿真模式下的“基础库”和元件库中的“仿真符号”进行仿真，或指定仿真模型：
 
 #Pin
 Pin Attributes = 引脚属性
@@ -961,7 +957,7 @@ Public (Anyone can see this project but only you can modify it.) = 公开 (只�
 Private (Only you can see and modify this project) = 私有(只能你能看到并修改它)
 Create new project success! = 新建工程成功
 You can now create files under this project = 现在可以在工程下创建文档了
-This file must be saved under a project, choose other project or create a new project = 该文件必须保存在工程下，请选择或新建一个过程。
+This file must be saved under a project, choose other project or create a new project = 该文件必须保存在工程下，请选择或新建一个工程。
 Please login to save this kind of document = 请登录后保存该文档
 Duplicated project title = 工程标题已存在
 #Duplicated document title = 文件标题已存在
@@ -1121,18 +1117,10 @@ Compute the DC operating point treating capacitances as opens and inductances as
 #Dialog Share Info
 Active File = 当前文档
 Active Project =当前工程
-
-
-
-
-
-
-
 Readonly = 只读
 Editable = 可编辑
 Active file's owner project page = 当前文档所属工程的页面
 Active project editor page = 当前工程的编辑器打开网址
-
 
 #Dialog Document Recovery
 All Projects = 所有工程
@@ -1361,10 +1349,6 @@ Currently rule name is not allowed to contain magical characters like . and $ = 
 All = 全部
 [/drcRule]
 
-#Dialog  Update PCB
-Update PCB(Synchronizing PCB from schematics) = 更新PCB(同步原理图与PCB)
-
-
 #Dialog Hotkey
 Change Canvas Unit = 修改画布单位
 Copy Selected Object(s) by Reference Point = 根据参考点复制元素
@@ -1419,8 +1403,8 @@ Cycle Select Object at Current Location = 循环选择当前位置的元素
 Draw Dimension=绘制尺寸
 Draw Connect=绘制连接线
 Draw CopperArea=绘制铺铜
-Change to TopLayer;<br/>Change Seleted Component's Layer to TopLayer; = 切换到顶层；<br/>切换选择的元件的层到顶层；
-Change to BottomLayer;<br/>Change Seleted Component's Layer to BottomLayer; = 切换到底层；<br/>切换选择的元件的层到底层；
+Change to TopLayer;<br/>Change Selected Component's Layer to TopLayer; = 切换到顶层；<br/>切换选择的元件的层到顶层；
+Change to BottomLayer;<br/>Change Selected Component's Layer to BottomLayer; = 切换到底层；<br/>切换选择的元件的层到底层；
 Change to Inner1=切换到内层1
 Change to Inner2=切换到内层2
 Change to Inner3=切换到内层3
@@ -1462,6 +1446,7 @@ Delete = 删除
 Attachment = 附件
 Archive = 归档
 Transfer = 转移
+Manage Project = 工程管理
 
 #Dialog Verify Package
 Footprints Verification = 检验封装
@@ -1534,19 +1519,6 @@ Surface Finish= 焊盘喷镀
 Hasl=有铅
 Hasl(Lead Free)=无铅
 ENIG=沉金
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #Dialog Hot Key config
 Restore All Default Shortcuts = 恢复全部默认快捷键
@@ -1633,7 +1605,7 @@ Conversion to PCB has failed! = 转换PCB失败
 Your username is too short! =用户名太短
 Your password is too short, it must be more than 6 characters! = 密码太短，必须大于6个字符
 Conflicting shortcut = 热键冲突
-There is an empty PCB file. Please first run Convert Project To PCB... from the schematic =这是一个空白PCB,请先打开原理图运行"原理图转PCB"
+There is an empty PCB file. Please first run Convert Schematic to PCB... from the schematic =这是一个空白PCB,请先打开原理图运行"原理图转PCB"
 This file has been modified, are you sure you want to run this simulation before saving it first? =该文档已经被修改，你确认仿真它?也许你应该先保存它。
 Please enter the Maximum Timestep! = 请填写最大步长
 Please enter the Stop Time! = 请填写终止时间
@@ -1642,7 +1614,7 @@ Either your spice netlist is too big or the server is busy. Please try again lat
 Your spice netlist is too big! Try breaking your circuit into smaller simulatable blocks. = 你的spice网络表太大，请把电路差分成子电路仿真
 Too many users in simulation. Please try again later! =太多用户正在运行仿真，稍后再尝试.
 Due to limited server resources, please wait 10 seconds for the interval in every time simulation. = 由于服务器资源限制，每次仿真请等待10秒。
-Your circuit is too complex, we have not enough CPU resouce to support this simulation, please reduce your circuit as small as you can. = 您的电路有点复杂，我们没有足够的资源来支持你的这次仿真，请尽可能简化你的电路或减少仿真时长。
+Your circuit is too complex, we have not enough CPU resource to support this simulation, please reduce your circuit as small as you can. = 您的电路有点复杂，我们没有足够的资源来支持你的这次仿真，请尽可能简化你的电路或减少仿真时长。
 Simulation is queuing, try again after 30s. = 仿真正在排队中，请稍后再试。
 Timeout = 仿真超时
 Demo accounts don't support simulation, please login first=不允许演示账号仿真，请登录
@@ -1919,7 +1891,8 @@ Project Access Control = 工程访问控制
 Reject = 拒绝
 Add User = 添加用户
 Bad email address = 错误的邮件地址
-# backend return error info
+
+# error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = 用户不存在.
 
 #Dialog waveForm
@@ -1988,7 +1961,6 @@ Theme = 主题
 Theme Setting= 主题设置
 Close=关闭
 Open=打开
-Collapse=折叠
 Toggle toolbar=打开/关闭工具栏
 Toggle left bar=打开/关闭左侧栏
 Toggle right bar=打开/关闭右侧栏
@@ -2011,10 +1983,6 @@ Update = 更新
 Bus entry= 总线分支
 Filter = 过滤
 Check = 检查
-
-
-
-
 
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = 拷贝文本框中的内容到记事本中，并保存它。你可以把内容粘贴到这里并再次编辑它。
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = 拷贝文本框中的内容到记事本中，以.svg后缀保存之。你可以用inkscape编辑它，也可以用浏览器打开它.
@@ -2442,7 +2410,7 @@ You are not authorized to share this project. = 你无权限分享该工程。
 This project is private: if you continue sharing it will be made public. = 该工程是私有工程，继续分享将公开。
 Modify file info = 修改文档信息
 Please input search keyword = 请输入搜索关键词
-Sort By = 排序
+Sort Projects by = 工程排序
 Date Created = 创建时间
 Date Modified = 修改时间
 Title = 标题
@@ -2450,7 +2418,10 @@ Ascending = 升序
 Descending = 降序
 Pin to Top = 置顶
 Unpin from Top = 取消置顶
+Collapse / Expand = 折叠 / 展开
+Expand = 展开
 Expand All = 全部展开
+Collapse = 折叠
 Collapse All = 全部折叠
 Your file hasn't been saved, do you want to save it? = 你的文件尚未保存，是否保存？
 Don't Save = 不保存
@@ -2473,6 +2444,7 @@ Please input name and prefix! = 请输入编号和名称
 Board outlines are not closed = 板子边框没有闭合
 Import Altium file fail, the file needs to be an ASCII file encoded in UTF-8. = 导入Altium文件失败，文件需为 UTF-8 编码的 ASCII 格式的文件。
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = 引脚“{0}”没有吸附在格点上！这个库在原理图里可能会产生错误。
+Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} = 保存失败！引脚编号不允许重复！以下引脚编号重复：{0}
 Check Pin = 引脚检测
 Failed to read {0} = 加载{0}失败
 {0} is invalid = {0}不可用
@@ -2504,7 +2476,7 @@ Lock = 锁定
 Please input pin name and pin number! = 请输入引脚名称和引脚编号！
 Left-Hand Panel = 左侧栏
 Right-Hand Panel = 右侧栏
-Update All = 更新全部
+Update Components from Library = 从元件库更新元件
 The pin number(s) can't find the same pad number(s) = 引脚编号未找到相同焊盘编号
 Designator = 编号
 Replace = 替换
@@ -2545,7 +2517,7 @@ Silk Screen = 丝印
 Silk Screen Color = 丝印颜色
 Display = 显示
 
-# # Array and Clone
+# Array and Clone
 Distribute Array = 阵列分布
 Array Type = 阵列类型
 Matrix Array = 矩形阵列
@@ -2718,6 +2690,9 @@ Current Length : = 当前长度 :
 Additional Length : = 要增加的长度 :
 Target Length: = 目标长度:
 Current Length: = 当前长度:
+Adjust Type = 调整类型
+Double Side = 双边
+Single Side = 单边
 
 can not connect to the server = 无法连接服务器
 
@@ -2759,7 +2734,8 @@ Switch Version = 切换版本
 Member = 成员
 Update Time = 更新时间
 Editor = 编辑者
-Current Version: = 当前版本：
+Current Version = 当前版本
+Latest Version = 最新版本
 Select a version to switch = 请选择一个版本切换
 3D Model = 3D库
 Board Side = 板面
@@ -2831,7 +2807,7 @@ Next Image = 下一组图片
 Notice: For reference only, please refer to the real product = 温馨提醒：图片仅供参考，商品以实物为准
 It's under designing, please wait. = 正在设计中，敬请期待。
 The width of track/arc/circle can not less than 0.1mil! = 导线/圆弧/圆的线宽不能小于0.1mil！
-clone success ! = 克隆成功！
+Clone success ! = 克隆成功！
 Footprint Naming Reference = 封装命名参考
 3D Model Manager = 3D模型管理器
 Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = 将跳转到立创开源硬件平台(OSHWHub.com)完善信息后进行分享。是否继续？
@@ -2851,7 +2827,7 @@ This component is unmounted = 元件不上件
 Find Next = 下一个
 Object not found = 没有找到相应元件
 
-##offset Elements
+#offset Elements
 Offset X = 偏移X
 Offset Y = 偏移Y
 Offset = 偏移
@@ -3049,7 +3025,7 @@ Found duplicated component IDs, please click "OK" to re-assign component ID auto
 
 #electromagneticSimulation
 Electromagnetic Simulation... = 电磁仿真...
-You will upload Gerebr to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = 你将上传 Gerber 到 SuperEM 进行电磁仿真(仅上传 Gerber 数据，不包含账号数据)，是否继续？
+You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = 你将上传 Gerber 到 SuperEM 进行电磁仿真(仅上传 Gerber 数据，不包含账号数据)，是否继续？
 SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM 是杭州法动科技推出的一款用于高速印刷电路板电路与微带天线结构的，三维全波电磁仿真设计软件
 Visit the SuperEM = 访问 SuperEM
 SuperEM User Guide = SuperEM使用手册
@@ -3085,11 +3061,37 @@ Also update track's net (Only applies to circumstance under which prefix/netlabe
 Cannot open online documents on Project Offline mode. = 工程离线版模式下不支持打开在线工程！
 
 Please select a project = 请选择一个工程
-Opened Projects = 已打开的工程
+Opened Projects = 已打开工程
 Open Project= 打开工程
 Close Project = 关闭工程
 Open All Projects = 打开所有工程
 Close All Projects = 关闭所有工程
+Select Owner = 选择所有者
+Select Folder = 选择文件夹
+Select Owner or Folder = 选择所有者或文件夹
+Select Project = 选择工程
+Folder = 文件夹
+New Folder = 新建文件夹
+New Sub Folder = 新建子文件夹
+Delete Folder = 删除文件夹
+Move Project = 移动工程
+Move Folder = 移动文件夹
+# Rename Folder = 重命名文件夹
+Please input the folder name = 请输入文件夹名称
+Invalid folder name = 无效的文件夹名称
+Are you sure to delete this folder? = 确定要删除该文件夹吗？
+Create new folder successfully = 新建文件夹成功
+Failed to create new folder = 新建文件夹失败
+Delete folder successfully = 删除文件夹成功
+Failed to delete folder = 删除文件夹失败
+Rename folder successfully = 重命名文件夹成功
+Failed to rename folder = 重命名文件夹失败
+Move folder successfully = 移动文件夹成功
+Failed to move folder = 移动文件夹失败
+Move project successfully = 移动工程成功
+Failed to move project = 移动工程失败
+The folder depth must not exceed {0} levels = 文件夹深度不得超过{0}层
+Failed to add project to folder = 添加工程到文件夹失败
 
 Doesn't support JLCPCB SMT Service = 不支持嘉立创贴片
 for JLCPCB SMT Service = 嘉立创贴片库存
@@ -3212,3 +3214,6 @@ Select Properties = 选择属性
 Combine the same parts' prefixes in one row = 合并相同元件的编号在同一行
 Please check at least one item! = 请至少勾选一项!
 Pins = 引脚数
+Check component latest version when open schematic = 当打开原理图时检测元件最新版本
+Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. = 注意：当 PCB 导入变更时会根据原理图绑定的封装版本进行更新 PCB。
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. = 不支持二进制的 DXF 导入，请导入 ASCII 格式的 DXF

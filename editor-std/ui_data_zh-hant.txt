@@ -1,4 +1,4 @@
-# Menu
+#Menu
 User=用戶
 Join...=註冊...
 Login...=登錄...
@@ -44,7 +44,7 @@ Edit=編輯
 Undo=撤銷
 Redo=重做
 Cut=剪切
-Copy=復製
+Copy=複製
 Paste=粘貼
 Select=選擇
 Delete=刪除
@@ -127,7 +127,7 @@ Net Port =網絡端口
 Voltage Probe =電壓探針
 Power Port=電源
 Wire=導線
-Annotation=文本註釋
+Annotation=文本注釋
 Track=導線
 Image=圖片
 Arrow Head=箭頭
@@ -145,11 +145,11 @@ Footprint... = 封裝...
 This component is deleted! = 這個元件已經被刪除！
 Convert = 轉換
 Convert Schematic to PCB = 原理圖轉PCB
-The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: = 將根據元件編號重置元件ID，該操作將清空撤銷記錄。重置前請註意：
+The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: = 將根據元件編號重置元件ID，該操作將清空撤銷記錄。重置前請注意：
 Please make sure the component prefixes of the schematic and PCB are corresponding = 請確保原理圖和 PCB 的元件編號相對應
 Please reset the component ID of corresponding schematic or corresponding PCB too = 請把對應的原理圖或者PCB也進行重置操作
 Do you want to continue? = 是否繼續？
-Reset Component ID = 重置元件ID
+Reset Component Unique ID = 重置元件唯一ID
 Component ID reset successfully! = 元件ID重置成功！
 Convert to PCB = 轉到PCB
 Update PCB =更新PCB
@@ -167,7 +167,7 @@ Welcome to Use EasyEDA = 歡迎使用EasyEDA
 Enable Education Edition Features for Free >>> = 免費開啟教育版功能>>>
 Quick Start = 快速開始
 More Help = 更多幫助
-Explore = 開源平臺
+Explore = 開源平台
 Message = 消息
 [start]
 Example = 示例工程
@@ -178,7 +178,7 @@ Videos = 視頻教程
 Custom Data = 自定義數據
 LCEDA = 立創EDA
 
-Copy Result Image = 復製圖形結果
+Copy Result Image = 複製圖形結果
 Export Result Image = 導出圖形結果
 Simulation Result = 仿真結果
 Simulation Results... = 仿真結果...
@@ -246,9 +246,6 @@ Simulation Tutorials = 仿真教程
 Updated Instructions = 更新說明
 Open File Format = 文件格式
 About Upgrade = 關於升級
-
-
-
 User Forum = 用戶論壇
 Feature Request = 功能建議
 Feature Requests = 功能建議
@@ -268,7 +265,7 @@ Terms of Service = 服務條款
 Plans and Pricing = 價格政策
 Help Translate = 幫助翻譯
 About Us = 團隊介紹
-Contact Us = 聯系我們
+Contact Us = 聯繫我們
 Change History=更新日誌
 Join Us = 誠聘英才
 #PCB Fabrication Capabilities = PCB製造能力
@@ -308,8 +305,8 @@ Teardrop... = 淚滴...
 Panelize... = 拼板...
 Check Dimension = 尺寸檢查
 Smart Dimension = 智能尺寸
-Footprint Wizard = 封裝向導
-Footprint Wizard... = 封裝向導...
+Footprint Wizard = 封裝嚮導
+Footprint Wizard... = 封裝嚮導...
 Select package type = 選擇封裝類型
 Smart Dimension Attributes = 智能尺寸屬性
 Global Delete = 全局刪除
@@ -373,7 +370,7 @@ start = 頭部
 middle = 中間
 end = 尾部
 inherit = 繼承
-comment = 註釋
+comment = 注釋
 spice = Spice仿真
 normal = 正常
 italic = 斜體
@@ -402,8 +399,8 @@ Y Radius = Y 半徑
 Switch mode = 切換模式
 The current documents will be closed, and reopen after switching mode, do you want to continue? = 將關閉當前文檔，切換模式後重新打開，是否繼續？
 PCB related documents are not allowed in emulation mode = 仿真模式下不允許打開PCB相關文檔
-Please change the editor to "Simulation" mode first at the top left corner. = 請先點擊左上角切換編輯器至“仿真”模式
-Please change the editor to "Standard" mode first at the top left corner. = 請先點擊編輯器左上角切換至“標準”模式
+Please change the editor to "Simulation" mode first at the top left corner. = 請先點擊左上角切換編輯器至「仿真」模式
+Please change the editor to "Standard" mode first at the top left corner. = 請先點擊編輯器左上角切換至「標準」模式
 Common = 通用器件
 spice.open = 斷開
 spice.close = 閉合
@@ -421,12 +418,12 @@ Powersw Settings = 電流開關設置
 Resistor Settings = 電阻設置
 Capacitor Settings = 電容設置
 Diode Settings = 二極管設置
-voltPowersw Settings = 電壓控製開關設置
+voltPowersw Settings = 電壓控制開關設置
 Inductor Settings = 電感設置
-VCVS Settings = 電壓控製電壓源設置
-CCCS Settings = 電流控製電流源設置
-VCCS Settings = 電壓控製電流源設置
-CCVS Settings = 電流控製電壓源設置
+VCVS Settings = 電壓控制電壓源設置
+CCCS Settings = 電流控制電流源設置
+VCCS Settings = 電壓控制電流源設置
+CCVS Settings = 電流控制電壓源設置
 JFET Settings = 結形場效應管設置
 FET Settings = 場效應管設置
 Transmission Line Settings = 傳輸線設置
@@ -470,7 +467,7 @@ Rectangular Wave = 矩形波
 AC = 交流
 DC = 直流源
 SINE = 正弦源
-PULSE = 脈沖源
+PULSE = 脈衝源
 EXP = 指數源
 SFFM = 單頻調頻源
 PWL = 分段線性源
@@ -485,8 +482,8 @@ Freq[Hz] = 頻率[Hz]
 Theta[1/s] = 阻尼因子[1/s]
 Tdelay[s] = 延時[s]
 Phi[deg] = 相位[deg]
-Tperiod[s] = 脈沖周期[s]
-Ton[s] = 脈沖寬度[s]
+Tperiod[s] = 脈衝周期[s]
+Ton[s] = 脈衝寬度[s]
 Tfall[s] = 下降時間[s]
 Trise[s] = 上升時間[s]
 Von[V] = 脈動值[V]
@@ -546,7 +543,7 @@ X pos.(Div): = X 軸位移(格)：
 Y pos.(Div): = Y 軸位移(格)：
 View meter... = 查看儀表...
 The circuit has components without simulation model: = 該電路存在沒有仿真模型的元器件：
-Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = 您兩次仿真的時間間隔過短，請等待 5 秒後再次嘗試；如果仍然提示該信息，可能你已經超過每天 500 次的仿真次數限製。
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = 您兩次仿真的時間間隔過短，請等待 5 秒後再次嘗試；如果仍然提示該信息，可能你已經超過每天 500 次的仿真次數限制。
 Resistor1_US = 電阻器1_美標
 Resistor1_EU/IEC = 電阻器1_歐標
 Resistor1_3D = 電阻器1_3D
@@ -576,24 +573,24 @@ Wattmeter_3D = 瓦特計_3D
 NSSWS1080T_3D = 發光二極管_3D
 Voltage_Source_VDC = 電壓源_直流源(DC)
 Voltage_Source_VSin = 電壓源_正弦源(SINE)
-Voltage_Source_VPULSE = 電壓源_脈沖源(PULSE)
+Voltage_Source_VPULSE = 電壓源_脈衝源(PULSE)
 Voltage_Source_VEXP = 電壓源_指數源(EXP)
 Voltage_Source_VSFFM = 電壓源_單頻調頻源(SFFM)
 Voltage_Source_VPWL = 電壓源_分段線性源(PWL)
 Voltage_Source_V_Behavioral_Source = 電壓源_行為源(B)
 Current_Source_IDC = 電流源_直流源(DC)
 Current_Source_ISin = 電流源_正弦源(SINE)
-Current_Source_IPULSE = 電流源_脈沖源(PULSE)
+Current_Source_IPULSE = 電流源_脈衝源(PULSE)
 Current_Source_IEXP = 電流源_指數源(EXP)
 Current_Source_ISFFM = 電流源_單頻調頻源(SFFM)
 Current_Source_IPWL = 電流源_分段線性源(PWL)
 Current_Source_I_Behavioral_Source = 電流源_行為源(B)
-CCCS_1 = 電流控製電流源_1
-CCCS_2 = 電流控製電流源_2
-CCVS_1 = 電流控製電壓源_1
-CCVS_2 = 電流控製電壓源_2
-VCCS = 電壓控製電流源
-VCVS = 電壓控製電壓源
+CCCS_1 = 電流控制電流源_1
+CCCS_2 = 電流控制電流源_2
+CCVS_1 = 電流控制電壓源_1
+CCVS_2 = 電流控制電壓源_2
+VCCS = 電壓控制電流源
+VCVS = 電壓控制電壓源
 Three_Phase_Wye_Load = 三相電源Y型
 Three_Phase_Delta_Load = 三相電源三角型
 78XX = 78系列穩壓器
@@ -650,8 +647,8 @@ OPAMP3PEE_US = 3端運算放大器_美標
 OPAMP3PEE_CN = 3端入運算放大器_國標
 OPAMP5PEE_US = 5端入運算放大器_美標
 OPAMP5PEE_CN = 5端入運算放大器_國標
-Voltage_Controlled_Switch = 電壓控製開關
-Current_Controlled_Switch = 電流控製開關
+Voltage_Controlled_Switch = 電壓控制開關
+Current_Controlled_Switch = 電流控制開關
 FUSE = 熔斷器
 Delay_Fuse = 延時熔斷器
 Transmission_Line = 傳輸線
@@ -665,8 +662,7 @@ SRNANDFFEE = 與非型基本SR觸發器
 SRNORFFEE = 或非型基本SR觸發器
 INVTSEE = 施密特反相器
 INVODEE = 集電極開路反相器
-Schmittbuffee = 施密特驅動門
-Cbuffer = 緩沖器
+Cbuffer = 緩衝器
 SPDT_Open = 單刀雙擲（斷開）
 SPDT_Close = 單刀雙擲（閉合）
 SPST_Close = 單刀單擲（閉合）
@@ -696,7 +692,7 @@ Common Anode = 共陽
 Common Cathode = 共陰
 AC Amplitude = AC幅度
 AC Phase = AC相位
-There are some parts haven't spice model, please use "EElib" and "Spice Symol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = 存在沒有仿真模型的元器件，請優先使用仿真模式下的“基礎庫”和元件庫中的“仿真符號”進行仿真，或指定仿真模型：
+There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = 存在沒有仿真模型的元器件，請優先使用仿真模式下的「基礎庫」和元件庫中的「仿真符號」進行仿真，或指定仿真模型：
 
 #Pin
 Pin Attributes = 引腳屬性
@@ -726,7 +722,7 @@ Size = 大小
 Color = 顏色
 
 #Net Label
-Net Label = 網絡標簽
+Net Label = 網絡標籤
 
 #Part
 Prefix = 編號
@@ -755,7 +751,7 @@ Rated Current = 額定電流
 resistance = 阻值
 Resistance = 阻值
 Resistance[Ω] = 阻值[Ω]
-inductance = 電感系數
+inductance = 電感係數
 Operating Temperature = 工作溫度
 Shape Invert = 圖形反轉
 Image Size = 圖片尺寸
@@ -773,8 +769,8 @@ Routing Width = 布線寬度
 [/router]
 Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = 在布線過程中，請使用快捷鍵 {0}{shiftw}{1} 或者 {2}{tab}{3} 修改線寬。
 Routing Angle = 拐角
-Routing Conflict = 布線沖突
-Remove Loop = 移除回路
+Routing Conflict = 布線衝突
+Remove Loop = 移除迴路
 Cut SilkScreen = 裁剪絲印
 Grid = 網格
 Grid 90 = 網格90
@@ -861,8 +857,8 @@ Direct = 直接
 Spoke = 輪輻狀
 Keep Island = 保留孤島
 Fill Style = 填充樣式
-CopperArea conflict: copper area outlines in same layer with different net names must not overlap = 鋪銅區沖突: 同一層的不同鋪銅區邊界不能重疊
-Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = 鋪銅完成！單擊空白區後在右邊屬性面板可以設置“鋪銅區”為“可見”。
+CopperArea conflict: copper area outlines in same layer with different net names must not overlap = 鋪銅區衝突: 同一層的不同鋪銅區邊界不能重疊
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = 鋪銅完成！單擊空白區後在右邊屬性面板可以設置「鋪銅區」為「可見」。
 Please create board outline first. = 請先創建電路板邊界
 Board outlines are not closed. = 電路板邊界沒有閉合
 Rebuild CopperArea = 重建鋪銅區
@@ -945,7 +941,7 @@ Save as a schematic = 保存為原理圖
 Save as Symbol = 保存為符號
 Save as a spice Symbol = 保存為仿真符號
 Save as a spice subckt = 保存為Spice子電路
-YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = 註意你必須創建一個與之同名的仿真符號
+YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = 注意你必須創建一個與之同名的仿真符號
 Save as a PCB file  = 保存為PCB文件
 Save as Footprint = 保存為封裝
 Save as a Schematic Module = 保存為原理圖模塊
@@ -961,7 +957,7 @@ Public (Anyone can see this project but only you can modify it.) = 公開 (只�
 Private (Only you can see and modify this project) = 私有(只能你能看到並修改它)
 Create new project success! = 新建工程成功
 You can now create files under this project = 現在可以在工程下創建文檔了
-This file must be saved under a project, choose other project or create a new project = 該文件必須保存在工程下，請選擇或新建一個過程。
+This file must be saved under a project, choose other project or create a new project = 該文件必須保存在工程下，請選擇或新建一個工程。
 Please login to save this kind of document = 請登錄後保存該文檔
 Duplicated project title = 工程標題已存在
 #Duplicated document title = 文件標題已存在
@@ -975,7 +971,7 @@ Short description = 簡短描述
 Content = 內容
 Modify this project info. = 修改該工程信息
 Modify this file info. = 修改該文檔信息
-Notice = 註意
+Notice = 注意
 Search for it before creating a new one.= 創建前先嘗試查詢一下
 Manufacturer Part Number = 製造商元器件編號
 Supplier = 供應商
@@ -1021,9 +1017,9 @@ Object = 元素
 DRC Clearance = DRC間距
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue? = 清除布線可能要多花一些時間，確定要繼續嗎？
-More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = 該導線存在多個網絡標簽，請註意是否正常，若是設計需要，可忽略當前警告。
+More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = 該導線存在多個網絡標籤，請注意是否正常，若是設計需要，可忽略當前警告。
 Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = 該網絡連接不完整，完整的網絡需要連接兩個及以上引腳，若是設計需要，可忽略當前警告。
-This netlabel is not connected with any pin. = 該網絡標簽未與任何引腳連接。
+This netlabel is not connected with any pin. = 該網絡標籤未與任何引腳連接。
 Incomplete connection, please check. = 該網絡連接不完整，請檢查。
 The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = 這兩個不同網絡的元素間距小於設計規則(DRC)的間距
 The diameter is less than Design Rule Checking (DRC) diameter = 孔外徑小於設計規則(DRC)的孔外徑
@@ -1060,7 +1056,7 @@ Modify symbol information = 修改符號信息
 Spice Prefix = 仿真編號
 Hide Pin = 隱藏引腳
 Pin Manager = 引腳管理器
-When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = 當一個電源引腳被隱藏，它將被標記為網絡標簽，你不需要連接它。如果您使用它進行仿真，請將它顯示或為它創建一個GND/VCC網絡。
+When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = 當一個電源引腳被隱藏，它將被標記為網絡標籤，你不需要連接它。如果您使用它進行仿真，請將它顯示或為它創建一個GND/VCC網絡。
 Assign = 分配
 Supplier.bom = 供應商
 LCSC.bom = LCSC編號
@@ -1121,18 +1117,10 @@ Compute the DC operating point treating capacitances as opens and inductances as
 #Dialog Share Info
 Active File = 當前文檔
 Active Project =當前工程
-
-
-
-
-
-
-
 Readonly = 只讀
 Editable = 可編輯
 Active file's owner project page = 當前文檔所屬工程的頁面
 Active project editor page = 當前工程的編輯器打開網址
-
 
 #Dialog Document Recovery
 All Projects = 所有工程
@@ -1157,7 +1145,7 @@ More = 更多
 Add Favorite = 添加收藏
 Remove Favorite = 取消收藏
 Add Sub Part = 添加子庫
-Untagged = 無標簽
+Untagged = 無標籤
 Package = 封裝
 package = 封裝
 Title(PartNO)=標題(零件名稱)
@@ -1173,7 +1161,7 @@ LCSC Assembled = 立創貼片
 JLCPCB Assembled = 嘉立創貼片
 User Contributed = 用戶貢獻
 Symbol = 符號
-Follow = 關註
+Follow = 關注
 Types = 類型
 Classes = 庫別
 power = 功率
@@ -1185,7 +1173,7 @@ Report Error = 報告錯誤
 Thanks for your feedback! = 感謝您的反饋！
 Report error success, thanks for your report! = 報告錯誤成功，感謝您的反饋！
 The content must be at least 2 characters! = 內容至少包含兩個字符！
-This library is user contributed, please check before using. = 這個庫是用戶貢獻庫，使用前請註意檢查。
+This library is user contributed, please check before using. = 這個庫是用戶貢獻庫，使用前請注意檢查。
 [lib]
 All = 全部
 System = 系統庫
@@ -1194,7 +1182,7 @@ Created = 創建的
 Favorite = 收藏的
 No Team found. Please join or create a team first. = 無團隊，請先加入或創建一個團隊。
 Create a team = 創建團隊
-No follow user found. Please follow your friend first. = 無關註用戶，請先進行關註。
+No follow user found. Please follow your friend first. = 無關注用戶，請先進行關注。
 [/lib]
 
 
@@ -1215,7 +1203,7 @@ Current Rating = 額定電流
 Rated current = 額定電流
 Resistance (Ohms) = 阻值
 Resistance(Ohms) = 阻值
-Inductance = 電感系數
+Inductance = 電感係數
 FET Type = 類型
 Current Rating(Max) = 額定電流(最大)
 Impedance @ Frequency = 阻抗@頻率
@@ -1232,7 +1220,7 @@ Zoom = 放大
 Image Type = 圖形類型
 Qualify = 品質
 0 means real size = 0代表實際尺寸
-Merged layer = 合並層
+Merged layer = 合併層
 Separated layer = 分離層
 Paged layer = 分頁層
 Layer = 層
@@ -1243,7 +1231,7 @@ BottomLayer = 底層
 TopSilkLayer = 頂層絲印層
 Protractor Attributes = 量角器屬性
 BottomSilkLayer = 底層絲印層
-#後面還有個BoardOutline,僅僅一個字母大小寫的差別
+
 BoardOutLine = 邊框層
 TopAssembly = 頂層裝配層
 BottomAssembly = 底層裝配層
@@ -1262,7 +1250,7 @@ Failed to export file = 導出文件失敗
 Download now = 立即下載
 Wire Width = 線寬
 Sheet = 頁面
-Merged sheet = 合並頁面
+Merged sheet = 合併頁面
 Separated sheet = 單獨頁面
 Engine = 引擎
 Exporting PDF = 導出PDF
@@ -1325,7 +1313,7 @@ Please check for Design Rule Checking (DRC) errors in the Design Manager. = 請�
 Please rebuild the copper area after modifying tracks and packages. = 請確保在修改封裝和布線後已經重新鋪銅。
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = 在生成Gerber後，請使用{0}Gerber預覽器{1}查看Gerber圖形是否符合設計要求。
 Order at JLCPCB = 一鍵下單PCB/SMT
-Found the complicated polygon object can not be generated at Gerber, please remove or replace = 發現復雜多邊形圖元無法輸出到 Gerber，請刪除或者更換
+Found the complicated polygon object can not be generated at Gerber, please remove or replace = 發現複雜多邊形圖元無法輸出到 Gerber，請刪除或者更換
 ID: {id}, Object: {object}, Location: {location} = ID: {id}, 圖元: {object}, 位置: {location}
 
 #Dialog DRC
@@ -1354,20 +1342,16 @@ Check Object to Board Outline = 檢測元素到邊框的距離
 Rule name already exists! = 規則已存在！
 You should not delete default rule! = 不能刪除默認的規則！
 Rule list contains invalid rule setting! = 發現有無效的規則設置！
-Duplicate rule name exists! = 發現有重復的規則名稱！
+Duplicate rule name exists! = 發現有重複的規則名稱！
 via diameter is smaller than via drill diameter! = 孔外徑比孔內徑還小！
-Currently rule name is not allowed to contain magical characters like . and $ = 目前規則名稱不允許出現“.”及“$”等特殊字符！
+Currently rule name is not allowed to contain magical characters like . and $ = 目前規則名稱不允許出現「.」及「$」等特殊字符！
 [drcRule]
 All = 全部
 [/drcRule]
 
-#Dialog  Update PCB
-Update PCB(Synchronizing PCB from schematics) = 更新PCB(同步原理圖與PCB)
-
-
 #Dialog Hotkey
 Change Canvas Unit = 修改畫布單位
-Copy Selected Object(s) by Reference Point = 根據參考點復製元素
+Copy Selected Object(s) by Reference Point = 根據參考點複製元素
 Fullscreen = 全屏
 Undo the Previous Draw = 撤銷到上次繪製
 Set Canvas Origin by Coordinate = 打開原點坐標對話框
@@ -1419,8 +1403,8 @@ Cycle Select Object at Current Location = 循環選擇當前位置的元素
 Draw Dimension=繪製尺寸
 Draw Connect=繪製連接線
 Draw CopperArea=繪製鋪銅
-Change to TopLayer;<br/>Change Seleted Component's Layer to TopLayer; = 切換到頂層；<br/>切換選擇的元件的層到頂層；
-Change to BottomLayer;<br/>Change Seleted Component's Layer to BottomLayer; = 切換到底層；<br/>切換選擇的元件的層到底層；
+Change to TopLayer;<br/>Change Selected Component's Layer to TopLayer; = 切換到頂層；<br/>切換選擇的元件的層到頂層；
+Change to BottomLayer;<br/>Change Selected Component's Layer to BottomLayer; = 切換到底層；<br/>切換選擇的元件的層到底層；
 Change to Inner1=切換到內層1
 Change to Inner2=切換到內層2
 Change to Inner3=切換到內層3
@@ -1430,7 +1414,7 @@ Place Pad=放置焊盤
 Place Via=放置過孔
 Measure=測量距離
 Change Routing Angle=改變布線角度
-Change Routing Conflict = 改變布線沖突
+Change Routing Conflict = 改變布線衝突
 Decrease Routing Width=減少線寬
 Increase Routing Width=增加線寬
 Decrease Snap Size= 減少柵格尺寸
@@ -1444,7 +1428,7 @@ Show Relative Offset Dialog When Selecting Object(s) = 當選中元素時顯示�
 Open the FAQ Page = 打開常見問題頁面
 Move Object(s) by Reference Point = 根據參考點移動元素
 Choose Favorite Track Width While Routing = 布線時改變線寬值
-Copy Selected Object(s) and Paste Repeatedly = 復製選中的元素連續粘貼
+Copy Selected Object(s) and Paste Repeatedly = 複製選中的元素連續粘貼
 
 #My Projects Tree Menu
 New Project = 新建工程
@@ -1462,6 +1446,7 @@ Delete = 刪除
 Attachment = 附件
 Archive = 歸檔
 Transfer = 轉移
+Manage Project = 工程管理
 
 #Dialog Verify Package
 Footprints Verification = 檢驗封裝
@@ -1492,7 +1477,7 @@ Load from Server = 從服務器加載
 
 
 #Dialog Schematic Library Wizard
-Symbol Wizard = 符號向導
+Symbol Wizard = 符號嚮導
 Style = 樣式
 Picture = 圖片
 Pin Names =引腳名字
@@ -1533,20 +1518,7 @@ Silver=銀色
 Surface Finish= 焊盤噴鍍
 Hasl=有鉛
 Hasl(Lead Free)=無鉛
-ENIG=沈金
-
-
-
-
-
-
-
-
-
-
-
-
-
+ENIG=沉金
 
 #Dialog Hot Key config
 Restore All Default Shortcuts = 恢復全部默認快捷鍵
@@ -1589,7 +1561,7 @@ Don't reload = 不重新加載
 No connect flag only can be placed on Pin dot or the wire which is connected one Pin. = 非連接標誌只能放置在引腳端點或者連接單個引腳的導線端點上。
 can not be placed on the wire which is placing No Connect Flag. = 不能放置在含有非連接標誌的導線上。
 The footprint transfer to LCSC library class successfully = 封裝已成功轉移到立創商城庫別
-Device/Footprint goes into "SMT Device/Footprint Verified" list successfully = 器件/封裝已經成功進入“已審核SMT器件/封裝”列表
+Device/Footprint goes into "SMT Device/Footprint Verified" list successfully = 器件/封裝已經成功進入「已審核SMT器件/封裝」列表
 
 Load failure! = 加載失敗
 Load projects failed = 加載工程列表失敗
@@ -1603,7 +1575,7 @@ Delete my work = 刪除我的作品
 Delete my work. (Only deletes it from this list but not from the server) = 刪除該文檔(僅從該列表內刪除，文檔沒有被真正的刪除)
 Do you confirm this? =你是否確認該操作?
 Successfully deleted! = 成功刪除！
-Successfully Copied! = 成功復製！
+Successfully Copied! = 成功複製！
 Cloning success! = 克隆成功!
 Your title is too short! = 你的文件標題太短!
 Remove this part = 移除這個文件
@@ -1632,8 +1604,8 @@ Only public files can be shared =只有公開文件才能被分享，當前文�
 Conversion to PCB has failed! = 轉換PCB失敗
 Your username is too short! =用戶名太短
 Your password is too short, it must be more than 6 characters! = 密碼太短，必須大於6個字符
-Conflicting shortcut = 熱鍵沖突
-There is an empty PCB file. Please first run Convert Project To PCB... from the schematic =這是一個空白PCB,請先打開原理圖運行"原理圖轉PCB"
+Conflicting shortcut = 熱鍵衝突
+There is an empty PCB file. Please first run Convert Schematic to PCB... from the schematic =這是一個空白PCB,請先打開原理圖運行"原理圖轉PCB"
 This file has been modified, are you sure you want to run this simulation before saving it first? =該文檔已經被修改，你確認仿真它?也許你應該先保存它。
 Please enter the Maximum Timestep! = 請填寫最大步長
 Please enter the Stop Time! = 請填寫終止時間
@@ -1641,14 +1613,14 @@ All of these fields are needed. = 所有選項必須填寫
 Either your spice netlist is too big or the server is busy. Please try again later. = 你的spice 網絡表太大,或者服務器太忙,稍後再嘗試
 Your spice netlist is too big! Try breaking your circuit into smaller simulatable blocks. = 你的spice網絡表太大，請把電路差分成子電路仿真
 Too many users in simulation. Please try again later! =太多用戶正在運行仿真，稍後再嘗試.
-Due to limited server resources, please wait 10 seconds for the interval in every time simulation. = 由於服務器資源限製，每次仿真請等待10秒。
-Your circuit is too complex, we have not enough CPU resouce to support this simulation, please reduce your circuit as small as you can. = 您的電路有點復雜，我們沒有足夠的資源來支持你的這次仿真，請盡可能簡化你的電路或減少仿真時長。
+Due to limited server resources, please wait 10 seconds for the interval in every time simulation. = 由於服務器資源限制，每次仿真請等待10秒。
+Your circuit is too complex, we have not enough CPU resource to support this simulation, please reduce your circuit as small as you can. = 您的電路有點複雜，我們沒有足夠的資源來支持你的這次仿真，請儘可能簡化你的電路或減少仿真時長。
 Simulation is queuing, try again after 30s. = 仿真正在排隊中，請稍後再試。
 Timeout = 仿真超時
 Demo accounts don't support simulation, please login first=不允許演示賬號仿真，請登錄
 Please login first = 請先登錄
 The schematic is showing errors, please check the simulation report carefully! =這個電路中貌似有些錯誤，請仔細閱讀仿真報告,嘗試找出這些錯誤。
-Simulation too long, maybe your schematic is too complex. = 仿真超時,也許你的電路太復雜.
+Simulation too long, maybe your schematic is too complex. = 仿真超時,也許你的電路太複雜.
 Non-simulated file = 非仿真文件
 This file can only be opened in standard mode. To open it, please switch to standard mode. = 該文件只能在標準模式打開，如要打開請切換至標準模式
 Load your preferences success! = 成功加載你的個人偏好!
@@ -1664,7 +1636,7 @@ Maximum import is 200 libs at one time! = 我們不支持一次導入多於200�
 You libraries will be found under the My Libs folder = 你的庫文件將出現在My Libs文件夾下
 Add to Library = 添加到庫中
 No items have been checked! = 沒有勾選任何器件!
-Nothing was found, please create it for yourself= 什麽也沒有找到，你可以自己創建它
+Nothing was found, please create it for yourself= 什麼也沒有找到，你可以自己創建它
 Search result = 搜索結果
 At least 3 characters needed = 最少3個英文字母
 Add to my Favorite Parts = 添加到我的收藏
@@ -1677,17 +1649,17 @@ Current circuit doesn't has Voltage Resource or Current Resource symbol, please 
 Probe can not connect with ground(GND)! = 探針不能與地(GND)連接！
 Spice symbols's attributes can't be empty. = 請完善仿真器件參數。
 Error:No Spice Symbol = 沒有仿真模型
-Simulation limit = 仿真限製
+Simulation limit = 仿真限制
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = 電路中存在萬用表，需要使用仿真命令 .tran 或 .op 進行仿真
 An oscilloscope exists in the circuit and needs to be simulated using the simulation command .tran = 電路中存在示波器，需要使用仿真命令 .tran 進行仿真
 There are components in this circuit that do not have a simulation model. Please use the base library component of the simulation mode for simulation. = 該電路存在沒有仿真模型的元器件，請使用仿真模式的基礎庫元件進行仿真。
 Circuit does not have a probe = 該電路沒有探針
 Make sure your pin numbers are even numbers = 請確認你輸入的引腳的個數是偶數
-Duplicate Components Prefix = 器件標註重復
+Duplicate Components Prefix = 器件標註重複
 All components are hidden successfully! = 全部元件隱藏成功！
 All ratlines are hidden successfully! = 全部飛線已隱藏成功！
 Hidden the ratline of net {netName} successfully! = 網絡 {netName} 的飛線隱藏成功！
-Duplicate Component Prefix = 元件標註重復
+Duplicate Component Prefix = 元件標註重複
 {0} exist = {0} 已存在
 There are some invalid packages, are you sure? = 有些封裝是無效的，你確認該操作?
 Invalid Characters, library only allows [0-9a-zA-Z-_] = 非法字符，庫文件只允許[0-9a-zA-Z-_]等字符
@@ -1704,16 +1676,16 @@ Please open a PCB document = 請打開一個PCB文檔
 Please save your file before '{0}'. = 進行{0}前請先保存你的文件。
 Please try again after saving this file. = 保存文檔後再試一次
 This text can not be empty! = 此處文本不能為空！
-Export to Altium fail, please try again or contact us. = 導出Altium失敗，請再次嘗試或聯系我們。
+Export to Altium fail, please try again or contact us. = 導出Altium失敗，請再次嘗試或聯繫我們。
 Connecting to server = 正在連接服務器
 Please login before asking for help = 尋求幫助前請先登錄
 This file has been modified, please save it first! = 該文檔已經被修改，請先保存!
 Remove this param = 移除該參數
 You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. = 不支持直接拖動元件到畫布中，請點擊元件，再移動鼠標到畫布，再點擊鼠標左鍵進行放置。
 Undo/Redo temporary error = 撤銷/重做臨時錯誤
-We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. = 撤銷重做暫時出現不可預知錯誤,我們將盡快修復這個問題, 同時你的設計作品是安全的,你可以放心繼續工作.
-The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. = 當前原理圖存在重復的元件編號，請修改它們並確保是唯一的。你可以在設計管理器中查看它們。
-Found duplicated prefix components, can not Import Changes, please modify the duplicated prefix or delete related component. = PCB存在相同編號器件，無法導入更新，請手動修改重復的編號或者刪除對應的器件。
+We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. = 撤銷重做暫時出現不可預知錯誤,我們將儘快修復這個問題, 同時你的設計作品是安全的,你可以放心繼續工作.
+The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. = 當前原理圖存在重複的元件編號，請修改它們並確保是唯一的。你可以在設計管理器中查看它們。
+Found duplicated prefix components, can not Import Changes, please modify the duplicated prefix or delete related component. = PCB存在相同編號器件，無法導入更新，請手動修改重複的編號或者刪除對應的器件。
 Please click the below help button to find out how to fix this problem. = 請點擊下面的幫助按鈕獲知如何修復這個錯誤
 Please create a board outline! Click the help button to find out how to create a board outline. = 請先創建PCB邊框, 點擊幫助按鈕了解如何創建PCB邊框
 Can not fetch files from server, please check your network and try again = 不能從服務器端獲取文檔, 檢查網絡後重試
@@ -1721,7 +1693,7 @@ Please open a schematic first! = 請先打開一個原理圖.
 Can not find the schematic of this PCB = 不能找到該PCB對應的原理圖
 invalid points! = 含有無效坐標點
 This file does not support this operation. = 該文檔不支持該操作
-Net Name Conflict = 網絡名沖突
+Net Name Conflict = 網絡名衝突
 Net name = 網絡名
 {0} are in the same wire, please remove others and just keep one. = {0} 在同一條導線上，請刪除其它的，僅保留一個
 This field can't be removed! = 該字段不能被移除
@@ -1739,12 +1711,12 @@ Skip = 跳過
 « Back = « 上一個
 Next » = 下一個 »
 Done = 完成
-This is the user management menu. = 這裏是用戶菜單
-This is the toolbar. = 這裏是頂部工具欄
-This is the navigation list. Under here you can find projects, files, parts and libraries. = 這裏是文檔導航，在這裏查看工程、文檔、庫。
-Show or hide the toolbar to the top of the window here. = 這裏是頂部工具欄切換開關
-Show, resize or hide the left sidebar to the left of the window here. = 這裏是左側欄切換開關
-Show or hide the right sidebar to the right of the window here. = 這裏是右側欄切換開關
+This is the user management menu. = 這裡是用戶菜單
+This is the toolbar. = 這裡是頂部工具欄
+This is the navigation list. Under here you can find projects, files, parts and libraries. = 這裡是文檔導航，在這裡查看工程、文檔、庫。
+Show or hide the toolbar to the top of the window here. = 這裡是頂部工具欄切換開關
+Show, resize or hide the left sidebar to the left of the window here. = 這裡是左側欄切換開關
+Show or hide the right sidebar to the right of the window here. = 這裡是右側欄切換開關
 
 #Standard libs
 Passive Components = 無源器件
@@ -1785,12 +1757,12 @@ Inductor2(EU) = 電感2(歐式)
 Battery = 電池
 Voltage Source = 電壓源
 Current Source = 電流源
-CCCS(Current Controlled Current Source) = CCCS(電流控製電流源)
-CCCS2(Current Controlled Current Source) = CCCS2(電流控製電流源)
-VCCS(Voltage Controlled Current Source) = VCCS(電壓控製電流源)
-VCVS(Voltage Controlled Voltage Source) = VCVS(電壓控製電壓源)
-CCVS(Current Controlled Voltage Source) = CCVS(電流控製電壓源)
-CCVS2(Current Controlled Voltage Source) = CCVS2(電流控製電壓源)
+CCCS(Current Controlled Current Source) = CCCS(電流控制電流源)
+CCCS2(Current Controlled Current Source) = CCCS2(電流控制電流源)
+VCCS(Voltage Controlled Current Source) = VCCS(電壓控制電流源)
+VCVS(Voltage Controlled Voltage Source) = VCVS(電壓控制電壓源)
+CCVS(Current Controlled Voltage Source) = CCVS(電流控制電壓源)
+CCVS2(Current Controlled Voltage Source) = CCVS2(電流控制電壓源)
 
 BV(Behavioral Voltage Sources) = BV(行為電壓源)
 BI(Behavioral Voltage Sources) = BI(行為電流源)
@@ -1803,8 +1775,8 @@ LED_3D = 發光二極管_3D
 Schottky Diode = 肖特基二極管
 Varactor Diode = 變容二極管
 Zener = 穩壓二極管
-Unidirectional TVS Diode = 單向瞬態電壓抑製二極管
-Bidirectional TVS Diode = 雙向瞬態電壓抑製二極管
+Unidirectional TVS Diode = 單向瞬態電壓抑制二極管
+Bidirectional TVS Diode = 雙向瞬態電壓抑制二極管
 Diac = 雙向觸發二極管
 Bridge = 整流橋
 78XX = 78系列穩壓器
@@ -1830,7 +1802,7 @@ MESFET(Nch) = 金屬半導體場效應晶體管(N溝道)
 MESFET(Pch) = 金屬半導體場效應晶體管(P溝道)
 
 IGBT = 絕緣柵雙極型晶體管
-SCR = 可控矽
+SCR = 可控硅
 Triac = 雙向晶閘管
 Transform(US) = 變壓器(美式)
 Transform(EU) = 變壓器(歐式)
@@ -1849,8 +1821,8 @@ Tube Diode = 真空二極管
 Tube Triode = 真空三極管
 Tube Tetrode = 真空四極管
 Tube Pentode = 真空五極管
-Voltage Controlled Switch = 電壓控製開關
-Current Controlled Switch = 電流控製開關
+Voltage Controlled Switch = 電壓控制開關
+Current Controlled Switch = 電流控制開關
 SPST ON = 單刀單閘(合)
 SPST OFF = 單刀單閘(開)
 Fuse = 保險絲
@@ -1895,7 +1867,7 @@ CTRL + Scroll = CTRL+滾輪
 Canvas Coordinate System = 畫布坐標系統
 SVG Coordinate = SVG坐標系
 Cartesian Coordinate = 笛卡爾坐標系
-Open Wizard Dialog for New Schematic = 新建原理圖時打開向導
+Open Wizard Dialog for New Schematic = 新建原理圖時打開嚮導
 Default Unit = 默認單位
 Canvas Zoom Effect = 畫布縮放效果
 Quality Priority = 質量優先
@@ -1903,7 +1875,7 @@ Speed Priority = 速度優先
 Rotation Step = 每次旋轉角度
 Add Teardrop Automatically = 自動添加淚滴
 Assign Net for Free Track/Arc/Circle = 為自由導線/圓弧/圓分配網絡
-Open Wizard Dialog for New PCB = 新建PCB時打開向導
+Open Wizard Dialog for New PCB = 新建PCB時打開嚮導
 Rebuild Plane Automatically = 自動重建內電層
 The Track's Routing Follows Component's Rotation = 元件旋轉時導線跟隨
 Display Pad's Number and Net = 焊盤同時顯示網絡與編號
@@ -1914,12 +1886,13 @@ Track Width Setting = 導線寬度設置
 #Dialog Access Control
 Permissions = 權限
 Operation = 操作
-Access Control = 訪問控製
-Project Access Control = 工程訪問控製
+Access Control = 訪問控制
+Project Access Control = 工程訪問控制
 Reject = 拒絕
 Add User = 添加用戶
 Bad email address = 錯誤的郵件地址
-#後端返回英文的錯誤信息
+
+# error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = 用戶不存在.
 
 #Dialog waveForm
@@ -1988,7 +1961,6 @@ Theme = 主題
 Theme Setting= 主題設置
 Close=關閉
 Open=打開
-Collapse=折疊
 Toggle toolbar=打開/關閉工具欄
 Toggle left bar=打開/關閉左側欄
 Toggle right bar=打開/關閉右側欄
@@ -2012,11 +1984,7 @@ Bus entry= 總線分支
 Filter = 過濾
 Check = 檢查
 
-
-
-
-
-Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = 拷貝文本框中的內容到記事本中，並保存它。你可以把內容粘貼到這裏並再次編輯它。
+Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = 拷貝文本框中的內容到記事本中，並保存它。你可以把內容粘貼到這裡並再次編輯它。
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = 拷貝文本框中的內容到記事本中，以.svg後綴保存之。你可以用inkscape編輯它，也可以用瀏覽器打開它.
 Content is too big to show, you can download it directly. = 內容太長無法直接顯示，你可以直接下載。
 SVG format = SVG 格式
@@ -2040,7 +2008,7 @@ This layer is invisible. = 該層為不可見狀態
 When the solid region is Board Cutout, please set the layer to Multi-Layer. = 實心填充為槽孔類型時，它的層必須設為多層。
 You should not try to assign a net to a Board Cutout solid region. = 實心填充為槽孔類型時，不應設置網絡。
 Net Length = 網絡長度
-You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = 原理圖中可以直接放置引腳，但別忘了將引腳組合到元件中。點擊幫助按鈕查看組合功能的使用。如果只是需要為導線做標記，請使用網絡端口或網絡標簽。
+You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = 原理圖中可以直接放置引腳，但別忘了將引腳組合到元件中。點擊幫助按鈕查看組合功能的使用。如果只是需要為導線做標記，請使用網絡端口或網絡標籤。
 Please input the modification = 請填寫修改的內容
 The content must be between {0} and {1} characters = 內容必須在 {0} 到 {1} 個字符之間
 
@@ -2067,7 +2035,7 @@ Exporting as = 導出為
 Exporting as image = 導出為圖片
 Exporting as {0}SVG{1} file. = 導出為{0}SVG{1}文件
 Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = 推薦導出為PDF，打印質量高，文件尺寸小。
-Generate PCB Fabrication File(Gerber) = 生成PCB製板文件(Gerber)
+Generate PCB Fabrication File(Gerber) = 生成PCB制板文件(Gerber)
 PenWidth-Increase = 線寬增量
 
 #Generate Gerber
@@ -2081,16 +2049,16 @@ Estimated Delivery Time = 快遞時間
 
 HASL(with lead) = 有鉛噴錫
 LeadFree HASL-RoHS = 無鉛噴錫
-ENIG-RoHS = 沈金
+ENIG-RoHS = 沉金
 Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = 在生成Gerber之前是否檢查設計規則(DRC)？
 Yes, Check DRC = 是，檢查DRC
 No, Generate Gerber = 否，生成Gerber
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = 該PCB存在未完成布線的網絡連接，是否檢查網絡？
 Yes, Check Connection(s) = 是，檢查網絡
 It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = 即將前往我們的兄弟公司JLCPCB完成訂單，是否繼續？
-Failed to submit your order, please contact us via support@easyeda.com for help. = 下單失敗，請聯系support@easyeda.com獲取幫助。
-Failed to submit your order, please contact us via QQ 800821856.  = 提交訂單失敗，請聯系技術支持：QQ 800821856
-Order data generated finish, please click OK button and continue. = 下單數據生成完畢，請點擊“ 確定 ”按鈕繼續。
+Failed to submit your order, please contact us via support@easyeda.com for help. = 下單失敗，請聯繫support@easyeda.com獲取幫助。
+Failed to submit your order, please contact us via QQ 800821856.  = 提交訂單失敗，請聯繫技術支持：QQ 800821856
+Order data generated finish, please click OK button and continue. = 下單數據生成完畢，請點擊「 確定 」按鈕繼續。
 [generateGerber]
 Layers = 層數
 [/generateGerber]
@@ -2142,8 +2110,8 @@ Loading = 加載中
 No Result = 沒有結果
 
 #Dialog Place Pin in schematic warning
-Place Pin in schematic warning = 在原理圖放置引腳的註意事項
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = 可以在原理圖放置引腳，但別忘了要將引腳組合為原理圖符號，點擊幫助按鈕查看用法。如果只是標註導線，請使用網絡標簽。
+Place Pin in schematic warning = 在原理圖放置引腳的注意事項
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = 可以在原理圖放置引腳，但別忘了要將引腳組合為原理圖符號，點擊幫助按鈕查看用法。如果只是標註導線，請使用網絡標籤。
 I know. Do not show this again. = 我知道了，不要再提示該信息。
 
 #Extensions Setting
@@ -2226,7 +2194,7 @@ Surface Pad = 表面焊盤
 
 #Data Sync
 Data Sync = 數據同步
-Data Conflicts = 數據沖突
+Data Conflicts = 數據衝突
 Project or Document = 工程或文檔
 Cloud-Side = 雲端
 Local-Side = 本地端
@@ -2266,7 +2234,7 @@ System Libs = 系統庫
 
 #dialog global delete
 Drawings = 其他
-Netlabel and netFlag = 網絡標簽和標識符
+Netlabel and netFlag = 網絡標籤和標識符
 Texts = 文本
 Wires = 導線
 Board outlines = 邊框
@@ -2287,7 +2255,7 @@ please input valid value of height! = 請輸入有效的高度值！
 please input valid value of radius! = 請輸入有效的半徑值！
 
 #cross probe
-The object you selected was not found in other documents. = 其他文檔裏沒有找到相應的元件。
+The object you selected was not found in other documents. = 其他文檔里沒有找到相應的元件。
 No valid object for cross probe selected. = 沒有選中能進行交叉選中的元件。
 Can not probe. Refreshing the window may get it to work. = 交叉選中失敗，刷新下試試。
 You need to login for this function to work. = 登錄後才能使用此功能。
@@ -2374,7 +2342,7 @@ Switch/Relay = 開關/繼電器
 JLCPCB = 嘉立創
 Recycle Bin = 回收站
 
-# Protractor
+#Protractor
 Font Height = 字體高度
 Precision = 精度
 Protractor = 量角器
@@ -2402,13 +2370,13 @@ It's with a letter or a number and can contain only numbers, letters, line-throu
 Updating document to new format, please wait......After finishing please save your document with Ctrl + S. = 正在更新文檔至新格式，請稍候......更新完成後請按Ctrl+S保存文件。
 Open at current project? = 在當前工程打開？
 Please select a history to recover. = 請選擇一個歷史記錄恢復。
-Be careful! When you click the "Recover" button, this sheet will be overwritten! = 請註意！若你點擊了“恢復”按鈕後，該頁會被覆蓋！
+Be careful! When you click the "Recover" button, this sheet will be overwritten! = 請注意！若你點擊了「恢復」按鈕後，該頁會被覆蓋！
 Recover = 恢復
 There is no PCB under this project, would you like to create one? = 工程下無PCB，是否創建一個？
 Please make sure that the chose Altium Designer files are saved as ASCII files. = 請確保選擇的Altium Designer文件是另存為ASCII格式的文件。
 Export to Altium function is currently in beta: = 導出Altium功能暫時在測試版：
 1. Please be sure to read the notice before exporting:  = 1、導出前請務必閱讀：
-Export Altium notice and disclaimer = 導出Altium註意事項與免責聲明
+Export Altium notice and disclaimer = 導出Altium注意事項與免責聲明
 2. Please be sure to check again after export! = 2、導出後請務必再次檢查！
 I have read and agree = 我已閱讀並同意
 Export to Altium = 導出Altium
@@ -2442,7 +2410,7 @@ You are not authorized to share this project. = 你無權限分享該工程。
 This project is private: if you continue sharing it will be made public. = 該工程是私有工程，繼續分享將公開。
 Modify file info = 修改文檔信息
 Please input search keyword = 請輸入搜索關鍵詞
-Sort By = 排序
+Sort Projects by = 工程排序
 Date Created = 創建時間
 Date Modified = 修改時間
 Title = 標題
@@ -2450,8 +2418,11 @@ Ascending = 升序
 Descending = 降序
 Pin to Top = 置頂
 Unpin from Top = 取消置頂
+Collapse / Expand = 摺疊 / 展開
+Expand = 展開
 Expand All = 全部展開
-Collapse All = 全部折疊
+Collapse = 摺疊
+Collapse All = 全部摺疊
 Your file hasn't been saved, do you want to save it? = 你的文件尚未保存，是否保存？
 Don't Save = 不保存
 Library Owner: = 庫所有者：
@@ -2472,7 +2443,8 @@ Add sub part success = 添加子庫成功
 Please input name and prefix! = 請輸入編號和名稱
 Board outlines are not closed = 板子邊框沒有閉合
 Import Altium file fail, the file needs to be an ASCII file encoded in UTF-8. = 導入Altium文件失敗，文件需為 UTF-8 編碼的 ASCII 格式的文件。
-The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = 引腳“{0}”沒有吸附在格點上！這個庫在原理圖裏可能會產生錯誤。
+The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = 引腳「{0}」沒有吸附在格點上！這個庫在原理圖里可能會產生錯誤。
+Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} = 保存失敗！引腳編號不允許重複！以下引腳編號重複：{0}
 Check Pin = 引腳檢測
 Failed to read {0} = 加載{0}失敗
 {0} is invalid = {0}不可用
@@ -2488,14 +2460,14 @@ Load Error = 加載失敗
 loading = 正在加載
 Failed to load spice data = 加載仿真數據失敗
 Netlist = 網表
-Tags = 標簽
+Tags = 標籤
 Pin Information: = 引腳信息：
-Format incorrect, please check for the extra spaces or commas! = 格式錯誤，請檢查是否有多余的空格或逗號！
+Format incorrect, please check for the extra spaces or commas! = 格式錯誤，請檢查是否有多餘的空格或逗號！
 Round Radius = 圓角半徑
 Keyword: = 關鍵詞：
 Image = 圖片
-Image copied. = 圖像已復製
-Copy failed. = 復製失敗
+Image copied. = 圖像已複製
+Copy failed. = 複製失敗
 Image Attribute = 圖片屬性
 Locked = 鎖定
 Unlock All = 解鎖全部
@@ -2504,7 +2476,7 @@ Lock = 鎖定
 Please input pin name and pin number! = 請輸入引腳名稱和引腳編號！
 Left-Hand Panel = 左側欄
 Right-Hand Panel = 右側欄
-Update All = 更新全部
+Update Components from Library = 從元件庫更新元件
 The pin number(s) can't find the same pad number(s) = 引腳編號未找到相同焊盤編號
 Designator = 編號
 Replace = 替換
@@ -2521,7 +2493,7 @@ Current Sheet = 當前頁面
 All Sheets = 全部頁面
 Kind = 種類
 Range = 範圍
-Net Label/Net Flag/Net Port/Voltage Probe = 網絡標簽/標識符/網絡端口/電壓探針
+Net Label/Net Flag/Net Port/Voltage Probe = 網絡標籤/標識符/網絡端口/電壓探針
 Bezier/Freehand Draw = 貝塞爾曲線/自由繪製
 Arc/Pie = 圓弧/餅形
 Objects Attributes = 多對象屬性
@@ -2545,7 +2517,7 @@ Silk Screen = 絲印
 Silk Screen Color = 絲印顏色
 Display = 顯示
 
-# 陣列分布與陣列克隆
+# Array and Clone
 Distribute Array = 陣列分布
 Array Type = 陣列類型
 Matrix Array = 矩形陣列
@@ -2570,7 +2542,7 @@ Number of Columns = 列數
 Number of Copies = 副本數量
 Distribute Range(Degrees) = 分布範圍(跨度)
 
-#主題顏色對話框
+# Theme color dialog
 BusEntry = 總線分支
 Foreground = 前景色
 Common Used = 常用
@@ -2591,11 +2563,11 @@ Draw = 繪圖
 Sheet = 表格
 The original theme only works for placing the new symbols. = 原始主題僅對新放置的符號有效。
 Selection Highlight = 選擇高亮
-Net Label / Port = 網絡標簽 / 端口
+Net Label / Port = 網絡標籤 / 端口
 
 My Theme = 我的主題
 My Theme Settings = 我的主題設置
-Apply 'Custom Theme' On = 在以下情形應用 “自定義主題”
+Apply 'Custom Theme' On = 在以下情形應用 「自定義主題」
 Creating New Schematic = 創建新的原理圖
 Opening Existed Schematic = 打開已存在的原理圖
 Please fill in all parameters! = 請填寫全部參數
@@ -2612,7 +2584,7 @@ Does not support multiple objects to convert to pad at the same time = 不支持
 Convert to Board Cutout = 轉為槽孔
 Convert to Pad = 轉為焊盤
 Convert to Component Shape = 轉為元件外形
-Combine to Continuous Track = 合並為連續導線
+Combine to Continuous Track = 合併為連續導線
 Convert to Solid Region = 轉為實心填充
 Substrate = 基板
 3D View = 3D預覽
@@ -2710,7 +2682,7 @@ Routing Rules = 布線規則
 Track Length Tuning... = 線長調整...
 Tracks with different net or non-track found in current targets. = 當前目標中存在不同網絡的導線或非導線。
 Please select the signal tracks to be tuning. = 請選擇要調整的信號層導線。
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = 總長度超過了設計規則(DRC)限製，是否繼續？
+The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = 總長度超過了設計規則(DRC)限制，是否繼續？
 45° Angle = 45° 角
 90° Angle = 90°角
 DRC Track Length : = DRC導線長度 :
@@ -2718,6 +2690,9 @@ Current Length : = 當前長度 :
 Additional Length : = 要增加的長度 :
 Target Length: = 目標長度:
 Current Length: = 當前長度:
+Adjust Type = 調整類型
+Double Side = 雙邊
+Single Side = 單邊
 
 can not connect to the server = 無法連接服務器
 
@@ -2759,7 +2734,8 @@ Switch Version = 切換版本
 Member = 成員
 Update Time = 更新時間
 Editor = 編輯者
-Current Version: = 當前版本：
+Current Version = 當前版本
+Latest Version = 最新版本
 Select a version to switch = 請選擇一個版本切換
 3D Model = 3D庫
 Board Side = 板面
@@ -2778,8 +2754,8 @@ Create = 創建
 3D Outline = 3D體形線
 Cannot create the slot hole via the board outline, please use the following methods: = 不支持邊框挖槽，挖槽方法請參考下方：
 Use the solid region and set its type as Board Cutout = 直接使用實心填充的槽孔
-Select a Track/Arc, right-click to use the "Convert to Board Cutout" = 選中導線或圓弧，右鍵選擇“轉為槽孔”
-Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cutout" = 全選閉合的導線或圓弧框，右鍵選擇“轉為槽孔”
+Select a Track/Arc, right-click to use the "Convert to Board Cutout" = 選中導線或圓弧，右鍵選擇「轉為槽孔」
+Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cutout" = 全選閉合的導線或圓弧框，右鍵選擇「轉為槽孔」
 The more information please refer at = 更多信息請查看
 Save "{0}" success! = 保存 "{0}" 成功！
 Save "{0}" failed! = 保存 "{0}" 失敗！
@@ -2798,16 +2774,16 @@ Please Input Name = 請輸入名稱
 Building Copper Area = 正在鋪銅
 Processing = 處理中
 Opening File = 正在打開文件
-Update from Library = 從庫裏更新
+Update from Library = 從庫里更新
 Update Footprint = 更新封裝
 Find footprint(s) have been updated, do you want to update? = 發現一些封裝有更新，是否更新？
 3D File: = 3D文件
 Model List = 模型列表
-Are you sure merge net {0} and net {1}? = 你確定合並網絡 {0} 和網絡 {1} 嗎？
+Are you sure merge net {0} and net {1}? = 你確定合併網絡 {0} 和網絡 {1} 嗎？
 Display Footprint = 顯示封裝
 Display Footprint Name While Placing Component = 放置元件顯示封裝名
 Annotate Prefix Automatically After Placing Component = 放置元件自動編號
-Program Error, Please Contact Technical Support! = 程序錯誤，請聯系技術支持。
+Program Error, Please Contact Technical Support! = 程序錯誤，請聯繫技術支持。
 Search Engine = 搜索引擎
 Keyword to Filter = 輸入關鍵字過濾
 Normal Mode = 精簡模式
@@ -2831,11 +2807,11 @@ Next Image = 下一組圖片
 Notice: For reference only, please refer to the real product = 溫馨提醒：圖片僅供參考，商品以實物為準
 It's under designing, please wait. = 正在設計中，敬請期待。
 The width of track/arc/circle can not less than 0.1mil! = 導線/圓弧/圓的線寬不能小於0.1mil！
-clone success ! = 克隆成功！
+Clone success ! = 克隆成功！
 Footprint Naming Reference = 封裝命名參考
 3D Model Manager = 3D模型管理器
-Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = 將跳轉到立創開源硬件平臺(OSHWHub.com)完善信息後進行分享。是否繼續？
-Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? = 將跳轉到EasyEDA開源硬件平臺(OSHWLab.com)完善信息後進行分享。是否繼續？
+Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = 將跳轉到立創開源硬件平台(OSHWHub.com)完善信息後進行分享。是否繼續？
+Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? = 將跳轉到EasyEDA開源硬件平台(OSHWLab.com)完善信息後進行分享。是否繼續？
 The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. = 將打開工程內容頁面，你可以補充描述和把工程設置為公開後，再點擊分享按鈕獲取分享鏈接。
 This project is not public, can not view homepage! = 工程沒有公開，無法查看工程主頁！
 
@@ -2851,7 +2827,7 @@ This component is unmounted = 元件不上件
 Find Next = 下一個
 Object not found = 沒有找到相應元件
 
-##offset Elements
+#offset Elements
 Offset X = 偏移X
 Offset Y = 偏移Y
 Offset = 偏移
@@ -2862,7 +2838,7 @@ Relative Offset... = 相對偏移...
 Reference Point X = 參考點X
 Reference Point Y = 參考點Y
 
-#內電層
+# Inner Plane layer
 Rebuild Plane = 重建內電層
 PlaneZone Properties = 內電層屬性
 Change to a plane layer is not allowed during track routing. = 在布線時不允許將導線切換到內電層。
@@ -2876,7 +2852,7 @@ Solid = 填充
 Solid Region do not allow self-intersection! = 實心填充不允許自相交！
 
 The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. =  編號或名稱或文本距離封裝太遠，如果不想讓它顯示請隱藏它。
-The prefixes are not allowed to repeat! = 編號不允許重復！
+The prefixes are not allowed to repeat! = 編號不允許重複！
 Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = 保存失敗！畫布原點沒有在圖形內部！是否自動設置原點？
 The origin of the canvas has been set in the graphics now, you can save again. = 畫布原點已設在圖形內部，你可以再次保存
 Backup Project = 備份工程
@@ -2949,7 +2925,7 @@ View Owner = 查看所有者
 View Detail = 查看詳情
 
 
-# 批量放置過孔
+# place batch vias
 Place Vias = 放置過孔
 Placing Vias = 正在放置過孔
 Removing Vias = 正在移除過孔
@@ -2970,11 +2946,11 @@ Add favorite success! = 收藏成功！
 Remove favorite success! = 取消收藏成功！
 Remove favorite failed! = 取消收藏失敗！
 Whether if remove favorite? = 是否取消收藏?
-Split by ';' for multi tags = 用分號分隔多個標簽
+Split by ';' for multi tags = 用分號分隔多個標籤
 
 This size is the determined size! = 這個尺寸是已經確定的尺寸！
 The associated pad has been locked = 相關聯的焊盤已被鎖定
-Split by space or , for multi tags = 用空格或逗號分隔多個標簽
+Split by space or , for multi tags = 用空格或逗號分隔多個標籤
 
 Rotation X = X軸旋轉
 Rotation Y = Y軸旋轉
@@ -2985,7 +2961,7 @@ start time should be earlier than stop time = 起始時間應小於結束時間
 Number of points should be less than 100 in octave variation = octave類型變化中的點數應小於100
 Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = 起始頻率應小於停止頻率。後綴meg代表Mrga，m代表milli
 Get historical records fail! = 獲取歷史記錄失敗！
-This 3D model didn't create the outlines successfully, please import it again or contact with us. = 這個 3D 模型的外形數據沒有創建成功，請再次導入或者聯系我們。
+This 3D model didn't create the outlines successfully, please import it again or contact with us. = 這個 3D 模型的外形數據沒有創建成功，請再次導入或者聯繫我們。
 There is No Tag! = 沒有分類！
 Assign successful! = 分配成功！
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = 發現封裝焊盤編號不匹配原理圖器件的引腳編號，請手動修正焊盤編號後再重試！
@@ -2993,7 +2969,7 @@ Update Attribute = 更新屬性
 Please fill in at least 5 words. = 請至少填寫 5 個字。
 Mouse hovering over the track to highlight the entire network = 鼠標懸浮在導線上高亮整個網絡
 Net Highlighting While Cursor Hover the Track = 鼠標在導線上時高亮網絡
-When circle set as "Yes", the Pin length must more than 6 = 當圓圈設置為“是”時，引腳長度需要大於 6
+When circle set as "Yes", the Pin length must more than 6 = 當圓圈設置為「是」時，引腳長度需要大於 6
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = 你好，我發現了你的一個庫可能存在錯誤。\n標題：{title}\n類型：{type}\n鏈接：{link}\n{content}\n謝謝！
 
 Logout fail! Please try again! = 退出登錄失敗！請再次嘗試！
@@ -3028,9 +3004,9 @@ This operation will unfavorite this project, do you want to continue? = 此操�
 View Homepage = 查看主頁
 Private Project = 私有工程
 3-7 days = 3-7 天
-Close Tab = 關閉標簽
-Close Other Tabs = 關閉其他標簽
-Close All Tabs = 關閉所有標簽
+Close Tab = 關閉標籤
+Close Other Tabs = 關閉其他標籤
+Close All Tabs = 關閉所有標籤
 Open in New Window = 在新窗口打開
 Cursor Snap to Component's Origin or Pad Center While Dragging Component = 移動元件時光標吸附到元件原點或焊盤中心
 Undefined = 未定義
@@ -3045,15 +3021,15 @@ Power = 電源
 
 Assign LCSC Part# = 分配立創編號
 Unexpected error while converting. Perhaps unsupported file type or program bug. = 轉換時出現意外錯誤。可能是不支持的文件類型或程序錯誤
-Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = 發現重復的器件ID，請點擊“確認”後重新自動分配器件ID，並保存文檔，再次重試。
+Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = 發現重複的器件ID，請點擊「確認」後重新自動分配器件ID，並保存文檔，再次重試。
 
 #electromagneticSimulation
 Electromagnetic Simulation... = 電磁仿真...
-You will upload Gerebr to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = 你將上傳 Gerber 到 SuperEM 進行電磁仿真(僅上傳 Gerber 數據，不包含賬號數據)，是否繼續？
+You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = 你將上傳 Gerber 到 SuperEM 進行電磁仿真(僅上傳 Gerber 數據，不包含賬號數據)，是否繼續？
 SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM 是杭州法動科技推出的一款用於高速印刷電路板電路與微帶天線結構的，三維全波電磁仿真設計軟件
 Visit the SuperEM = 訪問 SuperEM
 SuperEM User Guide = SuperEM使用手冊
-Upload Gerber to SuperEM successfully, please click "OK" buttun to continue  = 已經成功上傳 Gerber 到 SuperEM，請點擊“確定”按鈕繼續
+Upload Gerber to SuperEM successfully, please click "OK" buttun to continue  = 已經成功上傳 Gerber 到 SuperEM，請點擊「確定」按鈕繼續
 
 Format = 格式
 View = 視圖
@@ -3064,7 +3040,7 @@ Fabrication = 製造
 Check DRC = 檢查DRC
 Simulation Setting = 仿真設置
 BOM = 物料清單(BOM)
-PCB Fabrication File(Gerber) = PCB製板文件(Gerber)
+PCB Fabrication File(Gerber) = PCB制板文件(Gerber)
 Pick and Place File = 坐標文件
 Parts Order = 元件購買
 PCB Order = PCB下單
@@ -3076,26 +3052,52 @@ Place Module = 放置模塊
 Please enter identification letters: = 請輸入標識字母：
 Only support English letters, up to 5. = 僅支持英文字母，最多 5 個。
 
-Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = 模塊裏面存在未編號的元件，請先分配一個唯一的編號給元件，再進行放置。
+Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = 模塊裡面存在未編號的元件，請先分配一個唯一的編號給元件，再進行放置。
 Opening = 正在打開
 
-Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 同時更新導線的網絡(只適用於元件編號或網絡標簽變更的場景，不適用於元件或導線增刪的場景)
+Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 同時更新導線的網絡(只適用於元件編號或網絡標籤變更的場景，不適用於元件或導線增刪的場景)
 
-# 客戶端返回的錯誤提示
+# desktop client error feedback
 Cannot open online documents on Project Offline mode. = 工程離線版模式下不支持打開在線工程！
 
 Please select a project = 請選擇一個工程
-Opened Projects = 已打開的工程
+Opened Projects = 已打開工程
 Open Project= 打開工程
 Close Project = 關閉工程
 Open All Projects = 打開所有工程
 Close All Projects = 關閉所有工程
+Select Owner = 選擇所有者
+Select Folder = 選擇文件夾
+Select Owner or Folder = 選擇所有者或文件夾
+Select Project = 選擇工程
+Folder = 文件夾
+New Folder = 新建文件夾
+New Sub Folder = 新建子文件夾
+Delete Folder = 刪除文件夾
+Move Project = 移動工程
+Move Folder = 移動文件夾
+# Rename Folder = 重命名文件夾
+Please input the folder name = 請輸入文件夾名稱
+Invalid folder name = 無效的文件夾名稱
+Are you sure to delete this folder? = 確定要刪除該文件夾嗎？
+Create new folder successfully = 新建文件夾成功
+Failed to create new folder = 新建文件夾失敗
+Delete folder successfully = 刪除文件夾成功
+Failed to delete folder = 刪除文件夾失敗
+Rename folder successfully = 重命名文件夾成功
+Failed to rename folder = 重命名文件夾失敗
+Move folder successfully = 移動文件夾成功
+Failed to move folder = 移動文件夾失敗
+Move project successfully = 移動工程成功
+Failed to move project = 移動工程失敗
+The folder depth must not exceed {0} levels = 文件夾深度不得超過{0}層
+Failed to add project to folder = 添加工程到文件夾失敗
 
 Doesn't support JLCPCB SMT Service = 不支持嘉立創貼片
 for JLCPCB SMT Service = 嘉立創貼片庫存
 
-Reset failed! There are duplicate component prefixes in the current schematic: = 重置失敗！當前原理圖存在重復的元件編號：
-Reset failed! There are duplicate component prefixes in the current PCB: = 重置失敗！當前PCB存在重復的元件編號：
+Reset failed! There are duplicate component prefixes in the current schematic: = 重置失敗！當前原理圖存在重複的元件編號：
+Reset failed! There are duplicate component prefixes in the current PCB: = 重置失敗！當前PCB存在重複的元件編號：
 Please modify the component prefixes first to ensure that the component prefix is unique. = 請先修改編號確保元件編號是唯一的。
 
 LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = 立創EDA(標準版) - 免費、易用、強大的在線電路設計軟件
@@ -3103,7 +3105,7 @@ EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyE
 
 #Dialog for Package Custom Data
 Please input the data title = 請輸入數據標題
-Data title duplicated = 數據標題重復
+Data title duplicated = 數據標題重複
 Cannot be more than {0} characters! = 不能超過 {0} 個字符！
 Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = 僅限使用英文字母、數字、下劃線(_)、短橫線(-)。
 Invalid value of item {0} = {0} 項的值無效
@@ -3114,7 +3116,7 @@ Save custom data failed! = 保存自定義數據失敗
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = 將替換當前文檔的全部圖形和自定義數據，導入後請重新調整3D模型。是否繼續？
 Open footprint "Custom Data" dialog = 打開封裝自定義數據對話框
 
-#創建引腳外形
+# Create lead shape
 Create Lead Shape = 創建引腳外形
 Base on Pad Center = 基於焊盤中心
 Base on Canvas Origin = 基於畫布原點
@@ -3138,8 +3140,8 @@ The solder mask expansion of pads ({0},{1}) has a small clearance(less then 0.08
 The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less then 0.15mm), it will cause the stencil to create fail, please modify. = 焊盤 ({0},{1}) 助焊擴展或自定義錫膏層圖元間距小於 0.15mm，將導致無法正常開鋼網，請修改。
 System footprint must exist pad number 1 or A1, please modify the pad number. = 系統封裝必須存在焊盤編號是 1 或者 A1 的焊盤，請修改焊盤編號。
 System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. = 系統封裝不允許出現兩個及以上焊盤編號是 1 或者 A1 的焊盤，請修改焊盤編號。
-Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = 封裝文檔層存在圓，但 jlcPara 的 polarity 是 0，請註意檢查自定義數據。
-There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = 焊盤編號存在重復: {padNumber}，請檢查是否正常，如果正常請忽略該提示。
+Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = 封裝文檔層存在圓，但 jlcPara 的 polarity 是 0，請注意檢查自定義數據。
+There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = 焊盤編號存在重複: {padNumber}，請檢查是否正常，如果正常請忽略該提示。
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = 封裝沒有繪製元件極性層的圓形，或者標識層的圓和第一腳焊盤不在相同象限，請檢查是否正常。
 
 ROUND = 圓形
@@ -3209,6 +3211,9 @@ Save failed! Component marking circle is at the axis. Do you want to recreate th
 If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = 如果自動布線失敗，你可以導出自動布線文件(DSN)到第三方布線工具(如 Konekt Electra、Eremex TopoR等)，完成自動布線後導出會話文件(SES)，再導入PCB。
 Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = 自動布線失敗！發現異常焊盤數據異常，請手動重新調整焊盤寬高：
 Select Properties = 選擇屬性
-Combine the same parts' prefixes in one row = 合並相同元件的編號在同一行
+Combine the same parts' prefixes in one row = 合併相同元件的編號在同一行
 Please check at least one item! = 請至少勾選一項!
 Pins = 引腳數
+Check component latest version when open schematic = 當打開原理圖時檢測元件最新版本
+Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. = 注意：當 PCB 導入變更時會根據原理圖綁定的封裝版本進行更新 PCB。
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. = 不支持二進制的 DXF 導入，請導入 ASCII 格式的 DXF
