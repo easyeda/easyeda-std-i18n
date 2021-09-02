@@ -197,13 +197,13 @@ Eagle for PCB... = Eagle per PCB...
 Kicad for PCB... = Kicad per PCB...
 OrCAD for PCB... = OrCAD per PCB...
 BOM report... = Genera BOM...
-BOM for Document... = BOM per documento
-BOM for Project... = BOM per progetto
+BOM for Document... = BOM per documento...
+BOM for Project... = BOM per progetto...
 Pin Manager... = Gestisci Pin...
 Spice Model... = Modello Spice...
 Layer Manager... = Gestisci strati...
 Net Color... = Colore Net...
-Design Rule... = Regole di progettazione
+Design Rule... = Regole di progettazione...
 Copper Area = Area di rame
 Rebuild Selected = Rigenera selezionati
 Rebuild All = Ricostruisci tutto
@@ -273,7 +273,7 @@ Order Capabilities = Opzioni ordine
 Order Price = Prezzo ordine
 Order Essential Check = Verifica di base ordine
 Order FAQ = FAQ ordine
-Order Process = Processo di ordine
+Order Process = Processo dell'ordine
 Full Screen = Schermo intero
 
 Support = Supporto
@@ -306,10 +306,10 @@ Check Dimension = Controlla dimensioni
 Smart Dimension = Dimensioni intelligenti
 Footprint Wizard = Procedura guidata per Footprint
 Footprint Wizard... = Procedura guidata per Footprint...
-Select package type = Seleziona tipo di Package
+Select package type = Seleziona il tipo di package
 Smart Dimension Attributes = Proprietà dimensioni intelligenti
 Global Delete = Cancella globale
-Cross Probe = Cross Probe
+Cross Probe = Cross probe
 Cross Probe and Place = Cross Probe e piazza
 Paper Size = Dimensione del foglio
 Register = Registrati
@@ -317,7 +317,7 @@ User Center = Account
 
 By Mouse Location = Per posizione del mouse
 Set Coordinate = Imposta coordinate
-By Coordinates... = Per coordinate
+By Coordinates... = Per coordinate...
 By Center of Pads = Per centro dei pad
 By Center Grid of Symbols = Per centro della griglia dei simboli
 
@@ -325,7 +325,7 @@ By Center Grid of Symbols = Per centro della griglia dei simboli
 Properties = Proprietà
 Attributes = Attributi
 Apply = Applica
-Save as default = Salva come default
+Save as default = Salva come predefinito
 Canvas Attributes = Proprietà del foglio
 Width = Larghezza
 Height = Altezza
@@ -425,7 +425,7 @@ VCCS Settings = Impostazioni VCCS
 CCVS Settings = Impostazioni CCVS
 JFET Settings = Impostazioni JFET
 FET Settings = Impostazioni FET
-Transmission Line Settings = Impostazioni Linea di trasmissione
+Transmission Line Settings = Impostazioni linea di trasmissione
 Oscilloscope Settings = Impostazioni dell'oscilloscopio
 XFMR Settings = Impostazioni XFMR
 LOGIC Settings = Impostazioni LOGIC
@@ -538,8 +538,8 @@ Simulation file exceed = Il file di simulazione è troppo grande
 The simulation file is too large and has been stopped for performance reasons. = Il file di simulazione é troppo grande ed è stato fermato per ragioni di performance.
 Timebase = Tempo base
 Scale: = Scala:
-X pos.(Div): = pos.X(Div)
-Y pos.(Div): = pos.Y(Div)
+X pos.(Div): = pos. X(Div):
+Y pos.(Div): = pos. Y(Div):
 View meter... = Vedi misuratore...
 The circuit has components without simulation model: = Il circuito ha componenti senza il modello di simulazione:
 Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = L'intervallo di simulazione è troppo breve, attendi 5 secondi e riprova; se ancora vedi questo messaggio, potresti aver superato il limite giornaliero di simulazioni.
@@ -576,14 +576,14 @@ Voltage_Source_VPULSE = Generatore_Tensione_VPULSE
 Voltage_Source_VEXP = Generatore_Tensione_VEXP
 Voltage_Source_VSFFM = Generatore_Tensione_VSFFM
 Voltage_Source_VPWL = Generatore_Tensione_VPWL
-Voltage_Source_V_Behavioral_Source =
+Voltage_Source_V_Behavioral_Source = Generatore_tensione_V_comportamentale
 Current_Source_IDC = Generatore_Corrente_ IDC
 Current_Source_ISin = Generatore_Corrente_ISIN
 Current_Source_IPULSE = Generatore_Corrente_IPULSE
 Current_Source_IEXP = Generatore_Corrente_IEXP
 Current_Source_ISFFM = Generatore_Corrente_ISFFM
 Current_Source_IPWL = Generatore_Corrente_IPWL
-Current_Source_I_Behavioral_Source = Generatore_Corrente_I_Comportamentale
+Current_Source_I_Behavioral_Source = Generatore_corrente_I_comportamentale
 CCCS_1 = CCCS_1
 CCCS_2 = CCCS_2
 CCVS_1 = CCVS_1
@@ -596,103 +596,103 @@ Three_Phase_Delta_Load = Carico delta trifase
 79XX = 79XX
 555 = 555
 555_3D = 555_3D
-Transformer_US =
-Transformer_EU/IEC =
-Transformer_Center_Tapped_US =
-Transformer_Center_Tapped_EU/IEC =
+Transformer_US = Trasformatore_US
+Transformer_EU/IEC = Trasformatore_EU/IEC
+Transformer_Center_Tapped_US = Trasformatore_a_presa_centrale_US
+Transformer_Center_Tapped_EU/IEC = Trasformatore_a_presa_centrale_EU/IEC
 Mutual_Inductor_US =
 Mutual_Inductor_EU/IEC =
 Mutual_Inductor2_US =
 Mutual_Inductor2_EU/IEC =
-OR2EE_US =
-OR3EE_US =
-OR4EE_US =
-OR2EE_CN =
-OR3EE_CN =
-OR4EE_CN =
-NOR2EE_US =
-NOR3EE_US =
-NOR4EE_US =
-NOR2EE_CN =
-NOR3EE_CN =
-NOR4EE_CN =
-AND2EE_US =
-AND3EE_US =
-AND4EE_US =
-AND2EE_CN =
-AND3EE_CN =
-AND4EE_CN =
-NAND2EE_US =
-NAND3EE_US =
-NAND4EE_US =
-NAND2EE_CN =
-NAND3EE_CN =
-NAND4EE_CN =
-XOR2EE_US =
-XOR2EE_CN =
-XNOR2EE_US =
-XNOR2EE_CN =
-Digital_Clock_1Hz =
-Logicstate_0 =
-Logicstate_1 =
-Logic_Probe =
-Buffee =
-INVEE_US =
-INVEE_CN =
-Schmittbuffee =
-LM358N_US =
-LM358N_CN =
-OPAMP3PEE_US =
-OPAMP3PEE_CN =
-OPAMP5PEE_US =
-OPAMP5PEE_CN =
+OR2EE_US = OR2EE_US
+OR3EE_US = OR3EE_US
+OR4EE_US = OR4EE_US
+OR2EE_CN = OR2EE_CN
+OR3EE_CN = OR3EE_CN
+OR4EE_CN = OR4EE_CN
+NOR2EE_US = NOR2EE_US
+NOR3EE_US = NOR3EE_US
+NOR4EE_US = NOR4EE_US
+NOR2EE_CN = NOR2EE_CN
+NOR3EE_CN = NOR3EE_CN
+NOR4EE_CN = NOR4EE_CN
+AND2EE_US = AND2EE_US
+AND3EE_US = AND3EE_US
+AND4EE_US = AND4EE_US
+AND2EE_CN = AND2EE_CN
+AND3EE_CN = AND3EE_CN
+AND4EE_CN = AND4EE_CN
+NAND2EE_US = NAND2EE_US
+NAND3EE_US = NAND3EE_US
+NAND4EE_US = NAND4EE_US
+NAND2EE_CN = NAND2EE_CN
+NAND3EE_CN = NAND3EE_CN
+NAND4EE_CN = NAND4EE_CN
+XOR2EE_US = XOR2EE_US
+XOR2EE_CN = XOR2EE_CN
+XNOR2EE_US = XNOR2EE_US
+XNOR2EE_CN = XNOR2EE_CN
+Digital_Clock_1Hz = Clock_digitale_1Hz
+Logicstate_0 = Stato logico 0
+Logicstate_1 = Stato logico 1
+Logic_Probe = Sonda_logica
+Buffee = 
+INVEE_US = INVEE_US
+INVEE_CN = INVEE_CN
+Schmittbuffee = 
+LM358N_US = LM358N_US
+LM358N_CN = LM358N_CN
+OPAMP3PEE_US = OPAMP3PEE_US
+OPAMP3PEE_CN = OPAMP3PEE_CN
+OPAMP5PEE_US = OPAMP5PEE_US
+OPAMP5PEE_CN = OPAMP5PEE_CN
 Voltage_Controlled_Switch =
 Current_Controlled_Switch =
-FUSE =
-Delay_Fuse =
-Transmission_Line =
-Crystal =
-DFFEE =
-TFFEE =
-JKFFEE =
-SRFFEE =
-SRLATCHEE =
-SRNANDFFEE =
-SRNORFFEE =
-INVTSEE =
-INVODEE =
+FUSE = FUSIBILE
+Delay_Fuse = Fusibile ritardato
+Transmission_Line = Linea di trasmissione
+Crystal = Cristallo
+DFFEE = DFFEE
+TFFEE = TFFEE
+JKFFEE = JKFFEE
+SRFFEE = SRFFEE
+SRLATCHEE = SRLATCHEE
+SRNANDFFEE = SRNANDFFEE
+SRNORFFEE = SRNORFFEE
+INVTSEE = INVTSEE
+INVODEE = INVODEE
 Schmittbuffee =
 Cbuffer =
-SPDT_Open =
-SPDT_Close =
-SPST_Close =
-SPST_Open =
-Fast_Crystal =
+SPDT_Open = Apri_SPDT
+SPDT_Close = Chiudi_SPDT
+SPST_Close = Chiudi_SPST
+SPST_Open = Apri_SPST
+Fast_Crystal = Cristallo veloce
 Lamp = Lampadina
-BCD_Segment =
-Seven_Segment =
-Traffic_Light =
-Lamp Settings = Impostazioni Lampadina
+BCD_Segment = Segmento_BCD
+Seven_Segment = Sette_segmenti
+Traffic_Light = Semaforo
+Lamp Settings = Impostazioni della lampadina
 Power[W] = Potenza[W]
-Dropout Voltage[V] = Caduta Tensione[V]
+Dropout Voltage[V] = Caduta di tensione[V]
 Current[A] = Corrente[A]
 Threshold[V] = Soglia[V]
-Clock Rate = Frequenza Clock
-TrafficLight Settings = Impostazioni Semaforo
-BCDSegment Settings = Impostazioni BCDSegmenti
-SevenSegment Settings = Impostazioni SetteSegmenti
-SPDT Settings = Impostazioni SPDT
-SPST Settings = Impostazioni SPST
-LogicAnalyzer Settings = Impostazioni AnalizzatoreLogico
-Fuse Settings = Impostazioni Fusibile
-Wattmeter Settings = Impostazioni Misuratore Potenza
+Clock Rate = Frequenza di clock
+TrafficLight Settings = Impostazioni del semaforo
+BCDSegment Settings = Impostazioni dei segmenti BCD
+SevenSegment Settings = Impostazioni dei sette segmenti
+SPDT Settings = Impostazioni del SPDT
+SPST Settings = Impostazioni del SPST
+LogicAnalyzer Settings = Impostazioni dell'analizzatore logico
+Fuse Settings = Impostazioni del fusibile
+Wattmeter Settings = Impostazioni del misuratore di potenza
 open = apri
 close = chiudi
-Common Anode = Anodo Comune
-Common Cathode = Catodo Comune
+Common Anode = Anodo comune
+Common Cathode = Catodo comune
 AC Amplitude = Ampiezza AC
 AC Phase = Fase AC
-There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Alcune parti non hanno un modello associato, usa "EELib" e "Simbolo Spice" in "Librerie" in modalità Simulazione, oppure puoi assegnare un modello spice manualmente:
+There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Alcune parti non hanno un modello associato, usa "EELib" e "Simbolo Spice" in "Librerie" in modalità simulazione oppure puoi assegnare un modello spice manualmente:
 
 #Pin
 Pin Attributes = Proprietà Pin
@@ -710,12 +710,12 @@ name = nome
 Number = Numero
 Spice Pin Order = Ordine Pin Spice
 Display Number = Mostra Numero
-Clock =
+Clock = Clock
 Show = Mostra
 Electric = Elettrico
 
 #Junction
-Junction Attributes = Proprietà Giunzione
+Junction Attributes = Proprietà della giunzione
 X Location = Posizione X
 Y Location = Posizione Y
 Size = Dimensione
@@ -728,20 +728,20 @@ Net Label = Etichetta Net
 Prefix = Prefisso
 
 #Image Attributes and Dialog
-Add Image = Aggiungi Immagine
-Image Attributes = Proprietà Immagine
+Add Image = Aggiungi immagine
+Image Attributes = Proprietà immagine
 Image URL = URL dell'immagine
-Input an image URL = Inserisci Indirizzo URL dell'immagine
-Invalid image URL = Indirizzo URL immagine non valido
+Input an image URL = Inserisci un indirizzo URL dell'immagine
+Invalid image URL = Indirizzo URL dell'immagine non valido
 Invalid Prefix = Prefisso non valido
 Failed to load the image = Problema nel caricamento dell'immagine
 Image URL contains special characters = L'indirizzo URL dell'immagine contiene caratteri speciali
-From Web URL = Da indirizzo Web
-From Local Computer = Da Computer Locale
+From Web URL = Da indirizzo web
+From Local Computer = Da Computer locale
 Please select a png/gif/jpg file. = Per favore seleziona un file png/gif/jpg.
 Please select an image file. = Per favore seleziona un file immagine.
 Select an image file = Seleziona un file con un immagine
-Insert Image to PCB = Inserisci Immagine al PCB
+Insert Image to PCB = Inserisci immagine sul PCB
 Tolerance = Tolleranza
 tolerance = tolleranza
 capacitance = capacità
@@ -752,26 +752,26 @@ resistance = resistenza
 Resistance = Resistenza
 Resistance[Ω] = Resistenza[Ω]
 inductance = induttanza
-Operating Temperature = Temperatura Operativa
+Operating Temperature = Temperatura operativa
 Shape Invert =
-Image Size = Dimensione Immagine
-Color Tolerance = Colore Tolleranza
-Simplify Level =
-Corner Threshold =
+Image Size = Dimensione dell'immagine
+Color Tolerance = Tolleranza del colore
+Simplify Level = Livello di semplificazione
+Corner Threshold = Soglia dell'angolo
 
 #PCB Canvas Attributes
 Units = Unità
-Snap Size = Spaziatura Aggancio
+Snap Size = Spaziatura dell'aggancio
 Other = Altro
-Routing Width = Larghezza Pista
+Routing Width = Larghezza della pista
 [router]
-Routing Width = Larghezza Pista
+Routing Width = Larghezza della pista
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Usa la combinazione {0}{shiftw}{1}  o {2}{tab}{3} per cambiare la larghezza della pista durante lo sbroglio.
-Routing Angle = Angolo Sbroglio
-Routing Conflict = Conflitto Sbroglio
-Remove Loop = Rimuovi Loop
-Cut SilkScreen = Taglia Serigrafia
+Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Usa la combinazione {0}{shiftw}{1} o {2}{tab}{3} per cambiare la larghezza della pista durante lo sbroglio.
+Routing Angle = Angolo dello sbroglio
+Routing Conflict = Conflitto dello sbroglio
+Remove Loop = Rimuovi il loop
+Cut SilkScreen = Taglia la serigrafia
 Grid = Griglia
 Grid 90 = Griglia 90
 Grid 45 = Griglia 45
@@ -783,7 +783,7 @@ Block = Blocca
 RoundTrack = Aggira
 
 #Track
-Track Properties = Proprietà Pista
+Track Properties = Proprietà della pista
 Layer = Strato
 Net = Net
 Start X = Inizio X
@@ -800,35 +800,35 @@ Center X = Centro X
 Center Y = Centro Y
 Round = Rotondo
 Oval = Ovale
-Hole Shape = Forma Foro
+Hole Shape = Forma del foro
 Slot = Slot
 Hole(Length) = Foro(Larghezza)
 Plated = Metallizzato
-None =
-Paste Mask Expansion = Espansione Maschera Pasta
-Solder Mask Expansion = Espansione Maschera Saldatura
+None = Nessuno
+Paste Mask Expansion = Espansione maschera pasta
+Solder Mask Expansion = Espansione maschera saldatura
 
 #Via Properties
-Via Properties = Proprietà Via
+Via Properties = Proprietà via
 Diameter = Diametro
-Drill Diameter = Diametro Foro
+Drill Diameter = Diametro del foro
 
 #Hole Properties
-Hole Properties = Proprietà Foro
+Hole Properties = Proprietà del foro
 
 
 #TEXT
-Text Properties = Proprietà Testo
-Line Width = Larghezza Linea
+Text Properties = Proprietà del testo
+Line Width = Larghezza della linea
 Rotation = Rotazione
-Fonts Management = Gestisci Font
+Fonts Management = Gestisci font
 
 #Dimension Attributes
-Dimension Attributes = Proprietà Dimensioni
+Dimension Attributes = Proprietà dimensioni
 
 #Footprint Attributes
-Component Attributes = Proprietà Componente
-Display Prefix = Mostra Prefisso
+Component Attributes = Proprietà del componente
+Display Prefix = Mostra prefisso
 Pin Name = Nome Pin
 Pin Number = Numero Pin
 Spice Pin Number = Numero Pin Spice
@@ -836,49 +836,49 @@ Graphics = Grafica
 Pattern = Modello
 
 #Arc Properties
-Arc Properties = Proprietà Arco
-Start Angle = Inizio Angolo
-End Angle = Fine Angolo
-Rotation Direction = Direzione Rotazione
+Arc Properties = Proprietà dell'arco
+Start Angle = Inizio dell'angolo
+End Angle = Fine dell'angolo
+Rotation Direction = Direzione della rotazione
 
 #Rect Properties
-Rect Properties = Proprietà Rettangolo
+Rect Properties = Proprietà del rettangolo
 Round radius = Raggio del raccordo
 
 #Circle Properties
-Circle Properties = Proprietà Cerchio
+Circle Properties = Proprietà del cerchio
 Radius = Raggio
 
 #CopperArea Properties
-CopperArea Properties = Proprietà Aree di Rame
+CopperArea Properties = Proprietà delle aree di rame
 Clearance = Isolamento
 Pad Connection = Connessione Pad
 Direct = Diretto
 Spoke = Raggi
-Keep Island = Mantieni Isolette
-Fill Style = Stile Riempimento
+Keep Island = Mantieni le isolette
+Fill Style = Stile di riempimento
 CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Conflitto area ramata: le sagome di rame nello stesso strato ma con diverse reti non possono sovrapporsi
 Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Area di rame rigenerata! Puoi impostare la "Zona Ramata" come "Visibile" nelle proprietà del menu destro dopo aver premuto su una area vuota.
 Please create board outline first. = Prima deve essere creato il contorno della scheda.
-Board outlines are not closed. = Contorno della scheda non é chiusa.
-Rebuild CopperArea = Rigenera Area Ramata
-Edit Points = Modifica Punti
+Board outlines are not closed. = Il contorno della scheda non é chiusa.
+Rebuild CopperArea = Rigenera area ramata
+Edit Points = Modifica i punti
 Direct = Diretto
 Spoke = Raggi
-No Solid = Non Solido
-Board Cutout = Ritaglio Scheda
+No Solid = Non solido
+Board Cutout = Ritaglio della scheda
 Solid = Solido
 [copperArea]
-None =
+None = Nessuno
 [/copperArea]
 
 #Custom Attributes
-Custom Attributes = Proprietà Personalizzati
-Fixed Attributes = Proprietà Fisse
-Add new parameter = Aggiungi nuovo parametro
-Add New Parameter = Aggiungi Nuovo Parametro
-Add New Supplier = Aggiungi Nuovo Fornitore
-Mounted =
+Custom Attributes = Proprietà personalizzati
+Fixed Attributes = Proprietà fisse
+Add new parameter = Aggiungi un nuovo parametro
+Add New Parameter = Aggiungi un nuovo parametro
+Add New Supplier = Aggiungi un nuovo fornitore
+Mounted = Montato
 Unknown = Sconosciuto
 
 Custom = Personalizzato
@@ -903,21 +903,21 @@ Find the password using your email = Ripristina la password utilizzando la tua e
 
 #Dialog Login
 Login = Accesso
-Username or Email = Nome Utente o Email
+Username or Email = Nome utente o email
 Remember Me = Ricordami
-Third party =
-Login and Register = Login e Registrarsi
+Third party = 
+Login and Register = Accedi e registrati
 Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = Le informazioni di login sembrano scadute, per favore esegui nuovamente l'accesso. Non hai bisogno di chiudere i file aperti, puoi continuare a salvarli dopo l'accesso.
 
 #Dialog Reset Password
-Reset a password using your email = Reimporta la password usando la tua email
+Reset a password using your email = Reimposta la password usando la tua email
 Your registered email = Email registrata
 
 #Dialog Reaction
 Re-send an activation code to your email = Invia nuovamente il codice di attivazione alla tua email
 
 #Dialog Invite
-Invite friends to register = Invita amici per la registrazione
+Invite friends to register = Invita gli amici a registrarsi
 Your friend's email = L'email del tuo amico
 
 #Dialog Add A New Parameter
@@ -926,8 +926,8 @@ Key = Chiave
 Value.new_para = Valore.new_para
 In BOM = Nel BOM
 Add into BOM = Aggiungi al BOM
-Invalid key = Chiave invalida
-This field is required. = Questa casella é necessaria.
+Invalid key = Chiave non valida
+This field is required. = Questa campo é necessario.
 
 #Dialog Change Your Password
 Change your password = Cambia la tua password
@@ -936,34 +936,34 @@ New Password = Nuova password
 Confirm Password = Conferma password
 
 #Dialog Create New Design
-Save as a New Project = Salva come Nuovo Progetto
-Save as a schematic = Salva come Schema
-Save as Symbol = Salva come Simbolo
-Save as a spice Symbol = Salva come Simbolo Spice
-Save as a spice subckt = Salva come Sottocircuito Spice
+Save as a New Project = Salva come nuovo Pprogetto
+Save as a schematic = Salva come schema
+Save as Symbol = Salva come simbolo
+Save as a spice Symbol = Salva come simbolo Spice
+Save as a spice subckt = Salva come sottocircuito Spice
 YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = DEVI CREARE UN SIMBOLO SPICE CON LO STESSO IDENTICO NOME COME QUESTO SOTTOCIRCUITO
-Save as a PCB file = Salva come File PCB
+Save as a PCB file = Salva come file PCB
 Save as Footprint = Salva come Footprint
-Save as a Schematic Module = Salva come Modulo Schematico
-Save as a PCB Module = Salva come Modulo PCB
-Save as 3D Model = Salva come Modello 3D
-Save as a WaveForm = Salva come Forma Wave
+Save as a Schematic Module = Salva come modulo schematico
+Save as a PCB Module = Salva come modulo PCB
+Save as 3D Model = Salva come modello 3D
+Save as a WaveForm = Salva come WaveForm
 Title = Titolo
 Share = Condividi
-Add file = Aggiungi File
-Visibility = Visibile
-Allow Comments = Permetti Commenti
-Public (Anyone can see this project but only you can modify it.) = Pubblico (Solo tu potrai modificare questo progetto. Tutti potranno vederlo)
+Add file = Aggiungi file
+Visibility = Visibilità
+Allow Comments = Permetti commenti
+Public (Anyone can see this project but only you can modify it.) = Pubblico (Solo tu potrai modificare questo progetto, ma tutti potranno vederlo.)
 Private (Only you can see and modify this project) = Privato (Solo tu potrai vedere e modificare questo progetto)
 Create new project success! = Nuovo progetto creato con successo!
 You can now create files under this project = Ora puoi creare file all'interno di questo progetto
 This file must be saved under a project, choose other project or create a new project = Il file deve essere salvato in un progetto, selezionane uno o crea un nuovo progetto
-Please login to save this kind of document = Effettua il login per salvare questo tipo di documento
-Duplicated project title = Titolo progetto già presente
+Please login to save this kind of document = Accedi per salvare questo tipo di documento
+Duplicated project title = Titolo del progetto già presente
 #Duplicated document title
-Project does not exist = Progetto non esiste
-Document does not exist = Documento non esiste
-document not exists = documento non esistente
+Project does not exist = Il progetto non esiste
+Document does not exist = Il documento non esiste
+document not exists = il documento non esiste
 
 Categories = Categorie
 Project = Progetto
@@ -973,19 +973,19 @@ Modify this project info. = Modifica le informazioni di questo progetto.
 Modify this file info. = Modifica le informazioni di questo file.
 Notice = Nota
 Search for it before creating a new one. = Trovalo prima di crearlo.
-Manufacturer Part Number = Numero Parte Produttore
+Manufacturer Part Number = Numero parte del produttore
 Supplier = Fornitore
 Or = O
-Supplier Part = Parte Fornitore
-Supplier Part Number = Numero Parte Fornitore
+Supplier Part = Parte del fornitore
+Supplier Part Number = Numero parte del fornitore
 Link = Link
 link = link
-The professional function please refer at: = La funzione professionale fare riferimento a:
+The professional function please refer at: = Per la funzione professionale fare riferimento a:
 
 #Dialog Clone My Part
 #Clone it to a project
 #Clone it, then edit it
-Clone your file = Clona il documento
+Clone your file = Clona il tuo file
 
 #Dialog Subckt
 Attach a Subckt to this spice symbol = Collega un sottocircuito a questo simbolo spice
@@ -993,24 +993,24 @@ Subckt string = Stringa sottocircuito
 Spice symbol title just allow [0-9][a-z][A-Z] and _ = Il titolo del simbolo spice permette solo [0-9][a-z][A-Z] e _
 
 #Design Manager
-Design Manager = Gestisci Design
+Design Manager = Gestisci design
 Nets = Net
 DRC Errors = Errori DRC
 Are you sure you want to unroute this net? = Sei sicuro di voler disfare lo sbroglio di questa rete?
 Unroute = Disfa Sbroglio
-Track Length = Lunghezza Pista
-Via/Hole Outer Size = Dimensione Esteriore Via/Foro
+Track Length = Lunghezza della pista
+Via/Hole Outer Size = Dimensione esteriore via/foro
 Filter nets = Filtro Net
-Design Rule Checking = Controllo Regole di Progettazione
-Board Outline = Contorno Scheda
-Plane Zone =
+Design Rule Checking = Controllo delle regole di progettazione
+Board Outline = Contorno della scheda
+Plane Zone = 
 [drcRule]
 Width = Larghezza
 DRC Width = Larghezza DRC
 Length = Lunghezza
 DRC Length = Lunghezza DRC
-Drill Diameter = Diametro Foro
-DRC Drill Diameter = Diametro Foro DRC
+Drill Diameter = Diametro del foro
+DRC Drill Diameter = Diametro del foro DRC
 Diameter = Diametro
 DRC Diameter = Diametro DRC
 Object = Componente
