@@ -1312,7 +1312,7 @@ Please check the packages size and orientation carefully. = Por favor, verifique
 Please check for Design Rule Checking (DRC) errors in the Design Manager. = Por favor, verifique os erros de Checagem de Regras de Design (DRC) no Gerenciador de Design
 Please rebuild the copper area after modifying tracks and packages. = Por favor, reconstrua a área de cobre depois de modificar faixas e pacotes.
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Depois de gerar o arquivo Gerber, use o {0} Gerber Viewer {1} para verificar se ele está em conformidade com os requisitos de design.
-Order at JLCPCB = Encomendar em JLCPCB
+Order PCB/SMT at JLCPCB = Encomendar PCB/SMT em JLCPCB
 Found the complicated polygon object can not be generated at Gerber, please remove or replace =
 ID: {id}, Object: {object}, Location: {location} =
 

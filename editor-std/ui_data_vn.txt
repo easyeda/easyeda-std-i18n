@@ -1311,7 +1311,7 @@ Please check the packages size and orientation carefully. = Hãy kiểm tra cẩ
 Please check for Design Rule Checking (DRC) errors in the Design Manager. =
 Please rebuild the copper area after modifying tracks and packages. = Đảm bảo định tuyến lại đồng sau khi sửa đổi gói và dây điện
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Sau khi Gerber được tạo ra, sử dụng {0} Gerber viewer {1} để xem đồ hoạ Gerber có đáp ứng các yêu cầu thiết kế
-Order at JLCPCB = Jia Li đặt một đơn đặt hàng
+Order PCB/SMT at JLCPCB = Đặt mua PCB / SMT tại JLCPCB
 Found the complicated polygon object can not be generated at Gerber, please remove or replace =
 ID: {id}, Object: {object}, Location: {location} =
 
