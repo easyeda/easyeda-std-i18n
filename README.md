@@ -1,8 +1,12 @@
 # easyeda-i18n
 
-EasyEDA [https://easyeda.com/editor](https://easyeda.com/editor) is free and and powerful and easy to use online PCB tool, it helps a lot of people to bring the idea to real design. If you using EasyEDA and love to share it to your conutry people, please help us to make a translation. 
+EasyEDA [https://easyeda.com/editor](https://easyeda.com/editor) 
 
-This porject is EasyEDA editor and website i18n files, the more language translations contribution will be welcome.
+EasyEDA is a free and and powerful and easy to use online PCB tool, it helps a lot of people to bring the idea to real design. 
+
+If you using EasyEDA and love to share it or your public projects with your conutry friends, please help us to make a translation. 
+
+This porject is EasyEDA editor and website i18n locale files, the more language translations contribution will be welcome.
 
 ![图片](https://user-images.githubusercontent.com/29702100/130799335-daf481c8-314b-4fd2-89ea-023261a14248.png)
 

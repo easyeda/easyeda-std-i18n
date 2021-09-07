@@ -1,4 +1,4 @@
-﻿# Menu
+# Menu
 User= Kullanıcı
 Join...= Katıl...
 Login...= Giriş...
@@ -1312,7 +1312,7 @@ Please check the packages size and orientation carefully. = Lütfen paket boyutu
 Please check for Design Rule Checking (DRC) errors in the Design Manager. = Lütfen Tasarım Yöneticisi'nde Tasarım Kuralı Denetimi (DRC) hatalarını kontrol edin.
 Please rebuild the copper area after modifying tracks and packages. = Lütfen hatları ve paketleri değiştirdikten sonra bakır alanını yeniden oluşturun.
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Gerber dosyasını oluşturduktan sonra, tasarım gereksinimlerine uygun olup olmadığını kontrol etmek için lütfen {0}Gerber Görüntüleyici{1} kullanın.
-Order at JLCPCB = JLCPCB'den sipariş verin
+Order PCB/SMT at JLCPCB = JLCPCB'den PCB/SMT sipariş verin
 Found the complicated polygon object can not be generated at Gerber, please remove or replace = Gerber'de oluşturulamayan karmaşık poligon nesnesi bulundu , lütfen kaldırın veya değiştirin.
 ID: {id}, Object: {object}, Location: {location} = Kimlik: {id}, Nesne: {object}, Konum: {location}
 

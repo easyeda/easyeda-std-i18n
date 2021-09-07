@@ -1,4 +1,4 @@
-﻿#Menu
+# Menu
 User=用户
 Join...=注册...
 Login...=登录...
@@ -1312,7 +1312,7 @@ Please check the packages size and orientation carefully. =请仔细检查封装
 Please check for Design Rule Checking (DRC) errors in the Design Manager. = 请在设计管理器检查设计规则(DRC)错误。
 Please rebuild the copper area after modifying tracks and packages. = 请确保在修改封装和布线后已经重新铺铜。
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = 在生成Gerber后，请使用{0}Gerber预览器{1}查看Gerber图形是否符合设计要求。
-Order at JLCPCB = 一键下单PCB/SMT
+Order PCB/SMT at JLCPCB = 一键下单PCB/SMT
 Found the complicated polygon object can not be generated at Gerber, please remove or replace = 发现复杂多边形图元无法输出到 Gerber，请删除或者更换
 ID: {id}, Object: {object}, Location: {location} = ID: {id}, 图元: {object}, 位置: {location}
 
