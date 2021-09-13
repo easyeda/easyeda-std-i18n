@@ -1494,13 +1494,13 @@ Annotate = Annota
 Scope =
 Active Schematic only = Solo schema attivo
 All Opened Schematics = Tutti gli schemi aperti
-Method = metodo
+Method = Metodo
 Re-annotate all =
 Keep existing annotation =
 Direction = Direzione
 Rows = Righe
 Cols = Colonne
-Reset =
+Reset = Reimposta
 
 #Dialog Order
 Order... = Ordina...
@@ -1713,7 +1713,7 @@ Some files failed to load. Please reload the page. =
 #UI Intro
 Skip = Ignora
 « Back = « Precedente
-Next » = Prossimo »
+Next » = Successivo »
 Done = Fatto
 This is the user management menu. = Questo è il menu di gestione degli utenti.
 This is the toolbar. = Questa è la barra degli strumenti.
@@ -2282,7 +2282,7 @@ Clearance cannot be empty = Isolamento non può essere vuoto
 Router is time out. = 
 Server is busy, please try again later. = Il server è occupato, riprova più tardi.
 Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) =
-Track Width is invalid = Il valore della larghezza della traccia non è esatta
+Track Width is invalid = Il valore della larghezza della traccia non è esatto
 General Clearance is invalid = Il valore dell'isolamento generale non è esatto
 SMD Clearance is invalid = Il valore dell'isolamento SMD non è esatto
 Diameter is invalid = Il valore del diametro non è esatto
@@ -2435,12 +2435,12 @@ Please select! = Per favore seleziona!
 Route = Sbroglio
 Import successfully: = Importato con successo:
 Import failed: = Impossibile importare:
-The title length must be between 2~128 characters. = La lunghezza del titolo deve essere compresa tra 2~128 caratteri.
+The title length must be between 2~128 characters. = La lunghezza del titolo deve essere compresa tra 2 e 128 caratteri.
 Path only contain 'a-z、A-Z、- 、 _ 、0-9'! =
 Path must begin as 'a-z、A-Z、0-9'! =
 The path length must be between 4~128 characters! =
-The title length must be between 2~256 characters! =
-The title can not less than 3 charaters! =
+The title length must be between 2~256 characters! = La lunghezza del titolo deve essere compresa tra 2 e 256 caratteri!
+The title can not less than 3 charaters! = Il titolo non può essere inferiore a 3 caratteri!
 Do you want to delete this file? = Vuoi eliminare questo file?
 Add sub part success =
 Please input name and prefix! = Inserisci nome e prefisso!
@@ -2448,21 +2448,21 @@ Board outlines are not closed =
 Import Altium file fail, the file needs to be an ASCII file encoded in UTF-8. =
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. =
 Check Pin = Controlla pin
-Failed to read {0} =
-{0} is invalid =
-{0} not found =
+Failed to read {0} = Impossibile leggere {0}
+{0} is invalid = {0} non è valido
+{0} not found = {0} non è stato trovato
 Failed to execute script: = Impossibile eseguire lo script:
-One or more js files not found =
-Only ONE {0} file is required =
-Extension ID is required =
-Extension ID is invalid =
-Extension ID is duplicated =
+One or more js files not found = Uno o più file js non sono stati trovati
+Only ONE {0} file is required = Solo UN {0} file è richiesto
+Extension ID is required = L'ID dell'estensione è obbligatoria
+Extension ID is invalid = L'ID dell'estensione è errata
+Extension ID is duplicated = L'ID dell'estensione è duplicata
 No Result! = Nessun risultato!
 Load Error = Si è verificato un errore durante il caricamento
 loading =
 Failed to load spice data =
 Netlist = Netlist
-Tags =
+Tags = Tag
 Pin Information: = Informazione del pin:
 Format incorrect, please check for the extra spaces or commas! =
 Round Radius =
@@ -2561,7 +2561,7 @@ Bus Entry = Bus entry
 Foreground = Primo piano
 Symbol Graphics = Grafica dei simboli
 Common Used = Uso comune
-Draw =
+Draw = Disegno
 Sheet = Foglio
 The original theme only works for placing the new symbols. =
 Selection Highlight = Evidenzia la selezione
@@ -2597,7 +2597,7 @@ Number Color = Colore del numero
 Dot = Punto
 
 [theme]
-Sheet =
+Sheet = Foglio
 [/theme]
 
 
@@ -2609,7 +2609,7 @@ Editor =
 View File History =
 Save Time =
 
-Invalid Format =
+Invalid Format = Il formato non è valido
 
 #Dialog Teardrop
 Round Pad / Via =
@@ -2621,11 +2621,11 @@ Progressing... =
 
 No schematic in the project! =
 
-Move Forward =
-Move Backward =
+Move Forward = Sposta avanti
+Move Backward = Sposta indietro
 
 #Dialog Panelize
-V-CUT =
+V-CUT = V-CUT
 Stamp Hole =
 No Panelize =
 Border and Marking =
@@ -2634,31 +2634,31 @@ Border Height =
 Border Position =
 Create Positioning Holes =
 Create Fiducial Marks =
-Top and Bottom =
-Left and Right =
+Top and Bottom = Sopra e sotto
+Left and Right = Sinistra e destra
 Stamp Hole Group - Column =
 Stamp Hole Group - Row =
-The number of rows and columns cannot be set to 1 simultaneously =
+The number of rows and columns cannot be set to 1 simultaneously = Il numero di righe e di colonne non può essere impostato contemporaneamente su 1
 
 #edit path point
 [editPathPoints-dlg]
-Arc(R) =
+Arc(R) = Arco(R)
 Type = Tipo
-Action =
-add before =
-add after =
-delete =
+Action = Azione
+add before = aggiungi prima
+add after = aggiungi dopo
+delete = elimina
 [/editPathPoints-dlg]
 
 #edit polygon point
 [editPolygonPoints-dlg]
-Action =
-add before =
-add after =
-delete =
+Action = Azione
+add before = aggiungi prima
+add after = aggiungi dopo
+delete = elimina
 [/editPolygonPoints-dlg]
-You have unconfirmed edit! =
-Invalid edit! =
+You have unconfirmed edit! = Hai una modifica non confermata!
+Invalid edit! = Modifica non valida!
 
 #Dialog PCB Information
 PCB Information... = Informazioni PCB...
@@ -2737,7 +2737,7 @@ Current Version: = Versione attuale:
 Select a version to switch = Seleziona una versione da cambiare
 3D Model = Modello 3D
 Board Side = Lato bordo
-Display = Schermo
+Display =
 Copper = Rame
 Create New Version = Crea una nuova versione
 Create new version success! = Nuova versione creata con successo!
@@ -2773,13 +2773,13 @@ Building Copper Area = Costruzione dell'area ramata
 Processing = In lavorazione
 Opening File = Apertura del file
 Update from Library = Aggiorna dalla libreria
-Update Footprint = Aggiorna Footprint
+Update Footprint = Aggiorna footprint
 Find footprint(s) have been updated, do you want to update? =
 3D File: = File 3D:
-Model List =
+Model List = Lista dei modelli
 Are you sure merge net {0} and net {1}? = Sei sicuro di voler unire la net {0} con la net {1}?
-Display Footprint = Mostra Footprint
-Display Footprint Name While Placing Component = Mostra il nome della Footprint mentre posizioni il componente
+Display Footprint = Mostra footprint
+Display Footprint Name While Placing Component = Mostra il nome della footprint mentre posizioni il componente
 Annotate Prefix Automatically After Placing Component = Annota automaticamente il prefisso dopo aver posizionato il componente 
 Program Error, Please Contact Technical Support! = Errore del programma, contattare il supporto tecnico!
 Search Engine = Motore di ricerca
@@ -2798,7 +2798,7 @@ Document = Documento
 [/pcblayer]
 
 Adjustment = Regolazione
-View Larger Image =
+View Larger Image = Visualizza immagine più grande
 Previous = Precedente
 Previous Image = Immagine precedente
 Next Image = Immagine successiva
@@ -2849,11 +2849,11 @@ Solid = Solido
 
 Solid Region do not allow self-intersection! =
 
-The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. =
-The prefixes are not allowed to repeat! =
-Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? =
-The origin of the canvas has been set in the graphics now, you can save again. =
-Backup Project =
+The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. = Il prefisso, il nome o il testo è troppo lontano dal footprint, se non vuoi che venga visualizzato, nascondilo.
+The prefixes are not allowed to repeat! = I prefissi non possono essere ripetuti!
+Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = Impossibile salvare! L'origine di canvas non è nella grafica! Vuoi impostare l'origine automaticamente?
+The origin of the canvas has been set in the graphics now, you can save again. = Adesso l'origine di canvas è stata impostata nella grafica, puoi salvare di nuovo.
+Backup Project = Progetto di backup
 Open Project Directory = Apri la cartella del progetto
 
 {0} items updated = {0} oggetti aggiornati
@@ -2862,12 +2862,12 @@ The current file {0} has an updated version. Do you want to overwrite it? If you
 Yes, Overwrite It = Sì, sovrascrivilo
 No, Keep It = No, lascialo così
 
-Download Client =
+Download Client = Scarica client
 
-Search tutorial、open source projects etc. =
+Search tutorial、open source projects etc. = Cerca tutorial, progetti open source ecc.
 
-Go to LCSC and search for =
-Go to LCSC =
+Go to LCSC and search for = Vai su LCSC e cerca
+Go to LCSC = Vai su LCSC
 
 Hide Ratline Layer and Keep the Component Prefix When Paste Objects =
 
@@ -2876,21 +2876,21 @@ Copper.layer =
 Non-Copper.layer =
 Other.layer =
 
-Please enter at least 2 characters! =
-View Datasheet =
-View Datasheet... =
+Please enter at least 2 characters! = Digita almeno 2 caratteri!
+View Datasheet = Mostra datasheet
+View Datasheet... = Mostra datasheet...
 
 The corresponding package or network could not be found in the currently open PCB document =
 delete fail =
 
 [crashRecovery]
-Libraries =
+Libraries = Librerie
 [/crashRecovery]
-Canvas origin anomaly! =
+Canvas origin anomaly! = Anomalia dell'origine canvas!
 
-Component's Name =
-Component's Prefix =
-Component's Footprint =
+Component's Name = Nome del componente
+Component's Prefix = Prefisso del componente
+Component's Footprint = Footprint del componente
 
 [findlib]
 Clear = Cancella
@@ -2908,72 +2908,72 @@ Object = Oggetto
 Layers and Objects = Strati e oggetti
 All = Tutto
 
-Add custom =
+Add custom = Aggiungi personalizzato
 
 Connections = Connessioni
-Attempted: =
-Completed: =
-Failed: =
-Total Vias: =
+Attempted: = Tentativi:
+Completed: = Completati:
+Failed: = Falliti:
+Total Vias: = Via totali:
 
-Please confirm moving option =
-Only this pad =
-For this component =
-View Owner =
+Please confirm moving option = Conferma l'opzione di spostamento
+Only this pad = Solo questa pad
+For this component = Per questo componente
+View Owner = Mostra proprietario
 View Detail = Mostra dettaglio
 
 
 # place batch vias
-Place Vias =
-Placing Vias =
-Removing Vias =
+Place Vias = Posiziona via
+Placing Vias = Posiziona via
+Removing Vias = Rimuovi via
 Batch Vias for Copper =
-Add/Remove Vias =
+Add/Remove Vias = Aggiungi/Rimuovi via
 Diameter = Diametro
-Drill Diameter =
-Column Spacing =
-Row Spacing =
+Drill Diameter = Diametro del foro
+Column Spacing = Spaziatura tra le colonne
+Row Spacing = Spaziatura tra le righe
 Multiple vias have been placed, do you want to rebuild the copper area? =
 Remove vias finish, do you want to rebuild the copper area? =
-The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! =
-Save fail! Please try again! =
+The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! = La larghezza della traccia/arco/cerchio non può essere inferiore a 0.051mm/2mil/0.002pollici!
+Save fail! Please try again! = Impossibile salvare! Riprova!
 Please select a copper outline =
-Can't find copper area at other layers, please add the copper area with the same net at other layer first. =
+Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Impossibile trovare l'area ramata sugli altri livelli, aggiungere prima l'area ramata con la stessa net sull'altro livello.
 
-Add favorite success! =
-Remove favorite success! =
-Remove favorite failed! =
-Whether if remove favorite? =
-Split by ';' for multi tags =
+Add favorite success! = Aggiungi ai preferiti
+Remove favorite success! = Rimosso dai preferiti!
+Remove favorite failed! = Impossibile rimuovere dai preferiti
+Whether if remove favorite? = Rimuovere dai preferiti?
+Split by ';' for multi tags = Diviso da ';' per tag multipli
 
-This size is the determined size! =
-The associated pad has been locked =
-Split by space or , for multi tags =
+This size is the determined size! = Questa è la dimensione determinata!
+The associated pad has been locked = Il pad associato è stato bloccato!
+Split by space or , for multi tags = Diviso da spazio oppure , per tag multipli
 
 Rotation X = Rotazione X
 Rotation Y = Rotazione Y
 Rotation Z = Rotazione Z
 
-Some fields are filled invalid data =
-start time should be earlier than stop time =
-Number of points should be less than 100 in octave variation =
-Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli =
-Get historical records fail! =
-This 3D model didn't create the outlines successfully, please import it again or contact with us. =
-There is No Tag! =
-Assign successful! =
-Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
-Update Attribute =
-Please fill in at least 5 words. =
-Mouse hovering over the track to highlight the entire network =
-Net Highlighting While Cursor Hover the Track =
-When circle set as "Yes", the Pin length must more than 6 =
-Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! =
+Some fields are filled invalid data = Alcuni campi contengono dei dati errati
+start time should be earlier than stop time = l'ora di inizio dovrebbe essere antecedente all'ora di fine
+Number of points should be less than 100 in octave variation = Il numero di punti deve essere inferiore a 100 nella variazione di ottava
+Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = La frequenza di avvio deve essere inferiore alla frequenza di arresto. Il suffisso meg sta per Mega, m sta per milli
+Get historical records fail! = Impossibile recuperare i dati storici!
+This 3D model didn't create the outlines successfully, please import it again or contact with us. = Questo modello 3D non ha creato correttamente i contorni, importalo di nuovo oppure contattaci.
+There is No Tag! = Non c'è nessun tag!
+Assign successful! = Assegnazione riuscita!
+Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = Il numero del pad del footprint trovato non corrisponde al numero del pin del componente dello schema, correggi il numero del pad e riprova!
+Update Attribute = Aggiorna attributi
+Please fill in at least 5 words. = Inserisci almeno 5 parole
+Mouse hovering over the track to highlight the entire network = Passa il mouse sopra la traccia per evidenziare l'intera rete
+Net Highlighting While Cursor Hover the Track = Evidenzia la net mentre il cursore del mouse passa sulla traccia
+When circle set as "Yes", the Pin length must more than 6 = Quando il cerchio è impostato su "Sì", la lunghezza del pin deve essere maggiore di 6
+Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Ho riscontrato un problema con la tua libreria, questa libreria sembra errata.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nGrazie!
 
-Logout fail! Please try again! = Logout fallito! Prova nuovamente!
-Logout success! We look forward you to use LCEDA again! = Logout effettuato con successo! Speriamo tu possa usare LCEDA nuovamente!
-Logout success! We look forward you to use EasyEDA again! = Logout effettuato con successo! Speriamo tu possa usare EasyEDA nuovamente!
-Click to Preview 3D = Premi per Anteprima 3D
+Logout fail! Please try again! = Logout fallito! Prova di nuovo!
+Logout success! We look forward you to use LCEDA again! = Logout effettuato con successo! Speriamo che tu possa usare di nuovo LCEDA!
+Logout success! We look forward you to use EasyEDA again! = Logout effettuato con successo! Speriamo che tu possa usare di nuovo EasyEDA!
+Click to Preview 3D = Clicca per l'anteprima 3D
 [logoutDialog]
 Logout = Esci
 [/logoutDialog]
@@ -2985,18 +2985,18 @@ All = Tutti
 Export Pick and Place File = Esporta file Pick e Place
 Mirror the bottom component's X coordinate (JLCPCB doesn't need) =
 Work Space = Area di lavoro
-Include panelized components' coordinates =
+Include panelized components' coordinates = Includi le coordinate dei componenti pannellati
 Personal Workspace = Area di lavoro personale
 Work Space - {name} = Area di lavoro - {name}
 Work Space - Personal = Area di lavoro - personale
-Cloning =
+Cloning = Clonazione
 
 Project Owner = Proprietario del progetto
 Clone Project = Clona il progetto
 Homepage = Homepage
 Apply for Education Edition = Applica per l'edizione Education
 Load Organization failed = Impossibile caricare l'organizzazione
-Joined =
+Joined = 
 Favorite = Preferito
 This operation will unfavorite this project, do you want to continue? =
 View Homepage = Vedi la homepage
@@ -3008,7 +3008,7 @@ Close All Tabs = Chiudi tutti i tab
 Open in New Window = Apri in una nuova finestra
 Cursor Snap to Component's Origin or Pad Center While Dragging Component = Aggancia il cursore all'origine o al centro del componente quando trascinato
 Undefined = Non definito
-Input =
+Input = Ingresso
 Model Unit =
 File Unit =
 This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? =
@@ -3046,7 +3046,7 @@ SIM = SIM
 STD = STD
 WaveForm = Forma d'onda
 
-Place Module =
+Place Module = Posiziona modulo
 Please enter identification letters: = Digita le lettere di identificazione:
 Only support English letters, up to 5. = Supporta solo lettere inglesi, fino a 5.
 
@@ -3145,9 +3145,9 @@ Can't find the circle at the component marking layer, or this circle doesn't at 
 ROUND = 
 RECTANGLE = RETTANGOLO
 OCTAGONAL = OTTAGONALE
-Upper left =
-Lower left =
-Center of Pads =
+Upper left = Superiore sinistro
+Lower left = Inferiore sinistro
+Center of Pads = Centro dei pad
 First Pin = Primo pin
 Package Name =
 Pins Number = Numeri dei pin
@@ -3165,34 +3165,34 @@ Pin Length = Lunghezza del pin
 Pin Height = Altezza del pin
 Pin Solid Width =
 Pin Solid Height =
-Pin Spacing =
-Pin Horizontal Spacing =
-Pin Vertical Spacing =
+Pin Spacing = Spaziatura pin
+Pin Horizontal Spacing = Spaziatura orizzontale pin
+Pin Vertical Spacing = Spaziatura verticale pin
 ThermalPad =
-Pad Expansion =
+Pad Expansion = Espansione pad
 Custom PasteMask =
-Fabrication Tolerance =
+Fabrication Tolerance = Tolleranza di fabbricazione
 Plcarment Tolerance =
-FirstPin Position =
+FirstPin Position = Posizione del primo pin
 Package Origin =
-Expansion Size =
-Corner =
-Angle =
+Expansion Size = Dimensione di espansione
+Corner = Angolo
+Angle = Angolo
 Fillet =
-Chamfer =
-Update Preview =
-Number of pins (left and right) =
-Number of pins (up and down) =
+Chamfer = Smussa
+Update Preview = Aggiorna anteprima
+Number of pins (left and right) = Numero di pin (sinistra e destra)
+Number of pins (up and down) = Numero di pin (sopra e sotto)
 Reference Use Cases =
 Package Type =
-Capacitance =
-Resistance =
-Bidirectional Diode =
-Inductance =
-Crystal Oscillator =
-Diode =
-LED =
-Fuse =
+Capacitance = Capacità
+Resistance = Resistenza
+Bidirectional Diode = Diodo bidirezionale
+Inductance = Induttanza
+Crystal Oscillator = Oscillatore a cristallo
+Diode = Diodo
+LED = LED
+Fuse = Fusibile
 Entity height =
 Lead Overhang =
 Lead Thickness =
@@ -3204,12 +3204,12 @@ Create Component Marking =
 Create component marking successfully! =
 No elements on component shape layer! =
 No elements on lead shape layer! =
-No pad of number 1 or A1, please modify the pad number. =
-Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? =
-If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. =
-Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: =
-Select Properties =
-Combine the same parts' prefixes in one row =
-Please check at least one item! =
-Pins =
+No pad of number 1 or A1, please modify the pad number. = Nessun pad del numero 1 o A1, modificare il numero del pad.
+Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = Impossibile salvare! Il cerchio di marcatura del componente è sull'asse. Vuoi ricreare la marcatura del componente?
+If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = Se lo sbroglio automatico non andasse a buon fine, puoi esportare il file di autoroute (DSN) in uno strumento di terze parti (come: Konekt Electra, Eremex TopoR ecc.) ed esportare il file di sessione (SES) dopo aver terminato lo sbroglio, quindi importare su PCB.
+Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = Impossibile effettuare lo sbroglio automatico! Sono stati rilevati dati anomali del pad, modificare la larghezza e l'altezza del pad:
+Select Properties = Seleziona proprietà
+Combine the same parts' prefixes in one row = Combina i prefissi delle stesse parti in una riga
+Please check at least one item! = Controlla almeno un elemento!
+Pins = Pin
 
