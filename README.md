@@ -55,6 +55,15 @@ Add font success: {name} = 字体添加成功: {name}      //keep the {name}
 Switch mode = 切换模式
 ```
 
+the layer translation string, don't need to keep the dot charater, just translate the whole string:
+```
+ALL.layer = 全部层
+Copper.layer = 铜箔层
+Non-Copper.layer = 非铜箔层
+Other.layer = 其他层
+```
+
+
 3.6 If the text has such structure, please keep it
 ```js
 [menu_project]    //keep this structure
