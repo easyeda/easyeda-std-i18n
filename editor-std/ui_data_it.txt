@@ -858,7 +858,7 @@ Spoke = Raggi
 Keep Island = Mantieni le isolette
 Fill Style = Stile di riempimento
 CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Conflitto area ramata: le sagome di rame nello stesso strato ma con diverse reti non possono sovrapporsi
-Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Area di rame rigenerata! Puoi impostare la "Zona Ramata" come "Visibile" nelle proprietà del menu destro dopo aver premuto su una area vuota.
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Area di rame rigenerata! Puoi impostare la "zona ramata" come "visibile" nelle proprietà del menu destro dopo aver premuto su una area vuota.
 Please create board outline first. = Prima deve essere creato il contorno della scheda.
 Board outlines are not closed. = Il contorno della scheda non é chiuso.
 Rebuild CopperArea = Rigenera area ramata
@@ -1228,9 +1228,9 @@ Export = Esporta
 Mirror = Specchio
 TopLayer = Strato superiore
 BottomLayer = Strato inferiore
-TopSilkLayer =
+TopSilkLayer = Serigrafia strato superiore
 Protractor Attributes = Proprietà del goniometro
-BottomSilkLayer =
+BottomSilkLayer = Serigrafia strato inferiore
 
 BoardOutLine = Contorno del bordo
 TopAssembly = Assemblaggio superiore
@@ -1299,9 +1299,9 @@ Signal = Segnale
 Plane =
 Non-Signal =
 Other = Altro
-Please delete all the objects of the layers first! The layers are: = Elimina prima tutti gli oggetti dei livelli! Gli strati sono:
+Please delete all the objects of the layers first! The layers are: = Elimina prima tutti gli oggetti degli strati! Gli strati sono:
 You are converting Signal Layer to Plane Layer, There're some non-track objects remain on following layers. Please delete the objects manually on the canvas. =
-Please delete all the objects of this layer first! = Elimina prima tutti gli oggetti di questo livello!
+Please delete all the objects of this layer first! = Elimina prima tutti gli oggetti di questo strato!
 
 #Dialog Fabrication Output
 Create Files = Crea file
@@ -1423,7 +1423,7 @@ Decrease Routing Width =
 Increase Routing Width =
 Decrease Snap Size = Diminuisci la spaziatura dell'aggancio
 Increase Snap Size = Aumenta la spaziatura dell'aggancio
-Change Copper Zone Visible or Invisible = Cambia zona ramata visibile o non visibile
+Change Copper Zone Visible or Invisible = Modifica la zona ramata in zona visibile o non visibile
 Rebuild All Copper Area = Ricostruisci tutta l'area ramata
 Toggle PCB Net Display =
 Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Mostra la finestra di dialogo degli attributi quando si posiziona l'oggetto;<br/>Mostra la posizione della finestra di dialogo quando si incollano gli oggetti
@@ -1431,7 +1431,7 @@ Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When 
 Show Relative Offset Dialog When Selecting Object(s) =
 Open the FAQ Page = Apri la pagina delle FAQ
 Move Object(s) by Reference Point = Sposta oggetto/i per punto di riferimento
-Choose Favorite Track Width While Routing = Scegli la larghezza preferita della traccia durante lo sbroglio
+Choose Favorite Track Width While Routing = Scegli la larghezza preferita della pista durante lo sbroglio
 Copy Selected Object(s) and Paste Repeatedly = Copia gli oggetti selezionati ed incollali ripetutamente
 
 #My Projects Tree Menu
@@ -1881,10 +1881,10 @@ Add Teardrop Automatically =
 Assign Net for Free Track/Arc/Circle = Assegna una net gratis per pista/arco/cerchio
 Open Wizard Dialog for New PCB = Apri la procedura guidata di un nuovo PCB
 Rebuild Plane Automatically = 
-The Track's Routing Follows Component's Rotation = Lo sbroglio della traccia segue la rotazione del componente
+The Track's Routing Follows Component's Rotation = Lo sbroglio della pista segue la rotazione del componente
 Display Pad's Number and Net = Mostra numero di pad e net
-Favorite Track width = Larghezza della traccia preferita
-Track Width Setting = Impostazione larghezza della traccia
+Favorite Track width = Larghezza della pista preferita
+Track Width Setting = Impostazione larghezza della pista
 
 
 #Dialog Access Control
@@ -2072,7 +2072,7 @@ Switch = Cambia
 
 
 Export your file, then print it yourself. = Esporta il file, quindi stampalo.
-Trace width is too small = La larghezza della traccia é troppo piccola
+Trace width is too small = La larghezza della pista é troppo piccola
 Share = Condividi
 
 Images Attribute = Proprietà delle immagini
@@ -2107,7 +2107,7 @@ Markdown supported =
 Read only = Sola lettura
 Read/Write = Lettura/Scrittura
 More Libraries... = Altre librerie...
-Decompress failed! =
+Decompress failed! = Impossibile decomprimere!
 Load failed! = Impossibile caricare
 Loading = Caricamento
 No Result = Nessun risultato
@@ -2231,8 +2231,8 @@ Component PIN information =
 Footprint PAD information =
 Footprint Categories = Categorie footprint
 Pad Number = Numero pad
-Search Footprint = cerca footprint
-Filter by keyword = Filtra per parola
+Search Footprint = Cerca footprint
+Filter by keyword = Filtra per parola chiave
 System Libs = Librerie di sistema
 
 #dialog global delete
@@ -2351,7 +2351,7 @@ Precision = Precisione
 Protractor = Goniometro
 
 #attr-pcbtext-line-width
-Only default font family supports to change font width. =
+Only default font family supports to change font width. = Solo la famiglia di caratteri predefinita supporta la modifica della larghezza del carattere.
 Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. =
 
 #Common
@@ -2743,7 +2743,7 @@ Create New Version = Crea una nuova versione
 Create new version success! = Nuova versione creata con successo!
 Version Management = Gestione della versione
 Switch success! = Cambio eseguito con successo!
-Please close current version's documents first! = Chiudi prima i documenti della versione corrente!
+Please close current version's documents first! = Chiudi prima i documenti della versione attuale!
 Creator = Autore
 Create Time =
 Fail to connect to server! Please check your internet connection status and try again! = Impossibile connettersi al server! Controlla la tua connessione ad internet e prova di nuovo!
@@ -2938,7 +2938,7 @@ Remove vias finish, do you want to rebuild the copper area? =
 The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! = La larghezza della pista/arco/cerchio non può essere inferiore a 0.051mm/2mil/0.002pollici!
 Save fail! Please try again! = Impossibile salvare! Riprova!
 Please select a copper outline =
-Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Impossibile trovare l'area ramata sugli altri livelli, aggiungere prima l'area ramata con la stessa net sull'altro livello.
+Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Impossibile trovare l'area ramata sugli altri strati, aggiungere prima l'area ramata con la stessa net sull'altro strato.
 
 Add favorite success! = Aggiungi ai preferiti
 Remove favorite success! = Rimosso dai preferiti!
@@ -3096,7 +3096,7 @@ for JLCPCB SMT Service = per il servizio SMT di JLCPCB
 
 Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: =
-Please modify the component prefixes first to ensure that the component prefix is unique. =
+Please modify the component prefixes first to ensure that the component prefix is unique. = Modifica prima i prefissi del componente e assicurati che il prefisso del componente sia univoco.
 
 LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool =
 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool =
@@ -3149,7 +3149,7 @@ Upper left = Superiore sinistro
 Lower left = Inferiore sinistro
 Center of Pads = Centro dei pad
 First Pin = Primo pin
-Package Name =
+Package Name = Nome del contenitore
 Pins Number = Numeri dei pin
 Rows Of Pin = Righe del pin
 Columns Of Pin = Colonne del pin
@@ -3184,7 +3184,7 @@ Update Preview = Aggiorna anteprima
 Number of pins (left and right) = Numero di pin (sinistra e destra)
 Number of pins (up and down) = Numero di pin (sopra e sotto)
 Reference Use Cases =
-Package Type =
+Package Type = Tipo di contenitore
 Capacitance = Capacità
 Resistance = Resistenza
 Bidirectional Diode = Diodo bidirezionale
@@ -3196,7 +3196,7 @@ Fuse = Fusibile
 Entity height =
 Lead Overhang =
 Lead Thickness =
-Unknown mistake =
+Unknown mistake = Errore sconosciuto
 Has ThermalVias =
 Polar Capacitance =
 
@@ -3207,7 +3207,7 @@ No elements on lead shape layer! =
 No pad of number 1 or A1, please modify the pad number. = Nessun pad del numero 1 o A1, modificare il numero del pad.
 Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = Impossibile salvare! Il cerchio di marcatura del componente è sull'asse. Vuoi ricreare la marcatura del componente?
 If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = Se lo sbroglio automatico non andasse a buon fine, puoi esportare il file di autoroute (DSN) in uno strumento di terze parti (come: Konekt Electra, Eremex TopoR ecc.) ed esportare il file di sessione (SES) dopo aver terminato lo sbroglio, quindi importare su PCB.
-Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = Impossibile effettuare lo sbroglio automatico! Sono stati rilevati dati anomali del pad, modificare la larghezza e l'altezza del pad:
+Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = Impossibile effettuare lo sbroglio automatico! Sono stati rilevati dati anomali del pad, modifica la larghezza e l'altezza del pad:
 Select Properties = Seleziona proprietà
 Combine the same parts' prefixes in one row = Combina i prefissi delle stesse parti in una riga
 Please check at least one item! = Controlla almeno un elemento!
