@@ -5,15 +5,15 @@ Login... = Accedi...
 Log in = Accedi
 Logout = Esci
 Change password... = Cambia password...
-User Preference = Preferenze utente
+User Preference = Preferenze dell'utente
 System Settings... = Impostazioni di sistema...
 System Settings = Impostazioni di sistema
 Crash = Crash
-Invite friends... = Invita amici...
+Invite friends... = Invita i tuoi amici...
 Language = Lingua
 Language Setting = Impostazione della lingua
 
-Document Recovery = Ripristina documento
+Document Recovery = Ripristina il documento
 Your Preferences Information = Informazioni sulle preferenze utente
 File = File
 New = Nuovo
@@ -30,7 +30,7 @@ Save... = Salva...
 Save As... = Salva come...
 Save As Module... = Salva come modulo...
 Print = Stampa
-Export Document = Esporta documento
+Export Document = Esporta il documento
 LTspice... =  LTspice...
 Eagle... = Eagle...
 Altium... = Altium...
@@ -692,7 +692,7 @@ Common Anode = Anodo comune
 Common Cathode = Catodo comune
 AC Amplitude = Ampiezza AC
 AC Phase = Fase AC
-There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Alcune parti non hanno un modello associato, usa "EELib" e "Simbolo Spice" in "Librerie" in modalità simulazione oppure puoi assegnare un modello spice manualmente:
+There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Alcuni componenti non sono associati al modello spice, usa "EELib" e "Simbolo Spice" in "Librerie" in modalità simulazione oppure assegnali ad un modello spice:
 
 #Pin
 Pin Attributes = Proprietà Pin
@@ -976,7 +976,7 @@ Search for it before creating a new one. = Cercalo prima di crearne uno.
 Manufacturer Part Number = Numero del componente del produttore
 Supplier = Fornitore
 Or = O
-Supplier Part = Parte del fornitore
+Supplier Part = Componente del fornitore
 Supplier Part Number = Numero del componente del fornitore
 Link = Link
 link = link
@@ -1064,7 +1064,7 @@ Price = Prezzo
 Quantity.bom = Quantità.bom
 Package.bom = Pacchetto.bom
 Components.bom = Componenti.bom
-Manufacturer Part.bom = Parte produttore.bom
+Manufacturer Part.bom = Componente del produttore.bom
 Manufacturer.bom = Produttore.bom
 
 One-click Purchasing at LCSC = Acquista con un clic su LCSC
@@ -1166,7 +1166,7 @@ Types = Tipi
 Classes = Classi
 power = alimentazione
 Power = Alimentazione
-LCSC Part# = Parte# LCSC
+LCSC Part# = Componente# LCSC
 Stock = Stock
 Report Error... = Segnala un errore...
 Report Error = Segnala un errore
@@ -1685,7 +1685,7 @@ Connecting to server = Connessione al server
 Please login before asking for help = Prima di chiedere aiuto, effettua l'accesso
 This file has been modified, please save it first! = Il file è stato modificato, salvalo!
 Remove this param = Rimuovi questo parametro
-You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. = Non è possibile trascinare un componente sull'area di disegno, fai clic sulla parte e sposta il cursore sull'area di disegno, quindi tasto destro del mouse per posizionarla.
+You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. = Non è possibile trascinare un componente sull'area di disegno, fai clic sul componente e sposta il cursore sull'area di disegno, quindi tasto destro del mouse per posizionarlo.
 Undo/Redo temporary error = Annulla/Ripristina errore temporaneo
 We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. = Siamo spiacenti ma si è verificato un errore imprevisto durante il processo di annullamento/ripristino. Questo problema verrà risolto presto, ma nel frattempo è più sicuro continuare a lavorare sul tuo progetto.
 The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. = Lo schema presenta prefissi duplicati dei componenti, rendili unici. Puoi controllarli utilizzando il gestore del design.
@@ -1717,7 +1717,7 @@ Next » = Successivo »
 Done = Fatto
 This is the user management menu. = Questo è il menu di gestione degli utenti.
 This is the toolbar. = Questa è la barra degli strumenti.
-This is the navigation list. Under here you can find projects, files, parts and libraries. = Questa è la lista di navigazione. Qui sotto puoi trovare progetti, file, parti e librerie.
+This is the navigation list. Under here you can find projects, files, parts and libraries. = Questa è la lista di navigazione. Qui sotto puoi trovare progetti, file, componenti e librerie.
 Show or hide the toolbar to the top of the window here. = Mostra o nascondi la barra degli strumenti nella parte superiore della finestra.
 Show, resize or hide the left sidebar to the left of the window here. = Mostra, ridimensiona o nascondi la barra laterale sinistra a sinistra della finestra.
 Show or hide the right sidebar to the right of the window here. = Mostra o nascondi la barra laterale destra a destra della finestra.
@@ -1935,9 +1935,9 @@ type = tipo
 #Dialog Libs Management
 Report error = Segnala un errore
 Please give us some information to help us find the problem. = Fornisci alcune informazioni per aiutarci a trovare il problema.
-Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = Impossibile posizionare parti in questo documento: i simboli schematici possono essere posizionati solo in uno schema; Le footprint possono essere inserite solo in un PCB.
-Save it as a favorite part = Salvalo come parte preferita
-Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = Solo gli utenti che hanno effettuato l'accesso possono salvare questo componente come parte preferita, ma gli utenti ospiti (anonimi) possono inserire questo componente direttamente nel loro progetto. Vuoi posizionare questo componente ora?
+Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = Impossibile posizionare componenti in questo documento: i simboli degli schemi possono essere posizionati solo in uno schema; Le footprint possono essere inserite solo in un PCB.
+Save it as a favorite part = Salvalo come componente preferito
+Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = Solo gli utenti che hanno effettuato l'accesso possono salvare questo componente come preferito, ma gli utenti ospiti (anonimi) possono inserire questo componente direttamente nel loro progetto. Vuoi posizionare adesso questo componente?
 
 #Others
 Find libs = Trova librerie
@@ -2329,7 +2329,7 @@ Library = Libreria
 Spice Library = Libreria Spice
 Shared = Condivisi
 LCSC = LCSC
-LCSC Parts = Parti LCSC
+LCSC Parts = Componenti LCSC
 Supply Flag = Indicatore di alimentazione
 US = US
 EU/IEC = EU/IEC
@@ -3017,14 +3017,14 @@ This part contains subparts, please make sure you have checked other subparts be
 Power = Alimentazione
 [/saveAs]
 
-Assign LCSC Part# =
-Unexpected error while converting. Perhaps unsupported file type or program bug. =
-Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. =
+Assign LCSC Part# = Assegna componente# LCSC
+Unexpected error while converting. Perhaps unsupported file type or program bug. = Si è verificato un errore durante la conversione. Forse il tipo di file non è supportato oppure è un bug del programma.
+Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = Sono stati rilevati dei duplicati tra gli ID dei componenti, fare clic su "OK" per riassegnare automaticamente l'ID dei componenti, quindi salvare il documento e riprovare.
 
 #electromagneticSimulation
 Electromagnetic Simulation... = Simulazione elettromagnetica...
-You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? =
-SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. =
+You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = Saranno caricati i file Gerber su SuperEM per la simulazione elettromagnetica (carica solo i file Gerber, esclusi i dati dell'account), vuoi continuare?
+SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM è una piattaforma di progettazione e simulazione elettromagnetica ad onda intera 3-D per circuiti PCB e antenne ad alta velocità, sviluppata da Faraday Dynamics, Ltd.
 Visit the SuperEM = Visita SuperEM
 SuperEM User Guide = Guida per l'utente di SuperEM
 Upload Gerber to SuperEM successfully, please click "OK" buttun to continue = L'invio dei file Gerber su SuperEM è riuscito con successo, clicca sul pulsante "OK" per continuare
@@ -3048,15 +3048,15 @@ WaveForm = Forma d'onda
 
 Place Module = Posiziona modulo
 Please enter identification letters: = Digita le lettere di identificazione:
-Only support English letters, up to 5. = Supporta solo lettere inglesi, fino a 5.
+Only support English letters, up to 5. = Sono supportate solo lettere inglesi, fino ad un massimo di 5.
 
 Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. =
-Opening =
+Opening = Apertura
 
-Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) =
+Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = Aggiorna anche la net della pista (si applica solo nelle circostanze in cui il prefisso/netlabel cambia e nessun componente/filo viene aggiunto o rimosso)
 
 # desktop client error feedback
-Cannot open online documents on Project Offline mode. =
+Cannot open online documents on Project Offline mode. = Impossibile aprire documenti online in modalità progetto offline.
 
 Please select a project = Seleziona un progetto
 Opened Projects = Progetti aperti
@@ -3102,8 +3102,8 @@ LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool =
 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool =
 
 #Dialog for Package Custom Data
-Please input the data title =
-Data title duplicated =
+Please input the data title = Inserisci il titolo dei dati
+Data title duplicated =  Il titolo dei dati è duplicato
 Cannot be more than {0} characters! = Non può contenere più di {0} caratteri!
 Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = Sono consentiti solo alfabeti latini, cifre, trattino basso (_) e trattino (-).
 Invalid value of item {0} = Il valore dell'oggetto {0} non è valido
@@ -3209,7 +3209,7 @@ Save failed! Component marking circle is at the axis. Do you want to recreate th
 If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = Se lo sbroglio automatico non andasse a buon fine, puoi esportare il file di autoroute (DSN) in uno strumento di terze parti (come: Konekt Electra, Eremex TopoR ecc.) ed esportare il file di sessione (SES) dopo aver terminato lo sbroglio, quindi importare su PCB.
 Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = Impossibile effettuare lo sbroglio automatico! Sono stati rilevati dati anomali del pad, modifica la larghezza e l'altezza del pad:
 Select Properties = Seleziona proprietà
-Combine the same parts' prefixes in one row = Combina i prefissi delle stesse parti in una riga
+Combine the same parts' prefixes in one row = Combina i prefissi degli stessi componenti in una riga
 Please check at least one item! = Controlla almeno un elemento!
 Pins = Pin
 
