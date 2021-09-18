@@ -2870,10 +2870,10 @@ Go to LCSC = Ir para LCSC
 
 Hide Ratline Layer and Keep the Component Prefix When Paste Objects = Ocultar Camada Ratline e Manter o Prefixo dos Componentes ao Colar Objetos
 
-ALL.layer = Todas.layer
-Copper.layer = Cobreadas.layer
-Non-Copper.layer = Não-Cobreadas.layer
-Other.layer = Outros.layer
+ALL.layer = Todas
+Copper.layer = Cobreadas
+Non-Copper.layer = Não-Cobreadas
+Other.layer = Outros
 
 Please enter at least 2 characters! = Por favor, digite ao menos 2 caracteres!
 View Datasheet = Ver Datasheet
