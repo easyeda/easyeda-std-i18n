@@ -1232,11 +1232,11 @@ TopSilkLayer = Верхняя шелкография
 Protractor Attributes = Свойства протрактора
 BottomSilkLayer = Нижняя шелкография
 
-BoardOutLine = КонтурПлаты
+BoardOutLine = Контур Платы
 TopAssembly = TopAssembly
 BottomAssembly = BottomAssembly
 Mechanical = Механический
-DocumentLayer = СлойДокумента
+DocumentLayer = Слой Документа
 Inner{number} =
 Substrate{number} =
 Color = Цвет
@@ -1276,14 +1276,14 @@ TopPasterLayer = TopPasterLayer
 BottomPasterLayer = BottomPasterLayer
 TopSolderLayer = TopSolderLayer
 BottomSolderLayer = BottomSolderLayer
-TopPasteMaskLayer = TopPasteMaskLayer
-BottomPasteMaskLayer = BottomPasteMaskLayer
-TopSolderMaskLayer = TopSolderMaskLayer
-BottomSolderMaskLayer = BottomSolderMaskLayer
+TopPasteMaskLayer = Верхний слой маска-пасты
+BottomPasteMaskLayer = Нижний слой маска-пасты
+TopSolderMaskLayer = Верхний слой паяльной маски
+BottomSolderMaskLayer = Нижний слой паяльной маски
 ComponentShapeLayer =
 LeadShapeLayer =
 ComponentMarkingLayer =
-Ratlines = Ratlines
+Ratlines = Линии связей
 Ratlines Color =
 Manage Colors =
 BoardOutline = Границы платы
@@ -2870,10 +2870,10 @@ Go to LCSC =
 
 Hide Ratline Layer and Keep the Component Prefix When Paste Objects =
 
-ALL.layer =
-Copper.layer =
-Non-Copper.layer =
-Other.layer =
+ALL.layer = Вс.layer
+Copper.layer = Медь.layer
+Non-Copper.layer = Не-Медь.layer
+Other.layer = Прочее.layer
 
 Please enter at least 2 characters! =
 View Datasheet =
@@ -2903,8 +2903,8 @@ About = О приложении
 Items =
 [/findlib]
 
-Object =
-Layers and Objects =
+Object = Обекты
+Layers and Objects = Слои и объекты
 All = Все
 
 Add custom =
@@ -2949,9 +2949,9 @@ This size is the determined size! =
 The associated pad has been locked =
 Split by space or , for multi tags =
 
-Rotation X =
-Rotation Y =
-Rotation Z =
+Rotation X = Вращение X
+Rotation Y = Вращение Y
+Rotation Z = Вращение Z
 
 Some fields are filled invalid data =
 start time should be earlier than stop time =
@@ -3000,7 +3000,7 @@ Favorite = Любимые
 This operation will unfavorite this project, do you want to continue? =
 View Homepage =
 Private Project =
-3-7 days =
+3-7 days = 3-7 дней
 Close Tab =
 Close Other Tabs =
 Close All Tabs =
