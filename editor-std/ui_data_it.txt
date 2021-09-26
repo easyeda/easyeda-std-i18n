@@ -2438,7 +2438,7 @@ Import failed: = Impossibile importare:
 The title length must be between 2~128 characters. = La lunghezza del titolo deve essere compresa tra 2 e 128 caratteri.
 Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Il percorso contiene solo 'a-z、A-Z、- 、 _ 、0-9'!
 Path must begin as 'a-z、A-Z、0-9'! = Il percorso deve iniziare per 'a-z、A-Z、0-9'!
-The path length must be between 4~128 characters! = La lunghezza del percorso deve essere compreso tra 4 e 128 caratteri!
+The path length must be between 4~128 characters! = La lunghezza del percorso deve essere compresa tra 4 e 128 caratteri!
 The title length must be between 2~256 characters! = La lunghezza del titolo deve essere compresa tra 2 e 256 caratteri!
 The title can not less than 3 charaters! = Il titolo non può essere inferiore a 3 caratteri!
 Do you want to delete this file? = Vuoi eliminare questo file?
@@ -2982,7 +2982,7 @@ Logout = Esci
 All = Tutti
 [/findlibTag]
 
-Export Pick and Place File = Esporta file Pick e Place
+Export Pick and Place File = Esporta file Pick and Place
 Mirror the bottom component's X coordinate (JLCPCB doesn't need) =
 Work Space = Area di lavoro
 Include panelized components' coordinates = Includi le coordinate dei componenti pannellati
@@ -3039,7 +3039,7 @@ Check DRC = Controllo DRC
 Simulation Setting = Impostazione della simulazione
 BOM = BOM
 PCB Fabrication File(Gerber) = File di fabbricazione PCB(Gerber)
-Pick and Place File = File Pick e Place
+Pick and Place File = File Pick and Place
 Parts Order = Ordina componenti
 PCB Order = Ordina PCB
 SIM = SIM
