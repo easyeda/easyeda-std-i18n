@@ -25,17 +25,17 @@ If you would like to help translate:
 
 ### If you can't find your language file
 
-* Copy **`ui_data_hans.txt`**,
+* Copy **`ui_data_CLEAN.txt`**,
 
-* Change the name of the .txt file using this template: `ui_data_xx.txt` where you would replace the xx with your language code. So, for example, if you wanted to translate into Danish, you would rename the file `ui_data_da.txt`.   
+* Change the name of the .txt file using this naming format: `ui_data_xx.txt` where you would replace the xx with your language code. So, for example, if you wanted to translate into Danish, you would rename the file `ui_data_da.txt`.   
   you can refer to this link for the codes: https://www.w3schools.com/tags/ref_language_codes.asp
 
-* Remove the Chinese text and translate the English into your language, replacing the right side of the equal sign with your translation. The characters on the left side of the `=` symbol **must not be changed**.
+* Translate the English (on the left side of `=`) into your language, placing your translation on the right side of `=`. The characters on the left side of the `=` symbol **must not be changed**.
 
-For example, if you were translating a file into Russian, you would simply delete the Chinese text on the right and replace it with the correct Russian translation like this:
+For example, if you were translating a file into Russian, you would simply put your translation on the right side of `=`. For example:
 ```js
-// original ui_data_hans.txt
-Select = 选择
+// original ui_data_CLEAN.txt
+Select = 
 
 // your translated ui_data_ru.txt
 Select = Выбрать
@@ -45,8 +45,9 @@ If the text has elipses or curly braces, they need to remain in the document.
 ```js
 Join... = Collegati...
 
-Add font success: {name} = 字体添加成功: {name}      //keep the {name}
+Add font success: {name} = 字体添加成功: {name}
 ```  
+The word inside the braces has meaning to the software and should not be translated but it should be included in your translated text on the right.
 
 If a line stars with a hash character, it can be ignored, as hash characters signify a comment in the document and have no impact on the program.
 ```js
@@ -68,12 +69,6 @@ Items surrounded by brackets simply denote sections and they can be ignored. Ple
 [menu_project]    //keep this structure
 View=查看
 [/menu_project]   //keep this structure
-```
-
-If you happen to see words that have no `=` symbol next to them, you can insert the equal sign yourself and translate the word(s) as shown here:
-```js
-Carrier Freq[Hz]  //before
-Carrier Freq[Hz] = 载波频率[Hz]  //after
 ```
 
 If you chose to translate into a language that we do not currently have, please update the `language_list.txt` file, and follow its format and insert the language that you are translating into that file. The file will be used to add language menu options in EasyEDA.
@@ -110,8 +105,8 @@ Add a comment to the pull request, and we will then look at your translation and
 
 ## Notice
 
-1) The file named `ui_data_hans.txt` is a root file that has full translations, and is the common template used for all new language translations. Please don't edit this file, but instead make a copy of it, rename it to have your language code in the name, then edit the copy that you made.
-2) It is important to edit the file you copied correctly making sure you follow the rules listed above. The software looks for the file name that is associated with a given language and if it cannot find the English words that are on the left side of the `=` it will default to showing English instead of the translated text. This is why it's so important to understand the guidlines stated above.
+1) The file named `ui_data_CLEAN.txt` is a root file that is the common template used for all new language translations. Please don't edit this file, but instead make a copy of it, rename it to have your language code in the name, then edit the copy that you made.
+2) It is important to edit the file you copied, correctly, making sure you follow the rules listed above. The software looks for the file name that is associated with a given language and if it cannot find the English words that are on the left side of the `=` it will default to showing English instead of the translated text. This is why it's so important to understand the guidlines stated above.
 3) We do not need any English translations such as `ui_data_en.txt`, because we have the English language hard coded into the software already and it is the foundation from which the software generates all language translations from the files that you help us create in this project.
 
 
