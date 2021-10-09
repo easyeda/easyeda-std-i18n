@@ -1,4 +1,4 @@
-# Menu
+#Menu
 User =
 Join... =
 Login... =
@@ -260,7 +260,7 @@ PCB Layout =
 General Discussion =
 More Information =
 Privacy Policy =
-#Terms of Use & Privacy Policy =
+#Terms of Use & Privacy Policy
 Terms of Service =
 Plans and Pricing =
 Help Translate =
@@ -268,7 +268,7 @@ About Us =
 Contact Us =
 Change History =
 Join Us =
-#PCB Fabrication Capabilities =
+#PCB Fabrication Capabilities
 PCB Fabrication =
 Order Capabilities =
 Order Price =
@@ -960,7 +960,7 @@ You can now create files under this project =
 This file must be saved under a project, choose other project or create a new project =
 Please login to save this kind of document =
 Duplicated project title =
-#Duplicated document title =
+#Duplicated document title
 Project does not exist =
 Document does not exist =
 document not exists =
@@ -983,8 +983,8 @@ link =
 The professional function please refer at: =
 
 #Dialog Clone My Part
-#Clone it to a project =
-#Clone it, then edit it =
+#Clone it to a project
+#Clone it, then edit it
 Clone your file =
 
 #Dialog Subckt
@@ -1016,7 +1016,7 @@ DRC Diameter =
 Object =
 DRC Clearance =
 [/drcRule]
-#It will take a while to unroute this net, do you want to continue? =
+#It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. =
 Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. =
 This netlabel is not connected with any pin. =
@@ -1892,7 +1892,7 @@ Reject =
 Add User =
 Bad email address =
 
-# error info from backend
+#error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. =
 
 #Dialog waveForm
@@ -2297,7 +2297,7 @@ Router error. =
 Invalid PCB. =
 General Clearance =
 SMD Clearance =
-#Ripup Nets =
+#Ripup Nets
 Skip Routed Nets =
 Remove Existing Tracks =
 Real-time Display =
@@ -2517,7 +2517,7 @@ Silk Screen =
 Silk Screen Color =
 Display =
 
-# Array and Clone
+#Array and Clone
 Distribute Array =
 Array Type =
 Matrix Array =
@@ -2526,8 +2526,8 @@ Item Rotation =
 Location =
 Items per Column =
 Items per Row =
-# Column Spacing =
-# Row Spacing =
+#Column Spacing
+#Row Spacing
 Spacing(Degrees) =
 Start Degree =
 Rotate Item to Match =
@@ -2542,7 +2542,7 @@ Number of Columns =
 Number of Copies =
 Distribute Range(Degrees) =
 
-# Theme color dialog
+#Theme color dialog
 BusEntry =
 Foreground =
 Common Used =
@@ -2838,7 +2838,7 @@ Relative Offset... =
 Reference Point X =
 Reference Point Y =
 
-# Inner Plane layer
+#Inner Plane layer
 Rebuild Plane =
 PlaneZone Properties =
 Change to a plane layer is not allowed during track routing. =
@@ -2925,7 +2925,7 @@ View Owner =
 View Detail =
 
 
-# place batch vias
+#place batch vias
 Place Vias =
 Placing Vias =
 Removing Vias =
@@ -3057,7 +3057,7 @@ Opening =
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) =
 
-# desktop client error feedback
+#desktop client error feedback
 Cannot open online documents on Project Offline mode. =
 
 Please select a project =
@@ -3076,7 +3076,7 @@ New Sub Folder =
 Delete Folder =
 Move Project =
 Move Folder =
-# Rename Folder =
+#Rename Folder
 Please input the folder name =
 Invalid folder name =
 Are you sure to delete this folder? =
@@ -3116,7 +3116,7 @@ Save custom data failed! =
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? =
 Open footprint "Custom Data" dialog =
 
-# Create lead shape
+#Create lead shape
 Create Lead Shape =
 Base on Pad Center =
 Base on Canvas Origin =
