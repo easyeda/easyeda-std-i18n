@@ -29,7 +29,7 @@ PCB Module =
 Save... = Guardar...
 Save As... = Guardar como...
 Save As Module... =
-Print =
+Print = Imprimir
 Export Document =
 LTspice... =
 Eagle... = Eagle...
@@ -135,7 +135,7 @@ Arrow = Flecha
 No Connect Flag =
 Place = Ubicar
 Pin = Pin
-Lock Selected Objects =
+Lock Selected Objects = Bloquear objetos seleccionados
 
 Miscellaneous = Miscelaneo
 Find Component = Encontrar componente
@@ -210,9 +210,9 @@ Rebuild All =
 Copper Area Manager... =
 Export Pick and Place File =
 Measure Distance = Medir Distancia
-Set Canvas Origin by Mouse Location =
+Set Canvas Origin by Mouse Location = Marcar el origen Canvas con el ratón
 Generates Pick and Place File =
-Unroute All =
+Unroute All = Desrutear todo
 Auto Route =
 Export Autorouter File(DSN) =
 Import Autorouter Session File(SES) =
@@ -222,7 +222,7 @@ Terminate Routing Automatically = Terminar rutas automaticamente
 Delete Segments = Borrar segmentos
 Unroute Connections =
 Unroute Connection =
-Unroute Nets =
+Unroute Nets = Desenrutar redes
 Select = Seleccionar
 Segments = Segmentos
 Connection = Conexión
@@ -236,7 +236,7 @@ Config = Configurar
 Help = Ayuda
 About = Acerca de
 Shortcut Keys = Atajos de teclado
-FAQ =
+FAQ = Preguntas frecuentes
 Tutorials = Tutoriales
 Basic Tutorials = Tutoriales básicos
 Video Tutorials = Video tutoriales
@@ -357,25 +357,25 @@ Text Attributes = Atributos del texto
 Text = Texto
 Color = Color
 Font Family =
-Font Size =
+Font Size = Tamaño de la fuente
 Font Weight =
-Font Style =
+Font Style = Estilo de la fuente
 Text Type =
 Text Anchor =
 Baseline = Línea Base
 (Auto) =
 (auto) =
-start =
+start = inicio
 middle =
-end =
+end = fin
 inherit =
 comment =
 spice =
-normal =
-italic =
-Default =
-Add =
-bold =
+normal = normal
+italic = cursiva
+Default = Por defecto
+Add = Añadir
+bold = negrita
 bolder =
 lighter =
 Failed to parse the font file: {name} =
@@ -391,8 +391,8 @@ Stroke Color =
 Stroke Width =
 Stroke Style =
 Fill Color =
-X Radius =
-Y Radius =
+X Radius = Radio en X
+Y Radius = Radio en Y
 
 #spice
 Switch mode =
@@ -403,22 +403,22 @@ Please change the editor to "Standard" mode first at the top left corner. =
 Common =
 spice.open =
 spice.close =
-Sources =
+Sources = Fuentes
 Instrument =
-Transistors =
-Digital Circuits =
+Transistors = Transistores
+Digital Circuits = Circuitos digitales
 Operational Amplifier =
-multimeter =
-multimeter Settings =
+multimeter = multímetro
+multimeter Settings = configuración del multímetro
 FunctionGenerator Settings =
-Voltage Source Settings =
+Voltage Source Settings = Configuración de la fuente de tensión
 Current Source Settings =
 Powersw Settings =
-Resistor Settings =
-Capacitor Settings =
-Diode Settings =
+Resistor Settings = Configuración de las resistencias
+Capacitor Settings = Configuración de los condensadores
+Diode Settings = Configuración de los diodos
 voltPowersw Settings =
-Inductor Settings =
+Inductor Settings = Configuración de las bobinas
 VCVS Settings =
 CCCS Settings =
 VCCS Settings =
@@ -426,7 +426,7 @@ CCVS Settings =
 JFET Settings =
 FET Settings =
 Transmission Line Settings =
-Oscilloscope Settings =
+Oscilloscope Settings = Configuración del osciloscopio
 XFMR Settings =
 LOGIC Settings =
 LOGICSTATE Settings =
@@ -463,8 +463,8 @@ mu.A =
 Sine Wave =
 Triangular Wave =
 Rectangular Wave =
-AC =
-DC =
+AC = CA
+DC = CC
 SINE =
 PULSE =
 EXP =
@@ -528,12 +528,12 @@ high =
 low =
 Oscilloscope =
 Logic Analyzer =
-Channel_A =
-Channel_B =
-Channel A =
-Channel B =
+Channel_A = Canal_A
+Channel_B = Canal_B
+Channel A = Canal A
+Channel B = Canal B
 Time =
-Reverse =
+Reverse = Invertir
 Simulation file exceed =
 The simulation file is too large and has been stopped for performance reasons. =
 Timebase =
@@ -697,8 +697,8 @@ There are some parts haven't spice model, please use "EElib" and "Spice Symbol" 
 #Pin
 Pin Attributes = Atributo de los pines
 Orientation = Orientación
-Line 45° =
-Line 90° =
+Line 45° = Línea a 45°
+Line 90° = Línea a 90°
 Arc 45° =
 Arc 90° =
 Free Angle =
@@ -706,18 +706,18 @@ Start X =
 Start Y =
 Length = Longitud
 Name = Nombre
-name =
+name = nombre
 Number = Numero
 Spice Pin Order =
-Display Number =
-Clock = Clock
+Display Number = Mostrar número
+Clock = Reloj
 Show = Mostrar
 Electric = Eléctrico
 
 #Junction
 Junction Attributes = Atributos de junta
-X Location =
-Y Location =
+X Location = Ubicación en X
+Y Location = Ubicación en Y
 Size = Tamaño
 Color = Color
 
@@ -728,33 +728,33 @@ Net Label = Etiqueta de la Net
 Prefix = Prefijo
 
 #Image Attributes and Dialog
-Add Image =
+Add Image = Añadir imagen
 Image Attributes = Atributos de la imagen
-Image URL = Image URL
-Input an image URL =
-Invalid image URL =
-Invalid Prefix =
-Failed to load the image =
-Image URL contains special characters =
-From Web URL =
-From Local Computer =
-Please select a png/gif/jpg file. =
-Please select an image file. =
-Select an image file =
-Insert Image to PCB =
-Tolerance =
-tolerance =
+Image URL = URL de la imagen
+Input an image URL = Añadir URL de imagen
+Invalid image URL = URL de imagen inválida
+Invalid Prefix = Prefijo inválido
+Failed to load the image = Error al cargar la imagen
+Image URL contains special characters = La URL de la imagen contiene caracteres especiales
+From Web URL = Desde la red
+From Local Computer = Desde el PC local
+Please select a png/gif/jpg file. = Por favor, seleccione una imagen png/gif/jpg.
+Please select an image file. = Por favor, seleccione una imagen
+Select an image file = Seleccionar una imagen
+Insert Image to PCB = Insertar imagen en PCB
+Tolerance = Tolerancia
+tolerance = tolerancia
 capacitance =
-frequency =
+frequency = frecuencia
 Rated Voltage =
 Rated Current =
-resistance =
-Resistance =
-Resistance[Ω]
-inductance =
-Operating Temperature =
+resistance = resistencia
+Resistance = Resistencia
+Resistance[Ω] = Resistencia[Ω]
+inductance = 
+Operating Temperature = Temperatura de operación
 Shape Invert =
-Image Size =
+Image Size = Tamaño de la imagen
 Color Tolerance =
 Simplify Level =
 Corner Threshold =
@@ -769,17 +769,17 @@ Routing Width = Anchura de ruteado
 [/router]
 Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. =
 Routing Angle = Ángulo de ruteado
-Routing Conflict =
-Remove Loop =
+Routing Conflict = Conflicto en el ruteado
+Remove Loop = Eliminar bucle
 Cut SilkScreen =
 Grid = Rejilla
-Grid 90 =
-Grid 45 =
+Grid 90 = Rejilla a 90°
+Grid 45 = Rejilla a 45°
 Copper Zone = Zona de cobre
 Visible = Visible
 Invisible = Invisible
-Ignore =
-Block =
+Ignore = Ignorar
+Block = Bloquear
 RoundTrack =
 
 #Track
@@ -796,8 +796,8 @@ ID =
 Pad Properties = Propiedades de Pads
 Shape = Forma
 Hole(D) = Orificio(D)
-Center X =
-Center Y =
+Center X = Centrar en X
+Center Y = Centrar en Y
 Round =
 Oval =
 Hole Shape =
@@ -811,42 +811,42 @@ Solder Mask Expansion =
 #Via Properties
 Via Properties =
 Diameter = Diámetro
-Drill Diameter =
+Drill Diameter = Diámetro de la vía
 
 #Hole Properties
-Hole Properties =
+Hole Properties = Propiedades del agujero
 
 
 #TEXT
 Text Properties = Propiedades del Texto
-Line Width =
+Line Width = Ancho de la línea
 Rotation = Rotación
-Fonts Management =
+Fonts Management = Administración de fuentes
 
 #Dimension Attributes
 Dimension Attributes = Atributos de dimensión
 
 #Footprint Attributes
 Component Attributes =
-Display Prefix =
-Pin Name =
-Pin Number =
+Display Prefix = Mostrar prefijo
+Pin Name = Nombre del pin
+Pin Number = Número del pin
 Spice Pin Number =
 Graphics =
-Pattern =
+Pattern = Patrón
 
 #Arc Properties
 Arc Properties = Propiedades de Arco
-Start Angle =
-End Angle =
-Rotation Direction =
+Start Angle = Ángulo de inicio
+End Angle = Ángulo de fin
+Rotation Direction = Sentido de la rotación
 
 #Rect Properties
-Rect Properties = Propiedades de Recta
+Rect Properties = Propiedades de la Recta
 Round radius = Radio circular
 
 #Circle Properties
-Circle Properties = Propiedades de Círculo
+Circle Properties = Propiedades del Círculo
 Radius = Radio
 
 #CopperArea Properties
@@ -876,49 +876,49 @@ None =
 Custom Attributes = Atributos personalizados
 Fixed Attributes =
 Add new parameter = Añadir nuevo parámetro
-Add New Parameter =
+Add New Parameter = Añadir Nuevo parámetro
 Add New Supplier =
 Mounted =
 Unknown =
 
-Custom =
+Custom = Personalizado
 Scan the QR code below and open it on the mobile side =
 How to create a single layer PCB =
 Currently doesn't support layout single layer directly, please refer at: =
 
 #Dialog Register
 Create an account = Crear una cuenta
-Username =
-Password =
-Confirm Password =
-Email =
+Username = Usuario
+Password = Contraseña
+Confirm Password = Confirmar contraseña
+Email = Correo electrónico
 Please read this before you register = Leer esto antes de registrarse
-Hi {username} =
+Hi {username} = Hola {username}
 
 #Dialog lostPassword
-Lost Password... = Contraseña perdida...
+Lost Password... = Contraseña olvidada...
 Find the password using your email = Recuperar la contraseña usando tu email
 
 
 
 #Dialog Login
 Login =
-Username or Email =
-Remember Me =
+Username or Email = Nombre de usuario o Correo electrónico
+Remember Me = Recuérdame
 Third party =
 Login and Register =
 Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. =
 
 #Dialog Reset Password
-Reset a password using your email =
-Your registered email =
+Reset a password using your email = Resetear contraseña utilizando el correo electrónico
+Your registered email = Tu correo electrónico
 
 #Dialog Reaction
-Re-send an activation code to your email =
+Re-send an activation code to your email = Reenviar un código de activación al correo electrónico
 
 #Dialog Invite
 Invite friends to register = Invitar a registrarse a tus amigos
-Your friend's email =
+Your friend's email = Correo electrónico de tu(s) amigo(s)
 
 #Dialog Add A New Parameter
 Add a new parameter = Añadir nuevo parámetro
@@ -931,14 +931,14 @@ This field is required. =
 
 #Dialog Change Your Password
 Change your password = Cambiar tu contraseña
-Old password =
-New Password =
-Confirm Password =
+Old password = Contraseña antigua
+New Password = Nueva contraseña
+Confirm Password = Confirmar contraseña
 
 #Dialog Create New Design
-Save as a New Project =
+Save as a New Project = Guardar como un nuevo proyecto
 Save as a schematic = Guardar como Esquemático
-Save as Symbol =
+Save as Symbol = Guardar como un símbolo
 Save as a spice Symbol = Guardar como Símbolo Spice
 Save as a spice subckt = Guardar como Spice Subckt
 YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = DEBES CREAR UN SÍMBOLO SPICE CON EL MISMO NOMBRE QUE ESTE SUBCKT
