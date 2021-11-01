@@ -157,9 +157,9 @@ Edit Symbol... = Schaltsymbol bearbeiten…
 Highlight Net... = Netz hervorheben…
 Simulate = Simuliere
 Simulation = Simulation
-Standard Mode = Standartmodus
+Standard Mode = Standardmodus
 Simulation Mode = Simulationsmodus
-Change to Standard Mode = Wechsel in Standartmodus
+Change to Standard Mode = Wechsel in Standardmodus
 Change to Simulation Mode = Wechsel in Simulationsmodus
 Welcome to Use LCEDA = Willkommen zu LCEDA
 Welcome to Use EasyEDA = Willkommen zu EasyEDA
@@ -1524,7 +1524,7 @@ Hasl(Lead Free) = Hasl(Beifrei)
 ENIG = ENIG
 
 #Dialog Hot Key config
-Restore All Default Shortcuts = Alle Standart Tastaturkürzel wiederherstellen
+Restore All Default Shortcuts = Alle Standard Tastaturkürzel wiederherstellen
 Save Changes = Änderungen speichern
 
 
