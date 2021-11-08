@@ -152,7 +152,7 @@ Reset Component ID = Reimposta ID del componente
 Component ID reset successfully! = ID del componente reimpostato con successo!
 Convert to PCB = Converti in PCB
 Update PCB = Aggiorna PCB
-Shortcut Keys Setting = Configurazione collegamenti da tastiera
+Shortcut Keys Setting = Configurazione tasti di scelta rapida
 Edit Symbol... = Modifica simbolo...
 Highlight Net... = Evidenzia Net...
 Simulate = Simula
@@ -245,7 +245,7 @@ Simulation Tutorials = Tutorial di simulazione
 Updated Instructions = Istruzioni aggiornate
 Open File Format = Apri formato file
 About Upgrade = Informazioni sull'aggiornamento
-User Forum = Forum
+User Forum = Forum di supporto
 Feature Request = Richiesta funzionalità
 Feature Requests = Richieste funzionalità
 Bug Report = Segnala bug
@@ -280,7 +280,7 @@ Support = Supporto
 [leftNavTabs]
 Support = Supporto
 [/leftNavTabs]
-Historical Records... = Dati storici...
+Historical Records... = Salvataggi passati...
 Extensions = Estensioni
 Order PCB... = Ordina PCB...
 Import Changes = Importa le modifiche
@@ -1600,7 +1600,7 @@ System Package = Contenitore di sistema
 File error = Errore del file
 Please save your file first! = Prima salva i tuoi file!
 Email address is too short! = L'indirizzo email è troppo corto!
-You have not selected a file to upload. = Non hai selezionato alcun file da inviare.
+You have not selected a file to upload. = Non hai selezionato alcun file da caricare.
 Update = Aggiorna
 Import.Import Changes = Importa le modifiche
 No changes, the PCB already matches the schematic! = Nessuna modifica, il PCB corrisponde già allo schema!
@@ -1682,15 +1682,15 @@ Please try again after saving this file. = Prova di nuovo dopo aver salvato ques
 This text can not be empty! = Questo testo non può essere vuoto!
 Export to Altium fail, please try again or contact us. = Impossibile esportare in Altium, prova di nuovo oppure contattaci.
 Connecting to server = Connessione al server
-Please login before asking for help = Prima di chiedere aiuto, effettua l'accesso
+Please login before asking for help = Effettua l'accesso prima di chiedere aiuto
 This file has been modified, please save it first! = Il file è stato modificato, salvalo!
 Remove this param = Rimuovi questo parametro
-You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. = Non è possibile trascinare un componente sull'area di disegno, fai clic sul componente e sposta il cursore sull'area di disegno, quindi tasto destro del mouse per posizionarlo.
+You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. = Non è possibile trascinare un componente sull'area di disegno. Fai clic sul componente e sposta il cursore sull'area di disegno, quindi premi il tasto destro del mouse per posizionarlo.
 Undo/Redo temporary error = Annulla/Ripristina errore temporaneo
-We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. = Siamo spiacenti ma si è verificato un errore imprevisto durante il processo di annullamento/ripristino. Questo problema verrà risolto presto, ma nel frattempo è più sicuro continuare a lavorare sul tuo progetto.
+We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. = Siamo spiacenti ma si è verificato un errore imprevisto durante il processo di annullamento/ripristino. Questo problema verrà risolto presto, ma nel frattempo puoi continuare a lavorare sul tuo progetto.
 The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. = Lo schema presenta prefissi duplicati dei componenti, rendili unici. Puoi controllarli utilizzando il gestore del design.
-Found duplicated prefix components, can not Import Changes, please modify the duplicated prefix or delete related component. = Sono stati trovati componenti con il prefisso duplicato, impossibile importare le modifiche, modifica il prefisso duplicato oppure elimina il relativo componente.
-Please click the below help button to find out how to fix this problem. = Clicca sul pulsante di aiuto sottostante, per scoprire come risolvere questo problema.
+Found duplicated prefix components, can not Import Changes, please modify the duplicated prefix or delete related component. = Sono stati trovati componenti con il prefisso duplicato, impossibile importare le modifiche. Modifica il prefisso duplicato oppure elimina il relativo componente.
+Please click the below help button to find out how to fix this problem. = Clicca sul pulsante di aiuto sottostante per scoprire come risolvere questo problema.
 Please create a board outline! Click the help button to find out how to create a board outline. = Crea il contorno della scheda! Clicca il buttone aiuto per scoprire come crearlo.
 Can not fetch files from server, please check your network and try again = Impossibile recuperare i file dal server, controlla la tua rete e riprova
 Please open a schematic first! = Apri prima uno schema!
@@ -1705,7 +1705,7 @@ Annular ring of the pad/via is too small = Anello del pad/via troppo piccolo
 The size of the hole cannot exceed the size of the pad = La dimensione del foro non può superare la dimensione del pad
 Are you sure you want to create a multi-sheet designs? = Sei sicuro di voler creare uno schema a più fogli?
 Are you sure you want to create a {0}multi-sheet designs{1}? = Sei sicuro di voler creare uno {0}schema a più fogli{1}?
-Please build the copper area! Click the help button to find out how to build the copper area. = Costruisci l'area di rame! Clicca sul pulsante di aiuto, per scoprire come costruire l'area di rame.
+Please build the copper area! Click the help button to find out how to build the copper area. = Costruisci l'area di rame! Clicca sul pulsante di aiuto per scoprire come costruire l'area di rame.
 Suggest to set a package for this component first! = Suggerisci di impostare prima un contenitore per questo componente!
 Please select an opened document first. = Seleziona prima un documento aperto.
 Some files failed to load. Please reload the page. = Impossibile caricare alcuni file. Ricarica la pagina.
@@ -1845,13 +1845,13 @@ Opto Transistor =
 #Server Message
 Need login = È necessario accedere
 Bad password = Password errata
-We can't find your username or your email, please check it! = Non riusciamo a trovare il tuo nome utente o la tua email, controlla!
-Make sure your uploaded file size is less than 3MB! = Assicurati che la dimensione del file caricato sia inferiore a 3MB!
+We can't find your username or your email, please check it! = Nome utente o email non trovata, riprova!
+Make sure your uploaded file size is less than 3MB! = La dimensione del file caricato deve essere inferiore a 3MB!
 Bad file type = Tipo di file non valido
 Empty file or bad file type, ensure your file is Eagle 6.0+ = File vuoto o tipo di file non valido, assicurati che il tuo file provenga da Eagle v6.0 o successiva
 This operation not supported on demo account = Questa operazione non è supportata sull'account demo
-Can not share this file under a private project, please set the active project to public! = Impossibile condividere questo file con un progetto privato, imposta il progetto attivo su pubblico!
-Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = Accesso non riuscito, troppi tentativi. Se hai dimenticato la password, {0}reimpostala{1} oppure invia un'email a support@easyeda.com
+Can not share this file under a private project, please set the active project to public! = Impossibile condividere questo file con un progetto privato, imposta il la visibilità del progetto come pubblica!
+Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = Accesso non riuscito, troppi tentativi falliti. Se hai dimenticato la password, {0}reimpostala{1} oppure invia un'email a support@easyeda.com
 
 #Dialog Common Buttons
 Common Buttons Setting = Impostazione dei pulsanti comuni
@@ -1889,14 +1889,14 @@ Track Width Setting = Impostazione larghezza della pista
 
 #Dialog Access Control
 Permissions = Permessi
-Operation = Operazione
+Operation = Operazioni
 Access Control = Controllo di accesso
 Project Access Control = Controllo dell'accesso al progetto
 Reject = Rifiuta
 Add User = Aggiungi utente
 Bad email address = Indirizzo email non corretto
 # error info from backend
-Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Impossibile trovare questo indirizzo email in EasyEDA. Il tuo partner deve essere un utente EasyEDA.
+Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Indirizzo email non è associato ad un alcun utente registrato in EasyEDA.
 
 #Dialog waveForm
 Grid Background = Sfondo della griglia
@@ -1934,8 +1934,8 @@ type = tipo
 
 #Dialog Libs Management
 Report error = Segnala un errore
-Please give us some information to help us find the problem. = Fornisci alcune informazioni per aiutarci a trovare il problema.
-Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = Impossibile posizionare componenti in questo documento: i simboli degli schemi possono essere posizionati solo in uno schema; Le footprint possono essere inserite solo in un PCB.
+Please give us some information to help us find the problem. = Fornisci alcune informazioni per aiutarci a identificare il problema.
+Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = Impossibile posizionare componenti in questo documento: i simboli degli schemi possono essere posizionati solo in uno schema e i footprint possono essere inserite solo in un PCB.
 Save it as a favorite part = Salvalo come componente preferito
 Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = Solo gli utenti che hanno effettuato l'accesso possono salvare questo componente come preferito, ma gli utenti ospiti (anonimi) possono inserire questo componente direttamente nel loro progetto. Vuoi posizionare adesso questo componente?
 
@@ -2603,11 +2603,11 @@ Sheet = Foglio
 
 #history dialog
 [history-dlg]
-Number = Numero
-Editor =
+Number = ID
+Editor = Utente
 [/history-dlg]
-View File History =
-Save Time =
+View File History = Salvataggi passati 
+Save Time = Timestamp
 
 Invalid Format = Il formato non è valido
 
@@ -2730,7 +2730,7 @@ Chrome = Chrome
 FireFox = FireFox
 New Version = Nuova versione
 Switch Version = Cambia versione
-Member = Membro
+Member = Membri
 Update Time = Tempo di aggiornamento
 Editor = Editor
 Current Version: = Versione attuale:
@@ -2958,7 +2958,7 @@ Some fields are filled invalid data = Alcuni campi contengono dei dati errati
 start time should be earlier than stop time = l'ora di inizio dovrebbe essere antecedente all'ora di fine
 Number of points should be less than 100 in octave variation = Il numero di punti deve essere inferiore a 100 nella variazione di ottava
 Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = La frequenza di avvio deve essere inferiore alla frequenza di arresto. Il suffisso meg sta per Mega, m sta per milli
-Get historical records fail! = Impossibile recuperare i dati storici!
+Get historical records fail! = Impossibile recuperare i salvataggi passati!
 This 3D model didn't create the outlines successfully, please import it again or contact with us. = Questo modello 3D non ha creato correttamente i contorni, importalo di nuovo oppure contattaci.
 There is No Tag! = Non c'è nessun tag!
 Assign successful! = Assegnazione riuscita!
@@ -2970,9 +2970,9 @@ Net Highlighting While Cursor Hover the Track = Evidenzia la net mentre il curso
 When circle set as "Yes", the Pin length must more than 6 = Quando il cerchio è impostato su "Sì", la lunghezza del pin deve essere maggiore di 6
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Ciao, ho riscontrato un problema con la tua libreria, questa libreria sembra errata.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nGrazie!
 
-Logout fail! Please try again! = Logout fallito! Prova di nuovo!
-Logout success! We look forward you to use LCEDA again! = Logout effettuato con successo! Speriamo che tu possa usare di nuovo LCEDA!
-Logout success! We look forward you to use EasyEDA again! = Logout effettuato con successo! Speriamo che tu possa usare di nuovo EasyEDA!
+Logout fail! Please try again! = Uscita fallita! Prova di nuovo!
+Logout success! We look forward you to use LCEDA again! = Uscita effettuata! Speriamo che tu possa usare di nuovo LCEDA!
+Logout success! We look forward you to use EasyEDA again! = Uscita effettuata! Speriamo che tu possa usare di nuovo EasyEDA!
 Click to Preview 3D = Clicca per l'anteprima 3D
 [logoutDialog]
 Logout = Esci
@@ -3027,7 +3027,7 @@ You will upload Gerber to SuperEM for electromagnetic simulation (only upload Ge
 SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM è una piattaforma di progettazione e simulazione elettromagnetica ad onda intera 3-D per circuiti PCB e antenne ad alta velocità, sviluppata da Faraday Dynamics, Ltd.
 Visit the SuperEM = Visita SuperEM
 SuperEM User Guide = Guida per l'utente di SuperEM
-Upload Gerber to SuperEM successfully, please click "OK" buttun to continue = L'invio dei file Gerber su SuperEM è riuscito con successo, clicca sul pulsante "OK" per continuare
+Upload Gerber to SuperEM successfully, please click "OK" buttun to continue = Caricamento dei file Gerber su SuperEM completato, clicca sul pulsante "OK" per continuare
 
 Format = Disponi
 View = Visualizza
