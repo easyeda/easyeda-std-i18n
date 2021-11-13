@@ -1850,7 +1850,7 @@ Make sure your uploaded file size is less than 3MB! = La dimensione del file car
 Bad file type = Tipo di file non valido
 Empty file or bad file type, ensure your file is Eagle 6.0+ = File vuoto o tipo di file non valido, assicurati che il tuo file provenga da Eagle v6.0 o successiva
 This operation not supported on demo account = Questa operazione non è supportata sull'account demo
-Can not share this file under a private project, please set the active project to public! = Impossibile condividere questo file con un progetto privato, imposta il la visibilità del progetto come pubblica!
+Can not share this file under a private project, please set the active project to public! = Impossibile condividere questo file con un progetto privato, imposta la visibilità del progetto come pubblica!
 Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = Accesso non riuscito, troppi tentativi falliti. Se hai dimenticato la password, {0}reimpostala{1} oppure invia un'email a support@easyeda.com
 
 #Dialog Common Buttons
