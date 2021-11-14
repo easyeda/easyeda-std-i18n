@@ -62,6 +62,7 @@ Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
 # ui_data_hu.txt
 Magyar (Hungarian) = Magyar (Hungarian)
 
-
+# ui_data_si.txt
+සිංහල (Sinhala) = සිංහල (Sinhala)
 
 
