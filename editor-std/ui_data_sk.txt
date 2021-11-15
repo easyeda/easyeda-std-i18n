@@ -1,0 +1,3216 @@
+# Menu
+User = Používateľ
+Join... = Pripojiť...
+Login... = Prihlásiť...
+Log in = Prihlásiť sa
+Logout = Odhlásiť
+Change password... = Zmena hesla...
+User Preference = Používateľské nastavenie
+System Settings... = Systémové nastavenia...
+System Settings = Systémové nastavenia
+Crash = Pád
+Invite friends... = Pozvať priateľov...
+Language = Jazyk
+Language Setting = Jazykové nastavenia
+
+Document Recovery = Obnova dokumentu
+Your Preferences Information = Vaše užívateľské nastavenie
+File = Súbor
+New = Nový
+Project... = Projekt...
+Schematic = Schéma
+Schematic-Simulation = Schéma - Simulácia
+Spice Symbol = Spice symbol
+Spice Subckt = Spice Subckt
+spicePre = spicePre
+PCB = DPS
+Schematic Module = Modul schémy zapojenia
+PCB Module = Modul DPS
+Save... = Uložiť...
+Save As... = Uložiť ako...
+Save As Module... = Uložiť ako Modul...
+Print = Tlač
+Export Document = Export dokumentu
+LTspice... = LTspice...
+Eagle... = Eagle...
+Altium... = Altium...
+Cadence... = Cadence...
+Pads... = Pads...
+DXF = DXF
+Import = Import
+
+Edit = Upraviť
+Undo = Späť
+Redo = Vrátiť späť
+Cut = Vystrihnúť
+Copy = Kopírovať
+Paste = Vložiť
+Select = Vybrať
+Delete = Odstrániť
+Clear All = Vyčistiť všetko
+Move = Presunúť
+Drag = Pretiahnúť
+Bring to Front = Preniesť do popredia
+Send to Back = Preniesť do pozadia
+Align = Zarovnať
+Align Left = Zarovnať vľavo
+Align Right = Zarovnať vpravo
+Align Top = Zarovnať hore
+Align Bottom = Zarovnať dole
+Align Horizontal Centers = Zarovnať horizontálne na stred
+Align Vertical Centers = Zarovnať vertikálne na stred
+Distribute Horizontally = Rozložiť horizontálne
+Distribute Vertically = Rozložiť vertikálne
+Distribute Left Edges Equidistantly = Rozložiť rovnomerne k ľavej strane
+Distribute Top Edges Equidistantly = Rozložiť rovnomerne k hornej strane
+Align Grid = Zarovnať na mriežku
+Rotate = Otočiť
+Rotate Left = Otočiť vľavo
+Rotate Right = Otočiť vpravo
+Flip Horizontal = Prevrátiť horizontálne
+Flip Vertical = Prevrátiť vertikálne
+Rotate and Flip = Otočiť a prevrátiť
+Group/Ungroup Symbol... = Zoskupiť/Rozložiť Symbol
+
+[menu_project]
+View = Zobraziť
+[/menu_project]
+Find = Hľadať
+Zoom In = Priblížiť
+Zoom Out = Oddialiť
+Fit in Window = Na celé okno
+Refresh = Obnoviť
+Snap = Prichytiť
+Cross Cursor = Kurzor s vodítkom
+Toolbars = Nástroje
+Drawing Tools = Nástroje kreslenia
+Wiring Tools = Nástroje spojov
+Power Objects = Elektrické objekty
+PCB Tools = Nástroje DPS
+Footprint Tools = Nástroje pôdorysu súčiatky
+Layers Tool = Nástroje vrstiev
+Layer Manager = Správca vrstiev
+Enable and Show All Layers = Povolenie a zobrazenie všetkých vrstiev
+Net Visible = Zobrazenie spoja
+Auto = Automaticky
+Digital Objects = Digitálne objekty
+Tools = Nástroje
+Arc Center = Stred oblúka
+Arc Type = Typ oblúka
+Center Point Arc = Stredový bod oblúka
+Two-point Arc = Dvojbodový oblúk
+
+Place = Umiestniť
+Drawing Tools = Nástroje kreslenia
+Arc = Uhol
+Elliptical Arc = Oválny uhol
+Ellipse = Ovál
+Circle = Kruh
+Pie = Koláč
+Line = Čiara
+Polyline = Spojovaná čiara
+Rectangle = Obdĺžnik
+Rectangular = Obdĺžníkový
+The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = Obdĺžnik nepodporuje otáčanie o 90 stupňov. Namiesto toho použite Solid Region.
+
+Rect = Obdĺžnik
+Round Rectangle = Obdĺžnik s oválnymi rohmi
+Polygon = Polygon
+Bezier = Bazierová krivka
+Path = Cesta
+Graphic = Grafika
+Bus = Zbernica
+Bus Entry = Vstup zbernice
+Junction = Spoj
+Net Port = Port spoja
+Voltage Probe = Napäťová sonda
+Power Port = Port napájania
+Wire = Spoj
+Annotation = Anotácia
+Track = Cesta
+Image = Obraz
+Arrow Head = Hlava šipky
+Arrowhead = Hrot šípky
+Arrow = Šipka
+No Connect Flag = Značka Nezapojené
+Place = Umiestniť
+Pin = Pin
+Lock Selected Objects = Zamknúť vybrané objekty
+
+Miscellaneous = Rôzne
+Find Component = Hľadať súčiastku
+Component = Súčiastka
+Footprint... = Pôdorys súčiatky...
+This component is deleted! = Táto súčiastka je zmazaná!
+Convert = Prekonvertovať
+Convert Schematic to PCB = Prekonvertovať schému zapojenia na DPS
+The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: =ID súčiastky bude vymazané podľa prefixu súčiastky. História Vátenia späť bude vymazaná.
+Please make sure the component prefixes of the schematic and PCB are corresponding = Uistite sa prosím, že predpony súčiastok schémy a dosky plošných spojov zodpovedajú
+Please reset the component ID of corresponding schematic or corresponding PCB too = Prosím vymažte aj ID súčiastok zodpovedajúcej schémy alebo zodpovedajúcej DPS
+Do you want to continue? = Chcete pokračovať?
+Reset Component ID = Zrušenie ID súčiastky
+Component ID reset successfully! = ID súčiastky bolo úspešne zrušené
+Convert to PCB = Prekonvertovať na DPS
+Update PCB = Aktualizovať DPS
+Shortcut Keys Setting = Nastavenie kl. skratiek
+Edit Symbol... = Upraviť symbol...
+Highlight Net... = Zvýrazniť spoj
+Simulate = Simulovať
+Simulation = Simulácia
+Standard Mode = Štandartný mód
+Simulation Mode = Mód simulácie
+Change to Standard Mode = Zmena na štandartný mód
+Change to Simulation Mode = Zmena na mód simulácie
+Welcome to Use LCEDA = Vitajte pri používaní LCEDA
+Welcome to Use EasyEDA = Vitajte pri používaní EasyEDA
+Enable Education Edition Features for Free >>> = Povoľte funkcie pre výukové systémy zdarma >>>
+Quick Start = Rýchly štart
+More Help = Viac pomoci
+Explore = Prieskumník
+Message = Správa
+[start]
+Example = Príklad
+Forum = Fórum
+Tutorials = Tutoriály
+Videos = Videa
+[/start]
+Custom Data = Vlastný dátum
+LCEDA = LCEDA
+
+Copy Result Image = Kópia výsledného obrázku
+Export Result Image = Export výsledného obrázku
+Simulation Result = Výsledok simulácie
+Simulation Results... = Výsledky simulácie...
+Simulate this Sheet = Simulácia tohto listu
+Simulate this Project = Simulácia tohto projektu
+Non-simulation mode, please switch to the simulation mode first and then run = Nesimulačný režim, najskôr sa prepnite do režimu simulácie a potom spustite
+Run the Document = Spustiť dokument
+Run the Project... = Spustiť projekt...
+Netlist for Document = Netlist dokument
+Netlist for Project = Netlist projekt
+LTspice for This Sheet... = LTspice tohto listu
+Spice for this Project... = Spice projekt
+Protel/Altium for PCB... = Protel/Altium DPS
+PADS for PCB... = Plôšky pre DPS
+FreePCB for PCB... = FreePCB pre DPS
+Eagle for PCB... = Eagle DPS
+Kicad for PCB... = Kicad DPS
+OrCAD for PCB... = OrCAD DPS
+BOM report... = BOM report...
+BOM for Document... = BOM dokument
+BOM for Project... = BOM projekt
+Pin Manager... = Správca Pin-ov
+Spice Model... = Spice Model
+Layer Manager... = Správca vrstiev...
+Net Color... = Farba vedenia
+Design Rule... = Pravidlá dizajnu
+Copper Area = Oblasť medi
+Rebuild Selected = Znovu vytvoriť vybraný
+Rebuild All = Znovu vytvoriť všetko
+Copper Area Manager... = Správca oblasti medi
+Export Pick and Place File = Exportovat súbor Pick & Place
+Measure Distance = Meranie vzdialenosti
+Set Canvas Origin by Mouse Location = Nastavenie plátna umiestnením myši
+Generates Pick and Place File = Generovat súbor Pick & Place
+Unroute All = Rozpustiť všetko
+Auto Route = Automatické generovanie ciest
+Export Autorouter File(DSN) = 
+Import Autorouter Session File(SES) =
+Autorouter File(DSN) =
+Autorouter Session File(SES) =
+Terminate Routing Automatically =
+Delete Segments = Výmaz segmentov
+Unroute Connections =
+Unroute Connection =
+Unroute Nets =
+Select = Vybrať
+Segments = Segmenty
+Connection = Spojenie
+Net = Spoj
+Apply Design Rule While Routing and Auto Placing Via = Použiť pravidlo návrhu pri vytváraní ciest a umiestnení prechodu cez DPS
+
+Add SubPart = Pridať časť
+Annotate... = Komentovať
+Config = Konfigurácia
+
+Help = Pomoc
+About = O aplikácii
+Shortcut Keys = Klávesové skratky
+FAQ = Časté otázky
+Tutorials = Tutoriály
+Basic Tutorials = Základné tutoriály
+Video Tutorials = Video tutoriály
+Essential Check = Nutná kontrola
+Simulation Tutorials = Tutoriály simulácií
+Updated Instructions = Aktualizácia pokynov
+Open File Format = Otvoriť formát súboru
+About Upgrade = O aktualizácii
+User Forum = Uživatelské fórum
+Feature Request = Požiadavka na vlastnosť
+Feature Requests = Požiadavky na vlastnosti
+Bug Report = Hlásenie chýb
+Bug Reports = Hlásenie chýb
+Tips & Skill = Typy a dovednosti
+Ask for Help = Žiadosť o pomoc
+Schematic Capture = Zachytenie schémy
+Spice Simulation = Spice simulácia
+Non-simulation mode = Nesimulačný mód
+PCB Layout = Návrh DPS
+General Discussion = Hlavná diskusia
+More Information = Viac informácií
+Privacy Policy = Ochrana súkromia
+#Terms of Use & Privacy Policy
+Terms of Service = Podmienky používania
+Plans and Pricing = Plány a ceny
+Help Translate = Pomôžte přeložiť
+About Us = O nás
+Contact Us = Kontaktujte nás
+Change History = Historia zmien
+Join Us = Pridajte sa k nám
+#PCB Fabrication Capabilities
+PCB Fabrication = Výroba DPS
+Order Capabilities = Možnosti objednávky
+Order Price = Cena objednávky
+Order Essential Check = Objednanie základnej kontroly
+Order FAQ = FAQ k objednávkam
+Order Process = Proces objednávky
+Full Screen = Celá obzarovka
+
+Support = Podpora
+[leftNavTabs]
+Support = Podpora
+[/leftNavTabs]
+Historical Records... = Záznamy histórie...
+Extensions = Rozšírenia
+Order PCB... = Objednať DPS...
+Import Changes = Importovať zmeny
+Press {0}F11{1} to switch to full screen. = Stlačte {0}F11{1} pre prepnutie na celú obratovku.
+Delete Selected = Zmazať vybrané
+Simulate... = Simulovať...
+Config = Konfigurácia
+Terms of Service & Privacy Policy = Podmienky používania a ochrana súkromia
+Help Topics = Pomoc
+3D Model(obj) = 3D model (obj)
+3D Model(step) = 3D model (step)
+SVG Source... = Zdroj SVG...
+File Source = Zdroj súboru
+Group These Items as a Symbol = Zoskupenie týchto položiek ako symbol
+Group These Items as a Footprint = Zoskupenie týchto položiek ako pôdorys
+Set Canvas Origin = Zadať začiatok plátna
+Document Setting = Nastavenie dokumentu
+Sheet Attributes = Atribúty listu
+Set Board Outline = Zadať hranicu dosky
+Teardrop... = Teardrop
+Panelize... = Viac panelov
+Check Dimension = Kontrola rozmeru
+Smart Dimension = Inteligentný rozmer
+Footprint Wizard = Sprievodca pôdorysom
+Footprint Wizard... = Sprievodca pôdorysom...
+Select package type = Výber typu balíka
+Smart Dimension Attributes = Atribúty inteligentného rozmeru
+Global Delete = Všeobecné zmazanie
+Cross Probe = Skúška križovania
+Cross Probe and Place = Skúška križovania a umiestnenie
+Paper Size = Veľkosť strany
+Register = Registrovať
+User Center = Uživatelské centrum
+
+By Mouse Location = Podľa polohy myši
+Set Coordinate = Nastaviť súradnicu
+By Coordinates... = Podľa súradníc
+By Center of Pads = Podľa stredu plôšiek
+By Center Grid of Symbols = Podľa stredu mriežky symbolov
+
+#Schematic Canvas Attributes
+Properties = Vlastnosti
+Attributes = Atribúty
+Apply = Použiť
+Save as default = Uložiť ako preddefinovaný
+Canvas Attributes = Atribúty plátna
+Width = Šírka
+Height = Výška
+Background = Pozadie
+Visible Grid = Zobraziť mriežku
+Grid Visible = Zobrazenie mriežky
+Real-Time Track Length = Dĺžka vedenia v reálnom čase
+Display Real-Time Track Length = Zobrazenie dĺžky vedenia v reálnom čase
+Grid Color = Farba mriežky
+Grid Size = Veľkosť mriežky
+Grid Style = Štýl mriežky
+Grid.Line Width = 
+Grid.Line Spacing =
+Copper to Board Outline =
+Improve Fabrication =
+Spoke Width =
+Stroke Color = Farba čiary
+Stroke Width = Šířka čiary
+Stroke Style = Styl čiary
+Fill Color = Farba výplne
+Selected Objects = Vybrané objekty
+Frame Size = Veľkosť rámce
+Alt Snap = Přichycení s ALT
+Snap size when pressing the Alt key = Veľkosť přichycení při stisku klávesy ALT
+Prefix Start = Prefix
+
+#Text Attributes
+Text Attributes = Vlastnosti textu
+Text = Text
+Color = Farba
+Font Family = Písmo
+Font Size = Veľkosť písma
+Font Weight = Šíeka písma
+Font Style = Štýl písma
+Text Type = Typ písma
+Text Anchor = Ukotvenie písma
+Baseline = Počiatočný
+(Auto) = (Auto)
+(auto) = (auto)
+start = začiatok
+middle = stred
+end = koniec
+inherit = zdediť
+comment = komentár
+spice = spice
+normal = normálný
+italic = kurzíva
+Default = Predvolený
+Add = Pridať
+bold = tučné
+bolder = tučnejší
+lighter = slabší
+Failed to parse the font file: {name} = Chyba pri parsovaní súboru písma: {name}
+Please select a font file of ttf or woff format. = Vyberte súbor písma s formátom ttf alebo woff, prosím.
+Add font success: {name} = Písmo: {name} úspešne pridané
+Failed to add font: {name} = Pridanie písma: {name} zlyhalo
+Add Font = Pridať písmo
+Failed to parse cached font: {name} = Chyba pri parsovaní uloženého písma: {name}
+Load cached fonts fail! = Načítanie uložených písmien zlyhalo
+
+#Stroke
+Stroke Color = Farba čiary
+Stroke Width = Šírka čiary
+Stroke Style = Štýl čiary
+Fill Color = Farba výplne
+X Radius = Polomer X
+Y Radius = Polomer Y
+
+#spice
+Switch mode = Režim prepnutia
+The current documents will be closed, and reopen after switching mode, do you want to continue? = Aktuálne dokumenty sa zatvoria a znova otvoria po prepnutí režimu, chcete pokračovať?
+PCB related documents are not allowed in emulation mode = Dokumenty súvisiace s DPS nie sú povolené v režime emulácie
+Please change the editor to "Simulation" mode first at the top left corner. = Najprv prosím zmeňte editor na režim „Simulácia“ v ľavom hornom rohu.
+Please change the editor to "Standard" mode first at the top left corner. = Najprv prosím zmeňte editor na režim "Štandard" v ľavom hornom rohu
+Common = Bežný
+spice.open =
+spice.close =
+Sources = Zdroje
+Instrument = Nástroj
+Transistors = Tranzistory
+Digital Circuits = Digitálne obvody
+Operational Amplifier = Operačné zosilňovače
+multimeter = multimeter
+multimeter Settings = Nastavenie multimetra
+FunctionGenerator Settings = Nastavenie generátora funkcií
+Voltage Source Settings = Nastavenia zdroja napätia
+Current Source Settings = Nastavenia zdroja prúdu
+Powersw Settings =
+Resistor Settings = Nastavenia rezistorov
+Capacitor Settings = Nastavenia kondanzátorov
+Diode Settings = Nastavenia diód
+voltPowersw Settings =
+Inductor Settings = Nastavenia cievok
+VCVS Settings = Nastavenia VCVS
+CCCS Settings = Nastavenia CCCS
+VCCS Settings = Nastavenia VCCS
+CCVS Settings = Nastavenia CCVS
+JFET Settings = Nastavenia JFET
+FET Settings = Nastavenia FET
+Transmission Line Settings =
+Oscilloscope Settings = Nastavenia osciloskopu
+XFMR Settings = Nastavenia XFMR
+LOGIC Settings = Nastavenia LOGIC
+LOGICSTATE Settings = Nastavenia LOGICSTATE
+DIGITALCLOCK Settings = Nastavenia DIGITALCLOCK
+Potentiometer Settings = Nastavenia potencimetra
+MUTUAL_INDUCTORS Settings =
+NE555 Settings = Nastavenia NE555
+THREE_PHASE Settings =
+Logic_Probe Settings =
+78XX Settings = Nastavenia 78XX
+79XX Settings = Nastavenia 79XX
+OPAMP5PEE Settings = Nastavenia OPAMP5PEE
+OPAMP5PEECN Settings = Nastavenia OPAMP5PEECN
+OPAMP3PEE Settings = Nastavenia OPAMP3PEE
+OPAMP3PEECN Settings = Nastavenia OPAMP3PEECN
+DELAY_FUSE Settings = Nastavenia DELAY_FUSE
+Ratio = Pomer
+K[%]
+Model = Model
+States = 
+Voltage[V]
+Voltage gain[V/V]
+Current gain[A/A]
+Transconductance[Mho]
+Transresistance[Ω]
+Voltage Source Type = Typ zdroja napätia
+Current Source Type = Typ zdroja prúdu
+multimeter type = typ multimetra
+power type = typ zdroja
+Voltmeter Resistance(R)(Ω) = Odpor voltmetra(R)(Ω)
+Amperometer Resistance(R)(Ω) = Odpor ampérmetra(R)(Ω)
+mu.V =
+mu.A =
+Sine Wave = Sínusový
+Triangular Wave = Trojuhoľníkový
+Rectangular Wave = Obdĺžníkový
+AC = Striedavý prúd
+DC = Jednosmerný prúd
+SINE = Sínus
+PULSE = Pulz
+EXP =
+SFFM =
+PWL =
+B.spice =
+DC Value[V]
+DC Value[A]
+DC offset[V]
+DC offset[A]
+Amplitude[V]
+Amplitude[A]
+Freq[Hz]
+Theta[1/s]
+Tdelay[s]
+Phi[deg]
+Tperiod[s]
+Ton[s]
+Tfall[s]
+Trise[s]
+Von[V]
+Von[A]
+Vinitial[V]
+Vinitial[A]
+Vpulsed[V]
+Vpulsed[A]
+Rise Delay[s]
+Rise Tau[s]
+Fall Delay[s]
+Fall Tau[s]
+Carrier Freq[Hz]
+Modulation Index =
+Signal Freq[Hz]
+Time[s]
+Value[V]
+Value[A]
+Waveforms = Forma vlny
+Duty cycle[%]
+Amplitude[Vp]
+Offset[V]
+Rise/Fall Time[sec]
+Capacitance[F]
+sComponent =
+Inductance[H]
+Gbw =
+Slewrate =
+Avol =
+Rout(Ω) =
+Rin(Ω) =
+Ibias[A]
+Inhi[V]
+Inlo[V]
+Isc[A]
+Outhi[V]
+Outlo[V]
+Vabsmax[V]
+Vmin[V]
+Iq[A]
+Cin[F]
+high = vysoký
+low = nízky
+Oscilloscope = Osciloskop
+Logic Analyzer = Logický analyzátor
+Channel_A = Kanál A
+Channel_B = Kanál B
+Channel A = Kanál A
+Channel B = Kanál B
+Time = Čas
+Reverse = Reverz
+Simulation file exceed =
+The simulation file is too large and has been stopped for performance reasons. = Súbor simulácie je príliš veľký a bol zastavený z dôvodov výkonu.
+Timebase = Časová základňa
+Scale: = Mierka: 
+X pos.(Div): = X poz.(Div)
+Y pos.(Div): = Y poz.(Div)
+View meter... = 
+The circuit has components without simulation model: =
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. =
+Resistor1_US =
+Resistor1_EU/IEC =
+Resistor1_3D =
+Capacitor1_US =
+Capacitor1_EU/IEC =
+Capacitor1_3D =
+Rheostat_US =
+Rheostat_EU/IEC =
+Rheostat_3D =
+Capacitor_Electrolytic_US =
+Capacitor_Electrolytic_EU/IEC =
+Capacitor_Electrolytic_3D =
+Inductor_US =
+Inductor_EU/IEC =
+Inductor_3D =
+Resistor2_US =
+Resistor2_EU/IEC =
+Resistor2_3D =
+Multimeter =
+Multimeter_3D =
+Oscilloscope =
+Oscilloscope_3D =
+Signal_Generator =
+Signal Generator_3D =
+Wattmeter =
+Wattmeter_3D =
+NSSWS1080T_3D =
+Voltage_Source_VDC =
+Voltage_Source_VSin =
+Voltage_Source_VPULSE =
+Voltage_Source_VEXP =
+Voltage_Source_VSFFM =
+Voltage_Source_VPWL =
+Voltage_Source_V_Behavioral_Source =
+Current_Source_IDC =
+Current_Source_ISin =
+Current_Source_IPULSE =
+Current_Source_IEXP =
+Current_Source_ISFFM =
+Current_Source_IPWL =
+Current_Source_I_Behavioral_Source =
+CCCS_1 =
+CCCS_2 =
+CCVS_1 =
+CCVS_2 =
+VCCS =
+VCVS =
+Three_Phase_Wye_Load =
+Three_Phase_Delta_Load =
+78XX = 78XX
+79XX = 79XX
+555 = 555
+555_3D =
+Transformer_US =
+Transformer_EU/IEC =
+Transformer_Center_Tapped_US =
+Transformer_Center_Tapped_EU/IEC =
+Mutual_Inductor_US =
+Mutual_Inductor_EU/IEC =
+Mutual_Inductor2_US =
+Mutual_Inductor2_EU/IEC =
+OR2EE_US =
+OR3EE_US =
+OR4EE_US =
+OR2EE_CN =
+OR3EE_CN =
+OR4EE_CN =
+NOR2EE_US =
+NOR3EE_US =
+NOR4EE_US =
+NOR2EE_CN =
+NOR3EE_CN =
+NOR4EE_CN =
+AND2EE_US =
+AND3EE_US =
+AND4EE_US =
+AND2EE_CN =
+AND3EE_CN =
+AND4EE_CN =
+NAND2EE_US =
+NAND3EE_US =
+NAND4EE_US =
+NAND2EE_CN =
+NAND3EE_CN =
+NAND4EE_CN =
+XOR2EE_US =
+XOR2EE_CN =
+XNOR2EE_US =
+XNOR2EE_CN =
+Digital_Clock_1Hz =
+Logicstate_0 =
+Logicstate_1 =
+Logic_Probe =
+Buffee =
+INVEE_US =
+INVEE_CN =
+Schmittbuffee =
+LM358N_US =
+LM358N_CN =
+OPAMP3PEE_US =
+OPAMP3PEE_CN =
+OPAMP5PEE_US =
+OPAMP5PEE_CN =
+Voltage_Controlled_Switch =
+Current_Controlled_Switch =
+FUSE =
+Delay_Fuse =
+Transmission_Line =
+Crystal =
+DFFEE =
+TFFEE =
+JKFFEE =
+SRFFEE =
+SRLATCHEE =
+SRNANDFFEE =
+SRNORFFEE =
+INVTSEE =
+INVODEE =
+Schmittbuffee =
+Cbuffer =
+SPDT_Open =
+SPDT_Close =
+SPST_Close =
+SPST_Open =
+Fast_Crystal =
+Lamp =
+BCD_Segment =
+Seven_Segment =
+Traffic_Light =
+Lamp Settings =
+Power[W]
+Dropout Voltage[V]
+Current[A]
+Threshold[V]
+Clock Rate =
+TrafficLight Settings =
+BCDSegment Settings =
+SevenSegment Settings =
+SPDT Settings =
+SPST Settings =
+LogicAnalyzer Settings =
+Fuse Settings = Nastavenia poistky
+Wattmeter Settings = Nastavenia wattmetra
+open = otvoriť
+close = zavrieť
+Common Anode = Bežná anóda
+Common Cathode = Bežná katóda
+AC Amplitude = Amplitúda striedavého prúdu
+AC Phase = Fáza striedavého prúdu
+There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: =
+
+#Pin
+Pin Attributes = Vlastnosti pinu
+Orientation = Orientácia
+Line 45° = Úsečka 45°
+Line 90° = Úsečka 90°
+Arc 45° = Oblúk 45°
+Arc 90° = Oblúk 90°
+Free Angle = Voľný uhol
+Start X = Začiatok X
+Start Y = Začiatok Y
+Length = Dĺžka
+Name = Názov
+name = názov
+Number = Číslo
+Spice Pin Order = Poradie Spice pinov
+Display Number = Číslo obrazovky
+Clock = Hodiny
+Show = Zobraziť
+Electric = Elektrika
+
+#Junction
+Junction Attributes = Vlastnosti spoja
+X Location = Pozícia X
+Y Location = Pozícia Y
+Size = Veľkosť
+Color = Farba
+
+#Net Label
+Net Label = Štítok spoja
+
+#Part
+Prefix = Prefix
+
+#Image Attributes and Dialog
+Add Image = Pridať obraz
+Image Attributes = Vlastnosti obrazu
+Image URL = URL obrazu
+Input an image URL = Zadajte URL obrazu
+Invalid image URL = Neplatná URL obrazu
+Invalid Prefix = Neplatný prefix
+Failed to load the image = Chyba pri načítaní obrazu
+Image URL contains special characters = URL obrzu obsahuje špeciálne znaky
+From Web URL = URL z webu
+From Local Computer = Z lokálneho počítača
+Please select a png/gif/jpg file. = Vyberte prosím typ súboru png/gif/jpg.
+Please select an image file. = Vyberte prosím súbor obrazu.
+Select an image file = Vyberte súbor obrazu
+Insert Image to PCB = Vložiť obraz na DPS
+Tolerance = Tolerancia
+tolerance = tolerancia
+capacitance = kapacita
+frequency = frekvencia
+Rated Voltage = Menovité napätie
+Rated Current = Menovitý prúd
+resistance = odpor
+Resistance = Odpor
+Resistance[Ω]
+inductance = indukčnosť
+Operating Temperature = Operačná teplota
+Shape Invert = Prevrátiť tvar
+Image Size = Veľkosť obrazu
+Color Tolerance = Farba tolerancie
+Simplify Level = Úroveň zjednoduchšenia
+Corner Threshold =
+
+#PCB Canvas Attributes
+Units = Jednotky
+Snap Size = Veľkosť uchytenia
+Other = Iné
+Routing Width = Šírka cesty
+[router]
+Routing Width = Šírka cesty
+[/router]
+Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. =
+Routing Angle =
+Routing Conflict =
+Remove Loop =
+Cut SilkScreen =
+Grid = Mriežka
+Grid 90 = Mriežka 90
+Grid 45 = Mriežka 45
+Copper Zone = Zóna medi
+Visible = Zobraziť
+Invisible = Skryť
+Ignore = Ignorovať
+Block = Blok
+RoundTrack =
+
+#Track
+Track Properties = Vlastnosti cesty
+Layer = Vrstva
+Net = Spoj
+Start X = Začiatok X
+Start Y = Začiatok Y
+End X = Koniec X
+End Y = Koniec Y
+ID = ID
+
+#Pad Properties
+Pad Properties = Vlastnosti plôšky
+Shape = Tvar
+Hole(D) = Diera (priemer)
+Center X = Stred X
+Center Y = Stred Y
+Round = Okrúhly
+Oval = Oválný
+Hole Shape = Tvar diery
+Slot = Slot
+Hole(Length) = Diera (dĺžka)
+Plated = Oplátované
+None = Nič
+Paste Mask Expansion =
+Solder Mask Expansion =
+
+#Via Properties
+Via Properties = Vlastnosti priechodu
+Diameter = Priemer
+Drill Diameter =
+
+#Hole Properties
+Hole Properties = Vlastnosti diery
+
+
+#TEXT
+Text Properties = Vlastnosti textu
+Line Width = Hrúbka čiary
+Rotation = Rotácia
+Fonts Management = Menežér fontov
+
+#Dimension Attributes
+Dimension Attributes = Vlastnosti rozmerov
+
+#Footprint Attributes
+Component Attributes = Atribúty súčiastok
+Display Prefix = 
+Pin Name = Názov pinu
+Pin Number = Číslo pinu
+Spice Pin Number = Číslo Spice pinu
+Graphics = Grafický
+Pattern = Vzor
+
+#Arc Properties
+Arc Properties = Vlastnosti uhla
+Start Angle = Začiatok uhla
+End Angle = Koniec uhla
+Rotation Direction = Smer rotácie
+
+#Rect Properties
+Rect Properties = Vlastnosti obdĺžnika
+Round radius = Polomer zagulatenia
+
+#Circle Properties
+Circle Properties = Vlastnosti kruhu
+Radius = Polomer
+
+#CopperArea Properties
+CopperArea Properties = Vlastnosti oblasti medi
+Clearance = Ochranná oblasť
+Pad Connection = Spoj plôšky
+Direct = Priamy
+Spoke = Lúč
+Keep Island = Zachovať ostrovček
+Fill Style = Štýl výplne
+CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Konflikt v oblasti medi: hranice oblasti medi sa nesmú prekrývať s inými názvami spojov
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. =
+Please create board outline first. = Vytvorte prosím najprv oblasť dosky.
+Board outlines are not closed. = Oblasť dosky nie je uzavretá.
+Rebuild CopperArea = Obnoviť oblasť medi
+Edit Points = Upraviť body
+Direct = Priamy
+Spoke = Lúč
+No Solid =
+Board Cutout =
+Solid = Pevný
+[copperArea]
+None = Nič
+[/copperArea]
+
+#Custom Attributes
+Custom Attributes = Vlastné atribúty
+Fixed Attributes = Pevné atribúty
+Add new parameter = Pridať nový parameter
+Add New Parameter = Pridať nový Parameter
+Add New Supplier = Pridať nového dodávateľa
+Mounted = Pripnuté
+Unknown = Neznámy
+
+Custom =
+Scan the QR code below and open it on the mobile side =
+How to create a single layer PCB =
+Currently doesn't support layout single layer directly, please refer at: =
+
+#Dialog Register
+Create an account = Vytvoriť účet
+Username = Užívateľské meno
+Password = Heslo
+Confirm Password = Potvrdiť heslo
+Email = Email
+Please read this before you register = Pred registráciou prosím prečitajte následujúci
+Hi {username} = Ahoj {username}
+
+#Dialog lostPassword
+Lost Password... = Zabudnuté heslo
+Find the password using your email = Vyhľadať heslo pomocou vášho emailu
+
+
+
+#Dialog Login
+Login = Prihlásenie
+Username or Email = Užívateľské meno alebo email
+Remember Me = Zapametať si ma
+Third party = Tretia strana
+Login and Register = Prihlásiť a registrovať
+Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = Zdá sa, že platnosť vašich prihlasovacích údajov vypršala, prihláste sa prosím znova. Otvorené súbory nemusíte zatvárať, po prihlásení môžete pokračovať v ich ukladaní.
+
+#Dialog Reset Password
+Reset a password using your email = Obnoviť heslo pomocou vášho emailu
+Your registered email = Váš registrovaný email
+
+#Dialog Reaction
+Re-send an activation code to your email = Preposlať aktivačný kód na váš email
+
+#Dialog Invite
+Invite friends to register = Pozvat priateľov
+Your friend's email = Email vášho priateľa
+
+#Dialog Add A New Parameter
+Add a new parameter = Pridať nový parameter
+Key = Kľúč
+Value.new_para = Hodnota
+In BOM = V BOM
+Add into BOM = Pridať do BOM
+Invalid key = Neplatný kľúč
+This field is required. = Toto pole je povinné
+
+#Dialog Change Your Password
+Change your password = Zmena hesla
+Old password = Staré heslo
+New Password = Nové heslo
+Confirm Password = Potvrdiť heslo
+
+#Dialog Create New Design
+Save as a New Project = Uložiť ako nový projekt
+Save as a schematic = Uložiť ako schému
+Save as Symbol = Uložiť ako Symbol
+Save as a spice Symbol = Uložiť ako Spice symbol
+Save as a spice subckt = Uložiť ako Subckt
+YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = MUSÍTE VYTVOŘIT SPICE SYMBOL SE STEJNÝM NÁZVEM JAKO V SUBCKT
+Save as a PCB file = Uložiť ako súbor DPS
+Save as Footprint = Uložiť ako pôdorys
+Save as a Schematic Module = Uložiť ako modul schémy
+Save as a PCB Module = Uložiť ako modul DPS
+Save as 3D Model = Uložiť ako 3D model
+Save as a WaveForm =
+Title = Názov
+Share = Zdielať
+Add file = Pridať súbor
+Visibility = Viditelnosť
+Allow Comments = Povoliť komentáre
+Public (Anyone can see this project but only you can modify it.) = Verejný (Hocikto má prístup k projektu, ale len vy ho môžete upravovať)
+Private (Only you can see and modify this project) = Súkromý (Len vy môžete zobraziť a upravovať projekt)
+Create new project success! = Nový projekt bol úspešne vytvorený!
+You can now create files under this project = V tomto projektu môžete teraz vytvárať nové súbory
+This file must be saved under a project, choose other project or create a new project = Tento súbor musí byť uložený pod projektom, vyberte iný projekt alebo vytvorte nový projekt
+Please login to save this kind of document = Ak chcete uložiť tento druh dokumentu, prihláste sa prosím
+Duplicated project title = Duplicitný názov projektu
+#Duplicated document title
+Project does not exist = Projekt neexistuje
+Document does not exist = Dokument neexistuje
+document not exists = dokument neexistuje
+
+Categories = Kategorie
+Project = Projekt
+Short description = Krátky popis
+Content = Obsah
+Modify this project info. = Upraviť informácie o projekte
+Modify this file info. = Upraviť informácie o súboru
+Notice = Poznámka
+Search for it before creating a new one. = Pred vytvorením nového skúste najprv vyhľadať.
+Manufacturer Part Number = Číslo dielu výrobcu
+Supplier = Dodávateľ
+Or = Alebo
+Supplier Part = Diel dodávateľa
+Supplier Part Number = Číslo dielu dodávateľa
+Link = Odkaz
+link = Odkaz
+The professional function please refer at: = Profesionálne funckie nájdete na:
+
+#Dialog Clone My Part
+#Clone it to a project
+#Clone it, then edit it
+Clone your file = Klonovať váš súbor
+
+#Dialog Subckt
+Attach a Subckt to this spice symbol = Pripojiť Subckt k tomuto Spice symbolu
+Subckt string = Reťazec Subckt
+Spice symbol title just allow [0-9][a-z][A-Z] and _
+
+#Design Manager
+
+Design Manager = Správca návrhu
+Nets = Spoje
+DRC Errors = DRC chyby
+Are you sure you want to unroute this net? = Jste jsi opravdu jisti, že chcete rozpojit tento spoj?
+Unroute = Rozpojit
+Track Length = 
+Via/Hole Outer Size =
+Filter nets =
+Design Rule Checking =
+Board Outline =
+Plane Zone =
+[drcRule]
+Width = Šírka
+DRC Width =
+Length = Dĺžka
+DRC Length =
+Drill Diameter =
+DRC Drill Diameter =
+Diameter = Priemer
+DRC Diameter =
+Object =
+DRC Clearance =
+[/drcRule]
+#It will take a while to unroute this net, do you want to continue?
+More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. =
+Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. =
+This netlabel is not connected with any pin. =
+Incomplete connection, please check. =
+The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. =
+The diameter is less than Design Rule Checking (DRC) diameter =
+The drill diameter is less than Design Rule Checking (DRC) drill diameter =
+The track length is longer than Design Rule Checking (DRC) track length =
+The track width is less than Design Rule Checking (DRC) track width =
+
+#Dialog Simulation
+Show your simulation report = Zobraziť správu simulácie
+Download netlist = Stiahnúť netlist
+Run = Spustiť
+Components = Komponenty
+
+#Dialog Import
+Import file from your computer = Importovať súbor z vášho počítača
+Maximum file size: 30 MB = Maximálna veľkosť súboru je 30 MB
+Maximum file size: 100 MB = Maximálna veľkosť súboru je 10 MB
+
+Chose file = Vybrať súbor
+File Operation = Operácie so súborom
+Import File = Importovať súbor
+Extract Libs = Rozbaliť knižnicu
+Import File and Extract Libs =
+File type = Typ súboru
+The file size is too large. = Súbor je príliš veľký
+Please selected the file type. = Vyberte prosím typ súboru.
+No component was found! = Nebola nájdená žiadna komponenta!
+Import successfully = Import úspešný
+Import failed = Import zlyhal
+Click OK to continue with the import = Kliknite na OK pre pokračovanie importu
+Select None = Žiadny výber
+
+#Dialog Modify Symbol Information
+Modify symbol information = Upraviť informáciu symbolu
+Spice Prefix = Spice prefix
+Hide Pin =
+Pin Manager =
+When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = Pokiaľ je napájací pin skrytý, označí sa štítkom spoja a nemusíte ho spojovať. Pokiaľ ho chcete použiť v simulacii, zobrazte ho alebo vytvorte GND/VCC sieť.
+Assign = Priradiť
+Supplier.bom = Supplier.bom
+LCSC.bom = LCSC.bom
+Price = Cena
+Quantity.bom = Quantity.bom
+Package.bom = Package.bom
+Components.bom = Components.bom
+Manufacturer Part.bom = Manufacturer Part.bom
+Manufacturer.bom = Manufacturer.bom
+
+One-click Purchasing at LCSC = Objednať na LSCS jedným kliknutím
+Order Parts/Check Stock = Objednávka diel/Kontrola zásob
+Export BOM = Exportovať BOM
+Export PCB BOM = Exportovať DPS BOM
+Export Schematic BOM = Exportovať schému BOM
+ID.bom = ID.bom
+Name.bom = Name.bom
+[bom]
+Name = Názov
+LCSC Assembly = Zostavenie LCSC
+Value = Hodnota
+ID = ID
+Supplier = Dodávateľ
+LCSC = LCSC
+Price = Cena
+Quantity = Množstvo
+Package = Balík
+Components = Komponenty
+Manufacturer = Výrobca
+[/bom]
+Manufacturer Part = Diel výrobcu
+
+#Dialog Run
+Run your simulation = Spustiť simuláciu
+Transient = Priechod
+Maximum Timestep = Maximálny časový krok
+Stop Time = Čas ukončenia
+Start Time = Čas zahájenia
+
+AC Analysis = AC analýza
+Type of Sweep = Typ vlny
+Number of points = Počet bodov
+Start Frequency = Začiatočná frekvencia
+Stop Frequency = Konečná frekvencia
+
+DC sweep = DC vlna
+Source to Sweep = Zdroj vlny
+Start Value = Začiatočná hodnota
+Stop Value = Konečná hodnota
+Increment = Prírastok
+DC Transfer = DC prevod
+Output = Výstup
+Source = Zdroj
+
+DC op pnt = DC operačný bod
+Compute the DC operating point treating capacitances as opens and inductances as shorts = Výpočet operačného bodu DC zaisťujúceho kapacitu pre otvorené obvody a indukčnosť pre uzavrené obvody.
+
+#Dialog Share Info
+Active File = Aktívny súbor
+Active Project = Aktívny projekt
+Readonly = Len pre čítanie
+Editable = Editovateľný
+Active file's owner project page = Stránka aktívneho súboru vlastníka projektu
+Active project editor page = Stránka editoru aktívneho projektu
+
+#Dialog Document Recovery
+All Projects = Všetky projekty
+Document Recovery = Obnova dokumentu
+Unsaved files = Neuložené súbory
+Please select a file! = Vyberte prosím súbor
+Please expand the folder first, then select a document to recover. =
+Are you sure you want to remove this backup? = Naozaj chcete odstrániť túto zálohu?
+
+#Dialog Find Libs
+Search = Vyhľadávanie
+Search Results = Výsledky vyhľadávania
+Search and press Enter = Vyhľadávajte a stlačte Enter
+Keywords at least 3 characters = Kľúčové slová min. na 3 znaky
+Assembled = Zostavené
+Verified = Overené
+In stock = Na sklade
+{page} of {pagecount} pages = {page} z {pagecount}
+Common Modules = Všeobecné moduly
+User Contributions = Používateľské príspevky
+More = Viac
+Add Favorite = Pridať obľúbené
+Remove Favorite = Odstrániť obľúbené
+Add Sub Part = Pridať iba časť
+Untagged = Neoznačené
+Package = Balík
+package = balík
+Title(PartNO) = Názov (Č.dílu)
+No Data! = Bez údaju!
+Quantity = Množstvo
+Manufacturer Part = Diel výrobcu
+manufacturer Part = diel výrobcu
+Manufacturer = Výrobca
+manufacturer = výrobca
+voltage = napätie
+Library = Knižnica
+LCSC Assembled = Zostavené LCSC
+JLCPCB Assembled = Zostavené JLCPCB
+User Contributed = Používateľská spolupráca
+Symbol = Symbol
+Follow = Sledovať
+Types = Typy
+Classes = Triedy
+power = napájanie
+Power = Napájanie
+LCSC Part# = Č. dielu LCSC
+Stock = Skladom
+Report Error... = Chyba výstupu
+Report Error = Nahlásiť chybu
+Thanks for your feedback! = Ďakujeme za spätnú väzbu!
+Report error success, thanks for your report! = Chybová správa úspešná, ďakujeme za vašu správu!
+The content must be at least 2 characters! = Musíte zadať aspoň 2 znaky!
+This library is user contributed, please check before using. =
+[lib]
+All = Všetko
+System = Systémové
+Personal = Osobné
+Created = Vytvorené
+Favorite = Obľúbené
+No Team found. Please join or create a team first. = Nenašiel sa žiadny tým. Najprv sa prosím pripojte k týmu alebo založte nový tým.
+Create a team = Vytvoriť tým
+No follow user found. Please follow your friend first. = Nesledujete žiadneho používateľa. Najprv prosím sledujte svojho priateľa.
+[/lib]
+
+
+BUY = KOUPIT
+In Stock = Na sklade
+Out of Stock = Nie je na sklade
+Minimum = Minimum
+Distributor = Distribútor
+
+Capacitance = Kapacita
+Frequency Tolerance = Tolerancia frekvencie
+Power (Watts) = Výkon (Watty)
+Power - Max = Maximálny výkon
+Frequency = Frekvencia
+Voltage Rating(Vdc,Vac) = Menovité napätie (Vdc, Vac)
+Voltage = Napätie
+Current Rating = Menovitý prúd
+Rated current = Menovitý prúd
+Resistance (Ohms) = Odpor (Ohm)
+Resistance(Ohms) = Odpor(Ohm)
+Inductance = Indukcia
+FET Type = Typ FET
+Current Rating(Max) = Menovitý prúd (max)
+Impedance @ Frequency = Frekvencia impedancie
+Voltage - Input (Max) = Vstupné napätie (max)
+Voltage - Input (Min) = Vstupné napätie (min)
+Voltage - Supply = Napájacie napätie
+Voltage - Max = Max napätie
+Current - Output = Výstupný prúd
+
+#Dialog Export Your Works
+Export your works = Exportovať vašu prácu
+Export to = Export do
+Zoom = Zväčšiť
+Image Type = Typ obrazu
+Qualify = Kvalifikovať
+0 means real size = 0 znamená skutočnú veľikosť
+Merged layer = Spojené vrstvy
+Separated layer = Oddialené vrstvy
+Paged layer =
+Layer = Vrstva
+Export = Export
+Mirror = Zrkadliť
+TopLayer = Vrchná vrstva
+BottomLayer = Spodná vrstva
+TopSilkLayer = Vrchná vrstva potlače
+Protractor Attributes = Vlastnosti uhlomeru
+BottomSilkLayer = Spodná vrstva potlače
+
+BoardOutLine = Okraj dosky
+TopAssembly = Vrchná zostava
+BottomAssembly = Spodná zostava
+Mechanical = Mechanika
+DocumentLayer = Vrstva dokumentácie
+Inner{number} =
+Substrate{number} =
+Color = Farba
+Full Color = Plná farba
+Canvas Setting = Nastavenie plátna
+Full Graphics = Plná grafika
+Assembly Drawings = Montážny výkres
+Object Outlines =
+Invalid file format = Neplatný formát súboru
+Failed to export file = Export súboru zlyhal
+Download now = Stiahnúť
+Wire Width = Šírka spoja
+Sheet = List
+Merged sheet = Spojené listy
+Separated sheet = Oddelené listy
+Engine =
+Exporting PDF =
+Export 3D Model =
+[exportDocument]
+Size = Veľkosť
+[/exportDocument]
+
+#Dialog Import Changes
+Confirm Importing changes information = Potvrdiť informácie o zmenách importu
+You can't undo this operation, Please run a Design Rule Checking (DRC) after this operation. =
+Apply Changes = Použiť zmeny
+This is a simple Design Rule Checking (DRC). =
+It just can help you to find the obvious errors = Pomôže vám nájsť bežné chyby.
+There are some unfinished nets, do you want to check the nets first? =
+Yes, Check Nets =
+No, Keep Going =
+
+#Dialog Layer Manager
+Configured = Zobraziť
+Layer Name = Názov vrstvy
+TopPasterLayer = Vrchná vrstva lepidla
+BottomPasterLayer = Spodná vrstva lepidla
+TopSolderLayer = Vrchná vrstva pájky
+BottomSolderLayer = Spodná vrstva pájky
+TopPasteMaskLayer = Vrchná vrstva masky lepidla
+BottomPasteMaskLayer = Spodná vrstva masky lepidla
+TopSolderMaskLayer = Vrchná vrstva masky pájky
+BottomSolderMaskLayer = Spodná vrstva masky pájky
+ComponentShapeLayer =
+LeadShapeLayer =
+ComponentMarkingLayer =
+Ratlines = Vodiace čiary spojov
+Ratlines Color =
+Manage Colors =
+BoardOutline = Oblasť dosky
+Multi-Layer = Multi-vrstva
+Hole = Diera
+DRCError = DRC chyba
+Setting = Nastavenie
+Drawing area = Oblasť kreslenia
+Export area = Oblasť exportu
+Transparency(%) = Priehľadnosť(%)
+Copper Layer = Vrstva medi
+Signal = Signál
+Plane =
+Non-Signal = Bez signálu
+Other = Iné
+Please delete all the objects of the layers first! The layers are: =
+You are converting Signal Layer to Plane Layer, There're some non-track objects remain on following layers. Please delete the objects manually on the canvas. =
+Please delete all the objects of this layer first! =
+
+#Dialog Fabrication Output
+Create Files = Vytvoriť súbory
+Check your {0}Gerber files{1} carefully before sending them to the factory = Pred odoslaním do výroby skontrolujte prosím vaše {0}Gerber súbory{1}.
+Download free Gerber Viewer (gerbv) = Stiahnúť zdarma prohliadačGerber súborov
+Before generating the Gerber files = Pred generovaním Gerber súboru
+Please check the packages size and orientation carefully. = Skontrolujte prosím veľkosť balíkov a orientáciu.
+Please check for Design Rule Checking (DRC) errors in the Design Manager. =
+Please rebuild the copper area after modifying tracks and packages. = Po úprave ciest a balíkov, obnovte prosím oblasť medi.
+After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Po vygenerovaní Gerber súboru skontrolujte v {0}prehliadači Gerber súborov{1}, či zodpovedá požiadavkám návrhu.
+Order PCB/SMT at JLCPCB = Objednať DPS/SMT u JLCPCB
+Found the complicated polygon object can not be generated at Gerber, please remove or replace =
+ID: {id}, Object: {object}, Location: {location} =
+
+#Dialog DRC
+Item = Položka
+Value = Hodnota
+value = hodnota
+Unit = Jednotka
+Track Width = Šírka cesty
+Track to Track = Medzera medzi cestami
+Track to Pad = Medzera medzi cestou a plôškou
+Pad to Pad = Medzera medzi plôškami
+Via to Via =
+Via Hole Size = Veľkosť priechodnej diery
+Realtime DRC = DRC v reálném čase
+{0} is too small! = Hodnota {0} je príliš malá!
+Invalid DRC Rule = Neplatné pravidlo DRC
+Rule = Pravidlo
+Via Diameter = Priemer priechodu
+Via Drill Diameter =
+Net List =
+Rule = Pravidlo
+Set Rule = Nastavenie pravidla
+Check Object to Copper Area =
+Show DRC Boundary while Routing =
+Check Object to Board Outline =
+Rule name already exists! =
+You should not delete default rule! =
+Rule list contains invalid rule setting! =
+Duplicate rule name exists! =
+via diameter is smaller than via drill diameter! =
+Currently rule name is not allowed to contain magical characters like . and $ =
+[drcRule]
+All = Všetko
+[/drcRule]
+
+#Dialog  Update PCB
+Update PCB(Synchronizing PCB from schematics) = Aktualizovať DPS (Synchronizovať DPS na základě schémy)
+
+
+#Dialog Hotkey
+Change Canvas Unit =
+Copy Selected Object(s) by Reference Point =
+Fullscreen =
+Undo the Previous Draw =
+Set Canvas Origin by Coordinate =
+Switch to the Next Signal Layer =
+Switch to the Previous Signal Layer =
+Switch object to top layer or bottom layer =
+Cycle Forward to the Next Open Tabbed Document =
+Cycle Backward to the Previous Open Tabbed Document =
+Switch to the Previous Layer(on the Numeric Keypad) =
+Switch to the Next Layer(on the Numeric Keypad) =
+Toggle Layers Which is Not Active =
+Hotkey Setting = Nastavenie kl. skratiek
+Document Type = Typ dokumentu
+Shortcut = Skratka
+Function = Funkcia
+ALL = VŠETKO
+SCH = SCH
+Rotate Selected Objects = Otáčanie vybraného objektu
+Scroll or Move Selected Left =
+Scroll or Move Selected Right =
+Scroll or Move Selected Up =
+Scroll or Move Selected Down =
+Set canvas origin to the center grid of graphics in symbol; Set canvas origin to the center of pads in footprint. =
+Cross Document Paste = Cross document paste
+Explore & Find Components = Preskúmať a vyhľadať komponenty
+Select All = Vybrať všetko
+Cancel Current Drawing =
+Save = Uložiť
+Drag Tool = Nástroj pretaženia
+Draw Wire = Nakresliť spoj
+Draw Bus = Nakresliť zbrenicu
+Bus Entry = Vstup sbernice
+Junction = Spoj
+Net Flag GND =
+Net Flag = Značka spoja
+Draw Polyline = Nakresliť spojovaciu čiaru
+Draw Polygon = Nakresliť polygon
+Draw Bezier = Nakresliť bazierovú krivku
+Draw Arc = Nakresliť uhol
+Draw Rect = Nakresliť obdĺžnik
+Draw Ellipse = Nakresliť elipsu
+Freehand Draw = Ručné kreslenie
+Freedraw = Voľné kreslenie
+Draw Text = Nakresliť text
+Edit Selected Symbol = Upravit vybraný symbol
+Draw Track = Nakresliť cestu
+Draw Circle = Nakresliť kruh
+Cycle Select Object at Current Location =
+Draw Dimension = Nakresliť rozmer
+Draw Connect = Nakresliť spojenie
+Draw CopperArea = Nakresliť oblasť medi
+Change to TopLayer;<br/>Change Selected Component's Layer to TopLayer; =
+Change to BottomLayer;<br/>Change Selected Component's Layer to BottomLayer; =
+Change to Inner1 =
+Change to Inner2 =
+Change to Inner3 =
+Change to Inner4 =
+Highlight Net = Zvýrazniť spoj
+Place Pad = Umiestniť plôšku
+Place Via = Umiestniť priechod
+Measure = Meranie
+Change Routing Angle =
+Change Routing Conflict =
+Decrease Routing Width = Zmenšiť šírku cesty
+Increase Routing Width = Zväčšiť šírku cesty
+Decrease Snap Size = Zmenšiť veľkosť uchytenia
+Increase Snap Size = Zväčšiť veľkosť uchytenia
+Change Copper Zone Visible or Invisible = Zmeniť zónu medi na Viditeľnú alebo Neviditeľnú
+Rebuild All Copper Area = Obnoviť oblasť medi
+Toggle PCB Net Display = Zobraziť DPS spoj
+Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Relative Offset Dialog When Selecting Object(s) =
+Open the FAQ Page =
+Move Object(s) by Reference Point =
+Choose Favorite Track Width While Routing =
+Copy Selected Object(s) and Paste Repeatedly =
+
+#My Projects Tree Menu
+New Project = Nový projekt
+New Schematic = Nová schéma
+New PCB = Nová DPS
+New Spice Subckt = Nový Spice Subckt
+Modify = Upraviť
+Delete = ˇOdstáaniť
+Add sub part = Pridať iba časť
+Clone = Duplikovať
+Version History = História verzie
+Refresh List = Obnoviť zoznam
+Create New Project = Vytvoriť nový projekt
+Delete = Odstrániť
+Attachment = Príloha
+Archive = Archív
+Transfer = Prenos
+Manage Project = Správca projektu
+
+#Dialog Verify Package
+Footprints Verification =
+
+#Dialog Edit Polygon Pad points
+Edit Points = Upravit body
+Center point is outside the pad =
+Hole should be inside the pad =
+Hole is draggable =
+
+#My Part Tree Menu
+Clone = Duplikovať
+Reload parts = Obnoviť časti
+Layers = Vrstvy
+
+#Dialog Preferences
+Language = Jazyk
+Display Name = Zobraziť názov
+HotKey Sync = HotKey Sync
+My Theme Sync =
+Document Recovery Setting = Nastavenie obnovy dokumentu
+Enable auto backup = Povolenie automatickej zálohy
+Maximum backup level = Maximálna úroveň zálohy
+Auto backup interval = Interval automatickej zálohy
+minutes =
+Save to Server = Uložiť na server
+Load from Server = Načítať zo serveru
+
+
+#Dialog Schematic Library Wizard
+Symbol Wizard = Sprievodca symbolov
+Style = Štýl
+Picture = Obraz
+Pin Names = Názvy pinu
+Contributor = Prispirvateľ
+contributor = prispievateľ
+owner = vlastník
+
+#Dialog Annotate
+Annotate = Anotovať
+Scope = Priestor
+Active Schematic only = Len aktivne schémy
+All Opened Schematics = Všetky otvorené schémy
+Method = Metóda
+Re-annotate all = Obnoviť všetky anotácie
+Keep existing annotation = Zachovať pôvodnú anotáciu
+Direction = Smer
+Rows = Riadky
+Cols = Stĺpce
+Reset = Vyčistiť
+
+#Dialog Order
+Order... = Objednať...
+PCB Qty. = Počet DPS
+PCB Thickness = Hrúbka DPS
+PCB Dimension = Rozmer DPS
+Automatic calculation = Automatická kalkulácia
+PCB Color = Farba DPS
+Green = Zelená
+White = Biela
+Blue = Modrá
+Red = Červená
+Yellow = Žltá
+Black = Čierna
+Purple = Purpurová
+Copper = Meď
+Gold = Zlato
+Silver = Striebro
+Surface Finish = Finálny povrch
+Hasl = Hasl
+Hasl(Lead Free) = Hasl (bezolovnaté)
+ENIG = ENIG
+
+#Dialog Hot Key config
+Restore All Default Shortcuts = Obnoviť všetky prednastavené skratky
+Save Changes = Uložiť zmeny
+
+
+
+#Dialog Polyline Maybe Wire
+To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = Pre spojenie elektrických elementov použite Spoj (klávesa W) a nie Čiaru (klávesa L).
+
+Anonymous File = Anonymný súbor
+Anonymous File can not be cloned, but you can open it, then save it as a new file. = Anonymný súbor sa nemôže duplikovať, ale môžete ho otvoriť a uložiť ako nový súbor.
+Free Documents = Voľné dokumenty
+You must close the file before delete it! = Predtým než súbor vymažete, musíte ho najprv zavrieť.
+Offline Project = Offline projekt
+
+#Message box
+Confirmation = Potvrdenie
+Alert = Upozornenie
+Information = Informácie
+information = informácie
+Prompt = Výzva
+Error = Chyba
+error = chyba
+error! = chyba!
+Warning = Varovanie
+Imported ok! = Importované!
+Some changes have not been saved. = Niektoré zmeny sa nepodarilo uložiť.
+Your file hasn't been saved. Please save first! = Váš súbor nebol uložený. Uložte ho prosím!
+Your file hasn't been saved. Are you sure you want to close it? = Váš súbor nebol uložený. Naozaj ho chcete zavrieť?
+Error! Please try again later. = Chyba! Skúste prosím neskôr.
+Are you sure you want to reload this page? = Naozaj chcete obnoviť stránku?
+Are you sure you want to leave this page? = Naozaj  chcete opustiť stránku?
+Confirm Reload = Potvrdiť obnovu
+Confirm Close = Potvrdiť zatvorenie
+Reload this page = Znovunačítanie hejto stránky
+Leave this page = Opustiť túto stránku
+Stay on this page = Zostať na stránke
+Don't reload = Neobnovovať
+No connect flag only can be placed on Pin dot or the wire which is connected one Pin. =
+can not be placed on the wire which is placing No Connect Flag. =
+The footprint transfer to LCSC library class successfully =
+Device/Footprint goes into "SMT Device/Footprint Verified" list successfully =
+
+Load failure! = Načítannie zlyhalo!
+Load projects failed = Načítanie projektov zlyhalo
+error info = informácie o chybe
+error information = informáciee o chybe
+Guest can't create a new project. Please login! = Hostia nemôžu vytvárať nové projekty.
+Please create a project before you do this! = Najprv prosím opravte projekt.
+Add Part success = Pridanie dielu úspešné
+Click the new part and then edit it! = Kliknite na nový diel a potom upravte!
+Delete my work = Odstrániť moju prácu
+Delete my work. (Only deletes it from this list but not from the server) = Odstrániť moju prácu. (Odoberie iba zo zoznamu, ale neodstráni zo servera)
+Do you confirm this? = Chcete to potvrdiť?
+Successfully deleted! = Odstránenie úspešné!
+Successfully Copied! = Kopírovanie úspešné
+Cloning success! = Duplikovanie úspešné!
+Your title is too short! = Názov je príliš krátký!
+Remove this part = Odstrániť tento diel
+Find and Jump to ... = Vyhľadať a prejsť na...
+Please type the prefix, such as U1, R1, C1 = Zadajte prosím preefix, napr. U1, R1, C1
+Zoom as 1:1, you can print it and then create artwork for etching the PCB. = Zväčšenie na 1:1, môžete vytlačiť a použiť pre vyleptanie DPS.
+Exporting your works! = Export vašej práce!
+Guests can't import a file. Please login! = Hostia nemôžu importovať súbory.
+Please create a project before you import a file! = Pred importovaním súboru prosím vytvorte projekt.
+Import your LTspice file! = Import LTspice súboru!
+Open LTspice file = Otvoriť LTspice súbor
+Please make sure the selected LTspice file is a file saved in LTspice V and above. =
+Saved successfully! = Uloženie úspešné!
+Save failed! = Uloženie zlyhalo!
+Can not place parts into this document. = Nie je možné vložiť diel do tohto dokumentu.
+User Package = Používateľský balík
+System Package = Systémový balík
+File error = Chyba v súbore
+Please save your file first! = Najprv prosím uložte súbor!
+Email address is too short! = Adresa emailu je príliš krátka!
+You have not selected a file to upload. = Nevybrali ste žiadny súbor pre nahrávanie.
+Update = Aktualizovať
+Import.Import Changes =
+No changes, the PCB already matches the schematic! = Žiadne zmeny, DPS už zodpovedá schéme!
+Only public files can be shared = Zdieľať môžete len verejné súbory
+Conversion to PCB has failed! = Konverzia na DPS zlyhalo!
+Your username is too short! = Vaše používateľské meno je príliš krátke!
+Your password is too short, it must be more than 6 characters! = Vaše heslo je príliš krátke, musí obsahovať aspoň 6 znakov!
+Conflicting shortcut = Konflikt v skratkách
+There is an empty PCB file. Please first run Convert Schematic to PCB... from the schematic = DPS súbor je prázdny. Najprv prosím preveďte projekt na DPS...
+This file has been modified, are you sure you want to run this simulation before saving it first? = Súbor bol zmenený. Naozaj chcete pred uložením spustiť túto simuláciu?
+Please enter the Maximum Timestep! = Zadajte prosím Maximálny časový krok!
+Please enter the Stop Time! = Zadejte prosím Konečný čas!
+All of these fields are needed. = Všetky polia sú povinné.
+Either your spice netlist is too big or the server is busy. Please try again later. = Buď je váš zoznam netlist príliš veľký alebo je server zaneprázdnený. Skúste prosím neskôr.
+Your spice netlist is too big! Try breaking your circuit into smaller simulatable blocks. = Váš zoznam spice netlist je príliš veľký! Skúste rozdrliť váš obvod na menšie bloky.
+Too many users in simulation. Please try again later! = Príliš veľa používateľov využíva simuláciu. Skúste prosím neskôr!
+Due to limited server resources, please wait 10 seconds for the interval in every time simulation. = Z dôvodu obmedzených zdrojov servera počkajte 10 sekúnd medzi intervalmi simulácii.
+Your circuit is too complex, we have not enough CPU resource to support this simulation, please reduce your circuit as small as you can. = Váš obvod je príliš zložitý, nemáme dostatok zdrojov CPU na podporu tejto simulácie, zmenšite prosím obvod na čo najmenší rozmer.
+Simulation is queuing, try again after 30s. = Simulácia je v rade, skúste to znova po 30 s.
+Timeout =
+Demo accounts don't support simulation, please login first = Demo účet nepodporuje simuláciu, prihláste sa prosím.
+Please login first = Prihláste sa, prosím
+The schematic is showing errors, please check the simulation report carefully! = Schéma vykazuje chyby, skontrolujte prosím report simulácie!
+Simulation too long, maybe your schematic is too complex. = Simulácia trvá príliš dlho, možno že vaša schéma príliš komplexná.
+Non-simulated file = Nesimulovaný súbor
+This file can only be opened in standard mode. To open it, please switch to standard mode. = Tento súbor je možné otvoriť iba v štandardnom režime. Ak ho chcete otvoriť, prepnite sa prosím do štandardného režimu.
+Load your preferences success! = Načítanie vašich preferencií úspešné!
+Save your preferences success! = Uloženie vašich preferencií úspešné!
+Update subckt ok! = Aktualizácia Subckt v poriadku!
+Clone your file = Duplikovať váš súbor
+Please type a new file name = Zadajte prosím nový názov súboru
+Create file failure! = Vytvorenie súboru zlyhalo!
+Schematics and PCBs can't be imported under My Libs folder, please choose a different folder = Schémy a DPS nemôžete importovať do priečinku Moja knižnica, vyberte prosím iný priečinok.
+Libraries to be imported under My Libs folder = Knižnice importované v priečinku Moja knižnica
+Please choose only the libraries needed = Vyberte prosím len potrebné knižnice
+Maximum import is 200 libs at one time! = Naraz je možné importovať iba 200 knižníc.
+You libraries will be found under the My Libs folder = Vaše knižnice je možné nájsť v priečinku Moja knižnica
+Add to Library = Pridať do knižnice
+No items have been checked! = Neboli skontrolované žiadne položky!
+Nothing was found, please create it for yourself = Nič sa nenašlo, vytvořte si prosím sám.
+Search result = Výsledok vyhľadávania
+At least 3 characters needed = Je potrebné zadať aspoň 3 znaky
+Add to my Favorite Parts = Pridať do mojich Obľúbených dielov
+Added it OK. Please find it in your Favorite Parts = Pridanie v poriadku. Viac nájdete v Obľúbených dieloch
+Please select its parent node = Vyberte prosím nadriadený uzol
+Libraries can not be exported as active project pdf. = Knižnice nie je možné exportovať ako aktivny projekt pdf.
+Error:No GND = Chyba: Nie je GND
+This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Tento obvod nemá GND. Ak chcete pridať do obvodu GND, vyberte ho prosím v nástroji obvodu.
+Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Prúdový obvod nemá symbol zdroja napätia alebo zdroja prúdu, umiestnite ho najskôr na ľavú stranu EElib alebo Spice Library.
+Probe can not connect with ground(GND)! = Sonda sa nedá spojiť so zemou (GND)!
+Spice symbols's attributes can't be empty. = Atrinúty symbolos Spice nie sú prázdne
+Error:No Spice Symbol = Chyba: Spice Symbol
+Simulation limit = Limit simulácie
+There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = V obvode je multimeter, ktorý je potrebné simulovať pomocou emulačného príkazu .tran alebo .op
+An oscilloscope exists in the circuit and needs to be simulated using the simulation command .tran = V obvode existuje osciloskop a je potrebné ho simulovať pomocou simulačného príkazu .tran
+There are components in this circuit that do not have a simulation model. Please use the base library component of the simulation mode for simulation. = V tomto obvode sú komponenty, ktoré nemajú simulačný model. Na simuláciu použite základnú knižnicu v režime simulácie.
+Circuit does not have a probe = Obvod nemá sondu
+Make sure your pin numbers are even numbers = Uistite sa, že čísla pinov sú párne
+Duplicate Components Prefix = Duplikovať prefix komponentov
+All components are hidden successfully! = Všetky komponenty sú úspešne skryté!
+All ratlines are hidden successfully! =
+Hidden the ratline of net {netName} successfully! =
+Duplicate Component Prefix = Duplicitná predpona komponentu
+{0} exist = {0} už existuje
+There are some invalid packages, are you sure? = Existujú neplatné balíky, chcete pokračovať?
+Invalid Characters, library only allows [0-9a-zA-Z-_]
+Annotation success = Anotované
+If you accept this annotation operation, please save your files. If not, close your files without saving. = Ak chcete prijať anotáciu, uložte súbor. Inak ho zavrite bez uloženia.
+This file can't be saved under libs project. Please choose other project or create a new project = Tento súbor sa nedá uložiť do knižníc projektu. Vyberte iné umiestnenie alebo vytvorte nový projekt.
+Your file is unsaved. = Váš súbor nie je uložený.
+You can close the editor now. Have a good day! =Teraz môžete zatvoriť editor. Prajeme krásny deň!
+Successfully logged out = Úspěšne odhlásený
+You have at least one unsaved file open. Please save it or close it. = Máte aspoň jeden neuložený súbor. Uložte ho prosím, alebo zatvorte.
+Please select a reference point = Vyberte prosím referenčný bod
+Please save your file before this operation = Najprv prosím uložte súbor.
+Please open a PCB document = Otvorte prosím DPS dokument
+Please save your file before '{0}'. = Najprv prosím uložte súbor '{0}'.
+Please try again after saving this file. = Skúste prosím znovu akonáhle uložíte súbor.
+This text can not be empty! = Tento text nemôže byť prázdny!
+Export to Altium fail, please try again or contact us. = Export do Altium zlyhal, skúste to prosím znova alebo nás kontaktujte
+Connecting to server = Pripájam sa na server
+Please login before asking for help = Pred žiadosťou o pomoc sa prihláste prosím.
+This file has been modified, please save it first! = Súbor bol zmenený, najprv ho prosím uložte!
+Remove this param = Odstrániť parameter
+You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. =
+Undo/Redo temporary error = Dočasná chyba pri Späť/Vrátiť spät
+We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. =
+The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. = Schéma obsahuje duplikované prefixy komponent, presvedčte sa prosím či sú jedinečné.
+Found duplicated prefix components, can not Import Changes, please modify the duplicated prefix or delete related component. =
+Please click the below help button to find out how to fix this problem. = Ak neviete ako problém vyriešiť, kliknite na tlačidlo s nápovedou.
+Please create a board outline! Click the help button to find out how to create a board outline. = Vytvorte prosím oblasť (okraje) dosky. Ak neviete ako, kliknite na tlačídlo s nápovedou.
+Can not fetch files from server, please check your network and try again = Nemôžem získať súbory zo servera, skontrolujte prosím  nastavenie siete a skúste znova.
+Please open a schematic first! = Najprv prosím otvorte schému!
+Can not find the schematic of this PCB = Nemôžem nájsť schému DPS
+invalid points! = neplatné body!
+This file does not support this operation. = Tento súbor nepodporuje danú operáciu.
+Net Name Conflict = Konflikt v názvu spoja
+Net name = Názov spoja
+{0} are in the same wire, please remove others and just keep one. = {0} sú v rovnakom spoji. Odoberte ich a ponechajte iba jeden.
+This field can't be removed! = Toto pole sa nedá odstrániť!
+Annular ring of the pad/via is too small = Veniec plôšky/priechodu je príliš malý
+The size of the hole cannot exceed the size of the pad =
+Are you sure you want to create a multi-sheet designs? = Naozak chcete vytvoriť viacnásobný návrh?
+Are you sure you want to create a {0}multi-sheet designs{1}? = Naozaj chcete vytvoriť {0}viacnásobný návrh{1}?
+Please build the copper area! Click the help button to find out how to build the copper area. = Zostavte prosím oblasť medi! Ak neviete ako, kliknite na tlačidlo s nápovedou.
+Suggest to set a package for this component first! = Odporúčame najskôr nastaviť balík pre tento komponent!
+Please select an opened document first. = Vyberte prosím otvorený dokument.
+Some files failed to load. Please reload the page. = Niektoré súbory sa nenahrali. Obnovte prosím stránku.
+
+#UI Intro
+Skip = Přeskočit
+« Back = « Späť
+Next » = Ďalší »
+Done = Hotovo
+This is the user management menu. = Toto je správa používateľa.
+This is the toolbar. = Toto je nástrojová lišta.
+This is the navigation list. Under here you can find projects, files, parts and libraries. = Toto je navigačný zoznam. Tu môžete nájsť projekty, súbory, diely a knižnice.
+Show or hide the toolbar to the top of the window here. = Zobraziť alebo skryť nástrojovú lištu smerom hore k oknu.
+Show, resize or hide the left sidebar to the left of the window here. = Zobraziť, zmeniť veľkosť alebo skryť ľavý postranný panel k ľavej strane okna.
+Show or hide the right sidebar to the right of the window here. = Zobraziť alebo skryť pravý postranný panel k pravej strane okna.
+
+#Standard libs
+Passive Components = Pasivne komponenty
+Power Supply = Zdroj napájania
+Diodes = Diódy
+Regulator = Regulátory
+Transistor = Tranzistory
+Transformers = Transformátory
+Gates = Brány
+Vacuum Tubes = Elektrónky
+Switch = Prepínače
+Relay = Relé
+Capacitor(US) = Kondenzátory (US)
+Capacitor(EU) = Kondenzátory (EU)
+Capacitor(EU)2 = Kondenzátory (EU)2
+Electrolytic Capacitor(US) = Elektrolytické kondenzátory (US)
+Electrolytic Capacitor(EU) = Elektrolytické kondenzátory (EU)
+Electrolytic Capacitor(US)2 = Elektrolytické kondenzátory (US)2
+Electrolytic Capacitor(EU)2 = Elektrolytické kondenzátory (EU)2
+Inductor(US) = Induktory (US)
+Inductor(EU) = Induktory (EU)
+Potentiometer_US =
+Potentiometer_EU/IEC =
+Potentiometer_3D =
+Resistor(US) = Odpory (US)
+Resistor(EU) = Odpory (EU)
+Resistor 45 Deg(US) = Odpory 45° (US)
+Resistor 45 Deg(EU) = Odpory 45° (EU)
+Variable Capacitor(US) = Variabilné kondenzátory (US)
+Variable Capacitor(EU) = Variabilné kondenzátory (EU)
+Variable Resistor(US) = Variabilné odpory (US)
+Variable Resistor(EU) = Variabilné odpory (EU)
+Variable Inductor(US) = Variabilné induktory (US)
+Variable Inductor(EU) = Variabilné induktory (EU)
+Varistor = Varistory
+Inductor2(US) = Induktory 2 (US)
+Inductor2(EU) = Induktory 2 (EU)
+Battery = Batérie
+Voltage Source = Zdroje napájania
+Current Source = Zdroje prúdu
+CCCS(Current Controlled Current Source) = CCCS (Prúdovo riadený zdroj prúdu)
+CCCS2(Current Controlled Current Source) = CCCS2 (Prúdovo riadený zdroj prúdu)
+VCCS(Voltage Controlled Current Source) = VCCS (Napäťovo riadený zdroj prúdu)
+VCVS(Voltage Controlled Voltage Source) = VCVS (Napäťovo riadený zdroj prúdu)
+CCVS(Current Controlled Voltage Source) = CCVS (Prúdovo riadený zdroj napätia)
+CCVS2(Current Controlled Voltage Source) = CCVS2 (Prúdovo riadený zdroj napätia)
+
+BV(Behavioral Voltage Sources) = BV (Behaviorálne zdroje napätia)
+BI(Behavioral Voltage Sources) = BI (Behaviorálne zdroje napätia)
+Epoly(Non-linear Voltage Source) = Epoly (Nelineárne zdroje napätia)
+Gpoly(Non-linear Current Source) = Gpoly (Nelineárne zdroje napätia)
+
+Diode = Dióda
+LED = LED
+LED_3D =
+Schottky Diode = Schottkyho dióda
+Varactor Diode = Varactor dióda
+Zener = Zenerova dióda
+Unidirectional TVS Diode = Jednosmerná TVS dióda
+Bidirectional TVS Diode = Obousmerná TVS dióda
+Diac = Diac
+Bridge = Mostík
+78XX = 78XX
+79XX = 79XX
+LM317 = LM317
+LM337 = LM337
+TL431 = TL431
+BJT(NPN) = BJT (NPN)
+BJT(PNP) = BJT (PNP)
+MOSFET(Nch) = MOSFET (Nch)
+MOSFET(Nch) Depletion Four-pins = MOSFET(Nch) Depletion Four-pins
+MOSFET(Nch) Enhancement = MOSFET(Nch) Enhancement
+MOSFET(Nch) Enhancement Four-pins = MOSFET(Nch) Enhancement Four-pins
+MOSFET(Pch) = MOSFET(Pch)
+MOSFET(Pch) Depletion Four-pins = MOSFET(Pch) Depletion Four-pins
+MOSFET(Pch) Enhancement = MOSFET(Pch) Enhancement
+MOSFET(Pch) Enhancement Four-pins = MOSFET(Pch) Enhancement Four-pins
+JFET(Nch) = JFET(Nch)
+JFET(Pch) = JFET(Pch)
+Darlington NPN = Darlington NPN
+Darlington PNP = Darlington PNP
+MESFET(Nch) = MESFET(Nch)
+MESFET(Pch) = MESFET(Pch)
+
+IGBT = IGBT
+SCR = SCR
+Triac = Triac
+Transform(US) = Menič(US)
+Transform(EU) = Menič(EU)
+Transfrom(NEUTRAL-CTR TAP)(US) = Menič(NEUTRAL-CTR TAP)(US)
+Transfrom(NEUTRAL-CTR TAP)(EU) = Menič(NEUTRAL-CTR TAP)(EU)
+Mutual Inductors = Vzájomné induktory
+Mutual Inductors2 = Vzájomné induktory2
+Or Gate = Brána OR
+Xor Gate = Brána XOR
+And Gate = Brána AND
+Nor Gate = Brána NOR
+Nand Gate = Brána NAND
+Not Gate = Brána NOT
+Xnor Gate = Brána XNOR
+Tube Diode = Trubková dióda
+Tube Triode = Trubková trióda
+Tube Tetrode = Trubková tetróda
+Tube Pentode = Trubková pentóda
+Voltage Controlled Switch = Prepínač riadený napätím
+Current Controlled Switch = Prepínač riadený prúdom
+SPST ON = SPST ON
+SPST OFF = SPST OFF
+Fuse = Poistka
+555 = 555
+555(Style2) = 555(Styl2)
+Speaker = Reproduktor
+XTAL = XTAL
+5pin Operational Amplifier = Operačný zosilňovač 5pin
+3pin Operational amplifier = Operačný zosilňovač 3pin
+Transmission Line = Prenosové vedenie
+Voltmeter = Voltmeter
+Ammeter = Ampérmeter
+LAMP = LAMP
+Opto Transistor = Opto tranzistor
+
+#Server Message
+Need login = Je nutné prihlásiť sa
+Bad password = Chybné heslo
+We can't find your username or your email, please check it! = Zadané použivateľské meno alebo email sa nenašiel.
+Make sure your uploaded file size is less than 3MB! = Uistite sa, že nahrávate súbor menší ako 3 MB!
+Bad file type = Chybný typ súboru
+Empty file or bad file type, ensure your file is Eagle 6.0+ = Súbor je prázdny alebo nie je správneho typu, uistite sa, že súbor je typu Eagle 6.0 a vyšší.
+This operation not supported on demo account = Táto operácia sa nedá proviesť v demo účtu
+Can not share this file under a private project, please set the active project to public! = Tento súbor sa bedá zdieľať v súkromnom projekte, prepnete prosím projekt na verejný!
+Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = Prihlásenie zlyhalo kvôli viac násobným pokusom. Ak ste zabudli heslo, {0}obnovte si heslo{1} alebo nám pošlite email na adresu support@easyeda.com
+
+#Dialog Common Buttons
+Common Buttons Setting = Nastavenie tlačidiel
+Menu Setting... = Menu Nastavenie...
+Show/Hide = Zobraziť/Skryť
+Move Up = Posunúť hore
+Move Down = Posunúť dole
+Reset All = Vyčistiť všetko
+Zoom = Zväčšiť
+Place Pin = Umiestniť pin
+
+#System Setting Dialog
+System = Systémové
+Zoom Mode = Lupa
+Scroll Key = Rolovanie
+CTRL + Scroll =
+Canvas Coordinate System =
+SVG Coordinate =
+Cartesian Coordinate =
+Open Wizard Dialog for New Schematic = Otvorenie dialógového okna sprievodcu pre novú schému
+Default Unit = Predvolené jednotky
+Canvas Zoom Effect =
+Quality Priority = Pririta kvality
+Speed Priority = Priorita rýchlosti
+Rotation Step = Krok rotácie
+Add Teardrop Automatically =
+Assign Net for Free Track/Arc/Circle =
+Open Wizard Dialog for New PCB = Otvorenie dialógového okna sprievodcu pre novú DPS
+Rebuild Plane Automatically =
+The Track's Routing Follows Component's Rotation =
+Display Pad's Number and Net =
+Favorite Track width =
+Track Width Setting =
+
+
+#Dialog Access Control
+Permissions = Oprávnenie
+Operation = Operácia
+Access Control = Prístup
+Project Access Control = Prístup k projektu
+Reject = Zamietnúť
+Add User = Pridať používateľa
+Bad email address = Chybná emailová adresa
+# error info from backend
+Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Zadanú emailovú adresu nebolo možné nájsť v EasyEDA. Uistite sa, že váš partner je používateľom EasyEDA.
+
+#Dialog waveForm
+Grid Background = Pozadie mriežky
+Pane Background = Pozadie panelu
+WaveForm Config = Konfigurácia signálu
+Export Waveform = Export signálu
+
+
+#attr-canvas-grid-style
+dot = bodka
+line = čiara
+
+#attr-canvas-frame-size
+Other = Iné
+A4 Portrait = A4 na výšku
+A4 Landscape = A4 na šírku
+A3 Portrait = A3 na výšku
+A3 Landscape = A3 na šírku
+A2 Portrait = A2 na výšku
+A2 Landscape = A2 na šírku
+A1 Portrait = A1 na výšku
+A1 Landscape = A1 na šírku
+Landscape = Na šírku
+Portrait = Na výšku
+
+#Stroke Style
+solid = plná čiara
+dashed = čiarkovaná čiara
+dotted = bodkovaná čiara
+
+#Solid Region
+Solid Region = Pevná oblasť
+Type = Typ
+type = typ
+
+#Dialog Libs Management
+Report error = Chybová správa
+Please give us some information to help us find the problem. = Aby sme vám pomohli nájsť problém, potrebujeme od vás nejaké informácie.
+Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = Diely sa nedajú vložiť do tohto dokumentu. Symboly schémat je možné umiestniť len do schémat a DPS pôdorysy je možné umiestniť len do DPS.
+Save it as a favorite part = Uložit jako oblíbený díl
+Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = Pouze přihlášení uživatelé mohou uložit tuto komponentu jako oblíbený díl. Hosté (anonymní uživatelé) mohou tuto komponentu umístit přímo do návrhu.
+
+#Others
+Find libs = Vyhľadať knižnice
+My Projects = Moje projekty
+My Parts = Moje diely
+My Modules = Moje moduly
+Assembly LCSC Components = Zostavené LCSC komponenty
+Modules = Moduly
+SCH Module =SCH Modul
+PCB Module = DPS Modul
+System IC = IC systém
+LCSC (Official) = LCSC (oficiálne)
+LCSC Electronics =
+Simple Mode = Jednoduchý mód
+Expand Mode = Rozšírený mód
+Help Verify =
+Favorite Parts = Obľúbené diely
+Shared With Me = Zdielať so mnou
+Preview = Náhľad
+Preview Window = Náhladové okno
+System Default = Predvolený systémovo
+User Defined = Používateľom definované
+Theme = Téma
+Theme Setting = Nastavenie témy
+Close = Zavrieť
+Open = Otvoriť
+Toggle toolbar = Prepnúť nástrojovú lištu
+Toggle left bar = Prepnúť ľavý panel
+Toggle right bar = Prepnúť pravý panel
+Reload = Obnoviť
+Mouse-X = Myš X
+Mouse-Y = Myš Y
+Mouse-DX = Myš DX
+Mouse-DY = Myš DY
+Bus entry x1 = Vstup zbernice x1
+Bus entry x2 = Vstup zbernice x2
+Bus entry y1 = Vstup zbernice y1
+Bus entry y2 = Vstup zbernice y2
+Yes = Ńno
+No = Nie
+OK = OK
+Confirm = Potvrdiť
+Continue = Pokračovať
+Cancel = Zrušiť
+Update = Aktualizovať
+Bus entry = Vstup zbernice
+Filter = Filter
+Check = Skontrolovať
+Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Skopírujte obsah tohto boxu do textového editoru a uložte súbor. Vložte upravený text späť do tohto boxu a kliknite na Použiť pre aktualizáciu zobrazenia.
+Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Skopírujte obsah tohto boxu do textového editoru a uložte súbor s príponou .svg. Potom ho môžete upraviť cez program Inkscape alebo otvoriť vo vašom prehliadači.
+Content is too big to show, you can download it directly. = Obsah je pre zobrazenie príliš veľký, môžete ho stiahnúť.
+SVG format = Formát SVG
+SVG File = Súbor SVG
+Description should be no more than 250 letters = Popis nesmie byť dlhší ako 250 znakov
+The file save operation has timed out. Try again and check your Internet connection. = Čas pre uloženie súboru vypršal. Skontrolujte pripojenie k internetu a skúste znovu.
+Export Netlist = Export Netlist
+Notifications = Notifikácie
+Please select txt or json files. = Vyberte prosím, súbory s príponou txt alebo json.
+Failed to read file [{file}]
+[{file}] is not a valid json file
+Invalid parameters! = Neplatné parametre!
+Download = Stiahnúť
+Start = Zahájiť
+You have unsaved files, are you sure you want to log out without saving the files? = Máte neuložené súbory, chcete sa odhlásiť bez uloženia súborov?
+Please use the web version to run this function. = Ak chcete spustiť túto funkciu, použite prosím webovú verziu.
+Please save this file to you project! = Uložte súbor prosím do projektu!
+Nothing changed = Žiadna zmena
+Delete Node = Odstrániť uzol
+This layer is invisible. = Táto vrstva je neplatná.
+When the solid region is Board Cutout, please set the layer to Multi-Layer. =
+You should not try to assign a net to a Board Cutout solid region. =
+Net Length = Dĺžka spoja
+You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. =
+Please input the modification = Zadajte úpravu
+The content must be between {0} and {1} characters = Obsah musí mať {0} až {1} znakov
+
+Coming soon = Již brzy
+No tool = Žiadny nástroj
+Help us translate into your language = Pomôzte nám s prekladom
+Pad = Plôška
+Via/Hole = Priechod/Diera
+PCB Layers = Vrstvy DPS
+Order PCB = Objednať DPS
+Share = Zdielať
+Free = Zdarma
+Small = Malý
+Medium = Stredný
+Big = Veľký
+
+
+Embed = Embed
+HTML = HTML
+URL = URL
+BBCode = BBCode
+PNG = PNG
+Exporting as = Exportujem ako
+Exporting as image = Exportujem ako obraz
+Exporting as {0}SVG{1} file. = Exportujem ako {0}SVG{1} súbor.
+Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = Exportujem ako PDF: lepšia kvalita pre tlač a malá veľkosť súboru.
+Generate PCB Fabrication File(Gerber) = Generovanie DPS súboru pre výrobu (Gerber)
+PenWidth-Increase = Zväčšenie hrúbky pera
+
+#Generate Gerber
+Generate Gerber = Generovanie Gerber
+Gerber View = Zobraziť Gerber
+Dimensions(Estimated) = Rozmery (odhad)
+PCB Qty = Počet DPS
+Copper Weight = Hmotnosť medi
+PCB Price = Cena DPS
+Estimated Delivery Time = Odhadovaný čas doručenia
+
+HASL(with lead) = HASL (s olovom)
+LeadFree HASL-RoHS = Bez olova HASL-RoHS
+ENIG-RoHS = ENIG-RoHS
+Would you like to do Design Rule Checking (DRC) before generating the Gerber files? =
+Yes, Check DRC = Áno, Skontroluj DRC
+No, Generate Gerber = Bie, Generuj Gerber
+This PCB has uncompleted connection(s), do you want to check the connection(s)? =
+Yes, Check Connection(s) = Áno, Skontroluj prepojenie(a)
+It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = Presmerujeme vás na webovú stránku tretej strany JLCPCB, s ktorým spolupracujeme. Ste pripravený?
+Failed to submit your order, please contact us via support@easyeda.com for help. = Odoslanie objednávky zlyhalo, kontaktujte nás prosím na support@easyeda.com.
+Failed to submit your order, please contact us via QQ 800821856. =
+Order data generated finish, please click OK button and continue. =
+[generateGerber]
+Layers = Vrstvy
+[/generateGerber]
+
+[version]
+Switch = Prepínače
+[/version]
+
+
+Export your file, then print it yourself. = Vyexportujte súbor a potom si ho vytlačte.
+Trace width is too small = Šírka cesty je príliš malá
+Share = Zdielať
+
+Images Attribute = Vlastnosti obrazu
+Connect Pad to Pad = Spojiť plôšku s plôškou
+Copper Area = Oblasť medi
+Dimension = Rozmer
+
+
+Please check that you have used Wire and not Line to connect electrical elements. = Skontrolujte prosím, že elektrické komponenty máte prepojené spojom a nie čiarou.
+PCB Fabrication Prices & capabilities = Ceny a možnosti výroby DPS
+Flip all texts on bottom layer = Otočiť všetky texty na spodnej vrstve
+Create New Document = Vytvoriť nový dokument
+General Package = Hlavný balík
+General Packages = Hlavné balíky
+favorite Package = Obľúbený balík
+Board Cutout =
+Surface Mount = Povechová montáž
+JLCPCB Part Class =
+base =
+expand =
+recommend = doporučené
+Basic Part = Základné diely
+Extended Part = Rozšírené diely
+Recommended Part = Doporučené diely
+smtWeld =
+thtWeld =
+manualWeld =
+furnaceWeld =
+Multi-Layer = Multi-vrstva
+Markdown Syntax = Syntax Markdown
+Markdown supported = Markdown podporovaný
+Read only = Len pre čítanie
+Read/Write = Čítať/Zapisovať
+More Libraries... = Viac knižníc...
+Decompress failed! = Dekompresia zlyhala!
+Load failed! = Načítanie zlyhalo!
+Loading = Načítavam
+No Result = Žiadne výsledky
+
+#Dialog Place Pin in schematic warning
+Place Pin in schematic warning = Varovanie ohľadne umiestnenia pinu v schéme
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = EasyEDA umožňuje vložit pin do schéma, ale ve schématu komponenty je třeba všechny piny seskupit. Pokud nevíte jak, klikněte na tlačítko s nápovědou. Pokud chcete pouze označit spoj, použijte Port spoje nebo Štítek spoje, prosím.
+I know. Do not show this again. = Rozumiem, viac túto správu nezobrazovať.
+
+#Extensions Setting
+Extensions Setting = Nastavenie rozšírení
+Remove = Odstrániť
+Disable = Zneplatniť
+Enable = Povoliť
+(Disabled) = (Zneplatnené)
+(Enabled) = (Povolené)
+Load Extension = Načítať rozšírenia
+Enable or disable will be applied after reload page = Povoliť alebo zneplatniť bude použité až po obnove stránky
+Your browser cannot run this function. = Váš prehliadač nevie spustiť túto funkciu
+Your browser mode does not support indexedDB. Some features may not work properly. Are you using Private Browsing Mode? =
+Extension Files = Súbory rozšírenia
+Extension ID = ID rozšírenia
+Select Files = Vybrať súbory
+
+#Scripts
+Script = Skript
+Scripts = Skripty
+Script Content = Obsah skriptu
+Load from js file = Načítať z js súboru
+UTF-8 encoded js file = JS súbor s kódovaním UTF-8
+Description = Popis
+description = popis
+Not a *.js file = Nie je *.js súbor
+Failed to read file = Čítanie súboru zlyhalo
+System scripts cannot be modified = Systémové skripty sa nemôžu upravovať
+Create Subfolder = Vytvoriť podpriečinok
+Create Script = Vytvoriť skript
+Install Script = Instalovať skript
+Install = Instalovať
+Are you sure you want to remove this script? = Naozaj chcete odstrániť tento skript?
+Folder Name = Názov priečinku
+Rename = Premenovať
+Please select a script = Vyberte prosím skript
+Failed to load script = Načítanie skriptu zlyhalo
+Run Script = Spustiť skript
+Load Script = Načítať skript
+Title is required = Názov je povinný
+Script content is required = Obsah skriptu je povinný
+System Scripts = Systémové skripty
+User Scripts = Používateľské skripty
+You can right click on the tree nodes. = Môžete kliknúť pravým tlačidlom na uzly stromu.
+
+#PCB photoView toolbar
+Top Side = Horná strana
+Bottom Side = Spodná strana
+With Silk Layer = Vrátane vrstvy potlače
+No Silk Layer = Bez vrstvy potlače
+Photo View = Foto náhľad
+
+#check update
+Check Update = Skontrolovať aktualizáciu
+EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = Bola vydána nová verzia editoru EasyEDA {ver}. Chcete sa prepnúť do novej verzie?
+LCEDA Editor {ver} is released. Would you like to switch to the new version now? = Bola vydána nová verzia editoru LCEDA {ver}. Chcete sa prepnúť do novej verzie?
+Switch to New Version = Prepnúť do novej verzie
+Next Time = Nabudúce
+
+#download project dialog
+Generating download link... = Generujem odkaz na stiahnutie...
+Download project now = Stiahnúť projekt
+
+#Import DXF
+Import DXF = Import DXF
+Apply Unit = Potvrdiť jednotky
+Convert circle to HOLE on BoardOutLine layer = Použiť kruh ako dieru na vrstve oblasti dosky
+No shapes found = Nenájdené žiadne tvary
+Fail to load the file = Načítanie súboru zlyhalo
+Please select a DXF file. = Vyberte prosím DXF súbor.
+This feature only works for PCB document. = Táto možnosť funguje len v dokumente DPS.
+Select a DXF file = Vybrať DXF súbor
+
+#Export DXF
+Export DXF =
+Plated-Through-Hole Pads =
+Non-Plated-Through-Hole Pads =
+Silkscreen =
+Surface Pad =
+
+#Data Sync
+Data Sync = Synchronizácia dát
+Data Conflicts = Konflikt v dátach
+Project or Document = Projekt alebo dokument
+Cloud-Side = Cloudová strana
+Local-Side = Lokálna strana
+Decision = Rozhodnutie
+Modified = Upravené
+Deleted = Odsreánené
+As Cloud = Ako cloud
+As Local = Ako miestny
+Skip = Preskočiť
+Data sync completed = Synchronizácia dát kompletná
+
+#Team
+Team = Tým
+Teams = Týmy
+Switching team = Prepnúť tým
+Switch team failed = Prepnutie týmu zlyhalo!
+Load team info fail! = Načitanie informácií o týmu zlyhalo!
+Load team info fail! Please reload. = Načítanie informácií o týmu zlyhalo! Prosím, obnovte.
+My Teams = Moje týmy
+Create Team = Vytvoriť tým
+
+#Dialog Footprint Manager
+Footprint Manager = Správca pôdorysu
+Open Footprint Manager = Správca otvoreného pôdorysu
+Schematic Components = Komponenty schém
+Edit Pin Map Information = Upraviť informáciu mapy pinu
+Package Categories = Kategória balíka
+Components List = Zoznam komponentov
+Personal = Osobný
+Component PIN information = Informácia o pin komponente
+Footprint PAD information = Informácie o plôške pôdorysu
+Footprint Categories = Kategórie pôdorysov
+Pad Number = Číslo plôšky
+Search Footprint = Vyhľadávanie pôdorysu
+Filter by keyword = Filtrovať podľa kľúčového slova
+System Libs = Systémové knižnice
+
+#dialog global delete
+Drawings = Nákresy
+Netlabel and netFlag = Štítok a značka spoja
+Texts = Texty
+Wires = Spoje
+Board outlines = Oblasť dosky
+Footprints = Pôdorysy
+Footprint = Pôdorys
+Tracks = Cesty
+
+#dialog board outline settings
+Current Size = 
+Paramenters = Prametre
+Start X: = Začiatok X:
+Start Y: = Koniec Y:
+Round Rectangular =
+radius = polomer
+only number is allowed! = povolené sú iba čísla!
+please input valid value of width! = zadajte platú hodnotu šírky!
+please input valid value of height! = zadajte platnú hodnotu výšky!
+please input valid value of radius! = zadajte platnú hodnotu polomeru!
+
+#cross probe
+The object you selected was not found in other documents. = Objekt, ktorý ste vybrali, nebol nájdený v ďaľších dokumentoch.
+No valid object for cross probe selected. = Nie je vybraný žiadny objekt pre sondu.
+Can not probe. Refreshing the window may get it to work. = Nemôžem sondovať. Obnovte okno.
+You need to login for this function to work. = Pre túto funkciu sa musíte prihlásiť.
+
+#About Dialog
+An Easier EDA Experience = Jednoduchšia skúsenosť s EDA
+Version = Verzia
+BuiltDate = Dátum zostavenia
+
+#Auto Router Dialog
+Auto Router Config = Konfigurácia autorouteru
+General Options = Všeobecné možnosti
+All Layers = Všetky vrstvy
+Configure = Konfigurovanie
+Sorry, your web browser does not support this feature. Please run a modern browser. = Ospravedlňujeme sa, ale váš prehliadač túto vlastnosť nepodporuje. Spusťte v modernejšom prehliadači.
+Please make sure all objects with net are inside the board outline! = Uistite sa, že všetky predmety so sieťou sú vo vnútri obrysu dosky!
+Cannot start again before previous activity is stopped = Nemôžem znovu spustiť,pokiaľ brží iná aktivita
+Please select a net = Vyberte spoj, prosím
+TrackWidth cannot be empty =
+Clearance cannot be empty =
+Router is time out. = Čas vypršal.
+Server is busy, please try again later. = Server je zaneprázdnený, skúste neskôr prosím.
+Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) = Kvôli obmedzeným zdrojom {0}routovacieho servera{1} nie je viacnásobná exekúcia routovania podporovaná, skúste neskôr, alebo routovannie preveďte manuálne :-)
+Track Width is invalid = Neplatná šířka cesty
+General Clearance is invalid = Obecná ochranná oblast je neplatná
+SMD Clearance is invalid = Ochranná oblasť pre SMD je neplatná
+Diameter is invalid = Priemwr je neplatný
+Drill Diameter is invalid =
+Track width cannot be less than Design Rule Checking (DRC) setting value. =
+General Clearance cannot be less than Design Rule Checking (DRC) setting value. =
+SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. =
+Hole size cannot be less than Design Rule Checking (DRC) setting value. =
+Design Rule's via diameter must larger than via drill diameter =
+Clearance cannot be less than Design Rule Checking (DRC) setting value. =
+Not a valid PCB, please check it again = Neplatná DPS, skontrolujte, prosím.
+Previous connection must be closed = Predchádzajúce spojenie musí byť uzavrené.
+Network error. Please try again. = Chyba siete. Skúste neskôr, prosím.
+Router error. = Chyba routeru.
+Invalid PCB. = Neplatná DPS.
+General Clearance = Obecná ochranná oblasť
+SMD Clearance = Ochranná oblasť pre SMD
+#Ripup Nets
+Skip Routed Nets = Přeskočit routované spoje
+Remove Existing Tracks = Odobrať existujúce cesty
+Real-time Display = Zobraziť reálny čas
+Router Layers = Vrstvy routeru
+Via = Priechod
+Special = Špeciálny
+Special Nets = Špeciálne spoje
+Skip Nets = Preskočiť spoje
+Router Server = Server routeru
+Local = Míestny
+Cloud = Cloudový
+Available = Dostupný
+Unavailable = Nedostupný
+Checking = Kontrolujem
+Install Local Auto Router = Inštalácia lokílneho Auto routeru
+Checking local auto router server... = Kontrolujem lokálny autorouter server...
+Stop Router = Zastaviť router
+Auto Router is running... = Autorouter beží...
+
+#Left Siderbar
+EELib = EELib
+Basic = Základný
+Extend = Rozšírený
+Design Manager = Správca návrhu
+Library = Knižnica
+Spice Library = Spice knižnica
+Shared = Zdielané
+LCSC = LCSC
+LCSC Parts = LCSC diely
+Supply Flag = Značka dodávky
+US =
+EU/IEC =
+US Style = Štýl US
+Resistor =
+Capacitor =
+Inductor =
+Switch/Key = Prepínač
+EU/IEC Style = Štýl EU/IEC
+CN =
+Connector = Konektor
+Switch/Relay = Prepínač/Relé
+JLCPCB = JLCPCB
+Recycle Bin = Kôš
+
+# Protractor
+Font Height = Výška písma
+Precision = Presnosť
+Protractor = Úhlomer
+
+#attr-pcbtext-line-width
+Only default font family supports to change font width. =
+Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = Chýba písmo! Môžete potvrdiť dialóg a použiť východzie písmo alebo zavrieť dialóg, nahrať chybajúce písmo a skúsiť znovu.
+
+#Common
+Owner = Vlastník
+License = Licencia
+Part Pins = Piny dielu
+Net Pins = Piny spojov
+Net Ratlines =
+Add Parameter = Pridať parameter
+Histories record = Záznamy histórie
+Create Team = Vytvoriť tým
+Can't find this footprint on the server, please re-associate it. = Tento pôdorys sa na serveri nepodarilo nájsť, znova ju priraďte.
+The footprint name associated with the component and the footprint name on the server are inconsistent, please re-associate it. = Názov pôdorysu priradené ku komponentu a názov pôdorysu na serveri sú nekonzistentné, znova ho priraďte.
+The symbol pin number(s) of the component does not match the associated footprint pad number(s), please modify the symbol pin number(s) or re-associate the footprint = Číslo (čísla) pinov symbolov komponentu sa nezhoduje s príslušnými číslami plôšiek pôdorysu, upravte čísla pinov so symbolmi alebo znova priraďte pôdorys
+No footprint, please associate the footprint first. =
+Can't find the package = Nemôžem nájsť balík
+The path is for the project URL identify, it is unique (the identity of the project owned by the user cannot be the same) = Cesta URL identifikuje projekt, je jedinečná (nemôže byť rovnaká s identitou iného projektu vlastnrného používateľom)
+It's with a letter or a number and can contain only numbers, letters, line-through, underscores, and points. It cannot be modified after saving. = Môže obsahovať len čísla, písmená, pomlčku, podtržítko a bodku. Po uložení už nie je možné upravovať.
+Updating document to new format, please wait......After finishing please save your document with Ctrl + S. = Aktualizujem dokument na nový formát, čakajte prosím......Akonáhľe sa aktualizácia dokončí, uložte dokument pomocou Ctrl+S.
+Open at current project? = Otvoriť v aktuálnom projekte?
+Please select a history to recover. = Pre obnovu vyberte históriu, prosím.
+Be careful! When you click the "Recover" button, this sheet will be overwritten! = Pozor! Ak kliknete na tlačidlo "Obnoviť", bude tento list prepísaný!
+Recover = Obnoviť
+There is no PCB under this project, would you like to create one? = Tento projekt neobsahuje žiadne DPS, chcete ho vytvoriť?
+Please make sure that the chose Altium Designer files are saved as ASCII files. = Uistite sa, že sú súbory Altium Designer uložené v ASCII.
+Export to Altium function is currently in beta: =
+1. Please be sure to read the notice before exporting: =
+Export Altium notice and disclaimer =
+2. Please be sure to check again after export! =
+I have read and agree = Prečítal som a súhlasím
+Export to Altium = Export do Altium
+Please make sure that the chose Eagle files are saved in Eagle v6.0 and above. = Uistite sa, že sú súbory Eagle uložené vo verzii Eagle 6.0 a výšší.
+Please make sure that the Kicad files were compressed as the .zip file. = Uistite sa, že sú súbory Kicad komprimované v .zip súbore.
+Open Altium Designer file = Otvoriť súbor Altium Designer
+The more information please refer at : =
+Please use Gerber file instead of exporting Altium if you are going to do PCB manufacturing. All PCB factories support the Gerber file. Is it ok to Generate the Gerber file? =
+Yes, Generate Gerber =
+No, Export Altium =
+Open Eagle file = Otvoriť súbor Eagle
+Open Kicad file = Otvoriť súbor Kicad
+Select file(s) = Vybrať súbor(y)
+Append to current project? = Pripojiť k aktuálnemu projektu?
+Append = Pripojiť
+Open as new project = Otvoriť ako nový projekt
+Tip: Press {0}SPACE{1} or {2}R{3} to rotate the placing object or selected object. = Tip: Stlačte {0}MEDZERNÍK{1} alebo {2}R{3} pre otočenie umiestňovaného alebo vybraného objektu.
+Hotkeys Setting = Nastavenie kl. skratiek
+I know. Don't show this again. = Rozumiem. Už nezobrazovať.
+Manufacturer Part Number can not be less than 2 characters. = Číslo dielu výrobcu nemôže byť menší ako 2 znaky.
+This prefix was changed to non-subpart format. = Prefix bol zmenený na formát pre ne-dielčie časti.
+Save as New Project = Uložiť ako nový projekt
+Save to Existing Project = Uložiť do existujúceho projektu
+Sheet Setting = Nastavenie listu
+Sheet Size = Veľkosť listu
+Pre = Pre
+pre = pre
+Invalid Data = Neplatné údaje
+Others = Ostatné
+You are not authorized to share this project. = Nemáte oprávnenie zdieľať tento projekt.
+This project is private: if you continue sharing it will be made public. = Tento projekt je soukromý: pokiaľ budete pokračovat v zdieľaní, zmení sa projekt na verejný.
+Modify file info = Upraviť informácie o súboru
+Please input search keyword = Zadajte kľúčové slovo pre vyhľadávanie, prosím
+Sort Projects by = Zoradiť podľa
+Date Created = Dátum vytvorenia
+Date Modified = Dátum úpravy
+Title = Názov
+Ascending = Vzostupne
+Descending = Zostupne
+Pin to Top = 
+Unpin from Top =
+Collapse / Expand =
+Expand =
+Collapse = Zbaliť
+Expand All = Rozbaliť všetko
+Collapse All = Zbaliť všetko
+Your file hasn't been saved, do you want to save it? = Váš súbor nebol uložený, chcete ho uložiť?
+Don't Save = Neukladať
+Library Owner: = Vlastník knižnice:
+verifyPkg.Value = verifyPkg.Value
+State = Stav
+Please select! = Vyberte prosím!
+Route = Cesta
+Import successfully: = Importovanie úspešné:
+Import failed: = Import zlyhal:
+The title length must be between 2~128 characters. = Dĺžka názvu musí byť medzi 2~128 znakmi.
+Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Cesta môže obsahovať len znaky 'a-z, A-Z, -, _, 0-9'!
+Path must begin as 'a-z、A-Z、0-9'! = Cesta musí začínať znakmi 'a-z, A-Z, 0-9'!
+The path length must be between 4~128 characters! = Dĺžka cesty musí byť medzi 4 až 128 znakmi!
+The title length must be between 2~256 characters! = Dĺžka názvu musí byť medzi 2 až 256 znakmi!
+The title can not less than 3 charaters! = Názov nemôže mať menej ako 3 znaky!
+Do you want to delete this file? = Chcete zmazať tento súbor?
+Add sub part success = Určitá časť pridaná
+Please input name and prefix! = Zadajte názov a prefix, prosím!
+Board outlines are not closed = Okraje dosky nie sú uzavrené
+Import Altium file fail, the file needs to be an ASCII file encoded in UTF-8. =
+The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = Piny "{0}" nie sú prichytené k mriežke! Tento diel môže v schéme spôsobiť chyby.
+Check Pin = Kontrola pinu
+Failed to read {0} = Chyba pri čítaní {0}
+{0} is invalid = Neplatný {0}
+{0} not found = {0} nenájdený
+Failed to execute script: = Chyba pri vykonávaní skriptu:
+One or more js files not found = Jeden alebo viac js súborov nenájdený
+Only ONE {0} file is required = Len JEDEN {0} súbor je potrebný
+Extension ID is required = ID rozšírenie je povinné
+Extension ID is invalid = ID rozšírenie je neplatné;
+Extension ID is duplicated = ID rozšírenie je duplikované
+No Result! = Žiadny výsledok!
+Load Error = Chyby pri načítaní
+loading = načítavam
+Failed to load spice data = Chyba pri načítaní Spice údajov
+Netlist = Netlist
+Tags = Štítky
+Pin Information: = Informácie o pinu:
+Format incorrect, please check for the extra spaces or commas! =
+Round Radius = Polomer zagulatenia
+Keyword: = Kľúčové slovo:
+Image = Obraz
+Image copied. =
+Copy failed. =
+Image Attribute = Vlastnosti obrazu
+Locked = Zamknuté
+Unlock All = Odomknúť všetko
+Unlock = Odomknúť
+Lock = Zamknúť
+Please input pin name and pin number! = Zadajte číslo a názov pinu, prosím!
+Left-Hand Panel = Ľavý panel
+Right-Hand Panel = Pravý panel
+Update All =
+The pin number(s) can't find the same pad number(s) = Čísla pinov nemôže nájsť rovnaké čísla plôšiek.
+Designator = Označenie
+Replace = Nahradiť
+Update failed = Aktualizácia zlyhala
+Successfully updated = Aktualizované
+Update failed! = Aktualizácia zlyhala!
+Successfully updated! = Aktualizované!
+Successfully updated {0} component(s)! = Úspešne aktualizovaných {0} komponentov!
+Change = Zmena
+Check Footprints = Kontrola pôdorysu
+Network Error! = Chyba siete!
+Find Similar Objects = Vyhľadať podobné objekty
+Current Sheet = Aktuálny list
+All Sheets = Všetky listy
+Kind = Druh
+Range = Rozsah
+Net Label/Net Flag/Net Port/Voltage Probe = Štítok spoja/Značka spoja/Port spoja/Napäťová sonda
+Bezier/Freehand Draw = Bazierové/Ručné kreslenie
+Arc/Pie = Uhol/Koláč
+Objects Attributes = Vlastnosti objektov
+Any = Akýkoľvek
+Same = Rovnaký
+Different = Rozdielný
+Circular = Kruhový
+Expose Copper =
+"{0}" font is missing. Please add the font to the font family list. = Písmo "{0}" chýba. Pridajte písmo do zoznamu písmien, prosím.
+Place Component = Umiestniť komponentu
+Delete Segment = Odstrániť segment
+Angle = 
+Board Thickness = Hrúbka dosky
+Layer Distance =
+Silk Screen =
+Surface Finish Color =
+Colors = Farby
+Board Color = Farba dosky
+Board Side =
+Silk Screen =
+Silk Screen Color =
+Display =
+
+# Array and Clone
+Distribute Array = Distribuovať pole
+Array Type = Typ pola
+Matrix Array = Maticové pole
+Circular Array = Kruhové pole
+Item Rotation = Rotácia položky
+Location = Lokácia
+Items per Column = Položiek v stĺpci
+Items per Row = Položiek v riadku
+# Column Spacing
+# Row Spacing
+Spacing(Degrees) = Medzery(Stupne)
+Start Degree = Počiatočný stupeň
+Rotate Item to Match = Otočiť položku aby pasovala
+Clockwise = Po smeru hodin. ručičiek
+Anti-Clockwise = Proti smeru hodin. ručičiek
+Distribute by = Distribuovať podle
+Column = Stĺpec
+Row = Riadok
+Array Clone =
+Number of Rows =
+Number of Columns =
+Number of Copies =
+Distribute Range(Degrees) =
+
+# Theme color dialog
+BusEntry = Vstup zbernice
+Foreground = Farba popredia
+Common Used = Běžne užívané
+Original Theme = Pôvodna téma
+Theme Setting = Nastavenie témy
+Change the theme colors of your design = Zmena farieb témy návrhu
+White on Black = Biela na čiernom
+Black on White = Čierné na bielom
+Custom Theme =
+Color Setting = Nastavenie farby
+Apply Setting = Použiť nastavenia
+Theme Setting... = Nastavenie tém...
+Bus Entry = Vstup zbernice
+Foreground = Farba popredia
+Symbol Graphics =
+Common Used = Bežne používané
+Draw = Nákres
+Sheet = List
+The original theme only works for placing the new symbols. = Pôvodna téma funguje len pre umiestnenie nových symbolov.
+Selection Highlight = Zvýrazniť výber
+Net Label / Port = Štítok / Port spoja
+
+My Theme = Moja téma
+My Theme Settings = Nastavenie mojej témy
+Apply 'Custom Theme' On =
+Creating New Schematic = Vytvorenie novej schémy
+Opening Existed Schematic = Otvoriť existujúcu schému
+Please fill in all parameters! = Vyplňte prosím všetky parametre!
+Convert to Board Cutout =
+Prefix Position =
+Name Position =
+Center = Na stred
+Top = Hore
+Bottom = Dole
+Left = vľavo
+Right = Vpravo
+Does not support multiple objects to convert to Board Cutout at the same time =
+Does not support multiple objects to convert to pad at the same time =
+Convert to Board Cutout =
+Convert to Pad =
+Convert to Component Shape =
+Combine to Continuous Track =
+Convert to Solid Region =
+Substrate =
+3D View = 3D prehľad
+2D View = 2D prehľad
+Pin Color = Farba pinu
+Name Color = Farba názvu
+Number Color = Farba čísla
+Dot = Bodka
+
+[theme]
+Sheet = List
+[/theme]
+
+
+#history dialog
+[history-dlg]
+Number = Číslo
+Editor = Editor
+[/history-dlg]
+View File History = Zobraziť históriu súboru
+Save Time = Čas uloženia
+
+Invalid Format =
+
+#Dialog Teardrop
+Round Pad / Via = Okrúhla plôška/priechod
+Rectangle / Oval / Polygon Pad = Obdĺžníkova/Oválna/Mnohouhoľlníkova plôška
+Applying Teardrops =
+Removing Teardrops =
+Waiting =
+Progressing... =
+
+No schematic in the project! = Projekt neobsahuje žádné schéma!
+
+Move Forward =
+Move Backward =
+
+#Dialog Panelize
+V-CUT =
+Stamp Hole =
+No Panelize =
+Border and Marking =
+Create Border =
+Border Height =
+Border Position =
+Create Positioning Holes =
+Create Fiducial Marks =
+Top and Bottom =
+Left and Right =
+Stamp Hole Group - Column =
+Stamp Hole Group - Row =
+The number of rows and columns cannot be set to 1 simultaneously =
+
+#edit path point
+[editPathPoints-dlg]
+Arc(R) = Uhel(polomer)
+Type = Typ
+Action = Akcia
+add before = pridať pred
+add after = pridať za
+delete = odstrániť
+[/editPathPoints-dlg]
+
+#edit polygon point
+[editPolygonPoints-dlg]
+Action = Akcia
+add before = pridať pred
+add after = pridať za
+delete = odstrániť
+[/editPolygonPoints-dlg]
+You have unconfirmed edit! =
+Invalid edit! =
+
+#Dialog PCB Information
+PCB Information... =
+Signal Layers =
+None Signal Layers =
+Pads =
+Surface Pads =
+Plated Through-hole Pads =
+None Plated Through-hole Pads =
+Holes =
+Vias =
+Length of Tracks =
+Copper Areas =
+
+#Differential Pair Routing
+Differential Pair Routing =
+Differential Pair Rule Setting =
+Please input track width =
+Please input clearance =
+Routing Rules =
+
+#Route Length Tuning
+Track Length Tuning... =
+Tracks with different net or non-track found in current targets. =
+Please select the signal tracks to be tuning. =
+The total length exceeds the Design Rule Checking (DRC) constraint, continue ? =
+45° Angle = 45° Uhol
+90° Angle = 90° Uhol
+DRC Track Length : =
+Current Length : =
+Additional Length : =
+Target Length: =
+Current Length: =
+
+can not connect to the server =
+
+#Dialog Copper Area Manager
+Copper Area Manager... = Správca oblasti medi...
+Copper Area Manager = Správca oblasti medi
+Order = Objednávka
+Name = Názov
+Layer = Vrstva
+Color = Farba
+Net = Spoj
+Move Up = Posunúť hore
+Move Down = Posunúť dole
+Apply = Použiť
+Cancel = Zrušiť
+Copper Area do not allow self-intersection! =
+No copper area! =
+#Dialog report error
+Datasheet =
+Verification =
+Symbol =
+Pad Number = Číslo plôšky
+Pad Size =
+Remark =
+Correct =
+Incorrect =
+Submit =
+Tip =
+Please select one component =
+Location X =
+Location Y =
+Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. =
+EasyEDA Client =
+LCEDA Client =
+Chrome =
+FireFox =
+New Version =
+Switch Version =
+Member =
+Update Time =
+Editor = Editor
+Current Version: =
+Select a version to switch =
+3D Model =
+Board Side =
+Display =
+Copper = Měď
+Create New Version =
+Create new version success! =
+Version Management =
+Switch success! =
+Please close current version's documents first! =
+Creator =
+Create Time =
+Fail to connect to server! Please check your internet connection status and try again! =
+Spice Number =
+Create = Vytvoriť
+3D Outline =
+Cannot create the slot hole via the board outline, please use the following methods: =
+Use the solid region and set its type as Board Cutout =
+Select a Track/Arc, right-click to use the "Convert to Board Cutout" =
+Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cutout" =
+The more information please refer at =
+Save "{0}" success! =
+Save "{0}" failed! =
+Invalid Size =
+Processing =
+Invalid Size =
+NetFlag GND = Značka spoje GND
+NetFlag VCC = Značka spoje VCC
+NetFlag +5v = Značka spoje +5V
+No Useful Data! =
+SVG Preview =
+Prefix contains not supported charater(s) ! =
+Name contains not supported charater(s) ! =
+Create Grid Path =
+Please Input Name =
+Building Copper Area =
+Processing =
+Opening File =
+Update from Library =
+Update Footprint =
+Find footprint(s) have been updated, do you want to update? =
+3D File: = 3D súbor
+Model List = Zoznam modelov
+Are you sure merge net {0} and net {1}? =
+Display Footprint =
+Display Footprint Name While Placing Component =
+Annotate Prefix Automatically After Placing Component =
+Program Error, Please Contact Technical Support! =
+Search Engine =
+Keyword to Filter =
+Normal Mode = Normálny mód
+Expand Mode = Rošírený mód
+3D Model Manager = Menežér 3D modelu
+3D Model Preview = Prehľad 3D modelu
+3D Model = 3D model
+3DModel = 3D model
+Document = Dokumentácia
+
+[pcblayer]
+3DModel = 3D model
+Document = Dokumentácia
+[/pcblayer]
+
+Adjustment = Zarovnanie
+View Larger Image =
+Previous = Predchádzajúci
+Previous Image =
+Next Image = Ďalší obraz
+Notice: For reference only, please refer to the real product =
+It's under designing, please wait. =
+The width of track/arc/circle can not less than 0.1mil! =
+Clone success ! =
+Footprint Naming Reference =
+3D Model Manager =
+Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? =
+Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? =
+The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. =
+This project is not public, can not view homepage! =
+
+[grid]
+None = Nič
+[/grid]
+
+#lib verify and mounted
+This component is verified =
+This component is unmounted =
+
+#find component
+Find Next = Vyhľadať ďalší
+Object not found = Objekt sa nenašiel
+
+#offset Elements
+Offset X =
+Offset Y =
+Offset =
+Absolute Offset =
+Relative Offset =
+Absolute Offset... =
+Relative Offset... =
+Reference Point X =
+Reference Point Y =
+
+# Inner Plane layer
+Rebuild Plane =
+PlaneZone Properties =
+Change to a plane layer is not allowed during track routing. =
+#pcblib rect
+Fill =
+Fill Type =
+[PlaneZone]
+Solid = Pevný
+[/PlaneZone]
+
+Solid Region do not allow self-intersection! =
+
+The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. =
+The prefixes are not allowed to repeat! =
+Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? =
+The origin of the canvas has been set in the graphics now, you can save again. =
+Backup Project = Záloha projaktu
+Open Project Directory = Otvoriť priečinok projektu
+
+{0} items updated =
+
+The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. =
+Yes, Overwrite It =
+No, Keep It =
+
+Download Client =
+
+Search tutorial、open source projects etc. =
+
+Go to LCSC and search for =
+Go to LCSC =
+
+Hide Ratline Layer and Keep the Component Prefix When Paste Objects =
+
+ALL.layer = Všetky.layer
+Copper.layer = Meď.layer
+Non-Copper.layer =Nemedený.layer
+Other.layer = Iný.layer
+
+Please enter at least 2 characters! =
+View Datasheet =
+View Datasheet... =
+
+The corresponding package or network could not be found in the currently open PCB document =
+delete fail =
+
+[crashRecovery]
+Libraries = Knižnice
+[/crashRecovery]
+Canvas origin anomaly! =
+
+Component's Name = Názov súčiatky
+Component's Prefix = Prefix súčiastky
+Component's Footprint = Pôdorys súčiastky
+
+[findlib]
+Clear = Vymazať
+Apply Filters = Použiť filter
+Result = Výsledok
+Place = Umiestniť
+Prev = Predchádzajúci
+Next = Ďalší
+Total {count} Count = Celkový (počet) Počet
+About = O aplikácii
+Items = Položky
+[/findlib]
+
+Object = Objekt
+Layers and Objects = Vrstvy a objekty
+All = Všetko
+
+Add custom = 
+
+Connections =
+Attempted: =
+Completed: = Kompletný
+Failed: = Zlyhalo
+Total Vias: =
+
+Please confirm moving option =
+Only this pad = 
+For this component = Pre túto súčiastku
+View Owner = Prehľad vlastníka
+View Detail = Podrobný prehľad
+
+
+# place batch vias
+Place Vias =
+Placing Vias =
+Removing Vias =
+Batch Vias for Copper =
+Add/Remove Vias =
+Diameter = Priemer
+Drill Diameter =
+Column Spacing = Šírka stĺpca
+Row Spacing = 
+Multiple vias have been placed, do you want to rebuild the copper area? =
+Remove vias finish, do you want to rebuild the copper area? =
+The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! =
+Save fail! Please try again! =
+Please select a copper outline =
+Can't find copper area at other layers, please add the copper area with the same net at other layer first. =
+
+Add favorite success! = Pridanie obľúbeného úspešne!
+Remove favorite success! = Odstránenie obľúbeného úspešné!
+Remove favorite failed! = Odstránenie obľúbeného zlyhalo!
+Whether if remove favorite? =
+Split by ';' for multi tags =
+
+This size is the determined size! =
+The associated pad has been locked =
+Split by space or , for multi tags =
+
+Rotation X = Otáčanie osy X
+Rotation Y = Otáčanie osy Y
+Rotation Z = Otáčanie osy Z
+
+Some fields are filled invalid data =
+start time should be earlier than stop time =
+Number of points should be less than 100 in octave variation =
+Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli =
+Get historical records fail! =
+This 3D model didn't create the outlines successfully, please import it again or contact with us. =
+There is No Tag! =
+Assign successful! =
+Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
+Update Attribute =
+Please fill in at least 5 words. =
+Mouse hovering over the track to highlight the entire network =
+Net Highlighting While Cursor Hover the Track =
+When circle set as "Yes", the Pin length must more than 6 =
+Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! =
+
+Logout fail! Please try again! = Odhlásenie zlyhalo! Skúste proím neskôr
+Logout success! We look forward you to use LCEDA again! =
+Logout success! We look forward you to use EasyEDA again! =
+Click to Preview 3D = Kliknite pre 3D prehľad
+[logoutDialog]
+Logout = Odhlásiť
+[/logoutDialog]
+
+[findlibTag]
+All = Všetko
+[/findlibTag]
+
+Export Pick and Place File = Exportovat súbor Pick & Place
+Mirror the bottom component's X coordinate (JLCPCB doesn't need) =
+Work Space =
+Include panelized components' coordinates =
+Personal Workspace =
+Work Space - {name} =
+Work Space - Personal =
+Cloning =
+
+Project Owner = Vlastník projektu
+Clone Project = Zavrieť projekt
+Homepage = Domovská stránka
+Apply for Education Edition =
+Load Organization failed =
+Joined = Pripojiť sa
+Favorite = Obľúbený
+This operation will unfavorite this project, do you want to continue? =
+View Homepage = Prehľad domovskej stránky
+Private Project = Súkromný projekt
+3-7 days = 3 - 7 dní
+Close Tab = 
+Close Other Tabs =
+Close All Tabs = 
+Open in New Window = Otvoriť v novom okne
+Cursor Snap to Component's Origin or Pad Center While Dragging Component =
+Undefined = Nedefinovaný
+Input = Vstup
+Model Unit =
+File Unit =
+This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? =
+
+[saveAs]
+Power = Napájanie
+[/saveAs]
+
+Assign LCSC Part# =
+Unexpected error while converting. Perhaps unsupported file type or program bug. =
+Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. =
+
+#electromagneticSimulation
+Electromagnetic Simulation... =
+You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? =
+SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. =
+Visit the SuperEM =
+SuperEM User Guide =
+Upload Gerber to SuperEM successfully, please click "OK" buttun to continue =
+
+Format = Formát
+View = Zobraziť
+Design = Dizajn
+Simulation = Simulácia
+Advanced = Rozšírený
+Fabrication =
+Check DRC = Kontrola DRC
+Simulation Setting = Nastavenie simulácie
+BOM = BOM
+PCB Fabrication File(Gerber) =
+Pick and Place File =
+Parts Order = Objednávka dielov
+PCB Order = Objednávka DPS
+SIM = SIM
+STD = STD
+WaveForm = Tvar vlny
+
+Place Module = Miesto modulu
+Please enter identification letters: = Zadajte prosím identifikačné písmená
+Only support English letters, up to 5. = Podporuje iba anglické písmená, viac ako 5 
+
+Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. =
+Opening = Otváram
+
+Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) =
+
+# desktop client error feedback
+Cannot open online documents on Project Offline mode. = Nie je možné otvoriť online dokumenty v režime Offline.
+
+Please select a project =
+Opened Projects = Otvorené projekty
+Open Project = Otvoriťt projekt
+Close Project = Zavrieť projekt
+Open All Projects = Otvoriť všetky projekty
+Close All Projects = Zatvoriť všetky projekty
+Select Owner = Výber vlastníka
+Select Folder = Výber priečinku
+Select Owner or Folder = Výber vlastníka, alebo priečinku
+Select Project = Výber projektu
+Folder = Priečinok
+New Folder = Nový priečinok
+New Sub Folder = Nový podpriečinok
+Delete Folder = Zmazať priečinok
+Move Project = Presunúť projekt
+Move Folder = Presunúť priečinok
+# Rename Folder =
+Please input the folder name = Zadajte názov priečinku
+Invalid folder name = Chybný názov priečinku
+Are you sure to delete this folder? = Naozaj chcete vymazať tento priečinok?
+Create new folder successfully = Nový priečinok bol úspešne vytvorený
+Failed to create new folder = Vytvorenie nového priečinku zlyhalo 
+Delete folder successfully = Priečinok bol úspešne zmazaný
+Failed to delete folder = Vymazanie priečinku zlyhalo
+Rename folder successfully = Priečinok bol úspešne premenovaný
+Failed to rename folder = Premenovanie priečinku zlyhalo
+Move folder successfully = Priečinok bol úspešne presunutý
+Failed to move folder = Presunutie priečinku zlyhalo
+Move project successfully = Projekt bol úspešne presunutý
+Failed to move project = Presunutie projektu zlyhalo
+The folder depth must not exceed {0} levels = 
+Failed to add project to folder = Pridanie projektu do priečinku zlyhalo
+
+Doesn't support JLCPCB SMT Service =
+for JLCPCB SMT Service =
+
+Reset failed! There are duplicate component prefixes in the current schematic: =
+Reset failed! There are duplicate component prefixes in the current PCB: =
+Please modify the component prefixes first to ensure that the component prefix is unique. =
+
+LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool =
+EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool =
+
+#Dialog for Package Custom Data
+Please input the data title =
+Data title duplicated =
+Cannot be more than {0} characters! =
+Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. =
+Invalid value of item {0} =
+Update DFM =
+Custom DFM Data =
+Saved custom data successfully! =
+Save custom data failed! =
+Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? =
+Open footprint "Custom Data" dialog =
+
+# Create lead shape
+Create Lead Shape =
+Base on Pad Center =
+Base on Canvas Origin =
+Lead shape =
+Footprint Type =
+From pad shape =
+Lead length =
+Lead width =
+Lead diameter =
+Scaling ratio =
+Leads creating direction =
+Auto = Automaticky
+Horizontal =
+Vertical =
+Canvas origin to lead edge =
+Canvas origin to body edge =
+Lead soldering length =
+Lead soldering part diameter =
+Component shape object doesn't overlap lead shape object, please check carefully. =
+The solder mask expansion of pads ({0},{1}) has a small clearance(less then 0.08mm), it will cause the soldering too short, please modify. =
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less then 0.15mm), it will cause the stencil to create fail, please modify. =
+System footprint must exist pad number 1 or A1, please modify the pad number. =
+System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. =
+Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. =
+There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. =
+Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. =
+
+ROUND =
+RECTANGLE =
+OCTAGONAL =
+Upper left =
+Lower left =
+Center of Pads =
+First Pin =
+Package Name =
+Pins Number =
+Rows Of Pin =
+Columns Of Pin =
+Polarity =
+Pad Shape =
+Body Diameter =
+Lead Span =
+Lead Vertical Span =
+Body Length =
+Body Height =
+Pin Diameter =
+Pin Length =
+Pin Height =
+Pin Solid Width =
+Pin Solid Height =
+Pin Spacing =
+Pin Horizontal Spacing =
+Pin Vertical Spacing =
+ThermalPad =
+Pad Expansion =
+Custom PasteMask =
+Fabrication Tolerance =
+Plcarment Tolerance =
+FirstPin Position =
+Package Origin =
+Expansion Size =
+Corner =
+Angle =
+Fillet =
+Chamfer =
+Update Preview =
+Number of pins (left and right) =
+Number of pins (up and down) =
+Reference Use Cases =
+Package Type = Typ balíka
+Capacitance = Kapacita
+Resistance = Odpor
+Bidirectional Diode =
+Inductance = Indukcia
+Crystal Oscillator =
+Diode = Dióda
+LED = LED
+Fuse = Poistka
+Entity height =
+Lead Overhang =
+Lead Thickness =
+Unknown mistake =
+Has ThermalVias =
+Polar Capacitance =
+
+Create Component Marking =
+Create component marking successfully! =
+No elements on component shape layer! =
+No elements on lead shape layer! =
+No pad of number 1 or A1, please modify the pad number. =
+Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? =
+If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. =
+Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: =
+Select Properties = Vyberte vlastnosti
+Combine the same parts' prefixes in one row = Skombinujte predpony rovnakých častí v jednom rade
+Please check at least one item! = Skontrolujte aspoň jednu položku!
+Pins =
+
