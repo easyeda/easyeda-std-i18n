@@ -540,7 +540,7 @@ Timebase = Časová základňa
 Scale: = Mierka: 
 X pos.(Div): = X poz.(Div)
 Y pos.(Div): = Y poz.(Div)
-View meter... = 
+View meter... = Prehľad metra...
 The circuit has components without simulation model: =
 Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. =
 Resistor1_US =
@@ -680,7 +680,7 @@ Threshold[V]
 Clock Rate =
 TrafficLight Settings =
 BCDSegment Settings =
-SevenSegment Settings =
+SevenSegment Settings = Nastavenia 7-seg.
 SPDT Settings =
 SPST Settings =
 LogicAnalyzer Settings =
