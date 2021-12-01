@@ -214,7 +214,11 @@ Set Canvas Origin by Mouse Location = Nastavenie plátna umiestnením myši
 Generates Pick and Place File = Generovat súbor Pick & Place
 Unroute All = Rozpustiť všetko
 Auto Route = Automatické generovanie ciest
+<<<<<<< HEAD
 Export Autorouter File(DSN) =
+=======
+Export Autorouter File(DSN) = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Import Autorouter Session File(SES) =
 Autorouter File(DSN) =
 Autorouter Session File(SES) =
@@ -298,7 +302,11 @@ Group These Items as a Symbol = Zoskupenie týchto položiek ako symbol
 Group These Items as a Footprint = Zoskupenie týchto položiek ako pôdorys
 Set Canvas Origin = Zadať začiatok plátna
 Document Setting = Nastavenie dokumentu
+<<<<<<< HEAD
 Sheet Properties = Atribúty listu
+=======
+Sheet Attributes = Atribúty listu
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Set Board Outline = Zadať hranicu dosky
 Teardrop... = Teardrop
 Panelize... = Viac panelov
@@ -307,7 +315,11 @@ Smart Dimension = Inteligentný rozmer
 Footprint Wizard = Sprievodca pôdorysom
 Footprint Wizard... = Sprievodca pôdorysom...
 Select package type = Výber typu balíka
+<<<<<<< HEAD
 Smart Dimension Properties = Atribúty inteligentného rozmeru
+=======
+Smart Dimension Attributes = Atribúty inteligentného rozmeru
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Global Delete = Všeobecné zmazanie
 Cross Probe = Skúška križovania
 Cross Probe and Place = Skúška križovania a umiestnenie
@@ -321,11 +333,20 @@ By Coordinates... = Podľa súradníc
 By Center of Pads = Podľa stredu plôšiek
 By Center Grid of Symbols = Podľa stredu mriežky symbolov
 
+<<<<<<< HEAD
 #Schematic Canvas Properties
 Properties = Vlastnosti
 Apply = Použiť
 Save as default = Uložiť ako preddefinovaný
 Canvas Properties = Atribúty plátna
+=======
+#Schematic Canvas Attributes
+Properties = Vlastnosti
+Attributes = Atribúty
+Apply = Použiť
+Save as default = Uložiť ako preddefinovaný
+Canvas Attributes = Atribúty plátna
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Width = Šírka
 Height = Výška
 Background = Pozadie
@@ -336,7 +357,11 @@ Display Real-Time Track Length = Zobrazenie dĺžky vedenia v reálnom čase
 Grid Color = Farba mriežky
 Grid Size = Veľkosť mriežky
 Grid Style = Štýl mriežky
+<<<<<<< HEAD
 Grid.Line Width =
+=======
+Grid.Line Width = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Grid.Line Spacing =
 Copper to Board Outline =
 Improve Fabrication =
@@ -351,8 +376,13 @@ Alt Snap = Přichycení s ALT
 Snap size when pressing the Alt key = Veľkosť přichycení při stisku klávesy ALT
 Prefix Start = Prefix
 
+<<<<<<< HEAD
 #Text Properties
 Text Properties = Vlastnosti textu
+=======
+#Text Attributes
+Text Attributes = Vlastnosti textu
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Text = Text
 Color = Farba
 Font Family = Písmo
@@ -445,7 +475,11 @@ DELAY_FUSE Settings = Nastavenia DELAY_FUSE
 Ratio = Pomer
 K[%]
 Model = Model
+<<<<<<< HEAD
 States =
+=======
+States = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Voltage[V]
 Voltage gain[V/V]
 Current gain[A/A]
@@ -536,7 +570,11 @@ Reverse = Reverz
 Simulation file exceed =
 The simulation file is too large and has been stopped for performance reasons. = Súbor simulácie je príliš veľký a bol zastavený z dôvodov výkonu.
 Timebase = Časová základňa
+<<<<<<< HEAD
 Scale: = Mierka:
+=======
+Scale: = Mierka: 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 X pos.(Div): = X poz.(Div)
 Y pos.(Div): = Y poz.(Div)
 View meter... = Prehľad metra...
@@ -694,7 +732,11 @@ AC Phase = Fáza striedavého prúdu
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: =
 
 #Pin
+<<<<<<< HEAD
 Pin Properties = Vlastnosti pinu
+=======
+Pin Attributes = Vlastnosti pinu
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Orientation = Orientácia
 Line 45° = Úsečka 45°
 Line 90° = Úsečka 90°
@@ -714,7 +756,11 @@ Show = Zobraziť
 Electric = Elektrika
 
 #Junction
+<<<<<<< HEAD
 Junction Properties = Vlastnosti spoja
+=======
+Junction Attributes = Vlastnosti spoja
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 X Location = Pozícia X
 Y Location = Pozícia Y
 Size = Veľkosť
@@ -726,9 +772,15 @@ Net Label = Štítok spoja
 #Part
 Prefix = Prefix
 
+<<<<<<< HEAD
 #Image Properties and Dialog
 Add Image = Pridať obraz
 Image Properties = Vlastnosti obrazu
+=======
+#Image Attributes and Dialog
+Add Image = Pridať obraz
+Image Attributes = Vlastnosti obrazu
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Image URL = URL obrazu
 Input an image URL = Zadajte URL obrazu
 Invalid image URL = Neplatná URL obrazu
@@ -758,7 +810,11 @@ Color Tolerance = Farba tolerancie
 Simplify Level = Úroveň zjednoduchšenia
 Corner Threshold =
 
+<<<<<<< HEAD
 #PCB Canvas Properties
+=======
+#PCB Canvas Attributes
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Units = Jednotky
 Snap Size = Veľkosť uchytenia
 Other = Iné
@@ -822,12 +878,21 @@ Line Width = Hrúbka čiary
 Rotation = Rotácia
 Fonts Management = Menežér fontov
 
+<<<<<<< HEAD
 #Dimension Properties
 Dimension Properties = Vlastnosti rozmerov
 
 #Footprint Properties
 Component Properties = Atribúty súčiastok
 Display Prefix =
+=======
+#Dimension Attributes
+Dimension Attributes = Vlastnosti rozmerov
+
+#Footprint Attributes
+Component Attributes = Atribúty súčiastok
+Display Prefix = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Pin Name = Názov pinu
 Pin Number = Číslo pinu
 Spice Pin Number = Číslo Spice pinu
@@ -871,9 +936,15 @@ Solid = Pevný
 None = Nič
 [/copperArea]
 
+<<<<<<< HEAD
 #Custom Properties
 Custom Properties = Vlastné atribúty
 Fixed Properties = Pevné atribúty
+=======
+#Custom Attributes
+Custom Attributes = Vlastné atribúty
+Fixed Attributes = Pevné atribúty
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Add new parameter = Pridať nový parameter
 Add New Parameter = Pridať nový Parameter
 Add New Supplier = Pridať nového dodávateľa
@@ -998,7 +1069,11 @@ Nets = Spoje
 DRC Errors = DRC chyby
 Are you sure you want to unroute this net? = Jste jsi opravdu jisti, že chcete rozpojit tento spoj?
 Unroute = Rozpojit
+<<<<<<< HEAD
 Track Length =
+=======
+Track Length = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Via/Hole Outer Size =
 Filter nets =
 Design Rule Checking =
@@ -1230,7 +1305,11 @@ Mirror = Zrkadliť
 TopLayer = Vrchná vrstva
 BottomLayer = Spodná vrstva
 TopSilkLayer = Vrchná vrstva potlače
+<<<<<<< HEAD
 Protractor Properties = Vlastnosti uhlomeru
+=======
+Protractor Attributes = Vlastnosti uhlomeru
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 BottomSilkLayer = Spodná vrstva potlače
 
 BoardOutLine = Okraj dosky
@@ -1427,8 +1506,13 @@ Increase Snap Size = Zväčšiť veľkosť uchytenia
 Change Copper Zone Visible or Invisible = Zmeniť zónu medi na Viditeľnú alebo Neviditeľnú
 Rebuild All Copper Area = Obnoviť oblasť medi
 Toggle PCB Net Display = Zobraziť DPS spoj
+<<<<<<< HEAD
 Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+=======
+Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Show Relative Offset Dialog When Selecting Object(s) =
 Open the FAQ Page =
 Move Object(s) by Reference Point =
@@ -1652,7 +1736,11 @@ Error:No GND = Chyba: Nie je GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Tento obvod nemá GND. Ak chcete pridať do obvodu GND, vyberte ho prosím v nástroji obvodu.
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Prúdový obvod nemá symbol zdroja napätia alebo zdroja prúdu, umiestnite ho najskôr na ľavú stranu EElib alebo Spice Library.
 Probe can not connect with ground(GND)! = Sonda sa nedá spojiť so zemou (GND)!
+<<<<<<< HEAD
 Spice symbols's properties can't be empty. = Atrinúty symbolos Spice nie sú prázdne
+=======
+Spice symbols's attributes can't be empty. = Atrinúty symbolos Spice nie sú prázdne
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Error:No Spice Symbol = Chyba: Spice Symbol
 Simulation limit = Limit simulácie
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = V obvode je multimeter, ktorý je potrebné simulovať pomocou emulačného príkazu .tran alebo .op
@@ -2075,7 +2163,11 @@ Export your file, then print it yourself. = Vyexportujte súbor a potom si ho vy
 Trace width is too small = Šírka cesty je príliš malá
 Share = Zdielať
 
+<<<<<<< HEAD
 Images Property = Vlastnosti obrazu
+=======
+Images Attribute = Vlastnosti obrazu
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Connect Pad to Pad = Spojiť plôšku s plôškou
 Copper Area = Oblasť medi
 Dimension = Rozmer
@@ -2246,7 +2338,11 @@ Footprint = Pôdorys
 Tracks = Cesty
 
 #dialog board outline settings
+<<<<<<< HEAD
 Current Size =
+=======
+Current Size = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Paramenters = Prametre
 Start X: = Začiatok X:
 Start Y: = Koniec Y:
@@ -2419,7 +2515,11 @@ Date Modified = Dátum úpravy
 Title = Názov
 Ascending = Vzostupne
 Descending = Zostupne
+<<<<<<< HEAD
 Pin to Top =
+=======
+Pin to Top = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Unpin from Top =
 Collapse / Expand =
 Expand =
@@ -2470,8 +2570,12 @@ Keyword: = Kľúčové slovo:
 Image = Obraz
 Image copied. =
 Copy failed. =
+<<<<<<< HEAD
 Copy success. =
 Image Property = Vlastnosti obrazu
+=======
+Image Attribute = Vlastnosti obrazu
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Locked = Zamknuté
 Unlock All = Odomknúť všetko
 Unlock = Odomknúť
@@ -2499,7 +2603,11 @@ Range = Rozsah
 Net Label/Net Flag/Net Port/Voltage Probe = Štítok spoja/Značka spoja/Port spoja/Napäťová sonda
 Bezier/Freehand Draw = Bazierové/Ručné kreslenie
 Arc/Pie = Uhol/Koláč
+<<<<<<< HEAD
 Objects Properties = Vlastnosti objektov
+=======
+Objects Attributes = Vlastnosti objektov
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Any = Akýkoľvek
 Same = Rovnaký
 Different = Rozdielný
@@ -2508,7 +2616,11 @@ Expose Copper =
 "{0}" font is missing. Please add the font to the font family list. = Písmo "{0}" chýba. Pridajte písmo do zoznamu písmien, prosím.
 Place Component = Umiestniť komponentu
 Delete Segment = Odstrániť segment
+<<<<<<< HEAD
 Angle =
+=======
+Angle = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Board Thickness = Hrúbka dosky
 Layer Distance =
 Silk Screen =
@@ -2909,7 +3021,11 @@ Object = Objekt
 Layers and Objects = Vrstvy a objekty
 All = Všetko
 
+<<<<<<< HEAD
 Add custom =
+=======
+Add custom = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 
 Connections =
 Attempted: =
@@ -2918,7 +3034,11 @@ Failed: = Zlyhalo
 Total Vias: =
 
 Please confirm moving option =
+<<<<<<< HEAD
 Only this pad =
+=======
+Only this pad = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 For this component = Pre túto súčiastku
 View Owner = Prehľad vlastníka
 View Detail = Podrobný prehľad
@@ -2933,7 +3053,11 @@ Add/Remove Vias =
 Diameter = Priemer
 Drill Diameter =
 Column Spacing = Šírka stĺpca
+<<<<<<< HEAD
 Row Spacing =
+=======
+Row Spacing = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Multiple vias have been placed, do you want to rebuild the copper area? =
 Remove vias finish, do you want to rebuild the copper area? =
 The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! =
@@ -2964,7 +3088,11 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! =
 Assign successful! =
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
+<<<<<<< HEAD
 Update Property =
+=======
+Update Attribute =
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Please fill in at least 5 words. =
 Mouse hovering over the track to highlight the entire network =
 Net Highlighting While Cursor Hover the Track =
@@ -3003,9 +3131,15 @@ This operation will unfavorite this project, do you want to continue? =
 View Homepage = Prehľad domovskej stránky
 Private Project = Súkromný projekt
 3-7 days = 3 - 7 dní
+<<<<<<< HEAD
 Close Tab =
 Close Other Tabs =
 Close All Tabs =
+=======
+Close Tab = 
+Close Other Tabs =
+Close All Tabs = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Open in New Window = Otvoriť v novom okne
 Cursor Snap to Component's Origin or Pad Center While Dragging Component =
 Undefined = Nedefinovaný
@@ -3049,7 +3183,11 @@ WaveForm = Tvar vlny
 
 Place Module = Miesto modulu
 Please enter identification letters: = Zadajte prosím identifikačné písmená
+<<<<<<< HEAD
 Only support English letters, up to 5. = Podporuje iba anglické písmená, viac ako 5
+=======
+Only support English letters, up to 5. = Podporuje iba anglické písmená, viac ako 5 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 
 Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. =
 Opening = Otváram
@@ -3080,7 +3218,11 @@ Please input the folder name = Zadajte názov priečinku
 Invalid folder name = Chybný názov priečinku
 Are you sure to delete this folder? = Naozaj chcete vymazať tento priečinok?
 Create new folder successfully = Nový priečinok bol úspešne vytvorený
+<<<<<<< HEAD
 Failed to create new folder = Vytvorenie nového priečinku zlyhalo
+=======
+Failed to create new folder = Vytvorenie nového priečinku zlyhalo 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Delete folder successfully = Priečinok bol úspešne zmazaný
 Failed to delete folder = Vymazanie priečinku zlyhalo
 Rename folder successfully = Priečinok bol úspešne premenovaný
@@ -3089,7 +3231,11 @@ Move folder successfully = Priečinok bol úspešne presunutý
 Failed to move folder = Presunutie priečinku zlyhalo
 Move project successfully = Projekt bol úspešne presunutý
 Failed to move project = Presunutie projektu zlyhalo
+<<<<<<< HEAD
 The folder depth must not exceed {0} levels =
+=======
+The folder depth must not exceed {0} levels = 
+>>>>>>> 3e8ca23dfbec9251df9e2773892902fe9f7fc570
 Failed to add project to folder = Pridanie projektu do priečinku zlyhalo
 
 Doesn't support JLCPCB SMT Service =
