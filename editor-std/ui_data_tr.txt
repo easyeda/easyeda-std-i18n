@@ -298,7 +298,7 @@ Group These Items as a Symbol = Bu Ögeleri Sembol Olarak Grupla
 Group These Items as a Footprint = Bu Ögeleri Ayak İzi Olarak Grupla
 Set Canvas Origin = Tuval Orjinini Belirle
 Document Setting = Belge Ayarı
-Sheet Attributes = Çalışma Sayfası Nitelikleri
+Sheet Properties = Çalışma Sayfası Nitelikleri
 Set Board Outline = Kart Anahattını Belirle
 Teardrop... = Gözyaşı...
 Panelize... = Panelize Et...
@@ -307,7 +307,7 @@ Smart Dimension = Akıllı Boyutlandırma
 Footprint Wizard = Ayak İzi Sihirbazı
 Footprint Wizard... = Ayak İzi Sihirbazı...
 Select package type = Paket Tipi Seçin
-Smart Dimension Attributes = Akıllı Boyutlandırma Nitelikleri
+Smart Dimension Properties = Akıllı Boyutlandırma Nitelikleri
 Global Delete = Global Silme
 Cross Probe = Çapraz Prob
 Cross Probe and Place = Çarpaz Probla ve Yerleştir
@@ -321,12 +321,12 @@ By Coordinates... = Koordinatlara Göre...
 By Center of Pads = Pad'lere Göre
 By Center Grid of Symbols = Sembollerin Merkez Izgarasına Göre
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties= Özellikler
-Attributes= Nitelikler
+Properties= Nitelikler
 Apply= Uygula
 Save as default= Varsayılan olarak kaydet
-Canvas Attributes= Tuval Nitelikleri
+Canvas Properties= Tuval Nitelikleri
 Width= Genişlik
 Height= Yükseklik
 Background= Arkaplan
@@ -352,8 +352,8 @@ Alt Snap = Alt Yasla
 Snap size when pressing the Alt key = Alt tuşuna basarkenki Yaslama Boyutu
 Prefix Start = Ön Ek Başlangıcı
 
-#Text Attributes
-Text Attributes = Metin Nitelikleri
+#Text Properties
+Text Properties = Metin Nitelikleri
 Text = Metin
 Color = Renk
 Font Family = Yazı Tipi Ailesi
@@ -695,7 +695,7 @@ AC Phase = AC Faz
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Spice modeli olmayan bazı bölümler var. Lütfen "Simülasyon" modunun "Kütüphaneler" kısmındaki "EElib" ve "Spice Symbol" kullanın; veya bunlara spice modelini atayın:
 
 #Pin
-Pin Attributes = Pin Nitelikleri
+Pin Properties = Pin Nitelikleri
 Orientation = Yönelim
 Line 45° = Çizgi 45°
 Line 90° = Çizgi 90°
@@ -715,7 +715,7 @@ Show = Göster
 Electric = Elektrik
 
 #Junction
-Junction Attributes = Kavşak Nitelikleri
+Junction Properties = Kavşak Nitelikleri
 X Location = X Konumu
 Y Location = Y Konumu
 Size = Boyut
@@ -727,9 +727,9 @@ Net Label = Ağ Etiketi
 #Part
 Prefix = Ön Ek
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = Görsel Ekle
-Image Attributes = Görsel Nitelikleri
+Image Properties = Görsel Nitelikleri
 Image URL = Görsel URL'si
 Input an image URL = Bir görsel URL'si girin
 Invalid image URL = Geçersiz görsel URL'si
@@ -759,7 +759,7 @@ Color Tolerance = Renk Toleransı
 Simplify Level = Basitleştirme Seviyesi
 Corner Threshold = Köşe Eşiği
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Birimler
 Snap Size = Yaslama Boyutu
 Other = Diğer
@@ -823,11 +823,11 @@ Line Width = Çizgi Genişliği
 Rotation = Dönüş
 Fonts Management = Yazı Tipi Yönetimi
 
-#Dimension Attributes
-Dimension Attributes = Boyut Nitelikleri
+#Dimension Properties
+Dimension Properties = Boyut Nitelikleri
 
-#Footprint Attributes
-Component Attributes = Ayak İzi Nitelikleri
+#Footprint Properties
+Component Properties = Ayak İzi Nitelikleri
 Display Prefix = Ön Eki Görüntüle
 Pin Name = Pin Adı
 Pin Number = Pin Numarası
@@ -872,9 +872,9 @@ Solid = Tam
 None = Hiçbiri
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Özel Özellikler
-Fixed Attributes = Kararlaştırılmış Özellikler
+#Custom Properties
+Custom Properties = Özel Özellikler
+Fixed Properties = Kararlaştırılmış Özellikler
 Add new parameter = Yeni değişken ekle
 Add New Parameter = Yeni Değişken Ekle
 Add New Supplier = Yeni Tedarikçi Ekle
@@ -1229,7 +1229,7 @@ Mirror = Ayna
 TopLayer = ÜstKatman
 BottomLayer = AltKayman
 TopSilkLayer = ÜstBaskıKatmanı
-Protractor Attributes = Açıölçer Nitelikleri
+Protractor Properties = Açıölçer Nitelikleri
 BottomSilkLayer = TabanBaskıKatmanı
 
 BoardOutLine = KartAnahattı
@@ -1426,8 +1426,8 @@ Increase Snap Size= Yaslama Boyutunu Artır
 Change Copper Zone Visible or Invisible = Bakır Alanını Görünür veya Görünmez Olarak Değiştir
 Rebuild All Copper Area = Tüm Bakır Alanını Yeniden Kur
 Toggle PCB Net Display = PCB Ağ Görünümünü Aç/Kapat
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Nesne Yerleştirirken Nitelik İletişim Kutusunu Göster;<br/>Nesneleri Yapıştırırken Konum Ayarı İletişim Kutusunu Göster
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Nesneyi Yerleştirirken Nitelik İletişim Kutusunu Göster;<br/>Nesneleri Seçerken Mutlak Offset İletişim Kutusunu Göster;<br/>Nesneleri Yapıştırırken Konum Ayarı İletişim Kutusunu Göster
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Nesne Yerleştirirken Nitelik İletişim Kutusunu Göster;<br/>Nesneleri Yapıştırırken Konum Ayarı İletişim Kutusunu Göster
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Nesneyi Yerleştirirken Nitelik İletişim Kutusunu Göster;<br/>Nesneleri Seçerken Mutlak Offset İletişim Kutusunu Göster;<br/>Nesneleri Yapıştırırken Konum Ayarı İletişim Kutusunu Göster
 Show Relative Offset Dialog When Selecting Object(s) = Nesne(ler)i Seçerken Göreceli Offset İletişim Kutusunu Göster
 Open the FAQ Page = SSS Sayfasını Aç
 Move Object(s) by Reference Point = Nesneleri Referans Noktasına Göre Taşı
@@ -1651,7 +1651,7 @@ Error:No GND = Hata: GND Yok
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Bu devrede GND mevcut değil. Devreye eklemek için lütfen devre aracından GND'yi seçin.
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Mevcut devre Gerilim Kaynağı veya Akım Kaynağı sembolüne sahip değil, lütfen önce sol taraftaki EElib veya Spice Kütüphanesi'ne yerleştirin.
 Probe can not connect with ground(GND)! = Prob toprağa(GND) bağlanamıyor!
-Spice symbols's attributes can't be empty. = Spice sembolü nitelikleri boş bırakılamaz.
+Spice symbols's properties can't be empty. = Spice sembolü nitelikleri boş bırakılamaz.
 Error:No Spice Symbol = Hata: Spice Sembolü yok
 Simulation limit = Simülasyonu limiti
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = Devrede .tran veya .op emülasyon komutu kullanılarak simüle edilmesi gereken bir multimetre var.
@@ -2073,7 +2073,7 @@ Export your file, then print it yourself. = Dosyanızı dışa aktarın, ardınd
 Trace width is too small = Hat genişliği çok küçük
 Share = Paylaş
 
-Images Attribute = Görsel Niteliği
+Images Property = Görsel Niteliği
 Connect Pad to Pad = Pad'den Pad'e Bağla
 Copper Area  = Bakır Alanı
 Dimension  = Boyut
@@ -2467,7 +2467,8 @@ Keyword: = Anahtar Kelime:
 Image = Görsel
 Image copied. = Görsel kopyalandı
 Copy failed. = Kopyalama başarısız
-Image Attribute = Görsel Niteliği
+Copy success. =
+Image Property = Görsel Niteliği
 Locked = Kilitli
 Unlock All = Hepsinin Kilidini Aç
 Unlock = Kilidi Aç
@@ -2485,7 +2486,7 @@ Update failed! = Güncelleme başarısız!
 Successfully updated! = Başarıyla güncellendi!
 Successfully updated {0} component(s)! = {0} bileşen başarıyla güncellendi!
 Change = Değiştir
-Check  Footprints = Ayak İzlerini Denetle
+Check Footprints = Ayak İzlerini Denetle
 Network Error! = Ağ Hatası
 Find Similar Objects = Benzer Nesneler Bul
 Current Sheet = Mevcut Çalışma Sayfası
@@ -2495,7 +2496,7 @@ Range = Aralık
 Net Label/Net Flag/Net Port/Voltage Probe = Ağ Etiketi/Ağ Bayrağı/Ağ Portu/Gerilim Probu
 Bezier/Freehand Draw = Bezier/Serbest Çizim
 Arc/Pie = Kavis/Pasta
-Objects Attributes = Nesne Nitelikleri
+Objects Properties = Nesne Nitelikleri
 Any = Herhangi
 Same = Aynı
 Different = Farklı
@@ -2960,7 +2961,7 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! = 没有分类！
 Assign successful! = 分配成功！
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = 发现封装焊盘编号不匹配原理图器件的引脚编号，请手动修正焊盘编号后再重试！
-Update Attribute = Niteliği Güncelle
+Update Property = Niteliği Güncelle
 Please fill in at least 5 words. = Lütfen en az 5 kelime girin.
 Mouse hovering over the track to highlight the entire network = Hat üzerinde fare ile gezinirken tüm ağı vurgulama
 Net Highlighting While Cursor Hover the Track = İmleç Hattın Üzerine Geldiğinde Ağı Vurgulama
@@ -3089,7 +3090,7 @@ The folder depth must not exceed {0} levels =
 Failed to add project to folder =
 
 Doesn't support JLCPCB SMT Service = JLCPCB SMT Hizmetini desteklememekte
-for JLCPCB SMT Service = JLCPCB SMT Hizmeti için
+{0} for JLCPCB SMT Service = JLCPCB SMT Hizmeti için {0}
 
 Reset failed! There are duplicate component prefixes in the current schematic: = Sıfırlama başarısız! Geçerli şematikte yinelenen bileşen önekleri var:
 Reset failed! There are duplicate component prefixes in the current PCB: = Sıfırlama başarısız! Geçerli PCB'de yinelenen bileşen önekleri var:

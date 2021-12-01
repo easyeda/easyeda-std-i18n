@@ -298,7 +298,7 @@ Group These Items as a Symbol =
 Group These Items as a Footprint =
 Set Canvas Origin =
 Document Setting =
-Sheet Attributes =
+Sheet Properties =
 Set Board Outline =
 Teardrop... =
 Panelize... =
@@ -307,7 +307,7 @@ Smart Dimension =
 Footprint Wizard =
 Footprint Wizard... =
 Select package type =
-Smart Dimension Attributes =
+Smart Dimension Properties =
 Global Delete =
 Cross Probe =
 Cross Probe and Place =
@@ -321,12 +321,11 @@ By Coordinates... =
 By Center of Pads =
 By Center Grid of Symbols =
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties = Властивості
-Attributes = Атрибути
 Apply = Застосувати
 Save as default = Зберегти як замовчування
-Canvas Attributes = Атрибути полотна
+Canvas Properties = Атрибути полотна
 Width = Ширина
 Height = Висота
 Background = Фон
@@ -352,8 +351,8 @@ Alt Snap =
 Snap size when pressing the Alt key = Розмір прив\'язки при натисненні на клавішу Alt
 Prefix Start =
 
-#Text Attributes
-Text Attributes = Атрибути тексту
+#Text Properties
+Text Properties = Атрибути тексту
 Text = Текст
 Color = Колір
 Font Family =
@@ -695,7 +694,7 @@ AC Phase =
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: =
 
 #Pin
-Pin Attributes = Атрибути виводу
+Pin Properties = Атрибути виводу
 Orientation = Орієнтація
 Line 45° =
 Line 90° =
@@ -715,7 +714,7 @@ Show = Показати
 Electric = Електричні
 
 #Junction
-Junction Attributes = Розподільні атрибути
+Junction Properties = Розподільні атрибути
 X Location =
 Y Location =
 Size = Розмір
@@ -727,9 +726,9 @@ Net Label = Назва шини
 #Part
 Prefix = Префікс
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image =
-Image Attributes = Атрибути рисунку
+Image Properties = Атрибути рисунку
 Image URL = Адреса рисунку
 Input an image URL =
 Invalid image URL =
@@ -759,7 +758,7 @@ Color Tolerance =
 Simplify Level =
 Corner Threshold =
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Пункти
 Snap Size = Розмір прив\'язки
 Other = Інший
@@ -823,11 +822,11 @@ Line Width =
 Rotation = Обертання
 Fonts Management =
 
-#Dimension Attributes
-Dimension Attributes = Атрибути виміру
+#Dimension Properties
+Dimension Properties = Атрибути виміру
 
-#Footprint Attributes
-Component Attributes =
+#Footprint Properties
+Component Properties =
 Display Prefix =
 Pin Name =
 Pin Number =
@@ -872,9 +871,9 @@ Solid =
 None =
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Атрибути користувача
-Fixed Attributes =
+#Custom Properties
+Custom Properties = Атрибути користувача
+Fixed Properties =
 Add new parameter = Додати новий параметр
 Add New Parameter =
 Add New Supplier =
@@ -1229,7 +1228,7 @@ Mirror = Дзеркало
 TopLayer = Верхній шар
 BottomLayer = Нижній шар
 TopSilkLayer = Верхній шовковий шар
-Protractor Attributes =
+Protractor Properties =
 BottomSilkLayer = Нижній шовковий шар
 
 BoardOutLine =
@@ -1426,8 +1425,8 @@ Increase Snap Size = Збільшити розмір прив\'язки
 Change Copper Zone Visible or Invisible =
 Rebuild All Copper Area = Перебудувати всі площинки металізації
 Toggle PCB Net Display =
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Relative Offset Dialog When Selecting Object(s) =
 Open the FAQ Page =
 Move Object(s) by Reference Point =
@@ -1651,7 +1650,7 @@ Error:No GND =
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. =
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
 Probe can not connect with ground(GND)! =
-Spice symbols's attributes can't be empty. =
+Spice symbols's properties can't be empty. =
 Error:No Spice Symbol =
 Simulation limit =
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op =
@@ -2074,7 +2073,7 @@ Export your file, then print it yourself. = Експортувати файл, �
 Trace width is too small = Товщина доріжки занадто мала
 Share = Надати
 
-Images Attribute = Атрибути малюнка
+Images Property = Атрибути малюнка
 Connect Pad to Pad = З\'єднати площинку з площинкою
 Copper Area = Металізована область
 Dimension = Роздільна здатність
@@ -2469,7 +2468,8 @@ Keyword: =
 Image = Рисунок
 Image copied. =
 Copy failed. =
-Image Attribute =
+Copy success. =
+Image Property =
 Locked =
 Unlock All =
 Unlock =
@@ -2487,7 +2487,7 @@ Update failed! =
 Successfully updated! =
 Successfully updated {0} component(s)! =
 Change =
-Check  Footprints =
+Check Footprints =
 Network Error! =
 Find Similar Objects =
 Current Sheet =
@@ -2497,7 +2497,7 @@ Range =
 Net Label/Net Flag/Net Port/Voltage Probe =
 Bezier/Freehand Draw =
 Arc/Pie =
-Objects Attributes =
+Objects Properties =
 Any =
 Same =
 Different =
@@ -2962,7 +2962,7 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! =
 Assign successful! =
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
-Update Attribute =
+Update Property =
 Please fill in at least 5 words. =
 Mouse hovering over the track to highlight the entire network =
 Net Highlighting While Cursor Hover the Track =
@@ -3091,7 +3091,7 @@ The folder depth must not exceed {0} levels =
 Failed to add project to folder =
 
 Doesn't support JLCPCB SMT Service =
-for JLCPCB SMT Service =
+{0} for JLCPCB SMT Service =
 
 Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: =

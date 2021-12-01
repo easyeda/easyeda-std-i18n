@@ -298,7 +298,7 @@ Group These Items as a Symbol = Agrupar Esses Itens como um Símbolo
 Group These Items as a Footprint = Agrupar Esses Itens como um Footprint
 Set Canvas Origin = Definir Origem da Tela
 Document Setting = Configuração do documento
-Sheet Attributes = Atributos da folha
+Sheet Properties = Atributos da folha
 Set Board Outline = Definir contorno da placa
 Teardrop... = Teardrop…
 Panelize... = Panelize…
@@ -307,7 +307,7 @@ Smart Dimension = Dimensão Inteligente
 Footprint Wizard = Assistente de Footprint
 Footprint Wizard... = Assistente de Footprint...
 Select package type = Selecionar tipo de pacote
-Smart Dimension Attributes = Atributos da Dimensão Inteligente
+Smart Dimension Properties = Atributos da Dimensão Inteligente
 Global Delete = Apagar global
 Cross Probe = Cross Probe
 Cross Probe and Place = Cross Probe and Place
@@ -321,12 +321,11 @@ By Coordinates... = Por Coordenadas
 By Center of Pads = Pelo Centro do Bloco
 By Center Grid of Symbols = Pelo Centro da Grade de Símbolos
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties = Propriedades
-Attributes = Atributos
 Apply = Aplicar
 Save as default = Salvar como padrão
-Canvas Attributes = Atributos do Canvas
+Canvas Properties = Atributos do Canvas
 Width = Largura
 Height = Altura
 Background = Fundo
@@ -352,8 +351,8 @@ Alt Snap = Alt Snap
 Snap size when pressing the Alt key = Grudar o tamanho quando pressionar a tecla Alt
 Prefix Start = Prefixo de Início
 
-#Text Attributes
-Text Attributes = Atributos de texto
+#Text Properties
+Text Properties = Atributos de texto
 Text = Texto
 Color = Cor
 Font Family = Família de Fontes
@@ -695,7 +694,7 @@ AC Phase = Fase AC
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Algumas peças não têm modelo spice, por favor use "EElib" e "Spice Symbol" em "Bibliotecas" do modo "Simulação", ou você pode designar um modelo spice para eles:
 
 #Pin
-Pin Attributes = Atributos do Pin
+Pin Properties = Atributos do Pin
 Orientation = Orientação
 Line 45° = Linha 45°
 Line 90° = Linha 90°
@@ -715,7 +714,7 @@ Show = Mostrar
 Electric = Elétrico
 
 #Junction
-Junction Attributes = Atributos de junção
+Junction Properties = Atributos de junção
 X Location = localização X
 Y Location = localização Y
 Size = Tamanho
@@ -727,9 +726,9 @@ Net Label = Rótulo de Rede
 #Part
 Prefix = Prefixo
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = Adicionar imagem
-Image Attributes = Atributos de Imagem
+Image Properties = Atributos de Imagem
 Image URL = URL da imagem
 Input an image URL = Insira uma URL de imagem
 Invalid image URL = URL de imagem inválido
@@ -759,7 +758,7 @@ Color Tolerance = Tolerância de Cor
 Simplify Level = Simplificar Nível
 Corner Threshold = Limiar da Borda
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Unidades
 Snap Size = Tamanho Snap
 Other = Outro
@@ -823,11 +822,11 @@ Line Width = Largura da linha
 Rotation = Rotação
 Fonts Management = Gerenciamento de fontes
 
-#Dimension Attributes
-Dimension Attributes = Atributos de dimensão
+#Dimension Properties
+Dimension Properties = Atributos de dimensão
 
-#Footprint Attributes
-Component Attributes = Características do Componente
+#Footprint Properties
+Component Properties = Características do Componente
 Display Prefix = Mostrar Prefixo
 Pin Name = Nome do Pino
 Pin Number = Número do Pino
@@ -872,9 +871,9 @@ Solid = Sólido
 None = Nenhum
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Atributos personalizados
-Fixed Attributes = Atributos Fixados
+#Custom Properties
+Custom Properties = Atributos personalizados
+Fixed Properties = Atributos Fixados
 Add new parameter = Adicionar novo parâmetro
 Add New Parameter = Adicionar Novo parâmetro
 Add New Supplier = Adicionar Novo Fornecedor
@@ -1229,7 +1228,7 @@ Mirror = Espelho
 TopLayer = TopLayer
 BottomLayer = BottomLayer
 TopSilkLayer = TopSilkLayer
-Protractor Attributes = Atributos do transferidor
+Protractor Properties = Atributos do transferidor
 BottomSilkLayer = BottomSilkLayer
 
 BoardOutLine = ContornoDaPlaca
@@ -1426,8 +1425,8 @@ Increase Snap Size = Aumentar Tamanho do Snap
 Change Copper Zone Visible or Invisible = Mudar Zona de Cobre Visível ou Invisível
 Rebuild All Copper Area = Reconstruir toda a área de cobre
 Toggle PCB Net Display = Alternar exibição de rede PCB
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Relative Offset Dialog When Selecting Object(s) =
 Open the FAQ Page = Abrir Página do FAQ
 Move Object(s) by Reference Point = Mover Objeto(s) por Ponto de Referência
@@ -1649,20 +1648,20 @@ Please select its parent node = Por favor, selecione seu nó pai
 Libraries can not be exported as active project pdf. = Bibliotecas não podem ser exportadas como projeto ativo pdf.
 Error:No GND =
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Este circuito não possui GND. Por favor, selecione GND a partir das ferramentas de circuito para adicioná-lo ao circuito.
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = O circuito atual não possui símbolos de Fonte de Tensão ou de Fonte de Corrente. Por favor, coloque ao menos um deles antes utilizando EElib ou Biblioteca Spice à esquerda da janela. 
+Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = O circuito atual não possui símbolos de Fonte de Tensão ou de Fonte de Corrente. Por favor, coloque ao menos um deles antes utilizando EElib ou Biblioteca Spice à esquerda da janela.
 Probe can not connect with ground(GND)! = Sonda não pode ser conectada ao ground(GND)
-Spice symbols's attributes can't be empty. =
+Spice symbols's properties can't be empty. =
 Error:No Spice Symbol =
 Simulation limit = Limite de Simulação
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = Há um multímetro no circuito que precisa ser simulado utilizando o comando de emulação .tran ou .op
 An oscilloscope exists in the circuit and needs to be simulated using the simulation command .tran = Existe um osciloscópio no circuito e ele precisa ser simulado utilizando o comando .tran
-There are components in this circuit that do not have a simulation model. Please use the base library component of the simulation mode for simulation. = 
+There are components in this circuit that do not have a simulation model. Please use the base library component of the simulation mode for simulation. =
 Circuit does not have a probe = Circuito não tem uma sonda
 Make sure your pin numbers are even numbers = Certifique-se de que seus números de pin são números pares
 Duplicate Components Prefix = Prefixo de Componentes Duplicados
 All components are hidden successfully! = Todos componentes foram escondidos com sucesso!
 All ratlines are hidden successfully! =
-Hidden the ratline of net {netName} successfully! = 
+Hidden the ratline of net {netName} successfully! =
 Duplicate Component Prefix = Duplicar Prefixo do Componente
 {0} exist = {0} existe
 There are some invalid packages, are you sure? = Existem alguns pacotes inválidos, tem certeza?
@@ -2074,7 +2073,7 @@ Export your file, then print it yourself. = Exporte seu arquivo e imprima você 
 Trace width is too small = A largura do traço é muito pequena
 Share = Compartilhar
 
-Images Attribute = Atributo de Imagens
+Images Property = Atributo de Imagens
 Connect Pad to Pad = Conecte o Pad ao Pad
 Copper Area = Área de Cobre
 Dimension = Dimensão
@@ -2434,7 +2433,7 @@ Please select! = Por favor, selecione!
 Route = Rota
 Import successfully: = Importar com sucesso:
 Import failed: = Falha na importação:
-The title length must be between 2~128 characters. = O comprimento do título deve ser de 2~28 caracteres. 
+The title length must be between 2~128 characters. = O comprimento do título deve ser de 2~28 caracteres.
 Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = O caminho contém apenas 'a-z' A-Z '- 、 _ 、 0-9'!
 Path must begin as 'a-z、A-Z、0-9'! = O caminho deve começar como 'a-z' A-Z '0-9'!
 The path length must be between 4~128 characters! = O comprimento do caminho deve estar entre 4 ~ 128 caracteres!
@@ -2469,7 +2468,8 @@ Keyword: = Palavra chave:
 Image = Imagem
 Image copied. = Imagem copiada.
 Copy failed. = Falha ao copiar.
-Image Attribute = Atributo de Imagem
+Copy success. =
+Image Property = Atributo de Imagem
 Locked = Bloqueado
 Unlock All = Desbloquear todos
 Unlock = Desbloquear
@@ -2487,7 +2487,7 @@ Update failed! = Atualização falhou!
 Successfully updated! = Atualizado com sucesso!
 Successfully updated {0} component(s)! =
 Change = Trocar
-Check  Footprints = Verificar Footprints
+Check Footprints = Verificar Footprints
 Network Error! = Erro de rede!
 Find Similar Objects = Encontre Objetos Similares
 Current Sheet = Folha atual
@@ -2497,7 +2497,7 @@ Range = Faixa
 Net Label/Net Flag/Net Port/Voltage Probe = Rótulo de Rede / Bandeira de Rede / Net Port / Sonda de Tensão
 Bezier/Freehand Draw = Bézier / Desenho a mão livre
 Arc/Pie = Arco / Pie
-Objects Attributes = Atributos de Objetos
+Objects Properties = Atributos de Objetos
 Any = Qualquer
 Same = Mesmo
 Different = Diferente
@@ -2962,7 +2962,7 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! = Não tem Tag!
 Assign successful! =
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
-Update Attribute = Atualizar Atributo
+Update Property = Atualizar Atributo
 Please fill in at least 5 words. = Por favor, preencha pelo menos 5 palavras.
 Mouse hovering over the track to highlight the entire network =
 Net Highlighting While Cursor Hover the Track = Iluminar Net ao passar o Cursor sobre a Trilha
@@ -3091,7 +3091,7 @@ The folder depth must not exceed {0} levels =
 Failed to add project to folder =
 
 Doesn't support JLCPCB SMT Service =
-for JLCPCB SMT Service =
+{0} for JLCPCB SMT Service =
 
 Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: =

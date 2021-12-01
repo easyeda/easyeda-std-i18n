@@ -1,4 +1,4 @@
-# Menu
+#Menu
 User=用户
 Join...=注册...
 Login...=登录...
@@ -299,7 +299,7 @@ Group These Items as a Symbol = 组合这些图形为一个符号
 Group These Items as a Footprint = 组合这些图形成为一个封装
 Set Canvas Origin = 画布原点
 Document Setting = 图纸设置
-Sheet Attributes = 表格属性
+Sheet Properties = 表格属性
 Set Board Outline = 边框设置
 Teardrop... = 泪滴...
 Panelize... = 拼板...
@@ -308,7 +308,7 @@ Smart Dimension = 智能尺寸
 Footprint Wizard = 封装向导
 Footprint Wizard... = 封装向导...
 Select package type = 选择封装类型
-Smart Dimension Attributes = 智能尺寸属性
+Smart Dimension Properties = 智能尺寸属性
 Global Delete = 全局删除
 Cross Probe = 交叉选择
 Cross Probe and Place = 布局传递
@@ -322,12 +322,11 @@ By Coordinates... = 从输入坐标...
 By Center of Pads = 从焊盘中央
 By Center Grid of Symbols = 从图形中心格点
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties=属性
-Attributes=属性
 Apply=应用
 Save as default=存为默认值
-Canvas Attributes=画布属性
+Canvas Properties=画布属性
 Width=宽
 Height=高
 Background=背景色
@@ -353,8 +352,8 @@ Alt Snap = ALT键栅格
 Snap size when pressing the Alt key = 按下ALT键时的栅格尺寸
 Prefix Start = 标注起始
 
-#Text Attributes
-Text Attributes =文本属性
+#Text Properties
+Text Properties =文本属性
 Text = 文本
 Color = 颜色
 Font Family = 字体
@@ -695,7 +694,7 @@ AC Phase = AC相位
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = 存在没有仿真模型的元器件，请优先使用仿真模式下的“基础库”和元件库中的“仿真符号”进行仿真，或指定仿真模型：
 
 #Pin
-Pin Attributes = 引脚属性
+Pin Properties = 引脚属性
 Orientation = 方向
 Line 45° = 线条45°
 Line 90° = 线条90°
@@ -715,7 +714,7 @@ Show = 显示引脚
 Electric = 电气特性
 
 #Junction
-Junction Attributes = 节点属性
+Junction Properties = 节点属性
 X Location = X坐标
 Y Location = Y坐标
 Size = 大小
@@ -727,9 +726,9 @@ Net Label = 网络标签
 #Part
 Prefix = 编号
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = 添加图片
-Image Attributes = 图片属性
+Image Properties = 图片属性
 Image URL = 图片网址
 Input an image URL = 请输入图片网址
 Invalid image URL = 无效的图片网址
@@ -759,7 +758,7 @@ Color Tolerance = 颜色容差
 Simplify Level = 简化水平
 Corner Threshold = 平滑尖角
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = 单位
 Snap Size = 栅格尺寸
 Other = 其它
@@ -823,11 +822,11 @@ Line Width = 线宽
 Rotation = 旋转角度
 Fonts Management = 字体管理
 
-#Dimension Attributes
-Dimension Attributes = 尺寸属性
+#Dimension Properties
+Dimension Properties = 尺寸属性
 
-#Footprint Attributes
-Component Attributes = 元件属性
+#Footprint Properties
+Component Properties = 元件属性
 Display Prefix = 显示编号
 Pin Name = 引脚名称
 Pin Number = 引脚编号
@@ -872,9 +871,9 @@ Solid = 全填充
 None = 无填充
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = 自定义属性
-Fixed Attributes = 固定属性
+#Custom Properties
+Custom Properties = 自定义属性
+Fixed Properties = 固定属性
 Add new parameter = 增加参数
 Add New Parameter = 增加参数
 Add New Supplier = 增加供应商
@@ -1041,6 +1040,7 @@ Chose file  = 选择文件
 File Operation = 文件操作
 Import File = 导入文件
 Extract Libs = 提取库文件
+No Libs! = 无库文件！
 Import File and Extract Libs = 导入文件并提取库
 File type = 文件类型
 The file size is too large. = 文件尺寸过大
@@ -1229,7 +1229,7 @@ Mirror = 镜像
 TopLayer = 顶层
 BottomLayer = 底层
 TopSilkLayer = 顶层丝印层
-Protractor Attributes = 量角器属性
+Protractor Properties = 量角器属性
 BottomSilkLayer = 底层丝印层
 
 BoardOutLine = 边框层
@@ -1422,8 +1422,8 @@ Increase Snap Size=增加栅格尺寸
 Change Copper Zone Visible or Invisible = 循环切换铺铜区可见性
 Rebuild All Copper Area = 重建所有铺铜
 Toggle PCB Net Display = 切换PCB网络显示
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = 当放置元素时显示属性对话框;<br/>当粘贴时显示定位元素对话框;
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = 当放置元素时显示属性对话框;<br/>当选中元素时显示绝对偏移量对话框;<br/>当粘贴时显示定位元素对话框;
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = 当放置元素时显示属性对话框;<br/>当粘贴时显示定位元素对话框;
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = 当放置元素时显示属性对话框;<br/>当选中元素时显示绝对偏移量对话框;<br/>当粘贴时显示定位元素对话框;
 Show Relative Offset Dialog When Selecting Object(s) = 当选中元素时显示相对偏移量对话框
 Open the FAQ Page = 打开常见问题页面
 Move Object(s) by Reference Point = 根据参考点移动元素
@@ -1587,6 +1587,7 @@ Guests can't import a file. Please login! = 访客不能导入文件，请登录
 Please create a project before you import a file! = 导入文件前请先创建一个工程
 Import your LTspice file! = 导入你的LTspice文件!
 Open LTspice file = 打开LTspice文件
+Open EasyEDA file = 打开立创EDA文件
 Please make sure the selected LTspice file is a file saved in LTspice V and above. = 请确保选择的LTspice文件是LTspice V 及以上版本保存的文件.
 Saved successfully! = 保存成功
 Save failed! = 保存失败
@@ -1647,7 +1648,7 @@ Error:No GND = 错误：没有GND(地)
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = 该电路没有GND(地)，请从电路工具中选取GND(地)加入到电路中。
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = 当前电路没有电压源或电流源符号，请先在左侧基础库或仿真库放置。
 Probe can not connect with ground(GND)! = 探针不能与地(GND)连接！
-Spice symbols's attributes can't be empty. = 请完善仿真器件参数。
+Spice symbols's properties can't be empty. = 请完善仿真器件参数。
 Error:No Spice Symbol = 没有仿真模型
 Simulation limit = 仿真限制
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = 电路中存在万用表，需要使用仿真命令 .tran 或 .op 进行仿真
@@ -1892,7 +1893,7 @@ Reject = 拒绝
 Add User = 添加用户
 Bad email address = 错误的邮件地址
 
-# error info from backend
+#error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = 用户不存在.
 
 #Dialog waveForm
@@ -1994,6 +1995,7 @@ The file save operation has timed out. Try again and check your Internet connect
 Export Netlist = 导出网表
 Notifications = 通知
 Please select txt or json files. = 请选择txt或json文件
+Please select EasyEDA files. = 请选择立创EDA文件。
 Failed to read file [{file}] = 读取文件 [{file}] 失败
 [{file}] is not a valid json file = [{file}] 不是一个有效的JSON文件
 Invalid parameters! = 无效参数
@@ -2072,7 +2074,7 @@ Export your file, then print it yourself. = 导出文件再打印
 Trace width is too small = 导线宽度太少
 Share = 分享
 
-Images Attribute = 图片属性
+Images Property = 图片属性
 Connect Pad to Pad = 连接焊盘
 Copper Area  = 铺铜
 Dimension  = 尺寸
@@ -2355,6 +2357,7 @@ Font is missing! You can confirm the dialog and use default font instead or canc
 Owner = 所有者
 License = 协议
 Part Pins = 元件引脚
+Part Properties = 元件属性
 Net Pins = 网络引脚
 Net Ratlines = 网络飞线
 Add Parameter = 添加新参数
@@ -2438,6 +2441,8 @@ Path must begin as 'a-z、A-Z、0-9'! = 路径必须以'a-z、A-Z、0-9'开头�
 The path length must be between 4~128 characters! = 路径长度必须为4~128字节！
 The title length must be between 2~256 characters! = 标题长度必须为2~256字节！
 The title can not less than 3 charaters! = 标题不能少于3个字符！
+Please select an owner = 请选择所有者
+Please select obj, wrl or zip file. = 请选择 obj，wrl，或者 zip 文件。
 Do you want to delete this file? = 你确认你需要删除该文件吗？
 Add sub part success = 添加子库成功
 Please input name and prefix! = 请输入编号和名称
@@ -2468,7 +2473,8 @@ Keyword: = 关键词：
 Image = 图片
 Image copied. = 图像已复制
 Copy failed. = 复制失败
-Image Attribute = 图片属性
+Copy success. = 复制成功
+Image Property = 图片属性
 Locked = 锁定
 Unlock All = 解锁全部
 Unlock = 解锁
@@ -2486,7 +2492,7 @@ Update failed! = 更新失败！
 Successfully updated! = 更新成功！
 Successfully updated {0} component(s)! = 成功更新 {0} 个元件！
 Change = 变更
-Check  Footprints = 检查封装
+Check Footprints = 检查封装
 Network Error! = 网络错误！
 Find Similar Objects = 查找相似对象
 Current Sheet = 当前页面
@@ -2496,7 +2502,7 @@ Range = 范围
 Net Label/Net Flag/Net Port/Voltage Probe = 网络标签/标识符/网络端口/电压探针
 Bezier/Freehand Draw = 贝塞尔曲线/自由绘制
 Arc/Pie = 圆弧/饼形
-Objects Attributes = 多对象属性
+Objects Properties = 多对象属性
 Any = 任意
 Same = 相等
 Different = 不等
@@ -2517,7 +2523,7 @@ Silk Screen = 丝印
 Silk Screen Color = 丝印颜色
 Display = 显示
 
-# Array and Clone
+#Array and Clone
 Distribute Array = 阵列分布
 Array Type = 阵列类型
 Matrix Array = 矩形阵列
@@ -2526,8 +2532,8 @@ Item Rotation = 元素旋转角度
 Location = 位置
 Items per Column = 每列数量
 Items per Row = 每行数量
-# Column Spacing = 列距
-# Row Spacing = 行距
+#Column Spacing = 列距
+#Row Spacing = 行距
 Spacing(Degrees) = 间隔(角度)
 Start Degree = 起始角度
 Rotate Item to Match = 旋转对象以适合圆形
@@ -2542,7 +2548,7 @@ Number of Columns = 列数
 Number of Copies = 副本数量
 Distribute Range(Degrees) = 分布范围(跨度)
 
-# Theme color dialog
+#Theme color dialog
 BusEntry = 总线分支
 Foreground = 前景色
 Common Used = 常用
@@ -2825,6 +2831,8 @@ This component is unmounted = 元件不上件
 
 #find component
 Find Next = 下一个
+Pin not found = 没有找到相应引脚
+Pad not found = 没有找到相应焊盘
 Object not found = 没有找到相应元件
 
 #offset Elements
@@ -2838,7 +2846,7 @@ Relative Offset... = 相对偏移...
 Reference Point X = 参考点X
 Reference Point Y = 参考点Y
 
-# Inner Plane layer
+#Inner Plane layer
 Rebuild Plane = 重建内电层
 PlaneZone Properties = 内电层属性
 Change to a plane layer is not allowed during track routing. = 在布线时不允许将导线切换到内电层。
@@ -2925,7 +2933,7 @@ View Owner = 查看所有者
 View Detail = 查看详情
 
 
-# place batch vias
+#place batch vias
 Place Vias = 放置过孔
 Placing Vias = 正在放置过孔
 Removing Vias = 正在移除过孔
@@ -2965,7 +2973,7 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! = 没有分类！
 Assign successful! = 分配成功！
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = 发现封装焊盘编号不匹配原理图器件的引脚编号，请手动修正焊盘编号后再重试！
-Update Attribute = 更新属性
+Update Property = 更新属性
 Please fill in at least 5 words. = 请至少填写 5 个字。
 Mouse hovering over the track to highlight the entire network = 鼠标悬浮在导线上高亮整个网络
 Net Highlighting While Cursor Hover the Track = 鼠标在导线上时高亮网络
@@ -3057,7 +3065,7 @@ Opening = 正在打开
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 同时更新导线的网络(只适用于元件编号或网络标签变更的场景，不适用于元件或导线增删的场景)
 
-# desktop client error feedback
+#desktop client error feedback
 Cannot open online documents on Project Offline mode. = 工程离线版模式下不支持打开在线工程！
 
 Please select a project = 请选择一个工程
@@ -3076,10 +3084,11 @@ New Sub Folder = 新建子文件夹
 Delete Folder = 删除文件夹
 Move Project = 移动工程
 Move Folder = 移动文件夹
-# Rename Folder = 重命名文件夹
+#Rename Folder = 重命名文件夹
 Please input the folder name = 请输入文件夹名称
 Invalid folder name = 无效的文件夹名称
 Are you sure to delete this folder? = 确定要删除该文件夹吗？
+All projects in this folder will be moved to the root directory. = 文件夹内工程将被移到根目录下。
 Create new folder successfully = 新建文件夹成功
 Failed to create new folder = 新建文件夹失败
 Delete folder successfully = 删除文件夹成功
@@ -3094,7 +3103,7 @@ The folder depth must not exceed {0} levels = 文件夹深度不得超过{0}层
 Failed to add project to folder = 添加工程到文件夹失败
 
 Doesn't support JLCPCB SMT Service = 不支持嘉立创贴片
-for JLCPCB SMT Service = 嘉立创贴片库存
+{0} for JLCPCB SMT Service = 嘉立创贴片库存 {0}
 
 Reset failed! There are duplicate component prefixes in the current schematic: = 重置失败！当前原理图存在重复的元件编号：
 Reset failed! There are duplicate component prefixes in the current PCB: = 重置失败！当前PCB存在重复的元件编号：
@@ -3116,7 +3125,7 @@ Save custom data failed! = 保存自定义数据失败
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = 将替换当前文档的全部图形和自定义数据，导入后请重新调整3D模型。是否继续？
 Open footprint "Custom Data" dialog = 打开封装自定义数据对话框
 
-# Create lead shape
+#Create lead shape
 Create Lead Shape = 创建引脚外形
 Base on Pad Center = 基于焊盘中心
 Base on Canvas Origin = 基于画布原点
@@ -3215,5 +3224,14 @@ Combine the same parts' prefixes in one row = 合并相同元件的编号在同�
 Please check at least one item! = 请至少勾选一项!
 Pins = 引脚数
 Check component latest version when open schematic = 当打开原理图时检测元件最新版本
+Only show updated components = 只显示有更新的元件
 Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. = 注意：当 PCB 导入变更时会根据原理图绑定的封装版本进行更新 PCB。
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. = 不支持二进制的 DXF 导入，请导入 ASCII 格式的 DXF
+
+Find System Similar Footprint = 查找系统相似封装
+Found similar footprints at system library, it is recommended to use them first. = 发现存在相似的系统封装，建议优先使用系统封装。
+Copy Title = 复制标题
+Check system similar footprint = 检查系统相似封装
+Can't find the Similar Footprint = 未找到相似封装
+Search failed! = 查询失败！
+No package information! = 无封装信息！

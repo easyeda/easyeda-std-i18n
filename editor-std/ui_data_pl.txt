@@ -298,7 +298,7 @@ Group These Items as a Symbol =
 Group These Items as a Footprint =
 Set Canvas Origin =
 Document Setting = Ustawienia dokumentu
-Sheet Attributes = Atrybuty arkusza
+Sheet Properties = Atrybuty arkusza
 Set Board Outline = Ustaw obrys płyty
 Teardrop... =
 Panelize... =
@@ -307,7 +307,7 @@ Smart Dimension = Inteligentny wymiar
 Footprint Wizard =
 Footprint Wizard... =
 Select package type =
-Smart Dimension Attributes =
+Smart Dimension Properties =
 Global Delete = Usuwanie Globalne
 Cross Probe =
 Cross Probe and Place =
@@ -321,12 +321,11 @@ By Coordinates... =
 By Center of Pads =
 By Center Grid of Symbols =
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties = Właściwości
-Attributes = Atrybuty
 Apply = Zastosuj
 Save as default = Zapisz jako domyślne
-Canvas Attributes = Atrybuty obszaru roboczego
+Canvas Properties = Atrybuty obszaru roboczego
 Width = Szerokość
 Height = Wysokość
 Background = Tło
@@ -352,8 +351,8 @@ Alt Snap =
 Snap size when pressing the Alt key = Rozmiar przyciągania po wciśnięciu klawisza Alt
 Prefix Start = Początek prefiksu
 
-#Text Attributes
-Text Attributes = Atrybuty tekstu
+#Text Properties
+Text Properties = Atrybuty tekstu
 Text = Tekst
 Color = Kolor
 Font Family = Rodzina czcionki
@@ -695,7 +694,7 @@ AC Phase =
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: =
 
 #Pin
-Pin Attributes = Atrybut Pinu
+Pin Properties = Atrybut Pinu
 Orientation = Orientacja
 Line 45° =
 Line 90° =
@@ -715,7 +714,7 @@ Show = Pokaż
 Electric = Elektrycznie
 
 #Junction
-Junction Attributes = Atrybuty węzłą
+Junction Properties = Atrybuty węzłą
 X Location = Lokalizacja X
 Y Location = Lokalizacja Y
 Size = Rozmiar
@@ -727,9 +726,9 @@ Net Label = Etykieta sieci
 #Part
 Prefix = Prefiks
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image =
-Image Attributes = Atrybuty Obrazka
+Image Properties = Atrybuty Obrazka
 Image URL = URL Obrazka
 Input an image URL = Wprowadź URL Obrazka
 Invalid image URL = Nieprawidłowy URL Obrazka
@@ -759,7 +758,7 @@ Color Tolerance = Tolerancja koloru
 Simplify Level = Poziom uproszczenia
 Corner Threshold =
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Jednostki
 Snap Size = Rozmiar przyciągania
 Other = Inny
@@ -823,11 +822,11 @@ Line Width = Szerokość linii
 Rotation = Obrót
 Fonts Management =
 
-#Dimension Attributes
-Dimension Attributes = Właściwości wymarów
+#Dimension Properties
+Dimension Properties = Właściwości wymarów
 
-#Footprint Attributes
-Component Attributes =
+#Footprint Properties
+Component Properties =
 Display Prefix =
 Pin Name = Nazwa Pinu
 Pin Number = Numer Pinu
@@ -872,9 +871,9 @@ Solid = Stałe
 None = Nie
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Atrybuty dodatkowe
-Fixed Attributes =
+#Custom Properties
+Custom Properties = Atrybuty dodatkowe
+Fixed Properties =
 Add new parameter = Dodaj nowy parametr
 Add New Parameter =
 Add New Supplier = Dodaj Nowego Dostawcę
@@ -1229,7 +1228,7 @@ Mirror = Lustrzany Obraz
 TopLayer = Górna warstwa
 BottomLayer = Dolna warstwa
 TopSilkLayer = Górna warstwa opisowa
-Protractor Attributes = Właściwości kątomierza
+Protractor Properties = Właściwości kątomierza
 BottomSilkLayer = Dolna warstwa opisowa
 
 BoardOutLine = Obrys płyty
@@ -1426,8 +1425,8 @@ Increase Snap Size = Zwiększ rozmiar przyciągania
 Change Copper Zone Visible or Invisible =
 Rebuild All Copper Area = Przebuduj wszystkie obszary miedzi
 Toggle PCB Net Display = Przełącz wyświetlanie sieci PCB
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Relative Offset Dialog When Selecting Object(s) =
 Open the FAQ Page =
 Move Object(s) by Reference Point =
@@ -1651,7 +1650,7 @@ Error:No GND =
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. =
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
 Probe can not connect with ground(GND)! =
-Spice symbols's attributes can't be empty. =
+Spice symbols's properties can't be empty. =
 Error:No Spice Symbol =
 Simulation limit =
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op =
@@ -2074,7 +2073,7 @@ Export your file, then print it yourself. = Eksportuj plik i wydrukuj samodzieln
 Trace width is too small = Szerokość ścieżki jest zbyt mała
 Share = Udostępnij
 
-Images Attribute = Wlłaściwości obrazka
+Images Property = Wlłaściwości obrazka
 Connect Pad to Pad = Połącz Pad do Pad
 Copper Area = Obszar Miedzi
 Dimension = Wymiar
@@ -2469,7 +2468,8 @@ Keyword: =
 Image = Obraz
 Image copied. =
 Copy failed. =
-Image Attribute =
+Copy success. =
+Image Property =
 Locked =
 Unlock All =
 Unlock =
@@ -2487,7 +2487,7 @@ Update failed! =
 Successfully updated! =
 Successfully updated {0} component(s)! =
 Change =
-Check  Footprints =
+Check Footprints =
 Network Error! =
 Find Similar Objects =
 Current Sheet =
@@ -2497,7 +2497,7 @@ Range =
 Net Label/Net Flag/Net Port/Voltage Probe =
 Bezier/Freehand Draw =
 Arc/Pie =
-Objects Attributes =
+Objects Properties =
 Any =
 Same =
 Different =
@@ -2962,7 +2962,7 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! =
 Assign successful! =
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
-Update Attribute =
+Update Property =
 Please fill in at least 5 words. =
 Mouse hovering over the track to highlight the entire network =
 Net Highlighting While Cursor Hover the Track =
@@ -3091,7 +3091,7 @@ The folder depth must not exceed {0} levels =
 Failed to add project to folder =
 
 Doesn't support JLCPCB SMT Service =
-for JLCPCB SMT Service =
+{0} for JLCPCB SMT Service =
 
 Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: =

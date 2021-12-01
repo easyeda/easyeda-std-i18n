@@ -298,7 +298,7 @@ Group These Items as a Symbol = Gruppiere diese Einzelteile als Schaltsymbol
 Group These Items as a Footprint = Gruppiere diese Einzelteile als Bauteilgrundfläche
 Set Canvas Origin = Zeichnungs-Ursprung festlegen
 Document Setting = Dokumenteneinstellung
-Sheet Attributes = Blatteigenschaften
+Sheet Properties = Blatteigenschaften
 Set Board Outline = Umriss Leiterplatte setzen
 Teardrop... = Kegelförmige Vergrößerung
 Panelize... = Leiterplatte mehrfach Erstellen
@@ -307,7 +307,7 @@ Smart Dimension = Intelligente Abmessung
 Footprint Wizard = Bauteil Grundflächen Helfer
 Footprint Wizard... = Bauteil Grundflächen Helfer...
 Select package type = Pakettyp auswählen
-Smart Dimension Attributes = Intelligente Abmessungsattribute
+Smart Dimension Properties = Intelligente Abmessungsattribute
 Global Delete = Globales Löschen
 Cross Probe = Kreuzreferenz
 Cross Probe and Place = Kreuzreferenz und platzieren
@@ -321,12 +321,11 @@ By Coordinates... = Nach Koordinaten
 By Center of Pads = Nach Mitte der Pads
 By Center Grid of Symbols = Nach Mitte der Schaltsymbole
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties = Eigenschaften
-Attributes = Merkmale
 Apply = Anwenden
 Save as default = Als Voreinstellung speichern
-Canvas Attributes = Zeichenblatt Merkmale
+Canvas Properties = Zeichenblatt Merkmale
 Width = Breite
 Height = Höhe
 Background = Hintergrund
@@ -352,8 +351,8 @@ Alt Snap = Alt Fangen
 Snap size when pressing the Alt key = Fanggröße beim drücken der ALT Taste
 Prefix Start = Vorsilben Start
 
-#Text Attributes
-Text Attributes = Texteigenschaften
+#Text Properties
+Text Properties = Texteigenschaften
 Text = Text
 Color = Farbe
 Font Family = Schriftfamilie
@@ -408,6 +407,7 @@ Instrument = Instrument
 Transistors = Transistoren
 Digital Circuits = Digitale Schaltung
 Operational Amplifier = Operationsverstärker
+multimeter =
 multimeter Settings = Multimeter Einstellungen
 FunctionGenerator Settings = Funktionsgenerator Einstellungen
 Voltage Source Settings = Spannungsquelle Einstellungen
@@ -446,9 +446,9 @@ Ratio = Verhältnis
 K[%]
 Model = Modell
 States = Zustsände
-Voltage[V] Spannung
-Voltage gain[V/V] Spannungsverstärkung
-Current gain[A/A] Stromverstärkung
+Voltage[V] = Spannung
+Voltage gain[V/V] = Spannungsverstärkung
+Current gain[A/A] = Stromverstärkung
 Transconductance[Mho]
 Transresistance[Ω]
 Voltage Source Type = Spannungsquelle
@@ -672,8 +672,8 @@ BCD_Segment =
 Seven_Segment = Siebener_Segment
 Traffic_Light = Ampel
 Lamp Settings = Lampeneinstellungen
-Power[W] Leistung
-Dropout Voltage[V] Ausstiegsspannung
+Power[W] = Leistung
+Dropout Voltage[V] = Ausstiegsspannung
 Current[A]
 Threshold[V]
 Clock Rate = Taktfrequenz
@@ -694,7 +694,7 @@ AC Phase = Wechselstrom Phase
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Es gibt einige Teile, die kein Spice Model haben, verwenden Sie bitte "EElib" und "Spice Schaltsymbol" unter "Bibliotheken" des "Simulations" Modus, oder weisen Sie ihnen das Spice Modell zu:
 
 #Pin
-Pin Attributes = Pin Eigenschaften
+Pin Properties = Pin Eigenschaften
 Orientation = Orientierung
 Line 45° = Linie 45°
 Line 90° = Linie 90°
@@ -714,7 +714,7 @@ Show = Show
 Electric = Elektrisch
 
 #Junction
-Junction Attributes = Verbindungsstelle Eigenschaften
+Junction Properties = Verbindungsstelle Eigenschaften
 X Location = X-Standort
 Y Location = Y-Standort
 Size = Größe
@@ -726,9 +726,9 @@ Net Label = Netzbeschriftung
 #Part
 Prefix = Vorsilbe
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = Bild hinzufügen
-Image Attributes = Bildeigenschaften
+Image Properties = Bildeigenschaften
 Image URL = Bild-URL
 Input an image URL = Bild-URL angeben
 Invalid image URL = Ungültige Bild-URL
@@ -758,7 +758,7 @@ Color Tolerance = Toleranzfarbe
 Simplify Level = Ebene vereinfachen
 Corner Threshold = Eck-Schwellwert
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Einheiten
 Snap Size = Einrastgröße
 Other = Andere
@@ -822,11 +822,11 @@ Line Width = Liniendicke
 Rotation = Drehung
 Fonts Management = Schriften Verwaltung
 
-#Dimension Attributes
-Dimension Attributes = Abmessung Eigenschaften
+#Dimension Properties
+Dimension Properties = Abmessung Eigenschaften
 
-#Footprint Attributes
-Component Attributes = Bauteil Komponenten Eigenschaften
+#Footprint Properties
+Component Properties = Bauteil Komponenten Eigenschaften
 Display Prefix = Anzeige Vorsilbe
 Pin Name = Pin Name
 Pin Number = Pin Nummer
@@ -871,9 +871,9 @@ Solid = Vollflächig
 None = Keine
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Benutzerdefinierte Eigenschaften
-Fixed Attributes = Fixierte Eigenschaften
+#Custom Properties
+Custom Properties = Benutzerdefinierte Eigenschaften
+Fixed Properties = Fixierte Eigenschaften
 Add new parameter = Neuen Parameter hinzufügen
 Add New Parameter = Neuen Parameter hinzufügen
 Add New Supplier = Neuen Lieferant hinzufügen
@@ -1228,7 +1228,7 @@ Mirror = Spiegel
 TopLayer = Obere Lage
 BottomLayer = Untere Lage
 TopSilkLayer = Obere Beschriftungs Lage
-Protractor Attributes = Winkelmesser Eigenschaften
+Protractor Properties = Winkelmesser Eigenschaften
 BottomSilkLayer = Untere Beschriftungs Lage
 
 BoardOutLine = Platinenumriss
@@ -1425,8 +1425,8 @@ Increase Snap Size = Verkleinere Fanggröße
 Change Copper Zone Visible or Invisible = Kupferzone sichtbar oder unsichtbar ändern
 Rebuild All Copper Area = Kupferbereiche neu aufbauen
 Toggle PCB Net Display = Nettoanzeige Leiterplatte umschalten
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Attributdialog beim Platzieren von Objekten anzeigen;<br/>Dialogfeld Standorteinstellung beim Einfügen von Objekten anzeigen
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Attributdialog beim Platzieren von Objekten anzeigen;<br/>Absoluter Versatzdialog beim Auswählen von Objekt(en) anzeigen;<br/>Positionseinstellungsdialog beim Einfügen von Objekten anzeigen
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Attributdialog beim Platzieren von Objekten anzeigen;<br/>Dialogfeld Standorteinstellung beim Einfügen von Objekten anzeigen
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Attributdialog beim Platzieren von Objekten anzeigen;<br/>Absoluter Versatzdialog beim Auswählen von Objekt(en) anzeigen;<br/>Positionseinstellungsdialog beim Einfügen von Objekten anzeigen
 Show Relative Offset Dialog When Selecting Object(s) = Dialogfeld "Relativen Versatz anzeigen" bei der Auswahl von Objekten
 Open the FAQ Page = Öffnen Sie die FAQ-Seite
 Move Object(s) by Reference Point = Objekt(e) nach Referenzpunkt verschieben
@@ -1650,7 +1650,7 @@ Error:No GND = Fehler:Keine GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Diese Schaltung hat kein GND. Bitte wählen Sie GND aus dem Schaltungstool aus, um sie der Schaltung hinzuzufügen.
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Der Stromkreis hat kein Spannungsressourcen- oder Stromressourcensymbol, bitte platzieren Sie es zuerst auf der linken Seite der EElib oder der Spice Bibliothek.
 Probe can not connect with ground(GND)! = Sonde kann nicht mit Masse (GND) verbunden werden!
-Spice symbols's attributes can't be empty. = Die Attribute von Spice Schaltsymbolen dürfen nicht leer sein.
+Spice symbols's properties can't be empty. = Die Property von Spice Schaltsymbolen dürfen nicht leer sein.
 Error:No Spice Symbol = Fehler:Kein Spice Schaltsymbol
 Simulation limit = Simulationsgrenze
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = In der Schaltung befindet sich ein Multimeter, das mit dem Emulationsbefehl .tran oder .op . simuliert werden muss
@@ -2073,7 +2073,7 @@ Export your file, then print it yourself. = Exportieren Sie Ihre Datei und druck
 Trace width is too small = Leiterbahnbreite ist zu klein
 Share = Teile
 
-Images Attribute = Bild Eigenschaften
+Images Property = Bild Eigenschaften
 Connect Pad to Pad = Vebinde Pad zu Pad
 Copper Area = Kupferbereich
 Dimension = Abmaße
@@ -2468,7 +2468,8 @@ Keyword: = Stichwort:
 Image = Bild
 Image copied. = Bild kopiert.
 Copy failed. = Kopieren fehlgeschlagen
-Image Attribute = Bildattribut
+Copy success. =
+Image Property = Bildattribut
 Locked = Gesperrt
 Unlock All = Alle freischalten
 Unlock = Freischalten
@@ -2486,7 +2487,7 @@ Update failed! = Update fehlgeschlagen
 Successfully updated! = Erfolgreich aktualisiert!
 Successfully updated {0} component(s)! = {0} Komponente(n) erfolgreich aktualisiert!
 Change = Ändern
-Check  Footprints = Bauteilgrundflächen prüfen
+Check Footprints = Bauteilgrundflächen prüfen
 Network Error! = Netzwerkfehler!
 Find Similar Objects = Ähnliche Objekte finden
 Current Sheet = Aktuelle Seite
@@ -2496,7 +2497,7 @@ Range = Bereich
 Net Label/Net Flag/Net Port/Voltage Probe = Netzname/Netzmakierung/Netzport/Spannungsmesser
 Bezier/Freehand Draw = Bezier/Freihand-Zeichnen
 Arc/Pie = Bogen/Kuchen
-Objects Attributes = Objektattribute
+Objects Properties = Objektattribute
 Any = Irgendein
 Same = Dasselbe
 Different = Unterschiedlich
@@ -2961,7 +2962,7 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! = Es wurde keine Stichworte definiert.
 Assign successful! = Erfolgreich zugewiesen.
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = Die Pad-Nummer der gefunden Bauteilgrundfläche stimmt nicht mit der Pin-Nummer der Schaltplankomponente überein. Bitte korrigieren Sie die Pad-Nummer und versuchen Sie es erneut!
-Update Attribute = Attribute aktualisieren
+Update Property = Property aktualisieren
 Please fill in at least 5 words. = Bitte mindestens fünf Wörter angeben
 Mouse hovering over the track to highlight the entire network = Das gesamte Netz wird hervorgehebt, sobald die Maus über eine Leiterbahn schwebt.
 Net Highlighting While Cursor Hover the Track = Netz beim schweben über einer Leiterbahn hervorheben.
@@ -3090,7 +3091,7 @@ The folder depth must not exceed {0} levels = Die Ordnertiefe darf {0} Ebenen ni
 Failed to add project to folder = Projekt konnte nicht zum Ordner hinzugefügt werden
 
 Doesn't support JLCPCB SMT Service = Unterstützt den JLCPCB SMT-Dienst nicht
-for JLCPCB SMT Service = für JLCPCB SMT-Dienst
+{0} for JLCPCB SMT Service = {0} für JLCPCB SMT-Dienst
 
 Reset failed! There are duplicate component prefixes in the current schematic: = Zurücksetzen fehlgeschlagen! Im aktuellen Schaltplan gibt es doppelte Komponenten Vorsilben
 Reset failed! There are duplicate component prefixes in the current PCB: = Zurücksetzen fehlgeschlagen! Es gibt doppelte Komponenten Vorsilben in der aktuellen Leiterplatte:

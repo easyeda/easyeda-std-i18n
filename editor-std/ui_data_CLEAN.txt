@@ -260,7 +260,7 @@ PCB Layout =
 General Discussion =
 More Information =
 Privacy Policy =
-#Terms of Use & Privacy Policy
+#Terms of Use & Privacy Policy =
 Terms of Service =
 Plans and Pricing =
 Help Translate =
@@ -268,7 +268,7 @@ About Us =
 Contact Us =
 Change History =
 Join Us =
-#PCB Fabrication Capabilities
+#PCB Fabrication Capabilities =
 PCB Fabrication =
 Order Capabilities =
 Order Price =
@@ -299,7 +299,7 @@ Group These Items as a Symbol =
 Group These Items as a Footprint =
 Set Canvas Origin =
 Document Setting =
-Sheet Attributes =
+Sheet Properties =
 Set Board Outline =
 Teardrop... =
 Panelize... =
@@ -308,7 +308,7 @@ Smart Dimension =
 Footprint Wizard =
 Footprint Wizard... =
 Select package type =
-Smart Dimension Attributes =
+Smart Dimension Properties =
 Global Delete =
 Cross Probe =
 Cross Probe and Place =
@@ -322,12 +322,11 @@ By Coordinates... =
 By Center of Pads =
 By Center Grid of Symbols =
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties =
-Attributes =
 Apply =
 Save as default =
-Canvas Attributes =
+Canvas Properties =
 Width =
 Height =
 Background =
@@ -353,8 +352,8 @@ Alt Snap =
 Snap size when pressing the Alt key =
 Prefix Start =
 
-#Text Attributes
-Text Attributes =
+#Text Properties
+Text Properties =
 Text =
 Color =
 Font Family =
@@ -695,7 +694,7 @@ AC Phase =
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: =
 
 #Pin
-Pin Attributes =
+Pin Properties =
 Orientation =
 Line 45° =
 Line 90° =
@@ -715,7 +714,7 @@ Show =
 Electric =
 
 #Junction
-Junction Attributes =
+Junction Properties =
 X Location =
 Y Location =
 Size =
@@ -727,9 +726,9 @@ Net Label =
 #Part
 Prefix =
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image =
-Image Attributes =
+Image Properties =
 Image URL =
 Input an image URL =
 Invalid image URL =
@@ -759,7 +758,7 @@ Color Tolerance =
 Simplify Level =
 Corner Threshold =
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units =
 Snap Size =
 Other =
@@ -823,11 +822,11 @@ Line Width =
 Rotation =
 Fonts Management =
 
-#Dimension Attributes
-Dimension Attributes =
+#Dimension Properties
+Dimension Properties =
 
-#Footprint Attributes
-Component Attributes =
+#Footprint Properties
+Component Properties =
 Display Prefix =
 Pin Name =
 Pin Number =
@@ -872,9 +871,9 @@ Solid =
 None =
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes =
-Fixed Attributes =
+#Custom Properties
+Custom Properties =
+Fixed Properties =
 Add new parameter =
 Add New Parameter =
 Add New Supplier =
@@ -960,7 +959,7 @@ You can now create files under this project =
 This file must be saved under a project, choose other project or create a new project =
 Please login to save this kind of document =
 Duplicated project title =
-#Duplicated document title
+#Duplicated document title =
 Project does not exist =
 Document does not exist =
 document not exists =
@@ -983,8 +982,8 @@ link =
 The professional function please refer at: =
 
 #Dialog Clone My Part
-#Clone it to a project
-#Clone it, then edit it
+#Clone it to a project =
+#Clone it, then edit it =
 Clone your file =
 
 #Dialog Subckt
@@ -1016,7 +1015,7 @@ DRC Diameter =
 Object =
 DRC Clearance =
 [/drcRule]
-#It will take a while to unroute this net, do you want to continue?
+#It will take a while to unroute this net, do you want to continue? =
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. =
 Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. =
 This netlabel is not connected with any pin. =
@@ -1041,6 +1040,7 @@ Chose file =
 File Operation =
 Import File =
 Extract Libs =
+No Libs! =
 Import File and Extract Libs =
 File type =
 The file size is too large. =
@@ -1229,7 +1229,7 @@ Mirror =
 TopLayer =
 BottomLayer =
 TopSilkLayer =
-Protractor Attributes =
+Protractor Properties =
 BottomSilkLayer =
 
 BoardOutLine =
@@ -1422,8 +1422,8 @@ Increase Snap Size =
 Change Copper Zone Visible or Invisible =
 Rebuild All Copper Area =
 Toggle PCB Net Display =
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Relative Offset Dialog When Selecting Object(s) =
 Open the FAQ Page =
 Move Object(s) by Reference Point =
@@ -1587,6 +1587,7 @@ Guests can't import a file. Please login! =
 Please create a project before you import a file! =
 Import your LTspice file! =
 Open LTspice file =
+Open EasyEDA file =
 Please make sure the selected LTspice file is a file saved in LTspice V and above. =
 Saved successfully! =
 Save failed! =
@@ -1647,7 +1648,7 @@ Error:No GND =
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. =
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
 Probe can not connect with ground(GND)! =
-Spice symbols's attributes can't be empty. =
+Spice symbols's properties can't be empty. =
 Error:No Spice Symbol =
 Simulation limit =
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op =
@@ -1994,6 +1995,7 @@ The file save operation has timed out. Try again and check your Internet connect
 Export Netlist =
 Notifications =
 Please select txt or json files. =
+Please select EasyEDA files. =
 Failed to read file [{file}] =
 [{file}] is not a valid json file =
 Invalid parameters! =
@@ -2072,7 +2074,7 @@ Export your file, then print it yourself. =
 Trace width is too small =
 Share =
 
-Images Attribute =
+Images Property =
 Connect Pad to Pad =
 Copper Area =
 Dimension =
@@ -2297,7 +2299,7 @@ Router error. =
 Invalid PCB. =
 General Clearance =
 SMD Clearance =
-#Ripup Nets
+#Ripup Nets =
 Skip Routed Nets =
 Remove Existing Tracks =
 Real-time Display =
@@ -2355,6 +2357,7 @@ Font is missing! You can confirm the dialog and use default font instead or canc
 Owner =
 License =
 Part Pins =
+Part Properties =
 Net Pins =
 Net Ratlines =
 Add Parameter =
@@ -2438,6 +2441,8 @@ Path must begin as 'a-z、A-Z、0-9'! =
 The path length must be between 4~128 characters! =
 The title length must be between 2~256 characters! =
 The title can not less than 3 charaters! =
+Please select an owner =
+Please select obj, wrl or zip file. =
 Do you want to delete this file? =
 Add sub part success =
 Please input name and prefix! =
@@ -2468,7 +2473,8 @@ Keyword: =
 Image =
 Image copied. =
 Copy failed. =
-Image Attribute =
+Copy success. =
+Image Property =
 Locked =
 Unlock All =
 Unlock =
@@ -2486,7 +2492,7 @@ Update failed! =
 Successfully updated! =
 Successfully updated {0} component(s)! =
 Change =
-Check  Footprints =
+Check Footprints =
 Network Error! =
 Find Similar Objects =
 Current Sheet =
@@ -2496,7 +2502,7 @@ Range =
 Net Label/Net Flag/Net Port/Voltage Probe =
 Bezier/Freehand Draw =
 Arc/Pie =
-Objects Attributes =
+Objects Properties =
 Any =
 Same =
 Different =
@@ -2526,8 +2532,8 @@ Item Rotation =
 Location =
 Items per Column =
 Items per Row =
-#Column Spacing
-#Row Spacing
+#Column Spacing =
+#Row Spacing =
 Spacing(Degrees) =
 Start Degree =
 Rotate Item to Match =
@@ -2825,6 +2831,8 @@ This component is unmounted =
 
 #find component
 Find Next =
+Pin not found =
+Pad not found =
 Object not found =
 
 #offset Elements
@@ -2965,7 +2973,7 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! =
 Assign successful! =
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
-Update Attribute =
+Update Property =
 Please fill in at least 5 words. =
 Mouse hovering over the track to highlight the entire network =
 Net Highlighting While Cursor Hover the Track =
@@ -3080,6 +3088,7 @@ Move Folder =
 Please input the folder name =
 Invalid folder name =
 Are you sure to delete this folder? =
+All projects in this folder will be moved to the root directory. =
 Create new folder successfully =
 Failed to create new folder =
 Delete folder successfully =
@@ -3094,7 +3103,7 @@ The folder depth must not exceed {0} levels =
 Failed to add project to folder =
 
 Doesn't support JLCPCB SMT Service =
-for JLCPCB SMT Service =
+{0} for JLCPCB SMT Service =
 
 Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: =
@@ -3215,5 +3224,14 @@ Combine the same parts' prefixes in one row =
 Please check at least one item! =
 Pins =
 Check component latest version when open schematic =
+Only show updated components =
 Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. =
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. =
+
+Find System Similar Footprint =
+Found similar footprints at system library, it is recommended to use them first. =
+Copy Title =
+Check system similar footprint =
+Can't find the Similar Footprint =
+Search failed! =
+No package information! =

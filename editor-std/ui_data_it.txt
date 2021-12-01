@@ -298,7 +298,7 @@ Group These Items as a Symbol = Raggruppa elementi come simbolo
 Group These Items as a Footprint = Raggruppa elementi come Footprint
 Set Canvas Origin = Imposta origine canvas
 Document Setting = Impostazione del documento
-Sheet Attributes = Proprietà del foglio
+Sheet Properties = Proprietà del foglio
 Set Board Outline = Imposta contorno della scheda
 Teardrop... = Teardrop...
 Panelize... = Pannellizza...
@@ -307,7 +307,7 @@ Smart Dimension = Dimensioni intelligenti
 Footprint Wizard = Procedura guidata per Footprint
 Footprint Wizard... = Procedura guidata per Footprint...
 Select package type = Seleziona il tipo di contenitore
-Smart Dimension Attributes = Proprietà dimensioni intelligenti
+Smart Dimension Properties = Proprietà dimensioni intelligenti
 Global Delete = Eliminazione globale
 Cross Probe = Cross probe
 Cross Probe and Place = Cross Probe and Place
@@ -321,12 +321,11 @@ By Coordinates... = Per coordinate...
 By Center of Pads = Per centro dei pad
 By Center Grid of Symbols = Per centro della griglia dei simboli
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties = Proprietà
-Attributes = Attributi
 Apply = Applica
 Save as default = Salva come predefinito
-Canvas Attributes = Attributi canvas
+Canvas Properties = Attributi canvas
 Width = Larghezza
 Height = Altezza
 Background = Sfondo
@@ -352,8 +351,8 @@ Alt Snap = Aggancio Alt
 Snap size when pressing the Alt key = Spaziatura aggancio premendo il tasto Alt
 Prefix Start = Inizio del prefisso
 
-#Text Attributes
-Text Attributes = Proprietà del testo
+#Text Properties
+Text Properties = Proprietà del testo
 Text = Testo
 Color = Colore
 Font Family = Famiglia del carattere
@@ -695,7 +694,7 @@ AC Phase = Fase AC
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Alcuni componenti non sono associati al modello spice, usa "EELib" e "Simbolo Spice" in "Librerie" in modalità simulazione oppure assegnali ad un modello spice:
 
 #Pin
-Pin Attributes = Proprietà Pin
+Pin Properties = Proprietà Pin
 Orientation = Orientamento
 Line 45° = Linea 45°
 Line 90° = Linea 90°
@@ -715,7 +714,7 @@ Show = Mostra
 Electric = Elettrico
 
 #Junction
-Junction Attributes = Proprietà della giunzione
+Junction Properties = Proprietà della giunzione
 X Location = Posizione X
 Y Location = Posizione Y
 Size = Dimensione
@@ -727,9 +726,9 @@ Net Label = Etichetta net
 #Part
 Prefix = Prefisso
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = Aggiungi immagine
-Image Attributes = Proprietà immagine
+Image Properties = Proprietà immagine
 Image URL = URL dell'immagine
 Input an image URL = Inserisci un indirizzo URL dell'immagine
 Invalid image URL = Indirizzo URL dell'immagine non valido
@@ -759,7 +758,7 @@ Color Tolerance = Tolleranza del colore
 Simplify Level = Livello di semplificazione
 Corner Threshold = Soglia dell'angolo
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Unità
 Snap Size = Spaziatura dell'aggancio
 Other = Altro
@@ -823,11 +822,11 @@ Line Width = Larghezza della linea
 Rotation = Rotazione
 Fonts Management = Gestisci caratteri
 
-#Dimension Attributes
-Dimension Attributes = Proprietà dimensioni
+#Dimension Properties
+Dimension Properties = Proprietà dimensioni
 
-#Footprint Attributes
-Component Attributes = Proprietà del componente
+#Footprint Properties
+Component Properties = Proprietà del componente
 Display Prefix = Mostra prefisso
 Pin Name = Nome pin
 Pin Number = Numero pin
@@ -872,9 +871,9 @@ Solid = Solido
 None = Nessuno
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Proprietà personalizzate
-Fixed Attributes = Proprietà fisse
+#Custom Properties
+Custom Properties = Proprietà personalizzate
+Fixed Properties = Proprietà fisse
 Add new parameter = Aggiungi un nuovo parametro
 Add New Parameter = Aggiungi un nuovo parametro
 Add New Supplier = Aggiungi un nuovo fornitore
@@ -1020,7 +1019,7 @@ DRC Clearance = Isolamento DRC
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Nel filo è stata trovata più di una netlabel, controlla se è corretto, se lo progetti di proposito, ignora questo avviso.
 Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = Net incompleta, una rete completa dovrebbe contenere due o più pin, se la progetti di proposito, ignora questo avviso.
 This netlabel is not connected with any pin. = La netlabel non è connessa ad alcun pin.
-Incomplete connection, please check. = Connessione incompleta, controlla. 
+Incomplete connection, please check. = Connessione incompleta, controlla.
 The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = La distanza tra due oggetti è inferiore a quella del Design Rule Checking (DRC) che ha net differenti.
 The diameter is less than Design Rule Checking (DRC) diameter = Il diametro è più piccolo di quello del DRC
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = Il diametro del foro è più piccolo di quello del DRC
@@ -1229,7 +1228,7 @@ Mirror = Specchio
 TopLayer = Strato superiore
 BottomLayer = Strato inferiore
 TopSilkLayer = Serigrafia strato superiore
-Protractor Attributes = Proprietà del goniometro
+Protractor Properties = Proprietà del goniometro
 BottomSilkLayer = Serigrafia strato inferiore
 
 BoardOutLine = Linea di contorno della scheda
@@ -1426,8 +1425,8 @@ Increase Snap Size = Aumenta la spaziatura dell'aggancio
 Change Copper Zone Visible or Invisible = Modifica la zona ramata in zona visibile o non visibile
 Rebuild All Copper Area = Ricostruisci tutta l'area ramata
 Toggle PCB Net Display =
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Mostra la finestra di dialogo degli attributi quando si posiziona l'oggetto;<br/>Mostra la posizione della finestra di dialogo quando si incollano gli oggetti
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Mostra la finestra di dialogo degli attributi quando si posiziona l'oggetto;<br/>Mostra la posizione della finestra di dialogo quando si incollano gli oggetti
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Relative Offset Dialog When Selecting Object(s) =
 Open the FAQ Page = Apri la pagina delle FAQ
 Move Object(s) by Reference Point = Sposta oggetto/i per punto di riferimento
@@ -1651,7 +1650,7 @@ Error:No GND = Errore: nessuna GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Questo circuito non presenta alcuna GND. Seleziona una GND dallo strumento del circuito da aggiungere al circuito.
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
 Probe can not connect with ground(GND)! = La sonda non può essere collegata alla terra(GND)!
-Spice symbols's attributes can't be empty. = Le proprietà dei simboli Spice non possono essere vuote.
+Spice symbols's properties can't be empty. = Le proprietà dei simboli Spice non possono essere vuote.
 Error:No Spice Symbol = Errore: nessun simbolo Spice
 Simulation limit = Limite della simulazione
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = C'è un multimetro nel circuito che deve essere simulato utilizzando il comando di emulazione .tran o .op
@@ -1871,7 +1870,7 @@ CTRL + Scroll = CTRL + Rotella del mouse
 Canvas Coordinate System = Sistema di coordinate canvas
 SVG Coordinate = Coordinate SVG
 Cartesian Coordinate = Coordinate cartesiane
-Open Wizard Dialog for New Schematic = Apri la procedura guidata di un nuovo schema 
+Open Wizard Dialog for New Schematic = Apri la procedura guidata di un nuovo schema
 Default Unit = Unità predefinita
 Canvas Zoom Effect = Effetto zoom canvas
 Quality Priority = Priorità di qualità
@@ -2075,7 +2074,7 @@ Export your file, then print it yourself. = Esporta il file, quindi stampalo.
 Trace width is too small = La larghezza della pista é troppo piccola
 Share = Condividi
 
-Images Attribute = Proprietà delle immagini
+Images Property = Proprietà delle immagini
 Connect Pad to Pad = Connetti da Pad a Pad
 Copper Area = Area di rame
 Dimension = Dimensione
@@ -2279,9 +2278,9 @@ Cannot start again before previous activity is stopped = Impossibile ricominciar
 Please select a net = Seleziona una net
 TrackWidth cannot be empty = La larghezza della pista non può essere vuota
 Clearance cannot be empty = Isolamento non può essere vuoto
-Router is time out. = 
+Router is time out. =
 Server is busy, please try again later. = Il server è occupato, riprova più tardi.
-Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) = 
+Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) =
 Track Width is invalid = Il valore della larghezza della pista non è valido
 General Clearance is invalid = Il valore dell'isolamento generale non è valido
 SMD Clearance is invalid = Il valore dell'isolamento SMD non è valido
@@ -2304,7 +2303,7 @@ SMD Clearance = Isolamento SMD
 Skip Routed Nets = Ignora Net sbrogliate
 Remove Existing Tracks = Rimuovi piste esistenti
 Real-time Display = Mostra processo in tempo reale
-Router Layers = 
+Router Layers =
 Via = Via
 Special = Speciale
 Special Nets = Net speciali
@@ -2470,7 +2469,8 @@ Keyword: = Parola chiave:
 Image = Immagine
 Image copied. = L'immagine è stata copiata.
 Copy failed. = Impossibile copiare.
-Image Attribute = Proprietà dell'immagine
+Copy success. =
+Image Property = Proprietà dell'immagine
 Locked = Bloccato
 Unlock All = Sblocca tutto
 Unlock = Sblocca
@@ -2488,7 +2488,7 @@ Update failed! = Aggiornamento non riuscito!
 Successfully updated! = Aggiornamento riuscito con successo!
 Successfully updated {0} component(s)! = Sono stati aggiornati {0} componenti!
 Change = Modifica
-Check  Footprints = Controlla Footprint
+Check Footprints = Controlla Footprint
 Network Error! = Errore di rete!
 Find Similar Objects = Trova oggetti simili
 Current Sheet = Foglio attuale
@@ -2498,8 +2498,8 @@ Range =
 Net Label/Net Flag/Net Port/Voltage Probe =
 Bezier/Freehand Draw =
 Arc/Pie = Arco/Torta
-Objects Attributes = Proprietà degli oggetti
-Any = 
+Objects Properties = Proprietà degli oggetti
+Any =
 Same = Uguale
 Different = Differente
 Circular = Cerchio
@@ -2606,7 +2606,7 @@ Sheet = Foglio
 Number = ID
 Editor = Utente
 [/history-dlg]
-View File History = Salvataggi passati 
+View File History = Salvataggi passati
 Save Time = Timestamp
 
 Invalid Format = Il formato non è valido
@@ -2780,7 +2780,7 @@ Model List = Lista dei modelli
 Are you sure merge net {0} and net {1}? = Sei sicuro di voler unire la net {0} con la net {1}?
 Display Footprint = Mostra footprint
 Display Footprint Name While Placing Component = Mostra il nome del footprint mentre posizioni il componente
-Annotate Prefix Automatically After Placing Component = Annota automaticamente il prefisso dopo aver posizionato il componente 
+Annotate Prefix Automatically After Placing Component = Annota automaticamente il prefisso dopo aver posizionato il componente
 Program Error, Please Contact Technical Support! = Errore del programma, contattare il supporto tecnico!
 Search Engine = Motore di ricerca
 Keyword to Filter = Parola chiave da filtrare
@@ -2963,7 +2963,7 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! = Non c'è nessun tag!
 Assign successful! = Assegnazione riuscita!
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = Il numero del pad del footprint trovato non corrisponde al numero del pin del componente dello schema, correggi il numero del pad e riprova!
-Update Attribute = Aggiorna attributi
+Update Property = Aggiorna attributi
 Please fill in at least 5 words. = Inserisci almeno 5 parole
 Mouse hovering over the track to highlight the entire network = Passa il mouse sulla pista per evidenziare l'intera rete
 Net Highlighting While Cursor Hover the Track = Evidenzia la net mentre il cursore del mouse passa sulla pista
@@ -2996,7 +2996,7 @@ Clone Project = Clona il progetto
 Homepage = Homepage
 Apply for Education Edition = Candidati per l'edizione Education
 Load Organization failed = Impossibile caricare l'organizzazione
-Joined = 
+Joined =
 Favorite = Preferito
 This operation will unfavorite this project, do you want to continue? =
 View Homepage = Vedi la homepage
@@ -3078,6 +3078,7 @@ Move Folder = Sposta la cartella
 Please input the folder name = Inserisci il nome della cartella
 Invalid folder name = Il nome della cartella non è corretto
 Are you sure to delete this folder? = Sei sicuro di voler eliminare questa cartella?
+All projects in this folder will be moved to the root directory. =
 Create new folder successfully = E' stata creata una nuova cartella
 Failed to create new folder = Impossibile creare una nuova cartella
 Delete folder successfully = La cartella è stata eliminata
@@ -3092,7 +3093,7 @@ The folder depth must not exceed {0} levels = La profondità della cartella non 
 Failed to add project to folder = Impossibile aggiungere il progetto nella cartella
 
 Doesn't support JLCPCB SMT Service = Non supporta il servizio SMT di JLCPCB
-for JLCPCB SMT Service = per il servizio SMT di JLCPCB
+{0} for JLCPCB SMT Service = {0} per il servizio SMT di JLCPCB
 
 Reset failed! There are duplicate component prefixes in the current schematic: = Reset fallito! Ci sono prefissi duplicati nello schema corrente:
 Reset failed! There are duplicate component prefixes in the current PCB: = Reset fallito! Ci sono prefissi duplicati nel PCB corrente:
@@ -3108,7 +3109,7 @@ Cannot be more than {0} characters! = Non può contenere più di {0} caratteri!
 Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = Sono consentiti solo alfabeti latini, cifre, trattino basso (_) e trattino (-).
 Invalid value of item {0} = Il valore dell'oggetto {0} non è valido
 Update DFM = Aggiorna DFM
-Custom DFM Data = Dati DFM personalizzati 
+Custom DFM Data = Dati DFM personalizzati
 Saved custom data successfully! = Dati personalizzati salvati con successo!
 Save custom data failed! = Impossibile salvare i dati personalizzati!
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = Sostituirà la grafica e i dati personalizzati del documento attuale, dopo l'importazione bisogna regolare il modello 3D. Continuare o no?
@@ -3142,7 +3143,7 @@ Document layer has circle object, but jlcPara's polarity is 0, please check the 
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. =
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. =
 
-ROUND = 
+ROUND =
 RECTANGLE = RETTANGOLO
 OCTAGONAL = OTTAGONALE
 Upper left = Superiore sinistro

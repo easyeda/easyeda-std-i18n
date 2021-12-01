@@ -299,7 +299,7 @@ Group These Items as a Symbol = 組合這些圖形為一個符號
 Group These Items as a Footprint = 組合這些圖形成為一個封裝
 Set Canvas Origin = 畫布原點
 Document Setting = 圖紙設置
-Sheet Attributes = 表格屬性
+Sheet Properties = 表格屬性
 Set Board Outline = 邊框設置
 Teardrop... = 淚滴...
 Panelize... = 拼板...
@@ -308,7 +308,7 @@ Smart Dimension = 智能尺寸
 Footprint Wizard = 封裝嚮導
 Footprint Wizard... = 封裝嚮導...
 Select package type = 選擇封裝類型
-Smart Dimension Attributes = 智能尺寸屬性
+Smart Dimension Properties = 智能尺寸屬性
 Global Delete = 全局刪除
 Cross Probe = 交叉選擇
 Cross Probe and Place = 布局傳遞
@@ -322,12 +322,12 @@ By Coordinates... = 從輸入坐標...
 By Center of Pads = 從焊盤中央
 By Center Grid of Symbols = 從圖形中心格點
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties=屬性
-Attributes=屬性
+Properties=屬性
 Apply=應用
 Save as default=存為默認值
-Canvas Attributes=畫布屬性
+Canvas Properties=畫布屬性
 Width=寬
 Height=高
 Background=背景色
@@ -353,8 +353,8 @@ Alt Snap = ALT鍵柵格
 Snap size when pressing the Alt key = 按下ALT鍵時的柵格尺寸
 Prefix Start = 標註起始
 
-#Text Attributes
-Text Attributes =文本屬性
+#Text Properties
+Text Properties =文本屬性
 Text = 文本
 Color = 顏色
 Font Family = 字體
@@ -695,7 +695,7 @@ AC Phase = AC相位
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = 存在沒有仿真模型的元器件，請優先使用仿真模式下的「基礎庫」和元件庫中的「仿真符號」進行仿真，或指定仿真模型：
 
 #Pin
-Pin Attributes = 引腳屬性
+Pin Properties = 引腳屬性
 Orientation = 方向
 Line 45° = 線條45°
 Line 90° = 線條90°
@@ -715,7 +715,7 @@ Show = 顯示引腳
 Electric = 電氣特性
 
 #Junction
-Junction Attributes = 節點屬性
+Junction Properties = 節點屬性
 X Location = X坐標
 Y Location = Y坐標
 Size = 大小
@@ -727,9 +727,9 @@ Net Label = 網絡標籤
 #Part
 Prefix = 編號
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = 添加圖片
-Image Attributes = 圖片屬性
+Image Properties = 圖片屬性
 Image URL = 圖片網址
 Input an image URL = 請輸入圖片網址
 Invalid image URL = 無效的圖片網址
@@ -759,7 +759,7 @@ Color Tolerance = 顏色容差
 Simplify Level = 簡化水平
 Corner Threshold = 平滑尖角
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = 單位
 Snap Size = 柵格尺寸
 Other = 其它
@@ -823,11 +823,11 @@ Line Width = 線寬
 Rotation = 旋轉角度
 Fonts Management = 字體管理
 
-#Dimension Attributes
-Dimension Attributes = 尺寸屬性
+#Dimension Properties
+Dimension Properties = 尺寸屬性
 
-#Footprint Attributes
-Component Attributes = 元件屬性
+#Footprint Properties
+Component Properties = 元件屬性
 Display Prefix = 顯示編號
 Pin Name = 引腳名稱
 Pin Number = 引腳編號
@@ -872,9 +872,9 @@ Solid = 全填充
 None = 無填充
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = 自定義屬性
-Fixed Attributes = 固定屬性
+#Custom Properties
+Custom Properties = 自定義屬性
+Fixed Properties = 固定屬性
 Add new parameter = 增加參數
 Add New Parameter = 增加參數
 Add New Supplier = 增加供應商
@@ -1229,7 +1229,7 @@ Mirror = 鏡像
 TopLayer = 頂層
 BottomLayer = 底層
 TopSilkLayer = 頂層絲印層
-Protractor Attributes = 量角器屬性
+Protractor Properties = 量角器屬性
 BottomSilkLayer = 底層絲印層
 
 BoardOutLine = 邊框層
@@ -1422,8 +1422,8 @@ Increase Snap Size=增加柵格尺寸
 Change Copper Zone Visible or Invisible = 循環切換鋪銅區可見性
 Rebuild All Copper Area = 重建所有鋪銅
 Toggle PCB Net Display = 切換PCB網絡顯示
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = 當放置元素時顯示屬性對話框;<br/>當粘貼時顯示定位元素對話框;
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = 當放置元素時顯示屬性對話框;<br/>當選中元素時顯示絕對偏移量對話框;<br/>當粘貼時顯示定位元素對話框;
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = 當放置元素時顯示屬性對話框;<br/>當粘貼時顯示定位元素對話框;
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = 當放置元素時顯示屬性對話框;<br/>當選中元素時顯示絕對偏移量對話框;<br/>當粘貼時顯示定位元素對話框;
 Show Relative Offset Dialog When Selecting Object(s) = 當選中元素時顯示相對偏移量對話框
 Open the FAQ Page = 打開常見問題頁面
 Move Object(s) by Reference Point = 根據參考點移動元素
@@ -1647,7 +1647,7 @@ Error:No GND = 錯誤：沒有GND(地)
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = 該電路沒有GND(地)，請從電路工具中選取GND(地)加入到電路中。
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = 當前電路沒有電壓源或電流源符號，請先在左側基礎庫或仿真庫放置。
 Probe can not connect with ground(GND)! = 探針不能與地(GND)連接！
-Spice symbols's attributes can't be empty. = 請完善仿真器件參數。
+Spice symbols's properties can't be empty. = 請完善仿真器件參數。
 Error:No Spice Symbol = 沒有仿真模型
 Simulation limit = 仿真限制
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = 電路中存在萬用表，需要使用仿真命令 .tran 或 .op 進行仿真
@@ -2072,7 +2072,7 @@ Export your file, then print it yourself. = 導出文件再打印
 Trace width is too small = 導線寬度太少
 Share = 分享
 
-Images Attribute = 圖片屬性
+Images Property = 圖片屬性
 Connect Pad to Pad = 連接焊盤
 Copper Area  = 鋪銅
 Dimension  = 尺寸
@@ -2468,7 +2468,8 @@ Keyword: = 關鍵詞：
 Image = 圖片
 Image copied. = 圖像已複製
 Copy failed. = 複製失敗
-Image Attribute = 圖片屬性
+Copy success. = 複製成功
+Image Property = 圖片屬性
 Locked = 鎖定
 Unlock All = 解鎖全部
 Unlock = 解鎖
@@ -2486,7 +2487,7 @@ Update failed! = 更新失敗！
 Successfully updated! = 更新成功！
 Successfully updated {0} component(s)! = 成功更新 {0} 個元件！
 Change = 變更
-Check  Footprints = 檢查封裝
+Check Footprints = 檢查封裝
 Network Error! = 網絡錯誤！
 Find Similar Objects = 查找相似對象
 Current Sheet = 當前頁面
@@ -2496,7 +2497,7 @@ Range = 範圍
 Net Label/Net Flag/Net Port/Voltage Probe = 網絡標籤/標識符/網絡端口/電壓探針
 Bezier/Freehand Draw = 貝塞爾曲線/自由繪製
 Arc/Pie = 圓弧/餅形
-Objects Attributes = 多對象屬性
+Objects Properties = 多對象屬性
 Any = 任意
 Same = 相等
 Different = 不等
@@ -2965,7 +2966,7 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! = 沒有分類！
 Assign successful! = 分配成功！
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = 發現封裝焊盤編號不匹配原理圖器件的引腳編號，請手動修正焊盤編號後再重試！
-Update Attribute = 更新屬性
+Update Property = 更新屬性
 Please fill in at least 5 words. = 請至少填寫 5 個字。
 Mouse hovering over the track to highlight the entire network = 鼠標懸浮在導線上高亮整個網絡
 Net Highlighting While Cursor Hover the Track = 鼠標在導線上時高亮網絡
@@ -3094,7 +3095,7 @@ The folder depth must not exceed {0} levels = 文件夾深度不得超過{0}層
 Failed to add project to folder = 添加工程到文件夾失敗
 
 Doesn't support JLCPCB SMT Service = 不支持嘉立創貼片
-for JLCPCB SMT Service = 嘉立創貼片庫存
+{0} for JLCPCB SMT Service = 嘉立創貼片庫存 {0}
 
 Reset failed! There are duplicate component prefixes in the current schematic: = 重置失敗！當前原理圖存在重複的元件編號：
 Reset failed! There are duplicate component prefixes in the current PCB: = 重置失敗！當前PCB存在重複的元件編號：

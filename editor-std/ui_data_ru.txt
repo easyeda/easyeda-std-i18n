@@ -298,7 +298,7 @@ Group These Items as a Symbol = Группировать элементы как
 Group These Items as a Footprint = Группировать элементы как шелкографию
 Set Canvas Origin = Установить начальные координаты холста
 Document Setting = Настройки Документа
-Sheet Attributes = Параметры Листа
+Sheet Properties = Параметры Листа
 Set Board Outline = Установить границы листа
 Teardrop... = Каплевидное Соединение...
 Panelize... =
@@ -307,7 +307,7 @@ Smart Dimension =
 Footprint Wizard = Мастер Шелкографии
 Footprint Wizard... = Мастер Шелкографии...
 Select package type = Выбрать тип корпуса
-Smart Dimension Attributes =
+Smart Dimension Properties =
 Global Delete = Глобальное Удаление
 Cross Probe = Перекрестный Переход
 Cross Probe and Place = Cross Probe and Place
@@ -321,12 +321,11 @@ By Coordinates... = Координатами...
 By Center of Pads =
 By Center Grid of Symbols =
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties = Свойства
-Attributes = Параметры
 Apply = Применить
 Save as default = Сохранить по умолчанию
-Canvas Attributes = Параметры окна редактора
+Canvas Properties = Параметры окна редактора
 Width = Ширина
 Height = Высота
 Background = Фон
@@ -352,8 +351,8 @@ Alt Snap = Сдвиг (+Alt)
 Snap size when pressing the Alt key = Размер сдвига по сетке при нажатии клавиши Alt
 Prefix Start = Префикс
 
-#Text Attributes
-Text Attributes = Параметры текста
+#Text Properties
+Text Properties = Параметры текста
 Text = Текст
 Color = Цвет
 Font Family = Шрифт
@@ -694,7 +693,7 @@ AC Amplitude = Амплитуда Переменного Тока
 AC Phase = Фаза Переменного Тока
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Некоторые элементы не имеют SPICE-модели, пожалуйста используйте "EElib" и "Spice Symbol" в "Libraries" из Режима Симуляции, или присвойте им SPICE-модель
 #Pin
-Pin Attributes = Параметры контакта
+Pin Properties = Параметры контакта
 Orientation = Ориентация
 Line 45° = Линия 45°
 Line 90° = Линия 90°
@@ -714,7 +713,7 @@ Show = Показать
 Electric = Электрический
 
 #Junction
-Junction Attributes = Параметры соединения
+Junction Properties = Параметры соединения
 X Location = Позиция по X
 Y Location = Позиция по Y
 Size = Размер
@@ -726,9 +725,9 @@ Net Label = Имя шины
 #Part
 Prefix = Префикс
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = Добавить Изображение
-Image Attributes = Параметры Иизображения
+Image Properties = Параметры Иизображения
 Image URL = URL Изображения
 Input an image URL = Введите URL изображения
 Invalid image URL = Некорректный URL изображения
@@ -758,7 +757,7 @@ Color Tolerance = Допуск цвета
 Simplify Level = Понизить уровень
 Corner Threshold = Ограничитель размера угла
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Единицы
 Snap Size = Размер сдвига
 Other = Другое
@@ -823,11 +822,11 @@ Line Width = Ширина линий
 Rotation = Поворот
 Fonts Management = Настройка Шрифтов
 
-#Dimension Attributes
-Dimension Attributes = Параметры измерения
+#Dimension Properties
+Dimension Properties = Параметры измерения
 
-#Footprint Attributes
-Component Attributes = Параметры Компонента
+#Footprint Properties
+Component Properties = Параметры Компонента
 Display Prefix = Отображаемый Префикс
 Pin Name = Имя Контакта
 Pin Number = Номер Контакта
@@ -872,9 +871,9 @@ Solid = Сплошной
 None = Нет
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Пользовательские параметры
-Fixed Attributes = Фиксированные параметры
+#Custom Properties
+Custom Properties = Пользовательские параметры
+Fixed Properties = Фиксированные параметры
 Add new parameter = Добавить новый параметр
 Add New Parameter = Добавить новый параметр
 Add New Supplier = Добавить нового поставщика
@@ -1229,7 +1228,7 @@ Mirror = Зеркально
 TopLayer = Верхний слой
 BottomLayer = Нижний слой
 TopSilkLayer = Верхняя шелкография
-Protractor Attributes = Свойства протрактора
+Protractor Properties = Свойства протрактора
 BottomSilkLayer = Нижняя шелкография
 
 BoardOutLine = Контур Платы
@@ -1426,8 +1425,8 @@ Increase Snap Size = Увеличение размера сдвига по се�
 Change Copper Zone Visible or Invisible =
 Rebuild All Copper Area = Перестроить все медные полигоны
 Toggle PCB Net Display = Toggle PCB Net Display
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Relative Offset Dialog When Selecting Object(s) =
 Open the FAQ Page = Открыть страницу FAQ
 Move Object(s) by Reference Point =
@@ -1651,7 +1650,7 @@ Error:No GND = Ошибка: Нет GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. =
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
 Probe can not connect with ground(GND)! = Зонд не может подключиться к земле (GND)!
-Spice symbols's attributes can't be empty. =
+Spice symbols's properties can't be empty. =
 Error:No Spice Symbol =
 Simulation limit =
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op =
@@ -2074,7 +2073,7 @@ Export your file, then print it yourself. = Экспортируйте свой 
 Trace width is too small = Ширина дорожки слишком маленькая
 Share = Поделиться
 
-Images Attribute = Параметры изображений
+Images Property = Параметры изображений
 Connect Pad to Pad = Соединить площадку с площадкой
 Copper Area = Медный полигон
 Dimension = Размеры
@@ -2469,7 +2468,8 @@ Keyword: = Ключевое слово
 Image = Изображение
 Image copied. = Изображение скопировано.
 Copy failed. = Не удалось скопировать
-Image Attribute = Аттрибуты изображения
+Copy success. =
+Image Property = Аттрибуты изображения
 Locked =
 Unlock All =
 Unlock =
@@ -2487,7 +2487,7 @@ Update failed! = Не удалось обновить!
 Successfully updated! = Обновление прошло успешно!
 Successfully updated {0} component(s)! =
 Change = Заменить
-Check  Footprints =
+Check Footprints =
 Network Error! =
 Find Similar Objects = Найти похожие объекты
 Current Sheet = Текущий Лист
@@ -2497,7 +2497,7 @@ Range =
 Net Label/Net Flag/Net Port/Voltage Probe =
 Bezier/Freehand Draw =
 Arc/Pie =
-Objects Attributes = Свойства объекта
+Objects Properties = Свойства объекта
 Any = Любой
 Same = Тот же
 Different = Разный
@@ -2962,7 +2962,7 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! = Нет тега!
 Assign successful! =
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
-Update Attribute =
+Update Property =
 Please fill in at least 5 words. =
 Mouse hovering over the track to highlight the entire network =
 Net Highlighting While Cursor Hover the Track =
@@ -3091,7 +3091,7 @@ The folder depth must not exceed {0} levels =
 Failed to add project to folder =
 
 Doesn't support JLCPCB SMT Service =
-for JLCPCB SMT Service =
+{0} for JLCPCB SMT Service =
 
 Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: =
