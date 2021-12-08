@@ -65,5 +65,6 @@ Magyar (Hungarian) = Magyar (Hungarian)
 # ui_data_sk.txt
 Slovenčina (Slovak) = Slovenčina (Slovak)
 
-
+# ui_data_th.txt
+ภาษาไทย (Thai) = ภาษาไทย (Thai)
 
