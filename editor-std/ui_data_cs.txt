@@ -1598,7 +1598,6 @@ Please save your file first! = Nejdříve uložte soubor, prosím!
 Email address is too short! = Adresa emailu je příliš krátká!
 You have not selected a file to upload. = Nevybrali jste žádný soubor pro nahrání.
 Update = Aktualizovat
-Import.Import Changes =
 No changes, the PCB already matches the schematic! =
 Only public files can be shared = Sdílet můžete pouze veřejné soubory
 Conversion to PCB has failed! = Konverze na PCB selhala!
