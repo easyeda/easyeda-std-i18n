@@ -1540,10 +1540,10 @@ Offline Project = Progetto offline
 
 #Message box
 Confirmation = Conferma
-Alert =
+Alert = Attenzione 
 Information = Informazione
 information = informazione
-Prompt =
+Prompt = Prompt
 Error = Errore
 error = errore
 error! = errore!
@@ -1838,7 +1838,7 @@ Transmission Line = Linea di trasmissione
 Voltmeter = Voltmetro
 Ammeter = Amperometro
 LAMP = LAMPADINA
-Opto Transistor =
+Opto Transistor = Opto-Isolatore
 
 #Server Message
 Need login = È necessario accedere
@@ -2044,7 +2044,7 @@ Generate Gerber = Genera Gerber
 Gerber View = Visualizza Gerber
 Dimensions(Estimated) = Dimensioni(Stima)
 PCB Qty = Quantità di PCB
-Copper Weight = Peso del rame
+Copper Weight = Spessore del rame
 PCB Price = Prezzo del PCB
 Estimated Delivery Time = Tempo di consegna stimato
 
@@ -2088,17 +2088,17 @@ General Packages = Contenitori generali
 favorite Package = Contenitore preferito
 Board Cutout = Ritaglio della scheda
 Surface Mount = Montaggio Superficiale
-JLCPCB Part Class =
+JLCPCB Part Class = Classe parte JLCPCB
 base = base
 expand = espandi
 recommend = raccomandato
 Basic Part = Parte semplice
 Extended Part = Parte estesa
 Recommended Part = Componente consigliato
-smtWeld =
-thtWeld =
-manualWeld =
-furnaceWeld =
+smtWeld = Saldatura smt
+thtWeld = Saldature tht
+manualWeld = Saldatura Manuale
+furnaceWeld = Saldature tramite forno 
 Multi-Layer = Multistrato
 Markdown Syntax = Sintassi Markdown
 Markdown supported = Markdown supportato
@@ -2163,7 +2163,7 @@ Top Side = Lato superiore
 Bottom Side = Lato inferiore
 With Silk Layer = Con strato serigrafia
 No Silk Layer = Senza strato serigrafia
-Photo View =
+Photo View = Visualizzazione immagine 
 
 #check update
 Check Update = Verifica Aggiornamenti
@@ -2294,7 +2294,7 @@ Clearance cannot be less than Design Rule Checking (DRC) setting value. = L'isol
 Not a valid PCB, please check it again = Nessun PCB valido, controllalo di nuovo
 Previous connection must be closed = La connessione precedente deve essere chiusa
 Network error. Please try again. = Errore di rete. Riprova.
-Router error. =
+Router error. = Errore di sbroglio
 Invalid PCB. = PCB non valido.
 General Clearance = Isolamento generale
 SMD Clearance = Isolamento SMD
@@ -2302,12 +2302,12 @@ SMD Clearance = Isolamento SMD
 Skip Routed Nets = Ignora Net sbrogliate
 Remove Existing Tracks = Rimuovi piste esistenti
 Real-time Display = Mostra processo in tempo reale
-Router Layers =
+Router Layers = Layer da sbrogliare 
 Via = Via
 Special = Speciale
 Special Nets = Net speciali
 Skip Nets = Ignora net
-Router Server =
+Router Server = Server di sbroglio 
 Local = Locale
 Cloud = Cloud
 Available = Disponibile
@@ -2355,8 +2355,8 @@ Font is missing! You can confirm the dialog and use default font instead or canc
 #Common
 Owner = Proprietario
 License = Licenza
-Part Pins =
-Net Pins =
+Part Pins = 
+Net Pins = Pin della rete
 Net Ratlines =
 Add Parameter = Aggiungi parametro
 Histories record = Cronologia dei dati
@@ -2424,12 +2424,12 @@ Expand = Espandi
 Collapse = Comprimi
 Expand All = Espandi tutto
 Collapse All = Comprimi tutto
-Your file hasn't been saved, do you want to save it? = File non salvato, vuoi salvarlo?
+Your file hasn't been saved, do you want to save it? = Il tuo file non è stato salvato, vuoi salvarlo?
 Don't Save = Non salvare
 Library Owner: = Proprietario della libreria:
 verifyPkg.Value = verify.Pkg.Valore
 State = Stato
-Please select! = Seleziona!
+Please select! = Perfavore Seleziona!
 Route = Sbroglio
 Import successfully: = Importato con successo:
 Import failed: = Impossibile importare:
@@ -2493,35 +2493,35 @@ Find Similar Objects = Trova oggetti simili
 Current Sheet = Foglio attuale
 All Sheets = Tutti i fogli
 Kind = Genere
-Range =
+Range = Gamma
 Net Label/Net Flag/Net Port/Voltage Probe =
 Bezier/Freehand Draw =
 Arc/Pie = Arco/Torta
 Objects Properties = Proprietà degli oggetti
-Any =
+Any = Qualsiasi 
 Same = Uguale
 Different = Differente
 Circular = Cerchio
-Expose Copper =
+Expose Copper = Rame esposto
 "{0}" font is missing. Please add the font to the font family list. =
 Place Component = Posiziona il componente
 Delete Segment = Elimina segmento
 Angle = Angolo
-Board Thickness =
-Layer Distance =
-Silk Screen =
+Board Thickness = Spessore scheda 
+Layer Distance = Distanza tra i piani 
+Silk Screen = Maschera
 Surface Finish Color =
 Colors = Colori
-Board Color =
-Board Side =
-Silk Screen =
-Silk Screen Color =
-Display =
+Board Color = Colore scheda
+Board Side =  
+Silk Screen = Maschera
+Silk Screen Color = Colore maschera
+Display = Visualizza
 
 # Array and Clone
 Distribute Array = Distribuisci array
 Array Type = Tipo di array
-Matrix Array =
+Matrix Array = Matrice 
 Circular Array = Array circolare
 Item Rotation = Rotazione dell'oggetto
 Location = Posizione
@@ -2529,8 +2529,8 @@ Items per Column = Oggetti per colonna
 Items per Row = Oggetti per riga
 # Column Spacing
 # Row Spacing
-Spacing(Degrees) =
-Start Degree =
+Spacing(Degrees) = Spaziatura(In Gradi) 
+Start Degree = Angolo iniziale 
 Rotate Item to Match =
 Clockwise = Senso orario
 Anti-Clockwise = Senso antiorario
@@ -2611,8 +2611,8 @@ Save Time = Timestamp
 Invalid Format = Il formato non è valido
 
 #Dialog Teardrop
-Round Pad / Via =
-Rectangle / Oval / Polygon Pad =
+Round Pad / Via = Pad arrotondato / Via 
+Rectangle / Oval / Polygon Pad = Rettangolo / Ovale / Pad da Poligono
 Applying Teardrops = Creazione teardrop
 Removing Teardrops = Cancellazione teardrop
 Waiting = In attesa
@@ -2626,8 +2626,8 @@ Move Backward = Sposta indietro
 #Dialog Panelize
 V-CUT = V-CUT
 Stamp Hole =
-No Panelize =
-Border and Marking =
+No Panelize = Non panelizzare 
+Border and Marking = 
 Create Border = Crea Bordo
 Border Height = Altezza bordo
 Border Position = Posizione bordo
@@ -2674,9 +2674,9 @@ Copper Areas = Aree ramate
 
 #Differential Pair Routing
 Differential Pair Routing = Sbroglio delle coppie differenziali
-Differential Pair Rule Setting = Impostazione regola delle coppie differenziali
+Differential Pair Rule Setting = Impostazioni sbroglio delle coppie differenziali
 Please input track width = Inserisci la larghezza della pista
-Please input clearance = Inserisci l'autorizzazione
+Please input clearance = Inserisci lo spazio tra le tracce
 Routing Rules = Regole dello sbroglio
 
 #Route Length Tuning
@@ -2736,7 +2736,7 @@ Current Version: = Versione attuale:
 Select a version to switch = Seleziona una versione
 3D Model = Modello 3D
 Board Side = Lato bordo
-Display =
+Display = Visualizza
 Copper = Rame
 Create New Version = Crea una nuova versione
 Create new version success! = Nuova versione creata con successo!
@@ -2744,10 +2744,10 @@ Version Management = Gestione della versione
 Switch success! = Cambio eseguito con successo!
 Please close current version's documents first! = Chiudi prima i documenti della versione attuale!
 Creator = Autore
-Create Time =
+Create Time = Tempo creazione
 Fail to connect to server! Please check your internet connection status and try again! = Impossibile connettersi al server! Controlla la tua connessione ad internet e prova di nuovo!
 Spice Number = Numero spice
-Create =
+Create = Crea
 3D Outline = Contorno 3D
 Cannot create the slot hole via the board outline, please use the following methods: = Impossibile creare il foro dello slot tramite il contorno della scheda, utilizzare i seguenti metodi:
 Use the solid region and set its type as Board Cutout = Usa la regione solida e imposta il suo tipo come Board Cutout
@@ -2813,7 +2813,7 @@ The project content page will open. After adding a description and setting the p
 This project is not public, can not view homepage! = Questo progetto non è pubblico, non è possibile visualizzare la homepage!
 
 [grid]
-None =
+None = Nessuno
 [/grid]
 
 #lib verify and mounted
@@ -2880,7 +2880,7 @@ View Datasheet = Mostra datasheet
 View Datasheet... = Mostra datasheet...
 
 The corresponding package or network could not be found in the currently open PCB document =
-delete fail =
+delete fail = Eliminazione fallita
 
 [crashRecovery]
 Libraries = Librerie
@@ -2995,7 +2995,7 @@ Clone Project = Clona il progetto
 Homepage = Homepage
 Apply for Education Edition = Candidati per l'edizione Education
 Load Organization failed = Impossibile caricare l'organizzazione
-Joined =
+Joined = Entrato
 Favorite = Preferito
 This operation will unfavorite this project, do you want to continue? =
 View Homepage = Vedi la homepage
@@ -3008,9 +3008,9 @@ Open in New Window = Apri in una nuova finestra
 Cursor Snap to Component's Origin or Pad Center While Dragging Component = Aggancia il cursore all'origine o al centro del componente quando trascinato
 Undefined = Non definito
 Input = Ingresso
-Model Unit =
-File Unit =
-This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? =
+Model Unit = Unità del modello
+File Unit = Unità del file
+This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? = Questa parte contiene sutto-parti, assicurarsi di aver controllato le sotto-parti prima di segnalare un errore, Vuoi continuare? 
 
 [saveAs]
 Power = Alimentazione
@@ -3115,7 +3115,7 @@ Will replace the graphics and custom data of current document, after imported pl
 Open footprint "Custom Data" dialog = Apri la finestra di dialogo "Dati personalizzati" del footprint
 
 # Create lead shape
-Create Lead Shape =
+Create Lead Shape = 
 Base on Pad Center =
 Base on Canvas Origin =
 Lead shape =
@@ -3142,7 +3142,7 @@ Document layer has circle object, but jlcPara's polarity is 0, please check the 
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. =
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. =
 
-ROUND =
+ROUND = CERCHIO
 RECTANGLE = RETTANGOLO
 OCTAGONAL = OTTAGONALE
 Upper left = Superiore sinistro
@@ -3154,21 +3154,21 @@ Pins Number = Numeri dei pin
 Rows Of Pin = Righe del pin
 Columns Of Pin = Colonne del pin
 Polarity = Polarità
-Pad Shape =
-Body Diameter =
+Pad Shape = Forma Pad
+Body Diameter = Diametro corpo
 Lead Span =
 Lead Vertical Span =
-Body Length =
-Body Height =
+Body Length = Lunghezza corpo
+Body Height = Altezza corpo
 Pin Diameter = Diametro del pin
 Pin Length = Lunghezza del pin
 Pin Height = Altezza del pin
-Pin Solid Width =
+Pin Solid Width = 
 Pin Solid Height =
 Pin Spacing = Spaziatura pin
 Pin Horizontal Spacing = Spaziatura orizzontale pin
 Pin Vertical Spacing = Spaziatura verticale pin
-ThermalPad =
+ThermalPad = Pad termico
 Pad Expansion = Espansione pad
 Custom PasteMask =
 Fabrication Tolerance = Tolleranza di fabbricazione
@@ -3193,16 +3193,16 @@ Crystal Oscillator = Oscillatore a cristallo
 Diode = Diodo
 LED = LED
 Fuse = Fusibile
-Entity height =
-Lead Overhang =
-Lead Thickness =
+Entity height = Altezza dell'entità
+Lead Overhang = Sporgenza del piombo
+Lead Thickness = Spessore del piombo
 Unknown mistake = Errore sconosciuto
-Has ThermalVias =
-Polar Capacitance =
+Has ThermalVias = Ha vias termiche
+Polar Capacitance = Capacità polarizzata
 
-Create Component Marking =
-Create component marking successfully! =
-No elements on component shape layer! =
+Create Component Marking = Crea demarcazione componente
+Create component marking successfully! = Demarcazione componente creata con sucesso!
+No elements on component shape layer! = 
 No elements on lead shape layer! =
 No pad of number 1 or A1, please modify the pad number. = Nessun pad del numero 1 o A1, modificare il numero del pad.
 Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = Impossibile salvare! Il cerchio di marcatura del componente è sull'asse. Vuoi ricreare la marcatura del componente?
