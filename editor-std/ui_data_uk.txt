@@ -5,13 +5,13 @@ Login... = Увійти...
 Log in = Увійти
 Logout = Вийти
 Change password... = Змінити пароль...
-User Preference =
-System Settings... =
-System Settings =
+User Preference = Користувацькі налаштування
+System Settings... = Системні налаштування...
+System Settings = Системні налаштування
 Crash =
 Invite friends... = Запросити друзів...
 Language = Мова
-Language Setting =
+Language Setting = Налаштування мови
 
 Document Recovery = Відновлення документу
 Your Preferences Information = Інформація про ваші уподобання
