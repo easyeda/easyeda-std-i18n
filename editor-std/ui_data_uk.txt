@@ -402,74 +402,74 @@ Please change the editor to "Standard" mode first at the top left corner. =
 Common =
 spice.open =
 spice.close =
-Sources =
+Sources = джерела
 Instruments/Meters = Прилади/лічильники
-Transistors =
-Digital Circuits =
-Operational Amplifier =
-multimeter =
-multimeter Settings =
-FunctionGenerator Settings =
-Voltage Source Settings =
-Current Source Settings =
-Powersw Settings =
-Resistor Settings =
-Capacitor Settings =
-Diode Settings =
-voltPowersw Settings =
-Inductor Settings =
-VCVS Settings =
-CCCS Settings =
-VCCS Settings =
-CCVS Settings =
-JFET Settings =
-FET Settings =
-Transmission Line Settings =
-Oscilloscope Settings =
-XFMR Settings =
-LOGIC Settings =
-LOGICSTATE Settings =
-DIGITALCLOCK Settings =
-Potentiometer Settings =
-MUTUAL_INDUCTORS Settings =
-NE555 Settings =
-THREE_PHASE Settings =
-Logic_Probe Settings =
-78XX Settings =
-79XX Settings =
-OPAMP5PEE Settings =
-OPAMP5PEECN Settings =
-OPAMP3PEE Settings =
-OPAMP3PEECN Settings =
-DELAY_FUSE Settings =
-Ratio =
+Transistors = Транзистори
+Digital Circuits = Цифрові схеми
+Operational Amplifier = Операційні підсилювачі
+multimeter = мультиметер
+multimeter Settings = Налаштування мультимера
+FunctionGenerator Settings = Налаштування Генератора Функцій
+Voltage Source Settings = Налаштування джерела напруги
+Current Source Settings = Налаштування джерела Струму
+Powersw Settings = Налаштування Powersw
+Resistor Settings = Налаштування резистора
+Capacitor Settings = Налаштування конденсатора
+Diode Settings = Налаштування діода
+voltPowersw Settings = Налаштування voltPowersw
+Inductor Settings = Налаштування індуктивності
+VCVS Settings = Налаштування VCVS
+CCCS Settings = Налаштування CCCS
+VCCS Settings = Налаштування VCCS
+CCVS Settings = Налаштування CCVS
+JFET Settings = Налаштування JFET
+FET Settings = Налаштування FET
+Transmission Line Settings = Налаштування Лінії передач
+Oscilloscope Settings = Налаштування Осцилографа
+XFMR Settings = Налаштування XFMR
+LOGIC Settings = Налаштування LOGIC
+LOGICSTATE Settings = Налаштування LOGICSTATE
+DIGITALCLOCK Settings = Налаштування DIGITALCLOCK
+Potentiometer Settings = Налаштування потенціометра
+MUTUAL_INDUCTORS Settings = Налаштування MUTUAL_INDUCTORS
+NE555 Settings = Налаштування NE555
+THREE_PHASE Settings = Налаштування THREE_PHASE
+Logic_Probe Settings = Налаштування Logic_Probe
+78XX Settings = Налаштування 78XX Settings
+79XX Settings = Налаштування 79XX
+OPAMP5PEE Settings = Налаштування OPAMP5PEE
+OPAMP5PEECN Settings = Налаштування OPAMP5PEECN
+OPAMP3PEE Settings = Налаштування OPAMP3PEE
+OPAMP3PEECN Settings = Налаштування OPAMP3PEECN
+DELAY_FUSE Settings = Налаштування DELAY_FUSE
+Ratio = Співвідношення
 K[%]
-Model =
+Model = Модель
 States =
 Voltage[V]
 Voltage gain[V/V]
 Current gain[A/A]
 Transconductance[Mho]
 Transresistance[Ω]
-Voltage Source Type =
-Current Source Type =
-multimeter type =
-power type =
-Voltmeter Resistance(R)(Ω) =
-Amperometer Resistance(R)(Ω) =
-mu.V =
-mu.A =
-Sine Wave =
-Triangular Wave =
-Rectangular Wave =
-AC =
-DC =
-SINE =
-PULSE =
-EXP =
-SFFM =
-PWL =
-B.spice =
+Voltage Source Type = Тип джерела напруги
+Current Source Type = Тип джерела струму
+multimeter type = Тип мультимера
+power type = Еип живлення
+Voltmeter Resistance(R)(Ω) = Опір вольтметра(R)(Ω)
+Amperometer Resistance(R)(Ω) = Опір ампермера(R)(Ω)
+mu.V = mu.V
+mu.A = mu.A
+Sine Wave = Синусоїда
+Triangular Wave = Трикутна хвиля
+Rectangular Wave = Прямокутна хвиля
+AC = AC
+DC = DC
+SINE = SINE
+PULSE = PULSE
+EXP = EXP
+SFFM = SFFM
+PWL = PWL
+B.spice = B.spice
 DC Value[V]
 DC Value[A]
 DC offset[V]
@@ -495,24 +495,24 @@ Rise Tau[s]
 Fall Delay[s]
 Fall Tau[s]
 Carrier Freq[Hz]
-Modulation Index =
+Modulation Index = Індекс модуляції
 Signal Freq[Hz]
 Time[s]
 Value[V]
 Value[A]
-Waveforms =
+Waveforms = Форма хвиль
 Duty cycle[%]
 Amplitude[Vp]
 Offset[V]
 Rise/Fall Time[sec]
 Capacitance[F]
-sComponent =
+sComponent = sComponent
 Inductance[H]
-Gbw =
-Slewrate =
-Avol =
-Rout(Ω) =
-Rin(Ω) =
+Gbw = Gbw
+Slewrate = Slewrate
+Avol = Avol
+Rout(Ω) = Rout(Ω)
+Rin(Ω) = Rin(Ω)
 Ibias[A]
 Inhi[V]
 Inlo[V]
@@ -523,25 +523,25 @@ Vabsmax[V]
 Vmin[V]
 Iq[A]
 Cin[F]
-high =
-low =
-Oscilloscope =
-Logic Analyzer =
-Channel_A =
-Channel_B =
-Channel A =
-Channel B =
-Time =
-Reverse =
-Simulation file exceed =
-The simulation file is too large and has been stopped for performance reasons. =
-Timebase =
-Scale: =
+high = високий
+low = низький
+Oscilloscope = Осцилограф
+Logic Analyzer = Логічний аналізатор
+Channel_A = Канал_A
+Channel_B = Канал_B
+Channel A = Канал_A
+Channel B = Канал_B
+Time = Час
+Reverse = 
+Simulation file exceed = Файл моделювання перевищує
+The simulation file is too large and has been stopped for performance reasons. = Файл моделювання завеликий і його зупинено з міркувань продуктивності.
+Timebase = Цас дискредитації
+Scale: = Маштаб:
 X pos.(Div): =
 Y pos.(Div): =
-View meter... =
-The circuit has components without simulation model: =
-Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. =
+View meter... = 
+The circuit has components without simulation model: = Схема має компоненти без моделі симуляції:
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = Ваш інтервал симуляції занадто короткий для моделювання, зачекайте 5 секунд і повторіть спробу. Якщо все ще відображається це повідомлення, можливо, ви змоделювали понад 500 разів - максимальну кількість разів на день.
 Resistor1_US =
 Resistor1_EU/IEC =
 Resistor1_3D =
@@ -667,45 +667,45 @@ SPDT_Close =
 SPST_Close =
 SPST_Open =
 Fast_Crystal =
-Lamp =
+Lamp = Лампа
 BCD_Segment =
-Seven_Segment =
+Seven_Segment = 7_Сегментний
 Traffic_Light =
-Lamp Settings =
+Lamp Settings = Налаштування лампи
 Power[W]
 Dropout Voltage[V]
 Current[A]
 Threshold[V]
-Clock Rate =
-TrafficLight Settings =
-BCDSegment Settings =
-SevenSegment Settings =
-SPDT Settings =
-SPST Settings =
-LogicAnalyzer Settings =
-Fuse Settings =
-Wattmeter Settings =
-open =
-close =
-Common Anode =
-Common Cathode =
-AC Amplitude =
-AC Phase =
-There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: =
+Clock Rate = Тактова частота
+TrafficLight Settings = Налаштування TrafficLight
+BCDSegment Settings = Налаштування BCDSegment
+SevenSegment Settings = Налаштування 7_Сегментного
+SPDT Settings = Налаштування SPDT
+SPST Settings = Налаштування SPST
+LogicAnalyzer Settings = Налаштування логічного аналізатора
+Fuse Settings = Налаштування запобіжника
+Wattmeter Settings = Налаштування ватметра
+open = відкрити
+close = закрити
+Common Anode = Спільний анод
+Common Cathode = Спільний катод
+AC Amplitude = Амплітуда перемінного сигналу
+AC Phase = Фаза перемінного сигналу
+There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Деякі частини не мають просторових моделей, будь ласка, використовуйте «EElib» і «Spice Symbol» у «Бібліотеках» режиму «Симуляція», або ви можете призначити для них просторові моделі:
 
 #Pin
 Pin Properties = Атрибути виводу
 Orientation = Орієнтація
-Line 45° =
-Line 90° =
-Arc 45° =
-Arc 90° =
-Free Angle =
-Start X =
-Start Y =
+Line 45° = Лінія 45°
+Line 90° = Лінія 90°
+Arc 45° = Дуга 45°
+Arc 90° = Дуга 90°
+Free Angle = Вільний кут
+Start X = Початок X
+Start Y = Початок Y
 Length = Дивжина
-Name = Ім\'я
-name =
+Name = Ім'я
+name = ім'я
 Number = Номер
 Spice Pin Order =
 Display Number =
@@ -715,8 +715,8 @@ Electric = Електричні
 
 #Junction
 Junction Properties = Розподільні атрибути
-X Location =
-Y Location =
+X Location = Положення по X
+Y Location = Положення по Y
 Size = Розмір
 Color = Колір
 
@@ -727,35 +727,35 @@ Net Label = Назва шини
 Prefix = Префікс
 
 #Image Properties and Dialog
-Add Image =
-Image Properties = Атрибути рисунку
-Image URL = Адреса рисунку
-Input an image URL =
-Invalid image URL =
-Invalid Prefix =
-Failed to load the image =
-Image URL contains special characters =
-From Web URL =
-From Local Computer =
-Please select a png/gif/jpg file. =
-Please select an image file. =
-Select an image file =
-Insert Image to PCB =
+Add Image = Додати зображення
+Image Properties = Атрибути зображення
+Image URL = Мережева адреса зображення
+Input an image URL = Введіть мережеву адресу зображення
+Invalid image URL = Недійсна мережева адреса зображення
+Invalid Prefix = Недійсний префікс
+Failed to load the image = Не вдалося завантажити зображення
+Image URL contains special characters = Мережева адреса зображення містить спеціальні символи
+From Web URL = З веб-адреси
+From Local Computer = З локального комп'ютера
+Please select a png/gif/jpg file. = Будь ласка, виберіть файл png/gif/jpg.
+Please select an image file. = Будь ласка, виберіть файл зображення.
+Select an image file = Виберіть файл зображення
+Insert Image to PCB = Вставте зображення в друковану плату
 Tolerance =
 tolerance =
-capacitance =
-frequency =
-Rated Voltage =
-Rated Current =
-resistance =
-Resistance =
+capacitance = ємність
+frequency = частота
+Rated Voltage = Номінальна напруга
+Rated Current = Номінальний струм
+resistance = опір
+Resistance = Опір
 Resistance[Ω]
-inductance =
-Operating Temperature =
-Shape Invert =
-Image Size =
+inductance = індуктивність
+Operating Temperature = Робоча температура
+Shape Invert = Інвертувати форму
+Image Size = Розмір зображення
 Color Tolerance =
-Simplify Level =
+Simplify Level = Рівень срощення
 Corner Threshold =
 
 #PCB Canvas Properties
@@ -766,79 +766,79 @@ Routing Width = Ширина маршрутизації
 [router]
 Routing Width = Ширина маршрутизації
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. =
+Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Використовуйте гарячу клавішу {0}{shiftw}{1} або {2}{tab}{3}, щоб змінити ширину колії під час маршруту.
 Routing Angle = Кут маршрутизації
-Routing Conflict =
-Remove Loop =
-Cut SilkScreen =
+Routing Conflict = Помилка маршрутизації
+Remove Loop = Видалити петлю
+Cut SilkScreen = Обрізати шокографію 
 Grid = Сітка
-Grid 90 =
-Grid 45 =
+Grid 90 = Сітка 90
+Grid 45 = Сітка45
 Copper Zone = Мідна площинка
 Visible = Видно
 Invisible = Не видно
-Ignore =
+Ignore = Ігнорувати
 Block =
-RoundTrack =
+RoundTrack = Заокруглена доріжка
 
 #Track
 Track Properties = Властивості доріжки
 Layer = Шар
 Net = Мережа
-Start X =
-Start Y =
-End X =
-End Y =
+Start X = Початок X
+Start Y = Початок Y
+End X = Кінець X
+End Y = Кінець Y
 ID =
 
 #Pad Properties
 Pad Properties = Властивості площинок
 Shape = Форма
 Hole(D) = Отвір (діаметр)
-Center X =
-Center Y =
-Round =
-Oval =
-Hole Shape =
-Slot =
-Hole(Length) =
-Plated =
-None =
-Paste Mask Expansion =
-Solder Mask Expansion =
+Center X = Центр X
+Center Y = Центр Y
+Round = Круглі
+Oval = Овал
+Hole Shape = Форма отвору
+Slot = Слот
+Hole(Length) = Отвір (довжина)
+Plated = Покрита
+None = Ні
+Paste Mask Expansion = Збільшення маски встановлення
+Solder Mask Expansion = Збільшення маски лютування
 
 #Via Properties
-Via Properties =
+Via Properties = Властивості переходу
 Diameter = Діаметр
-Drill Diameter =
+Drill Diameter = Діаметр свердління
 
 #Hole Properties
-Hole Properties =
+Hole Properties = Властивості отвору
 
 
 #TEXT
 Text Properties = Властивості тексту
-Line Width =
+Line Width = Ширина лінії
 Rotation = Обертання
-Fonts Management =
+Fonts Management = Керування шрифтами
 
 #Dimension Properties
 Dimension Properties = Атрибути виміру
 
 #Footprint Properties
-Component Properties =
-Display Prefix =
-Pin Name =
-Pin Number =
-Spice Pin Number =
+Component Properties = Властивості компонента
+Display Prefix = Зображуваний префікс
+Pin Name = Назва ніжки
+Pin Number = Номер ніжки
+Spice Pin Number = Номер ніжки при моделюванні
 Graphics =
 Pattern =
 
 #Arc Properties
 Arc Properties = Властивості дуги
-Start Angle =
-End Angle =
-Rotation Direction =
+Start Angle = Кут початку
+End Angle = Кут кінця
+Rotation Direction = Напрямок обертання
 
 #Rect Properties
 Rect Properties = Властивості прямої
@@ -857,42 +857,42 @@ Spoke = Щабель
 Keep Island = Залишити острівці
 Fill Style = Стиль заповнення
 CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Конфлікт металізації: мідна площинка, що знаходиться в тому ж шарі, що і названа шина, не повинні перетинатися
-Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. =
-Please create board outline first. =
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Перебудову мідної зони завершено! Ви можете встановити «Мідну зону» як «Видимий» на правій панелі властивостей після одного клацання по порожній області.
+Please create board outline first. = Будь ласка, спочатку створіть контур плати.
 Board outlines are not closed. = Контур плати не замкнено.
 Rebuild CopperArea = Створить металізацію заново
-Edit Points =
+Edit Points = кінцеві точки
 Direct = Напрямок
 Spoke = Щабель
-No Solid =
-Board Cutout =
-Solid =
+No Solid = Не заповнена
+Board Cutout = Виріз в платі
+Solid = Заповнена
 [copperArea]
-None =
+None = Жодного
 [/copperArea]
 
 #Custom Properties
 Custom Properties = Атрибути користувача
 Fixed Properties =
 Add new parameter = Додати новий параметр
-Add New Parameter =
-Add New Supplier =
-Mounted =
-Unknown =
+Add New Parameter = Додати Новий параметр
+Add New Supplier = Додати нового постачальника
+Mounted = Монтувати
+Unknown = Невідомий
 
-Custom =
-Scan the QR code below and open it on the mobile side =
-How to create a single layer PCB =
-Currently doesn't support layout single layer directly, please refer at: =
+Custom = На замовлення
+Scan the QR code below and open it on the mobile side = Відскануйте QR-код нижче та відкрийте його на мобільному пристрої
+How to create a single layer PCB = Як створити одношарову друковану плату
+Currently doesn't support layout single layer directly, please refer at: = Наразі не підтримує одношаровий макет безпосередньо, зверніться до:
 
 #Dialog Register
 Create an account = Створити обліковий запис
-Username =
-Password =
-Confirm Password =
-Email =
+Username = Ім'я користувача
+Password = Пароль
+Confirm Password = Підтвердьте пароль
+Email = Поштова скринька
 Please read this before you register = Прочитайте це перед регістрацією
-Hi {username} =
+Hi {username} = Вітаю {username}
 
 #Dialog lostPassword
 Lost Password... = Пароль втрачено...
@@ -902,18 +902,18 @@ Find the password using your email = Одержати пароль за допо
 
 #Dialog Login
 Login = Увійти
-Username or Email =
-Remember Me = Запам\'ятати мене
-Third party =
-Login and Register =
-Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. =
+Username or Email = Ім'я користувача або поштова скринька
+Remember Me = Запам'ятати мене
+Third party = Третя сторона
+Login and Register = Увійти та зареєструватися
+Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = Термін дії вашої реєстраційної інформації закінчився, будь ласка, увійдіть ще раз. Не потрібно закривати відкриті файли, ви можете продовжити їх збереження після входу.
 
 #Dialog Reset Password
-Reset a password using your email =
-Your registered email =
+Reset a password using your email = Скиньте пароль за допомогою електронної пошти
+Your registered email = Ваша зареєстрована електронна адреса
 
 #Dialog Reaction
-Re-send an activation code to your email =
+Re-send an activation code to your email = Повторно надіслати код активації на вашу електронну пошту
 
 #Dialog Invite
 Invite friends to register = Запросіть друзів для реєстрації
@@ -921,65 +921,65 @@ Your friend's email = e-mail ваших друзів
 
 #Dialog Add A New Parameter
 Add a new parameter = Додати нові параметри
-Key =
+Key = Ключ
 Value.new_para =
-In BOM =
-Add into BOM =
-Invalid key =
-This field is required. =
+In BOM = В BOM
+Add into BOM = Додати в BOM
+Invalid key = Недійсний ключ
+This field is required. = Це поле є обов'язковим.
 
 #Dialog Change Your Password
 Change your password = Змінити ваш пароль
-Old password =
-New Password =
-Confirm Password =
+Old password = Старий пароль
+New Password = Новий пароль
+Confirm Password = Підтвердьте пароль
 
 #Dialog Create New Design
-Save as a New Project =
+Save as a New Project = Зберегти як новий проєкт
 Save as a schematic = Зберегти як схему
-Save as Symbol =
+Save as Symbol = Зберегти як символ
 Save as a spice Symbol = Зберегти як спеціальний символ
 Save as a spice subckt = Зберегти як спеціальний блок
-YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = ВАМ ПОТРІБНО СТВОРИТИ СПЕЦІАЛЬНИЙ СИМВОЛ З ТИМ ЖЕ ИМ\'ЯМ, ЩО Й ЦЕЙ БЛОК
+YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = ВАМ ПОТРІБНО СТВОРИТИ СПЕЦІАЛЬНИЙ СИМВОЛ З ТИМ ЖЕ ІМ'ЯМ, ЩО Й ЦЕЙ БЛОК
 Save as a PCB file = Зберегти як файл друкованої плати
-Save as Footprint =
-Save as a Schematic Module =
-Save as a PCB Module =
-Save as 3D Model =
-Save as a WaveForm =
-Title =
+Save as Footprint = Зберегти як PCB компонент
+Save as a Schematic Module = Зберегти як схематичний модуль
+Save as a PCB Module = Зберегти як PCB модуль
+Save as 3D Model = Зберегти як 3D модель
+Save as a WaveForm = Зберегти як фому хвилі
+Title = Заголовок
 Share = Надати
-Add file =
-Visibility =
-Allow Comments =
-Public (Anyone can see this project but only you can modify it.) = Публичний (Тілько Ви можете змінювати цей проект. Інші користувачі, лише бачити.)
-Private (Only you can see and modify this project) = Приватний (Тільки Ви можете бачити и змінювати цей проект)
-Create new project success! =
-You can now create files under this project =
-This file must be saved under a project, choose other project or create a new project =
-Please login to save this kind of document =
-Duplicated project title =
+Add file = Додати файл
+Visibility = Видимість
+Allow Comments = Дозволити коментарі
+Public (Anyone can see this project but only you can modify it.) = Публічний (Тілько Ви можете змінювати цей проєкт. Інші користувачі, лише бачити.)
+Private (Only you can see and modify this project) = Приватний (Тільки Ви можете бачити и змінювати цей проєкт)
+Create new project success! = Успішно створений новий проєкт!
+You can now create files under this project = Тепер ви можете створювати файли в рамках цього проєкту
+This file must be saved under a project, choose other project or create a new project = Цей файл потрібно зберегти в проєкті, вибрати інший проєкт або створити новий проєект
+Please login to save this kind of document = Будь ласка, увійдіть, щоб зберегти такий документ
+Duplicated project title = Назва проєкт що дублюється
 #Duplicated document title
-Project does not exist =
-Document does not exist =
-document not exists =
+Project does not exist = Проєкт не існує
+Document does not exist = Документ не існує
+document not exists = документ не існує
 
-Categories =
-Project =
-Short description =
-Content =
+Categories =  Категорії
+Project = Проєкт
+Short description = Короткий опис
+Content = Зміст
 Modify this project info. = Змінити інформацію цього проекту.
 Modify this file info. = Змінити інформацію цього файлу.
-Notice =
-Search for it before creating a new one. = Шукати це перед його створенням.
-Manufacturer Part Number =
-Supplier =
-Or =
-Supplier Part =
-Supplier Part Number =
-Link =
-link =
-The professional function please refer at: =
+Notice = Зверніть увагу
+Search for it before creating a new one. = Шукайте його перед створенням нового.
+Manufacturer Part Number = Номер партії виробника
+Supplier = Постачальник
+Or = Або
+Supplier Part = Партія постачальника
+Supplier Part Number = Номер партії постачальника
+Link = Зв'язок
+link = зв'язок
+The professional function please refer at: = Професійну функцію див. за адресою:
 
 #Dialog Clone My Part
 #Clone it to a project
@@ -987,44 +987,44 @@ The professional function please refer at: =
 Clone your file = Клонування вашого файла
 
 #Dialog Subckt
-Attach a Subckt to this spice symbol = Приєднати блок до цього этому спец. символу
-Subckt string =
+Attach a Subckt to this spice symbol = Приєднайте Subckt до цього спец. символу
+Subckt string = Subckt рядок
 Spice symbol title just allow [0-9][a-z][A-Z] and _
 
 #Design Manager
 Design Manager = Менеджер розробки
-Nets =
-DRC Errors =
-Are you sure you want to unroute this net? =
-Unroute =
-Track Length =
-Via/Hole Outer Size =
-Filter nets =
-Design Rule Checking =
-Board Outline =
-Plane Zone =
+Nets = З'єднання
+DRC Errors = DRC помилки
+Are you sure you want to unroute this net? = Ви впевнені, що хочете скасувати маршрутизацію цієї мережі?
+Unroute = Не маршрутизувати
+Track Length = Довжина доріжки
+Via/Hole Outer Size = Зовнішній розмір переходу/отвору
+Filter nets = Фільтрувати з'єднання
+Design Rule Checking = Перевірка правил проектування
+Board Outline = Лінія обрізки плати
+Plane Zone = Зона площини
 [drcRule]
 Width = Ширина
-DRC Width =
+DRC Width = DRC ширина
 Length = Дивжина
-DRC Length =
-Drill Diameter =
-DRC Drill Diameter =
+DRC Length = DRC довжина
+Drill Diameter = Діаметр свердління
+DRC Drill Diameter = DRC діаметр свердління
 Diameter = Діаметр
-DRC Diameter =
-Object =
-DRC Clearance =
+DRC Diameter = DRC діаметр
+Object = Обєкт
+DRC Clearance = DRC зазор
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
-More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. =
-Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. =
-This netlabel is not connected with any pin. =
-Incomplete connection, please check. =
-The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. =
-The diameter is less than Design Rule Checking (DRC) diameter =
-The drill diameter is less than Design Rule Checking (DRC) drill diameter =
-The track length is longer than Design Rule Checking (DRC) track length =
-The track width is less than Design Rule Checking (DRC) track width =
+More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = У з'єднанні знайдено більше однієї мітки мережі, будь ласка, перевірте, чи це правильно, якщо ви створили її навмисне, проігноруйте це попередження.
+Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = Неповне з'єднання, повне з'єднання повинне містити два або більше вивода, якщо ви створили його навмисне, проігноруйте це попередження.
+This netlabel is not connected with any pin. = Ця мережева мітка не пов'язана з жодним виводом.
+Incomplete connection, please check. = Неповне з'єднання, перевірте.
+The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = Зазор між двома об’єктами менший, ніж зазор перевірки правил проектування (DRC), який має різні з'єднання.
+The diameter is less than Design Rule Checking (DRC) diameter = Діаметр менше діаметра перевірки правил проектування (DRC).
+The drill diameter is less than Design Rule Checking (DRC) drill diameter = Діаметр свердла менший за діаметр свердла перевірки правил проектування (DRC).
+The track length is longer than Design Rule Checking (DRC) track length = Довжина доріжки перевищує довжину доріжки перевірки правил проєктування (DRC).
+The track width is less than Design Rule Checking (DRC) track width = Ширина доріжки менша за ширину доріжки перевірки правил проєктування (DRC).
 
 #Dialog Simulation
 Show your simulation report = Показати звіт про моделювання
