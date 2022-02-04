@@ -2519,108 +2519,108 @@ Display =
 
 # Array and Clone
 Distribute Array =
-Array Type =
-Matrix Array =
-Circular Array =
-Item Rotation =
-Location =
-Items per Column =
-Items per Row =
+Array Type = Тип масиву
+Matrix Array = Матричний масив
+Circular Array = Сруговий масив
+Item Rotation = Обертання елементів
+Location = Місцезнаходження
+Items per Column = Пунктів на колонку
+Items per Row = Елементів у рядку
 # Column Spacing
 # Row Spacing
 Spacing(Degrees) =
 Start Degree =
 Rotate Item to Match =
-Clockwise =
-Anti-Clockwise =
+Clockwise = За годинниковою стрілкою
+Anti-Clockwise = Проти годинникової стрілки
 Distribute by =
-Column =
-Row =
-Array Clone =
-Number of Rows =
-Number of Columns =
-Number of Copies =
+Column = Колонка
+Row = Рядок
+Array Clone = Копія масиву
+Number of Rows = Кількість рядків
+Number of Columns = Кількість колонок
+Number of Copies = Кількість копій
 Distribute Range(Degrees) =
 
 # Theme color dialog
 BusEntry =
 Foreground =
 Common Used =
-Original Theme =
-Theme Setting =
-Change the theme colors of your design =
-White on Black =
-Black on White =
-Custom Theme =
-Color Setting =
-Apply Setting =
-Theme Setting... =
-Bus Entry = Віводи шини
-Foreground =
+Original Theme = Оригінальна тема
+Theme Setting = Налаштування теми
+Change the theme colors of your design = Змініть кольори теми вашого дизайну
+White on Black = Біле на чорному
+Black on White = Чорне по білому
+Custom Theme = Кустомна Тема // Уточнити!!
+Color Setting = Налаштування кольору
+Apply Setting = Застосувати налаштування
+Theme Setting... = Налаштування теми...
+Bus Entry = Вивід шини
+Foreground = Передній план
 Symbol Graphics =
 Common Used =
 Draw =
-Sheet =
-The original theme only works for placing the new symbols. =
+Sheet = Лист
+The original theme only works for placing the new symbols. = Оригінальна тема працює лише для розміщення нових символів.
 Selection Highlight =
-Net Label / Port =
+Net Label / Port = Мітка мережі / порт
 
-My Theme =
-My Theme Settings =
+My Theme = Моя тема
+My Theme Settings = Налаштування власної теми
 Apply 'Custom Theme' On =
-Creating New Schematic =
-Opening Existed Schematic =
-Please fill in all parameters! =
-Convert to Board Cutout =
-Prefix Position =
-Name Position =
-Center =
-Top =
-Bottom =
-Left =
-Right =
-Does not support multiple objects to convert to Board Cutout at the same time =
-Does not support multiple objects to convert to pad at the same time =
-Convert to Board Cutout =
-Convert to Pad =
+Creating New Schematic = Створення нової схеми
+Opening Existed Schematic = Відкриття існуючої схеми
+Please fill in all parameters! = Будь ласка, заповніть усі параметри!
+Convert to Board Cutout = Перетворити на виріз плати
+Prefix Position = Позиція префікса
+Name Position = Позиція назви
+Center = Центр
+Top = Верх
+Bottom = Низ
+Left = Ліво
+Right = Право
+Does not support multiple objects to convert to Board Cutout at the same time = Не підтримує кілька об’єктів для одночасного перетворення у виріз на дошці
+Does not support multiple objects to convert to pad at the same time = Не підтримує декілька об’єктів для одночасного перетворення в площинку
+Convert to Board Cutout = Перетворити на виріз дошки
+Convert to Pad = Перетворити на площинку
 Convert to Component Shape =
-Combine to Continuous Track =
-Convert to Solid Region =
-Substrate =
-3D View =
-2D View =
-Pin Color =
-Name Color =
-Number Color =
-Dot =
+Combine to Continuous Track = Об’єднайте до безперервної доріжки
+Convert to Solid Region = Перетворити на суцільний регіон
+Substrate = Субстрат
+3D View = 3D перегляд
+2D View = 2D перегляд
+Pin Color = Колір виводу
+Name Color = Колір назви
+Number Color = Колір номеру
+Dot = Крапка
 
 [theme]
-Sheet =
+Sheet = Лист
 [/theme]
 
 
 #history dialog
 [history-dlg]
 Number = Номер
-Editor =
+Editor = Редактор
 [/history-dlg]
-View File History =
+View File History = Переглянути історію файлів
 Save Time =
 
-Invalid Format =
+Invalid Format = Недійсний формат
 
 #Dialog Teardrop
-Round Pad / Via =
-Rectangle / Oval / Polygon Pad =
+Round Pad / Via =  Кругла площинка / перехід
+Rectangle / Oval / Polygon Pad = Прямокутник / Овал / Багатокутник
 Applying Teardrops =
 Removing Teardrops =
-Waiting =
-Progressing... =
+Waiting = Очікування
+Progressing... = Прогрес...
 
-No schematic in the project! =
+No schematic in the project! = У проекті немає схеми!
 
-Move Forward =
-Move Backward =
+Move Forward = Переміщення вперед
+Move Backward = Переміщення назад
 
 #Dialog Panelize
 V-CUT =
@@ -2640,12 +2640,12 @@ The number of rows and columns cannot be set to 1 simultaneously =
 
 #edit path point
 [editPathPoints-dlg]
-Arc(R) =
+Arc(R) = Дуга(R)
 Type = Тип
 Action =
 add before =
 add after =
-delete =
+delete = видалити
 [/editPathPoints-dlg]
 
 #edit polygon point
@@ -2653,51 +2653,51 @@ delete =
 Action =
 add before =
 add after =
-delete =
+delete = видалити
 [/editPolygonPoints-dlg]
-You have unconfirmed edit! =
-Invalid edit! =
+You have unconfirmed edit! = У вас є непідтверджені зміни!
+Invalid edit! = Помилка редагування!
 
 #Dialog PCB Information
-PCB Information... =
-Signal Layers =
-None Signal Layers =
-Pads =
-Surface Pads =
-Plated Through-hole Pads =
-None Plated Through-hole Pads =
-Holes =
-Vias =
-Length of Tracks =
-Copper Areas =
+PCB Information... = Інформація про друковану плату...
+Signal Layers = Сигнальні шари
+None Signal Layers = Не сигнальні шари
+Pads = Площинки
+Surface Pads = Поверхневі площинки
+Plated Through-hole Pads = Наскрізні площинки з покриттям
+None Plated Through-hole Pads = Наскрізні площинки без покриття
+Holes = Отвори
+Vias = З'єднання
+Length of Tracks = Довжина доріжок
+Copper Areas = Мідні райони
 
 #Differential Pair Routing
-Differential Pair Routing =
-Differential Pair Rule Setting =
-Please input track width =
-Please input clearance =
-Routing Rules =
+Differential Pair Routing = Маршрутизація диференціальної пари
+Differential Pair Rule Setting = Налаштування маршрутизації диференціальної пари
+Please input track width = Введіть ширину доріжки
+Please input clearance = Введіть зазор
+Routing Rules = Правила маршрутизації
 
 #Route Length Tuning
-Track Length Tuning... =
-Tracks with different net or non-track found in current targets. =
-Please select the signal tracks to be tuning. =
-The total length exceeds the Design Rule Checking (DRC) constraint, continue ? =
-45° Angle =
-90° Angle =
-DRC Track Length : =
-Current Length : =
-Additional Length : =
-Target Length: =
-Current Length: =
+Track Length Tuning... = Налаштування довжини доріжки...
+Tracks with different net or non-track found in current targets. = Доріжки з різною сіткою або не доріжки знайдено в потоцному цілі.
+Please select the signal tracks to be tuning. = Будь ласка, виберіть сигнальні доріжки, які потрібно налаштувати.
+The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = Загальна довжина перевищує обмеження перевірки правил проектування (DRC), продовжувати?
+45° Angle = 45° градусів
+90° Angle = 90° градусів
+DRC Track Length : = DRC довжина доріжки :
+Current Length : = Поточна довжина :
+Additional Length : = Додаткова довжина :
+Target Length: = Довжина об'єкта:
+Current Length: = Поточна довжина:
 
-can not connect to the server =
+can not connect to the server = не вдається підключитися до сервера
 
 #Dialog Copper Area Manager
-Copper Area Manager... =
-Copper Area Manager =
-Order =
-Name = Ім\'я
+Copper Area Manager... = Менеджер мідної області...
+Copper Area Manager = Менеджер мідної області
+Order = Замовити
+Name = Ім'я
 Layer = Шар
 Color = Колір
 Net = Мережа
@@ -2705,273 +2705,273 @@ Move Up = Перемістити вверх
 Move Down = Перемістити вниз
 Apply = Застосувати
 Cancel = Відмінити
-Copper Area do not allow self-intersection! =
-No copper area! =
+Copper Area do not allow self-intersection! = Мідний район не допускає самоперетину!
+No copper area! = Немає мідної зони!
 #Dialog report error
-Datasheet =
-Verification =
-Symbol =
-Pad Number =
-Pad Size =
-Remark =
-Correct =
-Incorrect =
+Datasheet = Документація
+Verification = Перевірка
+Symbol = Символ
+Pad Number = Номер площинки
+Pad Size = Розмір площинки
+Remark = Зауваження
+Correct = Правильно
+Incorrect = Неправильно
 Submit = Відправити
-Tip =
-Please select one component =
-Location X =
-Location Y =
-Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. =
-EasyEDA Client =
-LCEDA Client =
-Chrome =
-FireFox =
-New Version =
-Switch Version =
-Members =
-Update Time =
-Editor =
-Current Version: =
-Select a version to switch =
-3D Model =
-Board Side =
+Tip = Порада
+Please select one component = Виберіть один компонент
+Location X = Розміщення по X
+Location Y = Розміщення по Y
+Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = Ваша поточна версія браузера може не підтримувати деякі функції. Будь ласка, використовуйте останню версію Chrome або Firefox або спробуйте клієнт для комп’ютера.
+EasyEDA Client = EasyEDA клієнт
+LCEDA Client = LCEDA клієнт
+Chrome = Chrome
+FireFox = FireFox
+New Version = Нова версія
+Switch Version = Змінити версію
+Members = Члени
+Update Time = Час оновлення
+Editor = Редактор
+Current Version: = Поточна версія:
+Select a version to switch = Виберіть версію для переходу
+3D Model = 3D Модель
+Board Side = Сторона плати
 Display =
-Copper =
-Create New Version =
-Create new version success! =
-Version Management =
-Switch success! =
-Please close current version's documents first! =
-Creator =
-Create Time =
-Fail to connect to server! Please check your internet connection status and try again! =
+Copper = Мідний
+Create New Version = Створити нову версію
+Create new version success! = Створення нової версії успішно!
+Version Management = Управління версіями
+Switch success! = Перехід успішний!
+Please close current version's documents first! = Будь ласка, спочатку закрийте документи поточної версії!
+Creator = Творець
+Create Time = Час створення
+Fail to connect to server! Please check your internet connection status and try again! = Не вдалося підключитися до сервера! Перевірте статус підключення до Інтернету та повторіть спробу!
 Spice Number =
-Create =
-3D Outline =
-Cannot create the slot hole via the board outline, please use the following methods: =
-Use the solid region and set its type as Board Cutout =
-Select a Track/Arc, right-click to use the "Convert to Board Cutout" =
-Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cutout" =
-The more information please refer at =
-Save "{0}" success! =
-Save "{0}" failed! =
-Invalid Size =
-Processing =
-Invalid Size =
+Create = Створюйте
+3D Outline = 3D контур
+Cannot create the slot hole via the board outline, please use the following methods: = Не вдається створити проріз через контур плати, скористайтеся наступними методами:
+Use the solid region and set its type as Board Cutout = Використовуйте суцільну область і встановіть її тип як «Виріз плати»
+Select a Track/Arc, right-click to use the "Convert to Board Cutout" = Виберіть доріжку/дугу, клацніть правою кнопкою миші, щоб використати «Виріз на платі»
+Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cutout" = Виберіть усі закриті доріжки/дуги, клацніть правою кнопкою миші, щоб використати «Виріз на платі»
+The more information please refer at = Більше інформації, будь ласка, див.
+Save "{0}" success! = Успішно збережено "{0}"!
+Save "{0}" failed! = Помилка збереження "{0}" 
+Invalid Size = Недійсний розмір
+Processing = Обробка
+Invalid Size = Недійсний розмір
 NetFlag GND = Контакт шины Земля
 NetFlag VCC = Контакт шини живлення
 NetFlag +5v = Контакт +5В
-No Useful Data! =
-SVG Preview =
-Prefix contains not supported charater(s) ! =
-Name contains not supported charater(s) ! =
+No Useful Data! = Немає придатних даних! 
+SVG Preview = Попередній перегляд SVG
+Prefix contains not supported charater(s) ! = Префікс містить непідтримувані символ(и)!
+Name contains not supported charater(s) ! = Ім'я містить непідтримувані символ(и)!
 Create Grid Path =
-Please Input Name =
-Building Copper Area =
-Processing =
-Opening File =
-Update from Library =
-Update Footprint =
-Find footprint(s) have been updated, do you want to update? =
-3D File: =
-Model List =
-Are you sure merge net {0} and net {1}? =
-Display Footprint =
-Display Footprint Name While Placing Component =
-Annotate Prefix Automatically After Placing Component =
-Program Error, Please Contact Technical Support! =
-Search Engine =
-Keyword to Filter =
-Normal Mode =
-Expand Mode =
-3D Model Manager =
-3D Model Preview =
-3D Model =
-3DModel =
+Please Input Name = Будь ласка, введіть ім'я
+Building Copper Area = Побудувати мідну площину
+Processing = Обробка
+Opening File = Відкриття файлу
+Update from Library = Оновлення з бібліотеки
+Update Footprint = Оновити компонент PCB
+Find footprint(s) have been updated, do you want to update? = Знайдений компонент(и) PCB було оновлено. Ви хочете оновити?
+3D File: = 3D файл
+Model List = Список моделей
+Are you sure merge net {0} and net {1}? = Ви впевнені, що об’єднати з’єднання {0} і з’єднання {1}?
+Display Footprint = Показати компонент PCB
+Display Footprint Name While Placing Component = Відображення назви посадкового місця під час розміщення компонента
+Annotate Prefix Automatically After Placing Component = Автоматично анотувати префікс після розміщення компонента
+Program Error, Please Contact Technical Support! = Помилка програми, зверніться до служби технічної підтримки!
+Search Engine = Пошукова система
+Keyword to Filter = Ключове слово для фільтрування
+Normal Mode = Нормальний режим
+Expand Mode = Розширений режим
+3D Model Manager = Менеджер 3D моделі
+3D Model Preview = Попередній перегляд 3D моделі
+3D Model = 3D модель
+3DModel = 3Dмодель
 Document = Документ
 
 [pcblayer]
-3DModel =
+3DModel =  3Dмодель
 Document = Документ
 [/pcblayer]
 
-Adjustment =
-View Larger Image =
-Previous =
-Previous Image =
-Next Image =
-Notice: For reference only, please refer to the real product =
-It's under designing, please wait. =
-The width of track/arc/circle cannot be less than 0.1mil! =
-Clone success ! =
-Footprint Naming Reference =
-3D Model Manager =
-Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? =
-Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? =
-The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. =
-This project is not public, can not view homepage! =
+Adjustment = Регулювання
+View Larger Image = Переглянути збільшене зображень
+Previous = Попередній
+Previous Image = Попереднє зображення
+Next Image = Наступне зображення
+Notice: For reference only, please refer to the real product = Примітка: Лише для довідки, будь ласка, зверніться до реального продукту
+It's under designing, please wait. = Він розробляється, зачекайте.
+The width of track/arc/circle cannot be less than 0.1mil! = Ширина доріжки/дуги/кола не може бути меншою за 0,1 mil!
+Clone success ! = Успішно клоновано!
+Footprint Naming Reference = Назва характеристики компонента PCB
+3D Model Manager = Менеджер 3D-моделей
+Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = Перейде до апаратної платформи з відкритим вихідним кодом Lichuang (OSHWHub.com), щоб покращити інформацію та поділитися. Чи продовжувати?
+Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? = Перейде до апаратної платформи EasyEDA з відкритим вихідним кодом (OSHWLab.com), щоб покращити інформацію та поділитися. Чи продовжувати? =
+The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. = Відкриється сторінка вмісту проєкту. Після додавання опису та встановлення загальної доступності проєкту ви можете натиснути кнопку поділитися, щоб отримати посилання для спільного доступу.
+This project is not public, can not view homepage! = Цей проєкт не є загальнодоступним, не можна переглянути домашню сторінку!
 
 [grid]
-None =
+None = Жодного
 [/grid]
 
 #lib verify and mounted
-This component is verified =
-This component is unmounted =
+This component is verified = Цей компонент перевірений
+This component is unmounted = Цей компонент не розмонтований
 
 #find component
-Find Next =
-Object not found =
+Find Next = Знайти Далі
+Object not found = Об'єкт не знайдено
 
 #offset Elements
-Offset X =
-Offset Y =
-Offset =
-Absolute Offset =
-Relative Offset =
-Absolute Offset... =
-Relative Offset... =
-Reference Point X =
-Reference Point Y =
+Offset X = Зміщення по X
+Offset Y = Зміщення по Y
+Offset = Зміщення
+Absolute Offset = Абсолютний зсув
+Relative Offset = Відносний зсув
+Absolute Offset... = Абсолютний зсув...
+Relative Offset... = Відносний зсув...
+Reference Point X = Орієнтир по X
+Reference Point Y = Орієнтир по Y
 
 # Inner Plane layer
-Rebuild Plane =
-PlaneZone Properties =
-Change to a plane layer is not allowed during track routing. =
+Rebuild Plane = Перебудувати площину
+PlaneZone Properties = Властивості зони площини
+Change to a plane layer is not allowed during track routing. = Зміна на плоский шар не дозволяється під час трасування колії. // уточнити!!!
 #pcblib rect
-Fill =
-Fill Type =
+Fill = Заповнення
+Fill Type = Тип заповнення
 [PlaneZone]
-Solid =
+Solid = Суцільний
 [/PlaneZone]
 
-Solid Region do not allow self-intersection! =
+Solid Region do not allow self-intersection! = Суцільний регіон не допускатє самоперетину!
 
-The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. =
-The prefixes are not allowed to repeat! =
+The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. = Префікс, ім’я чи текст занадто далеко від посадкового місця, якщо ви не хочете, щоб він відображався, будь ласка, приховайте його.
+The prefixes are not allowed to repeat! = Повторення префіксів заборонено!
 Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? =
 The origin of the canvas has been set in the graphics now, you can save again. =
-Backup Project =
+Backup Project = Резервна копія проєкту
 Open Project Directory =
 
-{0} items updated =
+{0} items updated = {0} елементів оновлено
 
-The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. =
-Yes, Overwrite It =
-No, Keep It =
+The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. = Поточний файл {0} має оновлену версію. Ви хочете перезаписати його? Якщо ви хочете відкрити останню версію, закрийте поточний файл і відкрийте його знову.
+Yes, Overwrite It = Так, перезаписати
+No, Keep It = Ні, залиште це
 
-Download Client =
+Download Client = Завантажити клієнта
 
-Search tutorial、open source projects etc. =
+Search tutorial、open source projects etc. = Пошук підручника, проекта з відкритим кодом тощо.
 
-Go to LCSC and search for =
-Go to LCSC =
+Go to LCSC and search for = Перейдіть до LCSC і знайдіть
+Go to LCSC = Перейдіть до LCSC
 
-Hide Ratline Layer and Keep the Component Prefix When Paste Objects =
+Hide Ratline Layer and Keep the Component Prefix When Paste Objects = Приховати шар фрезерування і зберегти префікс компонента під час вставлення об’єктів
 
 ALL.layer =
 Copper.layer =
 Non-Copper.layer =
 Other.layer =
 
-Please enter at least 2 characters! =
-View Datasheet =
-View Datasheet... =
+Please enter at least 2 characters! = Будь ласка, введіть принаймні 2 символи!
+View Datasheet = Переглянути документацію
+View Datasheet... = View Datasheet...
 
-The corresponding package or network could not be found in the currently open PCB document =
-delete fail =
+The corresponding package or network could not be found in the currently open PCB document = Не вдалося знайти відповідний пакет або мережу у відкритому документі PCB
+delete fail = не вдалося видалити
 
 [crashRecovery]
-Libraries =
+Libraries = Бібліотеки
 [/crashRecovery]
 Canvas origin anomaly! =
 
-Component's Name =
-Component's Prefix =
-Component's Footprint =
+Component's Name = Назва компонента
+Component's Prefix = Префікс компонента
+Component's Footprint = PCB представлення компонента
 
 [findlib]
 Clear = Очистити
-Apply Filters =
-Result =
+Apply Filters = Застосувати фільтри
+Result = Результат
 Place = Розміщення
-Prev =
-Next =
-Total {count} Count =
+Prev = Попередня
+Next = Далі
+Total {count} Count = Загальна кількість {count}
 About = Про проект
-Items =
+Items = Предмети
 [/findlib]
 
 Object =
-Layers and Objects =
+Layers and Objects = Шари та об'єкти
 All = Всі
 
 Add custom =
 
-Connections =
-Attempted: =
-Completed: =
-Failed: =
-Total Vias: =
+Connections = З'єднання
+Attempted: = Спроба:
+Completed: = Виконано:
+Failed: = Не вдалося:
+Total Vias: = Загальна кількість переходів:
 
-Please confirm moving option =
-Only this pad =
-For this component =
-View Owner =
-View Detail =
+Please confirm moving option = Будь ласка, підтвердьте варіант переміщення
+Only this pad = Тільки ця площинка
+For this component = Для цього компонента
+View Owner = Переглянути власника
+View Detail = Переглянути деталі
 
 
 # place batch vias
-Place Vias =
-Placing Vias =
-Removing Vias =
-Batch Vias for Copper =
-Add/Remove Vias =
+Place Vias = Розмістити перехід
+Placing Vias = Розміщення переходів
+Removing Vias = Видалення переходів
+Batch Vias for Copper = Пакетні переходи для міді
+Add/Remove Vias = Додати/видалити переходи
 Diameter = Діаметр
-Drill Diameter =
-Column Spacing =
-Row Spacing =
-Multiple vias have been placed, do you want to rebuild the copper area? =
-Remove vias finish, do you want to rebuild the copper area? =
-The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! =
-Save fail! Please try again! =
-Please select a copper outline =
-Can't find copper area at other layers, please add the copper area with the same net at other layer first. =
+Drill Diameter = Діаметр свердла
+Column Spacing = Інтервал між стовпцями
+Row Spacing = Інтервал між рядками
+Multiple vias have been placed, do you want to rebuild the copper area? = Було розміщено кілька переходів, ви хочете перебудувати мідну область?
+Remove vias finish, do you want to rebuild the copper area? = Завершено видалення переходів, ви хочете перебудувати мідну область?
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = Ширина доріжки/дуги/кола не може бути меншою за 0.051mm/2mil/0.002inch!
+Save fail! Please try again! = Не вдалося зберегти! Будь ласка спробуйте ще раз!
+Please select a copper outline = Виберіть мідний контур
+Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Не вдається знайти мідну зону на інших шарах, спочатку додайте мідну зону з такою ж сіткою на іншому шарі.
 
-Add favorite success! =
-Remove favorite success! =
-Remove favorite failed! =
-Whether if remove favorite? =
-Split by ';' for multi tags =
+Add favorite success! = Успішно додано в улюблене!
+Remove favorite success! = Успішно видалено з улюбленого!
+Remove favorite failed! = Не вдалося видалити з улюбленого!
+Whether if remove favorite? = Якщо видалити улюблене?
+Split by ';' for multi tags = Розділювач ';' для декількох тегів
 
-This size is the determined size! =
-The associated pad has been locked =
-Split by space or , for multi tags =
+This size is the determined size! = Цей розмір є визначеним розміром!
+The associated pad has been locked = Пов’язана панель заблокована
+Split by space or , for multi tags = Розділіть пробілом декілька тегів
 
-Rotation X =
-Rotation Y =
-Rotation Z =
+Rotation X = Обертання X
+Rotation Y = Обертання Y
+Rotation Z = Обертання Z
 
-Some fields are filled invalid data =
-start time should be earlier than stop time =
-Number of points should be less than 100 in octave variation =
-Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli =
-Get historical records fail! =
-This 3D model didn't create the outlines successfully, please import it again or contact with us. =
-There is No Tag! =
-Assign successful! =
-Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
-Update Property =
-Please fill in at least 5 words. =
-Mouse hovering over the track to highlight the entire network =
-Net Highlighting While Cursor Hover the Track =
-When circle set as "Yes", the Pin length must be more than 6 =
-Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! =
+Some fields are filled invalid data = Деякі поля заповнені недійсними даними
+start time should be earlier than stop time = час початку має бути раніше, ніж час зупинки
+Number of points should be less than 100 in octave variation = Кількість точок має бути менше 100 в октавній варіації
+Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = Початкова частота має бути менше частоти зупинки. Суфікс meg означає Mega, m означає milli
+Get historical records fail! = Невдалося отримати історію запису
+This 3D model didn't create the outlines successfully, please import it again or contact with us. = Ця 3D-модель не створила контури успішно, будь ласка, імпортуйте її ще раз або зв’яжіться з нами.
+There is No Tag! = Немає тегу!
+Assign successful! = Призначення успішно!
+Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = Номер контактної площинки компоненту PCB не відповідає номеру контакту компонента схеми, виправте номер площинки та спробуйте ще раз!
+Update Property = Оновити властивість
+Please fill in at least 5 words. = Будь ласка, впишіть щонайменше 5 слів.
+Mouse hovering over the track to highlight the entire network = Наведіть курсор миші на доріжку, щоб виділити всю мережу
+Net Highlighting While Cursor Hover the Track = Підсвічування мережі під час наведення курсору на доріжку
+When circle set as "Yes", the Pin length must be more than 6 = Якщо коло встановлено як "Так", довжина виводу має бути більш ніж 6
+Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Привіт, я знайшов проблему вашої бібліотеки, ця бібліотека здається неправильною. \ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nДякуємо!
 
-Logout fail! Please try again! =
-Logout success! We look forward you to use LCEDA again! =
-Logout success! We look forward you to use EasyEDA again! =
-Click to Preview 3D =
+Logout fail! Please try again! = Помилка виходу! Будь ласка спробуйте ще раз!
+Logout success! We look forward you to use LCEDA again! = Успішний вихід! Ми з нетерпінням чекаємо, що ви знову скористаєтеся LCEDA!
+Logout success! We look forward you to use EasyEDA again! = Успішний вихід! Ми з нетерпінням чекаємо, що ви знову скористаєтеся EasyEDA!
+Click to Preview 3D = Натисніть, щоб переглянути в 3D
 [logoutDialog]
 Logout = Вийти
 [/logoutDialog]
@@ -2981,43 +2981,43 @@ All = Всі
 [/findlibTag]
 
 Export Pick and Place File =
-Mirror the bottom component's X coordinate (JLCPCB doesn't need) =
-Work Space =
-Include panelized components' coordinates =
-Personal Workspace =
-Work Space - {name} =
-Work Space - Personal =
-Cloning =
+Mirror the bottom component's X coordinate (JLCPCB doesn't need) = Віддзеркальте координату X нижніх компонентів (в JLCPCB не потрібно)
+Work Space = Робочий простір
+Include panelized components' coordinates = Включити панель координат компонентів
+Personal Workspace = Особистий робочий простір
+Work Space - {name} = Робоче місце – {name}
+Work Space - Personal = Робочий простір - особистий
+Cloning = Клонування
 
-Project Owner =
-Clone Project =
-Homepage =
-Apply for Education Edition =
-Load Organization failed =
-Joined =
-Favorite =
-This operation will unfavorite this project, do you want to continue? =
-View Homepage =
-Private Project =
-3-7 days =
-Close Tab =
-Close Other Tabs =
-Close All Tabs =
-Open in New Window =
-Cursor Snap to Component's Origin or Pad Center While Dragging Component =
-Undefined =
-Input =
-Model Unit =
-File Unit =
-This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? =
+Project Owner = Власник проекту
+Clone Project = Клонувати проект
+Homepage = Домашня сторінка
+Apply for Education Edition = Подайте заявку на освітню версію
+Load Organization failed = Помилка завантаження організації  // Уточнити!!!
+Joined = Приєднався
+Favorite = Улюблений
+This operation will unfavorite this project, do you want to continue? = Ця операція видалить даний проєкт з вибраного. Продовжити?
+View Homepage = На домашню сторінку
+Private Project = Приватний проект
+3-7 days = 3-7 днів
+Close Tab = Закрити вкладку
+Close Other Tabs = Закрити інші вкладки
+Close All Tabs = Закрити всі вкладки
+Open in New Window = Відкрити в новому вікні
+Cursor Snap to Component's Origin or Pad Center While Dragging Component = Під час перетягування компонента курсор прив’язується до початку компонента або центру площинки
+Undefined = Невизначено
+Input = Ввести
+Model Unit = Модельний блок
+File Unit = Файловий блок
+This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? = Ця частина містить підрозділи. Будь ласка, переконайтеся, що ви перевірили інші підчастини, перш ніж повідомляти про помилку. Продовжити?
 
 [saveAs]
-Power =
+Power = Потужність
 [/saveAs]
 
 Assign LCSC Part# =
-Unexpected error while converting. Perhaps unsupported file type or program bug. =
-Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. =
+Unexpected error while converting. Perhaps unsupported file type or program bug. = Несподівана помилка під час конвертації. Можливо, непідтримуваний тип файлу або помилка програми.
+Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = Знайдено повторювані ідентифікатори компонентів, натисніть «ОК», щоб автоматично повторно пере призначити ідентифікатор компонента, а потім збережіть документ і повторіть спробу.
 
 #electromagneticSimulation
 Electromagnetic Simulation... =
