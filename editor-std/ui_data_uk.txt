@@ -2111,113 +2111,113 @@ No Result = Немає результату
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning =
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. =
-I know. Do not show this again. =
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = Ви можете розмістити Вивід у схемі, але не забудьте згрупувати всі Виводи у компонент схеми. Будь ласка, натисніть кнопку довідки, щоб дізнатися, як їх згрупувати. Якщо ви просто хочете позначити провід, використовуйте NetPort або NetNabel.
+I know. Do not show this again. = Я знаю. Не показуйте це знову.
 
 #Extensions Setting
-Extensions Setting =
-Remove =
-Disable =
-Enable =
-(Disabled) =
-(Enabled) =
-Load Extension =
-Enable or disable will be applied after reload page =
-Your browser cannot run this function. =
-Your browser mode does not support indexedDB. Some features may not work properly. Are you using Private Browsing Mode? =
-Extension Files =
-Extension ID =
-Select Files =
+Extensions Setting = Налаштування розширень
+Remove = Видалити
+Disable = Вимкнути
+Enable = Ввімкнути
+(Disabled) = (Вимкнено)
+(Enabled) = (Увімкнено)
+Load Extension = Зовантажити розширення
+Enable or disable will be applied after reload page = Увімкнення або вимкнення буде застосовано після перезавантаження сторінки
+Your browser cannot run this function. = Ваш браузер не може запустити цю функцію.
+Your browser mode does not support indexedDB. Some features may not work properly. Are you using Private Browsing Mode? = Режим вашого браузера не підтримує indexedDB. Деякі функції можуть не працювати належним чином. Ви використовуєте режим приватного перегляду?
+Extension Files = Файли розширення
+Extension ID = Ідентифікатор розширення
+Select Files = Виберіть Файли
 
 #Scripts
-Script =
-Scripts =
-Script Content =
-Load from js file =
-UTF-8 encoded js file =
-Description =
-description =
-Not a *.js file =
-Failed to read file =
-System scripts cannot be modified =
-Create Subfolder =
-Create Script =
-Install Script =
-Install =
-Are you sure you want to remove this script? =
-Folder Name =
-Rename =
-Please select a script =
-Failed to load script =
-Run Script =
-Load Script =
-Title is required =
-Script content is required =
-System Scripts =
-User Scripts =
-You can right click on the tree nodes. =
+Script = Сценарій
+Scripts = Сценарії
+Script Content = Вміст сценарію
+Load from js file = Завантажити з файлу js
+UTF-8 encoded js file = Файл js із кодуванням UTF-8
+Description = Опис
+description = опис
+Not a *.js file = Не файл *.js
+Failed to read file = Не вдалося прочитати файл
+System scripts cannot be modified = Системні скрипти не можна змінювати
+Create Subfolder = Створити підпапку
+Create Script = Створити сценарій
+Install Script = Інсталювати сценарій
+Install = Інсталювати
+Are you sure you want to remove this script? = Ви впевнені, що хочете видалити цей сценарій?
+Folder Name = Ім'я папки
+Rename = Перейменувати
+Please select a script = Будь ласка, виберіть сценарій
+Failed to load script = Не вдалося завантажити сценарій
+Run Script = Виконати сценарій
+Load Script = Завантажити сценарій
+Title is required = Заголовок обов’язковий
+Script content is required = Потрібен вміст сценарію
+System Scripts = Системні скрипти
+User Scripts = Скрипти користувача
+You can right click on the tree nodes. = Ви можете клацнути правою кнопкою миші на вузлах дерева.
 
 #PCB photoView toolbar
-Top Side =
-Bottom Side =
-With Silk Layer =
-No Silk Layer =
-Photo View =
+Top Side = Верхня сторона
+Bottom Side = Нижня сторона
+With Silk Layer = З шовковим шаром
+No Silk Layer = Без шовкового шару
+Photo View = Перегляд фото
 
 #check update
-Check Update =
-EasyEDA Editor {ver} is released. Would you like to switch to the new version now? =
-LCEDA Editor {ver} is released. Would you like to switch to the new version now? =
-Switch to New Version =
-Next Time =
+Check Update = Перевірте оновлення
+EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = Випущено редактор EasyEDA Editor {ver}. Перейти на нову версію зараз?
+LCEDA Editor {ver} is released. Would you like to switch to the new version now? = Випущено редактор LCEDA {ver}. Перейти на нову версію зараз?
+Switch to New Version = Перейти до нової версії
+Next Time = Наступного разу
 
 #download project dialog
-Generating download link... =
-Download project now =
+Generating download link... = Створення посилання для завантаження...
+Download project now = Завантажте проект зараз
 
 #Import DXF
-Import DXF =
-Apply Unit =
-Convert circle to HOLE on BoardOutLine layer =
-No shapes found =
-Fail to load the file =
-Please select a DXF file. =
-This feature only works for PCB document. =
-Select a DXF file =
+Import DXF = Імпорт DXF
+Apply Unit = Застосувати одиницю
+Convert circle to HOLE on BoardOutLine layer = Перетворіть коло в ОТВІР шаром BoardOutLine // Уточнити!!
+No shapes found = Не знайдено жодної форми
+Fail to load the file = Не вдалося завантажити файл
+Please select a DXF file. = Будь ласка, виберіть файл DXF.
+This feature only works for PCB document. = Ця функція працює лише для документів PCB.
+Select a DXF file = Виберіть файл DXF
 
 #Export DXF
-Export DXF =
-Plated-Through-Hole Pads =
-Non-Plated-Through-Hole Pads =
-Silkscreen =
-Surface Pad =
+Export DXF = Експортувати DXF
+Plated-Through-Hole Pads = Металізовані площинки з наскрізним отвором
+Non-Plated-Through-Hole Pads = Не металізовані прокладки з наскрізним отвором
+Silkscreen = Шовкографія
+Surface Pad = Поверхнева площинка
 
 #Data Sync
-Data Sync =
-Data Conflicts =
-Project or Document =
-Cloud-Side =
-Local-Side =
-Decision =
-Modified =
-Deleted =
-As Cloud =
-As Local =
+Data Sync = Синхронізація даних
+Data Conflicts = Конфлікти даних
+Project or Document = Проект або документ
+Cloud-Side = Хмарна сторона
+Local-Side = Місцева сторона
+Decision = Рішення
+Modified = Змінено
+Deleted = Видалено
+As Cloud = Як Хмарний
+As Local = Як місцевий
 Skip = Пропустити
-Data sync completed =
+Data sync completed = Синхронізацію даних завершено
 
 #Team
-Team =
-Teams =
-Switching team =
-Switch team failed =
-Load team info fail! =
-Load team info fail! Please reload. =
-My Teams =
-Create Team =
+Team = Команда
+Teams = Команди
+Switching team = Зміна команди
+Switch team failed = Не вдалося змінити команду
+Load team info fail! = Не вдалося завантажити інформацію про команду!
+Load team info fail! Please reload. = Не вдалося завантажити інформацію про команду! Будь ласка, перезавантажте.
+My Teams = Мої команди
+Create Team = Створити команду
 
 #Dialog Footprint Manager
-Footprint Manager =
+Footprint Manager = 
 Open Footprint Manager =
 Schematic Components =
 Edit Pin Map Information =
