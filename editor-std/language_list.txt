@@ -51,7 +51,7 @@ Svenska (Swedish) = Svenska (Swedish)
 Türkçe (Turkish) = Türkçe (Turkish)
 
 # ui_data_uk.txt
-Украинский (Ukrainian) = Украинский (Ukrainian)
+Українська (Ukrainian) = Українська (Ukrainian)
 
 # ui_data_vn.txt
 Tiếng Việt (Vietnamese) = Tiếng Việt (Vietnamese)
