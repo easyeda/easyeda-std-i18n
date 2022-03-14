@@ -11,7 +11,7 @@ System Settings = Impostazioni di sistema
 Crash = Crash
 Invite friends... = Invita i tuoi amici...
 Language = Lingua
-Language Setting = Impostazione della lingua
+Language Setting = Lingua
 
 Document Recovery = Ripristina il documento
 Your Preferences Information = Informazioni sulle preferenze utente
@@ -204,10 +204,10 @@ Spice Model... = Modello Spice...
 Layer Manager... = Gestisci strati...
 Net Color... = Colore Net...
 Design Rule... = Regole di progettazione...
-Copper Area = Area di rame
+Copper Area = Zona di rame
 Rebuild Selected = Rigenera selezionati
 Rebuild All = Ricostruisci tutto
-Copper Area Manager... = Gestisci aree di rame...
+Copper Area Manager... = Gestisci zone di rame...
 Export Pick and Place File = Esporta file Pick and Place
 Measure Distance = Misura distanza
 Set Canvas Origin by Mouse Location = Imposta l'origine canvas dalla posizione del mouse
@@ -280,7 +280,7 @@ Support = Supporto
 [leftNavTabs]
 Support = Supporto
 [/leftNavTabs]
-Historical Records... = Salvataggi passati...
+Historical Records... = Salvataggi precedenti...
 Extensions = Estensioni
 Order PCB... = Ordina PCB...
 Import Changes = Importa le modifiche
@@ -298,7 +298,7 @@ Group These Items as a Symbol = Raggruppa elementi come simbolo
 Group These Items as a Footprint = Raggruppa elementi come Footprint
 Set Canvas Origin = Imposta origine canvas
 Document Setting = Impostazione del documento
-Sheet Attributes = Proprietà del foglio
+Sheet Properties = Proprietà del foglio
 Set Board Outline = Imposta contorno della scheda
 Teardrop... = Teardrop...
 Panelize... = Pannellizza...
@@ -307,7 +307,7 @@ Smart Dimension = Dimensioni intelligenti
 Footprint Wizard = Procedura guidata per Footprint
 Footprint Wizard... = Procedura guidata per Footprint...
 Select package type = Seleziona il tipo di contenitore
-Smart Dimension Attributes = Proprietà dimensioni intelligenti
+Smart Dimension Properties = Proprietà dimensioni intelligenti
 Global Delete = Eliminazione globale
 Cross Probe = Cross probe
 Cross Probe and Place = Cross Probe and Place
@@ -321,12 +321,11 @@ By Coordinates... = Per coordinate...
 By Center of Pads = Per centro dei pad
 By Center Grid of Symbols = Per centro della griglia dei simboli
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties = Proprietà
-Attributes = Attributi
 Apply = Applica
 Save as default = Salva come predefinito
-Canvas Attributes = Attributi canvas
+Canvas Properties = Attributi documento
 Width = Larghezza
 Height = Altezza
 Background = Sfondo
@@ -339,7 +338,7 @@ Grid Size = Dimensione della griglia
 Grid Style = Stile della griglia
 Grid.Line Width = Larghezza della linea
 Grid.Line Spacing = Spaziatura tra le linee
-Copper to Board Outline = Da area ramata a contorno scheda
+Copper to Board Outline = Da zona di rame a contorno scheda
 Improve Fabrication = Migliora la fabbricabilità
 Spoke Width = Larghezza della punta
 Stroke Color = Colore del tratto
@@ -348,12 +347,12 @@ Stroke Style = Stile del tratto
 Fill Color = Colore di riempimento
 Selected Objects = Oggetti selezionati
 Frame Size = Dimensione della cornice
-Alt Snap = Aggancio Alt
-Snap size when pressing the Alt key = Spaziatura aggancio premendo il tasto Alt
+Alt Snap = Spaziatura aggancio secondario
+Snap size when pressing the Alt key = Spaziatura aggancio secondario (quando premi il tasto Alt)
 Prefix Start = Inizio del prefisso
 
-#Text Attributes
-Text Attributes = Proprietà del testo
+#Text Properties
+Text Properties = Proprietà del testo
 Text = Testo
 Color = Colore
 Font Family = Famiglia del carattere
@@ -404,7 +403,7 @@ Common = Comune
 spice.open = apri spice
 spice.close = chiudi spice
 Sources = Sorgenti
-Instrument = Strumento
+Instruments/Meters = Strumenti/Metri
 Transistors = Transistor
 Digital Circuits = Circuiti digitali
 Operational Amplifier = Amplificatore operazionale
@@ -695,7 +694,7 @@ AC Phase = Fase AC
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Alcuni componenti non sono associati al modello spice, usa "EELib" e "Simbolo Spice" in "Librerie" in modalità simulazione oppure assegnali ad un modello spice:
 
 #Pin
-Pin Attributes = Proprietà Pin
+Pin Properties = Proprietà Pin
 Orientation = Orientamento
 Line 45° = Linea 45°
 Line 90° = Linea 90°
@@ -715,7 +714,7 @@ Show = Mostra
 Electric = Elettrico
 
 #Junction
-Junction Attributes = Proprietà della giunzione
+Junction Properties = Proprietà della giunzione
 X Location = Posizione X
 Y Location = Posizione Y
 Size = Dimensione
@@ -727,9 +726,9 @@ Net Label = Etichetta net
 #Part
 Prefix = Prefisso
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = Aggiungi immagine
-Image Attributes = Proprietà immagine
+Image Properties = Proprietà immagine
 Image URL = URL dell'immagine
 Input an image URL = Inserisci un indirizzo URL dell'immagine
 Invalid image URL = Indirizzo URL dell'immagine non valido
@@ -759,9 +758,9 @@ Color Tolerance = Tolleranza del colore
 Simplify Level = Livello di semplificazione
 Corner Threshold = Soglia dell'angolo
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Unità
-Snap Size = Spaziatura dell'aggancio
+Snap Size = Spaziatura aggancio
 Other = Altro
 Routing Width = Larghezza della pista
 [router]
@@ -775,7 +774,7 @@ Cut SilkScreen = Taglia la serigrafia
 Grid = Griglia
 Grid 90 = Griglia 90
 Grid 45 = Griglia 45
-Copper Zone = Zona ramata
+Copper Zone = Zona di rame
 Visible = Visibile
 Invisible = Invisibile
 Ignore = Ignora
@@ -823,11 +822,11 @@ Line Width = Larghezza della linea
 Rotation = Rotazione
 Fonts Management = Gestisci caratteri
 
-#Dimension Attributes
-Dimension Attributes = Proprietà dimensioni
+#Dimension Properties
+Dimension Properties = Proprietà dimensioni
 
-#Footprint Attributes
-Component Attributes = Proprietà del componente
+#Footprint Properties
+Component Properties = Proprietà del componente
 Display Prefix = Mostra prefisso
 Pin Name = Nome pin
 Pin Number = Numero pin
@@ -857,11 +856,11 @@ Direct = Diretto
 Spoke = Raggi
 Keep Island = Mantieni le isolette
 Fill Style = Stile di riempimento
-CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Conflitto area ramata: le sagome di rame nello stesso strato ma con diverse reti non possono sovrapporsi
-Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Area di rame rigenerata! Puoi impostare la "zona ramata" come "visibile" nelle proprietà del menu destro dopo aver cliccato su una area vuota.
+CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Conflitto zona di rame: le sagome di rame nello stesso strato ma con diverse reti non possono sovrapporsi
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Zone di rame rigenerata! Puoi impostare la zona di rame come "visibile" nelle proprietà del menu destro dopo aver cliccato su una area vuota.
 Please create board outline first. = Prima deve essere creato il contorno della scheda.
 Board outlines are not closed. = Il contorno della scheda non é chiuso.
-Rebuild CopperArea = Rigenera area ramata
+Rebuild CopperArea = Rigenera zona di rame
 Edit Points = Modifica i punti
 Direct = Diretto
 Spoke = Raggi
@@ -872,9 +871,9 @@ Solid = Solido
 None = Nessuno
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Proprietà personalizzate
-Fixed Attributes = Proprietà fisse
+#Custom Properties
+Custom Properties = Proprietà personalizzate
+Fixed Properties = Proprietà fisse
 Add new parameter = Aggiungi un nuovo parametro
 Add New Parameter = Aggiungi un nuovo parametro
 Add New Supplier = Aggiungi un nuovo fornitore
@@ -1020,7 +1019,7 @@ DRC Clearance = Isolamento DRC
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Nel filo è stata trovata più di una netlabel, controlla se è corretto, se lo progetti di proposito, ignora questo avviso.
 Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = Net incompleta, una rete completa dovrebbe contenere due o più pin, se la progetti di proposito, ignora questo avviso.
 This netlabel is not connected with any pin. = La netlabel non è connessa ad alcun pin.
-Incomplete connection, please check. = Connessione incompleta, controlla. 
+Incomplete connection, please check. = Connessione incompleta, controlla.
 The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = La distanza tra due oggetti è inferiore a quella del Design Rule Checking (DRC) che ha net differenti.
 The diameter is less than Design Rule Checking (DRC) diameter = Il diametro è più piccolo di quello del DRC
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = Il diametro del foro è più piccolo di quello del DRC
@@ -1068,7 +1067,7 @@ Manufacturer Part.bom = Codice componente del produttore.bom
 Manufacturer.bom = Produttore.bom
 
 One-click Purchasing at LCSC = Acquista con un click su LCSC
-Order Parts/Check Stock = Ordina componenti/Controlla disponibilità
+Order Parts = Ordina componenti/Controlla disponibilità
 Export BOM = Esporta BOM
 Export PCB BOM = Esporta BOM PCB
 Export Schematic BOM = Esporta schema BOM
@@ -1087,7 +1086,7 @@ Package = Contenitore
 Components = Componenti
 Manufacturer = Produttore
 [/bom]
-Manufacturer Part = Componente del produttore
+Manufacturer Part = Codice componente del produttore
 
 #Dialog Run
 Run your simulation = Avvia la tua simulazione
@@ -1229,7 +1228,7 @@ Mirror = Specchio
 TopLayer = Strato superiore
 BottomLayer = Strato inferiore
 TopSilkLayer = Serigrafia strato superiore
-Protractor Attributes = Proprietà del goniometro
+Protractor Properties = Proprietà del goniometro
 BottomSilkLayer = Serigrafia strato inferiore
 
 BoardOutLine = Linea di contorno della scheda
@@ -1310,10 +1309,10 @@ Download free Gerber Viewer (gerbv) = Scarica un visualizzatore Gerber gratis (g
 Before generating the Gerber files = Prima di generare i file Gerber
 Please check the packages size and orientation carefully. = Controlla attentamente la dimensione dei contenitori e l'orientamento.
 Please check for Design Rule Checking (DRC) errors in the Design Manager. = Controlla gli errori del Design Rule Checking (DRC) nel gestore del design.
-Please rebuild the copper area after modifying tracks and packages. = Ricostruisci l'area ramata dopo aver modificato le piste e i contenitori.
+Please rebuild the copper area after modifying tracks and packages. = Ricostruisci la zona di rame dopo aver modificato le piste e i contenitori.
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Dopo aver generato il file Gerber, utilizza il {0}Visualizzatore Gerber{1} per verificare se è conforme ai requisiti di progettazione.
-Order PCB/SMT at JLCPCB = Ordina PCB/SMT su JLCPCB
-Found the complicated polygon object can not be generated at Gerber, please remove or replace = C'è un poligono che non può essere generato su file Gerber, rimuovilo o sostituiscilo
+Order PCB/SMT = Ordina PCB/SMT su JLCPCB
+Found the complicated polygon that object cannot be generated at Gerber, please remove or replace = C'è un poligono che non può essere generato su file Gerber, rimuovilo o sostituiscilo
 ID: {id}, Object: {object}, Location: {location} = ID: {id}, Oggetto: {object}, Posizione: {location}
 
 #Dialog DRC
@@ -1336,7 +1335,7 @@ Via Drill Diameter = Diametro foro via
 Net List = Elenco net
 Rule = Regola
 Set Rule = Imposta regola
-Check Object to Copper Area = Controlla l'area ramata
+Check Object to Copper Area = Controlla la zona di rame
 Show DRC Boundary while Routing = Mostra il contorno durante lo sbroglio
 Check Object to Board Outline = Controlla il contorno della scheda
 Rule name already exists! = Il nome della regola é già presente!
@@ -1406,7 +1405,7 @@ Draw Circle = Disegna cerchio
 Cycle Select Object at Current Location = Scorri l'oggetto selezionato nella posizione corrente
 Draw Dimension = Disegna dimensione
 Draw Connect = Disegna connessione
-Draw CopperArea = Disegna area ramata
+Draw CopperArea = Disegna zona di rame
 Change to TopLayer;<br/>Change Selected Component's Layer to TopLayer; =
 Change to BottomLayer;<br/>Change Selected Component's Layer to BottomLayer; =
 Change to Inner1 = Passa a Inner1
@@ -1421,13 +1420,13 @@ Change Routing Angle =
 Change Routing Conflict =
 Decrease Routing Width =
 Increase Routing Width =
-Decrease Snap Size = Diminuisci la spaziatura dell'aggancio
-Increase Snap Size = Aumenta la spaziatura dell'aggancio
-Change Copper Zone Visible or Invisible = Modifica la zona ramata in zona visibile o non visibile
-Rebuild All Copper Area = Ricostruisci tutta l'area ramata
+Decrease Snap Size = Diminuisci la spaziatura aggancio
+Increase Snap Size = Aumenta la spaziatura aggancio
+Change Copper Zone Visible or Invisible = Modifica la zona di rame in visibile o non visibile
+Rebuild All Copper Area = Ricostruisci tutta la zona di rame
 Toggle PCB Net Display =
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Mostra la finestra di dialogo degli attributi quando si posiziona l'oggetto;<br/>Mostra la posizione della finestra di dialogo quando si incollano gli oggetti
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Mostra la finestra di dialogo degli attributi quando si posiziona l'oggetto;<br/>Mostra la posizione della finestra di dialogo quando si incollano gli oggetti
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Relative Offset Dialog When Selecting Object(s) =
 Open the FAQ Page = Apri la pagina delle FAQ
 Move Object(s) by Reference Point = Sposta oggetto/i per punto di riferimento
@@ -1516,12 +1515,12 @@ Red = Rosso
 Yellow = Giallo
 Black = Nero
 Purple = Viola
-Copper = Rame
+Copper = Ramato
 Gold = Oro
 Silver = Argento
 Surface Finish = Finitura superficiale
-Hasl = Has1
-Hasl(Lead Free) = Has1(senza piombo)
+Hasl = Hasl
+Hasl(Lead Free) = Hasl(senza piombo)
 ENIG = ENIG
 
 #Dialog Hot Key config
@@ -1541,10 +1540,10 @@ Offline Project = Progetto offline
 
 #Message box
 Confirmation = Conferma
-Alert =
+Alert = Attenzione 
 Information = Informazione
 information = informazione
-Prompt =
+Prompt = Prompt
 Error = Errore
 error = errore
 error! = errore!
@@ -1602,7 +1601,6 @@ Please save your file first! = Prima salva i tuoi file!
 Email address is too short! = L'indirizzo email è troppo corto!
 You have not selected a file to upload. = Non hai selezionato alcun file da caricare.
 Update = Aggiorna
-Import.Import Changes = Importa le modifiche
 No changes, the PCB already matches the schematic! = Nessuna modifica, il PCB corrisponde già allo schema!
 Only public files can be shared = Solo i file pubblici possono essere condivisi
 Conversion to PCB has failed! = Impossibile creare il PCB!
@@ -1651,7 +1649,7 @@ Error:No GND = Errore: nessuna GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Questo circuito non presenta alcuna GND. Seleziona una GND dallo strumento del circuito da aggiungere al circuito.
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
 Probe can not connect with ground(GND)! = La sonda non può essere collegata alla terra(GND)!
-Spice symbols's attributes can't be empty. = Le proprietà dei simboli Spice non possono essere vuote.
+Spice symbols's properties can't be empty. = Le proprietà dei simboli Spice non possono essere vuote.
 Error:No Spice Symbol = Errore: nessun simbolo Spice
 Simulation limit = Limite della simulazione
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = C'è un multimetro nel circuito che deve essere simulato utilizzando il comando di emulazione .tran o .op
@@ -1705,7 +1703,7 @@ Annular ring of the pad/via is too small = Anello del pad/via troppo piccolo
 The size of the hole cannot exceed the size of the pad = La dimensione del foro non può superare la dimensione del pad
 Are you sure you want to create a multi-sheet designs? = Sei sicuro di voler creare uno schema a più fogli?
 Are you sure you want to create a {0}multi-sheet designs{1}? = Sei sicuro di voler creare uno {0}schema a più fogli{1}?
-Please build the copper area! Click the help button to find out how to build the copper area. = Costruisci l'area di rame! Clicca sul pulsante di aiuto per scoprire come costruire l'area di rame.
+Please build the copper area! Click the help button to find out how to build the copper area. = Costruisci la zona di rame! Clicca sul pulsante di aiuto per scoprire come costruire la zona di rame.
 Suggest to set a package for this component first! = Suggerisci di impostare prima un contenitore per questo componente!
 Please select an opened document first. = Seleziona prima un documento aperto.
 Some files failed to load. Please reload the page. = Impossibile caricare alcuni file. Ricarica la pagina.
@@ -1840,7 +1838,7 @@ Transmission Line = Linea di trasmissione
 Voltmeter = Voltmetro
 Ammeter = Amperometro
 LAMP = LAMPADINA
-Opto Transistor =
+Opto Transistor = Opto-Isolatore
 
 #Server Message
 Need login = È necessario accedere
@@ -1871,7 +1869,7 @@ CTRL + Scroll = CTRL + Rotella del mouse
 Canvas Coordinate System = Sistema di coordinate canvas
 SVG Coordinate = Coordinate SVG
 Cartesian Coordinate = Coordinate cartesiane
-Open Wizard Dialog for New Schematic = Apri la procedura guidata di un nuovo schema 
+Open Wizard Dialog for New Schematic = Apri la procedura guidata di un nuovo schema
 Default Unit = Unità predefinita
 Canvas Zoom Effect = Effetto zoom canvas
 Quality Priority = Priorità di qualità
@@ -1889,7 +1887,7 @@ Track Width Setting = Impostazione larghezza della pista
 
 #Dialog Access Control
 Permissions = Permessi
-Operation = Operazioni
+Operations = Operazioni
 Access Control = Controllo di accesso
 Project Access Control = Controllo dell'accesso al progetto
 Reject = Rifiuta
@@ -1961,7 +1959,7 @@ Preview Window = Finestra anteprima
 System Default = Predefinito di sistema
 User Defined = Definito dall'utente
 Theme = Tema
-Theme Setting = Impostazione del tema
+Theme Setting = Impostazioni del tema
 Close = Chiudi
 Open = Apri
 Toggle toolbar = Abilita la barra degli strumenti
@@ -2046,7 +2044,7 @@ Generate Gerber = Genera Gerber
 Gerber View = Visualizza Gerber
 Dimensions(Estimated) = Dimensioni(Stima)
 PCB Qty = Quantità di PCB
-Copper Weight = Peso del rame
+Copper Weight = Spessore del rame
 PCB Price = Prezzo del PCB
 Estimated Delivery Time = Tempo di consegna stimato
 
@@ -2058,7 +2056,7 @@ Yes, Check DRC = Sì, controlla DRC
 No, Generate Gerber = No, genera Gerber
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = Questo PCB contiene una connessione o più connessioni incomplete, le vuoi controllare?
 Yes, Check Connection(s) = Sì, controlla connessione/i
-It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = Sarai, quindi, reindirizzato al sito Web esterno di JLCPCB con cui collaboriamo. Sei pronto?
+It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = Sarai, quindi, reindirizzato al sito Web esterno di JLCPCB con cui collaboriamo. Sei pronto?
 Failed to submit your order, please contact us via support@easyeda.com for help. = Impossibile inviare il tuo ordine, contattaci tramite support@easyeda.com per risolvere il problema.
 Failed to submit your order, please contact us via QQ 800821856. = Impossibile inviare il tuo ordine, contattaci tramite QQ 800821856.
 Order data generated finish, please click OK button and continue. = I dati dell'ordine sono stati generati, clicca su OK per continuare.
@@ -2075,9 +2073,9 @@ Export your file, then print it yourself. = Esporta il file, quindi stampalo.
 Trace width is too small = La larghezza della pista é troppo piccola
 Share = Condividi
 
-Images Attribute = Proprietà delle immagini
+Images Property = Proprietà delle immagini
 Connect Pad to Pad = Connetti da Pad a Pad
-Copper Area = Area di rame
+Copper Area = Zona di rame
 Dimension = Dimensione
 
 
@@ -2090,17 +2088,17 @@ General Packages = Contenitori generali
 favorite Package = Contenitore preferito
 Board Cutout = Ritaglio della scheda
 Surface Mount = Montaggio Superficiale
-JLCPCB Part Class =
+JLCPCB Part Class = Classe parte JLCPCB
 base = base
 expand = espandi
 recommend = raccomandato
 Basic Part = Parte semplice
 Extended Part = Parte estesa
 Recommended Part = Componente consigliato
-smtWeld =
-thtWeld =
-manualWeld =
-furnaceWeld =
+smtWeld = Saldatura smt
+thtWeld = Saldature tht
+manualWeld = Saldatura Manuale
+furnaceWeld = Saldature tramite forno 
 Multi-Layer = Multistrato
 Markdown Syntax = Sintassi Markdown
 Markdown supported = Markdown supportato
@@ -2165,7 +2163,7 @@ Top Side = Lato superiore
 Bottom Side = Lato inferiore
 With Silk Layer = Con strato serigrafia
 No Silk Layer = Senza strato serigrafia
-Photo View =
+Photo View = Vista 2D 
 
 #check update
 Check Update = Verifica Aggiornamenti
@@ -2279,9 +2277,9 @@ Cannot start again before previous activity is stopped = Impossibile ricominciar
 Please select a net = Seleziona una net
 TrackWidth cannot be empty = La larghezza della pista non può essere vuota
 Clearance cannot be empty = Isolamento non può essere vuoto
-Router is time out. = 
+Router is time out. =
 Server is busy, please try again later. = Il server è occupato, riprova più tardi.
-Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) = 
+Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) =
 Track Width is invalid = Il valore della larghezza della pista non è valido
 General Clearance is invalid = Il valore dell'isolamento generale non è valido
 SMD Clearance is invalid = Il valore dell'isolamento SMD non è valido
@@ -2291,12 +2289,12 @@ Track width cannot be less than Design Rule Checking (DRC) setting value. = La l
 General Clearance cannot be less than Design Rule Checking (DRC) setting value. = L'isolamento generale non può essere inferiore al valore di impostazione del Design Rule Checking (DRC).
 SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = L'isolamento del SMD non può essere inferiore al valore di impostazione del Design Rule Checking (DRC).
 Hole size cannot be less than Design Rule Checking (DRC) setting value. = La dimensione del foro non può essere inferiore al valore di impostazione del Design Rule Checking (DRC).
-Design Rule's via diameter must larger than via drill diameter =
+Design Rule's via diameter must be larger than via drill diameter =
 Clearance cannot be less than Design Rule Checking (DRC) setting value. = L'isolamento non può avere un valore inferiore a quello dell'impostazione del Design Rule Checking (DRC).
 Not a valid PCB, please check it again = Nessun PCB valido, controllalo di nuovo
 Previous connection must be closed = La connessione precedente deve essere chiusa
 Network error. Please try again. = Errore di rete. Riprova.
-Router error. =
+Router error. = Errore di sbroglio
 Invalid PCB. = PCB non valido.
 General Clearance = Isolamento generale
 SMD Clearance = Isolamento SMD
@@ -2304,12 +2302,12 @@ SMD Clearance = Isolamento SMD
 Skip Routed Nets = Ignora Net sbrogliate
 Remove Existing Tracks = Rimuovi piste esistenti
 Real-time Display = Mostra processo in tempo reale
-Router Layers = 
+Router Layers = Layer da sbrogliare 
 Via = Via
 Special = Speciale
 Special Nets = Net speciali
 Skip Nets = Ignora net
-Router Server =
+Router Server = Server di sbroglio 
 Local = Locale
 Cloud = Cloud
 Available = Disponibile
@@ -2357,8 +2355,8 @@ Font is missing! You can confirm the dialog and use default font instead or canc
 #Common
 Owner = Proprietario
 License = Licenza
-Part Pins =
-Net Pins =
+Part Pins = 
+Net Pins = Pin della rete
 Net Ratlines =
 Add Parameter = Aggiungi parametro
 Histories record = Cronologia dei dati
@@ -2426,12 +2424,12 @@ Expand = Espandi
 Collapse = Comprimi
 Expand All = Espandi tutto
 Collapse All = Comprimi tutto
-Your file hasn't been saved, do you want to save it? = File non salvato, vuoi salvarlo?
+Your file hasn't been saved, do you want to save it? = Il tuo file non è stato salvato, vuoi salvarlo?
 Don't Save = Non salvare
 Library Owner: = Proprietario della libreria:
 verifyPkg.Value = verify.Pkg.Valore
 State = Stato
-Please select! = Seleziona!
+Please select! = Per favore seleziona!
 Route = Sbroglio
 Import successfully: = Importato con successo:
 Import failed: = Impossibile importare:
@@ -2440,7 +2438,7 @@ Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Il percorso contiene solo 'a-z
 Path must begin as 'a-z、A-Z、0-9'! = Il percorso deve iniziare per 'a-z、A-Z、0-9'!
 The path length must be between 4~128 characters! = La lunghezza del percorso deve essere compresa tra 4 e 128 caratteri!
 The title length must be between 2~256 characters! = La lunghezza del titolo deve essere compresa tra 2 e 256 caratteri!
-The title can not less than 3 charaters! = Il titolo non può essere inferiore a 3 caratteri!
+The title cannot be less than 3 characters! = Il titolo non può essere inferiore a 3 caratteri!
 Do you want to delete this file? = Vuoi eliminare questo file?
 Add sub part success =
 Please input name and prefix! = Inserisci nome e prefisso!
@@ -2470,7 +2468,8 @@ Keyword: = Parola chiave:
 Image = Immagine
 Image copied. = L'immagine è stata copiata.
 Copy failed. = Impossibile copiare.
-Image Attribute = Proprietà dell'immagine
+Copy success. =
+Image Property = Proprietà dell'immagine
 Locked = Bloccato
 Unlock All = Sblocca tutto
 Unlock = Sblocca
@@ -2488,41 +2487,41 @@ Update failed! = Aggiornamento non riuscito!
 Successfully updated! = Aggiornamento riuscito con successo!
 Successfully updated {0} component(s)! = Sono stati aggiornati {0} componenti!
 Change = Modifica
-Check  Footprints = Controlla Footprint
+Check Footprints = Controlla Footprint
 Network Error! = Errore di rete!
 Find Similar Objects = Trova oggetti simili
 Current Sheet = Foglio attuale
 All Sheets = Tutti i fogli
 Kind = Genere
-Range =
+Range = Gamma
 Net Label/Net Flag/Net Port/Voltage Probe =
 Bezier/Freehand Draw =
 Arc/Pie = Arco/Torta
-Objects Attributes = Proprietà degli oggetti
-Any = 
+Objects Properties = Proprietà degli oggetti
+Any = Qualsiasi 
 Same = Uguale
 Different = Differente
 Circular = Cerchio
-Expose Copper =
+Expose Copper = Esponi rame
 "{0}" font is missing. Please add the font to the font family list. =
 Place Component = Posiziona il componente
 Delete Segment = Elimina segmento
 Angle = Angolo
-Board Thickness =
-Layer Distance =
-Silk Screen =
-Surface Finish Color =
+Board Thickness = Spessore scheda 
+Layer Distance = Distanza tra i piani 
+Silk Screen = Maschera
+Surface Finish Color = Colore aree esposte
 Colors = Colori
-Board Color =
-Board Side =
-Silk Screen =
-Silk Screen Color =
-Display =
+Board Color = Colore scheda
+Board Side = Vista
+Silk Screen = Maschera
+Silk Screen Color = Colore maschera
+Display = Visualizza
 
 # Array and Clone
 Distribute Array = Distribuisci array
 Array Type = Tipo di array
-Matrix Array =
+Matrix Array = Matrice 
 Circular Array = Array circolare
 Item Rotation = Rotazione dell'oggetto
 Location = Posizione
@@ -2530,8 +2529,8 @@ Items per Column = Oggetti per colonna
 Items per Row = Oggetti per riga
 # Column Spacing
 # Row Spacing
-Spacing(Degrees) =
-Start Degree =
+Spacing(Degrees) = Spaziatura(In Gradi) 
+Start Degree = Angolo iniziale 
 Rotate Item to Match =
 Clockwise = Senso orario
 Anti-Clockwise = Senso antiorario
@@ -2606,14 +2605,14 @@ Sheet = Foglio
 Number = ID
 Editor = Utente
 [/history-dlg]
-View File History = Salvataggi passati 
+View File History = Salvataggi passati
 Save Time = Timestamp
 
 Invalid Format = Il formato non è valido
 
 #Dialog Teardrop
-Round Pad / Via =
-Rectangle / Oval / Polygon Pad =
+Round Pad / Via = Pad arrotondato / Via 
+Rectangle / Oval / Polygon Pad = Rettangolo / Ovale / Pad da Poligono
 Applying Teardrops = Creazione teardrop
 Removing Teardrops = Cancellazione teardrop
 Waiting = In attesa
@@ -2627,8 +2626,8 @@ Move Backward = Sposta indietro
 #Dialog Panelize
 V-CUT = V-CUT
 Stamp Hole =
-No Panelize =
-Border and Marking =
+No Panelize = Non pannellizzare 
+Border and Marking = 
 Create Border = Crea Bordo
 Border Height = Altezza bordo
 Border Position = Posizione bordo
@@ -2671,13 +2670,13 @@ None Plated Through-hole Pads = Pad non placcati con foro passante
 Holes = Fori
 Vias = Via
 Length of Tracks = Lunghezza delle piste
-Copper Areas = Aree ramate
+Copper Areas = Zone di rame
 
 #Differential Pair Routing
 Differential Pair Routing = Sbroglio delle coppie differenziali
-Differential Pair Rule Setting = Impostazione regola delle coppie differenziali
+Differential Pair Rule Setting = Impostazioni sbroglio delle coppie differenziali
 Please input track width = Inserisci la larghezza della pista
-Please input clearance = Inserisci l'autorizzazione
+Please input clearance = Inserisci lo spazio tra le tracce
 Routing Rules = Regole dello sbroglio
 
 #Route Length Tuning
@@ -2696,8 +2695,8 @@ Current Length: = Lunghezza attuale:
 can not connect to the server = impossibile connettersi con il server
 
 #Dialog Copper Area Manager
-Copper Area Manager... = Gestisci aree ramate...
-Copper Area Manager = Gestisci aree ramate
+Copper Area Manager... = Gestisci zone di rame...
+Copper Area Manager = Gestisci zone di rame
 Order = Ordine
 Name = Nome
 Layer = Strato
@@ -2707,8 +2706,8 @@ Move Up = Sposta sopra
 Move Down = Sposta sotto
 Apply = Applica
 Cancel = Annulla
-Copper Area do not allow self-intersection! = L'area ramata non consente l'autointersezione!
-No copper area! = Nessuna area ramata!
+Copper Area do not allow self-intersection! = La zona di rame non consente l'autointersezione!
+No copper area! = Nessuna zona di rame!
 #Dialog report error
 Datasheet = Datasheet
 Verification = Verifica
@@ -2730,14 +2729,14 @@ Chrome = Chrome
 FireFox = FireFox
 New Version = Nuova versione
 Switch Version = Cambia versione
-Member = Membri
+Members = Membri
 Update Time = Tempo di aggiornamento
 Editor = Editor
 Current Version: = Versione attuale:
 Select a version to switch = Seleziona una versione
 3D Model = Modello 3D
 Board Side = Lato bordo
-Display =
+Display = Visualizza
 Copper = Rame
 Create New Version = Crea una nuova versione
 Create new version success! = Nuova versione creata con successo!
@@ -2745,10 +2744,10 @@ Version Management = Gestione della versione
 Switch success! = Cambio eseguito con successo!
 Please close current version's documents first! = Chiudi prima i documenti della versione attuale!
 Creator = Autore
-Create Time =
+Create Time = Tempo creazione
 Fail to connect to server! Please check your internet connection status and try again! = Impossibile connettersi al server! Controlla la tua connessione ad internet e prova di nuovo!
 Spice Number = Numero spice
-Create =
+Create = Crea
 3D Outline = Contorno 3D
 Cannot create the slot hole via the board outline, please use the following methods: = Impossibile creare il foro dello slot tramite il contorno della scheda, utilizzare i seguenti metodi:
 Use the solid region and set its type as Board Cutout = Usa la regione solida e imposta il suo tipo come Board Cutout
@@ -2769,7 +2768,7 @@ Prefix contains not supported charater(s) ! = Il prefisso contiene caratteri non
 Name contains not supported charater(s) ! = Il nome contiene caratteri non supportati!
 Create Grid Path = Crea il percorso della griglia
 Please Input Name = Inserisci il nome
-Building Copper Area = Costruzione dell'area ramata
+Building Copper Area = Costruzione della zona di rame
 Processing = In lavorazione
 Opening File = Apertura del file
 Update from Library = Aggiorna dalla libreria
@@ -2780,7 +2779,7 @@ Model List = Lista dei modelli
 Are you sure merge net {0} and net {1}? = Sei sicuro di voler unire la net {0} con la net {1}?
 Display Footprint = Mostra footprint
 Display Footprint Name While Placing Component = Mostra il nome del footprint mentre posizioni il componente
-Annotate Prefix Automatically After Placing Component = Annota automaticamente il prefisso dopo aver posizionato il componente 
+Annotate Prefix Automatically After Placing Component = Annota automaticamente il prefisso dopo aver posizionato il componente
 Program Error, Please Contact Technical Support! = Errore del programma, contattare il supporto tecnico!
 Search Engine = Motore di ricerca
 Keyword to Filter = Parola chiave da filtrare
@@ -2804,7 +2803,7 @@ Previous Image = Immagine precedente
 Next Image = Immagine successiva
 Notice: For reference only, please refer to the real product = Avviso: fare riferimento al prodotto reale
 It's under designing, please wait. = È in fase di progettazione, attendi.
-The width of track/arc/circle can not less than 0.1mil! = La larghezza della pista/arco/cerchio non può essere inferiore a 0,1 mil!
+The width of track/arc/circle cannot be less than 0.1mil! = La larghezza della pista/arco/cerchio non può essere inferiore a 0,1 mil!
 Clone success ! = Clonato con successo!
 Footprint Naming Reference = Riferimento per la denominazione del Footprint
 3D Model Manager = Gestisci modello 3D
@@ -2814,7 +2813,7 @@ The project content page will open. After adding a description and setting the p
 This project is not public, can not view homepage! = Questo progetto non è pubblico, non è possibile visualizzare la homepage!
 
 [grid]
-None =
+None = Nessuno
 [/grid]
 
 #lib verify and mounted
@@ -2853,7 +2852,7 @@ The prefix or name or text too far away from the footprint, if you don't want it
 The prefixes are not allowed to repeat! = I prefissi non possono essere ripetuti!
 Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = Impossibile salvare! L'origine di canvas non è nella grafica! Vuoi impostare l'origine automaticamente?
 The origin of the canvas has been set in the graphics now, you can save again. = Adesso l'origine di canvas è stata impostata nella grafica, puoi salvare di nuovo.
-Backup Project = Progetto di backup
+Backup Project = Backup progetto
 Open Project Directory = Apri la cartella del progetto
 
 {0} items updated = {0} oggetti aggiornati
@@ -2881,7 +2880,7 @@ View Datasheet = Mostra datasheet
 View Datasheet... = Mostra datasheet...
 
 The corresponding package or network could not be found in the currently open PCB document =
-delete fail =
+delete fail = Eliminazione fallita
 
 [crashRecovery]
 Libraries = Librerie
@@ -2933,12 +2932,12 @@ Diameter = Diametro
 Drill Diameter = Diametro del foro
 Column Spacing = Spaziatura tra le colonne
 Row Spacing = Spaziatura tra le righe
-Multiple vias have been placed, do you want to rebuild the copper area? =
-Remove vias finish, do you want to rebuild the copper area? =
-The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! = La larghezza della pista/arco/cerchio non può essere inferiore a 0.051mm/2mil/0.002pollici!
+Multiple vias have been placed, do you want to rebuild the copper area? = Sono state inserite delle via, vuoi rigenerare la zona di rame?
+Remove vias finish, do you want to rebuild the copper area? = Rimozione via completata, vuoi rigenerare la zona di rame?
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = La larghezza della pista/arco/cerchio non può essere inferiore a 0.051mm/2mil/0.002pollici!
 Save fail! Please try again! = Impossibile salvare! Riprova!
 Please select a copper outline =
-Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Impossibile trovare l'area ramata sugli altri strati, aggiungere prima l'area ramata con la stessa net sull'altro strato.
+Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Impossibile trovare la zona di rame sugli altri strati, aggiungere prima la zona di rame con la stessa net sull'altro strato.
 
 Add favorite success! = Aggiungi ai preferiti
 Remove favorite success! = Rimosso dai preferiti!
@@ -2963,11 +2962,11 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! = Non c'è nessun tag!
 Assign successful! = Assegnazione riuscita!
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = Il numero del pad del footprint trovato non corrisponde al numero del pin del componente dello schema, correggi il numero del pad e riprova!
-Update Attribute = Aggiorna attributi
+Update Property = Aggiorna attributi
 Please fill in at least 5 words. = Inserisci almeno 5 parole
 Mouse hovering over the track to highlight the entire network = Passa il mouse sulla pista per evidenziare l'intera rete
 Net Highlighting While Cursor Hover the Track = Evidenzia la net mentre il cursore del mouse passa sulla pista
-When circle set as "Yes", the Pin length must more than 6 = Quando il cerchio è impostato su "Sì", la lunghezza del pin deve essere maggiore di 6
+When circle set as "Yes", the Pin length must be more than 6 = Quando il cerchio è impostato su "Sì", la lunghezza del pin deve essere maggiore di 6
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Ciao, ho riscontrato un problema con la tua libreria, questa libreria sembra errata.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nGrazie!
 
 Logout fail! Please try again! = Uscita fallita! Prova di nuovo!
@@ -2996,7 +2995,7 @@ Clone Project = Clona il progetto
 Homepage = Homepage
 Apply for Education Edition = Candidati per l'edizione Education
 Load Organization failed = Impossibile caricare l'organizzazione
-Joined = 
+Joined = Entrato
 Favorite = Preferito
 This operation will unfavorite this project, do you want to continue? =
 View Homepage = Vedi la homepage
@@ -3009,9 +3008,9 @@ Open in New Window = Apri in una nuova finestra
 Cursor Snap to Component's Origin or Pad Center While Dragging Component = Aggancia il cursore all'origine o al centro del componente quando trascinato
 Undefined = Non definito
 Input = Ingresso
-Model Unit =
-File Unit =
-This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? =
+Model Unit = Unità del modello
+File Unit = Unità del file
+This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? = Questa parte contiene sutto-parti, assicurarsi di aver controllato le sotto-parti prima di segnalare un errore, Vuoi continuare? 
 
 [saveAs]
 Power = Alimentazione
@@ -3031,11 +3030,11 @@ Upload Gerber to SuperEM successfully, please click "OK" buttun to continue = Ca
 
 Format = Disponi
 View = Visualizza
-Design = Disegno
+Design = Design
 Simulation = Simulazione
 Advanced = Avanzate
 Fabrication = Fabbricazione
-Check DRC = Controllo DRC
+Check DRC = Controlla DRC
 Simulation Setting = Impostazione della simulazione
 BOM = BOM
 PCB Fabrication File(Gerber) = File di fabbricazione PCB(Gerber)
@@ -3078,6 +3077,7 @@ Move Folder = Sposta la cartella
 Please input the folder name = Inserisci il nome della cartella
 Invalid folder name = Il nome della cartella non è corretto
 Are you sure to delete this folder? = Sei sicuro di voler eliminare questa cartella?
+All projects in this folder will be moved to the root directory. =
 Create new folder successfully = E' stata creata una nuova cartella
 Failed to create new folder = Impossibile creare una nuova cartella
 Delete folder successfully = La cartella è stata eliminata
@@ -3092,7 +3092,7 @@ The folder depth must not exceed {0} levels = La profondità della cartella non 
 Failed to add project to folder = Impossibile aggiungere il progetto nella cartella
 
 Doesn't support JLCPCB SMT Service = Non supporta il servizio SMT di JLCPCB
-for JLCPCB SMT Service = per il servizio SMT di JLCPCB
+{0} for JLCPCB SMT Service = {0} per il servizio SMT di JLCPCB
 
 Reset failed! There are duplicate component prefixes in the current schematic: = Reset fallito! Ci sono prefissi duplicati nello schema corrente:
 Reset failed! There are duplicate component prefixes in the current PCB: = Reset fallito! Ci sono prefissi duplicati nel PCB corrente:
@@ -3108,14 +3108,14 @@ Cannot be more than {0} characters! = Non può contenere più di {0} caratteri!
 Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = Sono consentiti solo alfabeti latini, cifre, trattino basso (_) e trattino (-).
 Invalid value of item {0} = Il valore dell'oggetto {0} non è valido
 Update DFM = Aggiorna DFM
-Custom DFM Data = Dati DFM personalizzati 
+Custom DFM Data = Dati DFM personalizzati
 Saved custom data successfully! = Dati personalizzati salvati con successo!
 Save custom data failed! = Impossibile salvare i dati personalizzati!
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = Sostituirà la grafica e i dati personalizzati del documento attuale, dopo l'importazione bisogna regolare il modello 3D. Continuare o no?
 Open footprint "Custom Data" dialog = Apri la finestra di dialogo "Dati personalizzati" del footprint
 
 # Create lead shape
-Create Lead Shape =
+Create Lead Shape = 
 Base on Pad Center =
 Base on Canvas Origin =
 Lead shape =
@@ -3134,15 +3134,15 @@ Canvas origin to body edge =
 Lead soldering length =
 Lead soldering part diameter =
 Component shape object doesn't overlap lead shape object, please check carefully. =
-The solder mask expansion of pads ({0},{1}) has a small clearance(less then 0.08mm), it will cause the soldering too short, please modify. =
-The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less then 0.15mm), it will cause the stencil to create fail, please modify. =
-System footprint must exist pad number 1 or A1, please modify the pad number. =
+The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08mm), it will cause the soldering too short, please modify. =
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. =
+System footprint must have pad number 1 or A1, please modify the pad number. =
 System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. =
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. =
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. =
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. =
 
-ROUND = 
+ROUND = CERCHIO
 RECTANGLE = RETTANGOLO
 OCTAGONAL = OTTAGONALE
 Upper left = Superiore sinistro
@@ -3154,25 +3154,25 @@ Pins Number = Numeri dei pin
 Rows Of Pin = Righe del pin
 Columns Of Pin = Colonne del pin
 Polarity = Polarità
-Pad Shape =
-Body Diameter =
+Pad Shape = Forma Pad
+Body Diameter = Diametro corpo
 Lead Span =
 Lead Vertical Span =
-Body Length =
-Body Height =
+Body Length = Lunghezza corpo
+Body Height = Altezza corpo
 Pin Diameter = Diametro del pin
 Pin Length = Lunghezza del pin
 Pin Height = Altezza del pin
-Pin Solid Width =
+Pin Solid Width = 
 Pin Solid Height =
 Pin Spacing = Spaziatura pin
 Pin Horizontal Spacing = Spaziatura orizzontale pin
 Pin Vertical Spacing = Spaziatura verticale pin
-ThermalPad =
+ThermalPad = Pad termico
 Pad Expansion = Espansione pad
 Custom PasteMask =
 Fabrication Tolerance = Tolleranza di fabbricazione
-Plcarment Tolerance =
+Placement Tolerance =
 FirstPin Position = Posizione del primo pin
 Package Origin =
 Expansion Size = Dimensione di espansione
@@ -3193,16 +3193,16 @@ Crystal Oscillator = Oscillatore a cristallo
 Diode = Diodo
 LED = LED
 Fuse = Fusibile
-Entity height =
-Lead Overhang =
-Lead Thickness =
+Entity height = Altezza dell'entità
+Lead Overhang = Sporgenza del piombo
+Lead Thickness = Spessore del piombo
 Unknown mistake = Errore sconosciuto
-Has ThermalVias =
-Polar Capacitance =
+Has ThermalVias = Ha via termiche
+Polar Capacitance = Capacità polarizzata
 
-Create Component Marking =
-Create component marking successfully! =
-No elements on component shape layer! =
+Create Component Marking = Crea demarcazione componente
+Create component marking successfully! = Demarcazione componente creata con successo!
+No elements on component shape layer! = 
 No elements on lead shape layer! =
 No pad of number 1 or A1, please modify the pad number. = Nessun pad del numero 1 o A1, modificare il numero del pad.
 Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = Impossibile salvare! Il cerchio di marcatura del componente è sull'asse. Vuoi ricreare la marcatura del componente?

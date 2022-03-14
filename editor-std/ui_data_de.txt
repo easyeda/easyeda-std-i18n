@@ -298,7 +298,7 @@ Group These Items as a Symbol = Gruppiere diese Einzelteile als Schaltsymbol
 Group These Items as a Footprint = Gruppiere diese Einzelteile als Bauteilgrundfläche
 Set Canvas Origin = Zeichnungs-Ursprung festlegen
 Document Setting = Dokumenteneinstellung
-Sheet Attributes = Blatteigenschaften
+Sheet Properties = Blatteigenschaften
 Set Board Outline = Umriss Leiterplatte setzen
 Teardrop... = Kegelförmige Vergrößerung
 Panelize... = Leiterplatte mehrfach Erstellen
@@ -307,7 +307,7 @@ Smart Dimension = Intelligente Abmessung
 Footprint Wizard = Bauteil Grundflächen Helfer
 Footprint Wizard... = Bauteil Grundflächen Helfer...
 Select package type = Pakettyp auswählen
-Smart Dimension Attributes = Intelligente Abmessungsattribute
+Smart Dimension Properties = Intelligente Abmessungsattribute
 Global Delete = Globales Löschen
 Cross Probe = Kreuzreferenz
 Cross Probe and Place = Kreuzreferenz und platzieren
@@ -321,12 +321,11 @@ By Coordinates... = Nach Koordinaten
 By Center of Pads = Nach Mitte der Pads
 By Center Grid of Symbols = Nach Mitte der Schaltsymbole
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties = Eigenschaften
-Attributes = Merkmale
 Apply = Anwenden
 Save as default = Als Voreinstellung speichern
-Canvas Attributes = Zeichenblatt Merkmale
+Canvas Properties = Zeichenblatt Merkmale
 Width = Breite
 Height = Höhe
 Background = Hintergrund
@@ -352,8 +351,8 @@ Alt Snap = Alt Fangen
 Snap size when pressing the Alt key = Fanggröße beim drücken der ALT Taste
 Prefix Start = Vorsilben Start
 
-#Text Attributes
-Text Attributes = Texteigenschaften
+#Text Properties
+Text Properties = Texteigenschaften
 Text = Text
 Color = Farbe
 Font Family = Schriftfamilie
@@ -404,10 +403,11 @@ Common = Gemeinsam
 spice.open = spice.offen
 spice.close = spice.geschlossen
 Sources = Quellen
-Instrument = Instrument
+Instruments/Meters = Instrumente/Meter
 Transistors = Transistoren
 Digital Circuits = Digitale Schaltung
 Operational Amplifier = Operationsverstärker
+multimeter =
 multimeter Settings = Multimeter Einstellungen
 FunctionGenerator Settings = Funktionsgenerator Einstellungen
 Voltage Source Settings = Spannungsquelle Einstellungen
@@ -446,9 +446,9 @@ Ratio = Verhältnis
 K[%]
 Model = Modell
 States = Zustsände
-Voltage[V] Spannung
-Voltage gain[V/V] Spannungsverstärkung
-Current gain[A/A] Stromverstärkung
+Voltage[V] = Spannung
+Voltage gain[V/V] = Spannungsverstärkung
+Current gain[A/A] = Stromverstärkung
 Transconductance[Mho]
 Transresistance[Ω]
 Voltage Source Type = Spannungsquelle
@@ -672,8 +672,8 @@ BCD_Segment =
 Seven_Segment = Siebener_Segment
 Traffic_Light = Ampel
 Lamp Settings = Lampeneinstellungen
-Power[W] Leistung
-Dropout Voltage[V] Ausstiegsspannung
+Power[W] = Leistung
+Dropout Voltage[V] = Ausstiegsspannung
 Current[A]
 Threshold[V]
 Clock Rate = Taktfrequenz
@@ -694,7 +694,7 @@ AC Phase = Wechselstrom Phase
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Es gibt einige Teile, die kein Spice Model haben, verwenden Sie bitte "EElib" und "Spice Schaltsymbol" unter "Bibliotheken" des "Simulations" Modus, oder weisen Sie ihnen das Spice Modell zu:
 
 #Pin
-Pin Attributes = Pin Eigenschaften
+Pin Properties = Pin Eigenschaften
 Orientation = Orientierung
 Line 45° = Linie 45°
 Line 90° = Linie 90°
@@ -714,7 +714,7 @@ Show = Show
 Electric = Elektrisch
 
 #Junction
-Junction Attributes = Verbindungsstelle Eigenschaften
+Junction Properties = Verbindungsstelle Eigenschaften
 X Location = X-Standort
 Y Location = Y-Standort
 Size = Größe
@@ -726,9 +726,9 @@ Net Label = Netzbeschriftung
 #Part
 Prefix = Vorsilbe
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = Bild hinzufügen
-Image Attributes = Bildeigenschaften
+Image Properties = Bildeigenschaften
 Image URL = Bild-URL
 Input an image URL = Bild-URL angeben
 Invalid image URL = Ungültige Bild-URL
@@ -758,7 +758,7 @@ Color Tolerance = Toleranzfarbe
 Simplify Level = Ebene vereinfachen
 Corner Threshold = Eck-Schwellwert
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Einheiten
 Snap Size = Einrastgröße
 Other = Andere
@@ -822,11 +822,11 @@ Line Width = Liniendicke
 Rotation = Drehung
 Fonts Management = Schriften Verwaltung
 
-#Dimension Attributes
-Dimension Attributes = Abmessung Eigenschaften
+#Dimension Properties
+Dimension Properties = Abmessung Eigenschaften
 
-#Footprint Attributes
-Component Attributes = Bauteil Komponenten Eigenschaften
+#Footprint Properties
+Component Properties = Bauteil Komponenten Eigenschaften
 Display Prefix = Anzeige Vorsilbe
 Pin Name = Pin Name
 Pin Number = Pin Nummer
@@ -871,9 +871,9 @@ Solid = Vollflächig
 None = Keine
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Benutzerdefinierte Eigenschaften
-Fixed Attributes = Fixierte Eigenschaften
+#Custom Properties
+Custom Properties = Benutzerdefinierte Eigenschaften
+Fixed Properties = Fixierte Eigenschaften
 Add new parameter = Neuen Parameter hinzufügen
 Add New Parameter = Neuen Parameter hinzufügen
 Add New Supplier = Neuen Lieferant hinzufügen
@@ -1067,7 +1067,7 @@ Manufacturer Part.bom = Hersteller Teile.bom
 Manufacturer.bom = Hersteller.bom
 
 One-click Purchasing at LCSC = Ein Klick Kauf bei LCSC
-Order Parts/Check Stock = Teile bestellen/Lagerstand überprüfen
+Order Parts = Teile bestellen/Lagerstand überprüfen
 Export BOM = BOM exportieren
 Export PCB BOM = BOM der Leiterplatte exportieren
 Export Schematic BOM = BOM des Schaltplans exportieren
@@ -1228,7 +1228,7 @@ Mirror = Spiegel
 TopLayer = Obere Lage
 BottomLayer = Untere Lage
 TopSilkLayer = Obere Beschriftungs Lage
-Protractor Attributes = Winkelmesser Eigenschaften
+Protractor Properties = Winkelmesser Eigenschaften
 BottomSilkLayer = Untere Beschriftungs Lage
 
 BoardOutLine = Platinenumriss
@@ -1311,8 +1311,8 @@ Please check the packages size and orientation carefully. = Bitte überprüfen S
 Please check for Design Rule Checking (DRC) errors in the Design Manager. = Bitte prüfen Sie im Design Manager auf Fehler bei der Designregelprüfung (DRC).
 Please rebuild the copper area after modifying tracks and packages. = Bitte bauen Sie den Kupferbereich neu auf, nachdem Sie Leiterbahnen und Pakete geändert haben.
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Verwenden Sie nach dem Generieren der Gerber-Datei den {0}Gerber Viewer{1}, um zu überprüfen, ob sie den Designanforderungen entspricht.
-Order PCB/SMT at JLCPCB = Bestelle Leiterplatte/SMT bei JLCPCB
-Found the complicated polygon object can not be generated at Gerber, please remove or replace = Kompliziertes Polygonobjekt gefunden, das bei Gerber nicht generiert werden kann, bitte entfernen oder ersetzen
+Order PCB/SMT = Bestelle Leiterplatte/SMT bei JLCPCB
+Found the complicated polygon that object cannot be generated at Gerber, please remove or replace = Kompliziertes Polygonobjekt gefunden, das bei Gerber nicht generiert werden kann, bitte entfernen oder ersetzen
 ID: {id}, Object: {object}, Location: {location} =
 
 #Dialog DRC
@@ -1425,8 +1425,8 @@ Increase Snap Size = Verkleinere Fanggröße
 Change Copper Zone Visible or Invisible = Kupferzone sichtbar oder unsichtbar ändern
 Rebuild All Copper Area = Kupferbereiche neu aufbauen
 Toggle PCB Net Display = Nettoanzeige Leiterplatte umschalten
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Attributdialog beim Platzieren von Objekten anzeigen;<br/>Dialogfeld Standorteinstellung beim Einfügen von Objekten anzeigen
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Attributdialog beim Platzieren von Objekten anzeigen;<br/>Absoluter Versatzdialog beim Auswählen von Objekt(en) anzeigen;<br/>Positionseinstellungsdialog beim Einfügen von Objekten anzeigen
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Attributdialog beim Platzieren von Objekten anzeigen;<br/>Dialogfeld Standorteinstellung beim Einfügen von Objekten anzeigen
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Attributdialog beim Platzieren von Objekten anzeigen;<br/>Absoluter Versatzdialog beim Auswählen von Objekt(en) anzeigen;<br/>Positionseinstellungsdialog beim Einfügen von Objekten anzeigen
 Show Relative Offset Dialog When Selecting Object(s) = Dialogfeld "Relativen Versatz anzeigen" bei der Auswahl von Objekten
 Open the FAQ Page = Öffnen Sie die FAQ-Seite
 Move Object(s) by Reference Point = Objekt(e) nach Referenzpunkt verschieben
@@ -1601,7 +1601,6 @@ Please save your file first! = Bitte speichern Sie Ihre Datei zuerst!
 Email address is too short! = E-Mail Adresse ist zu kurz!
 You have not selected a file to upload. = Sie haben keine Datei zum Hochladen ausgewählt.
 Update = Aktualisieren
-Import.Import Changes = Importieren.Importieren von Änderungen
 No changes, the PCB already matches the schematic! = Keine Änderungen, die Leiterplatte entspricht bereits dem Schaltplan!
 Only public files can be shared = Nur Öffentliche Dateien können geteilt werden
 Conversion to PCB has failed! = Umwandlung nach Leiterplatte ist fehlgeschlagen!
@@ -1650,7 +1649,7 @@ Error:No GND = Fehler:Keine GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Diese Schaltung hat kein GND. Bitte wählen Sie GND aus dem Schaltungstool aus, um sie der Schaltung hinzuzufügen.
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Der Stromkreis hat kein Spannungsressourcen- oder Stromressourcensymbol, bitte platzieren Sie es zuerst auf der linken Seite der EElib oder der Spice Bibliothek.
 Probe can not connect with ground(GND)! = Sonde kann nicht mit Masse (GND) verbunden werden!
-Spice symbols's attributes can't be empty. = Die Attribute von Spice Schaltsymbolen dürfen nicht leer sein.
+Spice symbols's properties can't be empty. = Die Property von Spice Schaltsymbolen dürfen nicht leer sein.
 Error:No Spice Symbol = Fehler:Kein Spice Schaltsymbol
 Simulation limit = Simulationsgrenze
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = In der Schaltung befindet sich ein Multimeter, das mit dem Emulationsbefehl .tran oder .op . simuliert werden muss
@@ -1888,7 +1887,7 @@ Track Width Setting = Einstellung der Leiterbahnbreite
 
 #Dialog Access Control
 Permissions = Berechtigungen
-Operation = Betrieb
+Operations = Betrieb
 Access Control = Zugangskontrolle
 Project Access Control = Projektzugriffskontrolle
 Reject = Ablehnen
@@ -2056,7 +2055,7 @@ Yes, Check DRC = Ja, Designregeln (DRC) prüfen
 No, Generate Gerber = Nein, Gerber generieren
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = Diese Platine hat unvollständige Verbindungen. Möchten Sie die Verbindung(en) überprüfen?
 Yes, Check Connection(s) = Ja, Verbindung(en) prüfen
-It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = Es wird dann auf die Website eines Drittanbieters von JLCPCB weitergeleitet, mit dem wir zusammenarbeiten. Sind Sie bereit?
+It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = Es wird dann auf die Website eines Drittanbieters von JLCPCB weitergeleitet, mit dem wir zusammenarbeiten. Sind Sie bereit?
 Failed to submit your order, please contact us via support@easyeda.com for help. = Ihre Bestellung konnte nicht gesendet werden. Bitte kontaktieren Sie uns über support@easyeda.com, um Hilfe zu erhalten.
 Failed to submit your order, please contact us via QQ 800821856. = Ihre Bestellung konnte nicht gesendet werden. Bitte kontaktieren Sie uns über QQ 800821856.
 Order data generated finish, please click OK button and continue. = Bestelldaten generieren ist beendet, bitte auf OK klicken und fortfahren.
@@ -2073,7 +2072,7 @@ Export your file, then print it yourself. = Exportieren Sie Ihre Datei und druck
 Trace width is too small = Leiterbahnbreite ist zu klein
 Share = Teile
 
-Images Attribute = Bild Eigenschaften
+Images Property = Bild Eigenschaften
 Connect Pad to Pad = Vebinde Pad zu Pad
 Copper Area = Kupferbereich
 Dimension = Abmaße
@@ -2289,7 +2288,7 @@ Track width cannot be less than Design Rule Checking (DRC) setting value. = Leit
 General Clearance cannot be less than Design Rule Checking (DRC) setting value. = Allgemeiner Abstand darf nicht kleiner als in den Designregeln (DRC) definierte Wert sein.
 SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = SMD-Abstand darf nicht kleiner als in den Designregeln (DRC) definierte Wert sein.
 Hole size cannot be less than Design Rule Checking (DRC) setting value. = Lochgrösse darf nicht kleiner als der in den Designregeln (DRC) definierte Wert sein.
-Design Rule's via diameter must larger than via drill diameter = Durchkontaktierungs Druchmesser in den Designregeln (DRC) muss grössere als Durchkontaktierungs Bohrdurchmesser sein.
+Design Rule's via diameter must be larger than via drill diameter = Durchkontaktierungs Druchmesser in den Designregeln (DRC) muss grössere als Durchkontaktierungs Bohrdurchmesser sein.
 Clearance cannot be less than Design Rule Checking (DRC) setting value. = Abstand darf nicht kleiner als der in den Designregeln (DRC) definierte Wert sein.
 Not a valid PCB, please check it again = Keine gültige Leiterplatte, bitte überprüfen.
 Previous connection must be closed = Vorherige Verbindung muss geschlossen werden
@@ -2438,7 +2437,7 @@ Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Pfade enthalten nur 'a-z A-Z 0
 Path must begin as 'a-z、A-Z、0-9'! = Path must begin as 'a-z A-Z 0-9'!
 The path length must be between 4~128 characters! = Die Pfadlänge muss zwischen 4~128 Zeichen betragen!
 The title length must be between 2~256 characters! = Die Titellänge muss zwischen 2~256 Zeichen betragen!
-The title can not less than 3 charaters! = Der Titel darf nicht weniger als 3 Zeichen umfassen!
+The title cannot be less than 3 characters! = Der Titel darf nicht weniger als 3 Zeichen umfassen!
 Do you want to delete this file? = Möchten Sie diese Datei löschen?
 Add sub part success = Unterteil erfolgreich hinzufügen
 Please input name and prefix! = Bitte Name und Vorwahl eingeben!
@@ -2468,7 +2467,8 @@ Keyword: = Stichwort:
 Image = Bild
 Image copied. = Bild kopiert.
 Copy failed. = Kopieren fehlgeschlagen
-Image Attribute = Bildattribut
+Copy success. =
+Image Property = Bildattribut
 Locked = Gesperrt
 Unlock All = Alle freischalten
 Unlock = Freischalten
@@ -2486,7 +2486,7 @@ Update failed! = Update fehlgeschlagen
 Successfully updated! = Erfolgreich aktualisiert!
 Successfully updated {0} component(s)! = {0} Komponente(n) erfolgreich aktualisiert!
 Change = Ändern
-Check  Footprints = Bauteilgrundflächen prüfen
+Check Footprints = Bauteilgrundflächen prüfen
 Network Error! = Netzwerkfehler!
 Find Similar Objects = Ähnliche Objekte finden
 Current Sheet = Aktuelle Seite
@@ -2496,7 +2496,7 @@ Range = Bereich
 Net Label/Net Flag/Net Port/Voltage Probe = Netzname/Netzmakierung/Netzport/Spannungsmesser
 Bezier/Freehand Draw = Bezier/Freihand-Zeichnen
 Arc/Pie = Bogen/Kuchen
-Objects Attributes = Objektattribute
+Objects Properties = Objektattribute
 Any = Irgendein
 Same = Dasselbe
 Different = Unterschiedlich
@@ -2728,7 +2728,7 @@ Chrome = Chrome
 FireFox = Firefox
 New Version = Neue Version
 Switch Version = Version wechseln
-Member = Mitglied
+Members = Mitglied
 Update Time = Modifiziert am
 Editor = Editor
 Current Version: = Aktuelle Version:
@@ -2802,7 +2802,7 @@ Previous Image = Vorheriges Bild
 Next Image = Nächstes Bild
 Notice: For reference only, please refer to the real product = Hinweis: Bitte echtes Produkt als Referenz angeben
 It's under designing, please wait. = Es befindet sich in der Entwurfsphase, bitte warten Sie.
-The width of track/arc/circle can not less than 0.1mil! = Die Breite der Leiterbahn/des Bogen/Kreises darf nicht weniger als 0.1mil sein!
+The width of track/arc/circle cannot be less than 0.1mil! = Die Breite der Leiterbahn/des Bogen/Kreises darf nicht weniger als 0.1mil sein!
 Clone success ! = Klonen erfolgreich!
 Footprint Naming Reference = Bauteilgrundfläche-Benennungsreferenz
 3D Model Manager = 3D Modelmanager
@@ -2933,7 +2933,7 @@ Column Spacing = Abstand Spalten
 Row Spacing = Abstand Reihen
 Multiple vias have been placed, do you want to rebuild the copper area? = Es wurden mehrere Durchkontaktierungen platziert, möchten Sie den Kupferbereich neu aufbauen?
 Remove vias finish, do you want to rebuild the copper area? = Durchkontaktierungen entfernen ist beendet, möchten Sie den Kupferbereich neu aufbauen?
-The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! = Die Breite der Leiterbahn / des Bogens / des Kreises darf nicht weniger als 0,051 mm / 2 mil / 0,002 Zoll betragen!
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = Die Breite der Leiterbahn / des Bogens / des Kreises darf nicht weniger als 0,051 mm / 2 mil / 0,002 Zoll betragen!
 Save fail! Please try again! = Speichern fehlgeschlagen! Bitte versuche es erneut!
 Please select a copper outline = Bitte wählen Sie eine Kupferkontur
 Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Kann Kupferfläche auf anderen Lagen nicht finden, fügen Sie bitte zuerst die Kupferfläche mit dem gleichen Netz auf einer anderen Lage hinzu.
@@ -2961,11 +2961,11 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! = Es wurde keine Stichworte definiert.
 Assign successful! = Erfolgreich zugewiesen.
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = Die Pad-Nummer der gefunden Bauteilgrundfläche stimmt nicht mit der Pin-Nummer der Schaltplankomponente überein. Bitte korrigieren Sie die Pad-Nummer und versuchen Sie es erneut!
-Update Attribute = Attribute aktualisieren
+Update Property = Property aktualisieren
 Please fill in at least 5 words. = Bitte mindestens fünf Wörter angeben
 Mouse hovering over the track to highlight the entire network = Das gesamte Netz wird hervorgehebt, sobald die Maus über eine Leiterbahn schwebt.
 Net Highlighting While Cursor Hover the Track = Netz beim schweben über einer Leiterbahn hervorheben.
-When circle set as "Yes", the Pin length must more than 6 = Wenn der Kreis auf "Ja" eingestellt ist, muss die Pinlänge mehr als 6 betragen
+When circle set as "Yes", the Pin length must be more than 6 = Wenn der Kreis auf "Ja" eingestellt ist, muss die Pinlänge mehr als 6 betragen
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Hallo, ich habe ein Problem mit Ihrer Bibliothek gefunden, diese Bibliothek scheint falsch zu sein.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nDanke!
 
 Logout fail! Please try again! = Fehler während der Abmeldung!
@@ -3090,7 +3090,7 @@ The folder depth must not exceed {0} levels = Die Ordnertiefe darf {0} Ebenen ni
 Failed to add project to folder = Projekt konnte nicht zum Ordner hinzugefügt werden
 
 Doesn't support JLCPCB SMT Service = Unterstützt den JLCPCB SMT-Dienst nicht
-for JLCPCB SMT Service = für JLCPCB SMT-Dienst
+{0} for JLCPCB SMT Service = {0} für JLCPCB SMT-Dienst
 
 Reset failed! There are duplicate component prefixes in the current schematic: = Zurücksetzen fehlgeschlagen! Im aktuellen Schaltplan gibt es doppelte Komponenten Vorsilben
 Reset failed! There are duplicate component prefixes in the current PCB: = Zurücksetzen fehlgeschlagen! Es gibt doppelte Komponenten Vorsilben in der aktuellen Leiterplatte:
@@ -3132,9 +3132,9 @@ Canvas origin to body edge = Zeichnungsursprung zur Körperkante
 Lead soldering length = Länge des Lötspur
 Lead soldering part diameter = Durchmesser des Lötteils
 Component shape object doesn't overlap lead shape object, please check carefully. = Das Komponentenformobjekt überlappt das Lötformobjekt nicht, bitte überprüfen Sie es sorgfältig.
-The solder mask expansion of pads ({0},{1}) has a small clearance(less then 0.08mm), it will cause the soldering too short, please modify. = Die Lötmaskenausdehnung der Pads ({0},{1}) hat einen kleinen Abstand (weniger als 0,08 mm), dadurch wird das Löten zu kurz, bitte ändern Sie es.
-The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less then 0.15mm), it will cause the stencil to create fail, please modify. = Die Maskenerweiterungs- oder benutzerdefinierten Maskenobjekte der Pads ({0},{1}) haben einen kleinen Abstand (weniger als 0,15 mm). Dies führt dazu, dass die Schablone fehlschlägt. Bitte ändern Sie sie.
-System footprint must exist pad number 1 or A1, please modify the pad number. = System Bauteilgrundfläche muss Pad-Nummer 1 oder A1 vorhanden sein, bitte ändern Sie die Pad-Nummer.
+The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08mm), it will cause the soldering too short, please modify. = Die Lötmaskenausdehnung der Pads ({0},{1}) hat einen kleinen Abstand (weniger als 0,08 mm), dadurch wird das Löten zu kurz, bitte ändern Sie es.
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. = Die Maskenerweiterungs- oder benutzerdefinierten Maskenobjekte der Pads ({0},{1}) haben einen kleinen Abstand (weniger als 0,15 mm). Dies führt dazu, dass die Schablone fehlschlägt. Bitte ändern Sie sie.
+System footprint must have pad number 1 or A1, please modify the pad number. = System Bauteilgrundfläche muss Pad-Nummer 1 oder A1 vorhanden sein, bitte ändern Sie die Pad-Nummer.
 System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. = Die System Bauteilgrundfläche lässt nicht zu, dass zwei oder mehr Pad-Nummern 1 oder A1 sind, bitte ändern Sie die Pad-Nummer.
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = Die Dokumentenlage hat ein Kreisobjekt, aber die Polarität von jlcPara ist 0, bitte überprüfen Sie die benutzerdefinierten Daten.
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = Es gibt Wiederholungs-Pad-Nummern: {padNumber}, bitte überprüfen Sie, ob es richtig ist, ignorieren Sie dies bitte.
@@ -3170,7 +3170,7 @@ ThermalPad = Thermisches Pad
 Pad Expansion = Ausdehnung Pad
 Custom PasteMask = Eigene Maskierungslage
 Fabrication Tolerance = Fabrikationstoleranz
-Plcarment Tolerance = Platzierungstoleranz
+Placement Tolerance = Platzierungstoleranz
 FirstPin Position = Position erster Pin
 Package Origin = Ursprungspunkt Gehäuse
 Expansion Size = Verbreitungsgrösse

@@ -110,7 +110,7 @@ Pie = Koláč
 Line = Čára
 Polyline = Spojovaná čára
 Rectangle = Obdélník
-Rectangular = 
+Rectangular =
 The rectangle does not support non-90 degree rotation. Please use Solid Region instead. =
 
 Rect = Obdélník
@@ -148,7 +148,7 @@ The component ID will be reset according to the component prefix, this operation
 Please make sure the component prefixes of the schematic and PCB are corresponding =
 Please reset the component ID of corresponding schematic or corresponding PCB too =
 Do you want to continue? = Chcete pokračovat?
-Reset Component ID =
+Reset Component Unique ID =
 Component ID reset successfully! =
 Convert to PCB = Převést na PCB
 Update PCB = Aktualizovat PCB
@@ -298,7 +298,7 @@ Group These Items as a Symbol =
 Group These Items as a Footprint =
 Set Canvas Origin = Zadat počátek plátna
 Document Setting = Nastavení dokumentu
-Sheet Attributes = Atributy sešitu
+Sheet Properties = Atributy sešitu
 Set Board Outline = Zadat hranici desky
 Teardrop... = Teardrop
 Panelize... =
@@ -307,7 +307,7 @@ Smart Dimension =
 Footprint Wizard =
 Footprint Wizard... =
 Select package type =
-Smart Dimension Attributes =
+Smart Dimension Properties =
 Global Delete = Obecné smazání
 Cross Probe = Lokalizovat objekt
 Cross Probe and Place = Lokalizovat a umístit objekt
@@ -321,12 +321,11 @@ By Coordinates... =
 By Center of Pads =
 By Center Grid of Symbols =
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties = Vlastnosti
-Attributes = Atributy
 Apply = Použít
 Save as default = Uložit jako výchozí
-Canvas Attributes = Atributy plátna
+Canvas Properties = Atributy plátna
 Width = Šířka
 Height = Výška
 Background = Pozadí
@@ -352,8 +351,8 @@ Alt Snap = Přichycení s ALT
 Snap size when pressing the Alt key = Velikost přichycení při stisku klávesy ALT
 Prefix Start = Prefix
 
-#Text Attributes
-Text Attributes = Vlastnosti textu
+#Text Properties
+Text Properties = Vlastnosti textu
 Text = Text
 Color = Barva
 Font Family = Písmo
@@ -404,7 +403,7 @@ Common =
 spice.open =
 spice.close =
 Sources =
-Instrument =
+Instruments/Meters = Přístroje/metry
 Transistors =
 Digital Circuits =
 Operational Amplifier =
@@ -661,7 +660,6 @@ SRNANDFFEE =
 SRNORFFEE =
 INVTSEE =
 INVODEE =
-Schmittbuffee =
 Cbuffer =
 SPDT_Open =
 SPDT_Close =
@@ -695,7 +693,7 @@ AC Phase =
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: =
 
 #Pin
-Pin Attributes = Vlastnosti pinu
+Pin Properties = Vlastnosti pinu
 Orientation = Orientace
 Line 45° =
 Line 90° =
@@ -715,7 +713,7 @@ Show = Zobrazit
 Electric = Elektrika
 
 #Junction
-Junction Attributes = Vlastnosti spoje
+Junction Properties = Vlastnosti spoje
 X Location = Pozice X
 Y Location = Pozice Y
 Size = Velikost
@@ -727,9 +725,9 @@ Net Label = Štítek spoje
 #Part
 Prefix = Prefix
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image =
-Image Attributes = Vlastnosti obrázku
+Image Properties = Vlastnosti obrázku
 Image URL = URL obrázku
 Input an image URL = Zadejte URL obrázku
 Invalid image URL = Neplatná URL obrázku
@@ -759,7 +757,7 @@ Color Tolerance = Barva tolerance
 Simplify Level = Úroveň zjednodušení
 Corner Threshold =
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Jednotky
 Snap Size = Velikost uchycení
 Other = Jiné
@@ -823,11 +821,11 @@ Line Width = Tloušťka čáry
 Rotation = Rotace
 Fonts Management =
 
-#Dimension Attributes
-Dimension Attributes = Vlastnosti rozměrů
+#Dimension Properties
+Dimension Properties = Vlastnosti rozměrů
 
-#Footprint Attributes
-Component Attributes =
+#Footprint Properties
+Component Properties =
 Display Prefix =
 Pin Name = Název pinu
 Pin Number = Číslo pinu
@@ -872,9 +870,9 @@ Solid = Pevný
 None = Nic
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Vlastní atributy
-Fixed Attributes =
+#Custom Properties
+Custom Properties = Vlastní atributy
+Fixed Properties =
 Add new parameter = Přidat nový parametr
 Add New Parameter = Přidat nový parametr
 Add New Supplier = Přidat nového dodavatele
@@ -1041,6 +1039,7 @@ Chose file = Vybrat soubor
 File Operation = Operace se souborem
 Import File = Importovat soubor
 Extract Libs = Rozbalit knihovnu
+No Libs! =
 Import File and Extract Libs =
 File type = Typ souboru
 The file size is too large. = Soubor je příliš velký
@@ -1068,7 +1067,7 @@ Manufacturer Part.bom = Manufacturer Part.bom
 Manufacturer.bom = Manufacturer.bom
 
 One-click Purchasing at LCSC = Objednat na LSCS jedním kliknutím
-Order Parts/Check Stock =
+Order Parts =
 Export BOM = Exportovat BOM
 Export PCB BOM =
 Export Schematic BOM =
@@ -1229,7 +1228,7 @@ Mirror = Zrcadlit
 TopLayer = Vrchní vrstva
 BottomLayer = Spodní vrstva
 TopSilkLayer = Vrchní vrstva potisku
-Protractor Attributes = Vlastnosti úhloměru
+Protractor Properties = Vlastnosti úhloměru
 BottomSilkLayer = Spodní vrstva potisku
 
 BoardOutLine = Okraj desky
@@ -1312,8 +1311,8 @@ Please check the packages size and orientation carefully. = Zkontrolujte velikos
 Please check for Design Rule Checking (DRC) errors in the Design Manager. =
 Please rebuild the copper area after modifying tracks and packages. = Obnovte oblast mědi poté, co upravíte cesty a balíčky.
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Po vygenerování Gerber souboru zkontrolujte v {0}prohlížeči Gerber souborů{1}, zda odpovídá požadavkům návrhu.
-Order PCB/SMT at JLCPCB = Objednat PCB/SMT u JLCPCB
-Found the complicated polygon object can not be generated at Gerber, please remove or replace =
+Order PCB/SMT = Objednat PCB/SMT u JLCPCB
+Found the complicated polygon that object cannot be generated at Gerber, please remove or replace =
 ID: {id}, Object: {object}, Location: {location} =
 
 #Dialog DRC
@@ -1348,10 +1347,6 @@ Currently rule name is not allowed to contain magical characters like . and $ =
 [drcRule]
 All = Vše
 [/drcRule]
-
-#Dialog  Update PCB
-Update PCB(Synchronizing PCB from schematics) = Aktualizovat PCB (Synchronizovat PCB na základě schéma)
-
 
 #Dialog Hotkey
 Change Canvas Unit =
@@ -1426,8 +1421,8 @@ Increase Snap Size = Zvětšit velikost uchycení
 Change Copper Zone Visible or Invisible =
 Rebuild All Copper Area = Obnovit oblast mědi
 Toggle PCB Net Display = Zobrazit PCB spoj
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Relative Offset Dialog When Selecting Object(s) =
 Open the FAQ Page =
 Move Object(s) by Reference Point =
@@ -1591,6 +1586,7 @@ Guests can't import a file. Please login! = Hosté nemohou importovat soubory.
 Please create a project before you import a file! = Před importem souboru musíte nejdříve vytvořit projekt.
 Import your LTspice file! = Import LTspice souboru!
 Open LTspice file =
+Open EasyEDA file =
 Please make sure the selected LTspice file is a file saved in LTspice V and above. =
 Saved successfully! = Uloženo!
 Save failed! = Uložení selhalo!
@@ -1602,7 +1598,6 @@ Please save your file first! = Nejdříve uložte soubor, prosím!
 Email address is too short! = Adresa emailu je příliš krátká!
 You have not selected a file to upload. = Nevybrali jste žádný soubor pro nahrání.
 Update = Aktualizovat
-Import.Import Changes =
 No changes, the PCB already matches the schematic! =
 Only public files can be shared = Sdílet můžete pouze veřejné soubory
 Conversion to PCB has failed! = Konverze na PCB selhala!
@@ -1651,7 +1646,7 @@ Error:No GND =
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. =
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
 Probe can not connect with ground(GND)! =
-Spice symbols's attributes can't be empty. =
+Spice symbols's properties can't be empty. =
 Error:No Spice Symbol =
 Simulation limit =
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op =
@@ -1889,7 +1884,7 @@ Track Width Setting =
 
 #Dialog Access Control
 Permissions = Oprávnění
-Operation = Operace
+Operations = Operace
 Access Control = Přístup
 Project Access Control = Přístup k projektu
 Reject = Zamítnout
@@ -1996,6 +1991,7 @@ The file save operation has timed out. Try again and check your Internet connect
 Export Netlist = Export Netlist
 Notifications = Notifikace
 Please select txt or json files. = Vyberte, prosím, soubory s příponou txt nebo json.
+Please select EasyEDA files. =
 Failed to read file [{file}]
 [{file}] is not a valid json file
 Invalid parameters! = Neplatné parametry!
@@ -2057,7 +2053,7 @@ Yes, Check DRC =
 No, Generate Gerber =
 This PCB has uncompleted connection(s), do you want to check the connection(s)? =
 Yes, Check Connection(s) =
-It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = Přesměrujeme vás na webovou stránku třetí strany JLCPCB, se kterou spolupracujeme. Jste připraveni?
+It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = Přesměrujeme vás na webovou stránku třetí strany JLCPCB, se kterou spolupracujeme. Jste připraveni?
 Failed to submit your order, please contact us via support@easyeda.com for help. = Odeslání objednávky selhalo, kontaktujte nás na support@easyeda.com, prosím.
 Failed to submit your order, please contact us via QQ 800821856. =
 Order data generated finish, please click OK button and continue. =
@@ -2074,7 +2070,7 @@ Export your file, then print it yourself. = Vyexportujte soubor a pak si jej vyt
 Trace width is too small = Tloušťka cesty je příliš malá
 Share = Sdílet
 
-Images Attribute = Vlastnosti obrázku
+Images Property = Vlastnosti obrázku
 Connect Pad to Pad = Spojit plošku s ploškou
 Copper Area = Oblast mědi
 Dimension = Rozměr
@@ -2290,7 +2286,7 @@ Track width cannot be less than Design Rule Checking (DRC) setting value. =
 General Clearance cannot be less than Design Rule Checking (DRC) setting value. =
 SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. =
 Hole size cannot be less than Design Rule Checking (DRC) setting value. =
-Design Rule's via diameter must larger than via drill diameter =
+Design Rule's via diameter must be larger than via drill diameter =
 Clearance cannot be less than Design Rule Checking (DRC) setting value. =
 Not a valid PCB, please check it again = Neplatná PCB, zkontrolujte, prosím.
 Previous connection must be closed = Předchozí spojení musí být uzavřené.
@@ -2357,6 +2353,7 @@ Font is missing! You can confirm the dialog and use default font instead or canc
 Owner = Vlastník
 License = Licence
 Part Pins = Piny dílu
+Part Properties =
 Net Pins = Piny spoje
 Net Ratlines =
 Add Parameter = Přidat parametr
@@ -2422,8 +2419,8 @@ Pin to Top =
 Unpin from Top =
 Collapse / Expand =
 Expand =
-Collapse = Sbalit
 Expand All = Rozbalit vše
+Collapse = Sbalit
 Collapse All = Sbalit vše
 Your file hasn't been saved, do you want to save it? = Váš soubor nebyl uložen, chcete jej uložit?
 Don't Save = Neukládat
@@ -2438,14 +2435,16 @@ The title length must be between 2~128 characters. =
 Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Cesta může obsahovat pouze znaky 'a-z, A-Z, -, _, 0-9'!
 Path must begin as 'a-z、A-Z、0-9'! = Cesta musí začínat na znaky 'a-z, A-Z, 0-9'!
 The path length must be between 4~128 characters! = Délka cesty musí být mezi 4 až 128 znaky!
-The title length must be between 2~256 characters! = Délka názvu musí být mezi 2 až 256 znaky!
-The title can not less than 3 charaters! =
+The title length must be between 2 ~ 128 characters! = Délka názvu musí být mezi 2 až 128 znaky!
+Please select an owner =
+Please select obj, wrl or zip file. =
 Do you want to delete this file? = Chcete smazat tento soubor?
 Add sub part success = Dílčí část přidána
 Please input name and prefix! = Zadejte název a prefix, prosím!
 Board outlines are not closed = Okraje desky nejsou uzavřené
 Import Altium file fail, the file needs to be an ASCII file encoded in UTF-8. =
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = Piny "{0}" nejsou přichycené k mřížce! Tento díl může ve schématu způsobit chyby.
+Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} =
 Check Pin = Kontrola pinu
 Failed to read {0} = Chyba při čtení {0}
 {0} is invalid = Neplatný {0}
@@ -2469,7 +2468,8 @@ Keyword: = Klíčové slovo:
 Image = Obrázek
 Image copied. =
 Copy failed. =
-Image Attribute = Vlastnosti obrázku
+Copy success. =
+Image Property = Vlastnosti obrázku
 Locked = Zamknuto
 Unlock All = Odemknout vše
 Unlock = Odemknout
@@ -2477,7 +2477,7 @@ Lock = Zamknout
 Please input pin name and pin number! = Zadejte číslo a název pinu, prosím!
 Left-Hand Panel = Levý panel
 Right-Hand Panel = Pravý panel
-Update All =
+Update Components from Library =
 The pin number(s) can't find the same pad number(s) = Čísla pinů nemůžou nalézt stejná čísla plošek.
 Designator = Označení
 Replace = Nahradit
@@ -2497,7 +2497,7 @@ Range = Rozsah
 Net Label/Net Flag/Net Port/Voltage Probe = Štítek spoje/Značka spoje/Port spoje/Napěťová sonda
 Bezier/Freehand Draw = Bézierové/Ruční kreslení
 Arc/Pie = Úhel/Koláč
-Objects Attributes = Vlastnosti objektů
+Objects Properties = Vlastnosti objektů
 Any = Jakýkoli
 Same = Stejný
 Different = Rozdílný
@@ -2691,6 +2691,9 @@ Current Length : =
 Additional Length : =
 Target Length: =
 Current Length: =
+Adjust Type =
+Double Side =
+Single Side =
 
 can not connect to the server =
 
@@ -2729,10 +2732,11 @@ Chrome =
 FireFox =
 New Version =
 Switch Version =
-Member =
+Members =
 Update Time =
 Editor = Editor
-Current Version: =
+Current Version =
+Latest Version =
 Select a version to switch =
 3D Model =
 Board Side =
@@ -2803,7 +2807,7 @@ Previous Image =
 Next Image =
 Notice: For reference only, please refer to the real product =
 It's under designing, please wait. =
-The width of track/arc/circle can not less than 0.1mil! =
+The width of track/arc/circle cannot be less than 0.1mil! =
 Clone success ! =
 Footprint Naming Reference =
 3D Model Manager =
@@ -2822,6 +2826,8 @@ This component is unmounted =
 
 #find component
 Find Next =
+Pin not found =
+Pad not found =
 Object not found =
 
 #offset Elements
@@ -2934,7 +2940,7 @@ Column Spacing =
 Row Spacing =
 Multiple vias have been placed, do you want to rebuild the copper area? =
 Remove vias finish, do you want to rebuild the copper area? =
-The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! =
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! =
 Save fail! Please try again! =
 Please select a copper outline =
 Can't find copper area at other layers, please add the copper area with the same net at other layer first. =
@@ -2962,11 +2968,11 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! =
 Assign successful! =
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
-Update Attribute =
+Update Property =
 Please fill in at least 5 words. =
 Mouse hovering over the track to highlight the entire network =
 Net Highlighting While Cursor Hover the Track =
-When circle set as "Yes", the Pin length must more than 6 =
+When circle set as "Yes", the Pin length must be more than 6 =
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! =
 
 Logout fail! Please try again! =
@@ -3077,6 +3083,7 @@ Move Folder =
 Please input the folder name =
 Invalid folder name =
 Are you sure to delete this folder? =
+All projects in this folder will be moved to the root directory. =
 Create new folder successfully =
 Failed to create new folder =
 Delete folder successfully =
@@ -3091,7 +3098,7 @@ The folder depth must not exceed {0} levels =
 Failed to add project to folder =
 
 Doesn't support JLCPCB SMT Service =
-for JLCPCB SMT Service =
+{0} for JLCPCB SMT Service =
 
 Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: =
@@ -3133,9 +3140,9 @@ Canvas origin to body edge =
 Lead soldering length =
 Lead soldering part diameter =
 Component shape object doesn't overlap lead shape object, please check carefully. =
-The solder mask expansion of pads ({0},{1}) has a small clearance(less then 0.08mm), it will cause the soldering too short, please modify. =
-The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less then 0.15mm), it will cause the stencil to create fail, please modify. =
-System footprint must exist pad number 1 or A1, please modify the pad number. =
+The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08mm), it will cause the soldering too short, please modify. =
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. =
+System footprint must have pad number 1 or A1, please modify the pad number. =
 System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. =
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. =
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. =
@@ -3171,7 +3178,7 @@ ThermalPad =
 Pad Expansion =
 Custom PasteMask =
 Fabrication Tolerance =
-Plcarment Tolerance =
+Placement Tolerance =
 FirstPin Position =
 Package Origin =
 Expansion Size =
@@ -3211,4 +3218,15 @@ Select Properties =
 Combine the same parts' prefixes in one row =
 Please check at least one item! =
 Pins =
+Check component latest version when open schematic =
+Only show updated components =
+Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. =
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. =
 
+Find System Similar Footprint =
+Found similar footprints at system library, it is recommended to use them first. =
+Copy Title =
+Check system similar footprint =
+Can't find the Similar Footprint =
+Search failed! =
+No package information! =

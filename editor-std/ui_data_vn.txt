@@ -24,8 +24,8 @@ Spice Symbol = Ký hiệu linh kiện mô phỏng
 Spice Subckt = Linh kiện con
 spicePre = Mã hiệu linh kiện
 PCB = Mạch in
-Schematic Module = Mạch điện của Mô đun 
-PCB Module = Bo mạch của Mô đun 
+Schematic Module = Mạch điện của Mô đun
+PCB Module = Bo mạch của Mô đun
 Save... = Lưu ...
 Save As... = Lưu thành...
 Save As Module... = Lưu dưới dạng Mô đun...
@@ -290,15 +290,15 @@ Simulate... = Mô phỏng...
 Config = Cấu hình
 Terms of Service & Privacy Policy = Chính sách Bảo mật & Dịch vụ
 Help Topics = Chủ đề trợ giúp
-3D Model(obj) = Mô hình 3D (obj) 
-3D Model(step) = Mô hình 3D (step) 
+3D Model(obj) = Mô hình 3D (obj)
+3D Model(step) = Mô hình 3D (step)
 SVG Source... = Tập tin SVG nguồn...
 File Source = Tập tin nguồn
 Group These Items as a Symbol = Nhóm thành một linh kiện
 Group These Items as a Footprint = Nhóm thành một Mẫu linh kiện
 Set Canvas Origin = Thiết lập nền vẽ
 Document Setting = Thiết lập tài liệu
-Sheet Attributes = Thuộc tính bản vẽ
+Sheet Properties = Thuộc tính bản vẽ
 Set Board Outline = Thiết lập Đường bao bo mạch
 Teardrop... = Teardrop...
 Panelize... = Ghép Bo mạch...
@@ -307,7 +307,7 @@ Smart Dimension = Định kích thước thông minh
 Footprint Wizard = Quy trình tạo Mẫu linh kiện
 Footprint Wizard... = Quy trình tạo Mẫu linh kiện...
 Select package type = Chọn loại đóng gói linh kiện
-Smart Dimension Attributes = Định kích thước thông minh
+Smart Dimension Properties = Định kích thước thông minh
 Global Delete = Xóa toàn bộ
 Cross Probe = So chéo
 Cross Probe and Place = So chéo và Chèn
@@ -321,12 +321,11 @@ By Coordinates... = Theo tọa độ
 By Center of Pads = Theo trọng tâm của phiến đế linh kiện
 By Center Grid of Symbols = Theo trọng tâm linh kiện
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties = Tính chất
-Attributes = Thuộc tính
 Apply = Áp dụng
 Save as default = Lưu làm mặc định
-Canvas Attributes = Thuộc tính nền vẽ
+Canvas Properties = Thuộc tính nền vẽ
 Width = Độ rộng
 Height = Chiều cao
 Background = Màu nền
@@ -352,8 +351,8 @@ Alt Snap = Bắt dính phím Alt
 Snap size when pressing the Alt key = Kích thước vùng bắt dính khi nhấn phím Alt
 Prefix Start = Bắt đầu của Mã hiệu
 
-#Text Attributes
-Text Attributes = Thuộc tính chữ
+#Text Properties
+Text Properties = Thuộc tính chữ
 Text = Chữ
 Color = Màu
 Font Family = Kiểu Phông chữ
@@ -404,7 +403,7 @@ Common = Thông dụng
 spice.open = mở linh kiện mô phỏng
 spice.close = đóng linh kiện mô phỏng
 Sources = Nguồn
-Instrument = Công cụ
+Instruments/Meters = Dụng cụ / Mét
 Transistors = Bóng bán dẫn
 Digital Circuits = Mạch số
 Operational Amplifier = Mạch khuyếch đại
@@ -419,32 +418,32 @@ Capacitor Settings = Thiết lập Tụ điện
 Diode Settings = Thiết lập Đi ốt
 voltPowersw Settings = Thiết lập điện áp nguồn
 Inductor Settings = Thiết lập Cuộn cảm
-VCVS Settings = Thiết lập VCVS 
-CCCS Settings =Thiết lập CCCS 
-VCCS Settings = Thiết lập VCCS 
-CCVS Settings = Thiết lập CCVS 
-JFET Settings = Thiết lập JFET 
-FET Settings = Thiết lập FET 
+VCVS Settings = Thiết lập VCVS
+CCCS Settings =Thiết lập CCCS
+VCCS Settings = Thiết lập VCCS
+CCVS Settings = Thiết lập CCVS
+JFET Settings = Thiết lập JFET
+FET Settings = Thiết lập FET
 Transmission Line Settings = Thiết lập đường truyền tín hiệu
 Oscilloscope Settings = Thiêt lập Máy Hiện sóng
-XFMR Settings = Thiết lập XFMR 
+XFMR Settings = Thiết lập XFMR
 LOGIC Settings = Thiết lập Lô gic (LOGIC)
 LOGICSTATE Settings = Thiết lập Cổng Lô gic (LOGICSTATE)
 DIGITALCLOCK Settings = Thiết lập Đồng hồ số (DIGITALCLOCK)
 Potentiometer Settings = Thiết lập biến trở (Potentiometer)
-MUTUAL_INDUCTORS Settings = Thiết lập Cuộn cảm tương hỗ 
-NE555 Settings = Thiết lập Hẹn giờ NE555 
+MUTUAL_INDUCTORS Settings = Thiết lập Cuộn cảm tương hỗ
+NE555 Settings = Thiết lập Hẹn giờ NE555
 THREE_PHASE Settings = Thiết lập BA PHA
-Logic_Probe Settings = Thiết lập SO LÔ GIC 
-78XX Settings = Thiết lập 78XX 
-79XX Settings = Thiết lập 79XX 
-OPAMP5PEE Settings = Thiết lập OPAMP5PEE 
-OPAMP5PEECN Settings = Thiết lập OPAMP5PEECN 
-OPAMP3PEE Settings = Thiết lập OPAMP3PEE 
-OPAMP3PEECN Settings = Thiết lập OPAMP3PEECN 
+Logic_Probe Settings = Thiết lập SO LÔ GIC
+78XX Settings = Thiết lập 78XX
+79XX Settings = Thiết lập 79XX
+OPAMP5PEE Settings = Thiết lập OPAMP5PEE
+OPAMP5PEECN Settings = Thiết lập OPAMP5PEECN
+OPAMP3PEE Settings = Thiết lập OPAMP3PEE
+OPAMP3PEECN Settings = Thiết lập OPAMP3PEECN
 DELAY_FUSE Settings = Thiết lập DELAY_FUSE
 Ratio = Tỷ lệ
-K[%]
+K[%] =
 Model = Loại
 States = Trạng thái
 Voltage[V] = Điện áp [V]
@@ -459,7 +458,7 @@ power type = loại nguồn
 Voltmeter Resistance(R)(Ω) = Đo điện áp theo trỏ kháng (R)(Ω)
 Amperometer Resistance(R)(Ω) = Đo dòng theo trở kháng (R)(Ω)
 mu.V = mu.V
-mu.A = mu.A 
+mu.A = mu.A
 Sine Wave = Sóng Sin
 Triangular Wave = Sóng vuông
 Rectangular Wave = Sóng chữ nhật
@@ -468,17 +467,17 @@ DC = Một chiều (DC)
 SINE = SIN
 PULSE = XUNG
 EXP = MŨ
-SFFM =SFFM 
-PWL =PWL 
-B.spice =Linh kiện mô phỏng B 
+SFFM =SFFM
+PWL =PWL
+B.spice =Linh kiện mô phỏng B
 DC Value[V] = Điện áp một chiều [V]
 DC Value[A] = Cường độ dòng một chiều [A]
 DC offset[V] = Điện áp biến thiên một chiều[V]
 DC offset[A] = Dòng điện biến thiên một chiều[A]
 Amplitude[V] =  Biên độ điện áp [V]
 Amplitude[A] = Biên độ dòng điện [V]
-Freq[Hz] = Tần số [Hz] 
-Theta[1/s]
+Freq[Hz] = Tần số [Hz]
+Theta[1/s] =
 Tdelay[s]=Độ trễ [s]
 Phi[deg]=Góc [deg]
 Tperiod[s]=Khoảng thời gian [s]
@@ -492,9 +491,9 @@ Vinitial[A]=Dòng điện ban đầu [A]
 Vpulsed[V]=Điện áp xung [V]
 Vpulsed[A]=Dòng xung [A]
 Rise Delay[s]=Khoảng trễ tăng [s]
-Rise Tau[s]
+Rise Tau[s] =
 Fall Delay[s]=Khoảng trễ giảm [s]
-Fall Tau[s]
+Fall Tau[s] =
 Carrier Freq[Hz]=Tần số sóng mang [Hz]
 Modulation Index = Chỉ số biên độ
 Signal Freq[Hz]=Tần số tín hiệu [Hz]
@@ -507,23 +506,23 @@ Amplitude[Vp]=Biên độ[Vp]
 Offset[V]=Bù áp [V]
 Rise/Fall Time[sec]=Thời gian Tăng/Giảm [sec]
 Capacitance[F]=Dung kháng [F]
-sComponent =s Linh kiện 
+sComponent =s Linh kiện
 Inductance[H]=Cảm kháng [H]
-Gbw = Gbw 
+Gbw = Gbw
 Slewrate = Chu kỳ quét
-Avol =Avol 
-Rout(Ω) = Điện trở ngoài(Ω) 
-Rin(Ω) = Điện trở trong(Ω) 
-Ibias[A]
-Inhi[V]
-Inlo[V]
-Isc[A]
-Outhi[V]
-Outlo[V]
-Vabsmax[V]
-Vmin[V]
-Iq[A]
-Cin[F]
+Avol =Avol
+Rout(Ω) = Điện trở ngoài(Ω)
+Rin(Ω) = Điện trở trong(Ω)
+Ibias[A] =
+Inhi[V] =
+Inlo[V] =
+Isc[A] =
+Outhi[V] =
+Outlo[V] =
+Vabsmax[V] =
+Vmin[V] =
+Iq[A] =
+Cin[F] =
 high = cao
 low = thấp
 Oscilloscope = Máy Hiện sóng
@@ -538,29 +537,29 @@ Simulation file exceed = Tập tin Mô phỏng vượt quá
 The simulation file is too large and has been stopped for performance reasons. = Tập tin mô phỏng quá lớn và đã bị dừng thực thi do năng lực mô phỏng của thiết bị
 Timebase = Dựa vào thời gian
 Scale: = Tỷ lệ:
-X pos.(Div): =Vị trí X (Div): 
-Y pos.(Div): =Vị trí Y (Div): 
+X pos.(Div): =Vị trí X (Div):
+Y pos.(Div): =Vị trí Y (Div):
 View meter... = Xem công cụ đo
 The circuit has components without simulation model: = Mạch điện có linh kiện không có chế độ mô phỏng
 Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = Định thời gian mô phỏng quá ngắn, hãy đợi thêm 5 giây và thử lại; nếu thông điệp này vẫn hiện ra, có lẽ bạn đã mô phỏng quá 500 lần trên ngày.
 Resistor1_US = Điện trở kiểu Mỹ (1_US)
 Resistor1_EU/IEC =Điện trở kiểu Châu Âu (1_EU/IEC )
-Resistor1_3D =Điện trở 3D (1_3D) 
+Resistor1_3D =Điện trở 3D (1_3D)
 Capacitor1_US =Tụ điện kiểu Mỹ (1_US)
-Capacitor1_EU/IEC =Tụ điện kiểu Châu Âu (1_EU/IEC) 
+Capacitor1_EU/IEC =Tụ điện kiểu Châu Âu (1_EU/IEC)
 Capacitor1_3D =Tụ điện 3D (1_3D)
 Rheostat_US =Biến trở kiểu Mỹ (US)
-Rheostat_EU/IEC =Biến trở kiểu Châu Âu (EU/IEC) 
+Rheostat_EU/IEC =Biến trở kiểu Châu Âu (EU/IEC)
 Rheostat_3D =Biến trở  (3D)
 Capacitor_Electrolytic_US =Tụ hóa kiểu Mỹ (US)
 Capacitor_Electrolytic_EU/IEC =Tụ hóa kiểu Châu Âu (EU/IEC)
-Capacitor_Electrolytic_3D =Tụ hóa 3D(3D) 
+Capacitor_Electrolytic_3D =Tụ hóa 3D(3D)
 Inductor_US =Cuộn cảm kiểu Mỹ (US)
-Inductor_EU/IEC =Cuộn cảm kiểu Châu Âu (EU/IEC) 
+Inductor_EU/IEC =Cuộn cảm kiểu Châu Âu (EU/IEC)
 Inductor_3D =Cuộn cảm 3D (3D)
 Resistor2_US =Điện trở kiểu Mỹ (2_US)
 Resistor2_EU/IEC =Điện trở kiểu Châu Âu (2_EU/IEC)
-Resistor2_3D =Điện trở 3D (2_3D) 
+Resistor2_3D =Điện trở 3D (2_3D)
 Multimeter = Máy đo
 Multimeter_3D = Máy đo (3D)
 Oscilloscope = Máy hiện sóng
@@ -569,7 +568,7 @@ Signal_Generator = Bộ tạo tín hiệu
 Signal Generator_3D = Bộ tạo tín hiệu (3D)
 Wattmeter = Máy đo Công suất
 Wattmeter_3D = Máy đo Công suất (3D)
-NSSWS1080T_3D
+NSSWS1080T_3D =
 Voltage_Source_VDC = Điện áp nguồn VDC
 Voltage_Source_VSin = Điện áp nguồn VSin
 Voltage_Source_VPULSE = Điện áp nguồn VPULSE
@@ -577,19 +576,19 @@ Voltage_Source_VEXP = Điện áp nguồn VEXP
 Voltage_Source_VSFFM = Điện áp nguồn VSFFM
 Voltage_Source_VPWL = Điện áp nguồn VPWL
 Voltage_Source_V_Behavioral_Source = Nguồn điện áp_V_Đặc tính nguồn
-Current_Source_IDC = Dòng nguồn IDC 
+Current_Source_IDC = Dòng nguồn IDC
 Current_Source_ISin = Dòng nguồn ISin
 Current_Source_IPULSE = Dòng nguồn IPULSE
 Current_Source_IEXP = Dòng nguồn IEXP
 Current_Source_ISFFM = Dòng nguồn ISFFM
 Current_Source_IPWL = Dòng nguồn IPWL
 Current_Source_I_Behavioral_Source = Dòng nguồn đặc tính I
-CCCS_1
-CCCS_2
-CCVS_1
-CCVS_2
-VCCS 
-VCVS 
+CCCS_1 =
+CCCS_2 =
+CCVS_1 =
+CCVS_2 =
+VCCS =
+VCVS =
 Three_Phase_Wye_Load = Tải Wye ba pha
 Three_Phase_Delta_Load = Tải Delta ba pha
 78XX = 78XX
@@ -647,7 +646,7 @@ OPAMP3PEE_CN =
 OPAMP5PEE_US =
 OPAMP5PEE_CN =
 Voltage_Controlled_Switch = Công tắc điều khiển điện áp
-Current_Controlled_Switch = Công tắc điều khiển dòng 
+Current_Controlled_Switch = Công tắc điều khiển dòng
 FUSE = CẦU CHÌ
 Delay_Fuse = Cầu chì trễ
 Transmission_Line = Đường truyền
@@ -673,7 +672,7 @@ BCD_Segment = Hiển thị BCD
 Seven_Segment = Hiển thị Bảy đoạn
 Traffic_Light = Đèn báo hiệu
 Lamp Settings = Thiết lập đèn
-Power[W] = Nguồn công suất[W] 
+Power[W] = Nguồn công suất[W]
 Dropout Voltage[V]=Sụt áp [V]
 Current[A]=Dòng điện[A]
 Threshold[V]=Ngưỡng áp[V]
@@ -695,7 +694,7 @@ AC Phase = Pha AC
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Có một số linh kiện không có mẫu mô phỏng, hãy dùng "EElib" và "Linh kiện mô phỏng" ở mục "Thư viện" trong chế độ "Mô phỏng", hoặc bạn cũng có thể gán mẫu linh kiện mô phỏng cho chúng:
 
 #Pin
-Pin Attributes = Thuộc tính chân linh kiện
+Pin Properties = Thuộc tính chân linh kiện
 Orientation = Hướng
 Line 45° = Đường 45°
 Line 90° = Đường 90°
@@ -715,7 +714,7 @@ Show = Hiển thị Chân linh kiện
 Electric = Đặc tính điện học
 
 #Junction
-Junction Attributes = Thuộc tính điểm nối
+Junction Properties = Thuộc tính điểm nối
 X Location = Vị trí X
 Y Location = Vị trí Y
 Size = Kích thước
@@ -727,9 +726,9 @@ Net Label = Nhãn mạch
 #Part
 Prefix = Mã hiệu
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = Thêm Ảnh
-Image Attributes = Thuộc tính Ảnh
+Image Properties = Thuộc tính Ảnh
 Image URL = Địa chỉ URL của Ảnh
 Input an image URL = Hãy nhập địa chỉ URL ảnh
 Invalid image URL = Địa chỉ URL của ảnh không hợp lệ
@@ -759,7 +758,7 @@ Color Tolerance = Dung sai màu
 Simplify Level = Mức đơn giản
 Corner Threshold = Giới hạn góc
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Đơn vị
 Snap Size = Khoảng cách tự dính
 Other = Khác
@@ -767,7 +766,7 @@ Routing Width = Độ rộng Đường mạch
 [router]
 Routing Width = Độ rộng Đường mạch
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Hãy sử dụng phím nóng {0}{shiftw}{1} hoặc {2}{tab}{3} để thay đổi độ rộng Đường mạch khi đang vẽ mạch. 
+Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Hãy sử dụng phím nóng {0}{shiftw}{1} hoặc {2}{tab}{3} để thay đổi độ rộng Đường mạch khi đang vẽ mạch.
 Routing Angle = Góc Đường mạch
 Routing Conflict = Xung đột Đường mạch
 Remove Loop = Loại bỏ vòng lặp
@@ -823,13 +822,13 @@ Line Width = Độ rộng dòng
 Rotation = Góc quay
 Fonts Management = Quản lý Phông chữ
 
-#Dimension Attributes
-Dimension Attributes = Thuộc tính kích thước
+#Dimension Properties
+Dimension Properties = Thuộc tính kích thước
 
-#Footprint Attributes
-Component Attributes = Đặc tính linh kiện
+#Footprint Properties
+Component Properties = Đặc tính linh kiện
 Display Prefix = Mã hiệu
-Pin Name = Tên Chân 
+Pin Name = Tên Chân
 Pin Number = Số Chân
 Spice Pin Number = Số chân linh kiện
 Graphics = Đồ họa
@@ -872,9 +871,9 @@ Solid = Phủ kín
 None = Không có gì
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Đặc tính tùy chỉnh
-Fixed Attributes = Đặc tính cố định
+#Custom Properties
+Custom Properties = Đặc tính tùy chỉnh
+Fixed Properties = Đặc tính cố định
 Add new parameter = Thêm thông số mới
 Add New Parameter = Thêm thông số mới
 Add New Supplier = Thêm Nhà Sản xuất mới
@@ -980,7 +979,7 @@ Supplier Part = Linh kiện của Nhà cung cấp
 Supplier Part Number = Mã linh kiện của Nhà cung cấp
 Link = Liên kết
 link = liên kết
-The professional function please refer at: = Xem thêm hàm chuyên sâu tại: 
+The professional function please refer at: = Xem thêm hàm chuyên sâu tại:
 
 #Dialog Clone My Part
 #Clone it to a project
@@ -1006,9 +1005,9 @@ Board Outline = Đường bao bo mạch
 Plane Zone = Vùng mặt phẳng
 [drcRule]
 Width = Độ rộng
-DRC Width = Độ rộng DRC 
+DRC Width = Độ rộng DRC
 Length = Chiều dài
-DRC Length = Chiều dài DRC 
+DRC Length = Chiều dài DRC
 Drill Diameter = Đường kính lỗ khoan
 DRC Drill Diameter = Đường kính lỗ khoan DRC
 Diameter = Đường kính
@@ -1068,7 +1067,7 @@ Manufacturer Part.bom = Mã số
 Manufacturer.bom = Nhà sản xuất
 
 One-click Purchasing at LCSC = Nhấn để mua Trung tâm mua sắm LCSC (Li Chong)
-Order Parts/Check Stock = Đặt hàng/ Kiểm tra kho hàng
+Order Parts = Đặt hàng/ Kiểm tra kho hàng
 Export BOM = Xuất bảng linh kiện
 Export PCB BOM = Xuất bảng mạch
 Export Schematic BOM = Xuất bản vẽ
@@ -1076,7 +1075,7 @@ ID.bom = Mã
 Name.bom = Tên
 [bom]
 Name = Tên
-LCSC Assembly = Dây chuyền sản xuất LCSC 
+LCSC Assembly = Dây chuyền sản xuất LCSC
 Value = Trị số
 ID = Mã
 Supplier = Nhà Cung cấp
@@ -1085,7 +1084,8 @@ Price = Giá
 Quantity = Số lượng
 Package = Kiểu
 Components = Tên linh kiện
-Manufacturer [/bom]= Nhà sản xuất [/ bom]
+Manufacturer = Nhà sản xuất [/ bom]
+[/bom]
 Manufacturer Part = Mã linh kiện của nhà sản xuất
 
 #Dialog Run
@@ -1152,7 +1152,7 @@ No Data! = Không có số liệu!
 Quantity = Số lượng
 Manufacturer Part = Linh kiện của Nhà sản xuất
 manufacturer Part = linh kiện của Nhà sản xuất
-Manufacturer [/ bom]= Nhà sản xuất [/ bom]
+Manufacturer = Nhà sản xuất
 manufacturer = nhà sản xuất
 voltage = Điện áp
 Library = Thư viện
@@ -1166,7 +1166,7 @@ Classes = Lớp
 power = nguồn điện
 Power = Nguồn điện
 LCSC Part# = Trung tâm mua sắm linh kiện LCSC (Li Chong)
-Stock [lib]= Còn hàng [lib]
+Stock = Còn hàng
 Report Error... = Báo cáo lỗi...
 Report Error =Báo cáo lỗi
 Thanks for your feedback! = Cảm ơn ý kiến phản hồi của bạn!
@@ -1196,7 +1196,7 @@ Frequency Tolerance = Dung sai vè tần số
 Power (Watts) = Công suất nguồn (W)
 Power - Max = Nguồn - Tối đa
 Frequency = Tần số
-Voltage Rating(Vdc,Vac) = Điện áp danh định(Vdc,Vac) 
+Voltage Rating(Vdc,Vac) = Điện áp danh định(Vdc,Vac)
 Voltage = Điện áp
 Current Rating = Đong hiện thời
 Rated current = Dòng danh định
@@ -1228,7 +1228,7 @@ Mirror = Ánh xạ
 TopLayer = Lớp trên
 BottomLayer = Lớp dưới
 TopSilkLayer = Lớp đế linh kiện trên
-Protractor Attributes = Đặc tính góc
+Protractor Properties = Đặc tính góc
 BottomSilkLayer = Lớp đế linh kiện dưới
 BoardOutLine = Đường bao bảng mạch
 TopAssembly = Lớp lắp ráp trên
@@ -1297,7 +1297,7 @@ Signal = Tín hiệu
 Plane = Mặt phẳng
 Non-Signal = Không có tín hiệu
 Other = Khác
-Please delete all the objects of the layers first! The layers are: = Hãy xóa tất cả các đối tượng tại các lớp trước! Các lớp gồm: 
+Please delete all the objects of the layers first! The layers are: = Hãy xóa tất cả các đối tượng tại các lớp trước! Các lớp gồm:
 You are converting Signal Layer to Plane Layer, There're some non-track objects remain on following layers. Please delete the objects manually on the canvas. = Bạn đang chuyển Lớp tín hiệu sang mặt phẳng, Có một số đối tượng không có Đường mạch vãn còn trên các Lớp. Hãy xóa chúng bằng tay trên nền vẽ.
 Please delete all the objects of this layer first! = Hãy xóa các đối tượng trên Lớp này trước!
 
@@ -1310,9 +1310,9 @@ Please check the packages size and orientation carefully. = Hãy kiểm tra cẩ
 Please check for Design Rule Checking (DRC) errors in the Design Manager. = Hãy kiểm tra các lỗi vi phạm Quy tắc thiết kế (DRC) trong trình thiết kế.
 Please rebuild the copper area after modifying tracks and packages. = Hãy định hình lại Vùng phủ đồng sau khi thiết lập Đường mạch và linh kiện.
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Sau khi tập tin Gerber được tạo ra, sử dụng trình xem {0} tập tin Gerber {1} để xem tập tin Gerber có đáp ứng các yêu cầu thiết kế
-Order PCB/SMT at JLCPCB = Đặt mua PCB/SMT tại JLCPCB
-Found the complicated polygon object can not be generated at Gerber, please remove or replace = Phát hiện đối tượng đa giác phức tạp không thể tạo ra được trên tập tin Gerber
-ID: {id}, Object: {object}, Location: {location} = Mã: {id}, Linh kiện: {object}, Vị trí: {location} 
+Order PCB/SMT = Đặt mua PCB/SMT tại JLCPCB
+Found the complicated polygon that object cannot be generated at Gerber, please remove or replace = Phát hiện đối tượng đa giác phức tạp không thể tạo ra được trên tập tin Gerber
+ID: {id}, Object: {object}, Location: {location} = Mã: {id}, Linh kiện: {object}, Vị trí: {location}
 
 #Dialog DRC
 Item = Mục
@@ -1365,7 +1365,7 @@ Cycle Backward to the Previous Open Tabbed Document = Chuyển về phía sạu 
 Switch to the Previous Layer(on the Numeric Keypad) = Chuyển về Lớp trước (trên bàn phím số)
 Switch to the Next Layer(on the Numeric Keypad) = Chuyển về Lớp sau (trên bàn phím số)
 Toggle Layers Which is Not Active = Bật/tắt lớp đang ẩn
-Hotkey Setting = Cài đặt phím nóng 
+Hotkey Setting = Cài đặt phím nóng
 Document Type = Loại tài liệu
 Shortcut = Phím tắt
 Function = Chức năng
@@ -1424,8 +1424,8 @@ Increase Snap Size = Tăng kích thước điểm dính lưới
 Change Copper Zone Visible or Invisible = Ẩn/ Hiện Vùng phủ đồng
 Rebuild All Copper Area = Định hình tất cả các Vùng phủ đồng
 Toggle PCB Net Display = Ẩn/hiện mạch trên PCB
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Hiển thị hộp thoại thuộc tính khi chèn linh kiện;<br/>Hiển thị Hộp thoại thiết lập vị trí khi dán linh kiện
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Hiển thị hộp thoại thuộc tính khi chèn linh kiện;<br/>Hiển thị Hộp thoại Vị trí tuyệt đối khi chọn linh kiện;<br/>Hiển thị Hộp thoại vị trí khi dán linh kiện
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Hiển thị hộp thoại thuộc tính khi chèn linh kiện;<br/>Hiển thị Hộp thoại thiết lập vị trí khi dán linh kiện
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Hiển thị hộp thoại thuộc tính khi chèn linh kiện;<br/>Hiển thị Hộp thoại Vị trí tuyệt đối khi chọn linh kiện;<br/>Hiển thị Hộp thoại vị trí khi dán linh kiện
 Show Relative Offset Dialog When Selecting Object(s) = Hiển thị Vị trí tương đối khi lựa chọn linh kiện
 Open the FAQ Page = Mở trang Hỏi đáp FAQ
 Move Object(s) by Reference Point = Di chuyển linh kiện theo điểm tham chiếu
@@ -1441,7 +1441,7 @@ Modify = Chỉnh sửa
 Delete = Xóa bỏ
 Add sub part = Thêm thiết bị phụ
 Clone = Nhân bản
-Version History = Lịch sử phiên bản 
+Version History = Lịch sử phiên bản
 Refresh List = Làm mới danh sách
 Create New Project = Tạo dự án mới
 Delete = Xóa bỏ
@@ -1600,7 +1600,6 @@ Please save your file first! = Hãy lưu tập tin của bạn trước!
 Email address is too short! = Địa chỉ e-mail quá ngắn!
 You have not selected a file to upload. = Bạn chưa chọn tập tin để tải lên.
 Update = Đã cập nhật
-Import.Import Changes = Nhập các thay đổi
 No changes, the PCB already matches the schematic! = Không có thay đổi nào, mạch in hiện tương thích hoàn toàn với bản vẽ!
 Only public files can be shared = Chỉ có thể chia sẻ các tập tin tin công khai
 Conversion to PCB has failed! = Chuyển đổi mạch in không thành công
@@ -1649,7 +1648,7 @@ Error:No GND = Lỗi: Không có nối mát (GND)
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Mạch điện này không nối mát (GND). Hãy nối mát trước từ công cụ nối mát.
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Mạch hiện thời không có linh kiện cấp nguồn áp hoặc dòng. Hãy đạt linh kiện cấp nguồn trước vào từ thư viện EElib ở bên trái hoặc thư viện linh kiện mô phỏng.
 Probe can not connect with ground(GND)! = Không thể nối đất (GND) Điểm so kiểm!
-Spice symbols's attributes can't be empty. = Thuộc tính linh kiện mô phỏng không được để trống.
+Spice symbols's properties can't be empty. = Thuộc tính linh kiện mô phỏng không được để trống.
 Error:No Spice Symbol = Lỗi: Không có linh kiện mô phỏng
 Simulation limit = Giới hạn mô phỏng
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = Có máy đo đa năng trong mạch điện và cần mô phỏng chúng bằng lệnh .tran hoặc .op
@@ -1820,9 +1819,9 @@ Nand Gate = Cổng Nand
 Not Gate = Cổng Not
 Xnor Gate = Cổng Xnor
 Tube Diode = Diode ống
-Tube Triode = Triode Ống 
-Tube Tetrode = Tetrode Ống 
-Tube Pentode = Pentode Ống 
+Tube Triode = Triode Ống
+Tube Tetrode = Tetrode Ống
+Tube Pentode = Pentode Ống
 Voltage Controlled Switch = Công tắc kiểm soát điện áp
 Current Controlled Switch = Công tắc kiểm soát dòng
 SPST ON = Công tắc SPST Mở
@@ -1887,7 +1886,7 @@ Track Width Setting = Thiết lập độ rộng Đường mạch
 
 #Dialog Access Control
 Permissions = Cho phép
-Operation = Hành động
+Operations = Hành động
 Access Control = Kiểm soát truy cập
 Project Access Control = Kiểm soát truy cập dự án
 Reject = Bị từ chối
@@ -1933,8 +1932,7 @@ type = kiểu
 #Dialog Libs Management
 Report error = Báo lỗi
 Please give us some information to help us find the problem. = Chúng tôi một số thông tin để tìm ra vấn đề.
-Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = 
-Không thể đặt linh kiện này vào tài liệu: Chỉ có thể đặt ký hiệu linh kiện vào bản vẽ; Chỉ đặt được Mẫu linh kiện vào Mạch in.
+Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = Không thể đặt linh kiện này vào tài liệu: Chỉ có thể đặt ký hiệu linh kiện vào bản vẽ; Chỉ đặt được Mẫu linh kiện vào Mạch in.
 Save it as a favorite part = Lưu thành linh kiện ưa thích
 Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = Chỉ những người dùng đã đăng nhập mới có thể lưu nó thành linh kiện yêu thích nhưng khách (nặc danh) có thể đặt linh kiện trực tiếp bản vẽ của họ. Bạn muốn đặt linh kện này ngay?
 
@@ -2055,7 +2053,7 @@ Yes, Check DRC = Có hãy kiểm tra DRC
 No, Generate Gerber = Không, hãy tạo tập tin Gerber
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = Mạch in này có kết nối chưa hoàn thiện, bạn muốn kiểm tra kết nối không?
 Yes, Check Connection(s) = Có kiểm tra đi
-It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = Chương trình sẽ đưa bạn đến trang web của JLCPCB - đối tác hợp tác của chúng tôi. Bạn sẵn sàng chưa?
+It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = Chương trình sẽ đưa bạn đến trang web của JLCPCB - đối tác hợp tác của chúng tôi. Bạn sẵn sàng chưa?
 Failed to submit your order, please contact us via support@easyeda.com for help. = Lệnh đặt hàng thất bại, vui lòng liên hệ với support@easyeda.com để được trợ giúp.
 Failed to submit your order, please contact us via QQ 800821856. = Không gửi đặt hàng được, vui lòng liên hệ với chúng tôi qua QQ 800821856.
 Order data generated finish, please click OK button and continue. = Hoàn tất việc tạo tập tin Gerber, Nhấn OK để tiếp tục
@@ -2072,7 +2070,7 @@ Export your file, then print it yourself. = Xuất tập tin và tự in
 Trace width is too small = Độ rộng Đường mạch quá nhỏ
 Share = Chia sẻ
 
-Images Attribute = Thuộc tính hình ảnh
+Images Property = Thuộc tính hình ảnh
 Connect Pad to Pad = Nối phiến đế linh kiện với nhau
 Copper Area = Vùng phủ đồng
 Dimension = Kích thước
@@ -2086,7 +2084,7 @@ General Package = Kiểu đóng gói thông dụng
 General Packages = Kiểu đóng gói thông dụng
 favorite Package = kiểu đóng gói ưa thích
 Board Cutout = Mạch cắt đi
-Surface Mount = Dán 
+Surface Mount = Dán
 JLCPCB Part Class = Lớp linh kiện JLCPCB
 base = nền
 expand = mở rộng
@@ -2229,7 +2227,7 @@ Footprint PAD information = Thông tin phiến đế mẫu
 Footprint Categories = Nhóm
 Pad Number = Số hiệu phiến đế linh kiện
 Search Footprint = Tìm Mẫu linh kiện
-Filter by keyword = Lọc theo từ khoá 
+Filter by keyword = Lọc theo từ khoá
 System Libs = Thư viện hệ thống
 
 #dialog global delete
@@ -2288,7 +2286,7 @@ Track width cannot be less than Design Rule Checking (DRC) setting value. = Đ�
 General Clearance cannot be less than Design Rule Checking (DRC) setting value. = Khoảng hở chung không được nhỏ hơn giá trị quy định trong Quy tắc thiết kế DRC.
 SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = Khoảng hở SMD không được nhỏ hơn giá trị quy định trong Quy tắc thiết kế DRC.
 Hole size cannot be less than Design Rule Checking (DRC) setting value. = Kích thước lỗ không được nhỏ hơn giá trị quy định trong Quy tắc thiết kế DRC.
-Design Rule's via diameter must larger than via drill diameter = Đường kính lỗ Via theo Quy tắc thiết kế DRC phải lớn hơn đường kính lỗ khoan.
+Design Rule's via diameter must be larger than via drill diameter = Đường kính lỗ Via theo Quy tắc thiết kế DRC phải lớn hơn đường kính lỗ khoan.
 Clearance cannot be less than Design Rule Checking (DRC) setting value. = Khoảng hở không được nhỏ hơn giá trị quy định trong Quy tắc thiết kế DRC.
 Not a valid PCB, please check it again = Mạch in PCB không hợp lệ, vui lòng kiểm tra lại
 Previous connection must be closed = Bạn phải đóng kết nối trước
@@ -2437,7 +2435,7 @@ Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Đường dẫn chỉ được
 Path must begin as 'a-z、A-Z、0-9'! = Đường dẫn phải bắt đầu bằng 'a-z, A-Z, 0-9'!
 The path length must be between 4~128 characters! = Độ dài đường dẫn từ 4 ~ 128 ký tự!
 The title length must be between 2~256 characters! = Độ dài Tiêu đề từ 2 ~ 256 ký tự!
-The title can not less than 3 charaters! = Tiêu đề không được ngắn hơn 3 ký tự!
+The title cannot be less than 3 characters! = Tiêu đề không được ngắn hơn 3 ký tự!
 Do you want to delete this file? = Bạn muốn xóa tập tin này?
 Add sub part success = Thêm linh kiện con
 Please input name and prefix! = Vui lòng nhập tên và Mã hiệu!
@@ -2467,7 +2465,8 @@ Keyword: = Từ khóa
 Image = Hình ảnh
 Image copied. = Hình ảnh đã được sao chép
 Copy failed. = Không sao chép được.
-Image Attribute = Thuộc tính ảnh
+Copy success. =
+Image Property = Thuộc tính ảnh
 Locked = Đã khóa
 Unlock All = Bỏ khóa tất cả
 Unlock = Bỏ khóa
@@ -2495,7 +2494,7 @@ Range = Dải lựa chọn
 Net Label/Net Flag/Net Port/Voltage Probe = Nhãn Đường mạch/ Đuôi/ Điểm nối/ Điểm Kiểm tra
 Bezier/Freehand Draw = Vẽ Bezier/Tự do
 Arc/Pie = Cung/Bánh
-Objects Attributes = Thuộc tính linh kiện
+Objects Properties = Thuộc tính linh kiện
 Any = Bất kỳ
 Same = Giống
 Different = Khác
@@ -2548,7 +2547,7 @@ Common Used = Thường được dùng
 Original Theme = Họa tiết gốc
 Theme Setting = Cài đặt họa tiết
 Change the theme colors of your design = Thay đổi màu họa tiết thiết kế của bạn
-White on Black = Trắng trên nền đen 
+White on Black = Trắng trên nền đen
 Black on White = Đen trên nền trắng
 Custom Theme = Họa tiết tùy biến
 Color Setting = Thiết lập màu
@@ -2706,7 +2705,7 @@ Apply = Áp dụng
 Cancel = Hủy
 Copper Area do not allow self-intersection! = Vùng phủ đồng không được tự giao nhau!
 No copper area! = Không có Vùng phủ đồng!
-#Dialog report error 
+#Dialog report error
 Datasheet = Thông số linh kiện
 Verification = Xác minh
 Symbol = Ký hiệu linh kiện
@@ -2723,11 +2722,11 @@ Location Y = Vị trí Y
 Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = Phiên bản trình duyệt hiện tại có thể không hỗ trợ một số tính năng. Hãy sử dụng phiên bản Chrome hay Firefox mới nhất hoặc dùng phần mềm cho máy để bàn.
 EasyEDA Client = Phần mềm máy để bàn EasyEDA
 LCEDA Client = Phần mềm máy để bàn LCEDA
-Chrome = Trình duyệt Chrome 
+Chrome = Trình duyệt Chrome
 FireFox = Trình duyệt FireFox
 New Version = Phiên bản mới
 Switch Version = Chuyển phiên bản
-Member = Thành viên
+Members = Thành viên
 Update Time = Thời gian cập nhập
 Editor = Trình biên tập
 Current Version: = Phiên bản hiện thời:
@@ -2774,7 +2773,7 @@ Update Footprint = Cập nhập mẫu linh kiện
 Find footprint(s) have been updated, do you want to update? = Tìm thấy bản cập nhập mẫu linh kiện, bạn có muốn cập nhập?
 3D File: = Tập tin 3D:
 Model List = Danh sách mô hình
-Are you sure merge net {0} and net {1}? = Bạn muốn gộp mạch {0} với mạch {1}? 
+Are you sure merge net {0} and net {1}? = Bạn muốn gộp mạch {0} với mạch {1}?
 Display Footprint = Hiển thị mẫu linh kiện
 Display Footprint Name While Placing Component = Hiển thị mẫu linh kiện trong lúc chèn linh kiện
 Annotate Prefix Automatically After Placing Component = Tự động đưa chủ thích sau khi chèn linh kiện
@@ -2801,7 +2800,7 @@ Previous Image = Hình ảnh trước
 Next Image = Hình ảnh tiếp
 Notice: For reference only, please refer to the real product = Chú ý: Chỉ để tham khảo, đề nghị xem sản phẩm thật
 It's under designing, please wait. = Hiện đang được thiết kế, xin hãy đợi.
-The width of track/arc/circle can not less than 0.1mil! = Độ rộng Đường mạch/cung tròn/ hình tròn không thẻ nhỏ hơn 0,1mil!
+The width of track/arc/circle cannot be less than 0.1mil! = Độ rộng Đường mạch/cung tròn/ hình tròn không thẻ nhỏ hơn 0,1mil!
 Clone success ! = Nhân bản thành công!
 Footprint Naming Reference = Tham chiếu tên mẫu linh kiện
 3D Model Manager = Trình quản lý mô hình 3D
@@ -2932,7 +2931,7 @@ Column Spacing = Giãn cách cột
 Row Spacing = Giãn cách hàng
 Multiple vias have been placed, do you want to rebuild the copper area? = Nhiều lỗ Via đã được thêm, bạn muốn định hình lại Vùng phủ đồng không?
 Remove vias finish, do you want to rebuild the copper area? = Hoàn thành loại bỏ lỗ Via, bạn muốn định hình lại Vùng phủ đồng không?
-The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! = Độ rộng Đường mạch/ cung/ đường tròn không thể nhỏ hơn 0,051mm/ 2mil/ 0,002 inch!
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = Độ rộng Đường mạch/ cung/ đường tròn không thể nhỏ hơn 0,051mm/ 2mil/ 0,002 inch!
 Save fail! Please try again! = Không lưu được! Hãy thử lại!
 Please select a copper outline = Hãy chọn đường bao Vùng phủ đồng
 Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Không thể tìm được Vùng phủ đồng ở Lớp mạch khác, hãy thêm Vùng phủ đồng với cùng tên gọi ở lớp mạch khác đã.
@@ -2941,7 +2940,7 @@ Add favorite success! = Thêm mục ưa thích thành công!
 Remove favorite success! = Xóa mục ưa thích thành công!
 Remove favorite failed! = Không xóa được mục ưa thích!
 Whether if remove favorite? = Bạn muốn xõa mục ưa thích?
-Split by ';' for multi tags = Với nhiều đuôi khác nhau, hãy phân tách chúng bằng dấu ";" 
+Split by ';' for multi tags = Với nhiều đuôi khác nhau, hãy phân tách chúng bằng dấu ";"
 
 This size is the determined size! = Kích thước này dã được thiết lập!
 The associated pad has been locked = Phiến đế linh kiện liên quan đã bị khóa
@@ -2960,11 +2959,11 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! = Không có Đuôi nào cả!
 Assign successful! = Gán thành công!
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = Tìm thấy số hiệu đế linh kiện không khớp với số chân trong bản vẽ. Hãy sửa số hiệu phiến đế của mẫu linh kiện và thử lại!
-Update Attribute = Cập nhập thuộc tính
+Update Property = Cập nhập thuộc tính
 Please fill in at least 5 words. = Hãy điền tối thiểu 5 từ.
 Mouse hovering over the track to highlight the entire network = Di chuột trên Đường mạch để hiện toàn mạch
 Net Highlighting While Cursor Hover the Track = Hiện mạch khi di chuyển trỏ chuột trên Đường mạch
-When circle set as "Yes", the Pin length must more than 6 = Khi bao tròn được thiết lập là "Có", chiều dài chân linh kiện phải lớn hơn 6
+When circle set as "Yes", the Pin length must be more than 6 = Khi bao tròn được thiết lập là "Có", chiều dài chân linh kiện phải lớn hơn 6
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Xin chào, Hi, tôi phát hiện ra vấn đề trong thư viện của bạn, thư viện này có vẻ không chuẩn.\nTên:{title}\nLoại:{type}\nliên kết:{link}\n{content}\nXin cảm ơn!
 
 Logout fail! Please try again! = Đăng xuất thất bại, hãy thử lại!
@@ -3089,14 +3088,14 @@ The folder depth must not exceed {0} levels = Độ sâu cây thư mục không 
 Failed to add project to folder = Không thêm được dự án vào thư mục
 
 Doesn't support JLCPCB SMT Service = Không hỗ trợ dịch vụ JLCPCB SMT (Dịch vụ hàn và lắp ráp linh kiện của JLCPCB)
-for JLCPCB SMT Service = với Dịch vụ JLCPCB SMT (Dịch vụ hàn và lắp ráp linh kiện của JLCPCB)
+{0} for JLCPCB SMT Service = {0} với Dịch vụ JLCPCB SMT (Dịch vụ hàn và lắp ráp linh kiện của JLCPCB)
 
 Reset failed! There are duplicate component prefixes in the current schematic: = Không cài đặt lại được! Có linh kiện trùng Mã hiệu trong bản vẽ hiện tại:
 Reset failed! There are duplicate component prefixes in the current PCB: = Không cài đặt lại được! Có linh kiện trùng Mã hiệu trong mạch in hiện tại:
 Please modify the component prefixes first to ensure that the component prefix is unique. = Hãy sửa Mã hiệu linh kiện và bảo đảm linh kiện có Mã hiệu không bị trùng.
 
 LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA (Chuẩn) - Công cụ đơn giản nhưng rất mạnh mẽ dùng trong thiết kế mạch điện
-EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = Công cụ đơn giản nhưng rất mạnh mẽ dùng trong thiết kế mạch điện 
+EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = Công cụ đơn giản nhưng rất mạnh mẽ dùng trong thiết kế mạch điện
 
 #Dialog for Package Custom Data
 Please input the data title = Hãy nhập tên Dữ liệu
@@ -3109,7 +3108,7 @@ Custom DFM Data = Dữ liệu DFM tùy biến
 Saved custom data successfully! = Lưu dữ liệu tùy biến thành công!
 Save custom data failed! = Lưu dữ liệu tùy biến không thành công!
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = Chúng tôi thay thế phần đồ họa và dữ liệu tùy biến của tài liệu hiện thời. Sau khi nhập, hãy chỉnh sửa mô hình 3D, Bạn có tiếp tục không?
-Open footprint "Custom Data" dialog = Mỏ hộp thoại "Dữ liệu tùy biến" của mẫu linh kiện 
+Open footprint "Custom Data" dialog = Mỏ hộp thoại "Dữ liệu tùy biến" của mẫu linh kiện
 
 # Create lead shape
 Create Lead Shape = Tạo hình mấu nối
@@ -3131,9 +3130,9 @@ Canvas origin to body edge = Gốc nền vẽ đến thân tiếp điểm
 Lead soldering length = Chiều dài khoảng hàn tiếp điểm
 Lead soldering part diameter = Đường kính hàn tiếp điểm linh kiện
 Component shape object doesn't overlap lead shape object, please check carefully. = Hình dạng linh kiện không được chồng lên hình tiếp điểm, hãy kiểm tra cẩn thận.
-The solder mask expansion of pads ({0},{1}) has a small clearance(less then 0.08mm), it will cause the soldering too short, please modify. = Phần mở rộng dấu hàn của phiến đế linh kiện ({0},{1}) có khoảng hở quá nhỏ (ít hơn 0,08mm), điều này sẽ làm cho khoảng cách mối hàn quá hẹp, hãy sửa lại.
-The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less then 0.15mm), it will cause the stencil to create fail, please modify. = Phần mở rộng hình vẽ linh kiện hoặc lớp hình linh kiện tùy biến của phiến đế ({0},{1}) có khoảng hở quá nhỏ (ít hơn 0,15mm), sẽ không thể tạo được khuôn định vị linh kiện (Stencil), hãy sửa lại.
-System footprint must exist pad number 1 or A1, please modify the pad number. = Linh kiện mẫu hệ thống phải có số hiệu đế linh kiện là 1 hoặc A1, hãy sửa lại số hiệu phiến đế linh kiện.
+The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08mm), it will cause the soldering too short, please modify. = Phần mở rộng dấu hàn của phiến đế linh kiện ({0},{1}) có khoảng hở quá nhỏ (ít hơn 0,08mm), điều này sẽ làm cho khoảng cách mối hàn quá hẹp, hãy sửa lại.
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. = Phần mở rộng hình vẽ linh kiện hoặc lớp hình linh kiện tùy biến của phiến đế ({0},{1}) có khoảng hở quá nhỏ (ít hơn 0,15mm), sẽ không thể tạo được khuôn định vị linh kiện (Stencil), hãy sửa lại.
+System footprint must have pad number 1 or A1, please modify the pad number. = Linh kiện mẫu hệ thống phải có số hiệu đế linh kiện là 1 hoặc A1, hãy sửa lại số hiệu phiến đế linh kiện.
 System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. = Linh kiện mẫu hệ thống không thể có 2 hoặc nhiều hơn số hiệu đế linh kiện 1 hay A1, hãy sửa lại số hiệu phiến đế linh kiện.
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = Lớp tài liệu có hình tròn, nhưng phân cực jlcPara lại là 0, hãy kiểm tra lại Dữ liệu tùy biến.
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = Hiện đang đã có số hiệu phiến đế linh kiện: {padNumber}, hãy kiểm tra lại, nếu điều đó đúng, xin bỏ qua thông điệp này.
@@ -3149,7 +3148,7 @@ First Pin = Chân đầu tiên
 Package Name = Tên kiểu đóng gói
 Pins Number = Thứ tự chân
 Rows Of Pin = Số hàng chân
-Columns Of Pin = Số cột chân 
+Columns Of Pin = Số cột chân
 Polarity = Phân cực
 Pad Shape = Hình dạng phiến đế linh kiện
 Body Diameter = Đường kính thân
@@ -3169,13 +3168,13 @@ ThermalPad = Đế tản nhiệt
 Pad Expansion = Đế mở rộng
 Custom PasteMask = Điểm dán linh kiện tùy chọn
 Fabrication Tolerance = Dung sai trong Chế tạo
-Plcarment Tolerance = Dung sai định vị linh kiện
+Placement Tolerance = Dung sai định vị linh kiện
 FirstPin Position = Vị trí chân đầu tiên
 Package Origin = Kiểu đóng gói
 Expansion Size = Kích cỡ mở rộng
 Corner = Góc
 Angle = Góc chia độ
-Fillet = Đường gân	
+Fillet = Đường gân
 Chamfer = Vạt cạnh
 Update Preview = Cập nhập bản xem trước
 Number of pins (left and right) = Số chân (trái và phải)

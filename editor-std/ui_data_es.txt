@@ -298,7 +298,7 @@ Group These Items as a Symbol =
 Group These Items as a Footprint =
 Set Canvas Origin =
 Document Setting =
-Sheet Attributes =
+Sheet Properties =
 Set Board Outline =
 Teardrop... =
 Panelize... =
@@ -307,7 +307,7 @@ Smart Dimension =
 Footprint Wizard =
 Footprint Wizard... =
 Select package type = Selecciona tipo de página
-Smart Dimension Attributes =
+Smart Dimension Properties =
 Global Delete =
 Cross Probe =
 Cross Probe and Place =
@@ -321,12 +321,11 @@ By Coordinates... =
 By Center of Pads =
 By Center Grid of Symbols =
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties = Propiedades
-Attributes = Atributos
 Apply = Aplicar
 Save as default = Gruardar como predeterminado
-Canvas Attributes = Atributos del lienzo
+Canvas Properties = Atributos del lienzo
 Width = Anchura
 Height = Altura
 Background = Fondo
@@ -352,8 +351,8 @@ Alt Snap =
 Snap size when pressing the Alt key =
 Prefix Start =
 
-#Text Attributes
-Text Attributes = Atributos del texto
+#Text Properties
+Text Properties = Atributos del texto
 Text = Texto
 Color = Color
 Font Family =
@@ -695,7 +694,7 @@ AC Phase =
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: =
 
 #Pin
-Pin Attributes = Atributo de los pines
+Pin Properties = Atributo de los pines
 Orientation = Orientación
 Line 45° = Línea a 45°
 Line 90° = Línea a 90°
@@ -715,7 +714,7 @@ Show = Mostrar
 Electric = Eléctrico
 
 #Junction
-Junction Attributes = Atributos de junta
+Junction Properties = Atributos de junta
 X Location = Ubicación en X
 Y Location = Ubicación en Y
 Size = Tamaño
@@ -727,9 +726,9 @@ Net Label = Etiqueta de la Net
 #Part
 Prefix = Prefijo
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = Añadir imagen
-Image Attributes = Atributos de la imagen
+Image Properties = Atributos de la imagen
 Image URL = URL de la imagen
 Input an image URL = Añadir URL de imagen
 Invalid image URL = URL de imagen inválida
@@ -751,7 +750,7 @@ Rated Current =
 resistance = resistencia
 Resistance = Resistencia
 Resistance[Ω] = Resistencia[Ω]
-inductance = 
+inductance =
 Operating Temperature = Temperatura de operación
 Shape Invert =
 Image Size = Tamaño de la imagen
@@ -759,7 +758,7 @@ Color Tolerance =
 Simplify Level =
 Corner Threshold =
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Unidades
 Snap Size = Tamaño de captura
 Other = Otro
@@ -823,11 +822,11 @@ Line Width = Ancho de la línea
 Rotation = Rotación
 Fonts Management = Administración de fuentes
 
-#Dimension Attributes
-Dimension Attributes = Atributos de dimensión
+#Dimension Properties
+Dimension Properties = Atributos de dimensión
 
-#Footprint Attributes
-Component Attributes =
+#Footprint Properties
+Component Properties =
 Display Prefix = Mostrar prefijo
 Pin Name = Nombre del pin
 Pin Number = Número del pin
@@ -872,9 +871,9 @@ Solid =
 None =
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Atributos personalizados
-Fixed Attributes =
+#Custom Properties
+Custom Properties = Atributos personalizados
+Fixed Properties =
 Add new parameter = Añadir nuevo parámetro
 Add New Parameter = Añadir Nuevo parámetro
 Add New Supplier =
@@ -1068,7 +1067,7 @@ Manufacturer Part.bom =
 Manufacturer.bom =
 
 One-click Purchasing at LCSC =
-Order Parts/Check Stock =
+Order Parts =
 Export BOM = Exportar BOM
 Export PCB BOM =
 Export Schematic BOM =
@@ -1229,7 +1228,7 @@ Mirror = Espejo
 TopLayer = Capa superior
 BottomLayer = Capa inferior
 TopSilkLayer = Capa de serigrafica superior
-Protractor Attributes =
+Protractor Properties =
 BottomSilkLayer = Capa de serigrafica inferior
 
 BoardOutLine =
@@ -1312,8 +1311,8 @@ Please check the packages size and orientation carefully. =
 Please check for Design Rule Checking (DRC) errors in the Design Manager. =
 Please rebuild the copper area after modifying tracks and packages. =
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. =
-Order PCB/SMT at JLCPCB =
-Found the complicated polygon object can not be generated at Gerber, please remove or replace =
+Order PCB/SMT =
+Found the complicated polygon that object cannot be generated at Gerber, please remove or replace =
 ID: {id}, Object: {object}, Location: {location} =
 
 #Dialog DRC
@@ -1426,8 +1425,8 @@ Increase Snap Size = Aumentar tamaño de captura
 Change Copper Zone Visible or Invisible =
 Rebuild All Copper Area = Reconstruir todas las Áreas de cobre
 Toggle PCB Net Display =
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Relative Offset Dialog When Selecting Object(s) =
 Open the FAQ Page =
 Move Object(s) by Reference Point =
@@ -1602,7 +1601,6 @@ Please save your file first! = Por favor, ¡guardar el archivo primero!
 Email address is too short! = ¡La dirección de correo es demasiado corta!
 You have not selected a file to upload. = No hay ningún archivo seleccionado para subir.
 Update = Actualizar
-Import.Import Changes =
 No changes, the PCB already matches the schematic! =
 Only public files can be shared = Solo los archivos públicos se pueden compartir
 Conversion to PCB has failed! = ¡La conversión a PCB ha fallado!
@@ -1651,7 +1649,7 @@ Error:No GND =
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. =
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
 Probe can not connect with ground(GND)! =
-Spice symbols's attributes can't be empty. =
+Spice symbols's properties can't be empty. =
 Error:No Spice Symbol =
 Simulation limit =
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op =
@@ -1889,7 +1887,7 @@ Track Width Setting =
 
 #Dialog Access Control
 Permissions = Permisos
-Operation = Operación
+Operations = Operación
 Access Control = Control de Acceso
 Project Access Control =
 Reject = Rechazar
@@ -2057,7 +2055,7 @@ Yes, Check DRC =
 No, Generate Gerber =
 This PCB has uncompleted connection(s), do you want to check the connection(s)? =
 Yes, Check Connection(s) =
-It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? =
+It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? =
 Failed to submit your order, please contact us via support@easyeda.com for help. =
 Failed to submit your order, please contact us via QQ 800821856. =
 Order data generated finish, please click OK button and continue. =
@@ -2074,7 +2072,7 @@ Export your file, then print it yourself. = Exporta tu archivo e imprimelo tu mi
 Trace width is too small = El tamaño del trazo es demasiado pequeño
 Share = Compartir
 
-Images Attribute = Atributos de Imagen
+Images Property = Atributos de Imagen
 Connect Pad to Pad = Conexión de Pad a Pad
 Copper Area = Área de Cobre
 Dimension = Dimensión
@@ -2290,7 +2288,7 @@ Track width cannot be less than Design Rule Checking (DRC) setting value. =
 General Clearance cannot be less than Design Rule Checking (DRC) setting value. =
 SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. =
 Hole size cannot be less than Design Rule Checking (DRC) setting value. =
-Design Rule's via diameter must larger than via drill diameter =
+Design Rule's via diameter must be larger than via drill diameter =
 Clearance cannot be less than Design Rule Checking (DRC) setting value. =
 Not a valid PCB, please check it again =
 Previous connection must be closed =
@@ -2439,7 +2437,7 @@ Path only contain 'a-z、A-Z、- 、 _ 、0-9'! =
 Path must begin as 'a-z、A-Z、0-9'! =
 The path length must be between 4~128 characters! =
 The title length must be between 2~256 characters! =
-The title can not less than 3 charaters! =
+The title cannot be less than 3 characters! =
 Do you want to delete this file? =
 Add sub part success =
 Please input name and prefix! =
@@ -2469,7 +2467,8 @@ Keyword: =
 Image = Imagen
 Image copied. =
 Copy failed. =
-Image Attribute =
+Copy success. =
+Image Property =
 Locked =
 Unlock All =
 Unlock =
@@ -2487,7 +2486,7 @@ Update failed! =
 Successfully updated! =
 Successfully updated {0} component(s)! =
 Change =
-Check  Footprints =
+Check Footprints =
 Network Error! =
 Find Similar Objects =
 Current Sheet =
@@ -2497,7 +2496,7 @@ Range =
 Net Label/Net Flag/Net Port/Voltage Probe =
 Bezier/Freehand Draw =
 Arc/Pie =
-Objects Attributes =
+Objects Properties =
 Any =
 Same =
 Different =
@@ -2729,7 +2728,7 @@ Chrome =
 FireFox =
 New Version =
 Switch Version =
-Member =
+Members =
 Update Time =
 Editor =
 Current Version: =
@@ -2803,7 +2802,7 @@ Previous Image =
 Next Image =
 Notice: For reference only, please refer to the real product =
 It's under designing, please wait. =
-The width of track/arc/circle can not less than 0.1mil! =
+The width of track/arc/circle cannot be less than 0.1mil! =
 Clone success ! =
 Footprint Naming Reference =
 3D Model Manager =
@@ -2934,7 +2933,7 @@ Column Spacing =
 Row Spacing =
 Multiple vias have been placed, do you want to rebuild the copper area? =
 Remove vias finish, do you want to rebuild the copper area? =
-The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! =
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! =
 Save fail! Please try again! =
 Please select a copper outline =
 Can't find copper area at other layers, please add the copper area with the same net at other layer first. =
@@ -2962,11 +2961,11 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! =
 Assign successful! =
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
-Update Attribute =
+Update Property =
 Please fill in at least 5 words. =
 Mouse hovering over the track to highlight the entire network =
 Net Highlighting While Cursor Hover the Track =
-When circle set as "Yes", the Pin length must more than 6 =
+When circle set as "Yes", the Pin length must be more than 6 =
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! =
 
 Logout fail! Please try again! =
@@ -3091,7 +3090,7 @@ The folder depth must not exceed {0} levels =
 Failed to add project to folder =
 
 Doesn't support JLCPCB SMT Service =
-for JLCPCB SMT Service =
+{0} for JLCPCB SMT Service =
 
 Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: =
@@ -3133,9 +3132,9 @@ Canvas origin to body edge =
 Lead soldering length =
 Lead soldering part diameter =
 Component shape object doesn't overlap lead shape object, please check carefully. =
-The solder mask expansion of pads ({0},{1}) has a small clearance(less then 0.08mm), it will cause the soldering too short, please modify. =
-The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less then 0.15mm), it will cause the stencil to create fail, please modify. =
-System footprint must exist pad number 1 or A1, please modify the pad number. =
+The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08mm), it will cause the soldering too short, please modify. =
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. =
+System footprint must have pad number 1 or A1, please modify the pad number. =
 System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. =
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. =
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. =
@@ -3171,7 +3170,7 @@ ThermalPad =
 Pad Expansion =
 Custom PasteMask =
 Fabrication Tolerance = Tolerancia de fabricación
-Plcarment Tolerance =
+Placement Tolerance =
 FirstPin Position =
 Package Origin =
 Expansion Size =
