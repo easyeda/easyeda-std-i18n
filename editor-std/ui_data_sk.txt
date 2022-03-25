@@ -246,8 +246,10 @@ Updated Instructions = Aktualizácia pokynov
 Open File Format = Otvoriť formát súboru
 About Upgrade = O aktualizácii
 User Forum = Uživatelské fórum
+Live Q/A =
+No live broadcast now =
 Feature Request = Požiadavka na vlastnosť
-Feature Requests = Požiadavky na vlastnosti
+Feature Requests = Požiadavky na vlastnosti 				  
 Bug Report = Hlásenie chýb
 Bug Reports = Hlásenie chýb
 Tips & Skill = Typy a dovednosti
@@ -660,7 +662,7 @@ SRNANDFFEE =
 SRNORFFEE =
 INVTSEE =
 INVODEE =
-Schmittbuffee =
+
 Cbuffer =
 SPDT_Open =
 SPDT_Close =
@@ -672,10 +674,10 @@ BCD_Segment =
 Seven_Segment =
 Traffic_Light =
 Lamp Settings =
-Power[W]
-Dropout Voltage[V]
-Current[A]
-Threshold[V]
+Power[W] =
+Dropout Voltage[V] =
+Current[A] =
+Threshold[V] =
 Clock Rate =
 TrafficLight Settings =
 BCDSegment Settings =
@@ -834,6 +836,14 @@ Spice Pin Number = Číslo Spice pinu
 Graphics = Grafický
 Pattern = Vzor
 
+Pin: =
+Netflag: =
+Netlabel: =
+NetPort: =
+Voltage Probe: =
+Pin: =
+Hidden Pin: =
+Unknown: = 
 #Arc Properties
 Arc Properties = Vlastnosti uhla
 Start Angle = Začiatok uhla
@@ -1071,9 +1081,15 @@ Manufacturer.bom = Manufacturer.bom
 One-click Purchasing at LCSC = Objednať na LSCS jedným kliknutím
 Order Parts = Objednávka diel/Kontrola zásob
 Export BOM = Exportovať BOM
+Upload to LCSC ERP = 
+No components, upload failed! = 
+Upload to LCSC ERP failed, please try again later. = 
+Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = 
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = 
+
 Export PCB BOM = Exportovať DPS BOM
 Export Schematic BOM = Exportovať schému BOM
-ID.bom = ID.bom
+ID.bom = ID.bom																							 		
 Name.bom = Name.bom
 [bom]
 Name = Názov
@@ -1350,8 +1366,8 @@ Currently rule name is not allowed to contain magical characters like . and $ =
 All = Všetko
 [/drcRule]
 
-#Dialog  Update PCB
-Update PCB(Synchronizing PCB from schematics) = Aktualizovať DPS (Synchronizovať DPS na základě schémy)
+
+
 
 
 #Dialog Hotkey
@@ -3212,4 +3228,40 @@ Select Properties = Vyberte vlastnosti
 Combine the same parts' prefixes in one row = Skombinujte predpony rovnakých častí v jednom rade
 Please check at least one item! = Skontrolujte aspoň jednu položku!
 Pins =
+Check component latest version when open schematic =
+Only show updated components =
+Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. =
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. =
 
+Find System Similar Footprint =
+Found similar footprints at system library, it is recommended to use them first. =
+Copy Title =
+Check system similar footprint =
+Can't find the Similar Footprint =
+Search failed! =
+No package information! =
+Find Parameters =
+Find Results =
+
+Bill of meterial(BOM) uploaded finish, please click "OK" to continue. = 
+Bill of meterial(BOM) upload failed! = 
+
+All pads =
+All holes =
+Single layer pads =
+Multi-layer pads =
+Same X pads =
+Same Y pads =
+Same Y and clearance pads =
+Same X and clearance pads =
+Same X and clearance pads' clearance =
+Same Y and clearance pads' clearance =
+Pad's hole diameter(max) =
+Pad's hole diameter(min) =
+Pad's hole diameter(aver) =
+
+Try Pro Edition =
+
+Generate Solid Region by Objects Outline =
+Generate Polygon Pad by Objects Outline =
+Select the objects that cannot be generated =													
