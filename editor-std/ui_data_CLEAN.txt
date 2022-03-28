@@ -3266,8 +3266,8 @@ No package information! =
 Find Parameters =
 Find Results =
 
-Bill of meterial(BOM) uploaded finish, please click "OK" to continue. = 
-Bill of meterial(BOM) upload failed! = 
+Bill of material(BOM) uploaded finish, please click "OK" to continue. = 
+Bill of material(BOM) upload failed! = 
 
 All pads =
 All holes =
