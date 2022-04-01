@@ -298,7 +298,7 @@ Group These Items as a Symbol = Bu Ögeleri Sembol Olarak Grupla
 Group These Items as a Footprint = Bu Ögeleri Ayak İzi Olarak Grupla
 Set Canvas Origin = Tuval Orjinini Belirle
 Document Setting = Belge Ayarı
-Sheet Attributes = Çalışma Sayfası Nitelikleri
+Sheet Properties = Çalışma Sayfası Nitelikleri
 Set Board Outline = Kart Anahattını Belirle
 Teardrop... = Gözyaşı...
 Panelize... = Panelize Et...
@@ -307,7 +307,7 @@ Smart Dimension = Akıllı Boyutlandırma
 Footprint Wizard = Ayak İzi Sihirbazı
 Footprint Wizard... = Ayak İzi Sihirbazı...
 Select package type = Paket Tipi Seçin
-Smart Dimension Attributes = Akıllı Boyutlandırma Nitelikleri
+Smart Dimension Properties = Akıllı Boyutlandırma Nitelikleri
 Global Delete = Global Silme
 Cross Probe = Çapraz Prob
 Cross Probe and Place = Çarpaz Probla ve Yerleştir
@@ -321,12 +321,12 @@ By Coordinates... = Koordinatlara Göre...
 By Center of Pads = Pad'lere Göre
 By Center Grid of Symbols = Sembollerin Merkez Izgarasına Göre
 
-#Schematic Canvas Attributes
+#Schematic Canvas Properties
 Properties= Özellikler
-Attributes= Nitelikler
+Properties= Nitelikler
 Apply= Uygula
 Save as default= Varsayılan olarak kaydet
-Canvas Attributes= Tuval Nitelikleri
+Canvas Properties= Tuval Nitelikleri
 Width= Genişlik
 Height= Yükseklik
 Background= Arkaplan
@@ -352,8 +352,8 @@ Alt Snap = Alt Yasla
 Snap size when pressing the Alt key = Alt tuşuna basarkenki Yaslama Boyutu
 Prefix Start = Ön Ek Başlangıcı
 
-#Text Attributes
-Text Attributes = Metin Nitelikleri
+#Text Properties
+Text Properties = Metin Nitelikleri
 Text = Metin
 Color = Renk
 Font Family = Yazı Tipi Ailesi
@@ -404,7 +404,7 @@ Common = Ortak
 spice.open = spice.açık
 spice.close = spice.kapalı
 Sources = Kaynaklar
-Instrument = Alet
+Instruments/Meters = Aletler/Metreler
 Transistors = Transistörler
 Digital Circuits = Dijital Devreler
 Operational Amplifier = Operasyonel Amplifikatör
@@ -695,7 +695,7 @@ AC Phase = AC Faz
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Spice modeli olmayan bazı bölümler var. Lütfen "Simülasyon" modunun "Kütüphaneler" kısmındaki "EElib" ve "Spice Symbol" kullanın; veya bunlara spice modelini atayın:
 
 #Pin
-Pin Attributes = Pin Nitelikleri
+Pin Properties = Pin Nitelikleri
 Orientation = Yönelim
 Line 45° = Çizgi 45°
 Line 90° = Çizgi 90°
@@ -715,7 +715,7 @@ Show = Göster
 Electric = Elektrik
 
 #Junction
-Junction Attributes = Kavşak Nitelikleri
+Junction Properties = Kavşak Nitelikleri
 X Location = X Konumu
 Y Location = Y Konumu
 Size = Boyut
@@ -727,9 +727,9 @@ Net Label = Ağ Etiketi
 #Part
 Prefix = Ön Ek
 
-#Image Attributes and Dialog
+#Image Properties and Dialog
 Add Image = Görsel Ekle
-Image Attributes = Görsel Nitelikleri
+Image Properties = Görsel Nitelikleri
 Image URL = Görsel URL'si
 Input an image URL = Bir görsel URL'si girin
 Invalid image URL = Geçersiz görsel URL'si
@@ -759,7 +759,7 @@ Color Tolerance = Renk Toleransı
 Simplify Level = Basitleştirme Seviyesi
 Corner Threshold = Köşe Eşiği
 
-#PCB Canvas Attributes
+#PCB Canvas Properties
 Units = Birimler
 Snap Size = Yaslama Boyutu
 Other = Diğer
@@ -823,11 +823,11 @@ Line Width = Çizgi Genişliği
 Rotation = Dönüş
 Fonts Management = Yazı Tipi Yönetimi
 
-#Dimension Attributes
-Dimension Attributes = Boyut Nitelikleri
+#Dimension Properties
+Dimension Properties = Boyut Nitelikleri
 
-#Footprint Attributes
-Component Attributes = Ayak İzi Nitelikleri
+#Footprint Properties
+Component Properties = Ayak İzi Nitelikleri
 Display Prefix = Ön Eki Görüntüle
 Pin Name = Pin Adı
 Pin Number = Pin Numarası
@@ -872,9 +872,9 @@ Solid = Tam
 None = Hiçbiri
 [/copperArea]
 
-#Custom Attributes
-Custom Attributes = Özel Özellikler
-Fixed Attributes = Kararlaştırılmış Özellikler
+#Custom Properties
+Custom Properties = Özel Özellikler
+Fixed Properties = Kararlaştırılmış Özellikler
 Add new parameter = Yeni değişken ekle
 Add New Parameter = Yeni Değişken Ekle
 Add New Supplier = Yeni Tedarikçi Ekle
@@ -1068,7 +1068,7 @@ Manufacturer Part.bom = İmalatçı Parça.bom
 Manufacturer.bom = İmalatçı.bom
 
 One-click Purchasing at LCSC = LCSC'de Tek Tıkla Satın Alma
-Order Parts/Check Stock = Parça Siparişi/Stok Kontrolü
+Order Parts = Parça Siparişi/Stok Kontrolü
 Export BOM = BOM Dışa Aktar
 Export PCB BOM = PCB BOM Dışa Aktar
 Export Schematic BOM = BOM Şematiği Dışa Aktar
@@ -1229,7 +1229,7 @@ Mirror = Ayna
 TopLayer = ÜstKatman
 BottomLayer = AltKayman
 TopSilkLayer = ÜstBaskıKatmanı
-Protractor Attributes = Açıölçer Nitelikleri
+Protractor Properties = Açıölçer Nitelikleri
 BottomSilkLayer = TabanBaskıKatmanı
 
 BoardOutLine = KartAnahattı
@@ -1312,8 +1312,8 @@ Please check the packages size and orientation carefully. = Lütfen paket boyutu
 Please check for Design Rule Checking (DRC) errors in the Design Manager. = Lütfen Tasarım Yöneticisi'nde Tasarım Kuralı Denetimi (DRC) hatalarını kontrol edin.
 Please rebuild the copper area after modifying tracks and packages. = Lütfen hatları ve paketleri değiştirdikten sonra bakır alanını yeniden oluşturun.
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Gerber dosyasını oluşturduktan sonra, tasarım gereksinimlerine uygun olup olmadığını kontrol etmek için lütfen {0}Gerber Görüntüleyici{1} kullanın.
-Order PCB/SMT at JLCPCB = JLCPCB'den PCB/SMT sipariş verin
-Found the complicated polygon object can not be generated at Gerber, please remove or replace = Gerber'de oluşturulamayan karmaşık poligon nesnesi bulundu , lütfen kaldırın veya değiştirin.
+Order PCB/SMT = JLCPCB'den PCB/SMT sipariş verin
+Found the complicated polygon that object cannot be generated at Gerber, please remove or replace = Gerber'de oluşturulamayan karmaşık poligon nesnesi bulundu , lütfen kaldırın veya değiştirin.
 ID: {id}, Object: {object}, Location: {location} = Kimlik: {id}, Nesne: {object}, Konum: {location}
 
 #Dialog DRC
@@ -1426,8 +1426,8 @@ Increase Snap Size= Yaslama Boyutunu Artır
 Change Copper Zone Visible or Invisible = Bakır Alanını Görünür veya Görünmez Olarak Değiştir
 Rebuild All Copper Area = Tüm Bakır Alanını Yeniden Kur
 Toggle PCB Net Display = PCB Ağ Görünümünü Aç/Kapat
-Show Attribute Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Nesne Yerleştirirken Nitelik İletişim Kutusunu Göster;<br/>Nesneleri Yapıştırırken Konum Ayarı İletişim Kutusunu Göster
-Show Attribute Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Nesneyi Yerleştirirken Nitelik İletişim Kutusunu Göster;<br/>Nesneleri Seçerken Mutlak Offset İletişim Kutusunu Göster;<br/>Nesneleri Yapıştırırken Konum Ayarı İletişim Kutusunu Göster
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Nesne Yerleştirirken Nitelik İletişim Kutusunu Göster;<br/>Nesneleri Yapıştırırken Konum Ayarı İletişim Kutusunu Göster
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Nesneyi Yerleştirirken Nitelik İletişim Kutusunu Göster;<br/>Nesneleri Seçerken Mutlak Offset İletişim Kutusunu Göster;<br/>Nesneleri Yapıştırırken Konum Ayarı İletişim Kutusunu Göster
 Show Relative Offset Dialog When Selecting Object(s) = Nesne(ler)i Seçerken Göreceli Offset İletişim Kutusunu Göster
 Open the FAQ Page = SSS Sayfasını Aç
 Move Object(s) by Reference Point = Nesneleri Referans Noktasına Göre Taşı
@@ -1602,7 +1602,6 @@ Please save your file first! = Önce dosyanızı kaydediniz!
 Email address is too short! = E-posta adresi çok kısa!
 You have not selected a file to upload. = Yüklemek için bir dosya seçmediniz.
 Update = Güncelle
-Import.Import Changes =
 No changes, the PCB already matches the schematic! = Değişiklik yok, PCB zaten şematik ile eşleşiyor!
 Only public files can be shared = Yalnızca herkese açık dosyalar paylaşılabilir
 Conversion to PCB has failed! = PCB'ye dönüştürme başarısız oldu!
@@ -1651,7 +1650,7 @@ Error:No GND = Hata: GND Yok
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Bu devrede GND mevcut değil. Devreye eklemek için lütfen devre aracından GND'yi seçin.
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Mevcut devre Gerilim Kaynağı veya Akım Kaynağı sembolüne sahip değil, lütfen önce sol taraftaki EElib veya Spice Kütüphanesi'ne yerleştirin.
 Probe can not connect with ground(GND)! = Prob toprağa(GND) bağlanamıyor!
-Spice symbols's attributes can't be empty. = Spice sembolü nitelikleri boş bırakılamaz.
+Spice symbols's properties can't be empty. = Spice sembolü nitelikleri boş bırakılamaz.
 Error:No Spice Symbol = Hata: Spice Sembolü yok
 Simulation limit = Simülasyonu limiti
 There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = Devrede .tran veya .op emülasyon komutu kullanılarak simüle edilmesi gereken bir multimetre var.
@@ -1888,7 +1887,7 @@ Track Width Setting = Hat Genişliği Ayarı
 
 #Dialog Access Control
 Permissions = İzinler
-Operation = İşlem
+Operations = İşlem
 Access Control = Erişim Kontrolü
 Project Access Control = Proje Erişim Kontrolü
 Reject = Reddet
@@ -2056,7 +2055,7 @@ Yes, Check DRC = Evet, DRC'yi kontrol et
 No, Generate Gerber = Hayır, Gerber oluştur
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = Bu PCB'de tamamlanmamış bağlantı(lar) var, bağlantı(lar)ı kontrol etmek istiyor musunuz?
 Yes, Check Connection(s) = Evet, Bağlantıları Kontrol Et
-It will then redirect to the web site of a thirdparty JLCPCB with which we cooperate. Are you ready? = Ardından, işbirliği yaptığımız bir üçüncü taraf JLCPCB'nin web sitesine yönlendirilecektir. Hazır mısın?
+It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = Ardından, işbirliği yaptığımız bir üçüncü taraf JLCPCB'nin web sitesine yönlendirilecektir. Hazır mısın?
 Failed to submit your order, please contact us via support@easyeda.com for help. = Siparişiniz gönderilemedi, lütfen yardım için support@easyeda.com adresinden bizimle iletişime geçin.
 Failed to submit your order, please contact us via QQ 800821856.  = Siparişiniz gönderilemedi, lütfen QQ 800821856 aracılığıyla bizimle iletişime geçin.
 Order data generated finish, please click OK button and continue. = Oluşturulan sipariş verileri tamamlandı, lütfen Tamam düğmesine tıklayın ve devam edin.
@@ -2073,7 +2072,7 @@ Export your file, then print it yourself. = Dosyanızı dışa aktarın, ardınd
 Trace width is too small = Hat genişliği çok küçük
 Share = Paylaş
 
-Images Attribute = Görsel Niteliği
+Images Property = Görsel Niteliği
 Connect Pad to Pad = Pad'den Pad'e Bağla
 Copper Area  = Bakır Alanı
 Dimension  = Boyut
@@ -2288,7 +2287,7 @@ Track width cannot be less than Design Rule Checking (DRC) setting value. = Hat 
 General Clearance cannot be less than Design Rule Checking (DRC) setting value. = Genel Açıklık, Tasarım Kuralı Denetimi (DRC) ayarı değerinden az olamaz
 SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = SMD Açıklığı, Tasarım Kuralı Denetimi(DRC) ayarı değerinden az olamaz.
 Hole size cannot be less than Design Rule Checking (DRC) setting value. = Delgi boyutu, Tasarım Kuralı Denetimi (DRC) ayarı değerinden küçük olamaz.
-Design Rule's via diameter must larger than via drill diameter = Tasarım Kuralının via çapı, delgi çapından daha büyük olmalıdır
+Design Rule's via diameter must be larger than via drill diameter = Tasarım Kuralının via çapı, delgi çapından daha büyük olmalıdır
 Clearance cannot be less than Design Rule Checking (DRC) setting value. = Açıklık, Tasarım Kuralı Denetimi (DRC) ayarı değerinden az olamaz.
 Not a valid PCB, please check it again = Geçerli bir PCB değil, lütfen tekrar gözden geçirin
 Previous connection must be closed = Önceki bağlantı kapatılmalıdır
@@ -2437,7 +2436,7 @@ Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Yol yalnızca 'a-z、A-Z、- �
 Path must begin as 'a-z、A-Z、0-9'! = Yol 'a-z、A-Z、0-9' olarak başlamalıdır!
 The path length must be between 4~128 characters! = Yol uzunluğu 4~128 karakter arasında olmalıdır!
 The title length must be between 2~256 characters! = Başlık uzunluğu 2~256 karakter arasında olmalıdır!
-The title can not less than 3 charaters! = Başlık 3 karakterden az olamaz!
+The title cannot be less than 3 characters! = Başlık 3 karakterden az olamaz!
 Do you want to delete this file? = Bu dosyayı silmek istiyor musunuz?
 Add sub part success = Alt bölüm ekleme başarılı
 Please input name and prefix! = Lütfen isim ve ön ek girin!
@@ -2467,7 +2466,8 @@ Keyword: = Anahtar Kelime:
 Image = Görsel
 Image copied. = Görsel kopyalandı
 Copy failed. = Kopyalama başarısız
-Image Attribute = Görsel Niteliği
+Copy success. =
+Image Property = Görsel Niteliği
 Locked = Kilitli
 Unlock All = Hepsinin Kilidini Aç
 Unlock = Kilidi Aç
@@ -2485,7 +2485,7 @@ Update failed! = Güncelleme başarısız!
 Successfully updated! = Başarıyla güncellendi!
 Successfully updated {0} component(s)! = {0} bileşen başarıyla güncellendi!
 Change = Değiştir
-Check  Footprints = Ayak İzlerini Denetle
+Check Footprints = Ayak İzlerini Denetle
 Network Error! = Ağ Hatası
 Find Similar Objects = Benzer Nesneler Bul
 Current Sheet = Mevcut Çalışma Sayfası
@@ -2495,7 +2495,7 @@ Range = Aralık
 Net Label/Net Flag/Net Port/Voltage Probe = Ağ Etiketi/Ağ Bayrağı/Ağ Portu/Gerilim Probu
 Bezier/Freehand Draw = Bezier/Serbest Çizim
 Arc/Pie = Kavis/Pasta
-Objects Attributes = Nesne Nitelikleri
+Objects Properties = Nesne Nitelikleri
 Any = Herhangi
 Same = Aynı
 Different = Farklı
@@ -2727,7 +2727,7 @@ Chrome = Chrome
 FireFox = FireFox
 New Version = Yeni Sürüm
 Switch Version = Sürüm Değiştir
-Member = Üye
+Members = Üye
 Update Time = Güncelleme Zamanı
 Editor = Editör
 Current Version: = Mevcut Sürüm：
@@ -2801,7 +2801,7 @@ Previous Image = Önceki Görsel
 Next Image = Sonraki görsel
 Notice: For reference only, please refer to the real product = Uyarı: Yalnızca referans için lütfen gerçek ürüne bakın
 It's under designing, please wait. = Tasarım aşamasında, lütfen bekleyin.
-The width of track/arc/circle can not less than 0.1mil! = Hat/kavis/çember genişliği 0.1mil'den az olamaz!
+The width of track/arc/circle cannot be less than 0.1mil! = Hat/kavis/çember genişliği 0.1mil'den az olamaz!
 Clone success ! = klonlama başarılı !
 Footprint Naming Reference = Ayak İzi İsimlendirme Referansı
 3D Model Manager = 3D Model Yöneticisi
@@ -2932,7 +2932,7 @@ Column Spacing = Sütun Aralığı
 Row Spacing = Satır Aralığı
 Multiple vias have been placed, do you want to rebuild the copper area? = Birden fazla via yerleştirildi, bakır alanı yeniden oluşturmak ister misiniz?
 Remove vias finish, do you want to rebuild the copper area? = Viaları kaldırma tamamlandı. Bakır alanı yeniden olmuşturmak ister misiniz?
-The width of track/arc/circle can not less than 0.051mm/2mil/0.002inch! = Hat/Kavis/Çember genişliği 0.051 mm/2mil/0.002 inçten az olamaz!
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = Hat/Kavis/Çember genişliği 0.051 mm/2mil/0.002 inçten az olamaz!
 Save fail! Please try again! = Kayıt başarısız! Lütfen tekrar deneyin!
 Please select a copper outline = Lütfen bir bakır anahattı seçin
 Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Diğer katmanlarda bakır alanı bulunamıyor. Lütfen önce aynı ağ ile bakır alanı diğer katmana ekleyin.
@@ -2960,11 +2960,11 @@ This 3D model didn't create the outlines successfully, please import it again or
 There is No Tag! = 没有分类！
 Assign successful! = 分配成功！
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = 发现封装焊盘编号不匹配原理图器件的引脚编号，请手动修正焊盘编号后再重试！
-Update Attribute = Niteliği Güncelle
+Update Property = Niteliği Güncelle
 Please fill in at least 5 words. = Lütfen en az 5 kelime girin.
 Mouse hovering over the track to highlight the entire network = Hat üzerinde fare ile gezinirken tüm ağı vurgulama
 Net Highlighting While Cursor Hover the Track = İmleç Hattın Üzerine Geldiğinde Ağı Vurgulama
-When circle set as "Yes", the Pin length must more than 6 = Çember "Evet" olarak ayarlandığında, Pin uzunluğu 6'dan fazla olmalıdır.
+When circle set as "Yes", the Pin length must be more than 6 = Çember "Evet" olarak ayarlandığında, Pin uzunluğu 6'dan fazla olmalıdır.
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Merhaba, kütüphanenizle ilgili bir sorun buldum, bu kitaplık yanlış görünüyor.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nTeşekkürler!
 
 Logout fail! Please try again! = Çıkış başarısız! Lütfen tekrar deneyin!
@@ -3089,7 +3089,7 @@ The folder depth must not exceed {0} levels =
 Failed to add project to folder =
 
 Doesn't support JLCPCB SMT Service = JLCPCB SMT Hizmetini desteklememekte
-for JLCPCB SMT Service = JLCPCB SMT Hizmeti için
+{0} for JLCPCB SMT Service = JLCPCB SMT Hizmeti için {0}
 
 Reset failed! There are duplicate component prefixes in the current schematic: = Sıfırlama başarısız! Geçerli şematikte yinelenen bileşen önekleri var:
 Reset failed! There are duplicate component prefixes in the current PCB: = Sıfırlama başarısız! Geçerli PCB'de yinelenen bileşen önekleri var:
@@ -3131,9 +3131,9 @@ Canvas origin to body edge = Gövde kenarına olan tuval orijini
 Lead soldering length = Kurşun lehim uzunluğu
 Lead soldering part diameter = Kurşun lehim parçası çapı
 Component shape object doesn't overlap lead shape object, please check carefully. = Bileşen şekli nesnesi, kurşun şeklindeki nesneyle örtüşmüyor, lütfen dikkatlice kontrol edin.
-The solder mask expansion of pads ({0},{1}) has a small clearance(less then 0.08mm), it will cause the soldering too short, please modify. = Padlerin ({0},{1}) lehim maskesi genişlemesi küçük bir aralığa (0,08 mm'den az) sahiptir, bu lehimlemenin çok kısa olmasına neden olur, lütfen değiştirin.
-The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less then 0.15mm), it will cause the stencil to create fail, please modify. = Padlerin ({0},{1}) yapıştırma maskesi genişletmesi veya özel yapıştırma maskesi katmanı nesneleri küçük bir açıklığa (0,15 mm'den az) sahiptir, bu, kalıbın hata vermesine neden olur, lütfen değiştirin.
-System footprint must exist pad number 1 or A1, please modify the pad number. = Sistem ayak izi 1 veya A1 numaralı pad olmalıdır. Lütfen pad numarasını değiştirin.
+The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08mm), it will cause the soldering too short, please modify. = Padlerin ({0},{1}) lehim maskesi genişlemesi küçük bir aralığa (0,08 mm'den az) sahiptir, bu lehimlemenin çok kısa olmasına neden olur, lütfen değiştirin.
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. = Padlerin ({0},{1}) yapıştırma maskesi genişletmesi veya özel yapıştırma maskesi katmanı nesneleri küçük bir açıklığa (0,15 mm'den az) sahiptir, bu, kalıbın hata vermesine neden olur, lütfen değiştirin.
+System footprint must have pad number 1 or A1, please modify the pad number. = Sistem ayak izi 1 veya A1 numaralı pad olmalıdır. Lütfen pad numarasını değiştirin.
 System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. = Sistem ayak izi, iki veya daha fazla pad numarasının 1 veya A1 olmasına izin vermemekte, lütfen pad numarasını değiştirin.
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = Belge katmanında daire nesnesi var, ancak jlcPara'nın polaritesi 0, lütfen Özel Verileri kontrol edin.
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = Tekrarlanan pad numaraları var: {padNumber}, lütfen kontrol edin, doğru ise bunu görmezden gelin.
@@ -3169,7 +3169,7 @@ ThermalPad = TermalPad
 Pad Expansion = Pad Genişleme
 Custom PasteMask = Özel PasteMask
 Fabrication Tolerance = Üretim Toleransı
-Plcarment Tolerance = Plcarment Toleransı
+Placement Tolerance = Placement Toleransı
 FirstPin Position = İlkPin Pozisyonu
 Package Origin = Paket Orijini
 Expansion Size = Genişleme Boyutu
