@@ -1461,7 +1461,7 @@ Hole should be inside the pad = Il foro dovrebbe essere all'interno del pad
 Hole is draggable = Il foro è trascinabile
 
 #My Part Tree Menu
-Clone = Suplica
+Clone = Duplica
 Reload parts = Ricarica componenti
 Layers = Strati
 
@@ -2519,10 +2519,10 @@ Silk Screen Color = Colore serigrafia
 Display = Visualizza
 
 # Array and Clone
-Distribute Array = Distribuisci array
-Array Type = Tipo di array
+Distribute Array = Distribuisci selezione
+Array Type = Tipo di distribuzione
 Matrix Array = Matrice 
-Circular Array = Array circolare
+Circular Array = Circolare
 Item Rotation = Rotazione dell'oggetto
 Location = Posizione
 Items per Column = Oggetti per colonna
@@ -2531,13 +2531,13 @@ Items per Row = Oggetti per riga
 # Row Spacing
 Spacing(Degrees) = Spaziatura (gradi) 
 Start Degree = Angolo iniziale 
-Rotate Item to Match = Ruota elementi per farli combaciare
+Rotate Item to Match = Ruota elementi
 Clockwise = Senso orario
 Anti-Clockwise = Senso antiorario
 Distribute by = Distribuisci su
 Column = Colonna
 Row = Riga
-Array Clone = Duplica array
+Array Clone = Duplica selezione
 Number of Rows = Numero di righe
 Number of Columns = Numero di colonne
 Number of Copies = Numero di copie
