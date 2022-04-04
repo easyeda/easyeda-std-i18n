@@ -1,5 +1,22 @@
 function _CN(e,r,t,n){var i=document.createElement(e);if(r&&null!=r)for(var a in r)i.setAttribute(a,r[a]);if(t&&Array.isArray(t))for(var o in t)i.appendChild("string"==typeof t[o]||"number"==typeof t[o]?document.createTextNode(t[o]):t[o]);return n&&void 0!==n&&n.appendChild(i),i}
 
+class TranslationGroup
+{
+    constructor(title)
+    {
+        this.title = title;
+        this.trans = [];
+    }
+    AddTranslation(english, translation)
+    {
+        this.trans[english] = translation;
+    }
+    GetTranslation(english)
+    {
+        return this.trans[english]?this.trans[english]:"";
+    }
+}
+
 var FetchFiles = new class
 {
     constructor()
@@ -53,6 +70,21 @@ var FetchFiles = new class
         });
     }
 
+    _AddEnglishText(txt, first)
+    {
+        if(first)
+        {
+            if(txt[0] == '#' && txt.indexOf("=")<=0) this.english[this.english.length] = new TranslationGroup(txt.trim());
+            else this.english[this.english.length-1].AddTranslation(txt.trim(), txt.trim());
+        }
+    }
+
+    _AddTranslationText(file, en, txt)
+    {
+        if(en[0] == '#' && en.indexOf("=")<=0) file.trans[file.trans.length] = new TranslationGroup(en.trim());
+        else file.trans[file.trans.length-1].AddTranslation(en.trim(), txt.trim());
+    }
+
     LoadTranslations()
     {
         this.loadingDiv.textContent = "Loading " + this.files.length + " translations...";
@@ -63,13 +95,13 @@ var FetchFiles = new class
             }).then(txt=>{
                 const lines = txt.split("\n");
                 lines.forEach(l=>{
-                    if(l.length < 3) return;
+                    if(l.length < 2) return;
 
                     const p = l.split("=", 2);
-                    if(this.files[0].file == f.file) this.english.push(p[0]);
+                    this._AddEnglishText(p[0], this.files[0].file == f.file);
 
-                    if(p.length == 2) f.trans.push(p[1]);
-                    else f.trans.push(l);
+                    if(p.length == 2) this._AddTranslationText(f, p[0], p[1]);
+                    else this._AddTranslationText(f, l, l);
                 });
                 if(this.files[this.files.length-1].file == f.file) 
                 {
@@ -77,7 +109,7 @@ var FetchFiles = new class
                         this.ShowTranslations();
                     }, 500);
                 }
-            }).catch(e=>{});
+            }).catch(e=>{console.error(e);});
         });
 
         console.log(this.files);
@@ -93,11 +125,16 @@ var FetchFiles = new class
         this.files.forEach(f=>{_CN("th", null, [f.lang], tr)});
         let lineIndex = 1;
         this.english.forEach(l=>{
-            tr = _CN("tr", null, null, table);
-            if(l[0]=='#') tr.className = "trhash";
+            tr = _CN("tr", {class:"trhash"}, null, table);
             _CN("th", null, [lineIndex++], tr);
-            _CN("td", null, [l], tr);
+            _CN("td", null, [l.title], tr);
             this.files.forEach(f=>{_CN("td", null, [""], tr)});
+            Object.keys(l.trans).forEach(l2=>{
+                tr = _CN("tr", null, null, table);
+                _CN("th", null, [lineIndex++], tr);
+                _CN("td", null, [l.trans[l2]], tr);
+                this.files.forEach(f=>{_CN("td", null, [""], tr)});
+            });
         });
 
         this.loadingDiv.appendChild(table);
@@ -113,10 +150,25 @@ var FetchFiles = new class
         const rows = this.loadingDiv.getElementsByTagName("table")[0].getElementsByTagName("tr");
 
         let line = 1;
-        this.files[fileIndex].trans.forEach(l=>{
-            if(l.length < 2) rows[line].getElementsByTagName("td")[fileIndex+1].className = "tdempty";
-            rows[line++].getElementsByTagName("td")[fileIndex+1].textContent = l;
+        let group = 0;
+        this.english.forEach(l=>{
+            rows[line++].getElementsByTagName("td")[fileIndex+1].textContent = l.title;
+            Object.keys(l.trans).forEach(l2=>{
+                const trans = this.files[fileIndex].trans[group].GetTranslation(l2);
+                if(trans.length < 2) rows[line].getElementsByTagName("td")[fileIndex+1].className = "tdempty";
+                if(line < rows.length) rows[line++].getElementsByTagName("td")[fileIndex+1].textContent = trans;
+            });
+            group++;
         });
+        /*
+        this.files[fileIndex].trans.forEach(l=>{
+            rows[line++].getElementsByTagName("td")[fileIndex+1].textContent = l.title;
+            Object.keys(l.trans).forEach(l2=>{
+                if(l.trans[l2].length < 2) rows[line].getElementsByTagName("td")[fileIndex+1].className = "tdempty";
+                if(line < rows.length) rows[line++].getElementsByTagName("td")[fileIndex+1].textContent = l.trans[l2];
+            });
+        });
+        */
         setTimeout(()=>{this.ShowTranslation(fileIndex+1)}, 100);
     }
 };
