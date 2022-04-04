@@ -984,7 +984,7 @@ The professional function please refer at: = Per la funzione professionale fai r
 #Dialog Clone My Part
 #Clone it to a project
 #Clone it, then edit it
-Clone your file = Clona il tuo file
+Clone your file = Duplica il tuo file
 
 #Dialog Subckt
 Attach a Subckt to this spice symbol = Collega un sottocircuito a questo simbolo spice
@@ -1441,7 +1441,7 @@ New Spice Subckt = Nuovo sottocircuito Spice
 Modify = Modifica
 Delete = Elimina
 Add sub part = Aggiungi sottoparte
-Clone = Clona
+Clone = Duplica
 Version History = Cronologia della versione
 Refresh List = Aggiorna la lista
 Create New Project = Crea un nuovo progetto
@@ -1461,7 +1461,7 @@ Hole should be inside the pad = Il foro dovrebbe essere all'interno del pad
 Hole is draggable = Il foro è trascinabile
 
 #My Part Tree Menu
-Clone = Clona
+Clone = Duplica
 Reload parts = Ricarica componenti
 Layers = Strati
 
@@ -1533,7 +1533,7 @@ Save Changes = Salva le modifiche
 To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = Per connettere gli elementi elettrici, usa filo (tasto di scelta rapida W) e non linea (tasto di scelta rapida L).
 
 Anonymous File = File anonimo
-Anonymous File can not be cloned, but you can open it, then save it as a new file. = Un file anonimo non può essere clonato, ma puoi aprirlo e salvarlo come nuovo file.
+Anonymous File can not be cloned, but you can open it, then save it as a new file. = Un file anonimo non può essere duplicato, ma puoi aprirlo e salvarlo come nuovo file.
 Free Documents = Documenti gratuiti
 You must close the file before delete it! = Devi chiudere il file prima di eliminarlo!
 Offline Project = Progetto offline
@@ -1579,7 +1579,7 @@ Delete my work. (Only deletes it from this list but not from the server) = Cance
 Do you confirm this? = Confermi?
 Successfully deleted! = Eliminato con successo!
 Successfully Copied! = Copiato con successo!
-Cloning success! = Clonato con successo!
+Cloning success! = Duplicato con successo!
 Your title is too short! = Il tuo titolo è troppo corto!
 Remove this part = Rimuovi questo componente
 Find and Jump to ... = Trova e salta a ...
@@ -1628,7 +1628,7 @@ This file can only be opened in standard mode. To open it, please switch to stan
 Load your preferences success! = Le tue preferenze sono state caricate!
 Save your preferences success! = Le tue preferenze sono state salvate!
 Update subckt ok! = Il sottocircuito è stato aggiornato!
-Clone your file = Clona il tuo file
+Clone your file = Duplica il file
 Please type a new file name = Inserisci un nuovo nome del file
 Create file failure! = Impossibile creare il file!
 Schematics and PCBs can't be imported under My Libs folder, please choose a different folder = Schemi e PCB non possono essere importati nella cartella My Libs, scegli una cartella diversa
@@ -1709,10 +1709,10 @@ Please select an opened document first. = Seleziona prima un documento aperto.
 Some files failed to load. Please reload the page. = Impossibile caricare alcuni file. Ricarica la pagina.
 
 #UI Intro
-Skip = Ignora
+Skip = Salta
 « Back = « Precedente
 Next » = Successivo »
-Done = Fatto
+Done = Chiudi
 This is the user management menu. = Questo è il menu di gestione degli utenti.
 This is the toolbar. = Questa è la barra degli strumenti.
 This is the navigation list. Under here you can find projects, files, parts and libraries. = Questa è la lista di navigazione. Qui sotto puoi trovare progetti, file, componenti e librerie.
@@ -2519,10 +2519,10 @@ Silk Screen Color = Colore serigrafia
 Display = Visualizza
 
 # Array and Clone
-Distribute Array = Distribuisci array
-Array Type = Tipo di array
+Distribute Array = Distribuisci selezione
+Array Type = Tipo di distribuzione
 Matrix Array = Matrice 
-Circular Array = Array circolare
+Circular Array = Circolare
 Item Rotation = Rotazione dell'oggetto
 Location = Posizione
 Items per Column = Oggetti per colonna
@@ -2531,13 +2531,13 @@ Items per Row = Oggetti per riga
 # Row Spacing
 Spacing(Degrees) = Spaziatura (gradi) 
 Start Degree = Angolo iniziale 
-Rotate Item to Match = Ruota elementi per farli combaciare
+Rotate Item to Match = Ruota elementi
 Clockwise = Senso orario
 Anti-Clockwise = Senso antiorario
 Distribute by = Distribuisci su
 Column = Colonna
 Row = Riga
-Array Clone = Clona array
+Array Clone = Duplica selezione
 Number of Rows = Numero di righe
 Number of Columns = Numero di colonne
 Number of Copies = Numero di copie
@@ -2804,7 +2804,7 @@ Next Image = Immagine successiva
 Notice: For reference only, please refer to the real product = Avviso: fare riferimento al prodotto reale
 It's under designing, please wait. = È in fase di progettazione, attendi.
 The width of track/arc/circle cannot be less than 0.1mil! = La larghezza della pista/arco/cerchio non può essere inferiore a 0,1 mil!
-Clone success ! = Clonato con successo!
+Clone success ! = Duplicato con successo!
 Footprint Naming Reference = Riferimento per la denominazione del Footprint
 3D Model Manager = Gestisci modello 3D
 Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = Si passerà alla piattaforma hardware open source Lichuang (OSHWHub.com) per migliorare le informazioni e condividerle. Continuare?
@@ -2988,15 +2988,15 @@ Include panelized components' coordinates = Includi le coordinate dei componenti
 Personal Workspace = Area di lavoro personale
 Work Space - {name} = Area di lavoro - {name}
 Work Space - Personal = Area di lavoro - personale
-Cloning = Clonazione
+Cloning = Duplicazione
 
 Project Owner = Proprietario del progetto
-Clone Project = Clona il progetto
+Clone Project = Duplica il progetto
 Homepage = Homepage
 Apply for Education Edition = Candidati per l'edizione Education
 Load Organization failed = Impossibile caricare l'organizzazione
 Joined = Collaborazioni
-Favorite = Preferito
+Favorite = Preferiti
 This operation will unfavorite this project, do you want to continue? =
 View Homepage = Vedi la homepage
 Private Project = Progetto privato
