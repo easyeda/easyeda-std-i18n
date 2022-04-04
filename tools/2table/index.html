@@ -1,9 +1,23 @@
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Easy Eda Translations View</title>
+    <style>
+        table {width:100%;}
+        table tr {background-color:#fff;}
+        table tr:nth-child(even) {background-color:#ddd;}
+        .trhash {background-color:#ff0 !important;}
+        .tdempty {background-color:#f88 !important;}
+    </style>
+    <script>
+      const BASEPATH = "https://raw.githubusercontent.com/EasyEDA2021/easyeda-i18n/main/editor-std/";
+    </script>
+    <script src="fetch.js"></script>
   </head>
   <body>
     <h1>Easy Eda Translations</h1>
-    <div>
+    <div id="loading">
       Loading...
     </div>
   </body>
