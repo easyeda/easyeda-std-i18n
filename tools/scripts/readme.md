@@ -1,0 +1,1 @@
+# How install the script
