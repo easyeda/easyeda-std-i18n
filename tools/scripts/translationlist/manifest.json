@@ -1,0 +1,9 @@
+{
+	"name": "Translation list",
+	"description": "Show a list of translations in your and other languages",
+	"version": "1.0",
+	"icons": {
+		
+	},
+	"scripts": [ "translationlist.js" ]
+}
