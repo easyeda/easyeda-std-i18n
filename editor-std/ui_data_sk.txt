@@ -157,9 +157,9 @@ Edit Symbol... = Upraviť symbol...
 Highlight Net... = Zvýrazniť spoj
 Simulate = Simulovať
 Simulation = Simulácia
-Standard Mode = Štandartný mód
+Standard Mode = Štandardný mód
 Simulation Mode = Mód simulácie
-Change to Standard Mode = Zmena na štandartný mód
+Change to Standard Mode = Zmena na štandardný mód
 Change to Simulation Mode = Zmena na mód simulácie
 Welcome to Use LCEDA = Vitajte pri používaní LCEDA
 Welcome to Use EasyEDA = Vitajte pri používaní EasyEDA
@@ -3136,15 +3136,15 @@ Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: =
 Please modify the component prefixes first to ensure that the component prefix is unique. =
 
-LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool =
-EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool =
+LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA(Štandard) - Jednoduchý a výkonný nástroj na návrh elektronických obvodov
+EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(Štandard) - Jednoduchý a výkonný nástroj na návrh elektronických obvodov
 
 #Dialog for Package Custom Data
-Please input the data title =
-Data title duplicated =
+Please input the data title = Zadajte prosím názov údaja
+Data title duplicated = Názov údaja je zdvojený
 Cannot be more than {0} characters! = Nemôže byť viac ako {0} znakov!
-Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. =
-Invalid value of item {0} =
+Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = Povolené sú iba písmená latinskej abecedy, číslice, podčiarkovník (_) a spojovník (-).
+Invalid value of item {0} = Nespávna hodnota položky {0}
 Update DFM =
 Custom DFM Data =
 Saved custom data successfully! =
