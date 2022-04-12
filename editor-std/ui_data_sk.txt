@@ -157,9 +157,9 @@ Edit Symbol... = Upraviť symbol...
 Highlight Net... = Zvýrazniť spoj
 Simulate = Simulovať
 Simulation = Simulácia
-Standard Mode = Štandartný mód
+Standard Mode = Štandardný mód
 Simulation Mode = Mód simulácie
-Change to Standard Mode = Zmena na štandartný mód
+Change to Standard Mode = Zmena na štandardný mód
 Change to Simulation Mode = Zmena na mód simulácie
 Welcome to Use LCEDA = Vitajte pri používaní LCEDA
 Welcome to Use EasyEDA = Vitajte pri používaní EasyEDA
@@ -2773,8 +2773,8 @@ Copper = Měď
 Create New Version = Vytvoriť novú verziu
 Create new version success! = Úspešné vytvorenie novej verzie! 
 Version Management = Menežment verzií
-Switch success! =
-Please close current version's documents first! =
+Switch success! = Prepnutie úspešné!
+Please close current version's documents first! = Najprv prosím zatvorte dokumenty aktuálnej verzie!
 Creator = Vytvoril
 Create Time = Čas vytvorenia
 Fail to connect to server! Please check your internet connection status and try again! =
@@ -2830,7 +2830,7 @@ Document = Dokumentácia
 [/pcblayer]
 
 Adjustment = Zarovnanie
-View Larger Image =
+View Larger Image = Zobraziť väčší obraz
 Previous = Predchádzajúci
 Previous Image = Predchádzajúci obraz
 Next Image = Ďalší obraz
@@ -2942,16 +2942,16 @@ Object = Objekt
 Layers and Objects = Vrstvy a objekty
 All = Všetko
 
-Add custom =
+Add custom = Pridať vlastný
 
-Connections =
-Attempted: =
+Connections = Pripojenia
+Attempted: = Pokus:
 Completed: = Kompletný
 Failed: = Zlyhalo
 Total Vias: =
 
-Please confirm moving option =
-Only this pad =
+Please confirm moving option = Potvrďte možnosť presunu
+Only this pad = Iba táto podložka
 For this component = Pre túto súčiastku
 View Owner = Prehľad vlastníka
 View Detail = Podrobný prehľad
@@ -2964,13 +2964,13 @@ Removing Vias =
 Batch Vias for Copper =
 Add/Remove Vias =
 Diameter = Priemer
-Drill Diameter =
+Drill Diameter = Priemer vrtáku
 Column Spacing = Šírka stĺpca
-Row Spacing =
+Row Spacing = Šírka riadku
 Multiple vias have been placed, do you want to rebuild the copper area? =
 Remove vias finish, do you want to rebuild the copper area? =
 The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! =
-Save fail! Please try again! =
+Save fail! Please try again! = Uloženie zlyhalo! Skúste to prosím znovu!
 Please select a copper outline =
 Can't find copper area at other layers, please add the copper area with the same net at other layer first. =
 
@@ -2999,15 +2999,15 @@ Assign successful! = Priradenie úspešné!
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
 Update Property = Aktualizovať vlastnosť
 Update Properties = Aktualizovať vlastnosti				   
-Please fill in at least 5 words. =
+Please fill in at least 5 words. = Vyplňte prosím aspoň 5 slov.
 Mouse hovering over the track to highlight the entire network =
 Net Highlighting While Cursor Hover the Track =
 When circle set as "Yes", the Pin length must be more than 6 =
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! =
 
 Logout fail! Please try again! = Odhlásenie zlyhalo! Skúste proím neskôr
-Logout success! We look forward you to use LCEDA again! =
-Logout success! We look forward you to use EasyEDA again! =
+Logout success! We look forward you to use LCEDA again! = Úspešné odhlásenie! Budeme sa tešiť ak LCEDA využijete opäť!
+Logout success! We look forward you to use EasyEDA again! = Úspešné odhlásenie! Budeme sa tešiť ak EasyEDA využijete opäť!
 Click to Preview 3D = Kliknite pre 3D prehľad
 [logoutDialog]
 Logout = Odhlásiť
@@ -3030,7 +3030,7 @@ Project Owner = Vlastník projektu
 Clone Project = Zavrieť projekt
 Homepage = Domovská stránka
 Apply for Education Edition =
-Load Organization failed =
+Load Organization failed = 
 Joined = Pripojiť sa
 Favorite = Obľúbený
 This operation will unfavorite this project, do you want to continue? =
@@ -3044,15 +3044,15 @@ Open in New Window = Otvoriť v novom okne
 Cursor Snap to Component's Origin or Pad Center While Dragging Component =
 Undefined = Nedefinovaný
 Input = Vstup
-Model Unit =
-File Unit =
+Model Unit = Jednotka modelu
+File Unit = Jednotka súboru
 This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? =
 
 [saveAs]
 Power = Napájanie
 [/saveAs]
 
-Assign LCSC Part# =
+Assign LCSC Part# = Priradenie LCSC Výrobku#
 Unexpected error while converting. Perhaps unsupported file type or program bug. =
 Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. =
 
@@ -3069,11 +3069,11 @@ View = Zobraziť
 Design = Dizajn
 Simulation = Simulácia
 Advanced = Rozšírený
-Fabrication =
+Fabrication = Výroba
 Check DRC = Kontrola DRC
 Simulation Setting = Nastavenie simulácie
 BOM = BOM
-PCB Fabrication File(Gerber) =
+PCB Fabrication File(Gerber) = DPS súbor pre výrobu (Gerber)
 Pick and Place File =
 Parts Order = Objednávka dielov
 PCB Order = Objednávka DPS
@@ -3126,7 +3126,7 @@ Move folder successfully = Priečinok bol úspešne presunutý
 Failed to move folder = Presunutie priečinku zlyhalo
 Move project successfully = Projekt bol úspešne presunutý
 Failed to move project = Presunutie projektu zlyhalo
-The folder depth must not exceed {0} levels =
+The folder depth must not exceed {0} levels = Úroveň vnorenia priečinka nesmie prekročiť {0} úrovne(í)
 Failed to add project to folder = Pridanie projektu do priečinku zlyhalo
 
 Doesn't support JLCPCB SMT Service =
@@ -3136,15 +3136,15 @@ Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: =
 Please modify the component prefixes first to ensure that the component prefix is unique. =
 
-LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool =
-EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool =
+LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA(Štandard) - Jednoduchý a výkonný nástroj na návrh elektronických obvodov
+EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(Štandard) - Jednoduchý a výkonný nástroj na návrh elektronických obvodov
 
 #Dialog for Package Custom Data
-Please input the data title =
-Data title duplicated =
-Cannot be more than {0} characters! =
-Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. =
-Invalid value of item {0} =
+Please input the data title = Zadajte prosím názov údaja
+Data title duplicated = Názov údaja je zdvojený
+Cannot be more than {0} characters! = Nemôže byť viac ako {0} znakov!
+Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = Povolené sú iba písmená latinskej abecedy, číslice, podčiarkovník (_) a spojovník (-).
+Invalid value of item {0} = Nespávna hodnota položky {0}
 Update DFM =
 Custom DFM Data =
 Saved custom data successfully! =
@@ -3238,8 +3238,8 @@ Unknown mistake =
 Has ThermalVias =
 Polar Capacitance =
 
-Create Component Marking =
-Create component marking successfully! =
+Create Component Marking = Vytvorte označenie súčiastok
+Create component marking successfully! = Vytvorenie označenia súčiatok úspešné!
 No elements on component shape layer! =
 No elements on lead shape layer! =
 No pad of number 1 or A1, please modify the pad number. =
@@ -3251,26 +3251,26 @@ Combine the same parts' prefixes in one row = Skombinujte predpony rovnakých č
 Please check at least one item! = Skontrolujte aspoň jednu položku!
 Pins =
 Check component latest version when open schematic =
-Only show updated components =
+Only show updated components = Zobraziť iba aktualizované súčiastky
 Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. =
-Doesn't support to import the binary format DXF, please import the ASCII format DXF. =
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. = Nie je podporovaný import binárneho formátu DXF, importujte prosím ASCII formát DXF.
 
-Find System Similar Footprint =
-Found similar footprints at system library, it is recommended to use them first. =
+Find System Similar Footprint = Vyhľadávanie podobného systémového pôdorysu
+Found similar footprints at system library, it is recommended to use them first. = V systémovej knižnici sa našli podobné pôdorysy, odporúčame ich použiť ako prvé.
 Copy Title = Kopírovanie názvu
-Check system similar footprint =
-Can't find the Similar Footprint =
+Check system similar footprint = Skontrolujte podobný pôdorys systému 
+Can't find the Similar Footprint = Podobný pôdorys sa nenašiel
 Search failed! = Vyhľadávanie zlyhalo!
-No package information! =
+No package information! = Žiadne informácie o balíku!
 Find Parameters = Vyhľadať parametre
 Find Results = Vzhľadať výsledky
 
 Bill of meterial(BOM) uploaded finish, please click "OK" to continue. = 
 Bill of meterial(BOM) upload failed! = 
 
-All pads =
-All holes =
-Single layer pads =
+All pads = Všetky podložky
+All holes = Všetky otvory
+Single layer pads = 
 Multi-layer pads =
 Same X pads =
 Same Y pads =
@@ -3278,9 +3278,9 @@ Same Y and clearance pads =
 Same X and clearance pads =
 Same X and clearance pads' clearance =
 Same Y and clearance pads' clearance =
-Pad's hole diameter(max) =
-Pad's hole diameter(min) =
-Pad's hole diameter(aver) =
+Pad's hole diameter(max) = Priemer podložky otvoru (max)
+Pad's hole diameter(min) = Priemer podložky otvoru (min)
+Pad's hole diameter(aver) = Priemer podložky otvoru (priemerný)
 
 Try Pro Edition = Vyskúšajte Pro verziu
 
