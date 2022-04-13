@@ -1368,17 +1368,17 @@ All = Všetko
 #Dialog Hotkey
 Change Canvas Unit =
 Copy Selected Object(s) by Reference Point =
-Fullscreen =
+Fullscreen = Na celú obrazovku
 Undo the Previous Draw =
 Set Canvas Origin by Coordinate =
-Switch to the Next Signal Layer =
-Switch to the Previous Signal Layer =
-Switch object to top layer or bottom layer =
+Switch to the Next Signal Layer = Prepnúť na ďalšiu signálnu vrstvu
+Switch to the Previous Signal Layer = Prepnúť na ďpredchádzajúcu signálnu vrstvu
+Switch object to top layer or bottom layer = Prepnúť objekt na hornú vrstvu, alebo dolnú vrstvu
 Cycle Forward to the Next Open Tabbed Document =
 Cycle Backward to the Previous Open Tabbed Document =
-Switch to the Previous Layer(on the Numeric Keypad) =
-Switch to the Next Layer(on the Numeric Keypad) =
-Toggle Layers Which is Not Active =
+Switch to the Previous Layer(on the Numeric Keypad) = Prepnúť na predchádzajúcu vrstvu (na numerickej klávesnici)
+Switch to the Next Layer(on the Numeric Keypad) = Prepnúť na ďalšiu vrstvu (na numerickej klávesnici)
+Toggle Layers Which is Not Active = Prepnúť vrstvy, ktoré nie sú aktívne
 Hotkey Setting = Nastavenie kl. skratiek
 Document Type = Typ dokumentu
 Shortcut = Skratka
@@ -1386,22 +1386,22 @@ Function = Funkcia
 ALL = VŠETKO
 SCH = SCH
 Rotate Selected Objects = Otáčanie vybraného objektu
-Scroll or Move Selected Left =
-Scroll or Move Selected Right =
-Scroll or Move Selected Up =
-Scroll or Move Selected Down =
+Scroll or Move Selected Left = Posunúť alebo presunúť vybrané doľava
+Scroll or Move Selected Right = Posunúť alebo presunúť vybrané doprava
+Scroll or Move Selected Up = Posunúť alebo presunúť vybrané hore
+Scroll or Move Selected Down = Posunúť alebo presunúť vybrané dolu
 Set canvas origin to the center grid of graphics in symbol; Set canvas origin to the center of pads in footprint. =
 Cross Document Paste = Cross document paste
 Explore & Find Components = Preskúmať a vyhľadať komponenty
 Select All = Vybrať všetko
-Cancel Current Drawing =
+Cancel Current Drawing = Zrušiť aktuálny výkres
 Save = Uložiť
 Drag Tool = Nástroj pretaženia
 Draw Wire = Nakresliť spoj
 Draw Bus = Nakresliť zbrenicu
 Bus Entry = Vstup sbernice
 Junction = Spoj
-Net Flag GND =
+Net Flag GND = Značka spoja GND
 Net Flag = Značka spoja
 Draw Polyline = Nakresliť spojovaciu čiaru
 Draw Polygon = Nakresliť polygon
@@ -1426,12 +1426,12 @@ Change to Inner2 =
 Change to Inner3 =
 Change to Inner4 =
 Highlight Net = Zvýrazniť spoj
-Highlight Network =  
-Unhighlight Network = 
+Highlight Network = Zvýrazniť sieť 
+Unhighlight Network = Zrušiť zvýraznenie siete
 Place Pad = Umiestniť plôšku
 Place Via = Umiestniť priechod
 Measure = Meranie
-Change Routing Angle =
+Change Routing Angle = 
 Change Routing Conflict =
 Decrease Routing Width = Zmenšiť šírku cesty
 Increase Routing Width = Zväčšiť šírku cesty
@@ -1443,8 +1443,8 @@ Toggle PCB Net Display = Zobraziť DPS spoj
 Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) =
 Show Relative Offset Dialog When Selecting Object(s) =
-Open the FAQ Page =
-Move Object(s) by Reference Point =
+Open the FAQ Page = Otvoriť stránku FAQ
+Move Object(s) by Reference Point = Presunúť objekt(y) podľa referenčného bodu
 Choose Favorite Track Width While Routing =
 Copy Selected Object(s) and Paste Repeatedly =
 
@@ -1506,9 +1506,9 @@ owner = vlastník
 #Dialog Annotate
 Annotate = Anotácia
 Scope = Priestor
-All pages =  
-Current page only =  
-Selected components =  					   
+All pages = Všetky strany
+Current page only = Len aktuálnu stránku 
+Selected components = Vyznačené súčiastky
 All Opened Schematics = Všetky otvorené schémy
 Method = Metóda
 Re-annotate all = Obnoviť všetky anotácie
@@ -1743,12 +1743,12 @@ Show or hide the right sidebar to the right of the window here. = Zobraziť aleb
 Passive Components = Pasivne komponenty
 Power Supply = Zdroj napájania
 Diodes = Diódy
-Regulator = Regulátory
-Transistor = Tranzistory
+Regulator = Regulátor
+Transistor = Tranzistor
 Transformers = Transformátory
 Gates = Brány
 Vacuum Tubes = Elektrónky
-Switch = Prepínače
+Switch = Prepínač
 Relay = Relé
 Capacitor(US) = Kondenzátory (US)
 Capacitor(EU) = Kondenzátory (EU)
@@ -2704,7 +2704,7 @@ Copper Areas = Oblasti medi
 Differential Pair Routing =
 Differential Pair Rule Setting =
 Please input track width = Zadajte prosím šírku vedenia
-Please input clearance =
+Please input clearance = Zadajte prosím ochrannú oblasť
 Routing Rules = Pravidlá ciest
 
 #Route Length Tuning
@@ -2714,7 +2714,7 @@ Please select the signal tracks to be tuning. =
 The total length exceeds the Design Rule Checking (DRC) constraint, continue ? =
 45° Angle = 45° Uhol
 90° Angle = 90° Uhol
-DRC Track Length : =
+DRC Track Length : = 
 Current Length : = Aktuálna dĺžka
 Additional Length : =
 Target Length: = Cieľová dĺžka
@@ -2741,11 +2741,11 @@ Copper Area do not allow self-intersection! =
 No copper area! =
 #Dialog report error
 Datasheet = Dátový list
-Verification =
+Verification = 
 Symbol =
 Pad Number = Číslo plôšky
-Pad Size =
-Remark =
+Pad Size = Veľkosť plôšky
+Remark = Poznamenať
 Correct = Správny
 Incorrect = Nesprávny
 Submit = Potvrdiť
@@ -2855,8 +2855,8 @@ This component is unmounted =
 
 #find component
 Find Next = Vyhľadať ďalší
-Pin not found =
-Pad not found =
+Pin not found = Pin sa nenašiel
+Pad not found = Plôška sa nenašla
 Object not found = Objekt sa nenašiel
 
 #offset Elements
@@ -2883,11 +2883,11 @@ Solid = Pevný
 
 Solid Region do not allow self-intersection! =
 
-The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. =
-The prefixes are not allowed to repeat! =
+The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. = Predpona alebo meno alebo text je príliš ďaleko od pôdorysu. Ak nechcete, aby sa zobrazoval, skryte ho.
+The prefixes are not allowed to repeat! = Predpony sa nesmú opakovať!
 Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? =
 The origin of the canvas has been set in the graphics now, you can save again. =
-Backup Project = Záloha projaktu
+Backup Project = Záloha projektu
 Open Project Directory = Otvoriť priečinok projektu
 
 {0} items updated = Počet aktualizovaných položiek: {0}
@@ -2896,12 +2896,12 @@ The current file {0} has an updated version. Do you want to overwrite it? If you
 Yes, Overwrite It = Áno, prepísať to
 No, Keep It = Nie, ponechať to
 
-Download Client =
+Download Client = Stiahnúť klienta
 
-Search tutorial、open source projects etc. =
+Search tutorial、open source projects etc. = Hľadaj návod, projekty s otvoreným zdrojom atď.
 
-Go to LCSC and search for =
-Go to LCSC =
+Go to LCSC and search for = Prejdite na LCSC a vyhľadajte
+Go to LCSC = Prejdite na LCSC
 
 Hide Ratline Layer and Keep the Component Prefix When Paste Objects =
 
@@ -2914,8 +2914,8 @@ Please enter at least 2 characters! = Zadajte aspoň 2 znaky!
 View Datasheet = Zobraziť údajový list
 View Datasheet... = Zobraziť údajový list...
 
-The corresponding package or network could not be found in the currently open PCB document =
-delete fail =
+The corresponding package or network could not be found in the currently open PCB document = Zodpovedajúci balík alebo sieť nebolo možné nájsť v aktuálne otvorenom dokumente DPS
+delete fail = vymazanie zlyhalo
 
 [crashRecovery]
 Libraries = Knižnice
@@ -2933,7 +2933,7 @@ Result = Výsledok
 Place = Umiestniť
 Prev = Predchádzajúci
 Next = Ďalší
-Total {count} Count = Celkový (počet) Počet
+Total {count} Count = Celkový počet {count}
 About = O aplikácii
 Items = Položky
 [/findlib]
@@ -2948,7 +2948,7 @@ Connections = Pripojenia
 Attempted: = Pokus:
 Completed: = Kompletný
 Failed: = Zlyhalo
-Total Vias: =
+Total Vias: = Celkový počet priechodov
 
 Please confirm moving option = Potvrďte možnosť presunu
 Only this pad = Iba táto podložka
@@ -2958,18 +2958,18 @@ View Detail = Podrobný prehľad
 
 
 # place batch vias
-Place Vias =
-Placing Vias =
-Removing Vias =
-Batch Vias for Copper =
-Add/Remove Vias =
+Place Vias = Umiestniť prechody
+Placing Vias = Umiestnenie priechodov
+Removing Vias = Odstránenie priechodov
+Batch Vias for Copper = Dávkové priechody pre meď
+Add/Remove Vias = Pridať/Odstrániť priechody
 Diameter = Priemer
 Drill Diameter = Priemer vrtáku
 Column Spacing = Šírka stĺpca
 Row Spacing = Šírka riadku
-Multiple vias have been placed, do you want to rebuild the copper area? =
-Remove vias finish, do you want to rebuild the copper area? =
-The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! =
+Multiple vias have been placed, do you want to rebuild the copper area? = Bolo umiestnených viacero priechodov, chcete opraviť medenú oblasť?
+Remove vias finish, do you want to rebuild the copper area? = Odstránenie priechodov ukončené, chcete opraviť medenú oblasť?
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = Šírka vedenia/oblúka/kruhu nesmie byť menšia ako 0.051mm/2mil/0.002inch!
 Save fail! Please try again! = Uloženie zlyhalo! Skúste to prosím znovu!
 Please select a copper outline =
 Can't find copper area at other layers, please add the copper area with the same net at other layer first. =
@@ -2978,11 +2978,11 @@ Add favorite success! = Pridanie obľúbeného úspešne!
 Remove favorite success! = Odstránenie obľúbeného úspešné!
 Remove favorite failed! = Odstránenie obľúbeného zlyhalo!
 Whether if remove favorite? =
-Split by ';' for multi tags =
+Split by ';' for multi tags = Rozdeliť podľa „;“ pre viac značiek
 
-This size is the determined size! =
-The associated pad has been locked =
-Split by space or , for multi tags =
+This size is the determined size! = Táto veľkosť je určená veľkosť!
+The associated pad has been locked = Príslušná podložka bola uzamknutá 
+Split by space or , for multi tags = Rozdelené medzerou alebo čiarkou v prípade viacerých značiek
 
 Rotation X = Otáčanie osy X
 Rotation Y = Otáčanie osy Y
@@ -2992,9 +2992,9 @@ Some fields are filled invalid data = Niektoré polia obsahujú chybné údaje
 start time should be earlier than stop time =
 Number of points should be less than 100 in octave variation =
 Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli =
-Get historical records fail! =
+Get historical records fail! = Získanie historických záznamov zlyhalo!
 This 3D model didn't create the outlines successfully, please import it again or contact with us. =
-There is No Tag! =
+There is No Tag! = Neexistuje žiadny štítok!
 Assign successful! = Priradenie úspešné!
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
 Update Property = Aktualizovať vlastnosť
@@ -3077,8 +3077,8 @@ PCB Fabrication File(Gerber) = DPS súbor pre výrobu (Gerber)
 Pick and Place File =
 Parts Order = Objednávka dielov
 PCB Order = Objednávka DPS
-One-click Order Parts =  
-One-click Order PCB/SMT =   
+One-click Order Parts = Objednávka súčastí jeným kliknutím
+One-click Order PCB/SMT = Objednávka DPS/SMT jedným kliknutím
 SIM = SIM
 STD = STD
 WaveForm = Tvar vlny
@@ -3090,7 +3090,7 @@ Only support English letters, up to 5. = Podporuje iba anglické písmená, viac
 Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. =
 Opening = Otváram
 
-Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) =
+Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = Aktualizujte aj sieť trasy (platí len pre okolnosti, za ktorých sa zmení predpona/návestie siete a nepridá sa ani neodstráni žiadny komponent/kábel)
 
 # desktop client error feedback
 Cannot open online documents on Project Offline mode. = Nie je možné otvoriť online dokumenty v režime Offline.
@@ -3111,7 +3111,7 @@ New Sub Folder = Nový podpriečinok
 Delete Folder = Zmazať priečinok
 Move Project = Presunúť projekt
 Move Folder = Presunúť priečinok
-# Rename Folder =
+# Rename Folder = Premenovať priečinok
 Please input the folder name = Zadajte názov priečinku
 Invalid folder name = Chybný názov priečinku
 Are you sure to delete this folder? = Naozaj chcete vymazať tento priečinok?
@@ -3129,12 +3129,12 @@ Failed to move project = Presunutie projektu zlyhalo
 The folder depth must not exceed {0} levels = Úroveň vnorenia priečinka nesmie prekročiť {0} úrovne(í)
 Failed to add project to folder = Pridanie projektu do priečinku zlyhalo
 
-Doesn't support JLCPCB SMT Service =
-for JLCPCB SMT Service =
+Doesn't support JLCPCB SMT Service = JLCPCB SMT služba nie je podporovaná
+for JLCPCB SMT Service = pre službu JLCPCB SMT
 
-Reset failed! There are duplicate component prefixes in the current schematic: =
-Reset failed! There are duplicate component prefixes in the current PCB: =
-Please modify the component prefixes first to ensure that the component prefix is unique. =
+Reset failed! There are duplicate component prefixes in the current schematic: = Obnovenie zlyhalo! V aktuálnej schéme sú duplicitné predpony komponentov:
+Reset failed! There are duplicate component prefixes in the current PCB: = Obnovenie zlyhalo! V súčasnej DPS sú duplicitné predpony komponentov:
+Please modify the component prefixes first to ensure that the component prefix is unique. = Najprv upravte predpony komponentov, aby ste sa uistili, že predpona komponentu je jedinečná.
 
 LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA(Štandard) - Jednoduchý a výkonný nástroj na návrh elektronických obvodov
 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(Štandard) - Jednoduchý a výkonný nástroj na návrh elektronických obvodov
@@ -3145,24 +3145,26 @@ Data title duplicated = Názov údaja je zdvojený
 Cannot be more than {0} characters! = Nemôže byť viac ako {0} znakov!
 Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = Povolené sú iba písmená latinskej abecedy, číslice, podčiarkovník (_) a spojovník (-).
 Invalid value of item {0} = Nespávna hodnota položky {0}
-Update DFM =
-Custom DFM Data =
-Saved custom data successfully! =
-Save custom data failed! =
-Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? =
-Open footprint "Custom Data" dialog =
+Update DFM = Aktualizovať DFM
+Custom DFM Data = Vlastné DFM údaje
+Saved custom data successfully! = Uloženie vlastných údajov úspešné!
+Save custom data failed! = Uloženie vlastných údajov zlyhalo!
+Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = Nahradí grafiku a vlastné údaje aktuálneho dokumentu, po importovaní upravte 3D model. Pokračovať alebo nie?
+Open footprint "Custom Data" dialog = Otvorte dialógové okno pôdorysu "Vlastné údaje".
+
+
 
 # Create lead shape
 Create Lead Shape =
 Base on Pad Center =
 Base on Canvas Origin =
 Lead shape =
-Footprint Type =
+Footprint Type = Typ pôdorysu
 From pad shape =
 Lead length =
 Lead width =
 Lead diameter =
-Scaling ratio =
+Scaling ratio = Pomer mierky
 Leads creating direction =
 Auto = Automaticky
 Horizontal = Vodorovný
@@ -3183,13 +3185,13 @@ Can't find the circle at the component marking layer, or this circle doesn't at 
 ROUND =
 RECTANGLE =
 OCTAGONAL =
-Upper left =
-Lower left =
-Center of Pads =
-First Pin =
-Package Name =
-Pins Number =
-Rows Of Pin =
+Upper left = Horný ľavý
+Lower left = Dolný ľavý
+Center of Pads = Centrovanie podložiek
+First Pin = Prvý Pin
+Package Name = Názov balíka
+Pins Number = Číslo pin-ov
+Rows Of Pin = 
 Columns Of Pin =
 Polarity =
 Pad Shape =
@@ -3218,7 +3220,7 @@ Corner = Roh
 Angle = Uhol
 Fillet =
 Chamfer =
-Update Preview =
+Update Preview = Aktualizovať prehľad
 Number of pins (left and right) =
 Number of pins (up and down) =
 Reference Use Cases =
@@ -3272,8 +3274,8 @@ All pads = Všetky podložky
 All holes = Všetky otvory
 Single layer pads = 
 Multi-layer pads =
-Same X pads =
-Same Y pads =
+Same X pads = Rovnaké podložky X
+Same Y pads = Rovnaké podložky Y
 Same Y and clearance pads =
 Same X and clearance pads =
 Same X and clearance pads' clearance =
@@ -3286,4 +3288,4 @@ Try Pro Edition = Vyskúšajte Pro verziu
 
 Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
-Select the objects that cannot be generated =												
+Select the objects that cannot be generated = Vyberte objekty, ktoré sa nedajú vygenerovať	
