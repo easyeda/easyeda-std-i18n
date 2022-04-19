@@ -35,7 +35,7 @@ function untranslate()
       if(att != 'undefined' && att != "")
       {
         d.textContent = d.textContent.substring(0, pos);
-        d.title = d.title.substring(0, pos);
+        d.title = d.title.substring(0, d.title.indexOf("["));
       }
     }
   });
