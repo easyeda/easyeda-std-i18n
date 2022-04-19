@@ -48,6 +48,9 @@ var FetchFiles = new class
 
     FindTranslations()
     {
+        this.files = [];
+        this.english = [];
+
         this.loadingDiv = divT;
         this.loadingDiv.textContent = "Loading languages";
         fetch(BASEPATH + "language_list.txt").then(a=>{
@@ -70,6 +73,7 @@ var FetchFiles = new class
     SelectTranslations()
     {
         this.loadingDiv.textContent = "";
+        _CN("h3", null, ["Select one or more languages to load:"], this.loadingDiv);
         let form = _CN("form", null, null, this.loadingDiv);
         let inps = [];
         this.files.forEach(f=>{
@@ -83,6 +87,30 @@ var FetchFiles = new class
             let files = [];
             let fileIndex = 0;
             inps.forEach(i=>{if(i.checked) files[files.length] = this.files[fileIndex]; fileIndex++});
+
+            if(files.length == 0) 
+            {
+                var dlg = api('createDialog', {
+                    title: "Invalid language",
+                    content : '<div style="padding:10px;"></div>'
+                            +'<div style="padding:0 10px 10px;">'
+                            +'<div><strong>Select at least 1 language</strong></div>'
+                            +'</div>',
+                    width : 280,
+                    height : 120,
+                    modal : true,
+                    buttons : [{
+                            text : 'OK',
+                            iconCls : 'icon-ok',
+                            cmd : 'extension-theme-apply;dialog-close'
+                        }
+                    ]
+                });
+                dlg.dialog('open');
+				Locale.update(dlgTheme);
+                return;
+            }
+
             this.files = files;
 
             while(this.loadingDiv.childNodes.length > 0) this.loadingDiv.removeChild(this.loadingDiv.childNodes[0]);
@@ -174,21 +202,14 @@ var FetchFiles = new class
         this.english.forEach(l=>{
             rows[line++].getElementsByTagName("td")[fileIndex+1].textContent = l.title;
             Object.keys(l.trans).forEach(l2=>{
+                if(group >= this.files[fileIndex].trans.length) return;
                 const trans = this.files[fileIndex].trans[group].GetTranslation(l2);
-                if(trans.length < 2) rows[line].getElementsByTagName("td")[fileIndex+1].className = "tdempty";
+                if(trans.length < 1 || trans == " ") rows[line].getElementsByTagName("td")[fileIndex+1].className = "tdempty";
+                else if(trans[trans.length - 1] == ' ') rows[line].getElementsByTagName("td")[fileIndex+1].className = "tdwarn";
                 if(line < rows.length) rows[line++].getElementsByTagName("td")[fileIndex+1].textContent = trans;
             });
             group++;
         });
-        /*
-        this.files[fileIndex].trans.forEach(l=>{
-            rows[line++].getElementsByTagName("td")[fileIndex+1].textContent = l.title;
-            Object.keys(l.trans).forEach(l2=>{
-                if(l.trans[l2].length < 2) rows[line].getElementsByTagName("td")[fileIndex+1].className = "tdempty";
-                if(line < rows.length) rows[line++].getElementsByTagName("td")[fileIndex+1].textContent = l.trans[l2];
-            });
-        });
-        */
         setTimeout(()=>{this.ShowTranslation(fileIndex+1)}, 100);
     }
 };
