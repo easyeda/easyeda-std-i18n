@@ -5,5 +5,5 @@
 	"icons": {
 		"default": "icon.svg"
 	},
-	"scripts": [ "menu.js", "showoriginal.js", "translationlist.js" ]
+	"scripts": [ "menu.js", "showoriginal.js", "translationlist.js", "about.js" ]
 }
