@@ -1224,7 +1224,7 @@ Separated layer = Strato separato
 Paged layer = Strato paginato
 Layer = Strato
 Export = Esporta
-Mirror = Specchio
+Mirror = Specchia
 TopLayer = Strato superiore
 BottomLayer = Strato inferiore
 TopSilkLayer = Serigrafia strato superiore
@@ -1838,10 +1838,10 @@ Transmission Line = Linea di trasmissione
 Voltmeter = Voltmetro
 Ammeter = Amperometro
 LAMP = LAMPADINA
-Opto Transistor = Opto-Isolatore
+Opto Transistor = Optoisolatore
 
 #Server Message
-Need login = È necessario accedere
+Need login = È necessario eseguire l'accesso
 Bad password = Password errata
 We can't find your username or your email, please check it! = Nome utente o email non trovata, riprova!
 Make sure your uploaded file size is less than 3MB! = La dimensione del file caricato deve essere inferiore a 3MB!
@@ -1894,7 +1894,7 @@ Reject = Rifiuta
 Add User = Aggiungi utente
 Bad email address = Indirizzo email non corretto
 # error info from backend
-Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Indirizzo email non è associato ad un alcun utente registrato in EasyEDA.
+Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Questo indirizzo email non è associato ad un alcun utente registrato su EasyEDA.
 
 #Dialog waveForm
 Grid Background = Sfondo della griglia
@@ -2355,8 +2355,8 @@ Font is missing! You can confirm the dialog and use default font instead or canc
 #Common
 Owner = Proprietario
 License = Licenza
-Part Pins = 
-Net Pins =
+Part Pins = Pin del componente
+Net Pins = Pin della net
 Net Ratlines =
 Add Parameter = Aggiungi parametro
 Histories record = Cronologia dei dati
@@ -2939,9 +2939,9 @@ Save fail! Please try again! = Impossibile salvare! Riprova!
 Please select a copper outline =
 Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Impossibile trovare la zona di rame sugli altri strati, aggiungere prima la zona di rame con la stessa net sull'altro strato.
 
-Add favorite success! = Aggiungi ai preferiti
+Add favorite success! = Aggiunto ai preferiti!
 Remove favorite success! = Rimosso dai preferiti!
-Remove favorite failed! = Impossibile rimuovere dai preferiti
+Remove favorite failed! = Impossibile rimuovere dai preferiti!
 Whether if remove favorite? = Rimuovere dai preferiti?
 Split by ';' for multi tags = Diviso da ';' per tag multipli
 
