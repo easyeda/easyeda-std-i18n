@@ -68,5 +68,6 @@ Slovenčina (Slovak) = Slovenčina (Slovak)
 # ui_data_th.txt
 ภาษาไทย (Thai) = ภาษาไทย (Thai)
 
-
+# ui_data_ar.txt
+العربية (Arabic) = العربية (Arabic)
 
