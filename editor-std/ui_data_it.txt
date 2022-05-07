@@ -2166,9 +2166,9 @@ No Silk Layer = Senza strato serigrafia
 Photo View = Vista 2D 
 
 #check update
-Check Update = Verifica Aggiornamenti
-EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = Una nuova versione di EasyEDA Editor {ver} é disponibile. Vuoi passare alla nuova versione ora?
-LCEDA Editor {ver} is released. Would you like to switch to the new version now? = Una nuova versione di LCEDA Editor {ver} é disponibile. Vuoi passare alla nuova versione ora?
+Check Update = Verifica aggiornamenti
+EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = E' disponibile la nuova versione {ver} di EasyEDA Editor. Vuoi aggiornare adesso alla versione più recente?
+LCEDA Editor {ver} is released. Would you like to switch to the new version now? = E' disponibile la nuova versione {ver} di LCEDA Editor. Vuoi aggiornare adesso alla versione più recente?
 Switch to New Version = Passa alla nuova versione
 Next Time = In seguito
 
