@@ -3270,7 +3270,7 @@ Bill of material(BOM) uploaded finish, please click "OK" to continue. =
 Bill of material(BOM) upload failed! =
 
 All pads = Tutti i pad
-All holes =	Tutti i fori
+All holes = Tutti i fori
 Single layer pads =
 Multi-layer pads =
 Same X pads =
