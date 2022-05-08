@@ -2346,7 +2346,7 @@ Stop Router = Ferma sbroglio
 Auto Router is running... = Auto-Sbroglio in corso...
 
 #Left Siderbar
-Commonly Library =
+Commonly Library = Libreria di uso comune
 Basic = Di base
 Extend = Estendi
 Design Manager = Gestore del design
