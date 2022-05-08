@@ -1,4 +1,4 @@
-# Menu
+#Menu
 User = Utente
 Join... = Registrati...
 Login... = Accedi...
@@ -38,6 +38,7 @@ Cadence... = Cadence...
 Pads... = Pad...
 DXF = DXF
 Import = Importa
+
 
 Edit = Modifica
 Undo = Annulla
@@ -246,6 +247,8 @@ Updated Instructions = Istruzioni aggiornate
 Open File Format = Apri formato file
 About Upgrade = Informazioni sull'aggiornamento
 User Forum = Forum di supporto
+Live Q/A =	
+No live broadcast now =
 Feature Request = Richiesta funzionalità
 Feature Requests = Richieste funzionalità
 Bug Report = Segnala bug
@@ -660,7 +663,6 @@ SRNANDFFEE = SRNANDFFEE
 SRNORFFEE = SRNORFFEE
 INVTSEE = INVTSEE
 INVODEE = INVODEE
-Schmittbuffee = Buffer di Schmitt
 Cbuffer = Cbuffer
 SPDT_Open = Apri_SPDT
 SPDT_Close = Chiudi_SPDT
@@ -834,6 +836,14 @@ Spice Pin Number = Numero pin spice
 Graphics = Grafica
 Pattern = Modello
 
+Pin: =	
+Netflag: =	
+Netlabel: =	
+NetPort: =	
+Voltage Probe: =	
+Pin: =	
+Hidden Pin: =	
+Unknown: =
 #Arc Properties
 Arc Properties = Proprietà dell'arco
 Start Angle = Inizio dell'angolo
@@ -1040,6 +1050,7 @@ Chose file = Scegli file
 File Operation = Operazione del file
 Import File = Importa file
 Extract Libs = Estrai librerie
+No Libs! = Nessuna libreria!
 Import File and Extract Libs = Importa file ed estrai le librerie
 File type = Tipo di file
 The file size is too large. = La dimensione del file è troppo grande.
@@ -1069,6 +1080,12 @@ Manufacturer.bom = Produttore.bom
 One-click Purchasing at LCSC = Acquista con un click su LCSC
 Order Parts = Ordina componenti/Controlla disponibilità
 Export BOM = Esporta BOM
+Upload to LCSC ERP =
+No components, upload failed! =
+Upload to LCSC ERP failed, please try again later. =
+Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. =
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. =
+
 Export PCB BOM = Esporta BOM PCB
 Export Schematic BOM = Esporta schema BOM
 ID.bom = ID.bom
@@ -1141,6 +1158,7 @@ In stock = Disponibile
 Common Modules = Moduli comuni
 User Contributions = Contributi degli utenti
 More = Mostra altro
+Modify Model... =
 Add Favorite = Aggiungi ai preferiti
 Remove Favorite = Rimuovi dai preferiti
 Add Sub Part = Aggiungi sotto-parte
@@ -1348,10 +1366,6 @@ Currently rule name is not allowed to contain magical characters like . and $ = 
 All = Tutto
 [/drcRule]
 
-#Dialog  Update PCB
-Update PCB(Synchronizing PCB from schematics) = Aggiorna PCB(sincronizza PCB dagli schemi)
-
-
 #Dialog Hotkey
 Change Canvas Unit = Cambia unità canvas
 Copy Selected Object(s) by Reference Point = Copia gli oggetti selezionati per punto di riferimento
@@ -1413,6 +1427,8 @@ Change to Inner2 = Passa a Inner2
 Change to Inner3 = Passa a Inner3
 Change to Inner4 = Passa a Inner4
 Highlight Net = Evidenzia Net
+Highlight Network =
+Unhighlight Network =
 Place Pad = Posiziona Pad
 Place Via = Posiziona Via
 Measure = Misura
@@ -1490,8 +1506,10 @@ owner = proprietario
 
 #Dialog Annotate
 Annotate = Annota
-Scope =
-Active Schematic only = Solo schema attivo
+Scope=
+All pages = Tutte le pagine
+Current page only = Solo la pagina attuale
+Selected components = Componenti selezionati
 All Opened Schematics = Tutti gli schemi aperti
 Method = Metodo
 Re-annotate all = Riannota tutto
@@ -1589,7 +1607,8 @@ Exporting your works! = Sto esportando i tuoi lavori!
 Guests can't import a file. Please login! = Gli utenti ospiti non possono importare file. Accedi!
 Please create a project before you import a file! = Crea un progetto prima di importare un file!
 Import your LTspice file! = Importa il tuo file LTspice!
-Open LTspice file = Apri il file LTspice
+Open LTspice file = Apri file LTspice
+Open EasyEDA file = Apri file EasyEDA
 Please make sure the selected LTspice file is a file saved in LTspice V and above. = Assicurati che il file LTspice selezionato sia un file salvato in LTspice V o versioni successive.
 Saved successfully! = Salvato con successo!
 Save failed! = Impossibile salvare!
@@ -1663,6 +1682,7 @@ All ratlines are hidden successfully! = Tutte le linee di collegamento sono stat
 Hidden the ratline of net {netName} successfully! = Le linee di collegamento della net {netName} sono state nascoste!
 Duplicate Component Prefix = Il prefisso del componente è già presente
 {0} exist = {0} esiste
+Modify successfully, but {0} already exists =
 There are some invalid packages, are you sure? = Ci sono alcuni contenitori errati, sei sicuro?
 Invalid Characters, library only allows [0-9a-zA-Z-_] = Caratteri non validi, la libreria consente solo [0-9a-zA-Z-_]
 Annotation success = Annotazione riuscita
@@ -1884,7 +1904,6 @@ Display Pad's Number and Net = Mostra numero di pad e net
 Favorite Track width = Larghezza della pista preferita
 Track Width Setting = Impostazione larghezza della pista
 
-
 #Dialog Access Control
 Permissions = Permessi
 Operations = Operazioni
@@ -1893,7 +1912,8 @@ Project Access Control = Controllo dell'accesso al progetto
 Reject = Rifiuta
 Add User = Aggiungi utente
 Bad email address = Indirizzo email non corretto
-# error info from backend
+
+#error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Questo indirizzo email non è associato ad un alcun utente registrato su EasyEDA.
 
 #Dialog waveForm
@@ -1984,6 +2004,8 @@ Update = Aggiorna
 Bus entry = Bus entry
 Filter = Filtro
 Check = Verifica
+Share my work =
+Share it by e-mail, IM, blog, etc. =
 
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Copia il seguente contenuto in un editor di testo e salvalo. Dopo averlo modificato, copialo nuovamente all'interno di questa casella di testo e premi Applica per aggiornare il display.
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Copia il seguente contenuto in un editor di testo e salvalo con l'estensione .svg. Puoi modificarlo con Inkscape o aprirlo con il tuo browser.
