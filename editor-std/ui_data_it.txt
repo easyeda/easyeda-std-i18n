@@ -1282,8 +1282,8 @@ BottomSolderMaskLayer =
 ComponentShapeLayer =
 LeadShapeLayer =
 ComponentMarkingLayer =
-Ratlines =
-Ratlines Color =
+Ratlines = Linee di collegamento
+Ratlines Color = Colore delle linee di collegamento
 Manage Colors = Gestisci colori
 BoardOutline = Linea di contorno della scheda
 Multi-Layer = Multistrato
@@ -1296,7 +1296,7 @@ Transparency(%) = Trasparenza(%)
 Copper Layer = Strato di rame
 Signal = Segnale
 Plane =
-Non-Signal =
+Non-Signal = Nessun segnale
 Other = Altro
 Please delete all the objects of the layers first! The layers are: = Elimina prima tutti gli oggetti degli strati! Gli strati sono:
 You are converting Signal Layer to Plane Layer, There're some non-track objects remain on following layers. Please delete the objects manually on the canvas. =
@@ -1660,7 +1660,7 @@ Make sure your pin numbers are even numbers = Assicurati che il numero di pin si
 Duplicate Components Prefix = Il prefisso dei componenti è già presente
 All components are hidden successfully! = Tutti i componenti sono stati nascosti!
 All ratlines are hidden successfully! = Tutte le linee di collegamento sono state nascoste
-Hidden the ratline of net {netName} successfully! = Linee di collegamento della net {netName} nascoste!
+Hidden the ratline of net {netName} successfully! = Le linee di collegamento della net {netName} sono state nascoste!
 Duplicate Component Prefix = Il prefisso del componente è già presente
 {0} exist = {0} esiste
 There are some invalid packages, are you sure? = Ci sono alcuni contenitori errati, sei sicuro?
@@ -2166,9 +2166,9 @@ No Silk Layer = Senza strato serigrafia
 Photo View = Vista 2D 
 
 #check update
-Check Update = Verifica Aggiornamenti
-EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = Una nuova versione di EasyEDA Editor {ver} é disponibile. Vuoi passare alla nuova versione ora?
-LCEDA Editor {ver} is released. Would you like to switch to the new version now? = Una nuova versione di LCEDA Editor {ver} é disponibile. Vuoi passare alla nuova versione ora?
+Check Update = Verifica aggiornamenti
+EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = E' disponibile la nuova versione {ver} di EasyEDA Editor. Vuoi aggiornare adesso alla versione più recente?
+LCEDA Editor {ver} is released. Would you like to switch to the new version now? = E' disponibile la nuova versione {ver} di LCEDA Editor. Vuoi aggiornare adesso alla versione più recente?
 Switch to New Version = Passa alla nuova versione
 Next Time = In seguito
 
@@ -2357,7 +2357,7 @@ Owner = Proprietario
 License = Licenza
 Part Pins = Pin del componente
 Net Pins = Pin della net
-Net Ratlines =
+Net Ratlines = Linee di collegamento della net
 Add Parameter = Aggiungi parametro
 Histories record = Cronologia dei dati
 Create Team = Crea gruppo
@@ -2868,7 +2868,7 @@ Search tutorial、open source projects etc. = Cerca tutorial, progetti open sour
 Go to LCSC and search for = Vai su LCSC e cerca
 Go to LCSC = Vai su LCSC
 
-Hide Ratline Layer and Keep the Component Prefix When Paste Objects =
+Hide Ratline Layer and Keep the Component Prefix When Paste Objects = Nascondi le linee di collegamento e mantieni il prefisso del componente quando incolli gli oggetti
 
 ALL.layer =
 Copper.layer =
@@ -2879,7 +2879,7 @@ Please enter at least 2 characters! = Digita almeno 2 caratteri!
 View Datasheet = Mostra datasheet
 View Datasheet... = Mostra datasheet...
 
-The corresponding package or network could not be found in the currently open PCB document =
+The corresponding package or network could not be found in the currently open PCB document = Non è stato possibile trovare il pacchetto o la rete corrispondente nel documento PCB attualmente aperto
 delete fail = Eliminazione fallita
 
 [crashRecovery]
