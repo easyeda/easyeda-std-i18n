@@ -3283,7 +3283,7 @@ Pad's hole diameter(max) =
 Pad's hole diameter(min) =
 Pad's hole diameter(aver) =
 
-Try Pro Edition =	Prova l'edizione Pro
+Try Pro Edition = Prova l'edizione Pro
 
 Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
