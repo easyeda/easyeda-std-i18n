@@ -1,4 +1,4 @@
-# Menu
+#Menu
 User = Utente
 Join... = Registrati...
 Login... = Accedi...
@@ -38,6 +38,7 @@ Cadence... = Cadence...
 Pads... = Pad...
 DXF = DXF
 Import = Importa
+
 
 Edit = Modifica
 Undo = Annulla
@@ -148,7 +149,7 @@ The component ID will be reset according to the component prefix, this operation
 Please make sure the component prefixes of the schematic and PCB are corresponding = Assicurati che i prefissi dei componenti dello schema e del PCB corrispondano
 Please reset the component ID of corresponding schematic or corresponding PCB too = Ripristina anche l'ID del componente dello schema o del PCB corrispondente
 Do you want to continue? = Vuoi continuare?
-Reset Component ID = Reimposta ID del componente
+Reset Component Unique ID = Reimposta ID unico del componente
 Component ID reset successfully! = ID del componente reimpostato con successo!
 Convert to PCB = Converti in PCB
 Update PCB = Aggiorna PCB
@@ -246,6 +247,8 @@ Updated Instructions = Istruzioni aggiornate
 Open File Format = Apri formato file
 About Upgrade = Informazioni sull'aggiornamento
 User Forum = Forum di supporto
+Live Q/A = Live Q/A
+No live broadcast now = Nessuna trasmissione in diretta adesso
 Feature Request = Richiesta funzionalità
 Feature Requests = Richieste funzionalità
 Bug Report = Segnala bug
@@ -403,7 +406,7 @@ Common = Comune
 spice.open = apri spice
 spice.close = chiudi spice
 Sources = Sorgenti
-Instruments/Meters = Strumenti/Misuratori
+Instruments/Meters = Strumenti
 Transistors = Transistor
 Digital Circuits = Circuiti digitali
 Operational Amplifier = Amplificatore operazionale
@@ -539,7 +542,7 @@ Timebase = Tempo base
 Scale: = Scala:
 X pos.(Div): = pos. X(Div):
 Y pos.(Div): = pos. Y(Div):
-View meter... = Vedi misuratore...
+View meter... = Visualizza strumento...
 The circuit has components without simulation model: = Il circuito ha componenti senza il modello di simulazione:
 Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = L'intervallo di simulazione è troppo breve, attendi 5 secondi e riprova; se ancora vedi questo messaggio, potresti aver superato il limite giornaliero di simulazioni.
 Resistor1_US = Resistenza1_US
@@ -660,7 +663,6 @@ SRNANDFFEE = SRNANDFFEE
 SRNORFFEE = SRNORFFEE
 INVTSEE = INVTSEE
 INVODEE = INVODEE
-Schmittbuffee = Buffer di Schmitt
 Cbuffer = Cbuffer
 SPDT_Open = Apri_SPDT
 SPDT_Close = Chiudi_SPDT
@@ -834,6 +836,14 @@ Spice Pin Number = Numero pin spice
 Graphics = Grafica
 Pattern = Modello
 
+Pin: = Pin:
+Netflag: = Netflag:
+Netlabel: = Netlabel:
+NetPort: = NetPort:
+Voltage Probe: = Sonda di tensione:
+Pin: = Pin:
+Hidden Pin: = Nascondi pin:
+Unknown: = Sconosciuto:
 #Arc Properties
 Arc Properties = Proprietà dell'arco
 Start Angle = Inizio dell'angolo
@@ -1040,6 +1050,7 @@ Chose file = Scegli file
 File Operation = Operazione del file
 Import File = Importa file
 Extract Libs = Estrai librerie
+No Libs! = Nessuna libreria!
 Import File and Extract Libs = Importa file ed estrai le librerie
 File type = Tipo di file
 The file size is too large. = La dimensione del file è troppo grande.
@@ -1053,8 +1064,8 @@ Select None = Non selezionare niente
 #Dialog Modify Symbol Information
 Modify symbol information = Modifica informazione del simbolo
 Spice Prefix = Prefisso Spice
-Hide Pin = Nascondi Pin
-Pin Manager = Gestisci Pin
+Hide Pin = Nascondi pin
+Pin Manager = Gestisci pin
 When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = Quando un Pin di alimentazione è nascosto, viene marcato come Netlabel e non c'è bisogno di collegarlo. Se usato in una simulazione, mostralo o crea una rete GND/VCC per il pin.
 Assign = Assegna
 Supplier.bom = Fornitore.bom
@@ -1067,8 +1078,14 @@ Manufacturer Part.bom = Codice componente del produttore.bom
 Manufacturer.bom = Produttore.bom
 
 One-click Purchasing at LCSC = Acquista con un click su LCSC
-Order Parts = Ordina componenti/Controlla disponibilità
+Order Parts = Ordina componenti
 Export BOM = Esporta BOM
+Upload to LCSC ERP = Carica su LCSC ERP
+No components, upload failed! = Nessun componente, il caricamento non è andato a buon fine!
+Upload to LCSC ERP failed, please try again later. = Il caricamento su LCSC ERP non è andato a buon fine, riprova più tardi.
+Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = Il caricamento dell'attuale BOM sul Chip Manager di LCSC è andato a buon fine, clicca sul pulsante "OK" per accedere al Chip Manager.
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = Il caricamento su LCSC ERP non è andato a buon fine, ad alcuni componenti manca il valore di alcune proprietà, controlla se esiste il valore della proprietà di "Footprint, Codice componente del produttore".
+
 Export PCB BOM = Esporta BOM PCB
 Export Schematic BOM = Esporta schema BOM
 ID.bom = ID.bom
@@ -1141,6 +1158,7 @@ In stock = Disponibile
 Common Modules = Moduli comuni
 User Contributions = Contributi degli utenti
 More = Mostra altro
+Modify Model... = Modifica modello...
 Add Favorite = Aggiungi ai preferiti
 Remove Favorite = Rimuovi dai preferiti
 Add Sub Part = Aggiungi sotto-parte
@@ -1150,8 +1168,8 @@ package = contenitore
 Title(PartNO) = Titolo(PartNO)
 No Data! = Nessun dato!
 Quantity = Quantità
-Manufacturer Part = Componente del produttore
-manufacturer Part = componente del produttore
+Manufacturer Part = Codice componente del produttore
+manufacturer Part = codice componente del produttore
 Manufacturer = Produttore
 manufacturer = produttore
 voltage = tensione
@@ -1348,10 +1366,6 @@ Currently rule name is not allowed to contain magical characters like . and $ = 
 All = Tutto
 [/drcRule]
 
-#Dialog  Update PCB
-Update PCB(Synchronizing PCB from schematics) = Aggiorna PCB(sincronizza PCB dagli schemi)
-
-
 #Dialog Hotkey
 Change Canvas Unit = Cambia unità canvas
 Copy Selected Object(s) by Reference Point = Copia gli oggetti selezionati per punto di riferimento
@@ -1413,6 +1427,8 @@ Change to Inner2 = Passa a Inner2
 Change to Inner3 = Passa a Inner3
 Change to Inner4 = Passa a Inner4
 Highlight Net = Evidenzia Net
+Highlight Network = Evidenzia rete
+Unhighlight Network = Non evidenziare rete
 Place Pad = Posiziona Pad
 Place Via = Posiziona Via
 Measure = Misura
@@ -1490,8 +1506,10 @@ owner = proprietario
 
 #Dialog Annotate
 Annotate = Annota
-Scope =
-Active Schematic only = Solo schema attivo
+Scope=
+All pages = Tutte le pagine
+Current page only = Solo la pagina attuale
+Selected components = Componenti selezionati
 All Opened Schematics = Tutti gli schemi aperti
 Method = Metodo
 Re-annotate all = Riannota tutto
@@ -1516,8 +1534,8 @@ Yellow = Giallo
 Black = Nero
 Purple = Viola
 Copper = Ramato
-Gold = Oro
-Silver = Argento
+Gold = Dorato
+Silver = Argentato
 Surface Finish = Finitura superficiale
 Hasl = Hasl
 Hasl(Lead Free) = Hasl(senza piombo)
@@ -1589,7 +1607,8 @@ Exporting your works! = Sto esportando i tuoi lavori!
 Guests can't import a file. Please login! = Gli utenti ospiti non possono importare file. Accedi!
 Please create a project before you import a file! = Crea un progetto prima di importare un file!
 Import your LTspice file! = Importa il tuo file LTspice!
-Open LTspice file = Apri il file LTspice
+Open LTspice file = Apri file LTspice
+Open EasyEDA file = Apri file EasyEDA
 Please make sure the selected LTspice file is a file saved in LTspice V and above. = Assicurati che il file LTspice selezionato sia un file salvato in LTspice V o versioni successive.
 Saved successfully! = Salvato con successo!
 Save failed! = Impossibile salvare!
@@ -1663,6 +1682,7 @@ All ratlines are hidden successfully! = Tutte le linee di collegamento sono stat
 Hidden the ratline of net {netName} successfully! = Le linee di collegamento della net {netName} sono state nascoste!
 Duplicate Component Prefix = Il prefisso del componente è già presente
 {0} exist = {0} esiste
+Modify successfully, but {0} already exists = La modifica è andata a buon fine, ma {0} già esiste
 There are some invalid packages, are you sure? = Ci sono alcuni contenitori errati, sei sicuro?
 Invalid Characters, library only allows [0-9a-zA-Z-_] = Caratteri non validi, la libreria consente solo [0-9a-zA-Z-_]
 Annotation success = Annotazione riuscita
@@ -1884,7 +1904,6 @@ Display Pad's Number and Net = Mostra numero di pad e net
 Favorite Track width = Larghezza della pista preferita
 Track Width Setting = Impostazione larghezza della pista
 
-
 #Dialog Access Control
 Permissions = Permessi
 Operations = Operazioni
@@ -1893,7 +1912,8 @@ Project Access Control = Controllo dell'accesso al progetto
 Reject = Rifiuta
 Add User = Aggiungi utente
 Bad email address = Indirizzo email non corretto
-# error info from backend
+
+#error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Questo indirizzo email non è associato ad un alcun utente registrato su EasyEDA.
 
 #Dialog waveForm
@@ -1984,6 +2004,8 @@ Update = Aggiorna
 Bus entry = Bus entry
 Filter = Filtro
 Check = Verifica
+Share my work = Condividi il mio lavoro
+Share it by e-mail, IM, blog, etc. = Condividilo via e-mail, IM, blog, ecc.
 
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Copia il seguente contenuto in un editor di testo e salvalo. Dopo averlo modificato, copialo nuovamente all'interno di questa casella di testo e premi Applica per aggiornare il display.
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Copia il seguente contenuto in un editor di testo e salvalo con l'estensione .svg. Puoi modificarlo con Inkscape o aprirlo con il tuo browser.
@@ -1995,6 +2017,7 @@ The file save operation has timed out. Try again and check your Internet connect
 Export Netlist = Esporta Netlist
 Notifications = Notifiche
 Please select txt or json files. = Seleziona dei file txt o json.
+Please select EasyEDA files. = Seleziona file di EasyEDA.
 Failed to read file [{file}] = Impossibile leggere il file [{file}]
 [{file}] is not a valid json file = [{file}] non è un file json valido
 Invalid parameters! = Parametri errati!
@@ -2145,6 +2168,7 @@ Create Subfolder = Crea sottocartella
 Create Script = Crea script
 Install Script = Installa script
 Install = Installa
+Desktop Client = Client desktop
 Are you sure you want to remove this script? = Sei sicuro di voler eliminare questo script?
 Folder Name = Nome della cartella
 Rename = Rinomina
@@ -2230,6 +2254,9 @@ Footprint PAD information = Informazioni sulla PAD del footprint
 Footprint Categories = Categorie footprint
 Pad Number = Numero pad
 Search Footprint = Cerca footprint
+Select Footprint = Seleziona footprint
+Search 3D Model = Cerca modello 3D
+Select 3D Model = Seleziona modello 3D
 Filter by keyword = Filtra per parola chiave
 System Libs = Librerie di sistema
 
@@ -2319,7 +2346,7 @@ Stop Router = Ferma sbroglio
 Auto Router is running... = Auto-Sbroglio in corso...
 
 #Left Siderbar
-EELib = EELib
+Commonly Library = Libreria di uso comune
 Basic = Di base
 Extend = Estendi
 Design Manager = Gestore del design
@@ -2343,7 +2370,7 @@ Switch/Relay = Interruttore/Relè
 JLCPCB = JLCPCB
 Recycle Bin = Cestino
 
-# Protractor
+#Protractor
 Font Height = Altezza del font
 Precision = Precisione
 Protractor = Goniometro
@@ -2356,6 +2383,7 @@ Font is missing! You can confirm the dialog and use default font instead or canc
 Owner = Proprietario
 License = Licenza
 Part Pins = Pin del componente
+Part Properties = Proprietà del componente
 Net Pins = Pin della net
 Net Ratlines = Linee di collegamento della net
 Add Parameter = Aggiungi parametro
@@ -2421,8 +2449,8 @@ Pin to Top = Blocca in cima
 Unpin from Top = Sblocca dalla cima
 Collapse / Expand = Comprimi / Espandi
 Expand = Espandi
-Collapse = Comprimi
 Expand All = Espandi tutto
+Collapse = Comprimi
 Collapse All = Comprimi tutto
 Your file hasn't been saved, do you want to save it? = Il file non è stato salvato, vuoi salvarlo?
 Don't Save = Non salvare
@@ -2433,18 +2461,19 @@ Please select! = Per favore seleziona!
 Route = Sbroglio
 Import successfully: = Importato con successo:
 Import failed: = Impossibile importare:
-The title length must be between 2~128 characters. = La lunghezza del titolo deve essere compresa tra 2 e 128 caratteri.
 Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Il percorso contiene solo 'a-z、A-Z、- 、 _ 、0-9'!
 Path must begin as 'a-z、A-Z、0-9'! = Il percorso deve iniziare per 'a-z、A-Z、0-9'!
 The path length must be between 4~128 characters! = La lunghezza del percorso deve essere compresa tra 4 e 128 caratteri!
-The title length must be between 2~256 characters! = La lunghezza del titolo deve essere compresa tra 2 e 256 caratteri!
-The title cannot be less than 3 characters! = Il titolo non può essere inferiore a 3 caratteri!
+The title length must be between 2 ~ 128 characters. = La lunghezza del titolo deve essere compresa tra 2 e 128 caratteri.
+Please select an owner = Seleziona un proprietario
+Please select obj, wrl or zip file. = Seleziona un file obj, wrl o zip.
 Do you want to delete this file? = Vuoi eliminare questo file?
 Add sub part success = Sotto-parte aggiunta con successo
 Please input name and prefix! = Inserisci nome e prefisso!
 Board outlines are not closed = Il contorno della scheda non è chiuso
-Import Altium file fail, the file needs to be an ASCII file encoded in UTF-8. = Impossibile importare il file Altium, deve essere un file ASCII codificato in UTF-8.
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = I Pin "{0}" non sono agganciati al punto della griglia! Questo componente potrebbe causare alcuni errori nello schema.
+Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} =
 Check Pin = Controlla pin
 Failed to read {0} = Impossibile leggere {0}
 {0} is invalid = {0} non è valido
@@ -2477,7 +2506,7 @@ Lock = Blocca
 Please input pin name and pin number! = Inserisci il nome ed il numero del pin!
 Left-Hand Panel = Pannello a sinistra
 Right-Hand Panel = Pannello a destra
-Update All = Aggiorna tutto
+Update Components from Library = Aggiorna componenti dalla libreria
 The pin number(s) can't find the same pad number(s) = Il numero dei pin non corrisponde al numero dei pad
 Designator = Designatore
 Replace = Sostituisci
@@ -2518,7 +2547,7 @@ Silk Screen = Serigrafia
 Silk Screen Color = Colore serigrafia
 Display = Display
 
-# Array and Clone
+#Array and Clone
 Distribute Array = Distribuisci selezione
 Array Type = Tipo di distribuzione
 Matrix Array = Matrice 
@@ -2527,8 +2556,8 @@ Item Rotation = Rotazione dell'oggetto
 Location = Posizione
 Items per Column = Oggetti per colonna
 Items per Row = Oggetti per riga
-# Column Spacing
-# Row Spacing
+#Column Spacing
+#Row Spacing
 Spacing(Degrees) = Spaziatura (gradi) 
 Start Degree = Angolo iniziale 
 Rotate Item to Match = Ruota elementi
@@ -2543,7 +2572,7 @@ Number of Columns = Numero di colonne
 Number of Copies = Numero di copie
 Distribute Range(Degrees) = Angolo di distribuzione (gradi)
 
-# Theme color dialog
+#Theme color dialog
 BusEntry = BusEntry
 Foreground = Primo piano
 Common Used = Uso comune
@@ -2631,7 +2660,7 @@ Border and Marking =
 Create Border = Crea Bordo
 Border Height = Altezza bordo
 Border Position = Posizione bordo
-Create Positioning Holes =
+Create Positioning Holes = Crea fori di posizionamento
 Create Fiducial Marks = Crea Fiducial Mark
 Top and Bottom = Sopra e sotto
 Left and Right = Sinistra e destra
@@ -2676,7 +2705,7 @@ Copper Areas = Zone di rame
 Differential Pair Routing = Sbroglio delle coppie differenziali
 Differential Pair Rule Setting = Impostazioni sbroglio delle coppie differenziali
 Please input track width = Inserisci la larghezza della pista
-Please input clearance = Inserisci lo spazio tra le tracce
+Please input clearance = Inserisci lo spazio tra le piste
 Routing Rules = Regole dello sbroglio
 
 #Route Length Tuning
@@ -2691,6 +2720,9 @@ Current Length : = Lunghezza attuale :
 Additional Length : = Lunghezza aggiuntiva :
 Target Length: = Lunghezza dell'oggetto:
 Current Length: = Lunghezza attuale:
+Adjust Type =
+Double Side = Doppio lato
+Single Side = Lato singolo
 
 can not connect to the server = impossibile connettersi con il server
 
@@ -2732,8 +2764,9 @@ Switch Version = Cambia versione
 Members = Membri
 Update Time = Tempo di aggiornamento
 Editor = Editor
-Current Version: = Versione attuale:
-Select a version to switch = Seleziona una versione
+Current Version = Versione attuale
+Latest Version = Ultima versione
+Please select a different version to switch; If you want to edit different version in the same time, please open them in different browsers. = Seleziona una versione diversa; se vuoi modificare contemporaneamente versioni diverse, aprile in browser diversi. 
 3D Model = Modello 3D
 Board Side = Lato bordo
 Display = Visualizza
@@ -2773,6 +2806,7 @@ Processing = In lavorazione
 Opening File = Apertura del file
 Update from Library = Aggiorna dalla libreria
 Update Footprint = Aggiorna footprint
+Update 3D Model = Aggiorna modello 3D
 Find footprint(s) have been updated, do you want to update? = Trova footprint che sono stati aggiornati, vuoi aggiornare?
 3D File: = File 3D:
 Model List = Lista dei modelli
@@ -2822,6 +2856,8 @@ This component is unmounted = Questo componente è smontato
 
 #find component
 Find Next = Trova successivo
+Pin not found = Impossibile trovare il pin
+Pad not found = Impossibile trovare il pad
 Object not found = Componente non trovato
 
 #offset Elements
@@ -2835,7 +2871,7 @@ Relative Offset... = Offset relativo...
 Reference Point X = Punto di riferimento X
 Reference Point Y = Punto di riferimento Y
 
-# Inner Plane layer
+#Inner Plane layer
 Rebuild Plane = Ricrea piano
 PlaneZone Properties =
 Change to a plane layer is not allowed during track routing. =
@@ -2922,7 +2958,7 @@ View Owner = Mostra proprietario
 View Detail = Mostra dettaglio
 
 
-# place batch vias
+#place batch vias
 Place Vias = Posiziona via
 Placing Vias = Posiziona via
 Removing Vias = Rimuovi via
@@ -2963,6 +2999,7 @@ There is No Tag! = Non c'è nessun tag!
 Assign successful! = Assegnazione riuscita!
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = Il numero del pad del footprint trovato non corrisponde al numero del pin del componente dello schema, correggi il numero del pad e riprova!
 Update Property = Aggiorna attributi
+Update Properties = Aggiorna attributi
 Please fill in at least 5 words. = Inserisci almeno 5 parole.
 Mouse hovering over the track to highlight the entire network = Passa il mouse sulla pista per evidenziare l'intera rete
 Net Highlighting While Cursor Hover the Track = Evidenzia la net mentre il cursore del mouse passa sulla pista
@@ -3041,6 +3078,8 @@ PCB Fabrication File(Gerber) = File di fabbricazione PCB(Gerber)
 Pick and Place File = File Pick and Place
 Parts Order = Ordina componenti
 PCB Order = Ordina PCB
+One-click Order Parts = Ordina componenti con un click
+One-click Order PCB/SMT = Ordina PCB/SMT con un click
 SIM = SIM
 STD = STD
 WaveForm = Forma d'onda
@@ -3054,7 +3093,7 @@ Opening = Apertura
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = Aggiorna anche la net della pista (si applica solo nelle circostanze in cui il prefisso/netlabel cambia e nessun componente/filo viene aggiunto o rimosso)
 
-# desktop client error feedback
+#desktop client error feedback
 Cannot open online documents on Project Offline mode. = Impossibile aprire documenti online in modalità progetto offline.
 
 Please select a project = Seleziona un progetto
@@ -3073,7 +3112,7 @@ New Sub Folder = Nuova sottocartella
 Delete Folder = Elimina la cartella
 Move Project = Sposta il progetto
 Move Folder = Sposta la cartella
-# Rename Folder = # Rinomina la cartella
+#Rename Folder
 Please input the folder name = Inserisci il nome della cartella
 Invalid folder name = Il nome della cartella non è corretto
 Are you sure to delete this folder? = Sei sicuro di voler eliminare questa cartella?
@@ -3114,7 +3153,7 @@ Save custom data failed! = Impossibile salvare i dati personalizzati!
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = Sostituirà la grafica e i dati personalizzati del documento attuale, dopo l'importazione bisogna regolare il modello 3D. Continuare o no?
 Open footprint "Custom Data" dialog = Apri la finestra di dialogo "Dati personalizzati" del footprint
 
-# Create lead shape
+#Create lead shape
 Create Lead Shape = 
 Base on Pad Center =
 Base on Canvas Origin =
@@ -3206,10 +3245,46 @@ No elements on component shape layer! =
 No elements on lead shape layer! =
 No pad of number 1 or A1, please modify the pad number. = Nessun pad del numero 1 o A1, modificare il numero del pad.
 Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = Impossibile salvare! Il cerchio di marcatura del componente è sull'asse. Vuoi ricreare la marcatura del componente?
-If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = Se lo sbroglio automatico non andasse a buon fine, puoi esportare il file di autoroute (DSN) in uno strumento di terze parti (come: Konekt Electra, Eremex TopoR ecc.) ed esportare il file di sessione (SES) dopo aver terminato lo sbroglio, quindi importare su PCB.
+If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: FreeRouting, Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = Se lo sbroglio automatico non andasse a buon fine, puoi esportare il file di autoroute (DSN) in uno strumento di terze parti (come: FreeRouting, Konekt Electra, Eremex TopoR ecc.) ed esportare il file di sessione (SES) dopo aver terminato lo sbroglio, quindi importare su PCB.
 Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = Impossibile effettuare lo sbroglio automatico! Sono stati rilevati dati anomali del pad, modifica la larghezza e l'altezza del pad:
 Select Properties = Seleziona proprietà
 Combine the same parts' prefixes in one row = Combina i prefissi degli stessi componenti in una riga
 Please check at least one item! = Controlla almeno un elemento!
 Pins = Pin
+Check component latest version when open schematic = Controlla l'ultima versione del componente quando si apre lo schema
+Only show updated components = Mostra solo componenti aggiornati
+Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. =
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. = L'importazione del formato binario DXF non è supportato, importa DXF in formato ASCII.
 
+Find System Similar Footprint = Trova footprint di sistema simili
+Found similar footprints at system library, it is recommended to use them first. = Sono state trovate footprint simili nella libreria di sistema, si consiglia di usarle.
+Copy Title = Copia titolo
+Check system similar footprint = Controlla footprint di sistema simili
+Can't find the Similar Footprint = Impossibile trovare footprint di sistema simili
+Search failed! = La ricerca non ha prodotto risultati utili!
+No package information! =
+Find Parameters = Trova i parametri
+Find Results = Trova i risultati
+
+Bill of material(BOM) uploaded finish, please click "OK" to continue. = La distinta del materiale (BOM) è stata caricata, clicca su "OK" per continuare.
+Bill of material(BOM) upload failed! = Non è stato possibile caricare correttamente la distinta del materiale (BOM)!
+
+All pads = Tutti i pad
+All holes = Tutti i fori
+Single layer pads = Pad a strato singolo
+Multi-layer pads = Pad multistrato
+Same X pads =
+Same Y pads =
+Same Y and clearance pads =
+Same X and clearance pads =
+Same X and clearance pads' clearance =
+Same Y and clearance pads' clearance =
+Pad's hole diameter(max) = Diametro foro del pad(max)
+Pad's hole diameter(min) = Diametro foro del pad(min)
+Pad's hole diameter(aver) = Diametro foro del pad(media)
+
+Try Pro Edition = Prova l'edizione Pro
+
+Generate Solid Region by Objects Outline =
+Generate Polygon Pad by Objects Outline =
+Select the objects that cannot be generated = Seleziona gli oggetti che non possono essere generati
