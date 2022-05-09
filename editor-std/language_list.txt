@@ -24,7 +24,7 @@ Deutsch (German) = Deutsch (German)
 Indonesia (Indonesian) = Indonesia (Indonesian)
 
 # ui_data_it.txt
-Italian (Italiano) = Italian (Italiano)
+Italiano (Italian) = Italiano (Italian)
 
 # ui_data_ja.txt
 日本語 (Japanese) = 日本語 (Japanese)
