@@ -47,7 +47,7 @@ Cut = Taglia
 Copy = Copia
 Paste = Incolla
 Select = Seleziona
-Delete = Cancella
+Delete = Elimina
 Clear All = Pulisci tutto
 Move = Sposta
 Drag = Trascina
@@ -220,7 +220,7 @@ Import Autorouter Session File(SES) = Importa file di sessione Autorouter(SES)
 Autorouter File(DSN) = File Autorouter(DSN)
 Autorouter Session File(SES) = File di sessione Autorouter(SES)
 Terminate Routing Automatically = Termina sbroglio automaticamente
-Delete Segments = Cancella segmenti
+Delete Segments = Elimina segmenti
 Unroute Connections = Disfa sbroglio
 Unroute Connection = Disfa sbroglio
 Unroute Nets = Disfa Net
@@ -248,7 +248,7 @@ Open File Format = Apri formato file
 About Upgrade = Informazioni sull'aggiornamento
 User Forum = Forum di supporto
 Live Q/A = Live Q/A
-No live broadcast now = Nessuna trasmissione in diretta adesso
+No live broadcast now = In questo momento non ci sono trasmissioni in diretta
 Feature Request = Richiesta funzionalità
 Feature Requests = Richieste funzionalità
 Bug Report = Segnala bug
@@ -288,7 +288,7 @@ Extensions = Estensioni
 Order PCB... = Ordina PCB...
 Import Changes = Importa le modifiche
 Press {0}F11{1} to switch to full screen. = Premi {0}F11{1} per passare a schermo intero.
-Delete Selected = Cancella selezionati
+Delete Selected = Elimina selezionati
 Simulate... = Simula...
 Config = Configura
 Terms of Service & Privacy Policy = Termini di servizio & privacy
@@ -1395,7 +1395,7 @@ Set canvas origin to the center grid of graphics in symbol; Set canvas origin to
 Cross Document Paste =
 Explore & Find Components = Esplora e trova componenti
 Select All = Seleziona tutto
-Cancel Current Drawing = Cancella il disegno attuale
+Cancel Current Drawing = Annulla il disegno attuale
 Save = Salva
 Drag Tool = Strumento di trascinamento
 Draw Wire = Disegna filo
@@ -1592,8 +1592,8 @@ Guest can't create a new project. Please login! = L'utente ospite non può crear
 Please create a project before you do this! = Crea un progetto prima di fare questo!
 Add Part success = Aggiunto componente con successo
 Click the new part and then edit it! = Clicca sul nuovo componente e modificalo!
-Delete my work = Cancella il mio lavoro
-Delete my work. (Only deletes it from this list but not from the server) = Cancella il mio lavoro. (Lo elimina solo da questo elenco ma non dal server)
+Delete my work = Elimina il mio lavoro
+Delete my work. (Only deletes it from this list but not from the server) = Elimina il mio lavoro. (Lo elimina solo da questo elenco ma non dal server)
 Do you confirm this? = Confermi?
 Successfully deleted! = Eliminato con successo!
 Successfully Copied! = Copiato con successo!
@@ -2377,7 +2377,7 @@ Protractor = Goniometro
 
 #attr-pcbtext-line-width
 Only default font family supports to change font width. = Solo i font predefiniti supportano la modifica della larghezza.
-Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = Font mancante! Conferma per usare il font di default o cancella per caricare il nuovo font e riprovare.
+Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = Font mancante! Conferma per usare il font di default o annulla per caricare il nuovo font e riprovare.
 
 #Common
 Owner = Proprietario
@@ -2642,8 +2642,8 @@ Invalid Format = Il formato non è valido
 #Dialog Teardrop
 Round Pad / Via = Pad arrotondato / Via 
 Rectangle / Oval / Polygon Pad = Rettangolo / Ovale / Pad da poligono
-Applying Teardrops = Creazione teardrop
-Removing Teardrops = Cancellazione teardrop
+Applying Teardrops = Crea teardrop
+Removing Teardrops = Rimuovi teardrop
 Waiting = In attesa
 Progressing... = Elaborazione...
 
@@ -2928,7 +2928,7 @@ Component's Prefix = Prefisso del componente
 Component's Footprint = Footprint del componente
 
 [findlib]
-Clear = Cancella
+Clear = Pulisci
 Apply Filters = Applica filtri
 Result = Risultato
 Place = Posiziona
