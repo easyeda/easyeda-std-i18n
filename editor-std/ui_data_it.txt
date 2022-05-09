@@ -3254,7 +3254,7 @@ Pins = Pin
 Check component latest version when open schematic = Controlla l'ultima versione del componente quando si apre lo schema
 Only show updated components = Mostra solo componenti aggiornati
 Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. =
-Doesn't support to import the binary format DXF, please import the ASCII format DXF. = L'importazione dei file DXF in formato binario non è supportato, importa DXF in formato ASCII.
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. = L'importazione dei file DXF in formato binario non è supportata, importa i DXF in formato ASCII.
 
 Find System Similar Footprint = Trova footprint di sistema simili
 Found similar footprints at system library, it is recommended to use them first. = Sono state trovate footprint simili nella libreria di sistema, si consiglia di usarle.
