@@ -71,3 +71,6 @@ Slovenčina (Slovak) = Slovenčina (Slovak)
 # ui_data_ar.txt
 العربية (Arabic) = العربية (Arabic)
 
+# ui_data_fa.txt
+فارسی (Persian) = فارسی (Persian)
+  
