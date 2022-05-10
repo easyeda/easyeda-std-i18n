@@ -2909,7 +2909,7 @@ Hide Ratline Layer and Keep the Component Prefix When Paste Objects = Nascondi l
 ALL.layer = Tutti gli strati
 Copper.layer = Strato ramato
 Non-Copper.layer = Strato non ramato
-Other.layer = Altro
+Other.layer = Altri strati
 
 Please enter at least 2 characters! = Digita almeno 2 caratteri!
 View Datasheet = Mostra datasheet
