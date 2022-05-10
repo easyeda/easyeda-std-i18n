@@ -2060,7 +2060,7 @@ Exporting as image = Esporta come immagine
 Exporting as {0}SVG{1} file. = Esporta come file {0}SVG{1}.
 Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = Si consiglia di esportare in PDF: produce una buona qualità di stampa e occupa poco spazio.
 Generate PCB Fabrication File(Gerber) = Genera file di fabbricazione PCB(Gerber)
-PenWidth-Increase =
+PenWidth-Increase = Aumenta la larghezza del tratto
 
 #Generate Gerber
 Generate Gerber = Genera Gerber
