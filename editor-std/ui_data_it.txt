@@ -852,7 +852,7 @@ Rotation Direction = Direzione della rotazione
 
 #Rect Properties
 Rect Properties = Proprietà del rettangolo
-Round radius = Raggio del raccordo
+Round radius = Raggio arrotondato
 
 #Circle Properties
 Circle Properties = Proprietà del cerchio
@@ -2275,8 +2275,8 @@ Current Size = Dimensione attuale
 Paramenters = Parametri
 Start X: = Origine X:
 Start Y: = Origine Y:
-Round Rectangular = Rettangolo arrotondato
-radius = Raggio
+Round Rectangular = Rettangolare arrotondato
+radius = raggio
 only number is allowed! = è consentito solo il numero!
 please input valid value of width! = digita un valore valido per la larghezza!
 please input valid value of height! = digita un valore valido per l'altezza!
@@ -2492,7 +2492,7 @@ Netlist = Netlist
 Tags = Tag
 Pin Information: = Informazione del pin:
 Format incorrect, please check for the extra spaces or commas! = Il formato non è corretto, controlla gli spazi o le virgole!
-Round Radius =
+Round Radius = Raggio arrotondato
 Keyword: = Parola chiave:
 Image = Immagine
 Image copied. = L'immagine è stata copiata.
