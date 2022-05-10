@@ -2212,8 +2212,8 @@ Select a DXF file = Seleziona un file DXF
 
 #Export DXF
 Export DXF = Esporta DXF
-Plated-Through-Hole Pads =
-Non-Plated-Through-Hole Pads =
+Plated-Through-Hole Pads = Pad placcati con foro passante
+Non-Plated-Through-Hole Pads = Pad non placcati con foro passante
 Silkscreen = Serigrafia
 Surface Pad = Pad superficiale
 
