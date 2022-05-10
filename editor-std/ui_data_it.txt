@@ -2906,10 +2906,10 @@ Go to LCSC = Vai su LCSC
 
 Hide Ratline Layer and Keep the Component Prefix When Paste Objects = Nascondi le linee di collegamento e mantieni il prefisso del componente quando incolli gli oggetti
 
-ALL.layer =
-Copper.layer =
-Non-Copper.layer =
-Other.layer =
+ALL.layer = TUTTO
+Copper.layer = Ramato
+Non-Copper.layer = Non ramato
+Other.layer = Altro
 
 Please enter at least 2 characters! = Digita almeno 2 caratteri!
 View Datasheet = Mostra datasheet
