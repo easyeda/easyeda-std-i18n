@@ -228,7 +228,7 @@ Select = Seleziona
 Segments = Segmenti
 Connection = Connessione
 Net = Net
-Apply Design Rule While Routing and Auto Placing Via = Applica le regole del design durante lo sbroglio e il posizionamento via automatico
+Apply Design Rule While Routing and Auto Placing Via = Applica le regole di progettazione durante lo sbroglio e il posizionamento automatico delle via
 
 Add SubPart = Aggiungi sotto-parte
 Annotate... = Annota...
