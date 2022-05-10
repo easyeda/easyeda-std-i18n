@@ -3293,8 +3293,8 @@ Please compress schematic and PCB as a zip file and then import it, if you only 
 Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Comprimi lo schema ed il PCB in formato ASCII in un file zip ed importali, se importi solo lo schema dovrai aggiungere manualmente il footprint.
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = L'importazione non è andata a buon fine! I file importati non erano in formato ASCII, salva i file come "Advanced Schematic ascii(*.SchDoc)" oppure "PCB ASCII File(*.PcbDoc)" in Altium Designer ed importali.
 The PCB text will use the editor new font family, the text maybe will appear a litte excursion. =
-Because of different file format and element, please check carefully after imported. =
-Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
+Because of different file format and element, please check carefully after imported. = A causa del diverso formato ed elemento del file, controllare attentamente dopo l'importazione.
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = Assicurati che il file di EAGLE sia stato salvato con EAGLE v6.0 o versioni successive. 
 Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
 Please make sure the Protel file is exported as ASCII format file. = Assicurati che il file Protel sia stato esportato in un file formato ASCII.
 Please compress the schematic and corresponding symbols as a zip file and then import it. = Comprimi lo schema e i simboli corrispondenti in un file zip ed importali.
@@ -3302,7 +3302,7 @@ Please compress the schematic and corresponding symbols as a zip file and then i
 Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Salva i file come "Advanced Schematic ascii(*.SchDoc)" oppure "PCB ASCII File(*.PcbDoc)" in Altium Designer e successivamente importali.
 Tips = Suggerimenti
 Exists incomplete connection = Ci sono connessioni incomplete
-Found that the board has incomplete connection, please check the nets and ratlines =
+Found that the board has incomplete connection, please check the nets and ratlines = La scheda presenta connessioni incomplete, controlla le net e le linee di collegamento
 creator = autore
 You are not logged in or the login status is invalid, please login and try again. = Non hai eseguito l'accesso oppure lo stato dell'accesso non è valido, esegui l'accesso e riprova.
 Display Board Cutout = Mostra ritaglio della scheda
