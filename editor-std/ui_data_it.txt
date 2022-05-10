@@ -3289,13 +3289,13 @@ Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
 Select the objects that cannot be generated = Seleziona gli oggetti che non possono essere generati
 
-Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Comprimi lo schema ed il PCB in un file zip ed importali, se importi solo lo schema dovrai aggiungere manualmente il footprint.
-Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Comprimi lo schema ed il PCB in formato ASCII in un file zip ed importali, se importi solo lo schema dovrai aggiungere manualmente il footprint.
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Comprimi lo schema ed il PCB in un file zip ed importali, se importi solo lo schema dovrai assocciarlo manualmente con il footprint.
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Comprimi lo schema ed il PCB in formato ASCII in un file zip ed importali, se importi solo lo schema dovrai associarlo manualmente con il footprint.
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = L'importazione non è andata a buon fine! I file importati non erano in formato ASCII, salva i file come "Advanced Schematic ascii(*.SchDoc)" oppure "PCB ASCII File(*.PcbDoc)" in Altium Designer ed importali.
 The PCB text will use the editor new font family, the text maybe will appear a litte excursion. =
 Because of different file format and element, please check carefully after imported. = A causa del diverso formato ed elemento del file, controllare attentamente dopo l'importazione.
-Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = Assicurati che il file di EAGLE sia stato salvato con EAGLE v6.0 o versioni successive. 
-Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = Assicurati che il file di EAGLE sia stato salvato con EAGLE v6.0 e versioni successive. 
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = Comprimi lo schema ed il PCB da KiCad5 in un file zip ed importalo, se importi solo lo schema dovrai associarlo manualmente con il footprint. 
 Please make sure the Protel file is exported as ASCII format file. = Assicurati che il file Protel sia stato esportato in un file formato ASCII.
 Please compress the schematic and corresponding symbols as a zip file and then import it. = Comprimi lo schema e i simboli corrispondenti in un file zip ed importali.
 
