@@ -3289,5 +3289,5 @@ Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
 Select the objects that cannot be generated = Seleziona gli oggetti che non possono essere generati
 creator = 
-You are not logged in or the login status is invalid, please login and try again. = 
-Display Board Cutout = 
+You are not logged in or the login status is invalid, please login and try again. = Non hai eseguito l'accesso oppure lo stato dell'accesso non è valido, esegui l'accesso e riprova.
+Display Board Cutout = Mostra ritaglio della scheda
