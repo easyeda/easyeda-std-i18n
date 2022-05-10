@@ -3209,4 +3209,59 @@ Auto route failed! Found abnormal pad(s) data, please modify the pad width and h
 Select Properties = Eigenschaften auswählen
 Combine the same parts' prefixes in one row = Kombinieren Sie die Vorsilben der gleichen Teile in einer Reihe
 Please check at least one item! = Bitte wählen Sie mindestens ein Element.
-Pins = Pins
+Pins = 
+Check component latest version when open schematic =
+Only show updated components =
+Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. =
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. =
+
+Find System Similar Footprint =
+Found similar footprints at system library, it is recommended to use them first. =
+Copy Title =
+Check system similar footprint =
+Can't find the Similar Footprint =
+Search failed! =
+No package information! =
+Find Parameters =
+Find Results =
+
+Bill of meterial(BOM) uploaded finish, please click "OK" to continue. = 
+Bill of meterial(BOM) upload failed! = 
+
+All pads =
+All holes =
+Single layer pads =
+Multi-layer pads =
+Same X pads =
+Same Y pads =
+Same Y and clearance pads =
+Same X and clearance pads =
+Same X and clearance pads' clearance =
+Same Y and clearance pads' clearance =
+Pad's hole diameter(max) =
+Pad's hole diameter(min) =
+Pad's hole diameter(aver) =
+
+Try Pro Edition =
+
+Generate Solid Region by Objects Outline =
+Generate Polygon Pad by Objects Outline =
+Select the objects that cannot be generated =
+
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
+The PCB text will use the editor new font family, the text maybe will appear a litte excursion. = 
+Because of different file format and element, please check carefully after imported. = 
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 
+Please make sure the Protel file is exported as ASCII format file. = 
+Please compress the schematic and corresponding symbols as a zip file and then import it. = 
+
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
+Tips = 
+Exists incomplete connection = 
+Found that the board has incomplete connection, please check the nets and ratlines = 
+creator = 
+You are not logged in or the login status is invalid, please login and try again. = 
+Display Board Cutout = 

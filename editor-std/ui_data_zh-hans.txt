@@ -162,7 +162,7 @@ Standard Mode = 标准模式
 Simulation Mode = 仿真模式
 Change to Standard Mode = 切换至标准模式
 Change to Simulation Mode = 切换至仿真模式
-Welcome to Use LCEDA = 欢迎使用立创EDA
+Welcome to Use JLCEDA = 欢迎使用嘉立创EDA
 Welcome to Use EasyEDA = 欢迎使用EasyEDA
 Enable Education Edition Features for Free >>> = 免费开启教育版功能>>>
 Quick Start = 快速开始
@@ -176,7 +176,7 @@ Tutorials = 文档教程
 Videos = 视频教程
 [/start]
 Custom Data = 自定义数据
-LCEDA = 立创EDA
+JLCEDA = 嘉立创EDA
 
 Copy Result Image = 复制图形结果
 Export Result Image = 导出图形结果
@@ -1608,7 +1608,7 @@ Guests can't import a file. Please login! = 访客不能导入文件，请登录
 Please create a project before you import a file! = 导入文件前请先创建一个工程
 Import your LTspice file! = 导入你的LTspice文件!
 Open LTspice file = 打开LTspice文件
-Open EasyEDA file = 打开立创EDA文件
+Open EasyEDA file = 打开嘉立创EDA文件
 Please make sure the selected LTspice file is a file saved in LTspice V and above. = 请确保选择的LTspice文件是LTspice V 及以上版本保存的文件.
 Saved successfully! = 保存成功
 Save failed! = 保存失败
@@ -2017,7 +2017,7 @@ The file save operation has timed out. Try again and check your Internet connect
 Export Netlist = 导出网表
 Notifications = 通知
 Please select txt or json files. = 请选择txt或json文件
-Please select EasyEDA files. = 请选择立创EDA文件。
+Please select EasyEDA files. = 请选择嘉立创EDA文件。
 Failed to read file [{file}] = 读取文件 [{file}] 失败
 [{file}] is not a valid json file = [{file}] 不是一个有效的JSON文件
 Invalid parameters! = 无效参数
@@ -2192,7 +2192,7 @@ Photo View = 照片预览
 #check update
 Check Update = 检查更新
 EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = EasyEDA V{ver} 已发布，是否现在切换到新版本？
-LCEDA Editor {ver} is released. Would you like to switch to the new version now? = 立创EDA V{ver} 已发布，是否现在切换到新版本？
+JLCEDA Editor {ver} is released. Would you like to switch to the new version now? = 嘉立创EDA V{ver} 已发布，是否现在切换到新版本？
 Switch to New Version = 切换到新版本
 Next Time = 下次再说
 
@@ -2756,7 +2756,7 @@ Location X = X 坐标
 Location Y = Y 坐标
 Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = 您当前的浏览器版本可能不支持某些功能。请使用最新的谷歌或者火狐浏览器，或使用客户端。
 EasyEDA Client = EasyEDA客户端
-LCEDA Client = 立创EDA客户端
+JLCEDA Client = 嘉立创EDA客户端
 Chrome = 谷歌浏览器
 FireFox = 火狐浏览器
 New Version = 新建版本
@@ -2777,6 +2777,7 @@ Version Management = 版本管理
 Switch success! = 切换成功！
 Please close current version's documents first! = 请先关闭当前版本的所有文档！
 Creator = 创建者
+creator = 创建者
 Create Time = 创建时间
 Fail to connect to server! Please check your internet connection status and try again! = 连接服务器失败！请检查你的联网状态并再次尝试！
 Spice Number = 仿真编号
@@ -3007,7 +3008,7 @@ When circle set as "Yes", the Pin length must be more than 6 = 当圆圈设置�
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = 你好，我发现了你的一个库可能存在错误。\n标题：{title}\n类型：{type}\n链接：{link}\n{content}\n谢谢！
 
 Logout fail! Please try again! = 退出登录失败！请再次尝试！
-Logout success! We look forward you to use LCEDA again! = 退出成功！期待您再次使用立创EDA！
+Logout success! We look forward you to use JLCEDA again! = 退出成功！期待您再次使用嘉立创EDA！
 Logout success! We look forward you to use EasyEDA again! = 退出成功！期待您再次使用EasyEDA！
 Click to Preview 3D = 点击预览3D
 [logoutDialog]
@@ -3137,7 +3138,7 @@ Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: = 重置失败！当前PCB存在重复的元件位号：
 Please modify the component prefixes first to ensure that the component prefix is unique. = 请先修改位号确保元件位号是唯一的。
 
-LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = 立创EDA(标准版) - 免费、易用、强大的在线电路设计软件
+JLCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = 嘉立创EDA(标准版) - 免费、易用、强大的在线电路设计软件
 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(标准版) - 免费、易用、强大的在线电路设计软件
 
 #Dialog for Package Custom Data
@@ -3257,6 +3258,7 @@ Note: When a PCB is Import Changes, the PCB is updated according to the footprin
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. = 不支持二进制的 DXF 导入，请导入 ASCII 格式的 DXF
 
 Find System Similar Footprint = 查找系统相似封装
+Download fingerprint data = 下载指纹数据
 Found similar footprints at system library, it is recommended to use them first. = 发现存在相似的系统封装，建议优先使用系统封装。
 Copy Title = 复制标题
 Check system similar footprint = 检查系统相似封装
@@ -3288,3 +3290,28 @@ Try Pro Edition = 尝试专业版
 Generate Solid Region by Objects Outline = 根据轮廓生成实心填充
 Generate Polygon Pad by Objects Outline = 根据轮廓生成多边形焊盘
 Select the objects that cannot be generated = 选中图元无法生成外轮廓
+
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 请把原理图和 PCB 压缩成 zip 压缩包后导入，只导入原理图需要手动重新绑定封装。
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 请把 ASCII 格式的原理图和 PCB 压缩成 zip 压缩包后导入，只导入原理图需要手动重新绑定封装。
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 导入失败！你导入的文件不是 ASCII 格式的，请先在 Altium Designer 另存为“Advanced Schematic ascii(*.SchDoc)”或“PCB ASCII File(*.PcbDoc)”后再导入。
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 请先在 Altium Designer 另存为“Advanced Schematic ascii(*.SchDoc)”或“PCB ASCII File(*.PcbDoc)”后再导入
+The PCB text will use the editor new font family, the text maybe will appear a litte excursion. = 导入的 PCB 文本将使用编辑器新的字体，文本可能会出现轻微变形和偏移。
+Because of different file format and element, please check carefully after imported. = 因格式和图元不一致，导入后请仔细检查。
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 请确保选择的 EAGLE 文件是 EAGLE v6.0 及以上版本保存的文件。
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 请把原理图和 PCB 使用 KiCad5 压缩成 zip 压缩包后导入，只导入原理图需要手动重新绑定封装。
+Please make sure the Protel file is exported as ASCII format file. = 请确保 Protel 文件是导出为 ASCII 格式的文件。
+Please compress the schematic and corresponding symbols as a zip file and then import it. = 请把原理图和对应的符号压缩成 zip 文件再导入。
+Tips = 提示
+
+Exists incomplete connection = 存在未完成连接
+Found that the board has incomplete connection, please check the nets and ratlines = 发现有板子存在未完成连接，请检查网络与飞线
+
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
+Tips = 
+Exists incomplete connection = 
+Found that the board has incomplete connection, please check the nets and ratlines = 
+creator = 
+
+You are not logged in or the login status is invalid, please login and try again. = 尚未登录或登录状态失效，请登录后再试。
+
+Display Board Cutout = 显示板子挖槽

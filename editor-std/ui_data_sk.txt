@@ -3288,4 +3288,7 @@ Try Pro Edition = Vyskúšajte Pro verziu
 
 Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
-Select the objects that cannot be generated = Vyberte objekty, ktoré sa nedajú vygenerovať	
+Select the objects that cannot be generated = Vyberte objekty, ktoré sa nedajú vygenerovať
+creator = 
+You are not logged in or the login status is invalid, please login and try again. = 
+Display Board Cutout = 
