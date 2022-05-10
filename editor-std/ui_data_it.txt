@@ -3266,8 +3266,8 @@ No package information! =
 Find Parameters = Trova i parametri
 Find Results = Trova i risultati
 
-Bill of material(BOM) uploaded finish, please click "OK" to continue. = La distinta del materiale (BOM) è stata caricata, clicca su "OK" per continuare.
-Bill of material(BOM) upload failed! = Non è stato possibile caricare correttamente la distinta del materiale (BOM)!
+Bill of meterial(BOM) uploaded finish, please click "OK" to continue. = La distinta del materiale (BOM) è stata caricata, clicca su "OK" per continuare.
+Bill of meterial(BOM) upload failed! = Non è stato possibile caricare correttamente la distinta del materiale (BOM)!
 
 All pads = Tutti i pad
 All holes = Tutti i fori
