@@ -1565,7 +1565,7 @@ Prompt = Immissione dati
 Error = Errore
 error = errore
 error! = errore!
-Warning = Attenzione
+Warning = Avviso
 Imported ok! = Importazione riuscita con successo!
 Some changes have not been saved. = Alcune modifiche non sono state salvate.
 Your file hasn't been saved. Please save first! = Il tuo file non è stato salvato. Salvalo prima!
@@ -2134,7 +2134,7 @@ Loading = Caricamento
 No Result = Nessun risultato
 
 #Dialog Place Pin in schematic warning
-Place Pin in schematic warning =
+Place Pin in schematic warning = Posiziona il pin nell'avviso dello schema
 You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = Puoi posizionare un pin nello schema, ma non dimenticarti di raggruppare tutti i pin nello schema del componente. Premi il pulsante help per scoprire come raggrupparli. Se vuoi semplicemente marcare il filo, usa NetPort o NetLabel.
 I know. Do not show this again. = Lo so. Non mostrarmelo di nuovo.
 
