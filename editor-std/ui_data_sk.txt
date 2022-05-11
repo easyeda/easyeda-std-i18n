@@ -3267,8 +3267,8 @@ No package information! = Žiadne informácie o balíku!
 Find Parameters = Vyhľadať parametre
 Find Results = Vzhľadať výsledky
 
-Bill of meterial(BOM) uploaded finish, please click "OK" to continue. = 
-Bill of meterial(BOM) upload failed! = 
+Bill of material(BOM) uploaded finish, please click "OK" to continue. = 
+Bill of material(BOM) upload failed! = 
 
 All pads = Všetky podložky
 All holes = Všetky otvory

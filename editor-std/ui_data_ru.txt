@@ -3266,8 +3266,8 @@ No package information! = Нет информации о корпусе
 Find Parameters = Найти параметры
 Find Results = Найти результаты
 
-Bill of meterial(BOM) uploaded finish, please click "OK" to continue. = Список материалов (BOM) загружен, нажмите «ОК», чтобы продолжить.
-Bill of meterial(BOM) upload failed! = Не удалось загрузить список материалов (BOM)!
+Bill of material(BOM) uploaded finish, please click "OK" to continue. = Список материалов (BOM) загружен, нажмите «ОК», чтобы продолжить.
+Bill of material(BOM) upload failed! = Не удалось загрузить список материалов (BOM)!
 
 All pads = Все площадки
 All holes = Все отверстия
@@ -3292,7 +3292,7 @@ Select the objects that cannot be generated = Выберите объекты, �
 Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
 Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-The PCB text will use the editor new font family, the text maybe will appear a litte excursion. = 
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 
 Because of different file format and element, please check carefully after imported. = 
 Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 
 Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 

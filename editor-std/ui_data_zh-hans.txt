@@ -3268,8 +3268,8 @@ No package information! = 无封装信息！
 Find Parameters = 查找参数
 Find Results = 查找结果
 
-Bill of meterial(BOM) uploaded finish, please click "OK" to continue. = 物料清单(BOM)已经上传成功，请点击“确定”继续。
-Bill of meterial(BOM) upload failed! = 物料清单(BOM)上传失败!
+Bill of material(BOM) uploaded finish, please click "OK" to continue. = 物料清单(BOM)已经上传成功，请点击“确定”继续。
+Bill of material(BOM) upload failed! = 物料清单(BOM)上传失败!
 
 All pads = 全部焊盘
 All holes = 全部通孔
@@ -3295,7 +3295,7 @@ Please compress schematic and PCB as a zip file and then import it, if you only 
 Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 请把 ASCII 格式的原理图和 PCB 压缩成 zip 压缩包后导入，只导入原理图需要手动重新绑定封装。
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 导入失败！你导入的文件不是 ASCII 格式的，请先在 Altium Designer 另存为“Advanced Schematic ascii(*.SchDoc)”或“PCB ASCII File(*.PcbDoc)”后再导入。
 Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 请先在 Altium Designer 另存为“Advanced Schematic ascii(*.SchDoc)”或“PCB ASCII File(*.PcbDoc)”后再导入
-The PCB text will use the editor new font family, the text maybe will appear a litte excursion. = 导入的 PCB 文本将使用编辑器新的字体，文本可能会出现轻微变形和偏移。
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 导入的 PCB 文本将使用编辑器新的字体，文本可能会出现轻微变形和偏移。
 Because of different file format and element, please check carefully after imported. = 因格式和图元不一致，导入后请仔细检查。
 Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 请确保选择的 EAGLE 文件是 EAGLE v6.0 及以上版本保存的文件。
 Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 请把原理图和 PCB 使用 KiCad5 压缩成 zip 压缩包后导入，只导入原理图需要手动重新绑定封装。
