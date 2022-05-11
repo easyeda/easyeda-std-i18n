@@ -2242,7 +2242,7 @@ My Teams = I miei gruppi
 Create Team = Crea un gruppo
 
 #Dialog Footprint Manager
-Footprint Manager = Gestore footprint
+Footprint Manager = Gestisci footprint
 Open Footprint Manager = Apri il gestore footprint
 Schematic Components = Componenti dello schema
 Edit Pin Map Information = Modifica la mappatura dei pin
