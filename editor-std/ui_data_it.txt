@@ -336,34 +336,34 @@ Visible Grid = Griglia visibile
 Grid Visible = Griglia visibile
 Real-Time Track Length = Lunghezza della pista in tempo reale
 Display Real-Time Track Length = Mostra la lunghezza della pista in tempo reale
-Grid Color = Colore della griglia
-Grid Size = Dimensione della griglia
-Grid Style = Stile della griglia
-Grid.Line Width = Larghezza della linea
+Grid Color = Colore griglia
+Grid Size = Dimensione griglia
+Grid Style = Stile griglia
+Grid.Line Width = Larghezza linea
 Grid.Line Spacing = Spaziatura tra le linee
 Copper to Board Outline = Da zona di rame a contorno scheda
 Improve Fabrication = Migliora la fabbricabilità
-Spoke Width = Larghezza della punta
-Stroke Color = Colore del tratto
-Stroke Width = Spessore del tratto
-Stroke Style = Stile del tratto
+Spoke Width = Larghezza punta
+Stroke Color = Colore tratto
+Stroke Width = Spessore tratto
+Stroke Style = Stile tratto
 Fill Color = Colore di riempimento
 Selected Objects = Oggetti selezionati
-Frame Size = Dimensione della cornice
+Frame Size = Dimensione cornice
 Alt Snap = Spaziatura aggancio secondario
 Snap size when pressing the Alt key = Spaziatura aggancio secondario (quando premi il tasto Alt)
 Prefix Start = Inizio del prefisso
 
 #Text Properties
-Text Properties = Proprietà del testo
+Text Properties = Proprietà testo
 Text = Testo
 Color = Colore
-Font Family = Famiglia del font
-Font Size = Dimensione del font
-Font Weight = Spessore del font
-Font Style = Stile del font
+Font Family = Famiglia font
+Font Size = Dimensione font
+Font Weight = Spessore font
+Font Style = Stile font
 Text Type = Tipo di testo
-Text Anchor = Allineamento del testo
+Text Anchor = Allineamento testo
 Baseline = Linea di base
 (Auto) = (Auto)
 (auto) = (auto)
@@ -389,9 +389,9 @@ Failed to parse cached font: {name} = Impossibile elaborare il font presente nel
 Load cached fonts fail! = Impossibile caricare i font della cache!
 
 #Stroke
-Stroke Color = Colore del tratto
-Stroke Width = Spessore del tratto
-Stroke Style = Stile del tratto
+Stroke Color = Colore tratto
+Stroke Width = Spessore tratto
+Stroke Style = Stile tratto
 Fill Color = Colore di riempimento
 X Radius = Raggio X
 Y Radius = Raggio Y
@@ -1917,8 +1917,8 @@ Bad email address = Indirizzo email non corretto
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Questo indirizzo email non è associato ad un alcun utente registrato su EasyEDA.
 
 #Dialog waveForm
-Grid Background = Sfondo della griglia
-Pane Background = Sfondo del pannello
+Grid Background = Sfondo griglia
+Pane Background = Sfondo pannello
 WaveForm Config = Configura forma d'onda
 Export Waveform = Esporta forma d'onda
 
