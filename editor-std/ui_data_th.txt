@@ -1,4 +1,4 @@
-#Menu
+# Menu
 User = ผู้ใช้ {name}
 Join... = เข้าร่วม
 Login... = ลงชื่อเข้าใช้
