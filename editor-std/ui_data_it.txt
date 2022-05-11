@@ -3285,8 +3285,8 @@ Pad's hole diameter(aver) = Diametro foro del pad(media)
 
 Try Pro Edition = Prova l'edizione Pro
 
-Generate Solid Region by Objects Outline =
-Generate Polygon Pad by Objects Outline =
+Generate Solid Region by Objects Outline = Genera regione solida dai contorni
+Generate Polygon Pad by Objects Outline = Genera pad poligonali dai contorni
 Select the objects that cannot be generated = Seleziona gli oggetti che non possono essere generati
 
 Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Comprimi lo schema ed il PCB in un file zip ed importali, se importi solo lo schema dovrai associarlo manualmente con il footprint.
