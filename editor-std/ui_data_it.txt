@@ -1203,7 +1203,7 @@ No follow user found. Please follow your friend first. = Nessun utente trovato. 
 [/lib]
 
 
-BUY = COMPRA
+BUY = ACQUISTA
 In Stock = Disponibile
 Out of Stock = Non disponibile
 Minimum = Minimo
