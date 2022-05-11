@@ -2620,7 +2620,7 @@ Substrate = Substrato
 3D View = Vista 3D
 2D View = Vista 2D
 Pin Color = Colore del pin
-Name Color = Colore nel nome
+Name Color = Colore del nome
 Number Color = Colore del numero
 Dot = Punto
 
