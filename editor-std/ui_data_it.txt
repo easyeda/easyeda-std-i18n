@@ -1205,7 +1205,7 @@ No follow user found. Please follow your friend first. = Nessun utente trovato. 
 
 BUY = COMPRA
 In Stock = Disponibile
-Out of Stock = Esaurito
+Out of Stock = Non disponibile
 Minimum = Minimo
 Distributor = Fornitore
 
