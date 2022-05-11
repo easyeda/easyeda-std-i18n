@@ -3262,7 +3262,7 @@ Copy Title = Copia titolo
 Check system similar footprint = Controlla footprint di sistema simili
 Can't find the Similar Footprint = Impossibile trovare footprint di sistema simili
 Search failed! = La ricerca non ha prodotto risultati utili!
-No package information! =
+No package information! = Nessuna informazione sul contenitore!
 Find Parameters = Trova parametri
 Find Results = Trova risultati
 
