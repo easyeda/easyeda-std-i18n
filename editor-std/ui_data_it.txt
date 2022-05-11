@@ -2720,7 +2720,7 @@ Current Length : = Lunghezza attuale :
 Additional Length : = Lunghezza aggiuntiva :
 Target Length: = Lunghezza dell'oggetto:
 Current Length: = Lunghezza attuale:
-Adjust Type =
+Adjust Type = Tipo di regolazione
 Double Side = Doppio lato
 Single Side = Lato singolo
 
