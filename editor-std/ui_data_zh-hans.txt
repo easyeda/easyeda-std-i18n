@@ -1,4 +1,4 @@
-# Menu
+#Menu
 User=用户
 Join...=注册...
 Login...=登录...
@@ -768,7 +768,7 @@ Routing Width = 线宽
 [router]
 Routing Width = 布线宽度
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = 在布线过程中，请使用快捷键 {0}{shiftw}{1} 或者 {2}{tab}{3} 修改线宽。
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = 在布线过程中，请使用快捷键 {0}{key1}{1} 或者 {2}{key2}{3} 修改线宽。
 Routing Angle = 拐角
 Routing Conflict = 布线冲突
 Remove Loop = 移除回路
@@ -2135,7 +2135,7 @@ No Result = 没有结果
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning = 在原理图放置引脚的注意事项
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = 可以在原理图放置引脚，但别忘了要将引脚组合为原理图符号，点击帮助按钮查看用法。如果只是标注导线，请使用网络标签。
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = 可以在原理图放置引脚，但别忘了要将引脚组合为原理图符号，点击帮助按钮查看用法。如果只是标注导线，请使用网络标签。
 I know. Do not show this again. = 我知道了，不要再提示该信息。
 
 #Extensions Setting
@@ -2345,7 +2345,7 @@ Checking local auto router server... = 正在检测本地布线服务...
 Stop Router = 停止布线
 Auto Router is running... = 自动布线运行中...
 
-#Left Siderbar
+#Left Sidebar
 Commonly Library = 常用库
 Basic = 基础
 Extend = 扩展
@@ -2993,7 +2993,7 @@ Rotation Z = Z轴旋转
 Some fields are filled invalid data = 某些字段填充了无效数据
 start time should be earlier than stop time = 起始时间应小于结束时间
 Number of points should be less than 100 in octave variation = octave类型变化中的点数应小于100
-Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = 起始频率应小于停止频率。后缀meg代表Mrga，m代表milli
+Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = 起始频率应小于停止频率。后缀meg代表Mega，m代表milli
 Get historical records fail! = 获取历史记录失败！
 This 3D model didn't create the outlines successfully, please import it again or contact with us. = 这个 3D 模型的外形数据没有创建成功，请再次导入或者联系我们。
 There is No Tag! = 没有分类！
@@ -3306,11 +3306,11 @@ Tips = 提示
 Exists incomplete connection = 存在未完成连接
 Found that the board has incomplete connection, please check the nets and ratlines = 发现有板子存在未完成连接，请检查网络与飞线
 
-Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-Tips = 
-Exists incomplete connection = 
-Found that the board has incomplete connection, please check the nets and ratlines = 
-creator = 
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Tips =
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
+creator =
 
 You are not logged in or the login status is invalid, please login and try again. = 尚未登录或登录状态失效，请登录后再试。
 

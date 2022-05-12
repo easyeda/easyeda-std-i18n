@@ -768,7 +768,7 @@ Routing Width =
 [router]
 Routing Width =
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. =
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. =
 Routing Angle =
 Routing Conflict =
 Remove Loop =
@@ -1080,11 +1080,11 @@ Manufacturer.bom =
 One-click Purchasing at LCSC =
 Order Parts =
 Export BOM =
-Upload to LCSC ERP = 
-No components, upload failed! = 
-Upload to LCSC ERP failed, please try again later. = 
-Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = 
-Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = 
+Upload to LCSC ERP =
+No components, upload failed! =
+Upload to LCSC ERP failed, please try again later. =
+Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. =
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. =
 
 Export PCB BOM =
 Export Schematic BOM =
@@ -1427,8 +1427,8 @@ Change to Inner2 =
 Change to Inner3 =
 Change to Inner4 =
 Highlight Net =
-Highlight Network =  
-Unhighlight Network =  
+Highlight Network =
+Unhighlight Network =
 Place Pad =
 Place Via =
 Measure =
@@ -1506,10 +1506,10 @@ owner =
 
 #Dialog Annotate
 Annotate =
-Scope= 
-All pages =  
-Current page only =  
-Selected components =  
+Scope=
+All pages =
+Current page only =
+Selected components =
 All Opened Schematics =
 Method =
 Re-annotate all =
@@ -2135,7 +2135,7 @@ No Result =
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning =
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. =
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. =
 I know. Do not show this again. =
 
 #Extensions Setting
@@ -2345,7 +2345,7 @@ Checking local auto router server... =
 Stop Router =
 Auto Router is running... =
 
-#Left Siderbar
+#Left Sidebar
 Commonly Library =
 Basic =
 Extend =
@@ -3078,8 +3078,8 @@ PCB Fabrication File(Gerber) =
 Pick and Place File =
 Parts Order =
 PCB Order =
-One-click Order Parts =  
-One-click Order PCB/SMT =   
+One-click Order Parts =
+One-click Order PCB/SMT =
 SIM =
 STD =
 WaveForm =
@@ -3266,8 +3266,8 @@ No package information! =
 Find Parameters =
 Find Results =
 
-Bill of material(BOM) uploaded finish, please click "OK" to continue. = 
-Bill of material(BOM) upload failed! = 
+Bill of material(BOM) uploaded finish, please click "OK" to continue. =
+Bill of material(BOM) upload failed! =
 
 All pads =
 All holes =
@@ -3289,20 +3289,20 @@ Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
 Select the objects that cannot be generated =
 
-Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 
-Because of different file format and element, please check carefully after imported. = 
-Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 
-Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please make sure the Protel file is exported as ASCII format file. = 
-Please compress the schematic and corresponding symbols as a zip file and then import it. = 
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. =
+Because of different file format and element, please check carefully after imported. =
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please make sure the Protel file is exported as ASCII format file. =
+Please compress the schematic and corresponding symbols as a zip file and then import it. =
 
-Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-Tips = 
-Exists incomplete connection = 
-Found that the board has incomplete connection, please check the nets and ratlines = 
-creator = 
-You are not logged in or the login status is invalid, please login and try again. = 
-Display Board Cutout = 
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Tips =
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
+creator =
+You are not logged in or the login status is invalid, please login and try again. =
+Display Board Cutout =

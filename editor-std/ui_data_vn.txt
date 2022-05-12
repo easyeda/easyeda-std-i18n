@@ -766,7 +766,7 @@ Routing Width = Độ rộng Đường mạch
 [router]
 Routing Width = Độ rộng Đường mạch
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Hãy sử dụng phím nóng {0}{shiftw}{1} hoặc {2}{tab}{3} để thay đổi độ rộng Đường mạch khi đang vẽ mạch.
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Hãy sử dụng phím nóng {0}{key1}{1} hoặc {2}{key2}{3} để thay đổi độ rộng Đường mạch khi đang vẽ mạch.
 Routing Angle = Góc Đường mạch
 Routing Conflict = Xung đột Đường mạch
 Remove Loop = Loại bỏ vòng lặp
@@ -1815,7 +1815,7 @@ Or Gate = Cổng Or
 Xor Gate = Cổng Xor
 And Gate = Cổng And
 Nor Gate = Cổng Nor
-Nand Gate = Cổng Nand
+Nand Gate = Cổng NAND
 Not Gate = Cổng Not
 Xnor Gate = Cổng Xnor
 Tube Diode = Diode ống
@@ -2109,7 +2109,7 @@ No Result = Không có kết quả
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning = Đặt chân linh kiện vào trình cảnh báo bản vẽ mạch
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = Bạn có thể đặt Chân linh kiện vào bản vẽ nhưng đừng quên nhóm chúng vào với linh kiện trên bản vẽ. Hãy nhấn nút trợ giúp để biết cách nhóm chúng lại. Nếu bạn chỉ muốn đánh dấu Đường mạch, hãy dùng Cổng mạch (NetPort) hoặc Nhãn mạch (NetLabel).
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Bạn có thể đặt Chân linh kiện vào bản vẽ nhưng đừng quên nhóm chúng vào với linh kiện trên bản vẽ. Hãy nhấn nút trợ giúp để biết cách nhóm chúng lại. Nếu bạn chỉ muốn đánh dấu Đường mạch, hãy dùng Cổng mạch (NetPort) hoặc Nhãn mạch (NetLabel).
 I know. Do not show this again. = Tôi biết, không nhắc lại nữa.
 
 #Extensions Setting
@@ -2315,7 +2315,7 @@ Checking local auto router server... = Kiểm tra phần mềm Đi mạch tự �
 Stop Router = Dừng Đi mạch
 Auto Router is running... = Đi mạch tự động
 
-#Left Siderbar
+#Left Sidebar
 EELib = Thư viện EELib
 Basic = Cơ bản
 Extend = Mở rộng
@@ -3223,8 +3223,8 @@ No package information! =
 Find Parameters =
 Find Results =
 
-Bill of material(BOM) uploaded finish, please click "OK" to continue. = 
-Bill of material(BOM) upload failed! = 
+Bill of material(BOM) uploaded finish, please click "OK" to continue. =
+Bill of material(BOM) upload failed! =
 
 All pads =
 All holes =
@@ -3246,20 +3246,20 @@ Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
 Select the objects that cannot be generated =
 
-Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 
-Because of different file format and element, please check carefully after imported. = 
-Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 
-Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please make sure the Protel file is exported as ASCII format file. = 
-Please compress the schematic and corresponding symbols as a zip file and then import it. = 
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. =
+Because of different file format and element, please check carefully after imported. =
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please make sure the Protel file is exported as ASCII format file. =
+Please compress the schematic and corresponding symbols as a zip file and then import it. =
 
-Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-Tips = 
-Exists incomplete connection = 
-Found that the board has incomplete connection, please check the nets and ratlines = 
-creator = 
-You are not logged in or the login status is invalid, please login and try again. = 
-Display Board Cutout = 
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Tips =
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
+creator =
+You are not logged in or the login status is invalid, please login and try again. =
+Display Board Cutout =

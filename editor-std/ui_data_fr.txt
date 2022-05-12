@@ -250,7 +250,7 @@ Feature Request = Requète utilisateur
 Feature Requests = Requètes utilisateur
 Bug Report = Rapport de bug
 Bug Reports =Rapports de bug
-Tips & Skill = 
+Tips & Skill =
 Ask for Help = Demander pour de l'aide
 Schematic Capture = Capture du schéma
 Spice Simulation = Simulation
@@ -300,7 +300,7 @@ Set Canvas Origin = Définir l'origine du canvas
 Document Setting = Réglage du document
 Sheet Properties = Propriété de la feuille
 Set Board Outline = Définir les bords du circuit
-Teardrop... = 
+Teardrop... =
 Panelize... = Taille du panneau...
 Check Dimension = Vérifier Dimension
 Smart Dimension = Dimension rapide
@@ -340,7 +340,7 @@ Grid.Line Width =
 Grid.Line Spacing =
 Copper to Board Outline =
 Improve Fabrication = Améliorer la fabrication
-Spoke Width = 
+Spoke Width =
 Stroke Color = Couleur du trait
 Stroke Width = Largeur du trait
 Stroke Style = Style du trait
@@ -355,9 +355,9 @@ Prefix Start =
 Text Properties = Attributs du texte
 Text = Texte
 Color = Couleur
-Font Family = 
+Font Family =
 Font Size = Taille de la police
-Font Weight = 
+Font Weight =
 Font Style = Style de la police
 Text Type =
 Text Anchor =
@@ -367,7 +367,7 @@ Baseline = Ligne de base
 start = Début
 middle = Milieu
 end = Fin
-inherit = 
+inherit =
 comment = Commenté
 spice =
 normal = Nomale
@@ -413,7 +413,7 @@ FunctionGenerator Settings =
 Voltage Source Settings =
 Current Source Settings =
 Powersw Settings =
-Resistor Settings = 
+Resistor Settings =
 Capacitor Settings =
 Diode Settings =
 voltPowersw Settings =
@@ -532,7 +532,7 @@ Channel_B = Canal_B
 Channel A = Canal A
 Channel B = Canal B
 Time = Temps
-Reverse = 
+Reverse =
 Simulation file exceed =
 The simulation file is too large and has been stopped for performance reasons. =
 Timebase = Base temps
@@ -541,7 +541,7 @@ X pos.(Div): =
 Y pos.(Div): =
 View meter... =
 The circuit has components without simulation model: =
-Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = 
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. =
 Resistor1_US =
 Resistor1_EU/IEC =
 Resistor1_3D =
@@ -701,13 +701,13 @@ Line 90° =
 Arc 45° =
 Arc 90° =
 Free Angle =
-Start X = 
+Start X =
 Start Y =
 Length = Longueur
 Name = Nom
 name = Nom
 Number = Nombre
-Spice Pin Order = 
+Spice Pin Order =
 Display Number = Numéro d'affichage
 Clock = Horloge
 Show = Montrer
@@ -730,7 +730,7 @@ Prefix = Prefixe
 Add Image = Ajouter une image
 Image Properties = Attibuts de l'image
 Image URL = URL de l'image
-Input an image URL = Entrer l'URL d'une image 
+Input an image URL = Entrer l'URL d'une image
 Invalid image URL = URL de l'image invalide
 Invalid Prefix = Préfixe invalide
 Failed to load the image = Echec du chargement de l'image
@@ -741,9 +741,9 @@ Please select a png/gif/jpg file. = Veuillez séléctionner un fichier de type p
 Please select an image file. = Veuillez séléctionner un fichier image
 Select an image file = Sélectionner un fichier image
 Insert Image to PCB = Insérer une image sur le PCB
-Tolerance = 
-tolerance = 
-capacitance = 
+Tolerance =
+tolerance =
+capacitance =
 frequency = Fréquence
 Rated Voltage =
 Rated Current =
@@ -766,7 +766,7 @@ Routing Width = Largeur de routage
 [router]
 Routing Width = Largeur de routage
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. =
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. =
 Routing Angle = Angle de routage
 Routing Conflict =
 Remove Loop = Retirer la boucle
@@ -813,7 +813,7 @@ Diameter = Diamètre
 Drill Diameter = Diamètre du foret
 
 #Hole Properties
-Hole Properties = 
+Hole Properties =
 
 
 #TEXT
@@ -880,8 +880,8 @@ Add New Supplier =
 Mounted =
 Unknown = Inconnue
 
-Custom = Personnalisé 
-Scan the QR code below and open it on the mobile side = 
+Custom = Personnalisé
+Scan the QR code below and open it on the mobile side =
 How to create a single layer PCB = Comment créer un PCB à une seule couche
 Currently doesn't support layout single layer directly, please refer at: =
 
@@ -926,7 +926,7 @@ Value.new_para =
 In BOM =
 Add into BOM =
 Invalid key =
-This field is required. = Ce champs est obligatoire 
+This field is required. = Ce champs est obligatoire
 
 #Dialog Change Your Password
 Change your password = Changer votre Mot de passe
@@ -977,7 +977,7 @@ Supplier =
 Or =
 Supplier Part =
 Supplier Part Number =
-Link = 
+Link =
 link =
 The professional function please refer at: =
 
@@ -1053,7 +1053,7 @@ Select None =
 #Dialog Modify Symbol Information
 Modify symbol information = Modifier les informations du symbole
 Spice Prefix =
-Hide Pin = 
+Hide Pin =
 Pin Manager =
 When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. =
 Assign = Assigner
@@ -1132,7 +1132,7 @@ Are you sure you want to remove this backup? = Êtes-vous sûr de vouleur suppri
 #Dialog Find Libs
 Search = Rechercher
 Search Results = Résultats de la recherche
-Search and press Enter = 
+Search and press Enter =
 Keywords at least 3 characters = Mots-clés d'au moins 3 caractères
 Assembled =
 Verified =
@@ -1266,7 +1266,7 @@ This is a simple Design Rule Checking (DRC). =
 It just can help you to find the obvious errors =
 There are some unfinished nets, do you want to check the nets first? =
 Yes, Check Nets =
-No, Keep Going = 
+No, Keep Going =
 
 #Dialog Layer Manager
 Configured = Configurée :
@@ -1620,7 +1620,7 @@ Your circuit is too complex, we have not enough CPU resource to support this sim
 Simulation is queuing, try again after 30s. =
 Timeout =
 Demo accounts don't support simulation, please login first =
-Please login first = Veuillez vous connecter d'abord 
+Please login first = Veuillez vous connecter d'abord
 The schematic is showing errors, please check the simulation report carefully! = Le Schéma comporte des erreurs, Vérifiez la simulation attentivement !
 Simulation too long, maybe your schematic is too complex. = La simulation est trop longue. Votre schéma est trop complexe.
 Non-simulated file =
@@ -1713,7 +1713,7 @@ Skip = Sauter
 « Back = « Retour
 Next » = Suivant »
 Done = Terminer
-This is the user management menu. = Ceci est le menu de gestion de l'utilisateur 
+This is the user management menu. = Ceci est le menu de gestion de l'utilisateur
 This is the toolbar. = Ceci est la barre d'outils
 This is the navigation list. Under here you can find projects, files, parts and libraries. = Ceci est la liste de navigation. Sous cette rubrique, vous pouvez trouver des projets, des fichiers, des pièces et des bibliothèques.
 Show or hide the toolbar to the top of the window here. = Afficher ou cacher la barre d'outils vers le haut de la fenêtre ici.
@@ -2111,7 +2111,7 @@ No Result =
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning =
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. =
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. =
 I know. Do not show this again. =
 
 #Extensions Setting
@@ -2317,7 +2317,7 @@ Checking local auto router server... =
 Stop Router =
 Auto Router is running... =
 
-#Left Siderbar
+#Left Sidebar
 EELib =
 Basic =
 Extend =
@@ -3225,8 +3225,8 @@ No package information! =
 Find Parameters =
 Find Results =
 
-Bill of material(BOM) uploaded finish, please click "OK" to continue. = 
-Bill of material(BOM) upload failed! = 
+Bill of material(BOM) uploaded finish, please click "OK" to continue. =
+Bill of material(BOM) upload failed! =
 
 All pads =
 All holes =
@@ -3248,20 +3248,20 @@ Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
 Select the objects that cannot be generated =
 
-Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 
-Because of different file format and element, please check carefully after imported. = 
-Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 
-Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please make sure the Protel file is exported as ASCII format file. = 
-Please compress the schematic and corresponding symbols as a zip file and then import it. = 
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. =
+Because of different file format and element, please check carefully after imported. =
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please make sure the Protel file is exported as ASCII format file. =
+Please compress the schematic and corresponding symbols as a zip file and then import it. =
 
-Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-Tips = 
-Exists incomplete connection = 
-Found that the board has incomplete connection, please check the nets and ratlines = 
-creator = 
-You are not logged in or the login status is invalid, please login and try again. = 
-Display Board Cutout = 
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Tips =
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
+creator =
+You are not logged in or the login status is invalid, please login and try again. =
+Display Board Cutout =

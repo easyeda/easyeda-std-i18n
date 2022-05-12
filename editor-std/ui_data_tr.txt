@@ -767,7 +767,7 @@ Routing Width = Yol Atama Genişliği
 [router]
 Routing Width = Yol Atama Genişliği
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Yol atama sırasında hat genişliğini değiştirmek için lütfen {0}{shiftw}{1} veya {2}{tab}{3} kısayol tuşunu kullanın.
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Yol atama sırasında hat genişliğini değiştirmek için lütfen {0}{key1}{1} veya {2}{key2}{3} kısayol tuşunu kullanın.
 Routing Angle = Yol Atama Açısı
 Routing Conflict = Yol Atama Çatışması
 Remove Loop = Döngüyü Kaldır
@@ -2111,7 +2111,7 @@ No Result = Sonuç Yok
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning = Pin'i şematik uyarısına yerleştirin
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = Şematiğe bir pin yerleştirebilirsiniz, ancak tüm pinleri bir şematik bileşenine gruplamayı unutmayın. Nasıl gruplanacağını öğrenmek için lütfen yardım düğmesine tıklayın. Sadece kabloyu işaretlemek istiyorsanız, lütfen AğPortu veya AğEtiketi kullanın.
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Şematiğe bir pin yerleştirebilirsiniz, ancak tüm pinleri bir şematik bileşenine gruplamayı unutmayın. Nasıl gruplanacağını öğrenmek için lütfen yardım düğmesine tıklayın. Sadece kabloyu işaretlemek istiyorsanız, lütfen AğPortu veya AğEtiketi kullanın.
 I know. Do not show this again. = Biliyorum. Bunu tekrar gösterme.
 
 #Extensions Setting
@@ -2316,7 +2316,7 @@ Checking local auto router server... = Yerel Otomatik Yol Atayıcı sunucusu ara
 Stop Router = Yol Atayıcıyı Durdur
 Auto Router is running... = Yol Atayıcı çalışıyor...
 
-#Left Siderbar
+#Left Sidebar
 EELib = EELib
 Basic = Temel
 Extend = Genişlet
@@ -3224,8 +3224,8 @@ No package information! =
 Find Parameters =
 Find Results =
 
-Bill of material(BOM) uploaded finish, please click "OK" to continue. = 
-Bill of material(BOM) upload failed! = 
+Bill of material(BOM) uploaded finish, please click "OK" to continue. =
+Bill of material(BOM) upload failed! =
 
 All pads =
 All holes =
@@ -3247,20 +3247,20 @@ Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
 Select the objects that cannot be generated =
 
-Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 
-Because of different file format and element, please check carefully after imported. = 
-Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 
-Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please make sure the Protel file is exported as ASCII format file. = 
-Please compress the schematic and corresponding symbols as a zip file and then import it. = 
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. =
+Because of different file format and element, please check carefully after imported. =
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please make sure the Protel file is exported as ASCII format file. =
+Please compress the schematic and corresponding symbols as a zip file and then import it. =
 
-Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-Tips = 
-Exists incomplete connection = 
-Found that the board has incomplete connection, please check the nets and ratlines = 
-creator = 
-You are not logged in or the login status is invalid, please login and try again. = 
-Display Board Cutout = 
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Tips =
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
+creator =
+You are not logged in or the login status is invalid, please login and try again. =
+Display Board Cutout =

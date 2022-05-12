@@ -766,7 +766,7 @@ Routing Width = Routing-Breite
 [router]
 Routing Width = Routing-Breite
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Bitte Hotkeys {0}{shiftw}{1} oder {2}{tab}{3} betätigen, um die Leiterbahnbreite während dem Routing zu modifizieren.
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Bitte Hotkeys {0}{key1}{1} oder {2}{key2}{3} betätigen, um die Leiterbahnbreite während dem Routing zu modifizieren.
 Routing Angle = Verlegewinkel
 Routing Conflict = Routing-Konflikt
 Remove Loop = Schleife entfernen
@@ -2111,7 +2111,7 @@ No Result = Kein Ergebnis
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning = Pin in Schaltplanwarnung platzieren
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = Sie können einen Pin im Schaltplan platzieren, aber vergessen Sie nicht, alle Pins zu einer Schaltplankomponente zu gruppieren. Klicken Sie bitte auf die Hilfe-Schaltfläche, um herauszufinden, wie Sie sie gruppieren können. Wenn Sie nur die Leitung markieren möchten, verwenden Sie bitte NetPort oder NetNabel.
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Sie können einen Pin im Schaltplan platzieren, aber vergessen Sie nicht, alle Pins zu einer Schaltplankomponente zu gruppieren. Klicken Sie bitte auf die Hilfe-Schaltfläche, um herauszufinden, wie Sie sie gruppieren können. Wenn Sie nur die Leitung markieren möchten, verwenden Sie bitte NetPort oder NetLabel.
 I know. Do not show this again. = Ich weiss. Diese Mitteilung nicht mehr anzeigen.
 
 #Extensions Setting
@@ -2317,7 +2317,7 @@ Checking local auto router server... =  Überprüfe lokalen Autorouter Server
 Stop Router = Router stoppen
 Auto Router is running... = Autorouter ist am laufen...
 
-#Left Siderbar
+#Left Sidebar
 EELib =
 Basic = Basis
 Extend = Erweitern
@@ -3209,7 +3209,7 @@ Auto route failed! Found abnormal pad(s) data, please modify the pad width and h
 Select Properties = Eigenschaften auswählen
 Combine the same parts' prefixes in one row = Kombinieren Sie die Vorsilben der gleichen Teile in einer Reihe
 Please check at least one item! = Bitte wählen Sie mindestens ein Element.
-Pins = 
+Pins =
 Check component latest version when open schematic =
 Only show updated components =
 Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. =
@@ -3225,8 +3225,8 @@ No package information! =
 Find Parameters =
 Find Results =
 
-Bill of material(BOM) uploaded finish, please click "OK" to continue. = 
-Bill of material(BOM) upload failed! = 
+Bill of material(BOM) uploaded finish, please click "OK" to continue. =
+Bill of material(BOM) upload failed! =
 
 All pads =
 All holes =
@@ -3248,20 +3248,20 @@ Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
 Select the objects that cannot be generated =
 
-Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 
-Because of different file format and element, please check carefully after imported. = 
-Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 
-Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please make sure the Protel file is exported as ASCII format file. = 
-Please compress the schematic and corresponding symbols as a zip file and then import it. = 
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. =
+Because of different file format and element, please check carefully after imported. =
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please make sure the Protel file is exported as ASCII format file. =
+Please compress the schematic and corresponding symbols as a zip file and then import it. =
 
-Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-Tips = 
-Exists incomplete connection = 
-Found that the board has incomplete connection, please check the nets and ratlines = 
-creator = 
-You are not logged in or the login status is invalid, please login and try again. = 
-Display Board Cutout = 
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Tips =
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
+creator =
+You are not logged in or the login status is invalid, please login and try again. =
+Display Board Cutout =

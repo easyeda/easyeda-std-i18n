@@ -62,7 +62,7 @@ Align Horizontal Centers = Выровнять центры по горизонт
 Align Vertical Centers = Выровнять центры по вертикали
 Distribute Horizontally = Распределить по горизонтали
 Distribute Vertically = Распределить по вертикали
-Distribute Left Edges Equidistantly = Распределить равномерно левого края 
+Distribute Left Edges Equidistantly = Распределить равномерно левого края
 Distribute Top Edges Equidistantly = Распределить равномерно верхнего края
 Align Grid = Выровнять по сетке
 Rotate = Повернуть
@@ -507,7 +507,7 @@ Waveforms = Форма сигналов
 Duty cycle[%] = Скважность[%]
 Amplitude[Vp] = Амплитуда[Vp]
 Offset[V] = Смещение[V]
-Rise/Fall Time[sec] = Время нараст/спада[сек] 
+Rise/Fall Time[sec] = Время нараст/спада[сек]
 Capacitance[F] = Емкость[Ф]
 sComponent =
 Inductance[H] = Индуктивность[Гн]
@@ -768,7 +768,7 @@ Routing Width = Ширина Дорожки
 [router]
 Routing Width = Ширина Дорожки
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Пожалуйста, используйте горячую клавишу {0}{Shift+W}{1} или {2}{Tab}{3}, чтобы изменить ширину дорожки во время маршрутизации.
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Пожалуйста, используйте горячую клавишу {0}{Shift+W}{1} или {2}{Tab}{3}, чтобы изменить ширину дорожки во время маршрутизации.
 Routing Angle = Угол поворота
 Routing Conflict = Конфликт Трассировки
 Remove Loop = Удалить петлю
@@ -948,7 +948,7 @@ Confirm Password = Подтвердите пароль
 Save as a New Project = Сохранить как новый проект
 Save as a schematic = Сохранить как схему
 Save as Symbol = Сохранить как символ
-Save as a spice Symbol = Сохранить как символ spice 
+Save as a spice Symbol = Сохранить как символ spice
 Save as a spice subckt = Сохранить как подсхему spice
 YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = ВЫ ДОЛЖНЫ СОЗДАВАТЬ СИМВОЛ SPICE  С ТОЧНО ТАКИМ ЖЕ ИМЕНЕМ КАК И ЭТА ПОДСХЕМА
 Save as a PCB file = Сохранить как файл платы
@@ -997,7 +997,7 @@ The professional function please refer at: = Посмотреть описани
 Clone your file = Клонировать файл
 
 #Dialog Subckt
-Attach a Subckt to this spice symbol = Прикрепите подсхему к этому символу spice 
+Attach a Subckt to this spice symbol = Прикрепите подсхему к этому символу spice
 Subckt string = Строка подсхемы
 Spice symbol title just allow [0-9][a-z][A-Z] and _ = В названии разрешено использоватьтолько [0-9][a-z][A-Z] и _
 
@@ -1051,7 +1051,7 @@ File Operation = Операции с файлом
 Import File = Импортировать файл
 Extract Libs = Извлечь библиотеки
 No Libs! = Нет библиотек!
-Import File and Extract Libs = Импортировать файл и извлечь библиотеки							  
+Import File and Extract Libs = Импортировать файл и извлечь библиотеки
 File type = Тип файла
 The file size is too large. = Размер файла слишком большой.
 Please selected the file type. = Пожалуйста, выберите тип файла.
@@ -1069,7 +1069,7 @@ Pin Manager = Менеджер контактов
 When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = Когда контакт питания спрятан, он может иметь имя соединения и вам не нужно его соединять проводом. Если вы используете симуляцию, то отобразите контакт или создайте для этого область(Цепь) GND/VCC.
 Assign = Назначить
 Supplier.bom = Список поставщика
-LCSC.bom =  Список LCSC 
+LCSC.bom =  Список LCSC
 Price = Цена
 Quantity.bom = Количество
 Package.bom = Корпус
@@ -1080,19 +1080,19 @@ Manufacturer.bom = Производитель
 One-click Purchasing at LCSC = Покупка у LCSC в один клик
 Order Parts = Заказ компонентов
 Export BOM = Экспортировать BOM
-Upload to LCSC ERP = Загрузить в LCSC ERP 
+Upload to LCSC ERP = Загрузить в LCSC ERP
 No components, upload failed! = Нет компонентов, ошибка при загруке!
 Upload to LCSC ERP failed, please try again later. = Ошибка при загрузке в LCSC ERP, пожалуйста повторите позже
 Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = Текущий BOM загружен в Менеджер компонентов LCSC, нажмите кнопку "ОК" для доступа к Менеджеру компонентов.
 Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = Ошибка при загрузке в LCSC ERP, обнаружено, что в некоторых компонентах отсутствует значение некоторых свойств, проверьте значение свойства «Посадочное место, Производитель компонента», если оно существует.
 
 Export PCB BOM = Экспорт PCB BOM
-Export Schematic BOM = Экспорт схемного BOM 
+Export Schematic BOM = Экспорт схемного BOM
 ID.bom = ID BOM
 Name.bom = Название
 [bom]
 Name = Имя
-LCSC Assembly = Сборка LCSC 
+LCSC Assembly = Сборка LCSC
 Value = Номинал
 ID = ID
 Supplier = Поставщик
@@ -1174,7 +1174,7 @@ Manufacturer = Производитель
 manufacturer = производитель
 voltage = напряжение
 Library = Библиотека
-LCSC Assembled = Собранный LCSC 
+LCSC Assembled = Собранный LCSC
 JLCPCB Assembled = Собранный JLCPCB
 User Contributed = Добавлено пользователем
 Symbol = Символ
@@ -1293,8 +1293,8 @@ TopPasterLayer = Верхний слой пасты
 BottomPasterLayer = Нижний слой пасты
 TopSolderLayer = Верхний слой пайки
 BottomSolderLayer = Нижний слой пайки
-TopPasteMaskLayer = Верхний слой маски 
-BottomPasteMaskLayer = Нижний слой маски 
+TopPasteMaskLayer = Верхний слой маски
+BottomPasteMaskLayer = Нижний слой маски
 TopSolderMaskLayer = Верхний слой паяльной маски
 BottomSolderMaskLayer = Нижний слой паяльной маски
 ComponentShapeLayer = Слой расположения компонента
@@ -1342,7 +1342,7 @@ Track Width = Ширина дорожки
 Track to Track = Дорожка к дорожке
 Track to Pad = Дорожка к контакту
 Pad to Pad = Контакт к Контакту
-Via to Via = Переходное к переходному 
+Via to Via = Переходное к переходному
 Via Hole Size = Диаметр переходного отверстия
 Realtime DRC = Realtime DRC
 {0} is too small! = {0} слишком маленький!
@@ -1679,7 +1679,7 @@ Make sure your pin numbers are even numbers = Убедитесь, что кол�
 Duplicate Components Prefix = Дублирующий префикс компонента
 All components are hidden successfully! = Все компоненты успешно скрыты!
 All ratlines are hidden successfully! = Все линии связей  успешно скрыты!
-Hidden the ratline of net {netName} successfully! = Спрятана линия связи Цепи {netName}! 
+Hidden the ratline of net {netName} successfully! = Спрятана линия связи Цепи {netName}!
 Duplicate Component Prefix = Дублировать префикс компонента
 {0} exist = {0} существует
 Modify successfully, but {0} already exists = Изменение успешно, но {0} уже существует
@@ -1911,7 +1911,7 @@ Access Control = Контроль доступа
 Project Access Control = Контроль доступа проекта
 Reject = Отклонить
 Add User = Добавить пользователя
-Bad email address = Неверный адрес эл. почты				   
+Bad email address = Неверный адрес эл. почты
 
 # error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Не удается найти этот адрес электронной почты в EasyEDA. Ваш партнер должен быть пользователем EasyEDA.
@@ -2050,7 +2050,7 @@ Medium = Средний
 Big = Большой
 
 
-Embed = Встроить	   
+Embed = Встроить
 HTML = HTML
 URL = URL
 BBCode = BBCode
@@ -2135,7 +2135,7 @@ No Result = Нет результатов
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning = Поместить контакт в схемное предупреждение
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = Вы можете поместить контакт в схему, но не забудьте сгруппировать все контакты в компонент схемы. Нажмите кнопку справки, чтобы узнать, как их сгруппировать. Если вы просто хотите пометить провод, используйте порт Цепи или метку Цепи.
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Вы можете поместить контакт в схему, но не забудьте сгруппировать все контакты в компонент схемы. Нажмите кнопку справки, чтобы узнать, как их сгруппировать. Если вы просто хотите пометить провод, используйте порт Цепи или метку Цепи.
 I know. Do not show this again. = Я знаю, больше не показывать.
 
 #Extensions Setting
@@ -2161,7 +2161,7 @@ Load from js file = Загрузить из js-файла
 UTF-8 encoded js file = js-файл в кодировке UTF-8
 Description = Описание
 description = описание
-Not a *.js file = Это не файл *.js 
+Not a *.js file = Это не файл *.js
 Failed to read file = Не удалось прочитать файл
 System scripts cannot be modified = Нельзя изменить системные скрипты
 Create Subfolder = Создать подпапку
@@ -2258,7 +2258,7 @@ Select Footprint = Выбрать посадочное место
 Search 3D Model = Поиск 3D модели
 Select 3D Model = Выберите 3D модель
 Filter by keyword = Поиск по ключевым словам
-System Libs = Системные библиотеки			 
+System Libs = Системные библиотеки
 
 #dialog global delete
 Drawings = Графику
@@ -2289,7 +2289,7 @@ Can not probe. Refreshing the window may get it to work. = Нет тестиро
 You need to login for this function to work. = Для работы этой функции необходимо авторизоваться.
 
 #About Dialog
-An Easier EDA Experience = Освой просто EasyEDA! 
+An Easier EDA Experience = Освой просто EasyEDA!
 Version = Версия
 BuiltDate = Дата сборки
 
@@ -2345,7 +2345,7 @@ Checking local auto router server... = Проверяем локальный с�
 Stop Router = Остановить трассировщик
 Auto Router is running... = Автотрассировщик запущен...
 
-#Left Siderbar
+#Left Sidebar
 Commonly Library = Стандартная библиотека
 Basic = Базовый
 Extend = Расширенный
@@ -2475,7 +2475,7 @@ Import failed! The imported files were not ASCII format, please save the files 
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = Контакты "{0}" не привязаны к точкам сетки! Эта часть может вызвать некоторые ошибки в схеме.
 Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} = Сохранить не удалось! Номер контакта не должен повторяться! Как показано ниже, повторяется номер контакта: {0}
 Check Pin = Проверьте контакт
-Failed to read {0} = Не удалось прочитать {0}					
+Failed to read {0} = Не удалось прочитать {0}
 {0} is invalid = {0} некорректен
 {0} not found = {0} не найден
 Failed to execute script: = Не удалось выполнить скрипт:
@@ -2755,7 +2755,7 @@ Please select one component = Пожалуйста выберите один к�
 Location X = Позиция X
 Location Y = Позиция Y
 Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = Ваша текущая версия браузера может не поддерживать некоторые функции. Пожалуйста, используйте последнюю версию Chrome или Firefox, или попробуйте версию для стационарных компьютеров.
-EasyEDA Client = Клиент EasyEDA 
+EasyEDA Client = Клиент EasyEDA
 LCEDA Client = Клиент LCEDA
 Chrome = Chrome
 FireFox = FireFox
@@ -2864,7 +2864,7 @@ Object not found = Объект не найден
 Offset X = Смещение по X
 Offset Y = Смещение по Y
 Offset = Смещение
-Absolute Offset = Абсолютное смещение 
+Absolute Offset = Абсолютное смещение
 Relative Offset = Относительное смещение
 Absolute Offset... = Абсолютное смещение...
 Relative Offset... = Относительное смещение...
@@ -2934,7 +2934,7 @@ Result = Результат
 Place = Установить
 Prev = Предыдущий
 Next = Следующий
-Total {count} Count = Всего найдено {count} 
+Total {count} Count = Всего найдено {count}
 About = О приложении
 Items = Позиций
 [/findlib]
@@ -2983,7 +2983,7 @@ Split by ';' for multi tags = Разделяйте несколько тегов
 
 This size is the determined size! = Этот размер является определяемым размером!
 The associated pad has been locked = Связанная площадка заблокирована
-Split by space or , for multi tags = Разделяйте несколько тегов ' ' или ',' 
+Split by space or , for multi tags = Разделяйте несколько тегов ' ' или ','
 
 Rotation X = Вращение по X
 Rotation Y = Вращение по Y
@@ -3078,7 +3078,7 @@ PCB Fabrication File(Gerber) = Файл для производства(Gerber)
 Pick and Place File = Выбрать и разместить файл
 Parts Order = Заказ компонентов
 PCB Order = Заказ печатной платы
-One-click Order Parts = Заказать компоненты в один клик 
+One-click Order Parts = Заказать компоненты в один клик
 One-click Order PCB/SMT = Заказать PCB/SMT в один кдик
 SIM = SIM
 STD = STD
@@ -3118,7 +3118,7 @@ Invalid folder name = Неправильное имя папки
 Are you sure to delete this folder? = Вы уверены, что хотите удалить эту папку?
 All projects in this folder will be moved to the root directory. = Все проекты в этой папке будут перемещены в корневой каталог.
 Create new folder successfully = Успешное создание новой папки
-Failed to create new folder = Ошибка создания новой папки							 
+Failed to create new folder = Ошибка создания новой папки
 Delete folder successfully = Папка успешно удалена
 Failed to delete folder = Ошибка удаления папки
 Rename folder successfully = Папка успешно переименована
@@ -3169,7 +3169,7 @@ Auto = Авто
 Horizontal = Горизонтально
 Vertical = Вертикально
 Canvas origin to lead edge = От начала холста до кромки вывода
-Canvas origin to body edge = От начала холста до кромки тела 
+Canvas origin to body edge = От начала холста до кромки тела
 Lead soldering length = длина покрытия вывода припоем
 Lead soldering part diameter = Диаметр части вывода покрытой припоем
 Component shape object doesn't overlap lead shape object, please check carefully. = Объект формы компонента не перекрывает объект формы выводов, внимательно проверьте.
@@ -3289,20 +3289,20 @@ Generate Solid Region by Objects Outline = Генерация сплошной �
 Generate Polygon Pad by Objects Outline =  Генерация площадки-полигона  по контуру объектов
 Select the objects that cannot be generated = Выберите объекты, которые не должны генерироваться
 
-Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 
-Because of different file format and element, please check carefully after imported. = 
-Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 
-Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please make sure the Protel file is exported as ASCII format file. = 
-Please compress the schematic and corresponding symbols as a zip file and then import it. = 
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. =
+Because of different file format and element, please check carefully after imported. =
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please make sure the Protel file is exported as ASCII format file. =
+Please compress the schematic and corresponding symbols as a zip file and then import it. =
 
-Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-Tips = 
-Exists incomplete connection = 
-Found that the board has incomplete connection, please check the nets and ratlines = 
-creator = 
-You are not logged in or the login status is invalid, please login and try again. = 
-Display Board Cutout = 
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Tips =
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
+creator =
+You are not logged in or the login status is invalid, please login and try again. =
+Display Board Cutout =

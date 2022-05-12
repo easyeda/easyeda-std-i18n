@@ -1,4 +1,4 @@
-# Menu
+#Menu
 User = المستخدم
 Join... = الأنضمام
 Login... = تسجيل دخول
@@ -46,21 +46,21 @@ Redo = تكرار
 Cut = قص
 Copy = نسخ
 Paste = لصق
-Select = أختيار 
+Select = أختيار
 Delete = مسح
 Clear All = مسح الكل
 Move = تحريك
 Drag = سحب
-Bring to Front =أحضار للأمام 
-Send to Back =أرسال للخلف 
+Bring to Front =أحضار للأمام
+Send to Back =أرسال للخلف
 Align = تناسق
 Align Left = تنسيق نحو اليسار
 Align Right = تنسيق نحو اليمين
 Align Top = تنسيق للأعلى
-Align Bottom =تنسيق للأسفل 
+Align Bottom =تنسيق للأسفل
 Align Horizontal Centers = تنسيق افقي وسطي
-Align Vertical Centers =تنسيق عمودي وسطي 
-Distribute Horizontally =ترتيب متساوي افقياً 
+Align Vertical Centers =تنسيق عمودي وسطي
+Distribute Horizontally =ترتيب متساوي افقياً
 Distribute Vertically =ترتيب متساوي عامودياً
 Distribute Left Edges Equidistantly = ترتيب الحافات اليسرى بنفس البعد
 Distribute Top Edges Equidistantly = ترتيب الحافات اليمنى بنفس البعد
@@ -176,9 +176,9 @@ Tutorials = تعليم
 Videos = فيديوات
 [/start]
 Custom Data = بيانات مخصصة
-LCEDA = LCEDA 
+LCEDA = LCEDA
 
-Copy Result Image =أنسخ صورة النتيجة 
+Copy Result Image =أنسخ صورة النتيجة
 Export Result Image =تصدير صورة النتيجة
 Simulation Result = نتيجة المحاكاة
 Simulation Results... = نتائج المحاكاة
@@ -292,7 +292,7 @@ Delete Selected = أمسح المختار
 Simulate... = حاكي
 Config = خصائص
 Terms of Service & Privacy Policy = شروط الأستخدام و سياسة الخصوصية
-Help Topics =مواضيع المساعدة 
+Help Topics =مواضيع المساعدة
 3D Model(obj) = شكل ثلاثي OBJ
 3D Model(step) = شكل ثلاثي STEP
 SVG Source... = مصدر SVG
@@ -343,7 +343,7 @@ Grid.Line Width = عرض خط الشبكة
 Grid.Line Spacing = مسافات خطوط الشبكة
 Copper to Board Outline = حدود النحاس عن نهاية البورد
 Improve Fabrication = تحسين التصنيع
-Spoke Width =عرض اطار الثقب المقطع 
+Spoke Width =عرض اطار الثقب المقطع
 Stroke Color = لون الأطار
 Stroke Width = عرض الأطار
 Stroke Style = نوع الأطار
@@ -351,7 +351,7 @@ Fill Color = لون الملء
 Selected Objects = العناصر المختارة
 Frame Size = حجم الأطار
 Alt Snap = انجذاب تبادلي
-Snap size when pressing the Alt key = حجم الأنجذاب اثناء ضغط زر Alt 
+Snap size when pressing the Alt key = حجم الأنجذاب اثناء ضغط زر Alt
 Prefix Start = بدء المصطلح الأمامي
 
 #Text Properties
@@ -380,13 +380,13 @@ Add = اضف
 bold = ثخين
 bolder = أثخن
 lighter = أرفع
-Failed to parse the font file: {name} ={name} لا يمكن عرض هذا الخط 
+Failed to parse the font file: {name} ={name} لا يمكن عرض هذا الخط
 Please select a font file of ttf or woff format. = الرجاء أختيار صيغة خط من الأنواع المعروفة رحم الله والديك
-Add font success: {name} = تم اضافة الخط بنجاح يوم زواج عيالك 
+Add font success: {name} = تم اضافة الخط بنجاح يوم زواج عيالك
 Failed to add font: {name} = فشل اضافة الخط يعني لا تتعب نفسك هذا مضروب
 Add Font = أضف نوع خط
 Failed to parse cached font: {name} = فشل في عرض الخط المضمن {name}
-Load cached fonts fail! =فشل تحميل الخطوط (حاول تنزيلها مجدداً) 
+Load cached fonts fail! =فشل تحميل الخطوط (حاول تنزيلها مجدداً)
 
 #Stroke
 Stroke Color = لون الأطار
@@ -394,7 +394,7 @@ Stroke Width = عرض الأطار
 Stroke Style = ستايل الأطار
 Fill Color = لون الملء
 X Radius = نصف قطر المحور الأفقي
-Y Radius =نصف قطر المحور العمودي 
+Y Radius =نصف قطر المحور العمودي
 
 #spice
 Switch mode = تحويل الوضع
@@ -403,7 +403,7 @@ PCB related documents are not allowed in emulation mode = الملفات ذات 
 Please change the editor to "Simulation" mode first at the top left corner. = الرجاء غير الوضع الى (محاكاة) من الزاوية العليا اليسرى
 Please change the editor to "Standard" mode first at the top left corner. = الرجاء غير الوضع الى (أعتيادي) من الزاوية العليا اليسرى
 Common = الشائع
-spice.open = افتح ملف سبايس 
+spice.open = افتح ملف سبايس
 spice.close = اغلق ملف سبايس
 Sources = مصادر
 Instruments/Meters = ادوات/مقاييس
@@ -412,8 +412,8 @@ Digital Circuits = دوائر رقمية
 Operational Amplifier = مضخمات فعالة
 multimeter = مقياس متعدد
 multimeter Settings = أعدادات المقياس المتعدد
-FunctionGenerator Settings =  أعدادات مولد الوظائف 
-Voltage Source Settings =أعدادات مصدر الفولتية 
+FunctionGenerator Settings =  أعدادات مولد الوظائف
+Voltage Source Settings =أعدادات مصدر الفولتية
 Current Source Settings = أعدادات مصدر التيار
 Powersw Settings = أعدادات زر الطاقة
 Resistor Settings = أعدادات المقاومة
@@ -426,16 +426,16 @@ CCCS Settings = أعدادات مصدر التيار المسيطر عليه
 VCCS Settings = أعدادات مصدر التيار المسيطر على فولتيته
 CCVS Settings = أعدادات مصدر الفولتية المسيطر على تياره
 JFET Settings = أعدادات ترانزستور JFET
-FET Settings = أعدادات ترانزستور FET 
+FET Settings = أعدادات ترانزستور FET
 Transmission Line Settings = أعدادات خط النقل
-Oscilloscope Settings = أعدادات راسم الذبذبات (الأوسيلوسكوب) 
-XFMR Settings = أعدادات XFMR 
-LOGIC Settings =أعدادات اللوجيك (المنطق) 
+Oscilloscope Settings = أعدادات راسم الذبذبات (الأوسيلوسكوب)
+XFMR Settings = أعدادات XFMR
+LOGIC Settings =أعدادات اللوجيك (المنطق)
 LOGICSTATE Settings = أعدادات الحالة المنطقية
 DIGITALCLOCK Settings = أعدادات الساعة الرقمية
 Potentiometer Settings = اعدادات المقاومة المتغيرة
 MUTUAL_INDUCTORS Settings = أعدادات المؤشرات المشتركة
-NE555 Settings = اعدادات الشريحة NE555 
+NE555 Settings = اعدادات الشريحة NE555
 THREE_PHASE Settings = أعدادات الأطوار الثلاثة
 Logic_Probe Settings = أعدادات الفاحص المنطقي
 78XX Settings =
@@ -447,9 +447,9 @@ OPAMP3PEECN Settings =
 DELAY_FUSE Settings = أعدادات فيوز التأخير
 Ratio = النسبة
 K[%] =
-Model = الموديل 
+Model = الموديل
 States = الحالات
-Voltage[V] = الفولتية 
+Voltage[V] = الفولتية
 Voltage gain[V/V] = أكتساب الفولتية
 Current gain[A/A] = أكتساب التيار
 Transconductance[Mho] = نسبة التحويل التوصيلية بين المدخل و المخرج
@@ -544,7 +544,7 @@ X pos.(Div): =
 Y pos.(Div): =
 View meter... =
 The circuit has components without simulation model: = الدائرة الكهربائية تحتوي على عناصر بدون موديل محاكاة
-Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = وقت أعادة المحاكاة قصير جداً , الرجاء الأنتظار 5 ثواني و المحاولة مجدداً, اذا ظهرت لك هذه الرسالة مرة أخرى فمعناها انك قد تجاوزت الحد المسموح من 500 محاولة في اليوم , تعال بكرا حبيبي 
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = وقت أعادة المحاكاة قصير جداً , الرجاء الأنتظار 5 ثواني و المحاولة مجدداً, اذا ظهرت لك هذه الرسالة مرة أخرى فمعناها انك قد تجاوزت الحد المسموح من 500 محاولة في اليوم , تعال بكرا حبيبي
 Resistor1_US =
 Resistor1_EU/IEC =
 Resistor1_3D =
@@ -691,7 +691,7 @@ open = فتح
 close = غلق
 Common Anode = انود عام
 Common Cathode = كاثود عام
-AC Amplitude = 
+AC Amplitude =
 AC Phase =
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = هناك بعض العناصر التي لا تحتوي موديل سبايس للمحاكاة , الرجاء استخدام "EElib"  و Spice Symbol في المكتبة في وضع المحاكاة
 يمكنك تحديد موديل سبايس لهذه العناصر
@@ -744,7 +744,7 @@ Please select a png/gif/jpg file. = الرجاء أختيار صورة بصيغ�
 Please select an image file. = الرجاء تحديد ملف صورة
 Select an image file = أختر ملف الصورة
 Insert Image to PCB = أضافة صورة للخريطة المطبوعة
-Tolerance = التحمل 
+Tolerance = التحمل
 tolerance = التحمل
 capacitance = السعة
 frequency = التردد
@@ -752,7 +752,7 @@ Rated Voltage = الفولتية المصنفة
 Rated Current = التيار المصنف
 resistance = المقاومة
 Resistance = المقاومة
-Resistance[Ω] = المقاومة [Ω] 
+Resistance[Ω] = المقاومة [Ω]
 inductance = العزل
 Operating Temperature = حرارة التشغيل
 Shape Invert = قلب الشكل
@@ -769,7 +769,7 @@ Routing Width = عرض التسليك
 [router]
 Routing Width = عرض التسليك
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. =  الرجاء قم بتغيير سمك التسليك بضغط + - 1 2 3 tab 
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. =  الرجاء قم بتغيير سمك التسليك بضغط + - 1 2 3 tab
 Routing Angle = زواية التسليك
 Routing Conflict = أزمة التسليك
 Remove Loop = أزل الحلقة
@@ -788,10 +788,10 @@ RoundTrack = مسلك مدور
 Track Properties = خصائص المسلك
 Layer = الطبقة
 Net = نيت
-Start X =   X بداية 
-Start Y = Y بداية 
+Start X =   X بداية
+Start Y = Y بداية
 End X =  X نهاية
-End Y = Y نهاية 
+End Y = Y نهاية
 ID = الرمز
 
 #Pad Properties
@@ -944,7 +944,7 @@ This field is required. = هذا الحقل مطلوب (بالحرام الا ت
 Change your password = تغيير الكلمة السرية
 Old password = الكلمة السرية القديمة
 New Password = الكلمة السرية الجديدة
-Confirm Password = تأكيد الكلمة السرية 
+Confirm Password = تأكيد الكلمة السرية
 
 #Dialog Create New Design
 Save as a New Project = حفظ كمشروع جديد
@@ -1027,7 +1027,7 @@ DRC Diameter = القطر لتدقيق قواعد التصميم
 Object = الجسم
 DRC Clearance = الفراغ لتدقيق قواعد التصميم
 [/drcRule]
-#It will take a while to unroute this net, do you want to continue? = سوف نستغرق بعض الوقت لأزالة هذا التسليك .؟ عادي ناخذ من وقتك 
+#It will take a while to unroute this net, do you want to continue? = سوف نستغرق بعض الوقت لأزالة هذا التسليك .؟ عادي ناخذ من وقتك
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = اكثر من ملصق اسم وجد في هذا السلك, اذا كنت متقصداً لهذا التصميم الرجاء تجاهل هذا التحذير
 Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = ربط غير مكتمل , الربط الكامل يجب ان يحتوي على مأخذين يعني بداية و نهاية, اذا كنت متقصداً لهذا التصميم الرجاء تجاهل هذا التحذير
 This netlabel is not connected with any pin. = هذا الملصق غير مرتبط مع أي مأخذ
@@ -1068,7 +1068,7 @@ Modify symbol information = تعديل معلومات الرمز
 Spice Prefix = بادئة سبايس
 Hide Pin = أخفاء المأخذ
 Pin Manager = مدير المآخذ
-When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = حينما يكون المأخذ مخفياً , سيكون مؤشراً كملصق, لا تحتاج ان تربطه بسلك,اذا كنت تريد استعماله في المحاكاة يجب ان تضع ملصق مصدر فولتية أو أرضي له VCC/GND 
+When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = حينما يكون المأخذ مخفياً , سيكون مؤشراً كملصق, لا تحتاج ان تربطه بسلك,اذا كنت تريد استعماله في المحاكاة يجب ان تضع ملصق مصدر فولتية أو أرضي له VCC/GND
 Assign = تعيين
 Supplier.bom =قائمة المواد من المجهز
 LCSC.bom = قائمة المواد من شركة LCSC
@@ -1077,12 +1077,12 @@ Quantity.bom = الكمية
 Package.bom = التغليف
 Components.bom = المواد
 Manufacturer Part.bom = قطعة المصنع
-Manufacturer.bom = المصنع 
+Manufacturer.bom = المصنع
 
-One-click Purchasing at LCSC = شراء بضغطة واحدة من LCSC 
+One-click Purchasing at LCSC = شراء بضغطة واحدة من LCSC
 Order Parts = أطلب المواد
 Export BOM = تصدير قائمة المواد المطلوبة
-Upload to LCSC ERP = تصعيد الى شركة LCSC  
+Upload to LCSC ERP = تصعيد الى شركة LCSC
 No components, upload failed! = لا يوجد مواد , فشل الأرسال
 Upload to LCSC ERP failed, please try again later. =  فشل الأرسال لشركة LCSC  الرجاء المحاولة مرة أخرى
 Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = قائمة المواد تم أرسالها للشركة بنجاح , اضغط اوكي للدخول لمدير المواد
@@ -1094,11 +1094,11 @@ ID.bom = الهوية
 Name.bom = الأسم
 [bom]
 Name = الأسم
-LCSC Assembly = التركيب من شركة LCSC 
+LCSC Assembly = التركيب من شركة LCSC
 Value = القيمة
 ID = الهوية
 Supplier = المجهز
-LCSC = LCSC 
+LCSC = LCSC
 Price = السعر
 Quantity = الكمية
 Package = التغليف
@@ -1124,7 +1124,7 @@ DC sweep = ترميز التيار المستمر
 Source to Sweep = المصدر للترميز
 Start Value = قيمة البدء
 Stop Value = قيمة الأنتهاء
-Increment =الزيادة 
+Increment =الزيادة
 DC Transfer = تحويل التيار المستمر
 Output = المخرج
 Source = المصدر
@@ -1151,7 +1151,7 @@ Are you sure you want to remove this backup? = هل أنت متأكد من أز�
 #Dialog Find Libs
 Search = البحث
 Search Results = نتيجة البحث
-Search and press Enter =Enter أبحث و أضغط 
+Search and press Enter =Enter أبحث و أضغط
 Keywords at least 3 characters = الكلمة على الأقل يجب أن تكون 3 أحرف
 Assembled = مركبة/مجمعة
 Verified = مؤكدة/موثقة
@@ -1176,8 +1176,8 @@ Manufacturer = المصنع
 manufacturer = المصنع
 voltage = الفولتية
 Library = المكتبة
-LCSC Assembled = مركبة في LCSC 
-JLCPCB Assembled = مركبة في JLCPCB 
+LCSC Assembled = مركبة في LCSC
+JLCPCB Assembled = مركبة في JLCPCB
 User Contributed =مساهمة من مستخدم
 Symbol = رمز
 Follow = متابعة
@@ -1185,7 +1185,7 @@ Types = أنواع
 Classes = دروس
 power = طاقة
 Power = طاقة
-LCSC Part# = رقم قطعة LCSC 
+LCSC Part# = رقم قطعة LCSC
 Stock = خزين
 Report Error... = خطأ بالتقرير
 Report Error = خطأ بالتقرير
@@ -1361,7 +1361,7 @@ Check Object to Board Outline = دقق بعد الجسم عن حدود البو�
 Rule name already exists! = أسم هذه القاعدة مستخدم , اختر غيره الله يخليك
 You should not delete default rule! = يجب أن لا تمسح القاعدة الأساسية
 Rule list contains invalid rule setting! = قائمة القواعد تحتوي أعدادات خاطئة
-Duplicate rule name exists! = أسم قاعدة متكرر 
+Duplicate rule name exists! = أسم قاعدة متكرر
 via diameter is smaller than via drill diameter! = قطر ثقب الفايا أصغر من قطر بريمة التثقيب , لا يجوز في المنطق ولا بأي مكان يكون الثقب أصغر من بريمة الدريل , أضحك أضحك ههههه
 Currently rule name is not allowed to contain magical characters like . and $ =
 [drcRule]
@@ -1503,7 +1503,7 @@ Style = الستايل
 Picture = صورة
 Pin Names = أسماء المآخذ
 Contributor = المساهم
-contributor = المساهم 
+contributor = المساهم
 owner = المالك
 
 #Dialog Annotate
@@ -1611,7 +1611,7 @@ Please create a project before you import a file! = الرجاء قم بأنشا
 Import your LTspice file! = أستيراد ملفك الخاص
 Open LTspice file = فتح ملف من برنامج سبايس
 Open EasyEDA file = فتح ملف
-Please make sure the selected LTspice file is a file saved in LTspice V and above. = الرجاء تأكد من ان الملف تم خزنه من برنامج سبايس الأصدار الخامس فما فوق 
+Please make sure the selected LTspice file is a file saved in LTspice V and above. = الرجاء تأكد من ان الملف تم خزنه من برنامج سبايس الأصدار الخامس فما فوق
 Saved successfully! = تم الحفظ بنجاح
 Save failed! = فشل الحفظ
 Can not place parts into this document. = لا يمكن وضع أجهزة في هذا الملف
@@ -1653,22 +1653,22 @@ Clone your file =أنسخ ملفك
 Please type a new file name = الرجاء أدخال اسم جديد
 Create file failure! = فشل في أنشاء ملف
 Schematics and PCBs can't be imported under My Libs folder, please choose a different folder = لا يمكن أستيراد المخططات و الخرائط المطبوعة في المجلد الحالي, الرجاء أختيار مجلد آخر
-Libraries to be imported under My Libs folder =My Libs يجب أستيراد المكتبات في هذا المجلد فقط 
+Libraries to be imported under My Libs folder =My Libs يجب أستيراد المكتبات في هذا المجلد فقط
 Please choose only the libraries needed =الرجاء أختيار المكتبة اللتي تحتاجها فقط
 Maximum import is 200 libs at one time! = أقصى عدد ممكن تنزيله هو 200 مكتبة في المرة الواحدة
-You libraries will be found under the My Libs folder =My Libs مكتباتك الخاصة ستجدها في مجلد 
+You libraries will be found under the My Libs folder =My Libs مكتباتك الخاصة ستجدها في مجلد
 Add to Library = أضف للمكتبة
 No items have been checked! = لم يتم تحديد شيء
 Nothing was found, please create it for yourself = لم يتم العثور على شيء, الرجاء أنشيء من جديد
 Search result = نتائج البحث
 At least 3 characters needed = عالأقل 3 حروف مطلوبة
-Add to my Favorite Parts = أضافة للمكونات المفضلة 
+Add to my Favorite Parts = أضافة للمكونات المفضلة
 Added it OK. Please find it in your Favorite Parts = تم الأضافة بنجاح, ستجده في قائمة المفضلة
 Please select its parent node = الرجاء أختيار العقدة الأم
-Libraries can not be exported as active project pdf. = لا يمكن أستيراد المكتبات كملفات PDF 
+Libraries can not be exported as active project pdf. = لا يمكن أستيراد المكتبات كملفات PDF
 Error:No GND = خطأ , لا يوجد خط أرضي سالب GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = الدائرة لا تحتوي على خط بارد/سالب الرجاء قم بأضافة GND من القائمة
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = الدائرة الرئيسية لا تحتوي على مصدر فولتية او تيار, الرجاء الأضافة من EElib or Spice Library 
+Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = الدائرة الرئيسية لا تحتوي على مصدر فولتية او تيار, الرجاء الأضافة من EElib or Spice Library
 Probe can not connect with ground(GND)! = لا يمكن ربط الفاحص بالخط الأرضي
 Spice symbols's properties can't be empty. = حقل خصائص رمز سبايس لا يمكن ان تبقى فارغة
 Error:No Spice Symbol = خطأ : لا يوجد رمز سبايس
@@ -1681,7 +1681,7 @@ Make sure your pin numbers are even numbers = تأكد من أن عدد المن
 Duplicate Components Prefix = بادئة أسم عنصر مكرر, أستخدم شي آخر
 All components are hidden successfully! = تم أخفاء كل العناصربنجاح
 All ratlines are hidden successfully! = تم أخفاء كل طبقات تمييز الألوان بنجاح
-Hidden the ratline of net {netName} successfully! = تم أخفاء طبقة ملونة {netName} بنجاح 
+Hidden the ratline of net {netName} successfully! = تم أخفاء طبقة ملونة {netName} بنجاح
 Duplicate Component Prefix = بادئة أسم عنصر مكرر, أستخدم شي آخر
 {0} exist = {0} موجود
 Modify successfully, but {0} already exists = تم تعديله بنجاح لكن {0} موجود أصلاً
@@ -1743,7 +1743,7 @@ Show, resize or hide the left sidebar to the left of the window here. = أظهر
 Show or hide the right sidebar to the right of the window here. = أظهر أو أخفي الشريط الجانبي الأيمن من هنا
 
 #Standard libs
-Passive Components =  مكونات غير فعالة 
+Passive Components =  مكونات غير فعالة
 Power Supply = مجهز قدرة
 Diodes = دايود
 Regulator = منظم
@@ -1773,7 +1773,7 @@ Variable Capacitor(US) =(US) متسعة متغيرة
 Variable Capacitor(EU) =(EU) متسعة متغيرة
 Variable Resistor(US) =  (US) متسعة متغيرة
 Variable Resistor(EU) = (EU) متسعة متغيرة
-Variable Inductor(US) =(US) محث متغير 
+Variable Inductor(US) =(US) محث متغير
 Variable Inductor(EU) =(EU) محث متغير
 Varistor = مقاومة متغيرة
 Inductor2(US) =  محث (US)2
@@ -1789,7 +1789,7 @@ CCVS(Current Controlled Voltage Source) = مصدر فولتية مسيطر عل�
 CCVS2(Current Controlled Voltage Source) = مصدر فولتية مسيطر على تياره 2
 
 BV(Behavioral Voltage Sources) = BV مصدر فولتية سلوكي
-BI(Behavioral Voltage Sources) =BI مصدر فولتية سلوكي 
+BI(Behavioral Voltage Sources) =BI مصدر فولتية سلوكي
 Epoly(Non-linear Voltage Source) = مصدر فولتية لا خطي
 Gpoly(Non-linear Current Source) = مصدر تيار لا خطي
 
@@ -1827,20 +1827,20 @@ MESFET(Pch) =
 
 IGBT =
 SCR =
-Triac = تراياك Triac 
+Triac = تراياك Triac
 Transform(US) =(US) محول
 Transform(EU) =(EU) محول
 Transfrom(NEUTRAL-CTR TAP)(US) =
 Transfrom(NEUTRAL-CTR TAP)(EU) =
 Mutual Inductors =
 Mutual Inductors2 =
-Or Gate = Or بوابة الجمع المنطقي 
+Or Gate = Or بوابة الجمع المنطقي
 Xor Gate = Xor بوابة الجمع الحصري
 And Gate = And بوابة الضرب المنطقي
 Nor Gate = Nor بوابة نفي الجمع
 Nand Gate = Nand بوابة نفي الضرب
 Not Gate =Not بوابة النفي المنطقي
-Xnor Gate =Xnor بوابة نفي الجمع الحصري 
+Xnor Gate =Xnor بوابة نفي الجمع الحصري
 Tube Diode =
 Tube Triode =
 Tube Tetrode =
@@ -1871,7 +1871,7 @@ Bad file type = نوع ملف مرفوض
 Empty file or bad file type, ensure your file is Eagle 6.0+ = ملف فارغ او صيغة تالفة, تأكد من أصدار برنامج أيكال هو السادس أو فما فوق
 This operation not supported on demo account = هذه الخاصية غير متوفرة في الحساب التجريبي
 Can not share this file under a private project, please set the active project to public! = لا يمكن مشاركة هذا الملف من مشروع خاص , الرجاء قم بتحويل المشروع الى عام
-Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = support@easyeda.com  {1} فشل الدخول لحسابك بعد عدة محاولات , اذا نسيت كلمة السر الخاصة بك  , الرجاء قم  {0} بأسترجاعها عن طريق الأيميل أو راسلنا على 
+Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = support@easyeda.com  {1} فشل الدخول لحسابك بعد عدة محاولات , اذا نسيت كلمة السر الخاصة بك  , الرجاء قم  {0} بأسترجاعها عن طريق الأيميل أو راسلنا على
 
 #Dialog Common Buttons
 Common Buttons Setting = أعدادات الأزرار الأعتيادية
@@ -1889,7 +1889,7 @@ Zoom Mode = وضع التقريب
 Scroll Key = قرص السكرول للتدوير
 CTRL + Scroll = CTRL + Scroll
 Canvas Coordinate System =  نظام أحداثيات اللوحة (من المركز)
-SVG Coordinate =  أحداثيات (من الزاوية العليا اليسرى) SVG 
+SVG Coordinate =  أحداثيات (من الزاوية العليا اليسرى) SVG
 Cartesian Coordinate =نظام أحداثيات كارتيزي
 Open Wizard Dialog for New Schematic = أفتح قائمة المساعدة لمخطط جديد
 Default Unit = الوحدات الأعتيادية
@@ -1913,7 +1913,7 @@ Access Control = التحكم بالوصول
 Project Access Control = التحكم بالوصول للمشروع
 Reject = رفض
 Add User = أضافة مستخدم
-Bad email address = بريد ألكتروني غير صالح 
+Bad email address = بريد ألكتروني غير صالح
 
 #error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = لا يمكن أيجاد هذا البريد الألكتروني في سجلاتنا, صديقك المدعو يجب أن يكون عضواً مسجلاً معنا
@@ -1964,7 +1964,7 @@ Find libs = أيجاد مكتبة
 My Projects = مشاريعي
 My Parts = مكوناتي
 My Modules = موديلاتي
-Assembly LCSC Components = LCSC  مكونات شركة 
+Assembly LCSC Components = LCSC  مكونات شركة
 Modules =موديلات
 SCH Module = مخططات الموديلات
 PCB Module = خرائط مطبوعة للموديلات
@@ -1987,7 +1987,7 @@ Open = فتح
 Toggle toolbar = تشغيل شريط الأدوات
 Toggle left bar = تشغيل شريط الأدوات الأيسر
 Toggle right bar = تشغيل شريط الأدوات الأيمن
-Reload = أعادة تحميل 
+Reload = أعادة تحميل
 Mouse-X = أفقية الماوس
 Mouse-Y = عامودية الماوس
 Mouse-DX =
@@ -1997,7 +1997,7 @@ Bus entry x2 =
 Bus entry y1 =
 Bus entry y2 =
 Yes = نعم
-No = كلا 
+No = كلا
 OK = موافق
 Confirm = تأكيد
 Continue = المتابعة
@@ -2013,14 +2013,14 @@ Copy the contents of this box into a text editor, then save the file. Paste the 
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = قم بنسخ محتويات هذا الصندوق الى محرر كتابة ثم قم بخزن الملف بصيغة .svg يمكنك تعديل الملف لاحقاً من المتصفح
 Content is too big to show, you can download it directly. = المحتويات كبيرة جداً لعرضها, يمكنك تنزيلها مباشرة
 SVG format =SVG  صيغة
-SVG File =SVG  ملف 
+SVG File =SVG  ملف
 Description should be no more than 250 letters = الوصف يجب أن لا يزيد عن 250 حرف
 The file save operation has timed out. Try again and check your Internet connection. = عملية خزن الملف أستغرقت وقتاً طويلاً و فشلت , الرجاء  التحقق من أتصال الأنترنت
 Export Netlist =تصدير قائمة المواد
 Notifications = التنبيهات
 Please select txt or json files. = الرجاء تحديد ملف النص أو الجافا
 Please select EasyEDA files. = الرجاء تحديد ملفك
-Failed to read file [{file}] =[{file}] فشل قراءة الملف 
+Failed to read file [{file}] =[{file}] فشل قراءة الملف
 [{file}] is not a valid json file =[{file}] هو ملف جافا غير صالح
 Invalid parameters! = معطيات خاطئة
 Download = تنزيل
@@ -2036,7 +2036,7 @@ You should not try to assign a net to a Board Cutout solid region. = يجب أن
 Net Length = طول النيت
 You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = يمكنك وضع مأخذ في المخطط, لكن لا تنسى أن تضعهم في مجموعة تضم كل المآخذ للمكونات , أضغط على المساعدة في حال أردت تعلم كيفية عمل مجموعة, أذا أردت فقط أن تضع علامة على السلك أستخدم زر مأخذ التوصيلة أو علامة المأخذ
 Please input the modification = الرجاء أدخل التعديلات
-The content must be between {0} and {1} characters ={1} المحتوى يجب أن يكون بين {0} و 
+The content must be between {0} and {1} characters ={1} المحتوى يجب أن يكون بين {0} و
 
 Coming soon = عن قريب
 No tool = بلا أداة
@@ -2059,8 +2059,8 @@ BBCode =
 PNG =صورة شفافة
 Exporting as = التصدير كـ
 Exporting as image = التصدير كصورة
-Exporting as {0}SVG{1} file. ={0}SVG{1} التصدير كملف 
-Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. =لأعطاءك أحسن جودة و أقل حجم pdf  التصدير كملف 
+Exporting as {0}SVG{1} file. ={0}SVG{1} التصدير كملف
+Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. =لأعطاءك أحسن جودة و أقل حجم pdf  التصدير كملف
 Generate PCB Fabrication File(Gerber) = أنشئ ملف تصنيع الخريطة المطبوعة (جيربر)
 PenWidth-Increase = زيادة عرض القلم
 
@@ -2082,8 +2082,8 @@ No, Generate Gerber = لا , قم بعمل ملف الجيربر أنا متأك
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = خريطتك المطبوعة تحتوي على أتصالات غير مكتملة , هل تريد تدقيق مكان هذه التوصيلات ؟
 Yes, Check Connection(s) = نعم دقق التوصيلات
 It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? =هل أنت جاهز ؟ JLCPCB  هذه ستعيدك الى موقع شركة
-Failed to submit your order, please contact us via support@easyeda.com for help. =support@easyeda.com فشل في تسليم طلبك , الرجاء تواصل مع فريقنا على 
-Failed to submit your order, please contact us via QQ 800821856. =800821856 فشل في تسليم طلبك , الرجاء الأتصال على 
+Failed to submit your order, please contact us via support@easyeda.com for help. =support@easyeda.com فشل في تسليم طلبك , الرجاء تواصل مع فريقنا على
+Failed to submit your order, please contact us via QQ 800821856. =800821856 فشل في تسليم طلبك , الرجاء الأتصال على
 Order data generated finish, please click OK button and continue. =معلومات الطلب تمت بنجاح , اضغط موافق للأستمرار
 [generateGerber]
 Layers = الطبقات
@@ -2106,14 +2106,14 @@ Dimension = الأبعاد
 
 Please check that you have used Wire and not Line to connect electrical elements. = الرجاء التأكد من أنك أستعملت (السلك) بدلاً من (الخط المستقيم) في ربط المكونات الكهربائية
 PCB Fabrication Prices & capabilities = كلف و أمكانيات تصنيع الدوائر المطبوعة
-Flip all texts on bottom layer =أقلب جميع النصوص في الطبقة السفلية 
+Flip all texts on bottom layer =أقلب جميع النصوص في الطبقة السفلية
 Create New Document = أنشاء ملف جديد
 General Package = باقة عامة
 General Packages =باقات عامة
 favorite Package = باقة مفضلة
 Board Cutout = منطقة قص البورد (الحدود)
-Surface Mount = تثبيت سطحي SMD 
-JLCPCB Part Class =JLCPCB  طراز مواد 
+Surface Mount = تثبيت سطحي SMD
+JLCPCB Part Class =JLCPCB  طراز مواد
 base =قاعدة
 expand = توسيع
 recommend = المفضل
@@ -2137,7 +2137,7 @@ No Result = لا توجد نتيجة
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning = تحذير وضع المأخذ في المخطط
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = يمكنك وضع مأخذ في المخطط , لكن لا تنسى أن تجمعهم كلهم في مجموعة, لو تحب أضغط على مساعدة لتعلم كيفية عمل هذه الطريقة, لو كنت تريد فقط تأشير السلك الرجاء أستخدم (أسم المأخذ) أو (ملصق المأخذ)
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = يمكنك وضع مأخذ في المخطط , لكن لا تنسى أن تجمعهم كلهم في مجموعة, لو تحب أضغط على مساعدة لتعلم كيفية عمل هذه الطريقة, لو كنت تريد فقط تأشير السلك الرجاء أستخدم (أسم المأخذ) أو (ملصق المأخذ)
 I know. Do not show this again. = أعلم , لا أريد مشاهدة هذا التحذير مرة أخرى
 
 #Extensions Setting
@@ -2164,7 +2164,7 @@ UTF-8 encoded js file =UTF-8 ملف جافا مشفر ب
 Description = الوصف
 description = الوصف
 Not a *.js file = ليس ملف جافا
-Failed to read file =فشل في قراءة الملف 
+Failed to read file =فشل في قراءة الملف
 System scripts cannot be modified = سكربتات النظام لا يمكن تعديلها
 Create Subfolder = أنشاء مجلد ثانوي
 Create Script = أنشاء سكربت
@@ -2204,12 +2204,12 @@ Generating download link... = جاري أنشاء رابط للتحميل
 Download project now =
 
 #Import DXF
-Import DXF =DXF  أستيراد  
+Import DXF =DXF  أستيراد
 Apply Unit =تطبيق الوحدة
 Convert circle to HOLE on BoardOutLine layer = تحويل الدائرة الى ثقب على طبقة حدود البورد
 No shapes found = لم يتم أيجاد أي شكل
 Fail to load the file = فشل في تحميل الملف
-Please select a DXF file. = DXF  الرجاء أختيار ملف من نوع 
+Please select a DXF file. = DXF  الرجاء أختيار ملف من نوع
 This feature only works for PCB document. = هذا الخيار يشتغل فقط مع ملفات الخرائط المطبوعة
 Select a DXF file =DXF  أختر ملف
 
@@ -2230,7 +2230,7 @@ Decision = القرار
 Modified = تم تعديله
 Deleted = محذوف
 As Cloud = بشكل اونلاين
-As Local = بشكل محلي على الكومبيوتر 
+As Local = بشكل محلي على الكومبيوتر
 Skip = خروج
 Data sync completed = تمت مزامنة البيانات
 
@@ -2287,13 +2287,13 @@ please input valid value of radius! = الرجاء أدخال قيمة صحيح�
 
 #cross probe
 The object you selected was not found in other documents. = المكون الذي أخترته غير موجود في بقية الملفات
-No valid object for cross probe selected. = لا يوجد مكون صالح للفحص 
+No valid object for cross probe selected. = لا يوجد مكون صالح للفحص
 Can not probe. Refreshing the window may get it to work. = لا يمكن الفحص بالمسبار , أعادة تحميل الصفحة قد يحل المشكلة
 You need to login for this function to work. = يجب عليك أن تقوم بتسجيل الدخول لتشتغل عندك هذه الخاصية
 
 #About Dialog
 An Easier EDA Experience = تجربة أسهل مع برنامجنا
-Version = الأصدار 
+Version = الأصدار
 BuiltDate = تاريخه
 
 #Auto Router Dialog
@@ -2348,7 +2348,7 @@ Checking local auto router server... = جاري تدقيق خادم/سيرفر �
 Stop Router = اوقف التسليك
 Auto Router is running... = جاري تسليك الممرات التلقائي
 
-#Left Siderbar
+#Left Sidebar
 Commonly Library = المكتبة الأعتيادية
 Basic = الأساسي
 Extend = الأضافي
@@ -2356,13 +2356,13 @@ Design Manager = مدير التصميم
 Library = المكتبة
 Spice Library = مكتبة سبايس
 Shared = المشاركة
-LCSC =LCSC  شركة 
-LCSC Parts =LCSC  قطع من 
+LCSC =LCSC  شركة
+LCSC Parts =LCSC  قطع من
 Supply Flag =مؤشر التجهيز
 US = أمريكا
 EU/IEC = الأتحاد الأوربي
 US Style = نظام أمريكي
-Resistor = مقاومة 
+Resistor = مقاومة
 Capacitor =متسعة
 Inductor = محث
 Switch/Key = مفتاح
@@ -2370,12 +2370,12 @@ EU/IEC Style = نظام أوربي
 CN = الصين
 Connector = موصلة
 Switch/Relay = مفتاح/ريلي
-JLCPCB = JLCPCB 
+JLCPCB = JLCPCB
 Recycle Bin = سلة المهملات
 
 #Protractor
 Font Height = أرتفاع الخط
-Precision = الدقة 
+Precision = الدقة
 Protractor = المنقلة (لقياس الزوايا و ليس المشويات)
 
 #attr-pcbtext-line-width
@@ -2399,10 +2399,10 @@ No footprint, please associate the footprint first. = لا يوجد بصمة ل�
 Can't find the package = لا يمكن أيجاد هذه الباقة
 The path is for the project URL identify, it is unique (the identity of the project owned by the user cannot be the same) = رابط المشروع مميز و فريد لا يمكن أستعمالها لشيء أخر
 It's with a letter or a number and can contain only numbers, letters, line-through, underscores, and points. It cannot be modified after saving. = هي مع حرف أو رقم و يمكن أن تحتوي أرقام و أحرف و نقاط و خطوط تحتية و لا يمكن تعديلها بعد حفظها
-Updating document to new format, please wait......After finishing please save your document with Ctrl + S. = جاري تحديث الملف للصيغة الجديدة, الرجاء الأنتظار, يمكنك حفظ الملف عن طريق Ctrl + S 
+Updating document to new format, please wait......After finishing please save your document with Ctrl + S. = جاري تحديث الملف للصيغة الجديدة, الرجاء الأنتظار, يمكنك حفظ الملف عن طريق Ctrl + S
 Open at current project? = فتح في المشروع الحالي ؟
 Please select a history to recover. = الرجاء أختيار سجل سابق لأسترجاعه
-Be careful! When you click the "Recover" button, this sheet will be overwritten! = أحذر , عندما تضغط (أسترجاع) هذه الصفحة سوف تحذف 
+Be careful! When you click the "Recover" button, this sheet will be overwritten! = أحذر , عندما تضغط (أسترجاع) هذه الصفحة سوف تحذف
 Recover = أسترجاع نسخة أحتياطية
 There is no PCB under this project, would you like to create one? = لا يوجد ملف خريطة مطبوعة في هذا المشروع , هل تود أنشاء واحدة جديدة ؟
 Please make sure that the chose Altium Designer files are saved as ASCII files. =ASCII  الرجاء التأكد من حفظ ملفات برنامج التيوم بصيغة ملفات
@@ -2413,7 +2413,7 @@ Export Altium notice and disclaimer = تصدير تعليمات و شروط بر
 I have read and agree =لقد قرأت كل شيء و أوافق
 Export to Altium = التصدير الى برنامج التيوم
 Please make sure that the chose Eagle files are saved in Eagle v6.0 and above. = الرجاء التأكد من أن ملفات برنامج أيكل تم خزنها من أصدار سادس فما فوق
-Please make sure that the Kicad files were compressed as the .zip file. =.zip  الرجاء التأكد من أن ملفات برنامج الكي كاد تم ضغطهم كملفات 
+Please make sure that the Kicad files were compressed as the .zip file. =.zip  الرجاء التأكد من أن ملفات برنامج الكي كاد تم ضغطهم كملفات
 Open Altium Designer file = أفتح ملف مصمم التيوم
 The more information please refer at : = لمزيد من المعلومات الرجاء تأكد من
 Please use Gerber file instead of exporting Altium if you are going to do PCB manufacturing. All PCB factories support the Gerber file. Is it ok to Generate the Gerber file? = الرجاء أستخدم ملف جيربر بدلاً من التصدير لبرنامج التيوم اذا كنت ستقوم بتصنيع اللوحات المطبوعة , كل المصانع تدعم صيغة الجيربر , هل تريد عمل ملف الجيربر الآن ؟
@@ -2425,7 +2425,7 @@ Select file(s) = أختار الملف/الملفات
 Append to current project? = أضافة للمشروع الحالي ؟
 Append = أضف
 Open as new project = أفتح كمشروع جديد
-Tip: Press {0}SPACE{1} or {2}R{3} to rotate the placing object or selected object. =لتدوير المكونات اثناء وضعها او تعديل ما تم وضعه R  أضغط المسافة أو حرف 
+Tip: Press {0}SPACE{1} or {2}R{3} to rotate the placing object or selected object. =لتدوير المكونات اثناء وضعها او تعديل ما تم وضعه R  أضغط المسافة أو حرف
 Hotkeys Setting = أعدادات المفاتيح المختصرة
 I know. Don't show this again. = أعلم هذا , لا أريد رؤية هذا مرة أخرى
 Manufacturer Part Number can not be less than 2 characters. = رقم القطعة من المصنع لا يمكن أن يكون أقل من رمزين
@@ -2433,7 +2433,7 @@ This prefix was changed to non-subpart format. = هذه البادئة تم تغ
 Save as New Project = حفظ كمشروع جديد
 Save to Existing Project = حفظ مع مشروع موجود
 Sheet Setting = أعدادات الصفحة
-Sheet Size =حجم الصفحة 
+Sheet Size =حجم الصفحة
 Pre = البادئة
 pre = البادئة
 Invalid Data = بيانات غير صحيحة
@@ -2451,7 +2451,7 @@ Descending = تنازلي
 Pin to Top = ثبته في الأعلى
 Unpin from Top = أزالة التثبيت في الأعلى
 Collapse / Expand =  كبس / توسيع
-Expand = توسيع 
+Expand = توسيع
 Expand All = توسيع الكل
 Collapse = كبس
 Collapse All = كبس الكل
@@ -2469,15 +2469,15 @@ Path must begin as 'a-z、A-Z、0-9'! = المسار يجب أن يبدأ بحر
 The path length must be between 4~128 characters! = طول المسار يجب ان يكون بين 4 و 128 حرف
 The title length must be between 2 ~ 128 characters. = العنوان يجب أن يكون بين 2 و 128 حرف
 Please select an owner = الرجاء أختيار مالك
-Please select obj, wrl or zip file. =obj, wrl or zip الرجاء اختيار أحد الملفات 
+Please select obj, wrl or zip file. =obj, wrl or zip الرجاء اختيار أحد الملفات
 Do you want to delete this file? = هل تريد حذف هذا الملف ؟
-Add sub part success =تم أضافة جزء ثانوي 
+Add sub part success =تم أضافة جزء ثانوي
 Please input name and prefix! = الرجاء أدخال الأسم و البادئة
 Board outlines are not closed = حدود البورد الخارجية غير مغلقة
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. ="Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" الرجاء قم بحفظها كـ ASCII فشل الأستيراد , الملفات المستوردة لم تكن بصيغة
-The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = غير متصلة بالشبكة ,هذا سوف يسبب خطأ في المخطط "{0}" المآخذ 
+The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = غير متصلة بالشبكة ,هذا سوف يسبب خطأ في المخطط "{0}" المآخذ
 Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} =فشل الحفظ , رقم المأخذ لا يسمح بتكراره , كما في أدناه الرقم مكرر {0}
-Check Pin = تأكد من الموصل (المأخذ) 
+Check Pin = تأكد من الموصل (المأخذ)
 Failed to read {0} = فشل القراءة {0}
 {0} is invalid ={0} غير صالح
 {0} not found = لم يتم العثور على {0}
@@ -2534,7 +2534,7 @@ Any = أي
 Same = نفس
 Different = مختلف
 Circular = دائري
-Expose Copper = اعرض النحاس 
+Expose Copper = اعرض النحاس
 "{0}" font is missing. Please add the font to the font family list. = {0} الخط مفقود
 الرجاء أضافة الخط الى قائمة عائلة الخطوط
 Place Component = ضع المكون
@@ -2567,7 +2567,7 @@ Start Degree = درجة البدء
 Rotate Item to Match = تدوير القطعة لتطابق
 Clockwise = مع عقرب الساعة
 Anti-Clockwise = عكس عقرب الساعة
-Distribute by = وزع 
+Distribute by = وزع
 Column = عمود
 Row = صف
 Array Clone = أنسخ المصفوفة
@@ -2592,7 +2592,7 @@ Theme Setting... = أعدادات البيئة
 Bus Entry = مدخل الربط المشترك
 Foreground = الخلفية الأمامية
 Symbol Graphics = رسومات الرموز
-Common Used = المستعمل عادة 
+Common Used = المستعمل عادة
 Draw = أرسم
 Sheet = صفحة
 The original theme only works for placing the new symbols. = البيئة الأساسية تعمل فقط عند وضع رموز جديدة
@@ -2645,7 +2645,7 @@ Invalid Format = صيغة غير مدعومة
 
 #Dialog Teardrop
 Round Pad / Via = مأخذ لحام مدور / فايا
-Rectangle / Oval / Polygon Pad =  مأخذ لحام مستطيل أو بيضوي أو مضلع 
+Rectangle / Oval / Polygon Pad =  مأخذ لحام مستطيل أو بيضوي أو مضلع
 Applying Teardrops = جاري أضافة القطرة النحاسية على المآخذ
 Removing Teardrops = جاري أزالة القطرة النحاسية من المآخذ
 Waiting = أنتظار
@@ -2714,7 +2714,7 @@ Routing Rules = قوانين التسليك
 
 #Route Length Tuning
 Track Length Tuning... = تعديل طول المسار
-Tracks with different net or non-track found in current targets. =  تم أيجاد توصيلات مختلفة أو بدون مسارات 
+Tracks with different net or non-track found in current targets. =  تم أيجاد توصيلات مختلفة أو بدون مسارات
 Please select the signal tracks to be tuning. = الرجاء أختر مسار الأشارة لتعديله
 The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = الطول الكلي أكثر من قيمة تدقيق قوانين التصميم ! المتابعة ؟
 45° Angle = زاوية 45
@@ -2796,11 +2796,11 @@ Save "{0}" failed! ="{0}" فشل حفظ
 Invalid Size =حجم غير صحيح
 Processing = جاري المعالجة
 Invalid Size =حجم غير صحيح
-NetFlag GND =GND  أشارة المأخذ 
-NetFlag VCC =VCC  أشارة المأخذ 
-NetFlag +5v =+5v  أشارة المأخذ 
+NetFlag GND =GND  أشارة المأخذ
+NetFlag VCC =VCC  أشارة المأخذ
+NetFlag +5v =+5v  أشارة المأخذ
 No Useful Data! = بيانات غير مفيدة
-SVG Preview =SVG  عرض 
+SVG Preview =SVG  عرض
 Prefix contains not supported charater(s) ! =البادئة تحتوي رموزاً غير مدعومة
 Name contains not supported charater(s) ! =الأسم يحتوي رموزاً غير مدعومة
 Create Grid Path = أنشاء مسار الشبكة
@@ -2813,7 +2813,7 @@ Update Footprint = تحديث بصمة القدم
 Update 3D Model = تحديث الموديل الثلاثي الأبعاد
 Find footprint(s) have been updated, do you want to update? =تم أيجاد بصمات قدم محدثة , هل تود التحديث اليها ؟
 3D File: = ملف موديل ثلاثي الأبعاد
-Model List =قائمة الموديلات 
+Model List =قائمة الموديلات
 Are you sure merge net {0} and net {1}? ={1} هل أنت واثق من دمج المأخذ {0} مع مأخذ
 Display Footprint =عرض بصمة القدم
 Display Footprint Name While Placing Component = عرض بصمة القدم أثناء وضع المكون
@@ -2821,7 +2821,7 @@ Annotate Prefix Automatically After Placing Component = سمي البادئة ت
 Program Error, Please Contact Technical Support! = خطأ في البرنامج الرجاء تواصل مع فريق الدعم التقني
 Search Engine = محرك البحث
 Keyword to Filter = كلمة للتصفية
-Normal Mode = الوضع الأعتيادي 
+Normal Mode = الوضع الأعتيادي
 Expand Mode = الوضع الموسع
 3D Model Manager = مدير الأشكال الثلاثية الأبعاد
 3D Model Preview = عرض الأشكال الثلاثية
@@ -2872,18 +2872,18 @@ Absolute Offset = الزحف المطلق
 Relative Offset = الزحف النسبي
 Absolute Offset... = الزحف المطلق
 Relative Offset... = الزحف النسبي
-Reference Point X =X نقطة مصدرية 
+Reference Point X =X نقطة مصدرية
 Reference Point Y =Y نقطة مصدرية
 
 #Inner Plane layer
-Rebuild Plane = أعد بناء الفراغ 
+Rebuild Plane = أعد بناء الفراغ
 PlaneZone Properties =مواصفات المنطقة الفارغة
 Change to a plane layer is not allowed during track routing. = التغيير الى طبقة فارغة غير مسموح أثناء تسليك الطرق
 #pcblib rect
 Fill = أملأ
 Fill Type = نوع الملئ
 [PlaneZone]
-Solid = مصمت 
+Solid = مصمت
 [/PlaneZone]
 
 Solid Region do not allow self-intersection! = المنطقة المصمتة/الفارغة لا تسمح بالتداخل مع بعضها البعض
@@ -2907,10 +2907,10 @@ Download Client = زبون التنزيل
 
 Search tutorial、open source projects etc. = أبحث في الدروس , مشاريع مفتوحة المصادر , الخ
 
-Go to LCSC and search for =LCSC  أبحث في 
-Go to LCSC =LCSC  أذهب لـ 
+Go to LCSC and search for =LCSC  أبحث في
+Go to LCSC =LCSC  أذهب لـ
 
-Hide Ratline Layer and Keep the Component Prefix When Paste Objects = و أ أخفي طبقة مسارات التلوين الوهمية و أبقي بادئات المكونات عند لصق المكونات الجديدة 
+Hide Ratline Layer and Keep the Component Prefix When Paste Objects = و أ أخفي طبقة مسارات التلوين الوهمية و أبقي بادئات المكونات عند لصق المكونات الجديدة
 
 ALL.layer = كل الطبقات
 Copper.layer = الطبقة النحاسية
@@ -2976,7 +2976,7 @@ Column Spacing = تباعد الأعمدة
 Row Spacing = تباعد الصفوف
 Multiple vias have been placed, do you want to rebuild the copper area? = تم وضع عدد من الفايا , هل تريد أعادة بناء المنطقة النحاسية (من الأفضل نعم)
 Remove vias finish, do you want to rebuild the copper area? = أزالة الفايا تم بنجاح , هل تريد أعادة بناء المنطقة النحاسية ؟ (من الأفضل نعم)
-The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = عرض المسار/القوس/الدائرة لا يمكن أن يكون أقل من 2ملي  0.002inchأو 
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = عرض المسار/القوس/الدائرة لا يمكن أن يكون أقل من 2ملي  0.002inchأو
 Save fail! Please try again! = فشل في الحفظ, الرجاء أعد المحاولة
 Please select a copper outline = الرجاء أختيار حدود قص الطبقة النحاسية
 Can't find copper area at other layers, please add the copper area with the same net at other layer first. = لا يمكن أيجاد الطبقة النحاسية في الطبقات الأخرى, الرجاء قم بأضافة طبقة نحاسية مع نفس الموصلات في طبقة أخرى أولاً
@@ -2989,7 +2989,7 @@ Split by ';' for multi tags = أفصلها بـ; لأستخدام عدة تسم�
 
 This size is the determined size! =هذا القياس هو القياس المحدد
 The associated pad has been locked = المنصة/الوسادة المشتركة تم أقفالها
-Split by space or , for multi tags =أفصلها بمسافة أو فارزة لتعدد التسميات 
+Split by space or , for multi tags =أفصلها بمسافة أو فارزة لتعدد التسميات
 
 Rotation X =X محور الدوران
 Rotation Y =Y محور الدوران
@@ -3025,7 +3025,7 @@ All = الكل
 [/findlibTag]
 
 Export Pick and Place File = تصدير ملف الألتقاط و الوضع بالروبوت
-Mirror the bottom component's X coordinate (JLCPCB doesn't need) =(JLCPCB  أقلب أحداثيات الأفق للطبقة السفلية (لا يحتاج عملها مع 
+Mirror the bottom component's X coordinate (JLCPCB doesn't need) =(JLCPCB  أقلب أحداثيات الأفق للطبقة السفلية (لا يحتاج عملها مع
 Work Space = مساحة العمل
 Include panelized components' coordinates = أضف أحداثيات المواد المقطعة
 Personal Workspace = مساحة العمل الشخصية
@@ -3084,8 +3084,8 @@ PCB Fabrication File(Gerber) = ملف تصنيع الخريطة (الجيربر)
 Pick and Place File =ملف الألتقاط و الوضع بالروبوت
 Parts Order = طلبية المواد
 PCB Order = طلبية الخرائط المطبوعة
-One-click Order Parts = طلب المواد بضغطة واحدة  
-One-click Order PCB/SMT = طلب الخريطة بضغطة واحدة   
+One-click Order Parts = طلب المواد بضغطة واحدة
+One-click Order PCB/SMT = طلب الخريطة بضغطة واحدة
 SIM = محاكاة
 STD = أساسي
 WaveForm = رسم الموجة
@@ -3127,7 +3127,7 @@ Create new folder successfully = تم أنشاء مجلد جديد بنجاح
 Failed to create new folder = فشل أنشاء مجلد جديد
 Delete folder successfully = تم مسح مجلد بنجاح
 Failed to delete folder = فشل مسح المجلد
-Rename folder successfully =تم أعادة تسمية المجلد بنجاح 
+Rename folder successfully =تم أعادة تسمية المجلد بنجاح
 Failed to rename folder =فشل اعادة تسمية المجلد
 Move folder successfully = تم نقل المجلد بنجاح
 Failed to move folder = فشل نقل المجلد
@@ -3136,7 +3136,7 @@ Failed to move project = فشل نقل المشروع
 The folder depth must not exceed {0} levels = عمق الملفات يجب أن لا يتجاوز {0} مراحل
 Failed to add project to folder = فشل في أضافة المشروع للمجلد
 
-Doesn't support JLCPCB SMT Service =JLCPCB SMT لا يدعم خدمات 
+Doesn't support JLCPCB SMT Service =JLCPCB SMT لا يدعم خدمات
 {0} for JLCPCB SMT Service =JLCPCB SMT Service  لصالح {0}
 
 Reset failed! There are duplicate component prefixes in the current schematic: = فشل التصفير, هنالك بادئات تسمية عناصر مكررة في المخطط الحالي
@@ -3181,7 +3181,7 @@ Lead soldering part diameter = محيط قسم لحيم الرصاص
 Component shape object doesn't overlap lead shape object, please check carefully. = شكل المكونات لا يتداخل مع شكل الرصاص , الرجاء دقق مرة أخرى
 The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08mm), it will cause the soldering too short, please modify. = التوسع في غلاف الرصاص للحيم يحتوي على تباعد قليل, أقل من 0.08 ملم , ستؤدي الى حدوث تماس , الرجاء تعديلها
 The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. = الطبقة الرقيقة لوضع معجون اللحام في مواضع محددة تحتوي على تباعد أقل من 0.15 ملم سيؤدي هذا الى حدوث فشل
-System footprint must have pad number 1 or A1, please modify the pad number. =الرجاء قم بتعديل رقم المنصة A1 بصمة القدم للنظام يجب أن تحتوي على 1 أو 
+System footprint must have pad number 1 or A1, please modify the pad number. =الرجاء قم بتعديل رقم المنصة A1 بصمة القدم للنظام يجب أن تحتوي على 1 أو
 System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. = بصمة القدم للنظام لا تسمح بوجود 2 او اكثر بأسم 1 أو أي 1 الرجاء تعديل رقم المنصة
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = طبقة الملف تحتوي على جسم دائرة, لكن قيمة الأستقطاب تساوي صفراً, الرجاء التحقق من المتغيرات
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. =  هناك تكرار في ارقام المنصات  الرجاء تحقق منها أو تجاهل الرسالة {padNumber}
@@ -3237,7 +3237,7 @@ Inductance = التوصيل
 Crystal Oscillator = رنان كرستالي
 Diode = دايود
 LED = ليد
-Fuse =فيوز 
+Fuse =فيوز
 Entity height = الأرتفاع
 Lead Overhang = سيلان الرصاص
 Lead Thickness = سمك الرصاص
@@ -3260,7 +3260,7 @@ Pins = مآخذ
 Check component latest version when open schematic = تأكد من اخر نسخة من المكونات عند فتح المخطط
 Only show updated components = أظهر فقط المكونات المحدثة
 Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. = ملاحظة: حينما تضاف تعديلات للخريطة المطبوعة, فأنها تحدث حسب نسخة بصمة القدم حيثما يرتبط المخطط بها
-Doesn't support to import the binary format DXF, please import the ASCII format DXF. = لا يدعم فتح DXF الملفات الثنائية, الرجاء فتح ملف ASCII بترميز من نوع اسكي 
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. = لا يدعم فتح DXF الملفات الثنائية, الرجاء فتح ملف ASCII بترميز من نوع اسكي
 
 Find System Similar Footprint = أوجد بصمة قدم مشابهة
 Found similar footprints at system library, it is recommended to use them first. = أوجد بصمات قدم مشابهة في مكتبة النظام, من المفضل أن تستخدمهم أولاً
@@ -3295,20 +3295,20 @@ Generate Solid Region by Objects Outline = أنشاء المنطقة المصم�
 Generate Polygon Pad by Objects Outline = أنشاء منصة متعددة الأضلاع بواسطة حدود الأجسام الخارجية
 Select the objects that cannot be generated = أختر الجسم اللذي لا يمكن أنشاءه
 
-Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 
-Because of different file format and element, please check carefully after imported. = 
-Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 
-Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 
-Please make sure the Protel file is exported as ASCII format file. = 
-Please compress the schematic and corresponding symbols as a zip file and then import it. = 
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. =
+Because of different file format and element, please check carefully after imported. =
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please make sure the Protel file is exported as ASCII format file. =
+Please compress the schematic and corresponding symbols as a zip file and then import it. =
 
-Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 
-Tips = 
-Exists incomplete connection = 
-Found that the board has incomplete connection, please check the nets and ratlines = 
-creator = 
-You are not logged in or the login status is invalid, please login and try again. = 
-Display Board Cutout = 
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Tips =
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
+creator =
+You are not logged in or the login status is invalid, please login and try again. =
+Display Board Cutout =

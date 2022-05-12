@@ -768,7 +768,7 @@ Routing Width = Larghezza della pista
 [router]
 Routing Width = Larghezza della pista
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = Usa la combinazione {0}{shiftw}{1} o {2}{tab}{3} per cambiare la larghezza della pista durante lo sbroglio.
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Usa la combinazione {0}{key1}{1} o {2}{key2}{3} per cambiare la larghezza della pista durante lo sbroglio.
 Routing Angle = Angolo della pista
 Routing Conflict = Conflitto della pista
 Remove Loop = Rimuovi il loop
@@ -2345,7 +2345,7 @@ Checking local auto router server... = Controlla il server dello sbroglio automa
 Stop Router = Ferma sbroglio
 Auto Router is running... = Auto-Sbroglio in corso...
 
-#Left Siderbar
+#Left Sidebar
 Commonly Library = Libreria di uso comune
 Basic = Di base
 Extend = Estendi
