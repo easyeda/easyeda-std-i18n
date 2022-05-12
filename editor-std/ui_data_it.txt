@@ -1136,7 +1136,7 @@ Active Project = Progetto attivo
 Readonly = Sola lettura
 Editable = Modificabile
 Active file's owner project page = Pagina del progetto del proprietario del file attivo
-Active project editor page = Pagina dell'editor del progetto attivo
+Active project editor page = Pagina dell'utente del progetto attivo
 
 #Dialog Document Recovery
 All Projects = Tutti i progetti
@@ -2007,7 +2007,7 @@ Check = Verifica
 Share my work = Condividi il mio lavoro
 Share it by e-mail, IM, blog, etc. = Condividilo via e-mail, IM, blog, ecc.
 
-Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Copia il contenuto in un editor di testo e salvalo. Dopo averlo modificato, copialo nuovamente all'interno di questa casella di testo e premi Applica per aggiornare.
+Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Copia il seguente contenuto in un editor di testo e salvalo. Dopo averlo modificato, copialo nuovamente all'interno di questa casella di testo e premi Applica per aggiornare.
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Copia il seguente contenuto in un editor di testo e salvalo con l'estensione .svg. Puoi modificarlo con Inkscape o aprirlo con il tuo browser.
 Content is too big to show, you can download it directly. = Il contenuto è troppo grande per essere visualizzato, puoi scaricarlo direttamente.
 SVG format = Formato SVG
@@ -2635,7 +2635,7 @@ Number = ID
 Editor = Utente
 [/history-dlg]
 View File History = Salvataggi passati
-Save Time = Timestamp
+Save Time = Data e orario del salvataggio
 
 Invalid Format = Il formato non è valido
 
@@ -2654,18 +2654,18 @@ Move Backward = Sposta indietro
 
 #Dialog Panelize
 V-CUT = V-CUT
-Stamp Hole =
+Stamp Hole = Fori di distacco
 No Panelize = Non pannellizzare 
 Border and Marking = 
 Create Border = Crea Bordo
 Border Height = Altezza bordo
 Border Position = Posizione bordo
 Create Positioning Holes = Crea fori di posizionamento
-Create Fiducial Marks = Crea Fiducial Mark
+Create Fiducial Marks = Crea fiducial mark
 Top and Bottom = Sopra e sotto
 Left and Right = Sinistra e destra
-Stamp Hole Group - Column =
-Stamp Hole Group - Row =
+Stamp Hole Group - Column = Gruppo fori di distacco - Colonna
+Stamp Hole Group - Row = Gruppo fori di distacco  - Riga
 The number of rows and columns cannot be set to 1 simultaneously = Il numero di righe e di colonne non può essere impostato contemporaneamente su 1
 
 #edit path point
@@ -2763,7 +2763,7 @@ New Version = Nuova versione
 Switch Version = Cambia versione
 Members = Membri
 Update Time = Tempo di aggiornamento
-Editor = Editor
+Editor = Utente
 Current Version = Versione attuale
 Latest Version = Ultima versione
 Please select a different version to switch; If you want to edit different version in the same time, please open them in different browsers. = Seleziona una versione diversa; se vuoi modificare contemporaneamente versioni diverse, aprile in browser diversi. 
@@ -3021,7 +3021,7 @@ All = Tutti
 Export Pick and Place File = Esporta file Pick and Place
 Mirror the bottom component's X coordinate (JLCPCB doesn't need) = Specchia sull'asse X i componenti sullo strato inferiore (JLCPCB non richiede questa opzione)
 Work Space = Area di lavoro
-Include panelized components' coordinates = Includi le coordinate dei componenti pannellati
+Include panelized components' coordinates = Includi le coordinate dei componenti pannellizzati
 Personal Workspace = Area di lavoro personale
 Work Space - {name} = Area di lavoro - {name}
 Work Space - Personal = Area di lavoro - personale
