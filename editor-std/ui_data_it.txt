@@ -2399,7 +2399,7 @@ It's with a letter or a number and can contain only numbers, letters, line-throu
 Updating document to new format, please wait......After finishing please save your document with Ctrl + S. = Aggiornamento del documento in un nuovo formato, attendere prego... Al termine, salva il documento con Ctrl + S.
 Open at current project? = Apri al progetto attuale?
 Please select a history to recover. = Seleziona una cronologia da ripristinare.
-Be careful! When you click the "Recover" button, this sheet will be overwritten! = Stai attento! Quando fai clic sul pulsante "Ripristina", questo foglio verrà sovrascritto!
+Be careful! When you click the "Recover" button, this sheet will be overwritten! = Stai attento! Quando fai clic sul pulsante "Recupera", questo foglio verrà sovrascritto!
 Recover = Recupera
 There is no PCB under this project, would you like to create one? = Non c'è nessun PCB in questo progetto, vuoi creane uno?
 Please make sure that the chose Altium Designer files are saved as ASCII files. = Assicurati che i file di Altium Designer siano salvati in formato ASCII.
