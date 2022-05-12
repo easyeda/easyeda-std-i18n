@@ -3241,7 +3241,7 @@ Polar Capacitance = Condensatore polarizzato
 
 Create Component Marking = Crea demarcazione componente
 Create component marking successfully! = Demarcazione componente creata con successo!
-No elements on component shape layer! = 
+No elements on component shape layer! = Nessun elemento sullo strato della forma del componente!
 No elements on lead shape layer! =
 No pad of number 1 or A1, please modify the pad number. = Nessun pad del numero 1 o A1, modifica il numero del pad.
 Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = Impossibile salvare! Il cerchio di marcatura del componente è sull'asse. Vuoi ricreare la marcatura del componente?
