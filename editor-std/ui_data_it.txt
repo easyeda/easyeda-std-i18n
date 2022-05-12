@@ -860,7 +860,7 @@ Radius = Raggio
 
 #CopperArea Properties
 CopperArea Properties = Proprietà delle aree di rame
-Clearance = Isolamento
+Clearance = Distanza di isolamento
 Pad Connection = Connessione pad
 Direct = Diretto
 Spoke = Raggi
@@ -1023,14 +1023,14 @@ DRC Drill Diameter = Diametro del foro DRC
 Diameter = Diametro
 DRC Diameter = Diametro DRC
 Object = Componente
-DRC Clearance = Isolamento DRC
+DRC Clearance = Distanza di isolamento DRC
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Nel filo è stata trovata più di una netlabel, controlla se è corretto, se lo progetti di proposito, ignora questo avviso.
 Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = Net incompleta, una net completa dovrebbe contenere due o più pin, se la progetti di proposito, ignora questo avviso.
 This netlabel is not connected with any pin. = La netlabel non è connessa ad alcun pin.
 Incomplete connection, please check. = Connessione incompleta, controlla.
-The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = La distanza tra due oggetti è inferiore a quella del controllo delle regole di progettazione (DRC) che ha net differenti.
+The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = La distanza di isolamento tra due oggetti è inferiore a quella del controllo delle regole di progettazione (DRC) che ha net differenti.
 The diameter is less than Design Rule Checking (DRC) diameter = Il diametro è più piccolo di quello del controllo delle regole di progettazione (DRC)
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = Il diametro del foro è più piccolo di quello del controllo delle regole di progettazione (DRC)
 The track length is longer than Design Rule Checking (DRC) track length = La lunghezza della pista è più lunga di quella del controllo delle regole di progettazione (DRC)
@@ -1666,7 +1666,7 @@ Please select its parent node = Seleziona il nodo padre
 Libraries can not be exported as active project pdf. = Le librerie non possono essere esportate come pdf di un progetto attivo.
 Error:No GND = Errore: nessuna GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Questo circuito non presenta alcuna GND. Seleziona una GND dallo strumento del circuito da aggiungere al circuito.
-Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
+Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = L'attuale circuito non presenta alcun simbolo di sorgente di tensione o corrente, cercalo nelle librerie visibili a sinistra oppure nelle librerie Spice, quindi inseriscilo.
 Probe can not connect with ground(GND)! = La sonda non può essere collegata alla terra(GND)!
 Spice symbols's properties can't be empty. = Le proprietà dei simboli Spice non possono essere vuote.
 Error:No Spice Symbol = Errore: nessun simbolo Spice
@@ -2303,28 +2303,28 @@ Please make sure all objects with net are inside the board outline! = Tutti gli 
 Cannot start again before previous activity is stopped = Impossibile ricominciare prima dell'interruzione dell'attività precedente
 Please select a net = Seleziona una net
 TrackWidth cannot be empty = La larghezza della pista non può essere vuota
-Clearance cannot be empty = Isolamento non può essere vuoto
+Clearance cannot be empty = La distanza di isolamento non può essere vuota
 Router is time out. =
 Server is busy, please try again later. = Il server è occupato, riprova più tardi.
 Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) = A causa delle limitate risorse del {0}server di sbroglio{1}, l'esecuzione simultanea di sbrogli multipli non è supportata, riprova più tardi oppure fallo manualmente :-)
 Track Width is invalid = Il valore della larghezza della pista non è valido
-General Clearance is invalid = Il valore dell'isolamento generale non è valido
-SMD Clearance is invalid = Il valore dell'isolamento SMD non è valido
+General Clearance is invalid = Il valore della distanza di isolamento generale non è valido
+SMD Clearance is invalid = Il valore della distanza di isolamento SMD non è valido
 Diameter is invalid = Il valore del diametro non è valido
 Drill Diameter is invalid = Il valore del diametro del foro non è valido
-Track width cannot be less than Design Rule Checking (DRC) setting value. = La larghezza della pista non può essere inferiore al valore di impostazione del controllo delle regole di progettazione (DRC).
-General Clearance cannot be less than Design Rule Checking (DRC) setting value. = L'isolamento generale non può essere inferiore al valore di impostazione del controllo delle regole di progettazione (DRC).
-SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = L'isolamento del SMD non può essere inferiore al valore di impostazione del controllo delle regole di progettazione (DRC).
-Hole size cannot be less than Design Rule Checking (DRC) setting value. = La dimensione del foro non può essere inferiore al valore di impostazione del controllo delle regole di progettazione (DRC).
+Track width cannot be less than Design Rule Checking (DRC) setting value. = La larghezza della pista non può essere inferiore al valore impostato nel controllo delle regole di progettazione (DRC).
+General Clearance cannot be less than Design Rule Checking (DRC) setting value. = La distanza di isolamento generale non può essere inferiore al valore impostato nel controllo delle regole di progettazione (DRC).
+SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = La distanza di isolamento del SMD non può essere inferiore al valore impostato nel controllo delle regole di progettazione (DRC).
+Hole size cannot be less than Design Rule Checking (DRC) setting value. = La dimensione del foro non può essere inferiore al valore impostato nel controllo delle regole di progettazione (DRC).
 Design Rule's via diameter must be larger than via drill diameter = Il diametro della via impostato nelle regole di progettazione deve essere più grande del diametro del foro della via
-Clearance cannot be less than Design Rule Checking (DRC) setting value. = L'isolamento non può avere un valore inferiore a quello dell'impostazione del controllo delle regole di progettazione (DRC).
+Clearance cannot be less than Design Rule Checking (DRC) setting value. = La distanza di isolamento non può essere inferiore al valore impostato nel controllo delle regole di progettazione (DRC).
 Not a valid PCB, please check it again = Nessun PCB valido, controllalo di nuovo
 Previous connection must be closed = La connessione precedente deve essere chiusa
 Network error. Please try again. = Errore di rete. Riprova.
 Router error. = Errore di sbroglio.
 Invalid PCB. = PCB non valido.
-General Clearance = Isolamento generale
-SMD Clearance = Isolamento SMD
+General Clearance = Distanza di isolamento generale
+SMD Clearance = Distanza di isolamento SMD
 #Ripup Nets
 Skip Routed Nets = Ignora net sbrogliate
 Remove Existing Tracks = Rimuovi piste esistenti
@@ -2524,7 +2524,7 @@ All Sheets = Tutti i fogli
 Kind = Genere
 Range = Gamma
 Net Label/Net Flag/Net Port/Voltage Probe = Net Label/Net Flag/Net Port/Sonda di tensione
-Bezier/Freehand Draw = Bezier/Disegno a mano libera
+Bezier/Freehand Draw = Bezier/Disegna a mano libera
 Arc/Pie = Arco/Torta
 Objects Properties = Proprietà degli oggetti
 Any = Qualsiasi 
@@ -2705,7 +2705,7 @@ Copper Areas = Zone di rame
 Differential Pair Routing = Sbroglio delle coppie differenziali
 Differential Pair Rule Setting = Impostazioni sbroglio delle coppie differenziali
 Please input track width = Inserisci la larghezza della pista
-Please input clearance = Inserisci lo spazio tra le piste
+Please input clearance = Inserisci la distanza di isolamento
 Routing Rules = Regole dello sbroglio
 
 #Route Length Tuning
@@ -2720,7 +2720,7 @@ Current Length : = Lunghezza attuale :
 Additional Length : = Lunghezza aggiuntiva :
 Target Length: = Lunghezza dell'oggetto:
 Current Length: = Lunghezza attuale:
-Adjust Type =
+Adjust Type = Tipo di regolazione
 Double Side = Doppio lato
 Single Side = Lato singolo
 
@@ -3177,7 +3177,7 @@ The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08
 The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. =
 System footprint must have pad number 1 or A1, please modify the pad number. = Il footprint di sistema deve avere il numero del pad uguale a 1 oppure a A1, modifica il numero del pad.
 System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. = Il footprint di sistema non consente che due o più numeri del pad siano uguali a 1 oppure a A1, modifica il numero del pad.
-Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. =
+Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = Lo strato del documento ha un oggetto cerchio, ma la polarità di jlcPara è 0, controlla i dati personalizzati.
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = Ci sono numeri di pad ripetuti: controlla {padNumber}, se fosse corretto, ignora questo messaggio.
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. =
 
@@ -3209,7 +3209,7 @@ Pin Horizontal Spacing = Spaziatura orizzontale pin
 Pin Vertical Spacing = Spaziatura verticale pin
 ThermalPad = Pad termico
 Pad Expansion = Espansione pad
-Custom PasteMask =
+Custom PasteMask = PasteMask personalizzata
 Fabrication Tolerance = Tolleranza di fabbricazione
 Placement Tolerance = Tolleranza di posizionamento
 FirstPin Position = Posizione del primo pin
@@ -3262,7 +3262,7 @@ Copy Title = Copia titolo
 Check system similar footprint = Controlla footprint di sistema simili
 Can't find the Similar Footprint = Impossibile trovare footprint di sistema simili
 Search failed! = La ricerca non ha prodotto risultati utili!
-No package information! =
+No package information! = Nessuna informazione sul contenitore!
 Find Parameters = Trova parametri
 Find Results = Trova risultati
 
@@ -3285,8 +3285,8 @@ Pad's hole diameter(aver) = Diametro foro del pad(media)
 
 Try Pro Edition = Prova l'edizione Pro
 
-Generate Solid Region by Objects Outline =
-Generate Polygon Pad by Objects Outline =
+Generate Solid Region by Objects Outline = Genera regione solida dai contorni
+Generate Polygon Pad by Objects Outline = Genera pad poligonali dai contorni
 Select the objects that cannot be generated = Seleziona gli oggetti che non possono essere generati
 
 Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Comprimi lo schema ed il PCB in un file zip ed importali, se importi solo lo schema dovrai associarlo manualmente con il footprint.
