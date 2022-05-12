@@ -2068,7 +2068,7 @@ Gerber View = Visualizza Gerber
 Dimensions(Estimated) = Dimensioni(Stima)
 PCB Qty = Quantità di PCB
 Copper Weight = Spessore del rame
-PCB Price = Prezzo del PCB
+PCB Price = Prezzo PCB
 Estimated Delivery Time = Tempo di consegna stimato
 
 HASL(with lead) = HASL(con piombo)
