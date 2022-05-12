@@ -1039,7 +1039,7 @@ The track width is less than Design Rule Checking (DRC) track width = La larghez
 #Dialog Simulation
 Show your simulation report = Mostra rapporto della simulazione
 Download netlist = Scarica netlist
-Run = Avvia
+Run = Esegui
 Components = Componenti
 
 #Dialog Import
