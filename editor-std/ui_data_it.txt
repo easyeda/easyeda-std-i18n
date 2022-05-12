@@ -2007,7 +2007,7 @@ Check = Verifica
 Share my work = Condividi il mio lavoro
 Share it by e-mail, IM, blog, etc. = Condividilo via e-mail, IM, blog, ecc.
 
-Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Copia il seguente contenuto in un editor di testo e salvalo. Dopo averlo modificato, copialo nuovamente all'interno di questa casella di testo e premi Applica per aggiornare il display.
+Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Copia il contenuto in un editor di testo e salvalo. Dopo averlo modificato, copialo nuovamente all'interno di questa casella di testo e premi Applica per aggiornare.
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Copia il seguente contenuto in un editor di testo e salvalo con l'estensione .svg. Puoi modificarlo con Inkscape o aprirlo con il tuo browser.
 Content is too big to show, you can download it directly. = Il contenuto è troppo grande per essere visualizzato, puoi scaricarlo direttamente.
 SVG format = Formato SVG
@@ -2545,7 +2545,7 @@ Board Color = Colore scheda
 Board Side = Lato scheda
 Silk Screen = Serigrafia
 Silk Screen Color = Colore serigrafia
-Display = Display
+Display = Mostra
 
 #Array and Clone
 Distribute Array = Distribuisci selezione
@@ -2769,7 +2769,7 @@ Latest Version = Ultima versione
 Please select a different version to switch; If you want to edit different version in the same time, please open them in different browsers. = Seleziona una versione diversa; se vuoi modificare contemporaneamente versioni diverse, aprile in browser diversi. 
 3D Model = Modello 3D
 Board Side = Lato bordo
-Display = Visualizza
+Display = Display
 Copper = Rame
 Create New Version = Crea una nuova versione
 Create new version success! = Nuova versione creata con successo!
