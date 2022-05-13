@@ -3155,8 +3155,8 @@ Open footprint "Custom Data" dialog = Apri la finestra di dialogo "Dati personal
 
 #Create lead shape
 Create Lead Shape = 
-Base on Pad Center =
-Base on Canvas Origin =
+Base on Pad Center = Base sul centro del pad
+Base on Canvas Origin = Base sull'origine canvas
 Lead shape =
 Footprint Type = Tipo di footprint
 From pad shape = Dalla forma del pad
