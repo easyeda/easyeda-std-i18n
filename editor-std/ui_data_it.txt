@@ -2983,13 +2983,13 @@ Split by ';' for multi tags = Diviso da ';' per tag multipli
 
 This size is the determined size! = Questa è la dimensione determinata!
 The associated pad has been locked = Il pad associato è stato bloccato!
-Split by space or , for multi tags = Diviso da spazio oppure , per tag multipli
+Split by space or , for multi tags = Separato da spazio oppure , per tag multipli
 
 Rotation X = Rotazione X
 Rotation Y = Rotazione Y
 Rotation Z = Rotazione Z
 
-Some fields are filled invalid data = Alcuni campi contengono dei dati errati
+Some fields are filled invalid data = Alcuni campi contengono dati non validi
 start time should be earlier than stop time = l'ora di inizio dovrebbe essere antecedente all'ora di fine
 Number of points should be less than 100 in octave variation = Il numero di punti deve essere inferiore a 100 nella variazione di ottava
 Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = La frequenza di avvio deve essere inferiore alla frequenza di arresto. Il suffisso meg sta per Mega, m sta per milli
