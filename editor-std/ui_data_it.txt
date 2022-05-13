@@ -2789,7 +2789,7 @@ Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cuto
 The more information please refer at = Per maggiori informazioni fai riferimento a
 Save "{0}" success! = "{0}" salvato con successo!
 Save "{0}" failed! = Impossibile salvare "{0}"!
-Invalid Size = Dimensione errata
+Invalid Size = Dimensione non valida
 Processing = In lavorazione
 Invalid Size = Dimensione errata
 NetFlag GND = NetFlag GND
@@ -2809,7 +2809,7 @@ Update Footprint = Aggiorna footprint
 Update 3D Model = Aggiorna modello 3D
 Find footprint(s) have been updated, do you want to update? = Trova footprint che sono stati aggiornati, vuoi aggiornare?
 3D File: = File 3D:
-Model List = Lista dei modelli
+Model List = Elenco dei modelli
 Are you sure merge net {0} and net {1}? = Sei sicuro di voler unire la net {0} con la net {1}?
 Display Footprint = Mostra footprint
 Display Footprint Name While Placing Component = Mostra il nome del footprint mentre posizioni il componente
