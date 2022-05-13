@@ -3088,7 +3088,7 @@ Place Module = Posiziona modulo
 Please enter identification letters: = Digita le lettere di identificazione:
 Only support English letters, up to 5. = Sono supportate solo lettere inglesi, fino ad un massimo di 5.
 
-Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. =
+Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = Nel modulo sono presenti componenti non numerati, assegna un numero univoco ai componenti prima di inserirli.
 Opening = Apertura
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = Aggiorna anche la net della pista (si applica solo nelle circostanze in cui il prefisso/netlabel cambia e nessun componente/filo viene aggiunto o rimosso)
