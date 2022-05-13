@@ -768,7 +768,7 @@ Routing Width = Ширина Дорожки
 [router]
 Routing Width = Ширина Дорожки
 [/router]
-Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Пожалуйста, используйте горячую клавишу {0}{Shift+W}{1} или {2}{Tab}{3}, чтобы изменить ширину дорожки во время маршрутизации.
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Пожалуйста, используйте горячую клавишу {0}{key1}{1} или {2}{key2}{3}, чтобы изменить ширину дорожки во время маршрутизации.
 Routing Angle = Угол поворота
 Routing Conflict = Конфликт Трассировки
 Remove Loop = Удалить петлю
@@ -2815,7 +2815,7 @@ Display Footprint = Показать посадочное место
 Display Footprint Name While Placing Component = Показывать имя посадочного места при размещении компонента
 Annotate Prefix Automatically After Placing Component = Автоматически аннотировать префикс после размещения компонента
 Program Error, Please Contact Technical Support! = Программная ошибка, обратитесь в службу технической поддержки!
-Search Engine = Поисковая система
+Search Engine = Поиск в
 Keyword to Filter = Ключевое слово для фильтрации
 Normal Mode = Нормальный режим
 Expand Mode = Расширенный режим
@@ -2983,7 +2983,7 @@ Split by ';' for multi tags = Разделяйте несколько тегов
 
 This size is the determined size! = Этот размер является определяемым размером!
 The associated pad has been locked = Связанная площадка заблокирована
-Split by space or , for multi tags = Разделяйте несколько тегов ' ' или ','
+Split by space or , for multi tags = Разделить несколько тегов по ' ' или ','
 
 Rotation X = Вращение по X
 Rotation Y = Вращение по Y
@@ -3289,20 +3289,20 @@ Generate Solid Region by Objects Outline = Генерация сплошной �
 Generate Polygon Pad by Objects Outline =  Генерация площадки-полигона  по контуру объектов
 Select the objects that cannot be generated = Выберите объекты, которые не должны генерироваться
 
-Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
-Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
-The PCB text will use the editor new font family, the text maybe will appear a little excursion. =
-Because of different file format and element, please check carefully after imported. =
-Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
-Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
-Please make sure the Protel file is exported as ASCII format file. =
-Please compress the schematic and corresponding symbols as a zip file and then import it. =
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Заархивируйте схему и плату в виде zip-файла, а затем импортируйте его, если вы импортируете только схему, которую необходимо связать с посадочным местом вручную.
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Заархивируйте схему и плату в формате ASCII в виде zip-файла, а затем импортируйте его, если вы импортируете только схему, которую необходимо связать с посадочным местом вручную.
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Не удалось импортировать! Импортированные файлы не были в формате ASCII. Сначала сохраните файлы как «Advanced Schematic ascii (*.SchDoc)» или «PCB ASCII File (*.PcbDoc)» в Altium Designer, а затем импортируйте.
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. = Текст печатной платы будет использовать новое семейство шрифтов редактора, текст, возможно, покажется немного гуляющим.
+Because of different file format and element, please check carefully after imported. = Из-за отличающегося формата файла и элемента, пожалуйста, внимательно проверьте после импорта.
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = Убедитесь, что файл EAGLE сохранен в версии EAGLE v6.0 и выше.
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = Сожмите схему и плату в виде zip-файла с помощью KiCad5, а затем импортируйте его, если вы импортируете только схему, которую необходимо связать с посадочным местом вручную.
+Please make sure the Protel file is exported as ASCII format file. = Please make sure the Protel file is exported as ASCII format file.
+Please compress the schematic and corresponding symbols as a zip file and then import it. = Сожмите схему и соответствующие символы в виде zip-файла, а затем импортируйте его.
 
-Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
-Tips =
-Exists incomplete connection =
-Found that the board has incomplete connection, please check the nets and ratlines =
-creator =
-You are not logged in or the login status is invalid, please login and try again. =
-Display Board Cutout =
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Сначала сохраните файлы как «Advanced Schematic ascii (*.SchDoc)» или «PCB ASCII File (*.PcbDoc)» в Altium Designer, а затем импортируйте.
+Tips = Советы
+Exists incomplete connection = Существует незавершенное соединение
+Found that the board has incomplete connection, please check the nets and ratlines = Обнаружено, что плата имеет неполное соединение, проверьте цепи и линии связей
+creator = создатель
+You are not logged in or the login status is invalid, please login and try again. = Вы не вошли в систему или статус входа недействителен, пожалуйста, войдите и повторите попытку.
+Display Board Cutout = Показать границы платы
