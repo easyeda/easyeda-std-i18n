@@ -1521,11 +1521,11 @@ Reset = Reimposta
 
 #Dialog Order
 Order... = Ordina...
-PCB Qty. = Quantità di PCB
-PCB Thickness = Spessore del PCB
-PCB Dimension = Dimensione del PCB
+PCB Qty. = Quantità PCB
+PCB Thickness = Spessore PCB
+PCB Dimension = Dimensione PCB
 Automatic calculation = Calcolo automatico
-PCB Color = Colore del PCB
+PCB Color = Colore PCB
 Green = Verde
 White = Bianco
 Blue = Blu
@@ -1543,7 +1543,7 @@ ENIG = ENIG
 
 #Dialog Hot Key config
 Restore All Default Shortcuts = Ripristina tutte le scorciatoie predefinite
-Save Changes = Salva le modifiche
+Save Changes = Salva modifiche
 
 
 
@@ -2065,14 +2065,14 @@ PenWidth-Increase = Aumenta la larghezza del tratto
 #Generate Gerber
 Generate Gerber = Genera Gerber
 Gerber View = Visualizza Gerber
-Dimensions(Estimated) = Dimensioni(Stima)
+Dimensions(Estimated) = Dimensioni stimate
 PCB Qty = Quantità PCB
-Copper Weight = Spessore del rame
+Copper Weight = Spessore rame
 PCB Price = Prezzo PCB
 Estimated Delivery Time = Tempo di consegna stimato
 
-HASL(with lead) = HASL(con piombo)
-LeadFree HASL-RoHS = Senza piombo HASL-RoHS
+HASL(with lead) = HASL con piombo
+LeadFree HASL-RoHS = HASL-RoHS senza piombo
 ENIG-RoHS = ENIG-RoHS
 Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = Vuoi fare un controllo delle regole di progettazione (DRC) prima di generare i file Gerber?
 Yes, Check DRC = Sì, controlla DRC
