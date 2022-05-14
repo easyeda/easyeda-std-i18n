@@ -768,7 +768,7 @@ Routing Width =
 [router]
 Routing Width =
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. =
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. =
 Routing Angle =
 Routing Conflict =
 Remove Loop =
