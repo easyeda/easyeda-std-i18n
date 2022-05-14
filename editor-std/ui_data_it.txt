@@ -2634,8 +2634,8 @@ Sheet = Foglio
 Number = ID
 Editor = Utente
 [/history-dlg]
-View File History = Salvataggi passati
-Save Time = Data e orario del salvataggio
+View File History = Salvataggi precedenti
+Save Time = Data e orario dei salvataggi
 
 Invalid Format = Il formato non è valido
 
@@ -2993,7 +2993,7 @@ Some fields are filled invalid data = Alcuni campi contengono dati non validi
 start time should be earlier than stop time = l'ora di inizio dovrebbe essere antecedente all'ora di fine
 Number of points should be less than 100 in octave variation = Il numero di punti deve essere inferiore a 100 nella variazione di ottava
 Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = La frequenza di avvio deve essere inferiore alla frequenza di arresto. Il suffisso meg sta per Mega, m sta per milli
-Get historical records fail! = Impossibile recuperare i salvataggi passati!
+Get historical records fail! = Impossibile recuperare i salvataggi precedenti!
 This 3D model didn't create the outlines successfully, please import it again or contact with us. = Questo modello 3D non ha creato correttamente i contorni, importalo di nuovo oppure contattaci.
 There is No Tag! = Non c'è nessun tag!
 Assign successful! = Assegnazione riuscita!
