@@ -755,8 +755,8 @@ Resistance[Ω] = Resistenza[Ω]
 inductance = induttanza
 Operating Temperature = Temperatura operativa
 Shape Invert = Inverti forma
-Image Size = Dimensione dell'immagine
-Color Tolerance = Tolleranza del colore
+Image Size = Dimensione immagine
+Color Tolerance = Tolleranza colore
 Simplify Level = Livello di semplificazione
 Corner Threshold = Soglia dell'angolo
 
@@ -764,15 +764,15 @@ Corner Threshold = Soglia dell'angolo
 Units = Unità
 Snap Size = Spaziatura aggancio
 Other = Altro
-Routing Width = Larghezza della pista
+Routing Width = Larghezza pista
 [router]
-Routing Width = Larghezza della pista
+Routing Width = Larghezza pista
 [/router]
-Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Usa la combinazione {0}{key1}{1} o {2}{key2}{3} per cambiare la larghezza della pista durante lo sbroglio.
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Usa la combinazione {0}{key1}{1} o {2}{key2}{3} per modificare la larghezza della pista durante lo sbroglio.
 Routing Angle = Angolo della pista
 Routing Conflict = Conflitto della pista
-Remove Loop = Rimuovi il loop
-Cut SilkScreen = Taglia la serigrafia
+Remove Loop = Rimuovi loop
+Cut SilkScreen = Taglia serigrafia
 Grid = Griglia
 Grid 90 = Griglia 90
 Grid 45 = Griglia 45
@@ -812,15 +812,15 @@ Solder Mask Expansion = Espansione Solder Mask
 #Via Properties
 Via Properties = Proprietà via
 Diameter = Diametro
-Drill Diameter = Diametro del foro
+Drill Diameter = Diametro foro
 
 #Hole Properties
-Hole Properties = Proprietà del foro
+Hole Properties = Proprietà foro
 
 
 #TEXT
-Text Properties = Proprietà del testo
-Line Width = Larghezza della linea
+Text Properties = Proprietà testo
+Line Width = Larghezza linea
 Rotation = Rotazione
 Fonts Management = Gestisci font
 
@@ -845,17 +845,17 @@ Pin: = Pin:
 Hidden Pin: = Nascondi pin:
 Unknown: = Sconosciuto:
 #Arc Properties
-Arc Properties = Proprietà dell'arco
-Start Angle = Inizio dell'angolo
-End Angle = Fine dell'angolo
+Arc Properties = Proprietà arco
+Start Angle = Inizio angolo
+End Angle = Fine angolo
 Rotation Direction = Direzione della rotazione
 
 #Rect Properties
-Rect Properties = Proprietà del rettangolo
+Rect Properties = Proprietà rettangolo
 Round radius = Raggio arrotondato
 
 #Circle Properties
-Circle Properties = Proprietà del cerchio
+Circle Properties = Proprietà cerchio
 Radius = Raggio
 
 #CopperArea Properties
@@ -865,13 +865,13 @@ Pad Connection = Connessione pad
 Direct = Diretto
 Spoke = Raggi
 Keep Island = Mantieni le isolette
-Fill Style = Stile di riempimento
+Fill Style = Stile riempimento
 CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Conflitto zona di rame: le sagome di rame nello stesso strato ma con diverse net non possono sovrapporsi
 Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Zone di rame rigenerata! Puoi impostare la zona di rame come "visibile" nelle proprietà del menu destro dopo aver cliccato su una area vuota.
 Please create board outline first. = Prima deve essere creato il contorno della scheda.
 Board outlines are not closed. = Il contorno della scheda non é chiuso.
 Rebuild CopperArea = Rigenera zona di rame
-Edit Points = Modifica i punti
+Edit Points = Modifica punti
 Direct = Diretto
 Spoke = Raggi
 No Solid = Non solido
@@ -884,9 +884,9 @@ None = Nessuno
 #Custom Properties
 Custom Properties = Proprietà personalizzate
 Fixed Properties = Proprietà fisse
-Add new parameter = Aggiungi un nuovo parametro
-Add New Parameter = Aggiungi un nuovo parametro
-Add New Supplier = Aggiungi un nuovo fornitore
+Add new parameter = Aggiungi nuovo parametro
+Add New Parameter = Aggiungi nuovo parametro
+Add New Supplier = Aggiungi nuovo fornitore
 Mounted = Montato
 Unknown = Sconosciuto
 
@@ -930,7 +930,7 @@ Invite friends to register = Invita gli amici a registrarsi
 Your friend's email = L'email del tuo amico
 
 #Dialog Add A New Parameter
-Add a new parameter = Aggiungi un nuovo parametro
+Add a new parameter = Aggiungi nuovo parametro
 Key = Chiave
 Value.new_para = Valore
 In BOM = Nel BOM
@@ -1007,19 +1007,19 @@ Nets = Net
 DRC Errors = Errori DRC
 Are you sure you want to unroute this net? = Sei sicuro di voler disfare lo sbroglio di questa net?
 Unroute = Disfa sbroglio
-Track Length = Lunghezza della pista
+Track Length = Lunghezza pista
 Via/Hole Outer Size = Dimensione esterna via/foro
 Filter nets = Filtra net
-Design Rule Checking = Controllo delle regole di progettazione
-Board Outline = Contorno della scheda
-Plane Zone = Zona del piano
+Design Rule Checking = Controllo regole di progettazione
+Board Outline = Contorno scheda
+Plane Zone =
 [drcRule]
 Width = Larghezza
 DRC Width = Larghezza DRC
 Length = Lunghezza
 DRC Length = Lunghezza DRC
-Drill Diameter = Diametro del foro
-DRC Drill Diameter = Diametro del foro DRC
+Drill Diameter = Diametro foro
+DRC Drill Diameter = Diametro foro DRC
 Diameter = Diametro
 DRC Diameter = Diametro DRC
 Object = Componente
@@ -1059,7 +1059,7 @@ No component was found! = Nessun componente trovato!
 Import successfully = Importato con successo
 Import failed = Impossibile importare
 Click OK to continue with the import = Clicca su OK per continuare con l'importazione
-Select None = Non selezionare niente
+Select None = Non selezionare nulla
 
 #Dialog Modify Symbol Information
 Modify symbol information = Modifica informazione del simbolo
@@ -1068,14 +1068,14 @@ Hide Pin = Nascondi pin
 Pin Manager = Gestisci pin
 When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = Quando un pin di alimentazione è nascosto, viene marcato come Netlabel e non c'è bisogno di collegarlo. Se usato in una simulazione, mostralo o crea una net GND/VCC per il pin.
 Assign = Assegna
-Supplier.bom = Fornitore.bom
-LCSC.bom = LCSC.bom
+Supplier.bom = Fornitore
+LCSC.bom = LCSC
 Price = Prezzo
-Quantity.bom = Quantità.bom
-Package.bom = Contenitore.bom
-Components.bom = Componenti.bom
-Manufacturer Part.bom = Codice componente del produttore.bom
-Manufacturer.bom = Produttore.bom
+Quantity.bom = Quantità
+Package.bom = Contenitore
+Components.bom = Componenti
+Manufacturer Part.bom = Codice componente del produttore
+Manufacturer.bom = Produttore
 
 One-click Purchasing at LCSC = Acquista su LCSC con un clic
 Order Parts = Ordina componenti
@@ -1088,8 +1088,8 @@ Upload to LCSC ERP failed, found some components miss some properties value, ple
 
 Export PCB BOM = Esporta BOM PCB
 Export Schematic BOM = Esporta schema BOM
-ID.bom = ID.bom
-Name.bom = Nome.bom
+ID.bom = ID
+Name.bom = Nome
 [bom]
 Name = Nome
 LCSC Assembly = Assemblaggio LCSC
@@ -1301,9 +1301,9 @@ ComponentShapeLayer =
 LeadShapeLayer =
 ComponentMarkingLayer =
 Ratlines = Linee di collegamento
-Ratlines Color = Colore delle linee di collegamento
+Ratlines Color = Colore linee di collegamento
 Manage Colors = Gestisci colori
-BoardOutline = Linea di contorno della scheda
+BoardOutline = Linea contorno scheda
 Multi-Layer = Multistrato
 Hole = Foro
 DRCError = Errore DRC
@@ -1386,7 +1386,7 @@ Shortcut = Scorciatoia
 Function = Funzione
 ALL = TUTTO
 SCH = SCH
-Rotate Selected Objects = Ruota gli oggetti selezionati
+Rotate Selected Objects = Ruota oggetti selezionati
 Scroll or Move Selected Left = Scorri o sposta a sinistra gli oggetti selezionati
 Scroll or Move Selected Right = Scorri o sposta a destra gli oggetti selezionati
 Scroll or Move Selected Up = Scorri o sposta in alto gli oggetti selezionati
@@ -1459,7 +1459,7 @@ Delete = Elimina
 Add sub part = Aggiungi sotto-parte
 Clone = Duplica
 Version History = Cronologia della versione
-Refresh List = Aggiorna la lista
+Refresh List = Aggiorna elenco
 Create New Project = Crea un nuovo progetto
 Delete = Elimina
 Attachment = Allegato
@@ -1735,7 +1735,7 @@ Next » = Successivo »
 Done = Chiudi
 This is the user management menu. = Questo è il menu di gestione degli utenti.
 This is the toolbar. = Questa è la barra degli strumenti.
-This is the navigation list. Under here you can find projects, files, parts and libraries. = Questa è la lista di navigazione. Qui sotto puoi trovare progetti, file, componenti e librerie.
+This is the navigation list. Under here you can find projects, files, parts and libraries. = Questo è l'elenco della navigazione. Qui sotto puoi trovare progetti, file, componenti e librerie.
 Show or hide the toolbar to the top of the window here. = Mostra o nascondi la barra degli strumenti nella parte superiore della finestra.
 Show, resize or hide the left sidebar to the left of the window here. = Mostra, ridimensiona o nascondi la barra laterale sinistra della finestra.
 Show or hide the right sidebar to the right of the window here. = Mostra o nascondi la barra laterale destra della finestra.
@@ -2533,7 +2533,7 @@ Different = Differente
 Circular = Cerchio
 Expose Copper = Esponi rame
 "{0}" font is missing. Please add the font to the font family list. = Manca il font "{0}". Aggiungilo all'elenco dei font.
-Place Component = Posiziona il componente
+Place Component = Posiziona componente
 Delete Segment = Elimina segmento
 Angle = Angolo
 Board Thickness = Spessore scheda 
@@ -2909,7 +2909,7 @@ Hide Ratline Layer and Keep the Component Prefix When Paste Objects = Nascondi l
 ALL.layer = Tutti gli strati
 Copper.layer = Strato ramato
 Non-Copper.layer = Strato non ramato
-Other.layer = Altri strati
+Other.layer = Altro
 
 Please enter at least 2 characters! = Digita almeno 2 caratteri!
 View Datasheet = Mostra datasheet
@@ -3053,7 +3053,7 @@ This part contains subparts, please make sure you have checked other subparts be
 Power = Alimentazione
 [/saveAs]
 
-Assign LCSC Part# = Assegna componente# LCSC
+Assign LCSC Part# = Assegna componente LCSC
 Unexpected error while converting. Perhaps unsupported file type or program bug. = Si è verificato un errore durante la conversione. Forse il tipo di file non è supportato oppure è un bug del programma.
 Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = Sono stati rilevati dei duplicati tra gli ID dei componenti, fare clic su "OK" per riassegnare automaticamente l'ID dei componenti, quindi salvare il documento e riprovare.
 
@@ -3154,25 +3154,25 @@ Will replace the graphics and custom data of current document, after imported pl
 Open footprint "Custom Data" dialog = Apri la finestra di dialogo "Dati personalizzati" del footprint
 
 #Create lead shape
-Create Lead Shape = 
-Base on Pad Center = Base sul centro del pad
-Base on Canvas Origin = Base sull'origine canvas
-Lead shape =
+Create Lead Shape = Crea forma saldatura
+Base on Pad Center = Dal centro del pad
+Base on Canvas Origin = Dall'origine canvas
+Lead shape = Forma
 Footprint Type = Tipo di footprint
 From pad shape = Dalla forma del pad
-Lead length =
-Lead width =
-Lead diameter =
+Lead length = Lunghezza
+Lead width = Larghezza
+Lead diameter = Diametro
 Scaling ratio = Proporzione
-Leads creating direction =
+Leads creating direction = Direzione
 Auto = Automatico
 Horizontal = Orizzontale
 Vertical = Verticale
-Canvas origin to lead edge =
-Canvas origin to body edge =
-Lead soldering length =
-Lead soldering part diameter =
-Component shape object doesn't overlap lead shape object, please check carefully. =
+Canvas origin to lead edge = Origine canvas all'estremità del pin
+Canvas origin to body edge = Origine canvas all'estremità del componente
+Lead soldering length = Lunghezza saldatura
+Lead soldering part diameter = Diametro saldatura
+Component shape object doesn't overlap lead shape object, please check carefully. = La forma del componente non si sovrappone alla forma della saldatura, controlla attentamente.
 The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08mm), it will cause the soldering too short, please modify. = L'espansione solder mask dei pad ({0},{1}) ha una distanza di isolamento piccola (meno di 0.08 mm), ciò causerà una saldatura troppo corta, modificala.
 The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. =
 System footprint must have pad number 1 or A1, please modify the pad number. = Il footprint di sistema deve avere il numero del pad uguale a 1 oppure a A1, modifica il numero del pad.
@@ -3195,8 +3195,8 @@ Columns Of Pin = Colonne di pin
 Polarity = Polarità
 Pad Shape = Forma pad
 Body Diameter = Diametro componente
-Lead Span =
-Lead Vertical Span =
+Lead Span = Distanza
+Lead Vertical Span = Distanza verticale
 Body Length = Lunghezza componente
 Body Height = Altezza componente
 Pin Diameter = Diametro pin
@@ -3233,8 +3233,8 @@ Diode = Diodo
 LED = LED
 Fuse = Fusibile
 Entity height = Altezza dell'entità
-Lead Overhang =
-Lead Thickness =
+Lead Overhang = Sporgenza
+Lead Thickness = Spessore
 Unknown mistake = Errore sconosciuto
 Has ThermalVias = Via termiche
 Polar Capacitance = Condensatore polarizzato
@@ -3242,7 +3242,7 @@ Polar Capacitance = Condensatore polarizzato
 Create Component Marking = Crea demarcazione componente
 Create component marking successfully! = Demarcazione componente creata con successo!
 No elements on component shape layer! = Nessun elemento sullo strato della forma del componente!
-No elements on lead shape layer! =
+No elements on lead shape layer! = Nessun elemento sullo strato della forma della saldatura!
 No pad of number 1 or A1, please modify the pad number. = Nessun pad del numero 1 o A1, modifica il numero del pad.
 Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = Impossibile salvare! Il cerchio di marcatura del componente è sull'asse. Vuoi ricreare la marcatura del componente?
 If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: FreeRouting, Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = Se lo sbroglio automatico non andasse a buon fine, puoi esportare il file di autoroute (DSN) in uno strumento di terze parti (come: FreeRouting, Konekt Electra, Eremex TopoR ecc.) ed esportare il file di sessione (SES) dopo aver terminato lo sbroglio, quindi importare su PCB.
