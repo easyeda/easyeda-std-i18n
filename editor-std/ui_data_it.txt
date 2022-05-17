@@ -84,7 +84,7 @@ Refresh = Aggiorna
 Snap = Aggancio
 Cross Cursor = Cursore a croce
 Toolbars = Barra degli strumenti
-Drawing Tools = Strumenti da disegno
+Drawing Tools = Strumenti di disegno
 Wiring Tools = Strumenti di cablaggio
 Power Objects = Componenti di alimentazione
 PCB Tools = Strumenti per PCB
@@ -102,7 +102,7 @@ Center Point Arc = Punto centrale dell'arco
 Two-point Arc = Arco a due punti
 
 Place = Posiziona
-Drawing Tools = Strumenti per disegno
+Drawing Tools = Strumenti di disegno
 Arc = Arco
 Elliptical Arc = Arco ellittico
 Ellipse = Ellisse
