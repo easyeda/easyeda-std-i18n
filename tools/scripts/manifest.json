@@ -1,0 +1,9 @@
+{
+	"name": "Translation Tools",
+	"description": "Show the english source text inside the application, near every translation. The script will update the translation every 5 seconds until you refresh the page.",
+	"version": "1.0",
+	"icons": {
+		"default": "icon.svg"
+	},
+	"scripts": [ "menu.js", "showoriginal.js", "translationlist.js", "about.js" ]
+}

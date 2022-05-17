@@ -1079,9 +1079,11 @@ Manufacturer.bom = Manufacturer.bom
 One-click Purchasing at LCSC = Objednať na LSCS jedným kliknutím
 Order Parts = Objednávka diel/Kontrola zásob
 Export BOM = Exportovať BOM
+
 Upload to LCSC ERP = Nahrať do LCSC ERP
 No components, upload failed! = Neexistuje súčiastka, nahrávanie zlyhalo!
 Upload to LCSC ERP failed, please try again later. = Nahrávanie do LCSC ERP zlyhalo, skúste to neskôr prosím.
+
 Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. =
 Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. =
 
@@ -3292,3 +3294,4 @@ Select the objects that cannot be generated = Vyberte objekty, ktoré sa nedajú
 creator = vytvoril
 You are not logged in or the login status is invalid, please login and try again. = Nie ste prihlásený, alebo stav prihlásenia je neplatný, prihláste sa prosím a skúste to znova.
 Display Board Cutout = Zobrazenie výrezu dosky
+

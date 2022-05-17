@@ -767,7 +767,7 @@ Routing Width = 線寬
 [router]
 Routing Width = 布線寬度
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. = 在布線過程中，請使用快捷鍵 {0}{shiftw}{1} 或者 {2}{tab}{3} 修改線寬。
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = 在布線過程中，請使用快捷鍵 {0}{key1}{1} 或者 {2}{key2}{3} 修改線寬。
 Routing Angle = 拐角
 Routing Conflict = 布線衝突
 Remove Loop = 移除迴路
@@ -2110,7 +2110,7 @@ No Result = 沒有結果
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning = 在原理圖放置引腳的注意事項
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = 可以在原理圖放置引腳，但別忘了要將引腳組合為原理圖符號，點擊幫助按鈕查看用法。如果只是標註導線，請使用網絡標籤。
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = 可以在原理圖放置引腳，但別忘了要將引腳組合為原理圖符號，點擊幫助按鈕查看用法。如果只是標註導線，請使用網絡標籤。
 I know. Do not show this again. = 我知道了，不要再提示該信息。
 
 #Extensions Setting
@@ -2316,7 +2316,7 @@ Checking local auto router server... = 正在檢測本地布線服務...
 Stop Router = 停止布線
 Auto Router is running... = 自動布線運行中...
 
-#Left Siderbar
+#Left Sidebar
 EELib = 基礎庫
 Basic = 基礎
 Extend = 擴展
@@ -2959,7 +2959,7 @@ Rotation Z = Z軸旋轉
 Some fields are filled invalid data = 某些字段填充了無效數據
 start time should be earlier than stop time = 起始時間應小於結束時間
 Number of points should be less than 100 in octave variation = octave類型變化中的點數應小於100
-Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = 起始頻率應小於停止頻率。後綴meg代表Mrga，m代表milli
+Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = 起始頻率應小於停止頻率。後綴meg代表Mega，m代表milli
 Get historical records fail! = 獲取歷史記錄失敗！
 This 3D model didn't create the outlines successfully, please import it again or contact with us. = 這個 3D 模型的外形數據沒有創建成功，請再次導入或者聯繫我們。
 There is No Tag! = 沒有分類！
@@ -3217,3 +3217,61 @@ Pins = 引腳數
 Check component latest version when open schematic = 當打開原理圖時檢測元件最新版本
 Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. = 注意：當 PCB 導入變更時會根據原理圖綁定的封裝版本進行更新 PCB。
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. = 不支持二進制的 DXF 導入，請導入 ASCII 格式的 DXF
+
+Find System Similar Footprint = 查找系統相似封裝
+Found similar footprints at system library, it is recommended to use them first. = 發現存在相似的系統封裝，建議優先使用系統封裝。
+Copy Title = 復製標題
+Check system similar footprint = 檢查系統相似封裝
+Can't find the Similar Footprint = 未找到相似封裝
+Search failed! = 查詢失敗！
+No package information! = 無封裝信息！
+Find Parameters = 查找參數
+Find Results = 查找結果
+
+Bill of material(BOM) uploaded finish, please click "OK" to continue. = 物料清單(BOM)已經上傳成功，請點擊「確定」繼續。
+Bill of material(BOM) upload failed! = 物料清單(BOM)上傳失敗!
+
+All pads = 全部焊盤
+All holes = 全部通孔
+Single layer pads = 單層焊盤
+Multi-layer pads = 多層焊盤
+Same X pads = 相同 X 的焊盤
+Same Y pads = 相同 Y 的焊盤
+Same Y and clearance pads = 相同 Y 和間距的焊盤
+Same X and clearance pads = 相同 X 和間距的焊盤
+Same X and clearance pads' clearance = 相同 X 和間距的焊盤的間距
+Same Y and clearance pads' clearance = 相同 Y 和間距的焊盤的間距
+Pad's hole diameter(max) = 焊盤孔直徑(最大)
+Pad's hole diameter(min) = 焊盤孔直徑(最小)
+Pad's hole diameter(aver) = 焊盤孔直徑(平均)
+
+Try Pro Edition = 嘗試專業版
+
+Generate Solid Region by Objects Outline = 根據輪廓生成實心填充
+Generate Polygon Pad by Objects Outline = 根據輪廓生成多邊形焊盤
+Select the objects that cannot be generated = 選中圖元無法生成外輪廓
+
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 請把原理圖和 PCB 壓縮成 zip 壓縮包後導入，只導入原理圖需要手動重新綁定封裝。
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 請把 ASCII 格式的原理圖和 PCB 壓縮成 zip 壓縮包後導入，只導入原理圖需要手動重新綁定封裝。
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 導入失敗！你導入的文件不是 ASCII 格式的，請先在 Altium Designer 另存為「Advanced Schematic ascii(*.SchDoc)」或「PCB ASCII File(*.PcbDoc)」後再導入。
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 請先在 Altium Designer 另存為「Advanced Schematic ascii(*.SchDoc)」或「PCB ASCII File(*.PcbDoc)」後再導入
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 導入的 PCB 文本將使用編輯器新的字體，文本可能會出現輕微變形和偏移。
+Because of different file format and element, please check carefully after imported. = 因格式和圖元不一致，導入後請仔細檢查。
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 請確保選擇的 EAGLE 文件是 EAGLE v6.0 及以上版本保存的文件。
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 請把原理圖和 PCB 使用 KiCad5 壓縮成 zip 壓縮包後導入，只導入原理圖需要手動重新綁定封裝。
+Please make sure the Protel file is exported as ASCII format file. = 請確保 Protel 文件是導出為 ASCII 格式的文件。
+Please compress the schematic and corresponding symbols as a zip file and then import it. = 請把原理圖和對應的符號壓縮成 zip 文件再導入。
+Tips = 提示
+
+Exists incomplete connection = 存在未完成連接
+Found that the board has incomplete connection, please check the nets and ratlines = 發現有板子存在未完成連接，請檢查網絡與飛線
+
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Tips =
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
+creator =
+
+You are not logged in or the login status is invalid, please login and try again. = 尚未登錄或登錄狀態失效，請登錄後再試。
+
+Display Board Cutout = 顯示板子挖槽

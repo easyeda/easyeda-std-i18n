@@ -24,7 +24,7 @@ Deutsch (German) = Deutsch (German)
 Indonesia (Indonesian) = Indonesia (Indonesian)
 
 # ui_data_it.txt
-Italian (Italiano) = Italian (Italiano)
+Italiano (Italian) = Italiano (Italian)
 
 # ui_data_ja.txt
 日本語 (Japanese) = 日本語 (Japanese)
@@ -68,5 +68,9 @@ Slovenčina (Slovak) = Slovenčina (Slovak)
 # ui_data_th.txt
 ภาษาไทย (Thai) = ภาษาไทย (Thai)
 
+# ui_data_ar.txt
+العربية (Arabic) = العربية (Arabic)
 
+# ui_data_fa.txt
+فارسی (Persian) = فارسی (Persian)
 
