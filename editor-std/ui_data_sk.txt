@@ -191,11 +191,11 @@ Netlist for Project = Netlist projekt
 LTspice for This Sheet... = LTspice tohto listu
 Spice for this Project... = Spice projekt
 Protel/Altium for PCB... = Protel/Altium DPS
-PADS for PCB... = Plôšky pre DPS
+PADS for PCB... = PADS pre DPS
 FreePCB for PCB... = FreePCB pre DPS
-Eagle for PCB... = Eagle DPS
-Kicad for PCB... = Kicad DPS
-OrCAD for PCB... = OrCAD DPS
+Eagle for PCB... = Eagle pre DPS
+Kicad for PCB... = Kicad pre DPS
+OrCAD for PCB... = OrCAD pre DPS
 BOM report... = BOM report...
 BOM for Document... = BOM dokument
 BOM for Project... = BOM projekt
@@ -338,10 +338,10 @@ Display Real-Time Track Length = Zobrazenie dĺžky vedenia v reálnom čase
 Grid Color = Farba mriežky
 Grid Size = Veľkosť mriežky
 Grid Style = Štýl mriežky
-Grid.Line Width =
-Grid.Line Spacing =
+Grid.Line Width = Šírka čiary mriežky
+Grid.Line Spacing = Riadkovanie mriežky
 Copper to Board Outline = Obrys medi na doske
-Improve Fabrication =
+Improve Fabrication = Zlepšiť výrobu
 Spoke Width =
 Stroke Color = Farba čiary
 Stroke Width = Šířka čiary
@@ -351,7 +351,7 @@ Selected Objects = Vybrané objekty
 Frame Size = Veľkosť rámce
 Alt Snap = Prichytenie s ALT
 Snap size when pressing the Alt key = Veľkosť prichytenia pri stlačení klávesy ALT
-Prefix Start = Prefix
+Prefix Start = Prefix začiatok
 
 #Text Properties
 Text Properties = Vlastnosti textu
@@ -449,8 +449,8 @@ K[%]
 Model = Model
 States =
 Voltage[V]
-Voltage gain[V/V]
-Current gain[A/A]
+Voltage gain[V/V] = Napäťový zisk[V/V]
+Current gain[A/A] = Prúdový zisk[A/A]
 Transconductance[Mho]
 Transresistance[Ω]
 Voltage Source Type = Typ zdroja napätia
@@ -476,9 +476,9 @@ DC Value[V] = Hodnota DC[V]
 DC Value[A] = Hodnota DC[A]
 DC offset[V] =
 DC offset[A] =
-Amplitude[V] =
-Amplitude[A] =
-Freq[Hz] =
+Amplitude[V] = Amplitúda[V]
+Amplitude[A] = Amplitúda[A]
+Freq[Hz] = Frekv.[Hz]
 Theta[1/s] =
 Tdelay[s] =
 Phi[deg] =
@@ -498,13 +498,13 @@ Fall Delay[s] =
 Fall Tau[s] =
 Carrier Freq[Hz] =
 Modulation Index =
-Signal Freq[Hz] =
+Signal Freq[Hz] = Frekv. signálu[Hz]
 Time[s] = Čas[s]
 Value[V] = Hodnota[V]
 Value[A] = Hodnota[A]
 Waveforms = Forma vlny
 Duty cycle[%] =
-Amplitude[Vp] =
+Amplitude[Vp] = Amplitúda[Vp]
 Offset[V] =
 Rise/Fall Time[sec] =
 Capacitance[F] = Kapacita[F]
@@ -673,9 +673,9 @@ BCD_Segment =
 Seven_Segment =
 Traffic_Light =
 Lamp Settings =
-Power[W] =
+Power[W] = Výkon[W]
 Dropout Voltage[V] =
-Current[A] =
+Current[A] = Prúd[A]
 Threshold[V] =
 Clock Rate =
 TrafficLight Settings =
@@ -795,7 +795,7 @@ ID = ID
 #Pad Properties
 Pad Properties = Vlastnosti plôšky
 Shape = Tvar
-Hole(D) = Diera (priemer)
+Hole(D) = Diera (D)
 Center X = Stred X
 Center Y = Stred Y
 Round = Okrúhly
@@ -805,8 +805,8 @@ Slot = Slot
 Hole(Length) = Diera (dĺžka)
 Plated = Oplátované
 None = Nič
-Paste Mask Expansion =
-Solder Mask Expansion =
+Paste Mask Expansion = Prilepiť rozšírenie masky 
+Solder Mask Expansion = Rozšírenie spájkovacej masky
 
 #Via Properties
 Via Properties = Vlastnosti priechodu
@@ -828,7 +828,7 @@ Dimension Properties = Vlastnosti rozmerov
 
 #Footprint Properties
 Component Properties = Atribúty súčiastok
-Display Prefix =
+Display Prefix = Prefix zobrazenia
 Pin Name = Názov pinu
 Pin Number = Číslo pinu
 Spice Pin Number = Číslo Spice pinu
@@ -841,7 +841,7 @@ Netlabel: =
 NetPort: =
 Voltage Probe: =
 Pin: =
-Hidden Pin: =
+Hidden Pin: = Skrytý Pin:
 Unknown: = Neznámy:
 #Arc Properties
 Arc Properties = Vlastnosti uhla
@@ -866,7 +866,7 @@ Spoke = Lúč
 Keep Island = Zachovať ostrovček
 Fill Style = Štýl výplne
 CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Konflikt v oblasti medi: hranice oblasti medi sa nesmú prekrývať s inými názvami spojov
-Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. =
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Obnova oblasti medi je dokončená! Po kliknutí na prázdnu oblasť môžete na pravom paneli vlastností nastaviť "Medená zóna" ako "Viditeľné".
 Please create board outline first. = Vytvorte prosím najprv oblasť dosky.
 Board outlines are not closed. = Oblasť dosky nie je uzavretá.
 Rebuild CopperArea = Obnoviť oblasť medi
@@ -874,7 +874,7 @@ Edit Points = Upraviť body
 Direct = Priamy
 Spoke = Lúč
 No Solid =
-Board Cutout =
+Board Cutout = Výrez dosky
 Solid = Pevný
 [copperArea]
 None = Nič
@@ -889,10 +889,10 @@ Add New Supplier = Pridať nového dodávateľa
 Mounted = Pripnuté
 Unknown = Neznámy
 
-Custom =
-Scan the QR code below and open it on the mobile side =
-How to create a single layer PCB =
-Currently doesn't support layout single layer directly, please refer at: =
+Custom = Vlastný
+Scan the QR code below and open it on the mobile side = Naskenujte QR kód nižšie a otvorte ho na mobilnej strane
+How to create a single layer PCB = Ako vytvoriť jednovrstvovú DPS
+Currently doesn't support layout single layer directly, please refer at: = Momentálne nepodporuje priame rozloženie jednej vrstvy, pozrite si prosím:
 
 #Dialog Register
 Create an account = Vytvoriť účet
@@ -1033,8 +1033,8 @@ The clearance between two objects is less than the Design Rule Checking (DRC) cl
 The diameter is less than Design Rule Checking (DRC) diameter =
 The drill diameter is less than Design Rule Checking (DRC) drill diameter =
 The track length is longer than Design Rule Checking (DRC) track length =
-The track width is less than Design Rule Checking (DRC) track width =
-
+The track width is less than Design Rule Checking (DRC) track width = Šírka vedenia je menšia ako šírka vedenia pri Kontrole Dizajnu pravidla (DRC)
+ 
 #Dialog Simulation
 Show your simulation report = Zobraziť správu simulácie
 Download netlist = Stiahnúť netlist
@@ -1063,8 +1063,8 @@ Select None = Žiadny výber
 #Dialog Modify Symbol Information
 Modify symbol information = Upraviť informáciu symbolu
 Spice Prefix = Spice prefix
-Hide Pin =
-Pin Manager =
+Hide Pin = Skryť Pin
+Pin Manager = Pin Manažér
 When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = Pokiaľ je napájací pin skrytý, označí sa štítkom spoja a nemusíte ho spojovať. Pokiaľ ho chcete použiť v simulacii, zobrazte ho alebo vytvorte GND/VCC sieť.
 Assign = Priradiť
 Supplier.bom = Supplier.bom
@@ -1079,9 +1079,11 @@ Manufacturer.bom = Manufacturer.bom
 One-click Purchasing at LCSC = Objednať na LSCS jedným kliknutím
 Order Parts = Objednávka diel/Kontrola zásob
 Export BOM = Exportovať BOM
-Upload to LCSC ERP =
-No components, upload failed! =
-Upload to LCSC ERP failed, please try again later. =
+
+Upload to LCSC ERP = Nahrať do LCSC ERP
+No components, upload failed! = Neexistuje súčiastka, nahrávanie zlyhalo!
+Upload to LCSC ERP failed, please try again later. = Nahrávanie do LCSC ERP zlyhalo, skúste to neskôr prosím.
+
 Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. =
 Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. =
 
@@ -1366,7 +1368,7 @@ All = Všetko
 [/drcRule]
 
 #Dialog Hotkey
-Change Canvas Unit =
+Change Canvas Unit = Zmeniť jednotku plátna
 Copy Selected Object(s) by Reference Point =
 Fullscreen = Na celú obrazovku
 Undo the Previous Draw =
@@ -1719,7 +1721,7 @@ Net name = Názov spoja
 {0} are in the same wire, please remove others and just keep one. = {0} sú v rovnakom spoji. Odoberte ich a ponechajte iba jeden.
 This field can't be removed! = Toto pole sa nedá odstrániť!
 Annular ring of the pad/via is too small = Veniec plôšky/priechodu je príliš malý
-The size of the hole cannot exceed the size of the pad =
+The size of the hole cannot exceed the size of the pad = Veľkosť otvoru nemôže presiahnuť veľkosť plôšky
 Are you sure you want to create a multi-sheet designs? = Naozak chcete vytvoriť viacnásobný návrh?
 Are you sure you want to create a {0}multi-sheet designs{1}? = Naozaj chcete vytvoriť {0}viacnásobný návrh{1}?
 Please build the copper area! Click the help button to find out how to build the copper area. = Zostavte prosím oblasť medi! Ak neviete ako, kliknite na tlačidlo s nápovedou.
@@ -2840,10 +2842,10 @@ The width of track/arc/circle cannot be less than 0.1mil! =
 Clone success ! =
 Footprint Naming Reference =
 3D Model Manager =
-Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? =
+Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = Prejde na hardvérovú platformu s otvoreným zdrojom Lichuang (OSHWHub.com), aby sa zlepšili informácie a zdieľali. Chcete pokračovať?
 Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? =
-The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. =
-This project is not public, can not view homepage! =
+The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. = Otvorí sa stránka s obsahom projektu. Po pridaní popisu a nastavení projektu ako verejného môžete kliknúť na tlačidlo zdieľania a získať odkaz na zdieľanie.
+This project is not public, can not view homepage! = Tento projekt nie je verejný, nedá sa zobraziť domovská stránka!
 
 [grid]
 None = Nič
@@ -2851,7 +2853,7 @@ None = Nič
 
 #lib verify and mounted
 This component is verified = Táto súčiastka je overená
-This component is unmounted =
+This component is unmounted = Tento komponent je odpojený
 
 #find component
 Find Next = Vyhľadať ďalší
@@ -2977,7 +2979,7 @@ Can't find copper area at other layers, please add the copper area with the same
 Add favorite success! = Pridanie obľúbeného úspešne!
 Remove favorite success! = Odstránenie obľúbeného úspešné!
 Remove favorite failed! = Odstránenie obľúbeného zlyhalo!
-Whether if remove favorite? =
+Whether if remove favorite? = Odstrániť obľúbené?
 Split by ';' for multi tags = Rozdeliť podľa „;“ pre viac značiek
 
 This size is the determined size! = Táto veľkosť je určená veľkosť!
@@ -3191,23 +3193,23 @@ Center of Pads = Centrovanie podložiek
 First Pin = Prvý Pin
 Package Name = Názov balíka
 Pins Number = Číslo pin-ov
-Rows Of Pin =
-Columns Of Pin =
-Polarity =
+Rows Of Pin = Riadky Pin-ov
+Columns Of Pin = Stĺpce Pin-ov
+Polarity = Polarita
 Pad Shape =
 Body Diameter =
 Lead Span =
 Lead Vertical Span =
 Body Length =
 Body Height =
-Pin Diameter =
-Pin Length =
-Pin Height =
+Pin Diameter = Pin priemer
+Pin Length = Pin dĺžka
+Pin Height = Pin výška
 Pin Solid Width =
 Pin Solid Height =
-Pin Spacing =
-Pin Horizontal Spacing =
-Pin Vertical Spacing =
+Pin Spacing = Pin vzdialenosť
+Pin Horizontal Spacing = Vodorvná vzdialenosť Pin-u
+Pin Vertical Spacing = Zvislá vzdialenosť Pin-u
 ThermalPad =
 Pad Expansion =
 Custom PasteMask =
@@ -3251,8 +3253,8 @@ Auto route failed! Found abnormal pad(s) data, please modify the pad width and h
 Select Properties = Vyberte vlastnosti
 Combine the same parts' prefixes in one row = Skombinujte predpony rovnakých častí v jednom rade
 Please check at least one item! = Skontrolujte aspoň jednu položku!
-Pins =
-Check component latest version when open schematic =
+Pins = Pin-y
+Check component latest version when open schematic = Pri otvorení schémy skontrolujte najnovšiu verziu komponentu
 Only show updated components = Zobraziť iba aktualizované súčiastky
 Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. =
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. = Nie je podporovaný import binárneho formátu DXF, importujte prosím ASCII formát DXF.
@@ -3270,25 +3272,26 @@ Find Results = Vzhľadať výsledky
 Bill of material(BOM) uploaded finish, please click "OK" to continue. =
 Bill of material(BOM) upload failed! =
 
-All pads = Všetky podložky
+All pads = Všetky plôšky
 All holes = Všetky otvory
 Single layer pads =
 Multi-layer pads =
-Same X pads = Rovnaké podložky X
-Same Y pads = Rovnaké podložky Y
+Same X pads = Rovnaké plôsky X
+Same Y pads = Rovnaké plôšky Y
 Same Y and clearance pads =
 Same X and clearance pads =
 Same X and clearance pads' clearance =
 Same Y and clearance pads' clearance =
-Pad's hole diameter(max) = Priemer podložky otvoru (max)
-Pad's hole diameter(min) = Priemer podložky otvoru (min)
-Pad's hole diameter(aver) = Priemer podložky otvoru (priemerný)
+Pad's hole diameter(max) = Priemer otvoru plôšky(max)
+Pad's hole diameter(min) = Priemer otvoru plôšky(min)
+Pad's hole diameter(aver) = Priemer otvoru plôšky(priemerný)
 
 Try Pro Edition = Vyskúšajte Pro verziu
 
 Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
 Select the objects that cannot be generated = Vyberte objekty, ktoré sa nedajú vygenerovať
-creator =
-You are not logged in or the login status is invalid, please login and try again. =
-Display Board Cutout =
+creator = vytvoril
+You are not logged in or the login status is invalid, please login and try again. = Nie ste prihlásený, alebo stav prihlásenia je neplatný, prihláste sa prosím a skúste to znova.
+Display Board Cutout = Zobrazenie výrezu dosky
+
