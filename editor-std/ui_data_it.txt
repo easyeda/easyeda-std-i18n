@@ -1941,7 +1941,7 @@ Landscape = Orizzontale
 Portrait = Verticale
 
 #Stroke Style
-solid = solido
+solid = continuo
 dashed = tratteggiato
 dotted = punteggiato
 
