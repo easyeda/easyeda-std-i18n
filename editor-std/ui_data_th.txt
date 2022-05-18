@@ -123,7 +123,7 @@ Graphic =
 Bus =
 Bus Entry =
 Junction = จุดเชื่อมต่อ
-Net Port = 
+Net Port =
 Voltage Probe = โพรบวัดเเรงดัน
 Power Port = จุดจ่ายไฟ
 Wire = สายไฟ
@@ -155,7 +155,7 @@ Convert to PCB = แปลงเป็นลายวงจร
 Update PCB = อัปเดตลายวงจรใหม่
 Shortcut Keys Setting = ตั้งค่าคีย์ลัด
 Edit Symbol... = แก้สัญลักษณ์
-Highlight Net... = 
+Highlight Net... =
 Simulate = จำลอง
 Simulation = การจำลอง
 Standard Mode = ปกติ
@@ -187,7 +187,7 @@ Simulate this Project = จำลองโปรเจคนี้
 Non-simulation mode, please switch to the simulation mode first and then run = โปรดเปลียนเป็นโหมดจำลอง
 Run the Document = ใช้งานเอกสารนี้
 Run the Project... = ใช้งานโปรเจคนี้
-Netlist for Document = 
+Netlist for Document =
 Netlist for Project =
 LTspice for This Sheet... =
 Spice for this Project... = แยกโปรเจคนี้
@@ -209,7 +209,7 @@ Copper Area = พื้นที่ทองแแดง
 Rebuild Selected = สร้างมใหม่ที่เลือก
 Rebuild All = สร้างใหม่ทั้งหมด
 Copper Area Manager... = ตัวจัดการพื้นที่ทองแดง
-Export Pick and Place File = ส่งออกไฟล์ Pick and Place 
+Export Pick and Place File = ส่งออกไฟล์ Pick and Place
 Measure Distance = วัดความยาว
 Set Canvas Origin by Mouse Location = ตั้งขนาดชิ้นงานตามเมาส์เลือก
 Generates Pick and Place File = สร้างไฟล์ Pick and Place
@@ -239,7 +239,7 @@ About = เกียวกับ
 Shortcut Keys = ปุ่มลัด
 FAQ = คำถามที่พบบ่อย
 Tutorials = วิธีทำ
-Basic Tutorials = 
+Basic Tutorials =
 Video Tutorials =
 Essential Check =
 Simulation Tutorials = วิธีจำลอง
@@ -270,7 +270,7 @@ Change History = เปลี่ยนประวัติ
 Join Us = มาทำงานกับเรา
 #PCB Fabrication Capabilities = ความสามารถของเรา
 PCB Fabrication =
-Order Capabilities = 
+Order Capabilities =
 Order Price =
 Order Essential Check =
 Order FAQ = คำถามที่พบบ่อยเกี่ยวกับการสั้ง
@@ -290,11 +290,11 @@ Delete Selected = ลบที่เลือก
 Simulate... = จำลอง
 Config = ตั้งค่า
 Terms of Service & Privacy Policy =
-Help Topics = 
+Help Topics =
 3D Model(obj) =
 3D Model(step) =
 SVG Source... =
-File Source = 
+File Source =
 Group These Items as a Symbol =
 Group These Items as a Footprint =
 Set Canvas Origin = ตั้งขนาดเอกสาร
@@ -330,7 +330,7 @@ Canvas Properties =
 Width = กว้าง
 Height = สูง
 Background = พื้นหลัง
-Visible Grid = 
+Visible Grid =
 Grid Visible =
 Real-Time Track Length =
 Display Real-Time Track Length =
@@ -363,7 +363,7 @@ Font Style = ประเภทฟอนต์
 Text Type =
 Text Anchor =
 Baseline = เส้นใต้
-(Auto) = 
+(Auto) =
 (auto) =
 start = เริ่ม
 middle = กลาง
@@ -387,7 +387,7 @@ Failed to parse cached font: {name} =
 Load cached fonts fail! =
 
 #Stroke
-Stroke Color = 
+Stroke Color =
 Stroke Width =
 Stroke Style =
 Fill Color =
@@ -709,7 +709,7 @@ name = ชื่อ
 Number = เลข
 Spice Pin Order =
 Display Number =
-Clock = 
+Clock =
 Show =
 Electric =
 
@@ -766,7 +766,7 @@ Routing Width =
 [router]
 Routing Width =
 [/router]
-Please using hotkey {0}{shiftw}{1} or {2}{tab}{3} to change track width while on routing. =
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. =
 Routing Angle =
 Routing Conflict =
 Remove Loop =
@@ -2113,7 +2113,7 @@ No Result =
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning =
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. =
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. =
 I know. Do not show this again. =
 
 #Extensions Setting
@@ -2319,7 +2319,7 @@ Checking local auto router server... =
 Stop Router =
 Auto Router is running... =
 
-#Left Siderbar
+#Left Sidebar
 EELib =
 Basic =
 Extend =
@@ -3235,3 +3235,46 @@ Check system similar footprint =
 Can't find the Similar Footprint =
 Search failed! =
 No package information! =
+Find Parameters =
+Find Results =
+
+Bill of material(BOM) uploaded finish, please click "OK" to continue. =
+Bill of material(BOM) upload failed! =
+
+All pads =
+All holes =
+Single layer pads =
+Multi-layer pads =
+Same X pads =
+Same Y pads =
+Same Y and clearance pads =
+Same X and clearance pads =
+Same X and clearance pads' clearance =
+Same Y and clearance pads' clearance =
+Pad's hole diameter(max) =
+Pad's hole diameter(min) =
+Pad's hole diameter(aver) =
+
+Try Pro Edition =
+
+Generate Solid Region by Objects Outline =
+Generate Polygon Pad by Objects Outline =
+Select the objects that cannot be generated =
+
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. =
+Because of different file format and element, please check carefully after imported. =
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
+Please make sure the Protel file is exported as ASCII format file. =
+Please compress the schematic and corresponding symbols as a zip file and then import it. =
+
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Tips =
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
+creator =
+You are not logged in or the login status is invalid, please login and try again. =
+Display Board Cutout =

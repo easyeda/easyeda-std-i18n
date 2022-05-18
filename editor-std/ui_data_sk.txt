@@ -3291,3 +3291,4 @@ Select the objects that cannot be generated = Vyberte objekty, ktoré sa nedajú
 creator = vytvoril
 You are not logged in or the login status is invalid, please login and try again. = Nie ste prihlásený, alebo stav prihlásenia je neplatný, prihláste sa prosím a skúste to znova.
 Display Board Cutout = Zobrazenie výrezu dosky
+

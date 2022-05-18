@@ -108,7 +108,7 @@ Add a comment to the pull request, and we will then look at your translation and
 1) The file named `ui_data_CLEAN.txt` is a root file that is the common template used for all new language translations. Please don't edit this file, but instead make a copy of it, rename it to have your language code in the name, then edit the copy that you made.
 2) It is important to edit the file you copied, correctly, making sure you follow the rules listed above. The software looks for the file name that is associated with a given language and if it cannot find the English words that are on the left side of the `=` it will default to showing English instead of the translated text. This is why it's so important to understand the guidlines stated above.
 3) We do not need any English translations such as `ui_data_en.txt`, because we have the English language hard coded into the software already and it is the foundation from which the software generates all language translations from the files that you help us create in this project.
-
+4) Before create the pull request, please make sure all line separators change to Unix style(LF), you can set the git config as `git config --global core.autocrlf input`, when your pull request, the separator will changes to LF automatically. 
 
 ## Contributor
 
