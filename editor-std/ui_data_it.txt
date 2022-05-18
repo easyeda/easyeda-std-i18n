@@ -675,7 +675,7 @@ Seven_Segment = Sette_segmenti
 Traffic_Light = Semaforo
 Lamp Settings = Impostazioni della lampadina
 Power[W] = Potenza[W]
-Dropout Voltage[V] = Caduta di tensione[V]
+Dropout Voltage[V] = Tensione di dropout[V]
 Current[A] = Corrente[A]
 Threshold[V] = Soglia[V]
 Clock Rate = Frequenza di clock
@@ -723,7 +723,7 @@ Size = Dimensione
 Color = Colore
 
 #Net Label
-Net Label = Etichetta net
+Net Label = Net Label
 
 #Part
 Prefix = Prefisso
