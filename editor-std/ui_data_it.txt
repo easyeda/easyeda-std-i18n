@@ -2530,7 +2530,7 @@ Objects Properties = Proprietà degli oggetti
 Any = Qualsiasi 
 Same = Uguale
 Different = Differente
-Circular = Cerchio
+Circular = Circolare
 Expose Copper = Esponi rame
 "{0}" font is missing. Please add the font to the font family list. = Manca il font "{0}". Aggiungilo all'elenco dei font.
 Place Component = Posiziona componente
@@ -2549,9 +2549,9 @@ Display = Visualizza
 
 #Array and Clone
 Distribute Array = Distribuisci selezione
-Array Type = Tipo di distribuzione
+Array Type = Tipo di selezione
 Matrix Array = Matrice 
-Circular Array = Circolare
+Circular Array = Selezione circolare
 Item Rotation = Rotazione dell'oggetto
 Location = Posizione
 Items per Column = Oggetti per colonna
@@ -2560,7 +2560,7 @@ Items per Row = Oggetti per riga
 #Row Spacing
 Spacing(Degrees) = Spaziatura (gradi) 
 Start Degree = Angolo iniziale 
-Rotate Item to Match = Ruota elementi
+Rotate Item to Match = Ruota oggetto per farlo combaciare
 Clockwise = Senso orario
 Anti-Clockwise = Senso antiorario
 Distribute by = Distribuisci su
