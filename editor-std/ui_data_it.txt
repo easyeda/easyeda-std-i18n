@@ -874,7 +874,7 @@ Rebuild CopperArea = Rigenera zona di rame
 Edit Points = Modifica punti
 Direct = Diretto
 Spoke = Raggi
-No Solid = Non solido
+No Solid = Nessun solido
 Board Cutout = Ritaglio della scheda
 Solid = Solido
 [copperArea]
@@ -893,7 +893,7 @@ Unknown = Sconosciuto
 Custom = Personalizzato
 Scan the QR code below and open it on the mobile side = Inquadra il codice QR sottostante per vederne il contenuto
 How to create a single layer PCB = Come creare un PCB a strato singolo
-Currently doesn't support layout single layer directly, please refer at: = Al momento un layout con un singolo strato non è supportato, fai riferimento a:
+Currently doesn't support layout single layer directly, please refer at: = Al momento un layout a strato singolo non è supportato, fai riferimento a:
 
 #Dialog Register
 Create an account = Crea un account
@@ -932,7 +932,7 @@ Your friend's email = L'email del tuo amico
 #Dialog Add A New Parameter
 Add a new parameter = Aggiungi nuovo parametro
 Key = Chiave
-Value.new_para = Valore
+Value.new_para = Valore nuovo parametro
 In BOM = Nel BOM
 Add into BOM = Aggiungi al BOM
 Invalid key = Chiave non valida
