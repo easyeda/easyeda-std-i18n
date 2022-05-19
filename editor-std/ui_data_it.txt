@@ -1074,7 +1074,7 @@ Price = Prezzo
 Quantity.bom = Quantità
 Package.bom = Involucro
 Components.bom = Componenti
-Manufacturer Part.bom = Codice componente del produttore
+Manufacturer Part.bom = Componente del produttore
 Manufacturer.bom = Produttore
 
 One-click Purchasing at LCSC = Acquista su LCSC con un clic
@@ -1084,7 +1084,7 @@ Upload to LCSC ERP = Carica su LCSC ERP
 No components, upload failed! = Nessun componente, il caricamento non è andato a buon fine!
 Upload to LCSC ERP failed, please try again later. = Il caricamento su LCSC ERP non è andato a buon fine, riprova più tardi.
 Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = Il caricamento dell'attuale BOM sul Chip Manager di LCSC è andato a buon fine, clicca sul pulsante "OK" per accedere al Chip Manager.
-Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = Il caricamento su LCSC ERP non è andato a buon fine, ad alcuni componenti manca il valore di alcune proprietà, controlla se esiste il valore della proprietà di "Footprint, Codice componente del produttore".
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = Il caricamento su LCSC ERP non è andato a buon fine, ad alcuni componenti manca il valore di alcune proprietà, controlla se esiste il valore della proprietà di "Footprint, Componente del produttore".
 
 Export PCB BOM = Esporta BOM PCB
 Export Schematic BOM = Esporta schema BOM
@@ -1103,7 +1103,7 @@ Package = Involucro
 Components = Componenti
 Manufacturer = Produttore
 [/bom]
-Manufacturer Part = Codice componente del produttore
+Manufacturer Part = Componente del produttore
 
 #Dialog Run
 Run your simulation = Esegui la tua simulazione
@@ -1168,8 +1168,8 @@ package = involucro
 Title(PartNO) = Titolo(PartNO)
 No Data! = Nessun dato!
 Quantity = Quantità
-Manufacturer Part = Codice componente del produttore
-manufacturer Part = codice componente del produttore
+Manufacturer Part = Componente del produttore
+manufacturer Part = componente del produttore
 Manufacturer = Produttore
 manufacturer = produttore
 voltage = tensione
@@ -2111,7 +2111,7 @@ General Packages = Involucri generali
 favorite Package = Involucro preferito
 Board Cutout = Ritaglio della scheda
 Surface Mount = Montaggio superficiale
-JLCPCB Part Class = Classe parte JLCPCB
+JLCPCB Part Class = Classe componente JLCPCB
 base = base
 expand = espandi
 recommend = raccomandato
