@@ -1656,7 +1656,7 @@ Please choose only the libraries needed = Scegli solo le librerie necessarie
 Maximum import is 200 libs at one time! = Si possono importare fino a 200 librerie per volta!
 You libraries will be found under the My Libs folder = Le tue librerie si trovano nella cartella My Libs
 Add to Library = Aggiungi alla libreria
-No items have been checked! = Nessun oggetto è stato controllato!
+No items have been checked! = Nessun elemento è stato controllato!
 Nothing was found, please create it for yourself = Non è stato trovato nulla, crealo tu stesso
 Search result = Risultato della ricerca
 At least 3 characters needed = Sono necessari almeno 3 caratteri
@@ -2552,15 +2552,15 @@ Distribute Array = Distribuisci selezione
 Array Type = Tipo di selezione
 Matrix Array = Matrice 
 Circular Array = Selezione circolare
-Item Rotation = Rotazione dell'oggetto
+Item Rotation = Rotazione dell'elemento
 Location = Posizione
-Items per Column = Oggetti per colonna
-Items per Row = Oggetti per riga
+Items per Column = Elementi per colonna
+Items per Row = Elementi per riga
 #Column Spacing
 #Row Spacing
 Spacing(Degrees) = Spaziatura (gradi) 
 Start Degree = Angolo iniziale 
-Rotate Item to Match = Ruota oggetto per farlo combaciare
+Rotate Item to Match = Ruota elemento per farlo combaciare
 Clockwise = Senso orario
 Anti-Clockwise = Senso antiorario
 Distribute by = Distribuisci su
@@ -2891,7 +2891,7 @@ The origin of the canvas has been set in the graphics now, you can save again. =
 Backup Project = Backup progetto
 Open Project Directory = Apri la cartella del progetto
 
-{0} items updated = {0} oggetti aggiornati
+{0} items updated = {0} elementi aggiornati
 
 The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. = Il file attuale {0} ha una versione aggiornata. Vuoi sovrascriverlo? Se vuoi aprire l'ultima versione, chiudilo e riaprilo.
 Yes, Overwrite It = Sì, sovrascrivilo
@@ -2936,7 +2936,7 @@ Prev = Precedente
 Next = Successivo
 Total {count} Count = Conteggio totale {count}
 About = Informazioni
-Items = Oggetti
+Items = Elementi
 [/findlib]
 
 Object = Oggetto
@@ -3145,7 +3145,7 @@ Please input the data title = Inserisci il titolo dei dati
 Data title duplicated =  Il titolo dei dati è duplicato
 Cannot be more than {0} characters! = Non può contenere più di {0} caratteri!
 Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = Sono consentiti solo caratteri latini, cifre, trattino basso (_) e trattino (-).
-Invalid value of item {0} = Il valore dell'oggetto {0} non è valido
+Invalid value of item {0} = Il valore dell'elemento {0} non è valido
 Update DFM = Aggiorna DFM
 Custom DFM Data = Dati DFM personalizzati
 Saved custom data successfully! = Dati personalizzati salvati con successo!
