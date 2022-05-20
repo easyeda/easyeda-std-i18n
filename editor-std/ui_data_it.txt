@@ -2665,7 +2665,7 @@ Create Fiducial Marks = Crea fiducial mark
 Top and Bottom = Sopra e sotto
 Left and Right = Sinistra e destra
 Stamp Hole Group - Column = Raggruppa testimoni - Colonna
-Stamp Hole Group - Row = Raggruppa testimoni  - Riga
+Stamp Hole Group - Row = Raggruppa testimoni - Riga
 The number of rows and columns cannot be set to 1 simultaneously = Il numero di righe e di colonne non può essere impostato contemporaneamente a 1
 
 #edit path point
