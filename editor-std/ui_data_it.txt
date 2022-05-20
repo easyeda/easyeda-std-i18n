@@ -3003,7 +3003,7 @@ Update Properties = Aggiorna proprietà
 Please fill in at least 5 words. = Inserisci almeno 5 parole.
 Mouse hovering over the track to highlight the entire network = Passa il mouse sulla pista per evidenziare l'intera rete
 Net Highlighting While Cursor Hover the Track = Evidenzia la net mentre il cursore del mouse passa sulla pista
-When circle set as "Yes", the Pin length must be more than 6 = Quando il cerchio è impostato su "Sì", la lunghezza del pin deve essere maggiore di 6
+When circle set as "Yes", the Pin length must be more than 6 = Quando cerchio è impostato su "Sì", la lunghezza del pin deve essere maggiore di 6
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Ciao, ho riscontrato un problema con la tua libreria, questa libreria non sembra essere corretta.\ntitolo:{title}\nTipo:{type}\nlink:{link}\n{content}\nGrazie!
 
 Logout fail! Please try again! = Uscita fallita! Riprova!
@@ -3042,20 +3042,20 @@ Close Tab = Chiudi tab
 Close Other Tabs = Chiudi gli altri tab
 Close All Tabs = Chiudi tutti i tab
 Open in New Window = Apri in una nuova finestra
-Cursor Snap to Component's Origin or Pad Center While Dragging Component = Aggancia il cursore all'origine o al centro del componente quando viene trascinato
+Cursor Snap to Component's Origin or Pad Center While Dragging Component = Aggancia il cursore all'origine del componente o al centro del pad quando il componente viene trascinato
 Undefined = Non definito
 Input = Ingresso
 Model Unit = Unità del modello
 File Unit = Unità del file
-This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? = Questa parte contiene sottoparti, assicurarsi di aver controllato le sottoparti prima di segnalare un errore, vuoi continuare? 
+This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? = Questa parte contiene sottoparti, assicurarsi di aver controllato le altre sottoparti prima di segnalare un errore, vuoi continuare? 
 
 [saveAs]
 Power = Alimentazione
 [/saveAs]
 
 Assign LCSC Part# = Assegna componente LCSC
-Unexpected error while converting. Perhaps unsupported file type or program bug. = Si è verificato un errore durante la conversione. Forse il tipo di file non è supportato oppure è un bug del programma.
-Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = Sono stati rilevati dei duplicati tra gli ID dei componenti, fare clic su "OK" per riassegnare automaticamente l'ID dei componenti, quindi salvare il documento e riprovare.
+Unexpected error while converting. Perhaps unsupported file type or program bug. = Si è verificato un errore imprevisto durante la conversione. Forse il tipo di file non è supportato oppure è un bug del programma.
+Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = Sono stati rilevati dei duplicati tra gli ID dei componenti, clicca su "OK" per riassegnare automaticamente gli ID dei componenti, quindi salvare il documento e riprovare.
 
 #electromagneticSimulation
 Electromagnetic Simulation... = Simulazione elettromagnetica...
@@ -3088,7 +3088,7 @@ Place Module = Posiziona modulo
 Please enter identification letters: = Digita le lettere di identificazione:
 Only support English letters, up to 5. = Sono supportate solo lettere inglesi, fino ad un massimo di 5.
 
-Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = Nel modulo sono presenti componenti non numerati, assegna un numero univoco ai componenti prima di inserirli.
+Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = Nel modulo sono presenti componenti non numerati, modificalo ed assegna un numero univoco ai componenti.
 Opening = Apertura
 
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = Aggiorna anche la net della pista (si applica solo nelle circostanze in cui il prefisso/netlabel cambia e nessun componente/filo viene aggiunto o rimosso)
@@ -3214,7 +3214,7 @@ Fabrication Tolerance = Tolleranza di fabbricazione
 Placement Tolerance = Tolleranza di posizionamento
 FirstPin Position = Posizione del primo pin
 Package Origin = Origine dell'involucro
-Expansion Size = Dimensione di espansione
+Expansion Size = Dimensione dell'espansione
 Corner = Angolo
 Angle = Angolo
 Fillet = Arrotondamento
@@ -3236,7 +3236,7 @@ Entity height = Altezza dell'entità
 Lead Overhang = Sporgenza
 Lead Thickness = Spessore
 Unknown mistake = Errore sconosciuto
-Has ThermalVias = Via termiche
+Has ThermalVias = Ha via termiche
 Polar Capacitance = Condensatore polarizzato
 
 Create Component Marking = Crea demarcazione componente
@@ -3260,7 +3260,7 @@ Find System Similar Footprint = Trova footprint di sistema simili
 Found similar footprints at system library, it is recommended to use them first. = Sono state trovate footprint simili nella libreria di sistema, si consiglia di usarle.
 Copy Title = Copia titolo
 Check system similar footprint = Controlla footprint di sistema simili
-Can't find the Similar Footprint = Impossibile trovare footprint di sistema simili
+Can't find the Similar Footprint = Impossibile trovare footprint simili
 Search failed! = La ricerca non ha prodotto risultati utili!
 No package information! = Nessuna informazione sull'involucro!
 Find Parameters = Trova parametri
