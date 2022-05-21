@@ -2991,7 +2991,7 @@ Rotation Z = Rotazione Z
 
 Some fields are filled invalid data = Alcuni campi contengono dati non validi
 start time should be earlier than stop time = il tempo di partenza dovrebbe essere antecedente al tempo di arresto
-Number of points should be less than 100 in octave variation = Il numero di punti deve essere inferiore a 100 nella variazione di ottava
+Number of points should be less than 100 in octave variation = Il numero di punti deve essere inferiore a 100 nella variazione dell'ottava
 Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = La frequenza di partenza dovrebbe essere inferiore alla frequenza di arresto. Il suffisso meg sta per Mega, m sta per milli
 Get historical records fail! = Impossibile recuperare i salvataggi precedenti!
 This 3D model didn't create the outlines successfully, please import it again or contact with us. = Questo modello 3D non ha creato correttamente i contorni, importalo di nuovo oppure contattaci.
