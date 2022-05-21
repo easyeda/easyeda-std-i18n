@@ -2377,7 +2377,7 @@ Protractor = Goniometro
 
 #attr-pcbtext-line-width
 Only default font family supports to change font width. = Solo i font predefiniti supportano la modifica della larghezza.
-Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = Font mancante! Conferma per usare il font di default o annulla per caricare il nuovo font e riprovare.
+Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = Font mancante! Conferma per usare il font predefinito o annulla per caricare il nuovo font e riprovare.
 
 #Common
 Owner = Proprietario
