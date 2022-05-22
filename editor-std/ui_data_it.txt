@@ -312,8 +312,8 @@ Footprint Wizard... = Procedura guidata per footprint...
 Select package type = Seleziona il tipo di involucro
 Smart Dimension Properties = Proprietà dimensioni intelligenti
 Global Delete = Eliminazione globale
-Cross Probe = Cross probe
-Cross Probe and Place = Cross Probe and Place
+Cross Probe = Identifica
+Cross Probe and Place = Identifica e posiziona
 Paper Size = Dimensione del foglio
 Register = Registrati
 User Center = Account
@@ -2283,9 +2283,9 @@ please input valid value of height! = inserisci un valore valido per l'altezza!
 please input valid value of radius! = inserisci un valore valido per il raggio!
 
 #cross probe
-The object you selected was not found in other documents. = Gli oggetti che hai selezionato non sono presenti in altri documenti.
-No valid object for cross probe selected. = Nessun oggetto valido selezionato per il cross probe.
-Can not probe. Refreshing the window may get it to work. = Non è possibile sondare. Prova ad aggiornare la finestra per risolvere il problema.
+The object you selected was not found in other documents. = Gli oggetti selezionati non sono presenti in altri documenti.
+No valid object for cross probe selected. = Non è stato selezionato nessun oggetto valido da identificare.
+Can not probe. Refreshing the window may get it to work. = Impossibile identificare. Prova ad aggiornare la finestra per risolvere il problema.
 You need to login for this function to work. = Devi autenticarti per utilizzare questa funzione.
 
 #About Dialog
@@ -2962,7 +2962,7 @@ View Detail = Mostra dettaglio
 Place Vias = Posiziona via
 Placing Vias = Posizionamento via
 Removing Vias = Rimozione via
-Batch Vias for Copper =
+Batch Vias for Copper = Gruppo di via
 Add/Remove Vias = Aggiungi/Rimuovi via
 Diameter = Diametro
 Drill Diameter = Diametro del foro
