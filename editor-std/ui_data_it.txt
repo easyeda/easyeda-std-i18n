@@ -804,7 +804,7 @@ Oval = Ovale
 Hole Shape = Forma del foro
 Slot = Slot
 Hole(Length) = Foro (Larghezza)
-Plated = Placcato
+Plated = Metallizzato
 None = Nessuno
 Paste Mask Expansion = Espansione maschera per pasta
 Solder Mask Expansion = Espansione maschera di saldatura
@@ -2212,8 +2212,8 @@ Select a DXF file = Seleziona un file DXF
 
 #Export DXF
 Export DXF = Esporta DXF
-Plated-Through-Hole Pads = Pad placcati con foro passante
-Non-Plated-Through-Hole Pads = Pad non placcati con foro passante
+Plated-Through-Hole Pads = Pad metallizzati con foro passante
+Non-Plated-Through-Hole Pads = Pad non metallizzati con foro passante
 Silkscreen = Serigrafia
 Surface Pad = Pad superficiale
 
@@ -2694,8 +2694,8 @@ Signal Layers = Strati di segnale
 None Signal Layers = Nessuno strato di segnale
 Pads = Pad
 Surface Pads = Pad superficiali
-Plated Through-hole Pads = Pad placcati con foro passante
-None Plated Through-hole Pads = Pad non placcati con foro passante
+Plated Through-hole Pads = Pad metallizzati con foro passante
+None Plated Through-hole Pads = Nessun pad metallizzato con foro passante
 Holes = Fori
 Vias = Via
 Length of Tracks = Lunghezza delle piste
