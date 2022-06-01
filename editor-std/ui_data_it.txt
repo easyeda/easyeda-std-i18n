@@ -3006,7 +3006,7 @@ Net Highlighting While Cursor Hover the Track = Evidenzia la net mentre il curso
 When circle set as "Yes", the Pin length must be more than 6 = Quando cerchio è impostato su "Sì", la lunghezza del pin deve essere maggiore di 6
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Ciao, ho riscontrato un problema con la tua libreria, questa libreria non sembra essere corretta.\ntitolo:{title}\nTipo:{type}\nlink:{link}\n{content}\nGrazie!
 
-Logout fail! Please try again! = Uscita fallita! Riprova!
+Logout fail! Please try again! = Impossibile uscire! Riprova!
 Logout success! We look forward you to use LCEDA again! = Uscita effettuata! Speriamo che tu possa usare di nuovo LCEDA!
 Logout success! We look forward you to use EasyEDA again! = Uscita effettuata! Speriamo che tu possa usare di nuovo EasyEDA!
 Click to Preview 3D = Clicca per visualizzare l'anteprima 3D
