@@ -2130,7 +2130,7 @@ Read/Write = Lettura/Scrittura
 More Libraries... = Altre librerie...
 Decompress failed! = Impossibile decomprimere!
 Load failed! = Impossibile caricare
-Loading = Caricamento
+Loading = Caricamento in corso
 No Result = Nessun risultato
 
 #Dialog Place Pin in schematic warning
@@ -2486,7 +2486,7 @@ Extension ID is invalid = L'ID dell'estensione non è valida
 Extension ID is duplicated = L'ID dell'estensione è duplicata
 No Result! = Nessun risultato!
 Load Error = Si è verificato un errore durante il caricamento
-loading = caricamento
+loading = caricamento in corso
 Failed to load spice data = Impossibile caricare i dati spice
 Netlist = Netlist
 Tags = Tag
@@ -2906,9 +2906,9 @@ Go to LCSC = Vai su LCSC
 
 Hide Ratline Layer and Keep the Component Prefix When Paste Objects = Nascondi le linee di collegamento e mantieni il prefisso del componente quando incolli gli oggetti
 
-ALL.layer = Tutti gli strati
-Copper.layer = Strati ramati
-Non-Copper.layer = Strati non ramati
+ALL.layer = Tutti
+Copper.layer = Ramati
+Non-Copper.layer = Non ramati
 Other.layer = Altro
 
 Please enter at least 2 characters! = Digita almeno 2 caratteri!
