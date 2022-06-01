@@ -932,7 +932,7 @@ Your friend's email = L'email del tuo amico
 #Dialog Add A New Parameter
 Add a new parameter = Aggiungi nuovo parametro
 Key = Chiave
-Value.new_para = Valore nuovo parametro
+Value.new_para = Valore
 In BOM = Nel BOM
 Add into BOM = Aggiungi al BOM
 Invalid key = Chiave non valida
