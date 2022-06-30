@@ -129,27 +129,27 @@ Wire = Przewód
 Annotation = Adnotacja
 Track = Tor
 Image = Obraz
-Arrow Head = KOńcówka Strzałki
-Arrowhead =
+Arrow Head = Końcówka Strzałki
+Arrowhead = Końcówka Strzałki
 Arrow = Strzałka
 No Connect Flag = Flaga braku połączenia
 Place = Umieść
-Pin =
+Pin = Pin
 Lock Selected Objects = Zablokuj Wybrane połączenia
 
 Miscellaneous = Różne
 Find Component = Znajdź komponent
 Component = Komponent
-Footprint... =
-This component is deleted! =
+Footprint... = Footprint...
+This component is deleted! = Ten komponent jest usunięty!
 Convert = Konwersja
 Convert Schematic to PCB = Konwertuj schemat do PCB
 The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: =
 Please make sure the component prefixes of the schematic and PCB are corresponding =
 Please reset the component ID of corresponding schematic or corresponding PCB too =
 Do you want to continue? = Czy na pewno chcesz kontynuować?
-Reset Component ID =
-Component ID reset successfully! =
+Reset Component ID = Zresetuj ID komponentu
+Component ID reset successfully! = Reset ID komponentu udany!
 Convert to PCB = Konwertuj do PCB
 Update PCB = Aktualizuj PCB
 Shortcut Keys Setting = Ustawienia skrótów klawiszowych
@@ -175,23 +175,23 @@ Tutorials = Tutoriale
 Videos = Wideo
 [/start]
 Custom Data = Niestandardowe dane
-LCEDA =
+LCEDA = LCEDA
 
 Copy Result Image = Skopiuj obraz rezultatu
 Export Result Image = Eksportuj obraz rezultatu
 Simulation Result = Wynik symulacji
 Simulation Results... = Wyniki symulacji...
-Simulate this Sheet =
+Simulate this Sheet = Symuluj ten Arkusz
 Simulate this Project = Symuluj ten projekt
 Non-simulation mode, please switch to the simulation mode first and then run =
 Run the Document = Uruchom Dokument
 Run the Project... = Uruchom Projekt...
 Netlist for Document = Lista sieci Dokumentu
 Netlist for Project = Lista Sieci Projektu
-LTspice for This Sheet... =
-Spice for this Project... =
+LTspice for This Sheet... = LTspice dla Tego Arkusza...
+Spice for this Project... = Spice dla tego Projektu...
 Protel/Altium for PCB... = Protel/Altium dla PCB...
-PADS for PCB... = Pady dla PCB
+PADS for PCB... = Pady dla PCB...
 FreePCB for PCB... = FreePCB dla PCB...
 Eagle for PCB... = Eagle dla PCB...
 Kicad for PCB... = Kicad dla PCB...
@@ -200,32 +200,32 @@ BOM report... = Raport BOM...
 BOM for Document... = Raport BOM dla Dokumentu...
 BOM for Project... = Raport BOM dla Projektu...
 Pin Manager... = Menedżer pinów
-Spice Model... =
+Spice Model... = Model Spice'a...
 Layer Manager... = Menedżer warstw
-Net Color... =
-Design Rule... =
+Net Color... = Kolor Sieci...
+Design Rule... = Zasada Designu...
 Copper Area = Obszar Miedzi
 Rebuild Selected = Odbuduj zaznaczone
 Rebuild All = Odbuduj wszystkie
-Copper Area Manager... =
+Copper Area Manager... = Menedżer Obszarów Miedzi
 Export Pick and Place File = Eksportuj plik współrzędnych
 Measure Distance = Pomiar odległości
-Set Canvas Origin by Mouse Location =
+Set Canvas Origin by Mouse Location = Ustaw środek kanwy na pozycję kursora
 Generates Pick and Place File = Generuje plik Pick and Place
 Unroute All = Cofnij cały Routing
 Auto Route = Automatyczny Routing
-Export Autorouter File(DSN) =
-Import Autorouter Session File(SES) =
-Autorouter File(DSN) =
-Autorouter Session File(SES) =
-Terminate Routing Automatically =
-Delete Segments =
-Unroute Connections =
-Unroute Connection =
-Unroute Nets =
+Export Autorouter File(DSN) = Eksportuj Plik Autoroutera(DSN)
+Import Autorouter Session File(SES) = Importuj Plik Sesji Autoroutera(SES)
+Autorouter File(DSN) = Plik Autoroutera(DSN)
+Autorouter Session File(SES) = Plik Sesji Autoroutera(SES)
+Terminate Routing Automatically = Zakończ Routing Automatycznie
+Delete Segments = Usuń Segmenty
+Unroute Connections = Rozłącz Połączenia
+Unroute Connection = Rozłącz Połączenie
+Unroute Nets = Odłącz Sieci
 Select = Wybierz
-Segments =
-Connection =
+Segments = Segmenty
+Connection = Połączenie
 Net = Sieć
 Apply Design Rule While Routing and Auto Placing Via =
 
@@ -254,7 +254,7 @@ Tips & Skill = Wskazówki i umiejętności
 Ask for Help = Poproś o pomoc
 Schematic Capture = Przechwytywanie schematu
 Spice Simulation = Symulacja Spice
-Non-simulation mode =
+Non-simulation mode = Tryb Nie-symulacyjny
 PCB Layout = Układ PCB
 General Discussion = Dyskusja ogólna
 More Information = Więcej informacji
@@ -274,7 +274,7 @@ Order Price = Ceny zamówienia
 Order Essential Check = Essential Check zamówienia
 Order FAQ = FAQ zamówień
 Order Process = Przetwarzanie zamówień
-Full Screen =
+Full Screen = Pełny Ekran
 
 Support = Wsparcie
 [leftNavTabs]
@@ -284,19 +284,19 @@ Historical Records... = Zapisy Historii...
 Extensions = Rozszerzenia
 Order PCB... = Zamów PCB...
 Import Changes = Import zmian
-Press {0}F11{1} to switch to full screen. =
-Delete Selected = Wybrano usunięcie
+Press {0}F11{1} to switch to full screen. = Naciśnij F11, aby przełączyć do pełnego ekranu.
+Delete Selected = Usuń Wybrane
 Simulate... = Symulacja...
 Config = Konfiguracja
-Terms of Service & Privacy Policy =
+Terms of Service & Privacy Policy = Zasady Serwisu i Polityka Prywatności
 Help Topics = Tematy Pomocy
-3D Model(obj) =
-3D Model(step) =
+3D Model(obj) = Model 3D(obiekt)
+3D Model(step) = Model 3D(krok)
 SVG Source... = Źródło SVG...
 File Source = Źródło pliku
-Group These Items as a Symbol =
-Group These Items as a Footprint =
-Set Canvas Origin =
+Group These Items as a Symbol = Zgrupuj Te Rzeczy jako Symbol
+Group These Items as a Footprint = Zgrupuj Te Rzeczy jako Footprint
+Set Canvas Origin = Ustaw Środek Kanwy
 Document Setting = Ustawienia dokumentu
 Sheet Properties = Atrybuty arkusza
 Set Board Outline = Ustaw obrys płyty
@@ -306,7 +306,7 @@ Check Dimension = Sprawdź wymiar
 Smart Dimension = Inteligentny wymiar
 Footprint Wizard =
 Footprint Wizard... =
-Select package type =
+Select package type = Ustaw typ paczki
 Smart Dimension Properties =
 Global Delete = Usuwanie Globalne
 Cross Probe =
@@ -316,7 +316,7 @@ Register = Rejestracja
 User Center = Centrum użytkownika
 
 By Mouse Location =
-Set Coordinate =
+Set Coordinate = Ustaw Kordynat
 By Coordinates... =
 By Center of Pads =
 By Center Grid of Symbols =
@@ -336,10 +336,10 @@ Display Real-Time Track Length =
 Grid Color = Kolor siatki
 Grid Size = Rozmiar siatki
 Grid Style = Styl siatki
-Grid.Line Width =
-Grid.Line Spacing =
-Copper to Board Outline =
-Improve Fabrication =
+Grid.Line Width = Siatka.Szerokość Linii
+Grid.Line Spacing = Siatka.Odstęp Liń
+Copper to Board Outline = Miedź do Ramki Płytki
+Improve Fabrication = Popraw Produkowanie
 Spoke Width =
 Stroke Color = Kolor krawędzi
 Stroke Width = Szerokość krawędzi
@@ -347,7 +347,7 @@ Stroke Style = Styl krawędzi
 Fill Color = Kolor wypełnienia
 Selected Objects = Zaznaczone obiekty
 Frame Size = Rozmiar ramki
-Alt Snap =
+Alt Snap = Przeciąganie Alt
 Snap size when pressing the Alt key = Rozmiar przyciągania po wciśnięciu klawisza Alt
 Prefix Start = Początek prefiksu
 
@@ -362,28 +362,28 @@ Font Style = Stylk czcionki
 Text Type = Typ tekstu
 Text Anchor = Kotwica tekstu
 Baseline = Linia bazowa
-(Auto) =
-(auto) =
+(Auto) = (Automatycznie)
+(auto) = (automatycznie)
 start = początek
 middle = środek
 end = koniec
 inherit = dziedziczenie
 comment = komentarz
-spice = Spice
-normal = Normalny
-italic = Kursywa
-Default = Domyślny
+spice = spice
+normal = normalny
+italic = kursywa
+Default = domyślny
 Add = Dodaj
-bold = Pogrubiony
-bolder = Grubszy
-lighter = Lżejszy
-Failed to parse the font file: {name} = Błąt przetwarzania pliku fontu: {name}
-Please select a font file of ttf or woff format. = Proszę wybrać plik fontu ttf lub woff.
-Add font success: {name} = Dodano plik fontu: {name}
-Failed to add font: {name} = Błąd dodania pliku fontu: {name}
-Add Font =
-Failed to parse cached font: {name} = Błąd przetwarzania fontu w buforze: {name}
-Load cached fonts fail! = Błąd ładowania fonów z bufora!
+bold = pogrubiony
+bolder = grubszy
+lighter = lżejszy
+Failed to parse the font file: {name} = Błąt przetwarzania pliku czcionki: {name}
+Please select a font file of ttf or woff format. = Proszę wybrać plik czcionki ttf lub woff.
+Add font success: {name} = Dodano plik czcionki: {name}
+Failed to add font: {name} = Błąd dodania pliku czcionki: {name}
+Add Font = Dodaj Czcionkę
+Failed to parse cached font: {name} = Błąd przetwarzania czcionki w buforze: {name}
+Load cached fonts fail! = Błąd ładowania czcionek z bufora!
 
 #Stroke
 Stroke Color = Kolor krawędzi
@@ -394,82 +394,82 @@ X Radius =
 Y Radius =
 
 #spice
-Switch mode =
+Switch mode = Przełącz tryb
 The current documents will be closed, and reopen after switching mode, do you want to continue? =
 PCB related documents are not allowed in emulation mode =
 Please change the editor to "Simulation" mode first at the top left corner. =
 Please change the editor to "Standard" mode first at the top left corner. =
 Common =
-spice.open =
-spice.close =
-Sources =
-Instruments/Meters = Instrumentos / Medidores
-Transistors =
-Digital Circuits =
-Operational Amplifier =
-multimeter =
-multimeter Settings =
-FunctionGenerator Settings =
-Voltage Source Settings =
-Current Source Settings =
-Powersw Settings =
-Resistor Settings =
-Capacitor Settings =
-Diode Settings =
-voltPowersw Settings =
-Inductor Settings =
-VCVS Settings =
-CCCS Settings =
-VCCS Settings =
-CCVS Settings =
-JFET Settings =
-FET Settings =
-Transmission Line Settings =
-Oscilloscope Settings =
-XFMR Settings =
-LOGIC Settings =
-LOGICSTATE Settings =
-DIGITALCLOCK Settings =
-Potentiometer Settings =
-MUTUAL_INDUCTORS Settings =
-NE555 Settings =
-THREE_PHASE Settings =
-Logic_Probe Settings =
-78XX Settings =
-79XX Settings =
-OPAMP5PEE Settings =
-OPAMP5PEECN Settings =
-OPAMP3PEE Settings =
-OPAMP3PEECN Settings =
-DELAY_FUSE Settings =
+spice.open = spice.otwórz
+spice.close = spice.zamknij
+Sources = Źródła
+Instruments/Meters = Urządzenia/Pomiary
+Transistors = Tranzystory
+Digital Circuits = Cyfrowe Obwody
+Operational Amplifier = Operowalny Wzmacniacz
+multimeter = multimetr
+multimeter Settings = Ustawienia multimetru
+FunctionGenerator Settings = Ustawienia GeneratoraFunkcji
+Voltage Source Settings = Ustawienia Źródła Napięcia
+Current Source Settings = Ustawienia Źródła Natężenia
+Powersw Settings = Ustawienia Przełącznika prądu
+Resistor Settings = Ustawienia Rezystora
+Capacitor Settings = Ustawienia Kondensatora
+Diode Settings = Ustawienia Diody
+voltPowersw Settings = Ustawienia voltPowersw
+Inductor Settings = Ustawienia Cewki
+VCVS Settings = Ustawienia VCVS
+CCCS Settings = Ustawienia CCCS
+VCCS Settings = Ustawienia VCCS
+CCVS Settings = Ustawienia CCVS
+JFET Settings = Ustawienia JFET
+FET Settings = Ustawienia FET
+Transmission Line Settings = Ustawienia Linii Transmisyjnej
+Oscilloscope Settings = Ustawienia Oscyloskopu
+XFMR Settings = Ustawienia XFMR
+LOGIC Settings = Ustawienia LOGIKI
+LOGICSTATE Settings = Ustawienia STANULOGIKI
+DIGITALCLOCK Settings = Ustawienia WIRTUALNEGOZEGARA
+Potentiometer Settings = Ustawienia Potencjometru
+MUTUAL_INDUCTORS Settings = Ustawienia WSPÓLNYCH_CEWEK
+NE555 Settings = Ustawienia NE555
+THREE_PHASE Settings = Ustawienia TRZECH_FAZ
+Logic_Probe Settings = Ustawienia Logicznej_Próbki
+78XX Settings = Ustawienia 78XX
+79XX Settings = Ustawienia 79XX
+OPAMP5PEE Settings = Ustawienia OPAMP5PEE
+OPAMP5PEECN Settings = Ustawienia OPAMP5PEECN
+OPAMP3PEE Settings = Ustawienia OPAMP3PEE
+OPAMP3PEECN Settings = Ustawienia OPAMP3PEECN
+DELAY_FUSE Settings = Ustawienia OPÓŹNIENIOWEGO_BEZPIECZNIKA
 Ratio =
 K[%]
-Model =
-States =
+Model = Model
+States = Stany
 Voltage[V]
 Voltage gain[V/V]
 Current gain[A/A]
 Transconductance[Mho]
 Transresistance[Ω]
-Voltage Source Type =
-Current Source Type =
-multimeter type =
-power type =
-Voltmeter Resistance(R)(Ω) =
-Amperometer Resistance(R)(Ω) =
+Voltage Source Type = Typ Źródła Napięcia
+Current Source Type = Typ Źródła Natężenia
+multimeter type = typ mulimetru
+power type = typ mocy
+Voltmeter Resistance(R)(Ω) = Rezystancja Voltmetru(R)(Ω)
+Amperometer Resistance(R)(Ω) = Rezystancja Amperometru(R)(Ω)
 mu.V =
 mu.A =
-Sine Wave =
-Triangular Wave =
-Rectangular Wave =
-AC =
-DC =
-SINE =
-PULSE =
-EXP =
-SFFM =
-PWL =
-B.spice =
+Sine Wave = Fala Sinusoidy
+Triangular Wave = Fala Trójkątna
+Rectangular Wave = Fala Kwadratowa
+AC = AC
+DC = DC
+SINE = SINUSOIDA
+PULSE = PULS
+EXP = EXP
+SFFM = SFFM
+PWL = PWL
+B.spice = b.spice
 DC Value[V]
 DC Value[A]
 DC offset[V]
@@ -508,11 +508,11 @@ Rise/Fall Time[sec]
 Capacitance[F]
 sComponent =
 Inductance[H]
-Gbw =
-Slewrate =
-Avol =
-Rout(Ω) =
-Rin(Ω) =
+Gbw = Gbw
+Slewrate = Szybkość
+Avol = Avol
+Rout(Ω) = Rout(Ω)
+Rin(Ω) = Rin(Ω)
 Ibias[A]
 Inhi[V]
 Inlo[V]
@@ -523,20 +523,20 @@ Vabsmax[V]
 Vmin[V]
 Iq[A]
 Cin[F]
-high =
-low =
-Oscilloscope =
-Logic Analyzer =
-Channel_A =
-Channel_B =
-Channel A =
-Channel B =
-Time =
-Reverse =
+high = wysoki
+low = niski
+Oscilloscope = Oscyloskop
+Logic Analyzer = Analizator Logiczny
+Channel_A = Kanał_A
+Channel_B = Kanał_B
+Channel A = Kanał A
+Channel B = Kanał B
+Time = Czas
+Reverse = Odwróć
 Simulation file exceed =
 The simulation file is too large and has been stopped for performance reasons. =
-Timebase =
-Scale: =
+Timebase = Baza czasu
+Scale: = Skala:
 X pos.(Div): =
 Y pos.(Div): =
 View meter... =
@@ -696,20 +696,20 @@ There are some parts haven't spice model, please use "EElib" and "Spice Symbol" 
 #Pin
 Pin Properties = Atrybut Pinu
 Orientation = Orientacja
-Line 45° =
-Line 90° =
-Arc 45° =
-Arc 90° =
+Line 45° = Linia 45°
+Line 90° = Linia 90°
+Arc 45° = Łuk 45°
+Arc 90° = Łuk 90°
 Free Angle = Wolny kąt
 Start X = Początek X
 Start Y = Początek Y
 Length = Długość
 Name = Nazwa
-name =
+name = nazwa
 Number = Numer
-Spice Pin Order =
-Display Number =
-Clock =
+Spice Pin Order = Kolejność Pinów Spice'a
+Display Number = Wyświetl Numer
+Clock = Zegar
 Show = Pokaż
 Electric = Elektrycznie
 
@@ -727,28 +727,28 @@ Net Label = Etykieta sieci
 Prefix = Prefiks
 
 #Image Properties and Dialog
-Add Image =
+Add Image = Dodaj Obrazek
 Image Properties = Atrybuty Obrazka
 Image URL = URL Obrazka
 Input an image URL = Wprowadź URL Obrazka
 Invalid image URL = Nieprawidłowy URL Obrazka
-Invalid Prefix =
+Invalid Prefix = Nieprawidłowy Prefiks
 Failed to load the image = Błąd ładowania obrazka
-Image URL contains special characters =
+Image URL contains special characters = URL Obrazka zawiera znaki specjalne
 From Web URL = Z adresu URL
 From Local Computer = Z komputera
-Please select a png/gif/jpg file. = Wybierz plik png/gif/jpg
-Please select an image file. = Proszę wybrać plik obrazka
+Please select a png/gif/jpg file. = Proszę wybrać plik png/gif/jpg.
+Please select an image file. = Proszę wybrać plik obrazka.
 Select an image file = Wybierz plik obrazka
 Insert Image to PCB = Umieść obrazek na PCB
 Tolerance = Tolerancja
-tolerance =
+tolerance = tolerancja
 capacitance = pojemność
 frequency = częstotliwość
 Rated Voltage = Napięcie znamionowe
 Rated Current = Prąd znamionowy
 resistance = rezystancja
-Resistance =
+Resistance = Rezystancja
 Resistance[Ω]
 inductance = induktancja
 Operating Temperature = Temperatura pracy
@@ -768,18 +768,18 @@ Routing Width = Szerokość routingu
 [/router]
 Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. =
 Routing Angle = kąt routingu
-Routing Conflict =
-Remove Loop =
+Routing Conflict = Konflikt Routingu
+Remove Loop = Usuń Pętlę
 Cut SilkScreen =
 Grid = Siatka
-Grid 90 =
-Grid 45 =
+Grid 90 = Siatka 90
+Grid 45 = Siatka 45
 Copper Zone = Strefa miedzi
 Visible = Wyświetlane
 Invisible = Nie wyświetlane
-Ignore =
-Block =
-RoundTrack =
+Ignore = Ignoruj
+Block = Zablokuj
+RoundTrack = ZaokrąglonaŚcieżka
 
 #Track
 Track Properties = Właściwości ścieżki
@@ -789,7 +789,7 @@ Start X = Początek X
 Start Y = Początek Y
 End X = Koniec X
 End Y = Koniec Y
-ID =
+ID = ID
 
 #Pad Properties
 Pad Properties = Właściwości pola lutowniczego
@@ -800,17 +800,17 @@ Center Y = Środek Y
 Round = Okrąg
 Oval = Owal
 Hole Shape = Kształt Otworu
-Slot =
+Slot = Slot
 Hole(Length) = Otwór (długość)
 Plated = Powlekany
 None = Nie
-Paste Mask Expansion =
-Solder Mask Expansion =
+Paste Mask Expansion = Wklej Ekspansję Maski
+Solder Mask Expansion = Ekspancja Maski Lutowniczej
 
 #Via Properties
 Via Properties = Właściwości przelotki
 Diameter = Średnica
-Drill Diameter =
+Drill Diameter = Szerokość Wiercenia
 
 #Hole Properties
 Hole Properties = Właściwości otworu
@@ -820,25 +820,25 @@ Hole Properties = Właściwości otworu
 Text Properties = Właściwości tekstu
 Line Width = Szerokość linii
 Rotation = Obrót
-Fonts Management =
+Fonts Management = 
 
 #Dimension Properties
 Dimension Properties = Właściwości wymarów
 
 #Footprint Properties
-Component Properties =
-Display Prefix =
+Component Properties = Właściwości Komponentu
+Display Prefix = Wyświetl Prefiks
 Pin Name = Nazwa Pinu
 Pin Number = Numer Pinu
 Spice Pin Number = Numer Pinu Spice
-Graphics =
-Pattern =
+Graphics = Grafika
+Pattern = Wzór
 
 #Arc Properties
 Arc Properties = Właściwości łuku
-Start Angle =
-End Angle =
-Rotation Direction =
+Start Angle = Kąt Rozpoczęcia
+End Angle = Kąt Zakończenia
+Rotation Direction = Kierunek Obrotu
 
 #Rect Properties
 Rect Properties = Właściwości prostokątu
@@ -853,7 +853,7 @@ CopperArea Properties = Właściwości powierzchni miedzi
 Clearance = Odstęp
 Pad Connection = Połączenie z polem lutowniczym
 Direct = Bezpośrednio
-Spoke =
+Spoke = Obramowanie
 Keep Island = Pozostaw jako wyspę
 Fill Style = Styl wypełnienia
 CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Konflikt obszaru miedzi: krawędzie obszaru miedzi na tej samej warstwie z różnymi nazwami sieci nie mogą na siebie zachodzić.
@@ -863,8 +863,8 @@ Board outlines are not closed. = Obrys płyty nie jest zamknięty
 Rebuild CopperArea = Przbuduj Obszar Miedzi
 Edit Points = Edycja punktów
 Direct = Bezpośrednio
-Spoke =
-No Solid =
+Spoke = Obramowanie
+No Solid = Nie Stały
 Board Cutout =
 Solid = Stałe
 [copperArea]
@@ -873,16 +873,16 @@ None = Nie
 
 #Custom Properties
 Custom Properties = Atrybuty dodatkowe
-Fixed Properties =
+Fixed Properties = Uatawione Atrybuty
 Add new parameter = Dodaj nowy parametr
-Add New Parameter =
+Add New Parameter = Dodaj Nowy Parametr
 Add New Supplier = Dodaj Nowego Dostawcę
 Mounted = Zamontowany
 Unknown = Nieznany
 
-Custom =
-Scan the QR code below and open it on the mobile side =
-How to create a single layer PCB =
+Custom = Niestandardowy
+Scan the QR code below and open it on the mobile side = Zeskanuj kod QR poniżej i otwórz go po stronie mobilnej
+How to create a single layer PCB = Jak stworzyć jednowarstwową płytkę PCB
 Currently doesn't support layout single layer directly, please refer at: =
 
 #Dialog Register
@@ -891,42 +891,42 @@ Username = Nazwa użytkownika
 Password = Hasło
 Confirm Password = Potwierdź Hasło
 Email =
-Please read this before you register =
+Please read this before you register = Proszę przeczytać to, zanim się zarejejstrujesz
 Hi {username} = Witaj {username}
 
 #Dialog lostPassword
-Lost Password... = Zgubiłem hasło...
-Find the password using your email = Odnajdź swoje hasło za pomocą email
+Lost Password... = Zapomniałem hasło...
+Find the password using your email = Odnajdź swoje hasło za pomocą emaila
 
 
 
 #Dialog Login
-Login =
-Username or Email = Nazwa użytkownika oraz Hasło
+Login = Zaloguj
+Username or Email = Nazwa użytkownika lub Email
 Remember Me = Zapamiętaj mnie
 Third party = Inny sposób logowania
 Login and Register = Zaloguj i zarejestruj
 Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. =
 
 #Dialog Reset Password
-Reset a password using your email = Zresetuj hasło za pomocą emiail
+Reset a password using your email = Zresetuj hasło za pomocą emaila
 Your registered email = Twój mail rejestracyjny
 
 #Dialog Reaction
 Re-send an activation code to your email = Wyślij ponownie kod aktywacyjny na Twój email
 
 #Dialog Invite
-Invite friends to register = Zaproś przyjaciół do rejestracji
-Your friend's email = Email Twoich Przyjaciół
+Invite friends to register = Zaproś znajomych do rejestracji
+Your friend's email = Email Twojego Znajomego
 
 #Dialog Add A New Parameter
 Add a new parameter = Dodaj nowy parametr
 Key = Klucz
 Value.new_para =
 In BOM = W BOM
-Add into BOM =
+Add into BOM = Dodaj do BOM
 Invalid key = Nieprawidłowy klucz
-This field is required. = To pole jest wymagane
+This field is required. = To pole jest wymagane.
 
 #Dialog Change Your Password
 Change your password = Zmień swoje hasło
@@ -937,48 +937,48 @@ Confirm Password = Potwierdź Hasło
 #Dialog Create New Design
 Save as a New Project = Zapisz jako Nowy Projekt
 Save as a schematic = Zapisz jako schemat
-Save as Symbol =
+Save as Symbol = Zapisz jako Symbol
 Save as a spice Symbol = Zapisz jako symbol Spice
 Save as a spice subckt = Zapisz jako subckt
-YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = MUSISZ UTWORZYĆ SYMBOL SPICE Z DOKŁADNIE TAKĄ SAMĄ NAZWĄ JA KEGO SUBCKT
+YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = MUSISZ UTWORZYĆ SYMBOL SPICE Z DOKŁADNIE TAKĄ SAMĄ NAZWĄ JAK TEN SUBCKT
 Save as a PCB file = Zapisz jako plik PCB
-Save as Footprint =
+Save as Footprint = Zapisz jako Footprint
 Save as a Schematic Module = Zapisz jako Moduł Schematu
 Save as a PCB Module = Zapisz jako Moduł PCB
-Save as 3D Model =
-Save as a WaveForm =
+Save as 3D Model = Zapisz jako model 3D
+Save as a WaveForm = Zapisz jako WaveForm
 Title = Tytuł
 Share = Udostępnij
-Add file =
+Add file = Dodaj plik
 Visibility = Widoczność
-Allow Comments = Umożliw komentowanie
-Public (Anyone can see this project but only you can modify it.) =
-Private (Only you can see and modify this project) = Prywatny (Tylko ty możesz zobaczyć i edytować projekt)
+Allow Comments = Zezwól na komentarze
+Public (Anyone can see this project but only you can modify it.) = Publiczny (Każdy może zobaczyć ten projekt, ale tylko ty możesz go modyfikować.)
+Private (Only you can see and modify this project) = Prywatny (Tylko ty możesz zobaczyć i edytować ten projekt)
 Create new project success! = Nowy projekt utworzony!
-You can now create files under this project =
-This file must be saved under a project, choose other project or create a new project =
-Please login to save this kind of document =
-Duplicated project title =
+You can now create files under this project = Teraz możesz tworzyć pliki pod tym projektem
+This file must be saved under a project, choose other project or create a new project = Ten plik musi być zapisany pod projektem, wybierz inny projekt lub stwórz nowy projekt
+Please login to save this kind of document = Proszę zalogować się, aby zapisać ten typ dokumentu
+Duplicated project title = Zduplikowany tytuł projektu
 #Duplicated document title
-Project does not exist =
-Document does not exist =
-document not exists =
+Project does not exist = Projekt nie istnieje
+Document does not exist = Dokument nie istnieje
+document not exists = dokument nie istnieje
 
 Categories = Kategorie
 Project = Projekt
-Short description =
+Short description = Krótki opis
 Content = Zawartość
 Modify this project info. = Modyfikuj informacje o tym projekcie.
 Modify this file info. = Modyfikuj informacje o tym pliku.
 Notice = Notatka
-Search for it before creating a new one. =
-Manufacturer Part Number =
+Search for it before creating a new one. = Wyszukaj to przed tworzeniem nowego.
+Manufacturer Part Number = Numer Części Producenta
 Supplier = Dostawca
 Or = Lub
-Supplier Part =
+Supplier Part = Część dostawcy
 Supplier Part Number = Numer części dostawcy
-Link =
-link =
+Link = Łącze
+link = łącze
 The professional function please refer at: =
 
 #Dialog Clone My Part
