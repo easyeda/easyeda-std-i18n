@@ -1449,7 +1449,7 @@ Delete = Deletar
 Attachment = Anexar Arquivos
 Archive = Arquivar
 Transfer = Transferir
-Manage Project =
+Manage Project = Gerenciar Projeto
 
 #Dialog Verify Package
 Footprints Verification = Verificação de Footprints
