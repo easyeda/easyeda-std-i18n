@@ -1249,7 +1249,7 @@ TopSilkLayer = Serigrafia strato superiore
 Protractor Properties = Proprietà del goniometro
 BottomSilkLayer = Serigrafia strato inferiore
 
-BoardOutLine = Linea contorno della scheda
+BoardOutLine = Linea di contorno della scheda
 TopAssembly = Montaggio superiore
 BottomAssembly = Montaggio inferiore
 Mechanical = Meccanico
@@ -1303,7 +1303,7 @@ ComponentMarkingLayer = Strato demarcazione componente
 Ratlines = Linee di collegamento
 Ratlines Color = Colore linee di collegamento
 Manage Colors = Gestisci colori
-BoardOutline = Linea contorno della scheda
+BoardOutline = Linea di contorno della scheda
 Multi-Layer = Multistrato
 Hole = Foro
 DRCError = Errore DRC
