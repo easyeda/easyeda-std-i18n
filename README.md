@@ -129,3 +129,4 @@ Previous contributors:
 - 君子兰: Help translated EasyEDA editor from English to Vietnamese language.
 - Zdenek Hubner: Help translated EasyEDA from English to Czech language.
 - William Kazan: Help translated EasyEDA from English to Portuguese language.
+- uPesy:  Help translated EasyEDA from English to French language. https://upesy.com/
