@@ -1,0 +1,3308 @@
+# Menu
+User = 사용자
+Join... = 가입...
+Login... = 로그인...
+Log in = 로그인
+Logout = 로그아웃
+Change password... = 비밀번호 변경
+User Preference = 사용자 기본 설정
+System Settings... = 시스템 설정...
+System Settings = 시스템 설정
+Crash =
+Invite friends... = 친구 초대...
+Language = 언어
+Language Setting = 언어 설정
+
+Document Recovery = 문서 복원
+Your Preferences Information = 기본 설정 정보
+File = 파일
+New = 새 파일
+Project... = 프로젝트...
+Schematic = 회로
+Schematic-Simulation = 회로-시뮬레이션
+Spice Symbol = SPICE 심볼
+Spice Subckt = SPICE 서브서킷
+spicePre =
+PCB =
+Schematic Module = 회로 모듈
+PCB Module = PCB 모듈
+Save... = 저장...
+Save As... = 다른 이름으로 저장...
+Save As Module... = 모듈로 저장...
+Print = 인쇄
+Export Document = 문서 내보내기
+LTspice... =
+Eagle... =
+Altium... =
+Cadence... =
+Pads... =
+DXF =
+Import = 불러오기
+
+
+Edit = 편집
+Undo = 실행 취소
+Redo = 다시 실행
+Cut = 잘라내기
+Copy = 복사
+Paste = 붙여넣기
+Select = 선택
+Delete = 삭제
+Clear All = 전체 지우기
+Move = 이동
+Drag = 끌기
+Bring to Front = 앞으로 가져오기
+Send to Back = 뒤로 보내기
+Align = 정렬
+Align Left = 왼쪽 맞춤
+Align Right = 오른쪽 맞춤
+Align Top = 위로 맞춤
+Align Bottom = 아래로 맞춤
+Align Horizontal Centers = 수평 가운데 맞춤
+Align Vertical Centers = 수직 가운데 맞춤
+Distribute Horizontally = 수평 배열
+Distribute Vertically = 수직 배열
+Distribute Left Edges Equidistantly = 왼쪽 등간격 맞춤
+Distribute Top Edges Equidistantly = 위쪽 등간격 맞춤
+Align Grid = 그리드 정렬
+Rotate = 회전
+Rotate Left = 시계 반대방향 회전
+Rotate Right = 시계 방향 회전
+Flip Horizontal = 상하 대칭
+Flip Vertical = 죄우 대칭
+Rotate and Flip = 회전 및 대칭
+Group/Ungroup Symbol... = 심볼 그룹/그룹 해제...
+
+[menu_project]
+View = 보기
+[/menu_project]
+Find = 찾기
+Zoom In = 확대
+Zoom Out = 축소
+Fit in Window = 창에 맞춤
+Refresh = 새로고침
+Snap = 스냅
+Cross Cursor = 십자선
+Toolbars = 도구막대
+Drawing Tools = 그리기 도구
+Wiring Tools = 배선 도구
+Power Objects = Power 객체
+PCB Tools = PCB 도구
+Footprint Tools = 실장 부품 형상 도구
+Layers Tool = 레이어 도구
+Layer Manager = 레이어 관리자
+Enable and Show All Layers = 모든 레이어 활성화 및 표시
+Net Visible = Net 보기
+Auto = 자동
+Digital Objects = 디지털 객체
+Tools = 도구
+Arc Center = 원호 중심
+Arc Type = 원호 종류
+Center Point Arc = 중심점 원호
+Two-point Arc = 2점 원호
+
+Place = 배치
+Drawing Tools = 그리기 도구
+Arc = 원호
+Elliptical Arc = 타원형 호
+Ellipse = 타원
+Circle = 원
+Pie = 파이
+Line = 선
+Polyline = 폴리라인
+Rectangle = 사각
+Rectangular = 사각형
+The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = 직사각형은 90도가 아닌 회전을 지원하지 않습니다. 대신 솔리드 영역을 사용하십시오.
+
+Rect = 직사각형
+Round Rectangle = 모따기 직사각형
+Polygon = 다각형
+Bezier = 베지어 곡선
+Path = 경로
+Graphic = 그래픽
+Bus = 버스
+Bus Entry = 버스 진입점
+Junction = 접합
+Net Port = Net 포트
+Voltage Probe = 전압 프루브
+Power Port = 전원 포트
+Wire = 배선
+Annotation = 주석
+Track = 트랙
+Image = 이미지
+Arrow Head = 화살표
+Arrowhead = 화살표
+Arrow = 화살표
+No Connect Flag = 연결없음 플래그
+Place = 배치
+Pin = 핀
+Lock Selected Objects = 선택 객체 잠그기
+
+Miscellaneous = 기타
+Find Component = 부품 찾기
+Component = 부품
+Footprint... = 실장 부품 형상...
+This component is deleted! = 이 부품은 삭제되었습니다!
+Convert = 변환
+Convert Schematic to PCB = 회로를 PCB로 변환
+The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: = 부품 아이디는 부품 접두어에 따라 재설정되며 이 작업은 명령 실행 취소 기록을 지웁니다. 참고:
+Please make sure the component prefixes of the schematic and PCB are corresponding = 회로도 및 PCB의 부품 접두어가 해당하는지 확인하십시오.
+Please reset the component ID of corresponding schematic or corresponding PCB too = 해당 회로도 또는 해당 PCB의 부품 아이디도 재설정하십시오.
+Do you want to continue? = 계속하시겠습니까?
+Reset Component Unique ID = 부품 아이디 재설정
+Component ID reset successfully! = 부품 아이디 재설정 성공!
+Convert to PCB = PCB로 변환
+Update PCB = PCB 업데이트
+Shortcut Keys Setting = 단축키 설정
+Edit Symbol... = 심볼 편집...
+Highlight Net... =
+Simulate = 시뮬레이트
+Simulation = 시뮬레이션
+Standard Mode = 일반 모드
+Simulation Mode = 시뮬레이션 모드
+Change to Standard Mode = 일반 모드로 변경
+Change to Simulation Mode = 시뮬레이션 모드로 변경
+Welcome to Use LCEDA = LCEDA 사용을 환영합니다.
+Welcome to Use EasyEDA = EasyEDA 사용을 환영합니다.
+Enable Education Edition Features for Free >>> = 교육용 버전 기능을 무료로 활성화 >>>
+Quick Start = 빠른 시작
+More Help = 추가 도움말
+Explore = 탐색
+Message = 메세지
+[start]
+Example = 예제
+Forum = 포럼
+Tutorials = 연습
+Videos = 비디오
+[/start]
+Custom Data = 사용자 데이터
+LCEDA =
+
+Copy Result Image = 결과 이미지 복사
+Export Result Image = 결과 이미지 내보내기
+Simulation Result = 시뮬레이션 결과
+Simulation Results... = 시뮬레이션 결과...
+Simulate this Sheet = 이 시트 시뮬레이트
+Simulate this Project = 이 프로젝테 시뮬레이트
+Non-simulation mode, please switch to the simulation mode first and then run = 시뮬레이션 모드 아님, 먼저 시뮬레이션 모드로 전환한 다음 실행하십시오.
+Run the Document = 문서 실행
+Run the Project... = 프로텍트 실행...
+Netlist for Document = 문서의 Net 리스트
+Netlist for Project = 프로젝트의 Net 리스트
+LTspice for This Sheet... = 이 시트에 대한 LIspice...
+Spice for this Project... = 이 프로젝트에 대한 Spice...
+Protel/Altium for PCB... = PCB 설계를 위한 Protel/Altium...
+PADS for PCB... = PCB용 PADS...
+FreePCB for PCB... = PCB용 FreePCB
+Eagle for PCB... = PCB용 Eagle
+Kicad for PCB... = PCB용 Kicad
+OrCAD for PCB... = PCB용 OrCAD
+BOM report... = 부품표 보고서...
+BOM for Document... = 이 문서의 부품표
+BOM for Project... = 이 프로젝트의 부품표
+Pin Manager... = 핀 관리자...
+Spice Model... = Spice 모델...
+Layer Manager... = 레이어 관리자...
+Net Color... = Net 색상...
+Design Rule... = 설계 규칙...
+Copper Area = 구리도금 영역
+Rebuild Selected = 선택된 것 재생성
+Rebuild All = 모두 재생성
+Copper Area Manager... = 구리도금 영역 관리자...
+Export Pick and Place File = 선택 및 배치 파일 내보내기
+Measure Distance = 거리 측정
+Set Canvas Origin by Mouse Location = 마우스 위치로 캔버스 원점 설정
+Generates Pick and Place File = 선택 및 배치 파일 생성
+Unroute All = 모두 언라우팅
+Auto Route = 오토라우팅
+Export Autorouter File(DSN) = 오토라우팅 파일(DSN) 내보내기
+Import Autorouter Session File(SES) = 오토라우팅 세션 파일(SES) 불러오기
+Autorouter File(DSN) = 오토라우팅 파일(DSN)
+Autorouter Session File(SES) = 오토라우팅 세션 파일(SES)
+Terminate Routing Automatically = 오토라우팅 끝내기
+Delete Segments = 세그먼트 삭제
+Unroute Connections = 연결 언라우팅
+Unroute Connection = 연결 언라우팅
+Unroute Nets = Net 언라우팅
+Select = 선택
+Segments = 세그먼트
+Connection = 연결
+Net =
+Apply Design Rule While Routing and Auto Placing Via = 라우팅 및 비아홀 자동 배치 중 설계 규칙 적용
+
+Add SubPart = 서브파트 추가
+Annotate... = 주석...
+Config = 구성
+
+Help = 도움말
+About = 정보
+Shortcut Keys = 단축키
+FAQ =
+Tutorials = 연습
+Basic Tutorials = 기본 연습
+Video Tutorials = 비디오 연습
+Essential Check = 핵심 연습
+Simulation Tutorials = 시뮬레이션 연습
+Updated Instructions = 업데이트된 지침
+Open File Format = 파일 형식 열기
+About Upgrade = 업그레이드 정보
+User Forum = 사용자 포럼
+Live Q/A =
+No live broadcast now =
+Feature Request = 기능 요청
+Feature Requests = 기능 요청
+Bug Report = 문제점 보고서
+Bug Reports = 문제점 보고서
+Tips & Skill = 팁과 기술
+Ask for Help = 도움을 위한 문의
+Schematic Capture = 회로 갈무리
+Spice Simulation = Spice 시뮬레이션
+Non-simulation mode = 시뮬레이션 모드 아님
+PCB Layout = PCB 레이아웃
+General Discussion = 일반 토론
+More Information = 추가 정보
+Privacy Policy = 개인 정보 정책
+#Terms of Use & Privacy Policy = 이용약관 및 개인정보 보호정책
+Terms of Service = 서비스 약관
+Plans and Pricing = 계획 및 가격
+Help Translate = 번역 도움말
+About Us = 회사 소개
+Contact Us = 문의하기
+Change History = 변경 내역
+Join Us = 가입
+#PCB Fabrication Capabilities = PCB 제작 능력
+PCB Fabrication = PCB 제작
+Order Capabilities = 제작 주문
+Order Price = 주문 가격
+Order Essential Check = 필수 확인 주문
+Order FAQ = 주문 FAQ
+Order Process = 주문 방법
+Full Screen = 전체 화면
+
+Support = 지원
+[leftNavTabs]
+Support = 지원
+[/leftNavTabs]
+Historical Records... = 역사적인 기록들...
+Extensions = 확장 기능
+Order PCB... = PCB 주문
+Import Changes = 변경사항 불러오기
+Press {0}F11{1} to switch to full screen. = 전체 화면으로 전환하려면 {0}F11{1} 키를 누릅니다.
+Delete Selected = 선택 삭제
+Simulate... = 시뮬레이트...
+Config = 구성
+Terms of Service & Privacy Policy = 서비스 및 개인정보취급방침 이용약관
+Help Topics = 도움말 주제
+3D Model(obj) =
+3D Model(step) =
+SVG Source... = SVG 소스...
+File Source = 파일 소스
+Group These Items as a Symbol = 아이템들을 심볼로 그룹화
+Group These Items as a Footprint = 아이템들을 실장 부품 형상으로 그룹화
+Set Canvas Origin = 캔버스 원점 설정
+Document Setting = 문서 설정
+Sheet Properties = 시트 속성
+Set Board Outline = 보드 윤곽선 설정
+Teardrop... = 라운드 패턴 보강...
+Panelize... = 패널화...
+Check Dimension = 치수 확인
+Smart Dimension = 스마트 치수
+Footprint Wizard = 실장 부품 형상 마법사
+Footprint Wizard... = 실장 부품 형상 마법사...
+Select package type = 패키지 형식 선택
+Smart Dimension Properties = 스마트 치수 속성
+Global Delete = 전역 삭제
+Cross Probe = 프루브 교차
+Cross Probe and Place = 프루브 및 배치 교차
+Paper Size = 용지 크기
+Register = 등록
+User Center = 사용자 센터
+
+By Mouse Location = 마우스 위치 기준
+Set Coordinate = 좌표 설정
+By Coordinates... = 좌표 기준...
+By Center of Pads = Pads의 중심 기준
+By Center Grid of Symbols = 심볼의 중심 그리드 기준
+
+#Schematic Canvas Properties
+Properties = 속성
+Apply = 적용
+Save as default = 기본값으로 저장
+Canvas Properties = 캔버스 속성
+Width = 폭
+Height = 높이
+Background = 배경
+Visible Grid = 그리드 표시
+Grid Visible = 그리드 표시
+Real-Time Track Length = 실시간 트랙 길이
+Display Real-Time Track Length = 실시간 트랙 길이 표시
+Grid Color = 그리드 색상
+Grid Size = 그리드 크기
+Grid Style = 그리드 스타일
+Grid.Line Width = 그리드 선 두께
+Grid.Line Spacing = 그리드 선 간격
+Copper to Board Outline = 보드 윤곽선을 위한 구리도금
+Improve Fabrication = 제작 개선
+Spoke Width = 자간
+Stroke Color = 획 색상
+Stroke Width = 획 폭
+Stroke Style = 획 스타일
+Fill Color = 색상 채우기
+Selected Objects = 선택된 객체
+Frame Size = 프레임 크기
+Alt Snap =
+Snap size when pressing the Alt key = Alt 키를 누를 때 스냅 크기
+Prefix Start = 시작 접두어
+
+#Text Properties
+Text Properties = 텍스트 속성
+Text = 텍스트
+Color = 색상
+Font Family = 글꼴 모음
+Font Size = 글꼴 크기
+Font Weight = 글꼴 두께
+Font Style = 글꼴 스타일
+Text Type = 텍스트 유형
+Text Anchor = 텍스트 앵커
+Baseline = 기준선
+(Auto) = (자동)
+(auto) = (자동)
+start = 시작
+middle = 중간
+end = 끝
+inherit = 상속
+comment = 설명
+spice =
+normal = 일반
+italic = 기울임
+Default = 기본
+Add = 추가
+bold = 굵은
+bolder = 더 굵은
+lighter = 가는
+Failed to parse the font file: {name} = 글꼴 파일을 구문 분석하지 못했습니다: {name}
+Please select a font file of ttf or woff format. = TTF 또는 WOFF 형식의 글꼴 파일을 선택하십시오.
+Add font success: {name} = 글꼴 추가 성공: {name}
+Failed to add font: {name} = 글꼴 추가 실패: {name}
+Add Font = 글꼴 추가
+Failed to parse cached font: {name} = 캐시된 글꼴을 구문 분석하지 못했습니다: {name}
+Load cached fonts fail! = 캐시된 글꼴 로드 실패!
+
+#Stroke
+Stroke Color = 획 색상
+Stroke Width = 획 폭
+Stroke Style = 획 스타일
+Fill Color = 채움 색상
+X Radius = X 반지름
+Y Radius = Y 반지름
+
+#spice
+Switch mode = 스위치 모드
+The current documents will be closed, and reopen after switching mode, do you want to continue? = 현재 문서가 닫히고 모드를 전환한 후 다시 열립니다. 계속하시겠습니까?
+PCB related documents are not allowed in emulation mode = PCB 관련 문서는 에뮬레이션 모드에서 허용되지 않습니다.
+Please change the editor to "Simulation" mode first at the top left corner. = 먼저 왼쪽 상단 모서리에서 편집기를 "시뮬레이션" 모드로 변경하십시오.
+Please change the editor to "Standard" mode first at the top left corner. = 왼쪽 상단 모서리에서 먼저 편집기를 "표준" 모드로 변경하십시오.
+Common = 일반
+spice.open = spice.열기
+spice.close = spice.닫기
+Sources = 소스
+Instruments/Meters = 계기/미터
+Transistors = 트랜지스터
+Digital Circuits = 디지털 회로
+Operational Amplifier = 연산 증폭기
+multimeter = 멀티미터
+multimeter Settings = 멀티미터 설정
+FunctionGenerator Settings = 펑션제너레이터 설정
+Voltage Source Settings = 전압 소스 설정
+Current Source Settings = 전류 소스 설정
+Powersw Settings = 전원 소스 설정
+Resistor Settings = 저항 설정
+Capacitor Settings = 커패시터 설정
+Diode Settings = 다이오드 설정
+voltPowersw Settings = 전압전원 설정
+Inductor Settings = 인덕터 설정
+VCVS Settings = 전압조절된 전압소스(VCVS) 설정
+CCCS Settings = 전류저절된 전류소스(CCCS) 설정
+VCCS Settings = 전압조절된 전류소스(VCCS) 설정
+CCVS Settings = 전류조절된 전압소스(CCVS) 설정
+JFET Settings = 전합전계효과트랜지스터(JFET) 설정
+FET Settings = 전계효과트랜지스트(FET) 설정
+Transmission Line Settings = 전송라인 설정
+Oscilloscope Settings = 오실로스코프 설정
+XFMR Settings = XFMR 설정
+LOGIC Settings = 로직 설정
+LOGICSTATE Settings = 로직상태 설정
+DIGITALCLOCK Settings = 디지털클럭 설정
+Potentiometer Settings = 전위차계 설정
+MUTUAL_INDUCTORS Settings = 상호 인덕터 설정
+NE555 Settings = NE555 설정
+THREE_PHASE Settings = 3상 설정
+Logic_Probe Settings = 로직 프루브 설정
+78XX Settings = 78XX 설정
+79XX Settings = 79XX 설정
+OPAMP5PEE Settings = OPAMP5PEE 설정
+OPAMP5PEECN Settings = OPAMP5PEECN 설정
+OPAMP3PEE Settings = OPAMP3PEE 설정
+OPAMP3PEECN Settings = OPAMP3PEECN 설정
+DELAY_FUSE Settings = DELAY_FUSE 설정
+Ratio = 비율
+K[%]
+Model = 모델
+States = 상태
+Voltage[V] = 전압[V]
+Voltage gain[V/V] = 전압 이득[V/V]
+Current gain[A/A] = 전류 이득[A/A]
+Transconductance[Mho] = 트랜스컨덕턴스[Mho]
+Transresistance[Ω] = 저항[Ω]
+Voltage Source Type = 전압 소스 유형
+Current Source Type = 전류 소스 유형
+multimeter type = 멀티미터 유형
+power type = 전원 유형
+Voltmeter Resistance(R)(Ω) = 전압계 저항(R)(Ω)
+Amperometer Resistance(R)(Ω) = 전류계 저항(R)(Ω)
+mu.V =
+mu.A =
+Sine Wave = 사인파
+Triangular Wave = 삼각파
+Rectangular Wave = 사각파
+AC = 교류
+DC = 직류
+SINE =
+PULSE =
+EXP =
+SFFM =
+PWL =
+B.spice =
+DC Value[V] =
+DC Value[A] =
+DC offset[V] =
+DC offset[A] =
+Amplitude[V] =
+Amplitude[A] =
+Freq[Hz] =
+Theta[1/s] =
+Tdelay[s] =
+Phi[deg] =
+Tperiod[s] =
+Ton[s] =
+Tfall[s] =
+Trise[s] =
+Von[V] =
+Von[A] =
+Vinitial[V] =
+Vinitial[A] =
+Vpulsed[V] =
+Vpulsed[A] =
+Rise Delay[s] =
+Rise Tau[s] =
+Fall Delay[s] =
+Fall Tau[s] =
+Carrier Freq[Hz] =
+Modulation Index =
+Signal Freq[Hz] =
+Time[s] =
+Value[V] =
+Value[A] =
+Waveforms =
+Duty cycle[%] =
+Amplitude[Vp] =
+Offset[V] =
+Rise/Fall Time[sec] =
+Capacitance[F] =
+sComponent =
+Inductance[H] =
+Gbw =
+Slewrate =
+Avol =
+Rout(Ω) =
+Rin(Ω) =
+Ibias[A] =
+Inhi[V] =
+Inlo[V] =
+Isc[A] =
+Outhi[V] =
+Outlo[V] =
+Vabsmax[V] =
+Vmin[V] =
+Iq[A] =
+Cin[F] =
+high =
+low =
+Oscilloscope =
+Logic Analyzer =
+Channel_A =
+Channel_B =
+Channel A =
+Channel B =
+Time =
+Reverse =
+Simulation file exceed = 시뮬레이션 파일 초과
+The simulation file is too large and has been stopped for performance reasons. = 시뮬레이션 파일이 너무 커서 성능상의 이유로 중지되었습니다.
+Timebase =
+Scale: =
+X pos.(Div): =
+Y pos.(Div): =
+View meter... = 미터 보기...
+The circuit has components without simulation model: = 회로에는 시뮬레이션 모델이 없는 부품이 있습니다.
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = 시뮬레이션 간격이 너무 짧아 시뮬레이션할 수 없습니다. 5초 후에 다시 시도하십시오. 이 메시지가 계속 표시되면 하루 최대 시뮬레이션 횟수의 500배 이상을 시뮬레이션한 것일 수 있습니다.
+Resistor1_US =
+Resistor1_EU/IEC =
+Resistor1_3D =
+Capacitor1_US =
+Capacitor1_EU/IEC =
+Capacitor1_3D =
+Rheostat_US =
+Rheostat_EU/IEC =
+Rheostat_3D =
+Capacitor_Electrolytic_US =
+Capacitor_Electrolytic_EU/IEC =
+Capacitor_Electrolytic_3D =
+Inductor_US =
+Inductor_EU/IEC =
+Inductor_3D =
+Resistor2_US =
+Resistor2_EU/IEC =
+Resistor2_3D =
+Multimeter =
+Multimeter_3D =
+Oscilloscope =
+Oscilloscope_3D =
+Signal_Generator =
+Signal Generator_3D =
+Wattmeter =
+Wattmeter_3D =
+NSSWS1080T_3D =
+Voltage_Source_VDC =
+Voltage_Source_VSin =
+Voltage_Source_VPULSE =
+Voltage_Source_VEXP =
+Voltage_Source_VSFFM =
+Voltage_Source_VPWL =
+Voltage_Source_V_Behavioral_Source =
+Current_Source_IDC =
+Current_Source_ISin =
+Current_Source_IPULSE =
+Current_Source_IEXP =
+Current_Source_ISFFM =
+Current_Source_IPWL =
+Current_Source_I_Behavioral_Source =
+CCCS_1 =
+CCCS_2 =
+CCVS_1 =
+CCVS_2 =
+VCCS =
+VCVS =
+Three_Phase_Wye_Load =
+Three_Phase_Delta_Load =
+78XX =
+79XX =
+555 =
+555_3D =
+Transformer_US =
+Transformer_EU/IEC =
+Transformer_Center_Tapped_US =
+Transformer_Center_Tapped_EU/IEC =
+Mutual_Inductor_US =
+Mutual_Inductor_EU/IEC =
+Mutual_Inductor2_US =
+Mutual_Inductor2_EU/IEC =
+OR2EE_US =
+OR3EE_US =
+OR4EE_US =
+OR2EE_CN =
+OR3EE_CN =
+OR4EE_CN =
+NOR2EE_US =
+NOR3EE_US =
+NOR4EE_US =
+NOR2EE_CN =
+NOR3EE_CN =
+NOR4EE_CN =
+AND2EE_US =
+AND3EE_US =
+AND4EE_US =
+AND2EE_CN =
+AND3EE_CN =
+AND4EE_CN =
+NAND2EE_US =
+NAND3EE_US =
+NAND4EE_US =
+NAND2EE_CN =
+NAND3EE_CN =
+NAND4EE_CN =
+XOR2EE_US =
+XOR2EE_CN =
+XNOR2EE_US =
+XNOR2EE_CN =
+Digital_Clock_1Hz =
+Logicstate_0 =
+Logicstate_1 =
+Logic_Probe =
+Buffee =
+INVEE_US =
+INVEE_CN =
+Schmittbuffee =
+LM358N_US =
+LM358N_CN =
+OPAMP3PEE_US =
+OPAMP3PEE_CN =
+OPAMP5PEE_US =
+OPAMP5PEE_CN =
+Voltage_Controlled_Switch =
+Current_Controlled_Switch =
+FUSE =
+Delay_Fuse =
+Transmission_Line =
+Crystal =
+DFFEE =
+TFFEE =
+JKFFEE =
+SRFFEE =
+SRLATCHEE =
+SRNANDFFEE =
+SRNORFFEE =
+INVTSEE =
+INVODEE =
+Cbuffer =
+SPDT_Open =
+SPDT_Close =
+SPST_Close =
+SPST_Open =
+Fast_Crystal =
+Lamp =
+BCD_Segment = BCD세크먼트
+Seven_Segment = 7세그먼트
+Traffic_Light = 신호등
+Lamp Settings = 램프 설정
+Power[W] = 전력[W]
+Dropout Voltage[V] = 드롭아웃 전압[V]
+Current[A] = 전류[A]
+Threshold[V] = 임계값[V]
+Clock Rate = 클럭 속도
+TrafficLight Settings = 신호등 설정
+BCDSegment Settings = BCD세그먼트 설정
+SevenSegment Settings = 7세그먼트 설정
+SPDT Settings = 단극쌍투 3로스위치(SPDT) 설정
+SPST Settings = 단극단투 스위치(SPST) 설정
+LogicAnalyzer Settings = 로직어낼라이저 설정
+Fuse Settings = 휴즈 설정
+Wattmeter Settings = 와트메타 설정
+open = 열기
+close = 닫기
+Common Anode = 공통 양극(Anode)
+Common Cathode = 공통 음극(Cathode)
+AC Amplitude = 교류(AC) 진폭
+AC Phase = 교류(AC) 위상
+There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = 일부 부품에는 SPICE 모델이 없습니다. "시뮬레이션" 모드의 "라이브러리"에서 "EElib" 및 "Spice 심볼"을 사용하거나 해당 SPICE 모델을 할당할 수 있습니다.:
+
+#Pin
+Pin Properties = 핀 속성
+Orientation = 방위
+Line 45° = 45°선
+Line 90° = 90°선
+Arc 45° = 45°원호
+Arc 90° = 90°원호
+Free Angle = 자유 각도
+Start X = 시작 X좌표
+Start Y = 시작 Y좌표
+Length = 길이
+Name = 이름
+name = 이름
+Number = 숫자
+Spice Pin Order = Spice 핀 순서
+Display Number = 표시 숫자
+Clock = 클럭
+Show = 보이기
+Electric = 전기
+
+#Junction
+Junction Properties = 접합 속성
+X Location = X 위치
+Y Location = Y 위치
+Size = 크기
+Color = 색삭
+
+#Net Label
+Net Label = Net 라벨
+
+#Part
+Prefix = 접두어
+
+#Image Properties and Dialog
+Add Image = 이미지 추가
+Image Properties = 이미지 속성
+Image URL = 이미지 URL
+Input an image URL = 이미지 URL 입력
+Invalid image URL = 잘못된 이미지 URL
+Invalid Prefix = 잘못된 접두어
+Failed to load the image = 이미지 불러오기 중 실패
+Image URL contains special characters = 이미지 URL에 특수 문자가 포함되어 있습니다.
+From Web URL = 웹 URL로부터
+From Local Computer = 로컬 컴퓨터로부터
+Please select a png/gif/jpg file. = PNG/GIF/JPG 파일을 선택하세요.
+Please select an image file. = 이미지 파일을 선택하세요.
+Select an image file = 이미지 파일 선택
+Insert Image to PCB =  이미지를 PCB로 삽입
+Tolerance = 공차
+tolerance = 공차
+capacitance = 캐퍼시턴스
+frequency = 주파수
+Rated Voltage = 정격 전압
+Rated Current = 정격 전류
+resistance = 저항
+Resistance = 저항
+Resistance[Ω] = 저항[Ω]
+inductance = 인덕턴스
+Operating Temperature = 작동 온도
+Shape Invert = 반전 형상
+Image Size = 이미지 크기
+Color Tolerance = 색상 공차
+Simplify Level = 레벨 단순화
+Corner Threshold = 코너 임계값
+
+#PCB Canvas Properties
+Units = 단위
+Snap Size = 스냅 크기
+Other = 기타
+Routing Width = 라우팅 폭
+[router]
+Routing Width = 라우팅 폭
+[/router]
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = 라우팅 중에 트랙 폭을 변경하려면 단축키 {0}{key1}{1} 또는 {2}{key2}{3}를 사용하십시오.
+Routing Angle = 라우팅 각도
+Routing Conflict = 라우팅 충돌
+Remove Loop = 루프 제거
+Cut SilkScreen = 실크스크린 잘라내기
+Grid = 그리드
+Grid 90 = 90°그리드
+Grid 45 = 45°그리드
+Copper Zone = 구리도금 영역
+Visible = 표시
+Invisible = 표시하지 않음
+Ignore = 무시
+Block = 차단
+RoundTrack =
+
+#Track
+Track Properties = 트랙 속성
+Layer = 레이어
+Net = 네트
+Start X = 시작 X
+Start Y = 시작 Y
+End X = 끝 X
+End Y = 끝 Y
+ID = 아이디
+
+#Pad Properties
+Pad Properties = 패드 속성
+Shape = 형상
+Hole(D) = 구멍（D)
+Center X = 중심 X
+Center Y = 중심 Y
+Round = 둥글게
+Oval = 타원형
+Hole Shape = 구멍 형상
+Slot = 슬롯
+Hole(Length) = 구멍(길이)
+Plated = 도금
+None = 없음
+Paste Mask Expansion = 패이스트 마스크 확장
+Solder Mask Expansion = 솔더 마스크 확장
+
+#Via Properties
+Via Properties = 비아홀 속성
+Diameter = 직경
+Drill Diameter = 드릴 직경
+
+#Hole Properties
+Hole Properties = 홀 속성
+
+
+#TEXT
+Text Properties = 텍스트 속성
+Line Width = 선 두께
+Rotation = 회전
+Fonts Management = 글꼴 관리
+
+#Dimension Properties
+Dimension Properties = 치수 속성
+
+#Footprint Properties
+Component Properties = 부품 속성
+Display Prefix = 접두어 표시
+Pin Name = 핀 이름
+Pin Number = 핀 번호
+Spice Pin Number = Spice 핀 번호
+Graphics = 그래픽
+Pattern = 패턴
+
+Pin: =
+Netflag: =
+Netlabel: =
+NetPort: =
+Voltage Probe: =
+Pin: =
+Hidden Pin: =
+Unknown: =
+#Arc Properties
+Arc Properties = 원호 속성
+Start Angle = 시작 각도
+End Angle = 끝 각도
+Rotation Direction = 회전 방향
+
+#Rect Properties
+Rect Properties = 사각형 속성
+Round radius = 라운드 반경
+
+#Circle Properties
+Circle Properties = 원 속성
+Radius = 반지름
+
+#CopperArea Properties
+CopperArea Properties = 구리도금영역 속성
+Clearance = 클리어런스
+Pad Connection = 핀 연결
+Direct = 직접
+Spoke = 스포크
+Keep Island = 고립 유지
+Fill Style = 채우기 스타일
+CopperArea conflict: copper area outlines in same layer with different net names must not overlap = 구리도금영역 충돌: Net 이름이 다른 동일한 레이어의 구리도금영역 윤곽선이 겹치지 않아야 합니다.
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = 구리도금 영역 재생성 완료! 빈 영역을 한 번 클릭한 후 오른쪽 속성 패널에서 "Copper Zone"을 "Visible"로 설정할 수 있습니다.
+Please create board outline first. = 먼저 보드 윤곽선을 만드세요.
+Board outlines are not closed. = 보드 윤곽선가 닫히지 않았습니다.
+Rebuild CopperArea = 구리도금영역 재생성
+Edit Points = 점 편집
+Direct = 직접
+Spoke = 스포크
+No Solid = 솔리드 아님
+Board Cutout = 보드 컷아웃
+Solid = 솔리드
+[copperArea]
+None =
+[/copperArea]
+
+#Custom Properties
+Custom Properties = 사용자 속성
+Fixed Properties = 고정 속성
+Add new parameter = 새로운 파라메타 추가
+Add New Parameter = 새로운 파라메타 추가
+Add New Supplier = 새로운 공급자 추가
+Mounted = 장착
+Unknown = 모름
+
+Custom =
+Scan the QR code below and open it on the mobile side = 아래 QR 코드를 스캔하여 모바일에서 엽니다.
+How to create a single layer PCB = 단일 레이어 PCB를 만드는 방법
+Currently doesn't support layout single layer directly, please refer at: = 현재 레이아웃 단일 레이어를 직접 지원하지 않습니다.:
+
+#Dialog Register
+Create an account = 계정 생성
+Username = 사용자 이름
+Password = 비밀번호
+Confirm Password = 비밀번호 재입력
+Email = 이메일
+Please read this before you register = 등록하기 전에 이것을 읽으십시오
+Hi {username} = 안녕하세요. {username}님
+
+#Dialog lostPassword
+Lost Password... = 비밀번호 분실...
+Find the password using your email = 이메일을 사용하여 비밀번호 찾기
+
+
+
+#Dialog Login
+Login = 로그인
+Username or Email = 사용자 이름 또는 이메일
+Remember Me = 기억하기
+Third party = 제3자
+Login and Register = 로그인과 등록
+Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = 로그인 정보가 만료된 것 같습니다. 다시 로그인하십시오. 여는 파일을 닫을 필요가 없으며 로그인 후 계속 저장할 수 있습니다.
+
+#Dialog Reset Password
+Reset a password using your email = 이메일을 사용하여 비밀번호 재설정
+Your registered email = 등록된 이메일
+
+#Dialog Reaction
+Re-send an activation code to your email = 이메일로 활성화 코드 다시 보내기
+
+#Dialog Invite
+Invite friends to register = 친구를 등록하도록 초대
+Your friend's email = 친구의 이메일
+
+#Dialog Add A New Parameter
+Add a new parameter = 새로운 파라메타 추가
+Key = 키
+Value.new_para =
+In BOM = 부품표 내
+Add into BOM = 부품표 내로 추가
+Invalid key = 잘못된 키
+This field is required. = 이 필드는 필수입니다.
+
+#Dialog Change Your Password
+Change your password = 비밀번호 변경
+Old password = 이전 비밀번호
+New Password = 새로운 비밀번호
+Confirm Password = 비밀번호 재입력
+
+#Dialog Create New Design
+Save as a New Project = 새 프로젝트를 다른 이름으로 저장
+Save as a schematic = 회로도를 다른 이름으로 저장
+Save as Symbol = 심볼을 다른 이름으로 저장
+Save as a spice Symbol = SPICE 심볼을 다른 이름으로 저장
+Save as a spice subckt = SPICE 서브서킷을 다른 이름으로 저장
+YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = 이 서브서킷과 정확히 같은 이름으로 SPICE 심볼을 생성해야 합니다.
+Save as a PCB file = PCB 파일을 다른 이름으로 저장
+Save as Footprint = 실장 부품 형상을 다른 이름으로 저장
+Save as a Schematic Module = 회로도 모듈을 다른 이름으로 저장
+Save as a PCB Module = PCB 모듈을 다른 이름으로 저장
+Save as 3D Model = 3D 모델을 다른 이름으로 저장
+Save as a WaveForm = 파형을 다른 이름으로 저장
+Title = 제목
+Share = 공유
+Add file = 파일 추가
+Visibility = 보이기
+Allow Comments = 설명 허용
+Public (Anyone can see this project but only you can modify it.) = 공개(누구나 이 프로젝트를 볼 수 있지만 수정할 수는 없습니다.)
+Private (Only you can see and modify this project) = 비공개(이 프로젝트는 나만 보고 수정할 수 있음)
+Create new project success! = 새로운 프로젝트 생성 성공
+You can now create files under this project = 이제 이 프로젝트에서 파일을 생성할 수 있습니다.
+This file must be saved under a project, choose other project or create a new project = 이 파일은 프로젝트 아래에 저장해야 하며, 다른 프로젝트를 선택하거나 새 프로젝트를 생성해야 합니다.
+Please login to save this kind of document = 이런 종류의 문서를 저장하려면 로그인하십시오.
+Duplicated project title = 중복된 프로젝트 제목
+#Duplicated document title
+Project does not exist = 프로젝트가 존재하지 않습니다
+Document does not exist = 문서가 존재하지 않습니다
+document not exists = 문서가 존재하지 않습니다
+
+Categories = 카테고리
+Project = 프로젝트
+Short description = 간략 설명
+Content = 내용
+Modify this project info. = 이 프로젝트 정보를 수정하세요.
+Modify this file info. = 이 파일 정보를 수정하십시오.
+Notice = 통지
+Search for it before creating a new one. = 새로 만들기 전에 검색하십시오.
+Manufacturer Part Number = 제조업체 부품 번호
+Supplier = 공급업체
+Or =
+Supplier Part = 공급업체 파트
+Supplier Part Number = 공급업체 파트 번호
+Link = 링크
+link = 링크
+The professional function please refer at: = 전문 기능은 다음을 참조하십시오.
+
+#Dialog Clone My Part
+#Clone it to a project = 프로젝트에 복제
+#Clone it, then edit it = 복제 후 편집
+Clone your file = 파일 복제
+
+#Dialog Subckt
+Attach a Subckt to this spice symbol = 이 Spice 심볼에 서브서킷을 연결하십시오.
+Subckt string = 서브서킷 스트링
+Spice symbol title just allow [0-9][a-z][A-Z] and _ = Spice 심볼 제목에는 [0-9][a-z][A-Z] and _ 만을 허용합니다.
+
+#Design Manager
+Design Manager = 설계 관리자
+Nets = 네트
+DRC Errors = DRC 오류
+Are you sure you want to unroute this net? = 이 네트의 라우팅을 해제하시겠습니까?
+Unroute = 언라우팅
+Track Length = 트랙 길이
+Via/Hole Outer Size = 비아홀/홀 외경
+Filter nets = 필터 네트
+Design Rule Checking = 설제 규칙 확인 중
+Board Outline = 보드 윤곽선
+Plane Zone = 평탄 영역
+[drcRule]
+Width = 폭
+DRC Width = DRC 폭
+Length = 길이
+DRC Length = DRC 길이
+Drill Diameter = 드릴 직경
+DRC Drill Diameter = DRC 드릴 직경
+Diameter = 직경
+DRC Diameter = DRC 직경
+Object = 객체
+DRC Clearance = DRC 클리어런스
+[/drcRule]
+#It will take a while to unroute this net, do you want to continue? = 이 네트의 라우팅을 해제하는 데 시간이 걸립니다. 계속하시겠습니까?
+More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = 하나 이상의 netlabel이 와이어에서 발견되었습니다. 이것이 올바른지 확인하십시오. 의도적으로 설계한 경우 이 경고를 무시하십시오.
+Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = 불완전한 네트, 완전한 네트에는 두 개 이상의 핀이 있어야합니다. 의도적으로 설계한 경우 이 경고를 무시하십시오.
+This netlabel is not connected with any pin. = 이 netlabel은 어떤 핀에도 연결되어 있지 않습니다.
+Incomplete connection, please check. = 불완전한 연결, 확인하십시오.
+The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = 두 객체 사이의 클리어런스는 네트가 다른 DRC(Design Rule Checking) 클리어런스보다 작습니다.
+The diameter is less than Design Rule Checking (DRC) diameter = 직경이 DRC(Design Rule Checking) 직경보다 작습니다.
+The drill diameter is less than Design Rule Checking (DRC) drill diameter = 드릴 직경이 DRC(Design Rule Checking) 드릴 직경보다 작습니다.
+The track length is longer than Design Rule Checking (DRC) track length = 트랙 길이가 DRC(Design Rule Checking) 트랙 길이보다 깁니다.
+The track width is less than Design Rule Checking (DRC) track width = 트랙 너비가 DRC(Design Rule Checking) 트랙 너비보다 작습니다.
+
+#Dialog Simulation
+Show your simulation report = 시뮬레이션 보고서 표시
+Download netlist = 네트리스트 다운로드
+Run = 실행
+Components = 부품
+
+#Dialog Import
+Import file from your computer = 컴퓨터에서 파일 불러오기
+Maximum file size: 30 MB = 최대 파일 크기: 30MB
+Maximum file size: 100 MB = 최대 파일 크기: 100MB
+Chose file = 선택 파일
+File Operation = 파일 작업
+Import File = 파일 불러오기
+Extract Libs = 라이브러리 내보내기
+No Libs! = 라이버리 없음!
+Import File and Extract Libs = 파일 불러오기와 라이브러리 내보내기
+File type = 파일 형식
+The file size is too large. = 파일 크기가 너무 큽니다.
+Please selected the file type. = 파일 형식을 선택하십시오.
+No component was found! = 부품을 찾을 수 없습니다!
+Import successfully = 불러오기 성공
+Import failed = 불러오기 실패
+Click OK to continue with the import = 불러오기를 계속하려면 확인을 클릭하세요.
+Select None = 선택되지 않음
+
+#Dialog Modify Symbol Information
+Modify symbol information = 심볼 정보 수정
+Spice Prefix = Spice 접두어
+Hide Pin = 핀 숨기기
+Pin Manager = 핀 관리자
+When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = 전원 핀이 숨겨져 있으면 netlabel로 표시되므로 배선할 필요가 없습니다. 시뮬레이션으로 사용하는 경우 이를 보여주거나 GND/VCC Net을 생성하십시오.
+Assign = 할당
+Supplier.bom = 공급업체.bom
+LCSC.bom =
+Price = 가격
+Quantity.bom = 수량.bom
+Package.bom = 패키지.bom
+Components.bom = 부품.bom
+Manufacturer Part.bom = 제작업체 부품.bom
+Manufacturer.bom = 제작업체.bom
+
+One-click Purchasing at LCSC = LCSC에서 원클릭 구매
+Order Parts = 부품 주문
+Export BOM = BOM 내보내기
+Upload to LCSC ERP = LCSC ERP에 업로드
+No components, upload failed! = 부품이 없습니다. 업로드 실패!
+Upload to LCSC ERP failed, please try again later. = LCSC ERP에 업로드 실패, 나중에 다시 시도하세요.
+Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = 현재 BOM이 LCSC의 Chip Manager에 성공적으로 업로드되었습니다. "확인" 버튼을 클릭하여 Chip Manager에 액세스하십시오.
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = LCSC ERP에 업로드하지 못했습니다. 일부 부품에서 일부 속성 값이 누락되었음을 발견했습니다. 존재하는 경우 "풋프린트, 제작업체 부품"속성값을 확인하십시오.
+
+Export PCB BOM = PCB BOM 내보내기
+Export Schematic BOM = 회로도 BOM 내보내기
+ID.bom = 아이디.bom
+Name.bom = 이름.bom
+[bom]
+Name = 이름
+LCSC Assembly = LCSC 조립
+Value = 값
+ID = 아이디
+Supplier = 공급업체
+LCSC =
+Price = 가격
+Quantity = 수량
+Package = 패키지
+Components = 부품
+Manufacturer = 제조사
+[/bom]
+Manufacturer Part = 제조사 부품
+
+#Dialog Run
+Run your simulation = 시뮬레이션 실행
+Transient = 과도현상
+Maximum Timestep = 최대 타임스텝
+Stop Time = 정지 시간
+Start Time = 시작 시간
+
+AC Analysis = AC 분석
+Type of Sweep = 스윕 유형
+Number of points = 포인트 수
+Start Frequency = 시작 주파수
+Stop Frequency = 종료 주파수
+
+DC sweep = DC 스윕
+Source to Sweep = 스윕할 소스
+Start Value = 시작 값
+Stop Value = 종료 값
+Increment = 증분
+DC Transfer = DC 전송
+Output = 출력
+Source = 소스
+
+DC op pnt =
+Compute the DC operating point treating capacitances as opens and inductances as shorts = 커패시턴스를 개방으로 처리하고 인덕턴스를 단락으로 처리하는 DC 동작점 계산
+
+#Dialog Share Info
+Active File = 활성 파일
+Active Project = 활성 프로젝트
+Readonly = 읽기전용
+Editable = 수정가능
+Active file's owner project page = 활성 파일의 소유자 프로젝트 페이지
+Active project editor page = 활성 프로젝트 편집기 페이지
+
+#Dialog Document Recovery
+All Projects = 모든 프로젝트
+Document Recovery = 문서 복원
+Unsaved files = 저장되지 않음 파일
+Please select a file! = 파일을 선택하세요!
+Please expand the folder first, then select a document to recover. = 먼저 폴더를 확장한 다음 복구할 문서를 선택하십시오.
+Are you sure you want to remove this backup? = 이 백업을 제거하시겠습니까?
+
+#Dialog Find Libs
+Search = 검색
+Search Results = 검색 결과
+Search and press Enter = 검색하고 엔터를 누르세요.
+Keywords at least 3 characters = 키워드 3자 이상
+Assembled = 조립됨
+Verified = 확인됨
+In stock = 재고
+{page} of {pagecount} pages = {pagecount}의 {page}페이지
+Common Modules = 공통 모듈
+User Contributions = 사용자 공로
+More =
+Modify Model... = 모델 수정...
+Add Favorite = 즐겨찾기 추가
+Remove Favorite = 즐겨찾기 삭제
+Add Sub Part = 서브 부품 추가
+Untagged = 언태그됨
+Package = 패키지
+package = 패키지
+Title(PartNO) = 제목(PartNO)
+No Data! = 데이터 없음!
+Quantity = 수량
+Manufacturer Part = 제작업체 부품
+manufacturer Part = 제작업체 부품
+Manufacturer = 제작업체
+manufacturer = 제작업체
+voltage = 전압
+Library = 라이브러리
+LCSC Assembled = LCSC 조립
+JLCPCB Assembled = JLCPCB 조립
+User Contributed = 공로자
+Symbol = 심볼
+Follow = 팔로우
+Types = 유형
+Classes = 클래스
+power = 전원
+Power = 전원
+LCSC Part# = LCSC 부품 번호
+Stock = 재고
+Report Error... = 오류 보고...
+Report Error = 오류 보고
+Thanks for your feedback! = 피드팩에 감사드립니다!
+Report error success, thanks for your report! = 오류 보고 성공, 전송을 감사드립니다.
+The content must be at least 2 characters! = 내용을 2자 이상이어야 합니다!
+This library is user contributed, please check before using. = 이 라이브러리는 사용자가 제공한 것이므로 사용하기 전에 확인하십시오.
+[lib]
+All = 전체
+System = 시스템
+Personal = 개인
+Created = 생성됨
+Favorite = 즐겨찾기
+No Team found. Please join or create a team first. = 팀을 찾을 수 없습니다. 먼저 팀에 가입하거나 팀을 만드세요.
+Create a team = 팀 만들기
+No follow user found. Please follow your friend first. = 팔로우 사용자가 없습니다. 먼저 친구를 팔로우하세요.
+[/lib]
+
+
+BUY =
+In Stock = 재고
+Out of Stock = 재고 없음
+Minimum = 최소
+Distributor = 유통 업체
+
+Capacitance = 캐패시턴스
+Frequency Tolerance = 주파수 공차
+Power (Watts) = 전력 (와트)
+Power - Max = 전력 - 최대
+Frequency = 주파수
+Voltage Rating(Vdc,Vac) = 정격 전압(Vdc,Vac)
+Voltage = 전압
+Current Rating = 정격 전류
+Rated current = 정격 전류
+Resistance (Ohms) = 저항 (Ohms)
+Resistance(Ohms) = 저항 (Ohms)
+Inductance = 인덕턴스
+FET Type = FET 유형
+Current Rating(Max) = 정격 전류(최대)
+Impedance @ Frequency = 임피던스 @ 주파수
+Voltage - Input (Max) = 전압 - 입력 (최대)
+Voltage - Input (Min) = 전압 - 입력 (최소)
+Voltage - Supply = 전압 - 공급
+Voltage - Max = 전압 - 최대
+Current - Output = 전류 - 출력
+
+#Dialog Export Your Works
+Export your works = 작업 내보내기
+Export to = 내보내기
+Zoom = 확대
+Image Type = 이미지 유형
+Qualify = 수량
+0 means real size = 0은 실제 크기를 의미합니다.
+Merged layer = 병합된 레이어
+Separated layer = 격리된 레이어
+Paged layer =
+Layer = 레이어
+Export = 내보내기
+Mirror = 거울
+TopLayer = 상위레이어
+BottomLayer = 하위레이어
+TopSilkLayer = 상위실크레이어
+Protractor Properties = 각도기 속성
+BottomSilkLayer = 하위실크레이어
+
+BoardOutLine =
+TopAssembly =
+BottomAssembly =
+Mechanical =
+DocumentLayer =
+Inner{number} =
+Substrate{number} =
+Color = 색상
+Full Color = 풀 컬러
+Canvas Setting = 캔버스 설정
+Full Graphics = 풀 그래픽
+Assembly Drawings = 조립 도면
+Object Outlines = 객체 윤곽선
+Invalid file format = 잘못된 파일 형식
+Failed to export file = 파일 내보내기 실패
+Download now = 지금 다운로드
+Wire Width = 배선 두께
+Sheet = 시트
+Merged sheet = 병합된 시트
+Separated sheet = 격리된 시트
+Engine =
+Exporting PDF = PDF 내보내기
+Export 3D Model = 3D 모델 내보내기
+[exportDocument]
+Size = 크기
+[/exportDocument]
+
+#Dialog Import Changes
+Confirm Importing changes information = 변경 정보 가져오기 확인
+You can't undo this operation, Please run a Design Rule Checking (DRC) after this operation. = 이 작업은 취소할 수 없습니다. 이 작업 후에 DRC(디자인 규칙 검사)를 실행하십시오.
+Apply Changes = 변경 적용
+This is a simple Design Rule Checking (DRC). = 이것은 간단한 DRC(Design Rule Checking)입니다.
+It just can help you to find the obvious errors = 명백한 오류를 찾는 데 도움이 될 수 있습니다.
+There are some unfinished nets, do you want to check the nets first? = 미완성 네트가 있습니다. 먼저 네트를 확인하시겠습니까?
+Yes, Check Nets = 예, 네트 확인
+No, Keep Going = 아니오, 계속 진행
+
+#Dialog Layer Manager
+Configured = 구성됨
+Layer Name = 레이어 이름
+TopPasterLayer = 상위 패이스트 레이어
+BottomPasterLayer = 하위 패이스트 레이어
+TopSolderLayer = 상위 솔더 레이어
+BottomSolderLayer = 하위 설더 레이어
+TopPasteMaskLayer = 상위 패이스트 마스크 레이어
+BottomPasteMaskLayer = 하위 패이스트 마스크 레이어
+TopSolderMaskLayer = 상위 솔더 마스크 레이어
+BottomSolderMaskLayer = 하위 솔더 마스크 레이어
+ComponentShapeLayer = 부품 형상 레이어
+LeadShapeLayer = 리드 형상 레이어
+ComponentMarkingLayer = 부품 마킹 레이어
+Ratlines = 랫라인
+Ratlines Color = 랫라인 색상
+Manage Colors = 색상 관리
+BoardOutline = 보드 윤곽선
+Multi-Layer = 멀티-레이어
+Hole = 구멍
+DRCError = DRC오류
+Setting = 설정
+Drawing area = 도면 영역
+Export area = 영역 내보내기
+Transparency(%) = 투명도(%)
+Copper Layer = 구리도금 레이어
+Signal = 신호
+Plane = 평탄
+Non-Signal = 비-신호
+Other = 기타
+Please delete all the objects of the layers first! The layers are: = 먼저 레이어의 모든 개체를 삭제하십시오! 레이어는 다음과 같습니다.
+You are converting Signal Layer to Plane Layer, There're some non-track objects remain on following layers. Please delete the objects manually on the canvas. = 신호 레이어를 평면 레이어로 변환하는 중입니다. 다음 레이어에 일부 비트랙 개체가 남아 있습니다. 캔버스에서 개체를 수동으로 삭제하십시오.
+Please delete all the objects of this layer first! = 먼저 이 레이어의 모든 개체를 삭제하십시오!
+
+#Dialog Fabrication Output
+Create Files = 파일 생성
+Check your {0}Gerber files{1} carefully before sending them to the factory = 공장으로 보내기 전에 {0}Gerber 파일{1}을 주의 깊게 확인하십시오.
+Download free Gerber Viewer (gerbv) = 거버 뷰어 (gervb) 무료 다운로드
+Before generating the Gerber files = Gerber 파일을 생성하기 전에
+Please check the packages size and orientation carefully. = 패키지 크기와 방향을 주의 깊게 확인하십시오.
+Please check for Design Rule Checking (DRC) errors in the Design Manager. = Design Manager에서 DRC(Design Rule Checking) 오류를 확인하십시오.
+Please rebuild the copper area after modifying tracks and packages. = 트랙 및 패키지를 수정한 후 구리도금 영역을 재생성하십시오.
+After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Gerber 파일을 생성한 후 {0}Gerber Viewer{1}를 사용하여 디자인 요구사항에 맞는지 확인하시기 바랍니다.
+Order PCB/SMT = PCB/SMT 주문
+Found the complicated polygon that object cannot be generated at Gerber, please remove or replace = Gerber에서 개체를 생성할 수 없는 복잡한 다각형을 찾았습니다. 제거하거나 교체하십시오.
+ID: {id}, Object: {object}, Location: {location} = 아이디: {id}, 객체: {object}, 위치: {location}
+
+#Dialog DRC
+Item = 아이템
+Value = 값
+value = 값
+Unit = 단위
+Track Width = 트랙 두께
+Track to Track = 트랙을 트랙에
+Track to Pad = 트랙을 패드에
+Pad to Pad = 패드를 패드에
+Via to Via = 층간 홀을 층간 홀에
+Via Hole Size = 층간 홀 크기
+Realtime DRC = 실시간 DRC
+{0} is too small! = {0}은 너무 작습니다.!
+Invalid DRC Rule = 잘못된 DRC 규칙
+Rule = 규칙
+Via Diameter = 층간 홀 직경
+Via Drill Diameter = 층간 홀 드릴 직경
+Net List = 네트 리스트
+Rule = 규칙
+Set Rule = 세트 규칙
+Check Object to Copper Area = 구리도금역역을 위한 객체 확인
+Show DRC Boundary while Routing = 라우팅 동안 DRC 바운더리 보이기
+Check Object to Board Outline = 보드 윤곽선을 위한 객체 확인
+Rule name already exists! = 규칙 이름이 이미 존재합니다!
+You should not delete default rule! = 기본 규칙을 삭제하면 않됩니다.
+Rule list contains invalid rule setting! = 규칙 리스트에 잘못된 규칙 설정이 존재합니다.
+Duplicate rule name exists! = 규칙이름이 중복됩니다!
+via diameter is smaller than via drill diameter! = 층간 홀 직경이 층간 홀 드릴 직경보다 작습니다!
+Currently rule name is not allowed to contain magical characters like . and $ = 현재 규칙이름은 .과 $와 같은 문자를 허용하지 않습니다.
+[drcRule]
+All = 전체
+[/drcRule]
+
+#Dialog Hotkey
+Change Canvas Unit = 캔버스 단위 변경
+Copy Selected Object(s) by Reference Point = 참조점으로 선택한 객체 복사
+Fullscreen = 전체 화면
+Undo the Previous Draw = 이전 그리기 취소
+Set Canvas Origin by Coordinate = 좌표로 캔버스 원점 설정
+Switch to the Next Signal Layer = 다음 신호 레이어로 전환
+Switch to the Previous Signal Layer = 이전 신호 레이어로 전환
+Switch object to top layer or bottom layer = 객체를 상위 레이어 또는 하위 레이어로 전환
+Cycle Forward to the Next Open Tabbed Document = 다음 열린 탭 문서로 순환
+Cycle Backward to the Previous Open Tabbed Document = 이전에 열린 탭 문서로 돌아가기
+Switch to the Previous Layer(on the Numeric Keypad) = 이전 레이어로 전환(숫자 키패드)
+Switch to the Next Layer(on the Numeric Keypad) = 다음 레이어로 전환(숫자 키패드)
+Toggle Layers Which is Not Active = 활성화되지 않은 레이어 토글
+Hotkey Setting = 단축키 설정
+Document Type = 문서 유형
+Shortcut = 단축키
+Function = 함수
+ALL = 전체
+SCH =
+Rotate Selected Objects = 선택 객체 회전
+Scroll or Move Selected Left = 선택한 항목을 왼쪽으로 스크롤 또는 이동
+Scroll or Move Selected Right = 선택한 항목을 오른쪽으로 스크롤 또는 이동
+Scroll or Move Selected Up = 선택한 항목을 위로 스크롤 또는 이동
+Scroll or Move Selected Down = 선택한 항목을 아래로 스크롤 또는 이동
+Set canvas origin to the center grid of graphics in symbol; Set canvas origin to the center of pads in footprint. = 캔버스 원점을 심볼의 그래픽 중앙 그리드로 설정합니다. 캔버스 원점을 풋르린트(실장 부품 외형)의 패드 중앙으로 설정합니다.
+Cross Document Paste = 교차 문서 붙여넣기
+Explore & Find Components = 부품 탐색과 찾기
+Select All = 전체 선택
+Cancel Current Drawing = 현재 도면 취소
+Save = 저장
+Drag Tool = 드래그 도구
+Draw Wire = 배선 그리기
+Draw Bus = 버스 그리기
+Bus Entry = 버스 진입점
+Junction = 접합
+Net Flag GND = 네트 플래그 GND
+Net Flag = 네트 플래그
+Draw Polyline = 폴리라인 그리기
+Draw Polygon = 다각형 그리기
+Draw Bezier = 베지어 곡선 그리기
+Draw Arc = 원호 그리기
+Draw Rect = 사각형 그리기
+Draw Ellipse = 타원형 그리기
+Freehand Draw = 자유곡선 그리기
+Freedraw = 자유곡선
+Draw Text = 텍스트 쓰기
+Edit Selected Symbol = 선택된 심볼 편집
+Draw Track = 트랙 그리기
+Draw Circle = 원 그리기
+Cycle Select Object at Current Location = 현재 위치에서 객체 선택 순환
+Draw Dimension = 치수 그리기
+Draw Connect = 연결 그리기
+Draw CopperArea = 구리도금영역 그리리
+Change to TopLayer;<br/>Change Selected Component's Layer to TopLayer; = 상위레이어로 변경;<br/>선택한 부품의 레이어를 상위레이어로 변경;
+Change to BottomLayer;<br/>Change Selected Component's Layer to BottomLayer; = 하위레이어로 변경;<br/>선택한 부품의 레이어를 하위레이어로 변경;
+Change to Inner1 = 내경1로 변경
+Change to Inner2 = 내경2로 변경
+Change to Inner3 = 내경3로 변경
+Change to Inner4 = 내경4로 변경
+Highlight Net = 선택강조된 네트
+Highlight Network = 선택강조된 네트
+Unhighlight Network = 선택되지 않은 네트
+Place Pad = 패드 위치
+Place Via = 층간 홀 위치
+Measure = 측정
+Change Routing Angle = 라우팅 각도 변경
+Change Routing Conflict = 라우팅 충돌 변경
+Decrease Routing Width = 라우팅 두께 감소
+Increase Routing Width = 라우팅 두께 증가
+Decrease Snap Size = 스냅 크기 감소
+Increase Snap Size = 스냅 크기 증가
+Change Copper Zone Visible or Invisible = 구리도금 영역 보이기 또는 가리기 변경
+Rebuild All Copper Area = 모든 구리도금 영역 재생성
+Toggle PCB Net Display = PCB네트 표시 토글
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = 객체를 배치할 때 속성 대화 상자 표시;<br/>객체를 붙여넣을 때 위치 설정 대화 상자 표시
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = 객체를 배치할 때 속성 대화상자 표시;<br/>객체를 선택할 때 절대 오프셋 대화상자 표시;<br/>객체를 붙여넣을 때 위치 설정 대화상자 표시
+Show Relative Offset Dialog When Selecting Object(s) = 객체를 선택할 때 상대 오프셋 대화 상자 표시
+Open the FAQ Page = FAQ 페이지 열기
+Move Object(s) by Reference Point = 참조점으로 객체 이동
+Choose Favorite Track Width While Routing = 라우팅하는 동안 선호하는 트랙 두께 선택
+Copy Selected Object(s) and Paste Repeatedly = 선택한 개체를 복사하고 반복해서 붙여넣기
+
+#My Projects Tree Menu
+New Project = 새 프로젝트
+New Schematic = 새 회로도
+New PCB = 새 PCB
+New Spice Subckt = 새 Spice 서브서킷
+Modify = 수정
+Delete = 삭제
+Add sub part = 서브 파트 추가
+Clone = 복제
+Version History = 버전 히스토리
+Refresh List = 리스트 새로고침
+Create New Project = 새로운 프로젝트 생성
+Delete = 삭제
+Attachment = 첨부
+Archive = 보관
+Transfer = 전송
+Manage Project = 프로젝트 관리
+
+#Dialog Verify Package
+Footprints Verification = 실장 부품 형상 확인
+
+#Dialog Edit Polygon Pad points
+Edit Points = 포인트 수정
+Center point is outside the pad = 중심점이 패드 외부에 있음
+Hole should be inside the pad = 홀은 패드 내부에 있어야 합니다.
+Hole is draggable =홀은 드래그 가능
+
+#My Part Tree Menu
+Clone = 복제
+Reload parts = 부품 새로고침
+Layers = 레이어
+
+#Dialog Preferences
+Language = 언어
+Display Name = 표시 이름
+HotKey Sync = 단축기 동기화
+My Theme Sync = 내 테마 동기화
+Document Recovery Setting = 문서 복원 설정
+Enable auto backup = 자동 백업 가능
+Maximum backup level = 최대 백업 레벨
+Auto backup interval = 자동 백업 간격
+minutes = 분
+Save to Server = 서버로 저장
+Load from Server = 서버로부터 불러오기
+
+
+#Dialog Schematic Library Wizard
+Symbol Wizard = 심볼 마법사
+Style = 스타일
+Picture = 그림
+Pin Names = 핀 이름
+Contributor = 공로자
+contributor = 공로자
+owner = 소유자
+
+#Dialog Annotate
+Annotate = 주석
+Scope = 스코프
+All pages = 모든 페이지
+Current page only = 현재 페이지 만
+Selected components = 선택된 부품
+All Opened Schematics = 모든 열린 회로도
+Method = 방법
+Re-annotate all = 재주석 모두
+Keep existing annotation = 존재하는 주석 유지
+Direction = 방향
+Rows = 행
+Cols = 열
+Reset = 재설정
+
+#Dialog Order
+Order... = 주문
+PCB Qty. = PCB 수량
+PCB Thickness = PCB 두께
+PCB Dimension = PCB 치수
+Automatic calculation = 자동 계산
+PCB Color = PCB 색상
+Green = 녹색
+White = 흰색
+Blue = 청색
+Red = 적색
+Yellow = 황색
+Black = 흑색
+Purple = 홍색
+Copper = 동색
+Gold = 금색
+Silver = 은색
+Surface Finish = 표면 마무리
+Hasl = 납땜 도금
+Hasl(Lead Free) = 납땜 도금(무연)
+ENIG = 무전해 니켈 도금
+
+#Dialog Hot Key config
+Restore All Default Shortcuts = 모든 기본 바로 가기 복원
+Save Changes = 변경사항 저장
+
+
+
+#Dialog Polyline Maybe Wire
+To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = 전기 요소를 연결하려면 Line(L 핫키)이 아닌 Wire(W 핫키)를 사용하십시오.
+
+Anonymous File = 익명 파일
+Anonymous File can not be cloned, but you can open it, then save it as a new file. = 익명 파일은 복제할 수 없지만 열어서 새 파일로 저장할 수 있습니다.
+Free Documents = 무료 문서
+You must close the file before delete it! = 삭제하기 전에 파일을 닫아야 합니다!
+Offline Project = 오프라인 프로젝트
+
+#Message box
+Confirmation = 확인
+Alert = 주의
+Information = 정보
+information = 정보
+Prompt = 프람프트
+Error = 오류
+error = 오류
+error! = 오류！
+Warning = 경고
+Imported ok! = 불러오기 OK！
+Some changes have not been saved. = 일부 변경사항이 저장되지 않았습니다.
+Your file hasn't been saved. Please save first! = 파일이 저장되지 않았습니다. 먼저 저장해주세요!
+Your file hasn't been saved. Are you sure you want to close it? = 파일이 저장되지 않았습니다. 닫으시겠습니까?
+Error! Please try again later. = 오류! 나중에 다시 시도 해주십시오.
+Are you sure you want to reload this page? = 이 페이지를 새로고침 하시겠습니까?
+Are you sure you want to leave this page? = 이 페이지에서 나가시겠습니까?
+Confirm Reload = 새로고침 확인
+Confirm Close = 닫기 확인
+Reload this page = 이 페이지 새로고침
+Leave this page = 이 페이지에서 나가기
+Stay on this page = 이 페이지에 머물기
+Don't reload = 새로고침 하지 마세요.
+No connect flag only can be placed on Pin dot or the wire which is connected one Pin. = 핀 도트 또는 하나의 핀에 연결된 베산에 만 연결 플래그를 배치할 수 없습니다.
+can not be placed on the wire which is placing No Connect Flag. = No Connect Flag가 있는 배선에는 배치할 수 없습니다.
+The footprint transfer to LCSC library class successfully = LCSC 라이브러리 클래스로 실장 부품 외형(풋프린트) 전송 성공
+Device/Footprint goes into "SMT Device/Footprint Verified" list successfully = 장치/실장 부품 외형(풋프린트)가 "SMT Device/Footprint Verified" 목록에 성공적으로 들어갑니다.
+
+Load failure! = 불러오기 실패!
+Load projects failed = 프로젝트 불러오기 실패
+error info = 오류 정보
+error information = 오류 정보
+Guest can't create a new project. Please login! = 게스트는 새 프로젝트를 만들 수 없습니다. 로그인 해주세요!
+Please create a project before you do this! = 이 작업을 수행하기 전에 프로젝트를 만드십시오.
+Add Part success = 부품 추가에 성공
+Click the new part and then edit it! = 새 부품을 클릭한 다음 편집하십시오!
+Delete my work = 작업 삭제
+Delete my work. (Only deletes it from this list but not from the server) = 내 작업을 삭제합니다. (이 목록에서만 삭제되고 서버에서는 삭제되지 않음)
+Do you confirm this? = 확인해주세요
+Successfully deleted! = 삭제 성공
+Successfully Copied! = 성공적으로 복사됨!
+Cloning success! = 복제 성공
+Your title is too short! = 제목이 너무 짧음
+Remove this part = 이 부품을 삭제합니다.
+Find and Jump to ... = 찾기 및 이동...
+Please type the prefix, such as U1, R1, C1 = U1, R1, C1과 같은 접두어를 입력하십시오.
+Zoom as 1:1, you can print it and then create artwork for etching the PCB. = 1:1로 확대하여 인쇄합니다. 그런 다음 PCB 에칭을 위한 아트웍을 만듭니다.
+Exporting your works! = 작업 내보내기
+Guests can't import a file. Please login! = 게스트는 파일을 가져올 수 없습니다. 로그인하세요.
+Please create a project before you import a file! = 파일을 가져오기 전에 프로젝트를 만듭니다.
+Import your LTspice file! = LTspice 파일을 가져오기
+Open LTspice file = LTspice 파일 열기
+Open EasyEDA file = EasyEDA 파일 열기
+Please make sure the selected LTspice file is a file saved in LTspice V and above. = 선택한 LTspice 파일이 LTspice V 상위 버전으로 저장된 파일인지 확인하세요.
+Saved successfully! = 저장 성공
+Save failed! =저장 실패!
+Can not place parts into this document. = 이 문서에 부품을 넣을 수 없습니다.
+User Package = 사용자 패키지
+System Package = 시스템 패키지
+File error = 파일 오류
+Please save your file first! = 먼저 파일을 저장하세요.！
+Email address is too short! = 이메일 주소가 너무 짧음
+You have not selected a file to upload. = 업로드할 파일이 선택되지 않았습니다.
+Update = 업데이트
+No changes, the PCB already matches the schematic! = 변경 사항 없음, PCB가 이미 회로도와 일치합니다!
+Only public files can be shared = 공유 파일만 배포할 수 있습니다.
+Conversion to PCB has failed! = PCB로 변환 실패
+Your username is too short! = 사용자 이름이 너무 짧음
+Your password is too short, it must be more than 6 characters! = 비밀번호가 너무 짧습니다. 6자 이상 필요합니다.
+Conflicting shortcut = 단축키 충돌
+There is an empty PCB file. Please first run Convert Schematic to PCB... from the schematic = 빈 PCB 파일이 있습니다. 먼저 회로도에서 "회로도를 PCB로 변환..."을 실행하십시오.
+This file has been modified, are you sure you want to run this simulation before saving it first? = 이 파일은 변경되었습니다. 분석을 실행하시겠습니까? 먼저 저장하는 것이 좋습니다.
+Please enter the Maximum Timestep! = 최대 Timetep이 설정되지 않았습니다.
+Please enter the Stop Time! = 종료 시간을 입력하세요.
+All of these fields are needed. = 모든 필드가 필요합니다.
+Either your spice netlist is too big or the server is busy. Please try again later. = SPICE 네트 리스트가 너무 크거나 서버가 사용 중입니다. 잠시 후 시도해 보세요.
+Your spice netlist is too big! Try breaking your circuit into smaller simulatable blocks. = SPICE 네트 리스트가 너무 큽니다.
+Too many users in simulation. Please try again later! = 너무 많은 사용자가 분석을 수행하고 있습니다. 잠시 후 시도해 보세요.
+Due to limited server resources, please wait 10 seconds for the interval in every time simulation. = 제한된 서버 리소스로 인해 모든 시간 시뮬레이션에 대해 10초 간격으로 기다리십시오.
+Your circuit is too complex, we have not enough CPU resource to support this simulation, please reduce your circuit as small as you can. = 회로가 너무 복잡하여 이 시뮬레이션을 지원하기에 CPU 리소스가 충분하지 않습니다. 회로를 최대한 작게 줄이십시오.
+Simulation is queuing, try again after 30s. = 시뮬레이션이 대기 중입니다. 30초 후에 다시 시도하십시오.
+Timeout = 타임아웃
+Demo accounts don't support simulation, please login first = 데모 계정은 시뮬레이션을 지원하지 않습니다. 먼저 로그인하십시오.
+Please login first = 로그인 우선
+The schematic is showing errors, please check the simulation report carefully! = 회로도에 오류가 표시됩니다 분석 보고서를 신중하게 확인하십시오.
+Simulation too long, maybe your schematic is too complex. = 분석 시간이 너무 깁니다. 당신의 회로는 너무 복잡할 수 있습니다.
+Non-simulated file = 먼저 로그인하시기 바랍니다
+This file can only be opened in standard mode. To open it, please switch to standard mode. = 이 파일은 표준 모드에서만 열 수 있습니다. 열려면 표준 모드로 전환하십시오.
+Load your preferences success! = 선호하는 성공 사례 로드
+Save your preferences success! = 선호하는 성공 사례로 저장
+Update subckt ok! = 서브 회로 업데이트 OK
+Clone your file = 파일 복제
+Please type a new file name = 새 파일 이름 입력
+Create file failure! = ファイルの作成に失敗
+Schematics and PCBs can't be imported under My Libs folder, please choose a different folder = 회로도 및 PCB를 "내 라이브러리"폴더에서 가져올 수 없습니다. 다른 폴더를 선택하십시오.
+Libraries to be imported under My Libs folder = "내 라이러리"폴더에서 가져올 라이브러리
+Please choose only the libraries needed = 필요한 라이브러리만 선택하세요.
+Maximum import is 200 libs at one time! = 한 번에 200개의 라이브러리를 최대로 가져올 수 있습니다!
+You libraries will be found under the My Libs folder = 라이브러리를 "내 라이브러리"폴더에서 찾을 수 있습니다.
+Add to Library = 라이브러리에 추가
+No items have been checked! = 확인된 항목이 없습니다!
+Nothing was found, please create it for yourself = 검색된 항목이 없습니다. 직접 만드십시오.
+Search result = 검색 결과
+At least 3 characters needed = 최소 3자 이상 필요
+Add to my Favorite Parts = "내 즐겨찾기 부품"에 추가
+Added it OK. Please find it in your Favorite Parts = 추가했습니다. "내 즐겨찾기 부품"에서 찾아주세요.
+Please select its parent node = 상위 노드를 선택하십시오.
+Libraries can not be exported as active project pdf. = 라이브러리는 활성 프로젝트 PDF로 내보내기 할 수 없습니다.
+Error:No GND = 오류:GND 없음
+This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = 이 회로에는 GND가 없습니다. 회로에 GND를 추가하려면 "회로 도구"에서 GND를 선택하십시오.
+Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = 전류 회로에는 전압 리소스 또는 전류 리소스 기호가 없으므로 왼쪽 EElib 또는 Spice 라이브러리ㅇ에 먼저 위치시키세요.
+Probe can not connect with ground(GND)! = 프로브는 접지(GND)와 연결할 수 없습니다!
+Spice symbols's properties can't be empty. = Spice 심볼의 속성은 비워둘 수 없습니다.
+Error:No Spice Symbol = 오류:Spice 심볼 없음
+Simulation limit = 시뮬레이션 한계
+There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = 에뮬레이션 명령 .tran 또는 .op를 사용하여 시뮬레이션해야 하는 회로에 멀티미터가 있습니다.
+An oscilloscope exists in the circuit and needs to be simulated using the simulation command .tran = 오실로스코프는 회로에 존재하며 시뮬레이션 명령 .tran을 사용하여 시뮬레이션해야 합니다.
+There are components in this circuit that do not have a simulation model. Please use the base library component of the simulation mode for simulation. = 이 회로에는 시뮬레이션 모델이 없는 부품이 있습니다. 시뮬레이션은 시뮬레이션 모드의 기본 라이브러리 부품을 사용하십시오.
+Circuit does not have a probe = 회로에 프로브가 없습니다.
+Make sure your pin numbers are even numbers = 핀 번호가 짝수인지 확인하십시오.
+Duplicate Components Prefix = 부품 접두어 중복
+All components are hidden successfully! = 모든 부품 숨김 성공!
+All ratlines are hidden successfully! = 모든 랫라인 숨김 성공!
+Hidden the ratline of net {netName} successfully! = {netName} 네트의 랫라인 숨김 성공!
+Duplicate Component Prefix = 부품 접두어 중복
+{0} exist = {0} 존재함
+Modify successfully, but {0} already exists = 수정 성공, 그러나 {0}가 이미 존재함니다.
+There are some invalid packages, are you sure? = 잘못된 패키지 입니다. 확실합니까?
+Invalid Characters, library only allows [0-9a-zA-Z-_] = 잘못된 문자 포함, 라이브러리에는 [0-9a-zA-Z-_] 문자 만 허용
+Annotation success = 주석 달기 성공
+If you accept this annotation operation, please save your files. If not, close your files without saving. = 이 주석 작업을 수락하려면 파일을 저장하십시오. 그렇지 않은 경우 저장하지 않고 파일을 닫습니다.
+This file can't be saved under libs project. Please choose other project or create a new project = 이 파일은 라이브러 프로젝트에 저장할 수 없습니다. 다른 프로젝트를 선택하거나 새 프로젝트를 만드십시오.
+Your file is unsaved. = 파일이 저장되지 않음
+You can close the editor now. Have a good day! = 이제 편집기를 닫을 수 있습니다. 좋은 하루 보내세요!
+Successfully logged out = 로그아웃 성공
+You have at least one unsaved file open. Please save it or close it. = 저장되지 않은 파일이 하나 이상 열려 있습니다. 저장하거나 닫으십시오.
+Please select a reference point = 기준점을 선택해 주세요
+Please save your file before this operation = 이 작업을 수행하기 전에 파일을 저장하십시오.
+Please open a PCB document = PCB 문서를 여십시오.
+Please save your file before '{0}'. = '{0}'이전에 파일을 저장하세요.
+Please try again after saving this file. = 이 파일을 저장한 후 다시 시도해 주세요.
+This text can not be empty! = 이 텍스트는 비어있지 않습니다!
+Export to Altium fail, please try again or contact us. = "Altium으로 내보내기" 실패, 다시 시도하거나 당사에 문의하세요.
+Connecting to server = 서버에 연결
+Please login before asking for help = 도움을 요청하려면 로그인 하세요.
+This file has been modified, please save it first! = 파일에 수정사항이 있습니다. 먼저 저장하세요!
+Remove this param = 이 파라메타 삭제
+You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. = 부품을 캔버스로 드래그할 수 없습니다. 부품을 클릭하고 커서를 캔버스로 이동한 다음 마우스 오른쪽 버튼을 클릭하여 배치하십시오.
+Undo/Redo temporary error = "실행 취소/다시 실행" 임시 오류
+We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. = 죄송합니다. "실행 취소/다시 실행" 프로세스에 예측할 수 없는 오류가 있습니다. 이 문제는 곧 수정되지만 그 동안에는 설계 작업을 계속하는 것이 안전합니다.
+The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. = 회로도에는 부품의 중복 접두어가 있습니다. 고유하게 만드십시오. "설계 관리자"를 사용하여 확인할 수 있습니다.
+Found duplicated prefix components, can not Import Changes, please modify the duplicated prefix or delete related component. = 중복된 접두어를 가진 부품을 찾았습니다. 변경 사항을 가져올 수 없습니다. 중복된 접두어를 수정하거나 관련 부품을 삭제하십시오.
+Please click the below help button to find out how to fix this problem. = 이 문제를 해결하는 방법을 알아보려면 아래 도움말 버튼을 클릭하세요.
+Please create a board outline! Click the help button to find out how to create a board outline. = 게시판 개요를 작성해주세요! 도움말 버튼을 클릭하여 보드 개요를 만드는 방법을 알아보세요.
+Can not fetch files from server, please check your network and try again = 서버에서 파일을 가져올 수 없습니다. 네트워크를 확인하고 다시 시도하십시오.
+Please open a schematic first! = 먼저 회로도를 열어주세요!
+Can not find the schematic of this PCB = 이 PCB의 회로도를 찾을 수 없습니다
+invalid points! = 유효하지 않은 포인트!
+This file does not support this operation. = 이 파일은 이 작업을 지원하지 않습니다.
+Net Name Conflict = 네트 이름 충돌
+Net name = 네트 이름
+{0} are in the same wire, please remove others and just keep one. = {0}은(는) 동일한 배선에 있습니다. 다른 것은 제거하고 하나만 유지하십시오.
+This field can't be removed! = 이 필드는 제거할 수 없습니다!
+Annular ring of the pad/via is too small = 패드/층간 홀의 환형 링이 너무 작습니다.
+The size of the hole cannot exceed the size of the pad = 홀의 크기는 패드의 크기를 초과할 수 없습니다.
+Are you sure you want to create a multi-sheet designs? = 다중 시트 디자인을 생성하시겠습니까?
+Are you sure you want to create a {0}multi-sheet designs{1}? = {0} 여러 시트 디자인 {1}을 만드시겠습니까?
+Please build the copper area! Click the help button to find out how to build the copper area. = 구리도금영역을 생성하십시오! 구리도금영역을 생성하는 방법을 찾으려면 도움말 버튼을 클릭하십시오.
+Suggest to set a package for this component first! = 먼저 이 부품에 대한 패키지를 설정하는 것이 좋습니다!
+Please select an opened document first. = 열려 있는 문서를 먼저 선택하십시오.
+Some files failed to load. Please reload the page. = 일부 파일을 로드하지 못했습니다. 페이지를 새로고침하세요.
+
+#UI Intro
+Skip = 건너뛰기
+« Back = « 뒤로
+Next » = 다음 »
+Done =  완료
+This is the user management menu. = 사용자 관리 메뉴입니다.
+This is the toolbar. = 툴바 입니다.
+This is the navigation list. Under here you can find projects, files, parts and libraries. = 이것은 탐색 목록입니다. 여기에서 프로젝트, 파일, 부품 및 라이브러리를 찾을 수 있습니다.
+Show or hide the toolbar to the top of the window here. = 여기에서 창 상단에 도구 모음을 표시하거나 숨깁니다.
+Show, resize or hide the left sidebar to the left of the window here. = 여기에서 창 왼쪽에 있는 왼쪽 사이드바를 표시하거나 크기를 조정하거나 숨깁니다.
+Show or hide the right sidebar to the right of the window here. = 여기에서 창 오른쪽의 오른쪽 사이드바를 표시하거나 숨깁니다.
+
+#Standard libs
+Passive Components = 수동 소자
+Power Supply = 공급 전원
+Diodes = 다이오드
+Regulator = 레귤레이터
+Transistor = 트랜지스터
+Transformers = 변압기
+Gates = 게이트
+Vacuum Tubes = 진공튜브
+Switch = 스위치
+Relay = 릴레이
+Capacitor(US) = 커패시터(US)
+Capacitor(EU) = 커패시터(EU)
+Capacitor(EU)2 = 커패시터(EU)2
+Electrolytic Capacitor(US) = 전해 콘덴서(US)
+Electrolytic Capacitor(EU) = 전해 콘덴서(EU)
+Electrolytic Capacitor(US)2 = 전해 콘덴서(US)2
+Electrolytic Capacitor(EU)2 = 전해 콘덴서(EU)2
+Inductor(US) = 인덕터(US)
+Inductor(EU) = 인덕터(EU)
+Potentiometer_US = 전위차계_US
+Potentiometer_EU/IEC = 전위차계_EU/IEC
+Potentiometer_3D = 전위차계_3D
+Resistor(US) = 저항(US)
+Resistor(EU) = 저항(EU)
+Resistor 45 Deg(US) = 저항 45°(US)
+Resistor 45 Deg(EU) = 저항 45°(EU)
+Variable Capacitor(US) = 가변 커패시터(US)
+Variable Capacitor(EU) = 가변 커패시터(EU)
+Variable Resistor(US) = 가변 저항(US)
+Variable Resistor(EU) = 가변 저항(EU)
+Variable Inductor(US) = 가변 인덕터(US)
+Variable Inductor(EU) = 가변 인덕터(EU)
+Varistor = 배리스터
+Inductor2(US) = 인덕터2(US)
+Inductor2(EU) = 인덕터2(EU)
+Battery = 배터리
+Voltage Source = 전압 소스
+Current Source = 전류 소스
+CCCS(Current Controlled Current Source) = CCCS(전류 제어 전류 소스)
+CCCS2(Current Controlled Current Source) = CCCS2(전류 제어 전류 소스)
+VCCS(Voltage Controlled Current Source) = VCCS(전압 제어 전류 소스)
+VCVS(Voltage Controlled Voltage Source) = VCVS(전압 제어 전압 소스)
+CCVS(Current Controlled Voltage Source) = CCVS(전류 제어 전압 소스)
+CCVS2(Current Controlled Voltage Source) = CCVS2(전류 제어 전압 소스)
+
+BV(Behavioral Voltage Sources) = BV(행동 전압 소스)
+BI(Behavioral Current Sources) = BI(행동 전류 소스)
+Epoly(Non-linear Voltage Source) = Epoly(비-선형 전압 소스)
+Gpoly(Non-linear Current Source) = Gpoly(비-선형 전류 소스)
+
+Diode = 다이오드
+LED =
+LED_3D =
+Schottky Diode = 소트키 다이오드
+Varactor Diode = 버랙터 다이오드
+Zener = 제너
+Unidirectional TVS Diode = 단방향 TVS 다이오드
+Bidirectional TVS Diode = 양방향 TVS 다이오드
+Diac = 다이악
+Bridge = 브리지
+78XX =
+79XX =
+LM317 =
+LM337 =
+TL431 =
+BJT(NPN) =
+BJT(PNP) =
+MOSFET(Nch) =
+MOSFET(Nch) Depletion Four-pins = MOSFET(Nch) 공핍형 4핀
+MOSFET(Nch) Enhancement = MOSFET(Nch) 증가형
+MOSFET(Nch) Enhancement Four-pins = MOSFET(Nch) 증가형 4핀
+MOSFET(Pch) =
+MOSFET(Pch) Depletion Four-pins = MOSFET(Pch) 공핍형 4핀
+MOSFET(Pch) Enhancement = MOSFET(Pch) 증가형
+MOSFET(Pch) Enhancement Four-pins = MOSFET(Pch) 증가형 4핀
+JFET(Nch) =
+JFET(Pch) =
+Darlington NPN = 달링턴 NPN
+Darlington PNP = 달링턴 PNP
+MESFET(Nch) =
+MESFET(Pch) =
+
+IGBT =
+SCR =
+Triac =
+Transform(US) =
+Transform(EU) =
+Transfrom(NEUTRAL-CTR TAP)(US) =
+Transfrom(NEUTRAL-CTR TAP)(EU) =
+Mutual Inductors =
+Mutual Inductors2 =
+Or Gate =
+Xor Gate =
+And Gate =
+Nor Gate =
+Nand Gate =
+Not Gate =
+Xnor Gate =
+Tube Diode =
+Tube Triode =
+Tube Tetrode =
+Tube Pentode =
+Voltage Controlled Switch = 전압 제어 스위치
+Current Controlled Switch = 전류 제어 스위치
+SPST ON =
+SPST OFF =
+Fuse =
+555 =
+555(Style2) =
+Speaker =
+XTAL =
+5pin Operational Amplifier = 5핀 연산 증폭기
+3pin Operational amplifier = 3핀 연산 증폭기
+Transmission Line = 전송선
+Voltmeter = 전압계
+Ammeter = 전류계
+LAMP =
+Opto Transistor =
+
+#Server Message
+Need login = 로그인 필요
+Bad password = 잘못된 비밀번호
+We can't find your username or your email, please check it! = 사용자 이름이나 이메일을 찾을 수 없습니다. 확인하십시오!
+Make sure your uploaded file size is less than 3MB! = 업로드한 파일 크기가 3MB 미만인지 확인하세요!
+Bad file type = 잘못된 파일 형식
+Empty file or bad file type, ensure your file is Eagle 6.0+ = 파일이 비어 있거나 파일 형식이 잘못되었습니다. 파일이 Eagle 6.0 이상인지 확인하세요.
+This operation not supported on demo account = 이 작업은 데모 계정에서 지원되지 않습니다.
+Can not share this file under a private project, please set the active project to public! = 비공개 프로젝트에서 이 파일을 공유할 수 없습니다. 활성 프로젝트를 공개로 설정하십시오!
+Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = 로그인 실패 시도 횟수가 너무 많습니다. 비밀번호를 잊어버린 경우 {0}비밀번호를 재설정{1}하거나 support@easyeda.com으로 이메일을 보내주세요.
+
+#Dialog Common Buttons
+Common Buttons Setting = 일반 버튼 설정
+Menu Setting... = 메뉴 설정...
+Show/Hide = 보이기/감추기
+Move Up = 위로 이동
+Move Down = 아래로 이동
+Reset All = 전체 재설정
+Zoom = 확대
+Place Pin = 핀 배치
+
+#System Setting Dialog
+System = 시스템
+Zoom Mode = 줌 모드
+Scroll Key = 스크로 키
+CTRL + Scroll =
+Canvas Coordinate System = 캔버스 좌표계
+SVG Coordinate = SVG 좌표
+Cartesian Coordinate = 카르테시안 좌표
+Open Wizard Dialog for New Schematic = 새로운 회로도를 위해 마법사 대화상자를 여세요.
+Default Unit = 기본 단위
+Canvas Zoom Effect = 캔버스 줌 효솨
+Quality Priority = 품질 우선
+Speed Priority = 속도 우선
+Rotation Step = 회전 스텝
+Add Teardrop Automatically = 자동 라운드패턴 보강 추가
+Assign Net for Free Track/Arc/Circle = 자유 트랙/호/원에 대해 네트 할당
+Open Wizard Dialog for New PCB = 새 PCB에 대한 마법사 열기 대화 상자
+Rebuild Plane Automatically = 자동으로 평면 재생성
+The Track's Routing Follows Component's Rotation = 트랙의 라우팅은 부품의 회전을 따릅니다.
+Display Pad's Number and Net = 디스플레이 패드의 번호 및 네트
+Favorite Track width = 선호하는 트랙 두께
+Track Width Setting = 트랙 두께 설정
+
+#Dialog Access Control
+Permissions = 권한
+Operations = 연산
+Access Control = 접근 제어
+Project Access Control = 프로젝트 접근 제어
+Reject = 거부
+Add User = 사용자 추가
+Bad email address = 잘못된 이메일 주소
+
+#error info from backend
+Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = EasyEDA에서 이 이메일 주소를 찾을 수 없습니다. 파트너는 EasyEDA 사용자여야 합니다.
+
+#Dialog waveForm
+Grid Background = 그리드 배경
+Pane Background = 창 배경
+WaveForm Config = 파형 구성
+Export Waveform = 파형 내보내기
+
+
+#attr-canvas-grid-style
+dot =
+line =
+
+#attr-canvas-frame-size
+Other = 기타
+A4 Portrait = A4 세로
+A4 Landscape = A4 가로
+A3 Portrait = A3 세로
+A3 Landscape = A3 가로
+A2 Portrait = A2 세로
+A2 Landscape = A2 가로
+A1 Portrait = A1 세로
+A1 Landscape = A1 가로
+Landscape = 가로
+Portrait = 세로
+
+#Stroke Style
+solid =
+dashed =
+dotted =
+
+#Solid Region
+Solid Region =
+Type =
+type =
+
+#Dialog Libs Management
+Report error = 오류 보고
+Please give us some information to help us find the problem. = 문제를 찾는 데 도움이 되는 정보를 제공해 주십시오.
+Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = 이 문서에 부품을 배치할 수 없음: 회로도 심볼은 회로도에만 배치할 수 있습니다. PCB 풋프린트는 PCB에만 배치할 수 있습니다.
+Save it as a favorite part = 즐겨찾기 부품으로 저장
+Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = 로그인한 사용자만 이 부품을 즐겨찾기 부품으로 저장할 수 있지만 게스트(익명) 사용자는 부품을 디자인에 직접 배치할 수 있습니다. 지금 이 구성요소를 배치하시겠습니까?
+
+#Others
+Find libs = 라이브러리 찾기
+My Projects = 내 프로젝트
+My Parts = 내 부품
+My Modules = 내 모듈
+Assembly LCSC Components = LCSC 부품 조립
+Modules = 모듈
+SCH Module = SCH 모듈
+PCB Module = PCB 모듈
+System IC = 시스템 IC
+LCSC (Official) = LCSC (공식)
+LCSC Electronics =
+Simple Mode = 단순 모드
+Expand Mode = 확장 모드
+Help Verify = 도움 확인
+Favorite Parts = 즐겨찾기 부품
+Shared With Me = 나와 공유
+Preview = 미리보기
+Preview Window = 미리보기 창
+System Default = 시스템 기본
+User Defined = 사용자 정의
+Theme = 테마
+Theme Setting = 테마 설정
+Close = 닫기
+Open = 열기
+Toggle toolbar = 토글 툴바
+Toggle left bar = 토글 왼쪽 창
+Toggle right bar = 토글 오른쪽 창
+Reload = 새로고침
+Mouse-X =
+Mouse-Y =
+Mouse-DX =
+Mouse-DY =
+Bus entry x1 =
+Bus entry x2 =
+Bus entry y1 =
+Bus entry y2 =
+Yes = 예
+No = 아니오
+OK = 확인
+Confirm = 확인
+Continue = 계속
+Cancel = 취소
+Update = 업데이트
+Bus entry = 버스 진입
+Filter = 필터
+Check = 확인
+Share my work = 내 작업 공유
+Share it by e-mail, IM, blog, etc. = 이메일, IM, 블로그 등으로 공유
+
+Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = 이 상자의 내용을 텍스트 편집기에 복사한 다음 파일을 저장합니다. 편집된 텍스트를 이 상자에 다시 붙여넣고 적용을 클릭하여 디스플레이를 업데이트합니다.
+Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = 이 상자의 내용을 텍스트 편집기에 복사한 다음 파일을 .svg 확장자로 저장합니다. Inkscape에서 편집하거나 브라우저에서 열 수 있습니다.
+Content is too big to show, you can download it directly. = 콘텐츠가 너무 커서 표시할 수 없습니다. 직접 다운로드할 수 있습니다.
+SVG format = SVG 형식
+SVG File = SVG 파일
+Description should be no more than 250 letters = 설명은 250자 이하여야 합니다.
+The file save operation has timed out. Try again and check your Internet connection. = 파일 저장 작업 시간이 초과되었습니다. 다시 시도하고 인터넷 연결을 확인하십시오.
+Export Netlist = 네트 리스트 내보내기
+Notifications = 알림
+Please select txt or json files. = txt 또는 json 파일을 선택하세요.
+Please select EasyEDA files. = EasyEDA 파일을 선택하십시오.
+Failed to read file [{file}] = [{file}] 파일을 읽지 못했습니다.
+[{file}] is not a valid json file = [{파일}]은(는) 유효한 json 파일이 아닙니다.
+Invalid parameters! = 잘못된 파라메타입니다!
+Download = 다운로드
+Start = 시작
+You have unsaved files, are you sure you want to log out without saving the files? = 저장하지 않은 파일이 있습니다. 파일을 저장하지 않고 로그아웃하시겠습니까?
+Please use the web version to run this function. = 이 기능을 실행하려면 웹 버전을 사용하십시오.
+Please save this file to you project! = ㅠ이 파일을 프로젝트에 저장하십시오!
+Nothing changed = 변경된 것이 없습니다.
+Delete Node = 노드 삭제
+This layer is invisible. = 이 레이어는 보이지 않습니다.
+When the solid region is Board Cutout, please set the layer to Multi-Layer. = 솔리드 영역이 보드 컷아웃인 경우 레이어를 Multi-Layer로 설정하십시오.
+You should not try to assign a net to a Board Cutout solid region. = 보드 컷아웃 솔리드 영역에 네트를 할당하려고 해서는 안 됩니다.
+Net Length = 네트 길이
+You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = 회로도에 핀을 배치할 수 있지만 모든 핀을 회로도 부품으로 그룹화하는 것을 잊지 마십시오. 그룹화 방법을 알아보려면 도움말 버튼을 클릭하세요. 배선만 표시하고 싶다면 NetPort나 NetLabel을 사용하세요.
+Please input the modification = 수정사항을 입력해주세요
+The content must be between {0} and {1} characters = 콘텐츠는 {0}~{1}자 사이여야 합니다.
+
+Coming soon = 출시 예정
+No tool = 툴이 없음
+Help us translate into your language = 사용자 언어로 번역할 수 있도록 도와주세요
+Pad = 패드
+Via/Hole = 층간 홀/홀
+PCB Layers = PCB 레이어
+Order PCB = PCB 주문
+Share = 공유
+Free = 무료
+Small =
+Medium =
+Big =
+
+
+Embed =
+HTML =
+URL =
+BBCode =
+PNG =
+Exporting as = 내보내는 중
+Exporting as image = 이미지로 내보내는 중
+Exporting as {0}SVG{1} file. = {0} SVG {1} 파일로 내보내는 중
+Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = pdf로 내보내기를 권장합니다. pdf는 좋은 품질의 인쇄 출력과 작은 파일 크기를 제공합니다.
+Generate PCB Fabrication File(Gerber) = PCB 제작 파일 생성(Gerber)
+PenWidth-Increase = 펜 두께-증가
+
+#Generate Gerber
+Generate Gerber = Gerber 생성
+Gerber View = Gerber 보기
+Dimensions(Estimated) = 치수(추정)
+PCB Qty = PCB 수량
+Copper Weight = 구리도금 중량
+PCB Price = PCB 가격
+Estimated Delivery Time = 예정 배송 기간
+
+HASL(with lead) = 납땜 도금(납 함유)
+LeadFree HASL-RoHS = 무연 납땜-RoHS
+ENIG-RoHS = 무전해 니켈 도금-RoHS
+Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = Gerber 파일을 생성하기 전에 DRC(Design Rule Checking)를 하시겠습니까?
+Yes, Check DRC = 예, DRC 확인
+No, Generate Gerber = 아니오, Gerber 생성
+This PCB has uncompleted connection(s), do you want to check the connection(s)? = 이 PCB에 연결이 완료되지 않았습니다. 연결을 확인하시겠습니까?
+Yes, Check Connection(s) = 예, 연결 확인
+It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = 그런 다음 우리가 협력하는 타사 JLCPCB의 웹 사이트로 리디렉션됩니다. 준비 되었나요?
+Failed to submit your order, please contact us via support@easyeda.com for help. = 주문서를 제출하지 못했습니다. support@easyeda.com을 통해 도움을 요청하세요.
+Failed to submit your order, please contact us via QQ 800821856. = 주문서를 제출하지 못했습니다. QQ 800821856을 통해 문의하십시오.
+Order data generated finish, please click OK button and continue. = 주문 데이터 생성이 완료되었습니다. 확인 버튼을 클릭하고 계속하십시오.
+[generateGerber]
+Layers = 레이어
+[/generateGerber]
+
+[version]
+Switch = 스위치
+[/version]
+
+
+Export your file, then print it yourself. = 파일을 내보낸 다음 직접 인쇄하십시오.
+Trace width is too small = 트레이스 너비가 너무 작습니다.
+Share = 공유
+
+Images Property = 이미지 속성
+Connect Pad to Pad = 패드를 패드에 연결
+Copper Area = 구리도금 영역
+Dimension = 치수
+
+
+Please check that you have used Wire and not Line to connect electrical elements. = 전기 소자를 연결할 때 Line이 아닌 Wire를 사용했는지 확인하십시오.
+PCB Fabrication Prices & capabilities = PCB 제조 공정 및 능력
+Flip all texts on bottom layer = 하위 레이어의 모든 텍스트 뒤집기
+Create New Document = 새 문서 작성
+General Package = 패키지 생성
+General Packages = 패키지 생성
+favorite Package = 선호하는 패키지
+Board Cutout = 보드 컷아웃
+Surface Mount = 표면 실장
+JLCPCB Part Class = JLCPCB 부품 클래스
+base = 기준
+expand = 확장
+recommend = 권장
+Basic Part = 기본 부품
+Extended Part = 확장 부품
+Recommended Part = 권장 부품
+smtWeld =
+thtWeld =
+manualWeld =
+furnaceWeld =
+Multi-Layer =
+Markdown Syntax = 마크다운 구문
+Markdown supported = 마크다운 지원
+Read only = 읽기 전용
+Read/Write = 읽기/쓰기
+More Libraries... = 더 많은 라이브러리...
+Decompress failed! = Decompress failed!
+Load failed! = 로드 실패!
+Loading = 로딩 중
+No Result = 결과 없음
+
+#Dialog Place Pin in schematic warning
+Place Pin in schematic warning = 회로 경고에 핀 배치
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = 회로도에 핀을 배치할 수 있지만 모든 핀을 회로도 부품으로 그룹화하는 것을 잊지 마십시오. 그룹화 방법을 알아보려면 도움말 버튼을 클릭하십시오. 배선만 표시하고 싶다면 NetPort나 NetNabel을 사용하세요.
+I know. Do not show this again. = 알아요. 이것을 다시 표시하지 마십시오.
+
+#Extensions Setting
+Extensions Setting = 확장 기능 설정
+Remove = 삭제
+Disable = 비활성화
+Enable = 활성화
+(Disabled) = (비활성화)
+(Enabled) = (활성화)
+Load Extension = 확장 기능 불러오기
+Enable or disable will be applied after reload page = 페이지를 새로고침한 후 활성화 또는 비활성화가 적용됩니다.
+Your browser cannot run this function. = 귀하의 브라우저는 이 기능을 실행할 수 없습니다.
+Your browser mode does not support indexedDB. Some features may not work properly. Are you using Private Browsing Mode? = 브라우저 모드는 indexedDB를 지원하지 않습니다. 일부 기능이 제대로 작동하지 않을 수 있습니다. 프라이빗 브라우징 모드를 사용하고 있습니까?
+Extension Files = 확장 기능 파일
+Extension ID = 확장 기능 아이디
+Select Files = 파일 선택
+
+#Scripts
+Script = 스크립트
+Scripts = 스크립트
+Script Content = 스크립트 내용
+Load from js file = JS 파일로부터 불러오기
+UTF-8 encoded js file = UTF-8 인코딩 JS 파일
+Description = 설명
+description = 설명
+Not a *.js file = *.JS 파일이 아닙니다.
+Failed to read file = 파일 읽기 실패
+System scripts cannot be modified = 시스템 스크립트는 수정할 수 없습니다.
+Create Subfolder = 서브 폴더 생성
+Create Script = 스크립트 생성
+Install Script = 스크립트 설치
+Install = 설치
+Desktop Client = 데스크탑 클라이언트
+Are you sure you want to remove this script? = 이 스크립트를 제거하시겠습니까?
+Folder Name = 폴더명
+Rename = 이름 변경
+Please select a script = 스크립트를 선택하세요
+Failed to load script = 스크립트 불러오기 실패
+Run Script = 스크립트 실행
+Load Script = 스크립트 불러오기
+Title is required = 주제가 필요합니다.
+Script content is required = 스크립트 내용이 필요합니다.
+System Scripts = 시스템 스크립트
+User Scripts = 사용자 스크립트
+You can right click on the tree nodes. = 트리 노드를 마우스 오른쪽 버튼으로 클릭할 수 있습니다.
+
+#PCB photoView toolbar
+Top Side = 폄면도
+Bottom Side = 배면도
+With Silk Layer = 실크 레이어로
+No Silk Layer = 실크 레이어 없음
+Photo View = 포토 보기
+
+#check update
+Check Update = 업데이트 확인
+EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = EasyEDA Editor {ver}가 출시되었습니다. 지금 새 버전으로 전환하시겠습니까?
+LCEDA Editor {ver} is released. Would you like to switch to the new version now? = LCEDA Editor {ver}가 출시되었습니다. 지금 새 버전으로 전환하시겠습니까?
+Switch to New Version = 새 버전으로 전환
+Next Time = 다음에
+
+#download project dialog
+Generating download link... = 다운로드 링크 생성 중...
+Download project now = 지금 프로젝트 다운로드
+
+#Import DXF
+Import DXF = DXF 불러오기
+Apply Unit = 단위 적용
+Convert circle to HOLE on BoardOutLine layer = BoardOutLine 레이어에서 원을 HOLE로 변환
+No shapes found = 찾은 형상 없음
+Fail to load the file = 파일 불러오기 실패
+Please select a DXF file. = DXF파일을 선택하세요
+This feature only works for PCB document. = 이 기능은 PCB 문서에서만 작동합니다.
+Select a DXF file = DXF 파일 선택
+
+#Export DXF
+Export DXF = DXF 내보내기
+Plated-Through-Hole Pads = 도금-관통 홀 패드
+Non-Plated-Through-Hole Pads = 비도금-관통 홀 패드
+Silkscreen = 실크스크린
+Surface Pad = 표면 패드
+
+#Data Sync
+Data Sync = 데이터 동기화
+Data Conflicts = 데이터 충돌
+Project or Document = 프로젝트 또는 문서
+Cloud-Side = 클라우드-사이드
+Local-Side = 로컬-사이드
+Decision = 결정
+Modified = 수정됨
+Deleted = 삭제됨
+As Cloud = 클라우드로
+As Local = 로컬로
+Skip = 건너뛰기
+Data sync completed = 데이터 동기화 완료
+
+#Team
+Team = 팀
+Teams = 팀
+Switching team = 팀 변경
+Switch team failed = 팀 변경 실패
+Load team info fail! = 팀 정보 불러오기 실패!
+Load team info fail! Please reload. = 팀 정보 불러오기 실패! 새로고침하세요.
+My Teams = 내 팀
+Create Team = 팀 생성
+
+#Dialog Footprint Manager
+Footprint Manager = 실장 부품 외형(풋프린트) 관리자
+Open Footprint Manager = 풋프린트 관리자 열기
+Schematic Components = 회로 부품
+Edit Pin Map Information = 핀맵 정보 수정
+Package Categories = 패키지 카테고리
+Components List = 부품 리스트
+Personal = 개인
+Component PIN information = 부품 PIN 정보
+Footprint PAD information = 풋프린트 PAD 정보
+Footprint Categories = 풋프린트 카테고리
+Pad Number = 패드 번호
+Search Footprint = 풋프린트 찾기
+Select Footprint = 풋프린트 선택
+Search 3D Model = 3D 모델 찾기
+Select 3D Model = 3D 모델 선택
+Filter by keyword = 키워드로 필터링
+System Libs = 시스템 라이브러리
+
+#dialog global delete
+Drawings = 도면
+Netlabel and netFlag = 네트레이블과 네트플래그
+Texts = 텍스트
+Wires = 배선
+Board outlines = 보드 윤곽선
+Footprints = 풋프린트
+Footprint = 풋프린트
+Tracks = 트랙
+
+#dialog board outline settings
+Current Size = 현재 크기
+Parameters = 파라메타
+Start X: = 시작 X:
+Start Y: = 시작 Y:
+Round Rectangular = 둥근 모서리 직사각형
+radius = 반경
+only number is allowed! = 숫자 만 허용됨!
+please input valid value of width! = 폭의 유효한 값을 입력하십시오!
+please input valid value of height! = 높이의 유효한 값을 입력하십시오!
+please input valid value of radius! = 반경의 유효한 값을 입력하십시오!
+
+#cross probe
+The object you selected was not found in other documents. = 선택한 개체를 다른 문서에서 찾을 수 없습니다.
+No valid object for cross probe selected. = 크로스 프로브에 유효한 개체가 선택되지 않았습니다.
+Can not probe. Refreshing the window may get it to work. = 프루브할 수 없습니다. 창을 새로 고치면 작동할 수 있습니다.
+You need to login for this function to work. = 이 기능이 작동하려면 로그인해야 합니다.
+
+#About Dialog
+An Easier EDA Experience = 더 쉬운 EDA 경험
+Version = 버전
+BuiltDate = 생성일시
+
+#Auto Router Dialog
+Auto Router Config = 오토 라우터 구성
+General Options = 일반 옵션
+All Layers = 모든 레이어
+Configure = 구성
+Sorry, your web browser does not support this feature. Please run a modern browser. = 죄송합니다. 귀하의 웹 브라우저는 이 기능을 지원하지 않습니다. 최신 브라우저를 실행하십시오.
+Please make sure all objects with net are inside the board outline! = 네트에 있는 모든 객체가 보드 윤곽선 안에 있는지 확인하십시오!
+Cannot start again before previous activity is stopped = 이전 활동이 중지되기 전에 다시 시작할 수 없습니다.
+Please select a net = 네트를 선택해 주세요
+TrackWidth cannot be empty = TrackWidth는 비워둘 수 없습니다.
+Clearance cannot be empty = 클리어런스는 비워둘 수 없습니다.
+Router is time out. = 라우터가 시간 초과되었습니다.
+Server is busy, please try again later. = 서버가 사용 중입니다. 나중에 다시 시도하십시오.
+Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) = {0}라우터 서버{1} 리소스의 제한으로 인해 동시에 실행되는 여러 라우터는 지원되지 않습니다. 나중에 다시 시도하거나 수동으로 수행하세요 :-)
+Track Width is invalid = 트랙 두께가 잘못되었습니다.
+General Clearance is invalid = 일반 클리어런스가 유효하지 않습니다.
+SMD Clearance is invalid = SMD 클리어런스가 유효하지 않습니다.
+Diameter is invalid = 직경이 유효하지 않습니다.
+Drill Diameter is invalid = 드릴 직경이 유효하지 않습니다.
+Track width cannot be less than Design Rule Checking (DRC) setting value. = 트랙 두께는 DRC(Design Rule Checking) 설정 값보다 작을 수 없습니다.
+General Clearance cannot be less than Design Rule Checking (DRC) setting value. = 일반 클리어런스가 DRC(Design Rule Checking) 설정 값보다 작을 수 없습니다.
+SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = SMD 클리어런스가 DRC(Design Rule Checking) 설정 값보다 작을 수 없습니다.
+Hole size cannot be less than Design Rule Checking (DRC) setting value. = 홀 크기는 DRC(Design Rule Checking) 설정 값보다 작을 수 없습니다.
+Design Rule's via diameter must be larger than via drill diameter = 설계 규칙의 층간 홀 직경은 층간 홀 드릴 직경보다 커야 합니다.
+Clearance cannot be less than Design Rule Checking (DRC) setting value. = 클리어런스는 DRC(Design Rule Checking) 설정 값보다 작을 수 없습니다.
+Not a valid PCB, please check it again = 유효한 PCB가 아닙니다. 다시 확인하십시오.
+Previous connection must be closed = 이전 연결을 닫아야 합니다.
+Network error. Please try again. = 네트워크 오류. 다시 시도해 주세요.
+Router error. = 라우터 오류입니다.
+Invalid PCB. = 잘못된 PCB입니다.
+General Clearance = 일반 클리어런스
+SMD Clearance = SMD 클리어런스
+#Ripup Nets = 
+Skip Routed Nets = 라우팅된 네트 건너뛰기
+Remove Existing Tracks = 기존 트랙 제거
+Real-time Display = 실시간 디스플레이
+Router Layers = 라우터 레이어
+Via = 층간 홀
+Special = 특수
+Special Nets = 특수한 네트
+Skip Nets = 네트 건너뛰기
+Router Server = 라우터 서버
+Local = 로컬
+Cloud = 클라우드
+Available = 유효
+Unavailable = 유효하지 않음
+Checking = 확인 중
+Install Local Auto Router = 로컬 오토 라우터 설치
+Checking local auto router server... = 로컬 라우터 서버 확인 중
+Stop Router = 라우터 정지
+Auto Router is running... = 오토 라우터 실행 중...
+
+#Left Siderbar
+Commonly Library = 공통 라이브러리
+Basic = 기본
+Extend = 확장
+Design Manager = 설제 관리자
+Library = 라이브러리
+Spice Library = Spice 라이브러리
+Shared = 공유됨
+LCSC =
+LCSC Parts = LCSC 부품
+Supply Flag = 플래그 적용
+US =
+EU/IEC =
+US Style = US 스타일
+Resistor = 저항
+Capacitor = 커패시터
+Inductor = 인덕터
+Switch/Key = 스위치/키
+EU/IEC Style = EU/IEC 스타일
+CN =
+Connector = 컨넥터
+Switch/Relay = 스위치/릴레이
+JLCPCB =
+Recycle Bin = 휴지통
+
+#Protractor
+Font Height = 글꼴 높이
+Precision = 정밀
+Protractor = 프로트랙터
+
+#attr-pcbtext-line-width
+Only default font family supports to change font width. = 기본 글꼴 패밀리만 글꼴 너비 변경을 지원합니다.
+Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = 글꼴이 누락되었습니다! 대화 상자를 확인하고 대신 기본 글꼴을 사용하거나 대화 상자를 취소한 다음 글꼴을 업로드하고 다시 수행할 수 있습니다.
+
+#Common
+Owner = 소유자
+License = 라이센스
+Part Pins = 부품 핀
+Part Properties = 부품 속성
+Net Pins = 네트 핀
+Net Ratlines = 네트 랫라인
+Add Parameter = 파라메타 추가
+Histories record = 히스토리 보고
+Create Team = 팀 생성
+Can't find this footprint on the server, please re-associate it. = 서버에서 이 풋프린트를 찾을 수 없습니다. 다시 연결하십시오.
+The footprint name associated with the component and the footprint name on the server are inconsistent, please re-associate it. = 부품과 연결된 풋프린트 이름과 서버의 풋프린트 이름이 일치하지 않습니다. 다시 연결하십시오.
+The symbol pin number(s) of the component does not match the associated footprint pad number(s), please modify the symbol pin number(s) or re-associate the footprint = 부품의 심볼 핀 번호가 연결된 풋프린트 패드 번호와 일치하지 않습니다. 심볼 핀 번호를 수정하거나 풋프린트를 다시 연결하십시오.
+No footprint, please associate the footprint first. = 풋프린트가 없습니다. 먼저 풋프린트를 연결하십시오.
+Can't find the package = 패키지를 찾을 수 없습니다
+The path is for the project URL identify, it is unique (the identity of the project owned by the user cannot be the same) = 경로는 프로젝트 URL 식별용이며 고유합니다(사용자가 소유한 프로젝트의 ID는 동일할 수 없음).
+It's with a letter or a number and can contain only numbers, letters, line-through, underscores, and points. It cannot be modified after saving. = 문자 또는 숫자로 구성되며 숫자, 문자, 줄 바꿈, 밑줄 및 점만 포함할 수 있습니다. 저장 후에는 수정할 수 없습니다.
+Updating document to new format, please wait......After finishing please save your document with Ctrl + S. = 문서를 새 형식으로 업데이트하는 중입니다. 잠시만 기다려 주십시오......완료 후 Ctrl + S를 눌러 문서를 저장하십시오.
+Open at current project? = 현재 프로젝트에서 여시겠습니까?
+Please select a history to recover. = 복구할 기록을 선택하세요.
+Be careful! When you click the "Recover" button, this sheet will be overwritten! = 조심하세요! "복구" 버튼을 클릭하면 이 시트를 덮어씁니다!
+Recover = 복구
+There is no PCB under this project, would you like to create one? = 이 프로젝트에는 PCB가 없습니다. 생성하시겠습니까?
+Please make sure that the chose Altium Designer files are saved as ASCII files. = 선택한 Altium Designer 파일이 ASCII 파일로 저장되어 있는지 확인하십시오.
+Export to Altium function is currently in beta: = Altium으로 내보내기 기능은 현재 베타 버전입니다.
+1. Please be sure to read the notice before exporting: = 1. 내보내기 전에 주의사항을 반드시 읽으십시오:
+Export Altium notice and disclaimer = Altium 내보내기 고지 및 면책 조항
+2. Please be sure to check again after export! = 2. 내보내기 후 다시 확인해주세요!
+I have read and agree = 읽었으며 동의합니다
+Export to Altium = Altium으로 내보내기
+Please make sure that the chose Eagle files are saved in Eagle v6.0 and above. = 선택한 Eagle 파일이 Eagle v6.0 이상에 저장되어 있는지 확인하십시오.
+Please make sure that the Kicad files were compressed as the .zip file. = Kicad 파일이 .zip 파일로 압축되었는지 확인하십시오.
+Open Altium Designer file = Altium Designer 파일 열기
+The more information please refer at : = 더 자세한 내용은 다음을 참조하십시오.
+Please use Gerber file instead of exporting Altium if you are going to do PCB manufacturing. All PCB factories support the Gerber file. Is it ok to Generate the Gerber file? = PCB 제작을 하실 예정이라면 Altium으로 내보내기 하는 대신 Gerber 파일을 사용하시기 바랍니다. 모든 PCB 공장은 Gerber 파일을 지원합니다. Gerber 파일을 생성해도 괜찮습니까?
+Yes, Generate Gerber = 예, Gerber 생성
+No, Export Altium = 아니오, Altium 내보내기
+Open Eagle file = Eagle 파일 열기
+Open Kicad file = Kicad 파일 열기
+Select file(s) = 파일 선택
+Append to current project? = 현재 프로젝트에 추가?
+Append = 추가
+Open as new project = 새 프로젝트로 열기
+Tip: Press {0}SPACE{1} or {2}R{3} to rotate the placing object or selected object. = 팁: {0}SPACE{1} 또는 {2}R{3} 키를 눌러 배치 객체 또는 선택한 객체를 회전합니다.
+Hotkeys Setting = 단축키 설정
+I know. Don't show this again. = 알아요. 이것을 다시 표시하지 마십시오.
+Manufacturer Part Number can not be less than 2 characters. = 제조업체 부품 번호는 2자 이상이어야 합니다.
+This prefix was changed to non-subpart format. = 이 접두어는 하위 파트가 아닌 형식으로 변경되었습니다.
+Save as New Project = 내 프로젝트로 저장
+Save to Existing Project = 기존 프로젝트로 저장
+Sheet Setting = 시트 설정
+Sheet Size = 시트 크기
+Pre =
+pre =
+Invalid Data = 잘못된 데이터
+Others = 기타
+You are not authorized to share this project. = 이 프로젝트를 공유할 권한이 없습니다.
+This project is private: if you continue sharing it will be made public. = 이 프로젝트는 비공개입니다. 계속 공유하면 공개됩니다.
+Modify file info = 파일 정보 수정
+Please input search keyword = 검색 키워드를 입력하세요
+Sort Projects by = 프로젝트 정렬 기준
+Date Created = 생성 일자
+Date Modified = 수정 일자
+Title = 제목
+Ascending = 오름차순
+Descending = 내림차순
+Pin to Top = 상단에 고정
+Unpin from Top = 상단에서 고정 해제
+Collapse / Expand = 접기/펼치기
+Expand = 펼치기
+Expand All = 모두 펼치기
+Collapse = 접기
+Collapse All = 모두 접기
+Your file hasn't been saved, do you want to save it? = 파일이 저장되지 않았습니다. 저장하시겠습니까?
+Don't Save = 저장하지 마시오.
+Library Owner: = 라이브러리 소유자:
+verifyPkg.Value =
+State = 상태
+Please select! = 선택하세요!
+Route = 라우트
+Import successfully: = 불러오기 성공:
+Import failed: = 불러오기 실패:
+Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = 경로에는 'a-z、A-Z、- 、 _ 、0-9'만 포함됩니다!
+Path must begin as 'a-z、A-Z、0-9'! = 경로는 'a-z、A-Z、0-9'로 시작해야 합니다!
+The path length must be between 4~128 characters! = 경로 길이는 4~128자 사이여야 합니다!
+The title length must be between 2 ~ 128 characters. = 제목 길이는 2~128자 사이여야 합니다.
+Please select an owner = 소유자를 선택하세요.
+Please select obj, wrl or zip file. = obj, wrl 또는 zip 파일을 선택하십시오.
+Do you want to delete this file? = 이 파일을 삭제하시겠습니까?
+Add sub part success = 하위 부품 추가 성공
+Please input name and prefix! = 이름과 접두어를 입력하세요!
+Board outlines are not closed = 보드 윤곽선이 닫히지 않았습니다.
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 가져오기 실패! 가져온 파일은 ASCII 형식이 아니므로 Altium Designer에서 먼저 파일을 'Advanced Schematic ascii(*.SchDoc)' 또는 'PCB ASCII File(*.PcbDoc)'로 저장한 다음 가져오세요.
+The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = 핀 "{0}"이(가) 그리드 포인트에 스냅되지 않습니다! 이 부분은 회로도에 약간의 오류를 일으킬 수 있습니다.
+Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} = 저장 실패! 핀 번호는 반복을 허용하지 않습니다! 아래 핀 번호 반복: {0}
+Check Pin = 핀 확인
+Failed to read {0} = {0}을(를) 읽지 못했습니다.
+{0} is invalid = {0}이(가) 잘못되었습니다.
+{0} not found = {0} 찾을 수 없음
+Failed to execute script: = 스크립트 실행 실패:
+One or more js files not found = 하나 이상의 js 파일을 찾을 수 없습니다
+Only ONE {0} file is required = 하나의 {0} 파일만 필요합니다.
+Extension ID is required = 확장 기능 아이디는 필수 항목입니다.
+Extension ID is invalid = 확장 기능 아이디가 유효하지 않습니다.
+Extension ID is duplicated = 확장 기능 아이디가 중복됩니다.
+No Result! = 결과 없음
+Load Error = 불러오기 오류
+loading = 불러오는 중
+Failed to load spice data = spice 데이터를 로드하지 못했습니다.
+Netlist = 네트 리스트
+Tags = 태그
+Pin Information: = 핀 정보:
+Format incorrect, please check for the extra spaces or commas! = 형식이 잘못되었습니다. 추가 공백이나 쉼표가 있는지 확인하세요!
+Round Radius = 라운드 반경
+Keyword: = 키워드:
+Image = 이미지
+Image copied. = 이미지 복사됨.
+Copy failed. = 복사 실패.
+Copy success. = 복사 성공.
+Image Property = 이미지 속성
+Locked = 잠김
+Unlock All = 모두 잠금해제
+Unlock = 잠금해제
+Lock = 잠금
+Please input pin name and pin number! = 핀명과 핀번호를 입력해주세요!
+Left-Hand Panel = 왼쪽 패널
+Right-Hand Panel = 오른쪽 패널
+Update Components from Library = 라이브러리에서 구성요소 업데이트
+The pin number(s) can't find the same pad number(s) = 핀 번호는 동일한 패드 번호를 찾을 수 없습니다
+Designator = 지정자
+Replace = 대체
+Update failed = 업데이트 실패
+Successfully updated = 업데이트 성공
+Update failed! = 업데이트 실패!
+Successfully updated! = 업데이트 성공!
+Successfully updated {0} component(s)! = {0} 부품을 성공적으로 업데이트했습니다!
+Change = 변경
+Check Footprints = 풋프린트 확인
+Network Error! = 네트워크 오류!
+Find Similar Objects = 유사 객체 찾기
+Current Sheet = 현재 시트
+All Sheets = 모든 시트
+Kind = 유형
+Range = 범위
+Net Label/Net Flag/Net Port/Voltage Probe = 네트 레이블/네트 플래그/네트 포트/전압 프루브
+Bezier/Freehand Draw = 베지어/자유 그리기
+Arc/Pie = 호/파이
+Objects Properties = 객체 속성
+Any = 아무거나
+Same = 동일
+Different = 다름
+Circular = 원형
+Expose Copper = 구리도금 노출
+"{0}" font is missing. Please add the font to the font family list. = "{0}" 글꼴이 없습니다. 글꼴 패밀리 목록에 글꼴을 추가하십시오.
+Place Component = 배품 배치
+Delete Segment = 세그먼트 삭제
+Angle = 각도
+Board Thickness = 보드 두께
+Layer Distance = 레이어 거리
+Silk Screen = 실크 스크린
+Surface Finish Color = 표면 마무리 색상
+Colors = 색상
+Board Color = 보드 색상
+Board Side = 보드면
+Silk Screen = 실크 스크린
+Silk Screen Color = 실크 스크린 색상
+Display = 디스플레이
+
+#Array and Clone
+Distribute Array = 배열 분할
+Array Type = 배열 유형
+Matrix Array = 행렬 배열
+Circular Array = 원형 배열
+Item Rotation = 아이템 회전
+Location = 위치
+Items per Column = 열 항목
+Items per Row = 행 항목
+#Column Spacing =
+#Row Spacing =
+Spacing(Degrees) = 간격(도)
+Start Degree = 시작(도)
+Rotate Item to Match = 일치하도록 항목 회전
+Clockwise = 시계 방향
+Anti-Clockwise = 반시계 방향
+Distribute by = 배포자
+Column = 열
+Row = 행
+Array Clone = 배열 복제
+Number of Rows = 행 수
+Number of Columns = 열 수
+Number of Copies = 복사 갯수
+Distribute Range(Degrees) = 분할 범위(도)
+
+#Theme color dialog
+BusEntry = 버스진입
+Foreground = 전경
+Common Used = 일반적인 사용
+Original Theme = 오리지널 테마
+Theme Setting = 테마 설정
+Change the theme colors of your design = 디자인의 테마 색상 변경
+White on Black = 흑색 위에 흰색
+Black on White = 흰색 위에 흑색
+Custom Theme = 사용자 테마
+Color Setting = 색상 설정
+Apply Setting = 설정 적용
+Theme Setting... = 테마 설정...
+Bus Entry = 버스 진입
+Foreground = 전경
+Symbol Graphics = 심볼 그래픽
+Common Used = 일반적인 사용
+Draw = 그리기
+Sheet = 시트
+The original theme only works for placing the new symbols. = 오리지널 테마는 새 심볼을 배치할 때만 작동합니다.
+Selection Highlight = 선택 강조
+Net Label / Port = 네트 레이블 / 포트
+
+My Theme = 내 테마
+My Theme Settings = 내 테마 설정
+Apply 'Custom Theme' On = '사용자 지정 테마' 적용 켜기
+Creating New Schematic = 새 회로도 생성
+Opening Existed Schematic = 기존 도식 열기
+Please fill in all parameters! = 모든 파라메타를 입력하세요!
+Convert to Board Cutout = 보드 컷아웃으로 변환
+Prefix Position = 접두어 위치
+Name Position = 이름 위치
+Center = 중간
+Top = 위
+Bottom = 아래
+Left = 왼쪽
+Right = 오른쪽
+Does not support multiple objects to convert to Board Cutout at the same time = 동시에 보드 컷아웃으로 변환하기 위해 여러 객체를 지원하지 않습니다
+Does not support multiple objects to convert to pad at the same time = 동시에 패드로 변환하기 위해 여러 객체를 지원하지 않습니다
+Convert to Board Cutout = 보드 컷아웃으로 변환
+Convert to Pad = 패드로 변환
+Convert to Component Shape = 부품 형상으로 변환
+Combine to Continuous Track = 연속 트랙으로 결합
+Convert to Solid Region = 솔리드 영역으로 변환
+Substrate = 기판
+3D View = 3D 보기
+2D View = 2D 보기
+Pin Color = 핀 색상
+Name Color = 이름 색상
+Number Color = 숫자 색상
+Dot =
+
+[theme]
+Sheet = 시트
+[/theme]
+
+
+#history dialog
+[history-dlg]
+Number = 번호
+Editor = 편집자
+[/history-dlg]
+View File History = 파일 히스토리 보기
+Save Time = 시간 저장
+
+Invalid Format = 잘못된 형식
+
+#Dialog Teardrop
+Round Pad / Via = 둥근 모서리 패드 / 층간 홀
+Rectangle / Oval / Polygon Pad = 사각형 / 타원형 / 다각형 패드
+Applying Teardrops = 라운드 패턴 보강 적용
+Removing Teardrops = 라운드 패턴 보강 삭제
+Waiting = 대기
+Progressing... = 진행 중...
+
+No schematic in the project! = 프로젝트내에 회로도가 없습니다!
+
+Move Forward = 앞으로 이동
+Move Backward = 뒤로 이동
+
+#Dialog Panelize
+V-CUT = V-컷
+Stamp Hole = 스탬프 홀
+No Panelize = 비-패널화
+Border and Marking = 보드 및 마킹
+Create Border = 보드 생성
+Border Height = 보드 높이
+Border Position = 보드 위치
+Create Positioning Holes = 포지셔닝 홀 생성
+Create Fiducial Marks = 기준 마크 생성
+Top and Bottom = 맨 위와 맨 아래
+Left and Right = 왼쪽과 오른쪽
+Stamp Hole Group - Column = 스탬프 홀 그룹 - 열
+Stamp Hole Group - Row = 스탬프 홀 그룹 - 행
+The number of rows and columns cannot be set to 1 simultaneously = 행과 열의 수는 동시에 1로 설정할 수 없습니다.
+
+#edit path point
+[editPathPoints-dlg]
+Arc(R) = 호(R)
+Type = 형식
+Action = 동작
+add before = 이전 추가
+add after = 이후 추가
+delete = 삭제
+[/editPathPoints-dlg]
+
+#edit polygon point
+[editPolygonPoints-dlg]
+Action = 동작
+add before = 이전 추가
+add after = 이후 추가
+delete = 삭제
+[/editPolygonPoints-dlg]
+You have unconfirmed edit! = 확인되지 않은 수정 사항이 있습니다!
+Invalid edit! = 잘못된 편집!
+
+#Dialog PCB Information
+PCB Information... = PCB 정보...
+Signal Layers = 신호 레이어
+None Signal Layers = 비-신호 레이어
+Pads = 패드
+Surface Pads = 표면 패드
+Plated Through-hole Pads = 평탄 관통홀 패드
+None Plated Through-hole Pads = 비-평탄 관통홀 패드
+Holes = 홀
+Vias = 층간 홀
+Length of Tracks = 트랙 길이
+Copper Areas = 구리도금 영역
+
+#Differential Pair Routing
+Differential Pair Routing = 차동 쌍 라우팅
+Differential Pair Rule Setting = 차동 쌍 규칙 설정
+Please input track width = 트랙 두께 입력
+Please input clearance = 클리어런스 입력
+Routing Rules = 라우팅 규칙
+
+#Route Length Tuning
+Track Length Tuning... = 트랙 길이 조정...
+Tracks with different net or non-track found in current targets. = 현재 대상에서 다른 네트 또는 비-트랙이 있는 트랙이 발견되었습니다.
+Please select the signal tracks to be tuning. = 조정할 신호 트랙을 선택하세요.
+The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = 총 길이가 DRC(Design Rule Checking) 제약 조건을 초과합니다. 계속하시겠습니까?
+45° Angle = 45° 각도
+90° Angle = 90° 각도
+DRC Track Length : = DRC 트랙 길이 :
+Current Length : = 현재 길이 :
+Additional Length : = 추가 길이 :
+Target Length: = 대상 길이:
+Current Length: = 현재 길이:
+Adjust Type = 유형 조정
+Double Side = 양면
+Single Side = 단면
+
+can not connect to the server = 서버에 연결할 수 없습니다
+
+#Dialog Copper Area Manager
+Copper Area Manager... = 구리도금 영역 관리자...
+Copper Area Manager = 구리도금 영역 관리자
+Order = 주문
+Name = 이름
+Layer = 레이어
+Color = 색상
+Net = 네트
+Move Up = 위로 이동
+Move Down = 아래로 이동
+Apply = 적용
+Cancel = 취소
+Copper Area do not allow self-intersection! = 구리도금 영역은 자체 교차를 허용하지 않습니다!
+No copper area! = 구리도금 영역 아님
+#Dialog report error
+Datasheet = 데이터시트
+Verification = 확인
+Symbol = 심볼
+Pad Number = 패드 번호
+Pad Size = 패드 크기
+Remark = 설명
+Correct = 정확
+Incorrect = 비정확
+Submit = 제출
+Tip = 팁
+Please select one component = 하나의 부품을 선택하십시오
+Location X = 위치 X
+Location Y = 위치 Y
+Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = 현재 브라우저 버전은 일부 기능을 지원하지 않을 수 있습니다. 최신 버전의 Chrome 또는 Firefox를 사용하거나 데스크톱 클라이언트를 사용해 보세요.
+EasyEDA Client = EasyEDA 클라이언트
+LCEDA Client = LCEDA 클라이언트
+Chrome =
+FireFox =
+New Version = 새 버전
+Switch Version = 버전으로 전환
+Members = 구성원
+Update Time = 업데이트 시간
+Editor = 편집자
+Current Version = 현재 버전
+Latest Version = 최신 버전
+Please select a different version to switch; If you want to edit different version in the same time, please open them in different browsers. = 전환할 다른 버전을 선택하십시오. 다른 버전을 동시에 편집하려면 다른 브라우저에서 여십시오.
+3D Model = 3D 모델
+Board Side = 보드 크기
+Display = 디스플레이
+Copper = 구리도금
+Create New Version = 새 버전 생성
+Create new version success! = 새 버전 생성 성공!
+Version Management = 버전 관리
+Switch success! = 버전 전환 성공!
+Please close current version's documents first! = 현재 버전의 문서를 먼저 닫으십시오!
+Creator = 생성자
+Create Time = 생성 시간
+Fail to connect to server! Please check your internet connection status and try again! = 서버 접속 실패! 인터넷 연결 상태를 확인하고 다시 시도하십시오!
+Spice Number = Spice 번호
+Create = 생성
+3D Outline = 3D 윤곽선
+Cannot create the slot hole via the board outline, please use the following methods: = 보드 아웃라인을 통해 슬롯 홀을 만들 수 없습니다. 다음 방법을 사용하십시오.
+Use the solid region and set its type as Board Cutout = 솔리드 영역을 사용하고 해당 유형을 Board Cutout으로 설정합니다.
+Select a Track/Arc, right-click to use the "Convert to Board Cutout" = 트랙/호를 선택하고 "보드 컷아웃으로 변환"을 사용하려면 마우스 오른쪽 버튼을 클릭합니다.
+Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cutout" = 닫힌 트랙/호를 모두 선택하고 "보드 컷아웃으로 변환"을 사용하려면 마우스 오른쪽 버튼을 클릭합니다.
+The more information please refer at = 더 자세한 정보는 여기를 참조하세요
+Save "{0}" success! = "{0}" 저장 성공!
+Save "{0}" failed! = "{0}" 저장 실패!
+Invalid Size = 잘못된 크기
+Processing = 처리 중
+Invalid Size = 잘못된 크기
+NetFlag GND = 네트 플래그 GND
+NetFlag VCC = 네트 플래그 VCC
+NetFlag +5v = 네트 플래그 +5V
+No Useful Data! = 유용한 데이타 없음!
+SVG Preview = SVG 미리보기
+Prefix contains not supported charater(s) ! = 접두어에 지원되지 않는 문자가 포함되어 있습니다!
+Name contains not supported charater(s) ! = 이름에 지원되지 않는 문자가 포함되어 있습니다!
+Create Grid Path = 그리드 경로 생성
+Please Input Name = 이름을 입력하세요
+Building Copper Area = 구리도금 영역 생성
+Processing = 처리 중
+Opening File = 파일 여는 중
+Update from Library = 라이브러리로부터 업데이트
+Update Footprint = 풋프린트 업데이트
+Update 3D Model = 3D 모델 업데이트
+Find footprint(s) have been updated, do you want to update? = 업데이트된 풋프린트를 찾으세요. 업데이트하시겠습니까?
+3D File: = 3D 파일:
+Model List = 모델 리스트
+Are you sure merge net {0} and net {1}? = 네트 {0} 와 네트 {1}을(를) 병합하시겠습니까?
+Display Footprint = 풋프린트 디스플레이
+Display Footprint Name While Placing Component = 부품 배치 동안 풋프린트 이름을 디스플레이하세요
+Annotate Prefix Automatically After Placing Component = 부품 배치 후 자동으로 접두어 주석 달기
+Program Error, Please Contact Technical Support! = 프로그램 오류, 기술 지원에 문의하십시오!
+Search Engine = 검색 엔진
+Keyword to Filter = 필터링할 키워드
+Normal Mode = 일반 모드
+Expand Mode = 확장 모드
+3D Model Manager = 3D 모델 관리자
+3D Model Preview = 3D 모델 미리보기
+3D Model = 3D 모델
+3DModel = 3D모델
+Document = 문서
+
+[pcblayer]
+3DModel = 3D모델
+Document = 문서
+[/pcblayer]
+
+Adjustment =
+View Larger Image = 큰 이미지 보기
+Previous = 이전
+Previous Image = 이전 이미지
+Next Image = 다음 이미지
+Notice: For reference only, please refer to the real product = 주의 사항: 참고용으로만 실제 제품을 참조하십시오.
+It's under designing, please wait. = 설계 중입니다. 잠시만 기다려 주십시오.
+The width of track/arc/circle cannot be less than 0.1mil! = 트랙/호/원의 너비는 0.1mil보다 작을 수 없습니다!
+Clone success ! = 복제 성공!
+Footprint Naming Reference = 풋프린트 명명 참조
+3D Model Manager = 3D 모델 관리자
+Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = 정보 및 공유를 개선하기 위해 Lichuang 오픈 소스 하드웨어 플랫폼(OSHWHub.com)으로 이동합니다. 계속할까요?
+Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? = EasyEDA 오픈 소스 하드웨어 플랫폼(OSHWLab.com)으로 이동하여 정보를 개선하고 공유합니다. 계속할까요?
+The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. = 프로젝트 콘텐츠 페이지가 열립니다. 설명을 추가하고 프로젝트를 공개로 설정한 후 공유 버튼을 클릭하여 공유 링크를 얻을 수 있습니다.
+This project is not public, can not view homepage! = 이 프로젝트는 공개되지 않았으며 홈페이지를 볼 수 없습니다!
+
+[grid]
+None = 없음
+[/grid]
+
+#lib verify and mounted
+This component is verified = 부품 확인됨
+This component is unmounted = 부품 실장 해제됨
+
+#find component
+Find Next = 다음 찾기
+Pin not found = 핀을 찾을 수 없습니다
+Pad not found = 패드를 찾을 수 없습니다
+Object not found = 객체를 찾을 수 없습니다
+
+#offset Elements
+Offset X = 옵셋 X
+Offset Y = 옵셋 Y
+Offset = 옵셋
+Absolute Offset = 절대 옵셋 
+Relative Offset = 상대 옵셋 
+Absolute Offset... = 절대 옵셋...
+Relative Offset... = 상대 옵셋...
+Reference Point X = 참조 포인트 X
+Reference Point Y = 참조 포인트 Y
+
+#Inner Plane layer
+Rebuild Plane = 평면 재생성
+PlaneZone Properties = 평면영역 속성
+Change to a plane layer is not allowed during track routing. = 트랙 라우팅 중에는 평면 레이어로 변경할 수 없습니다.
+#pcblib rect
+Fill = 채우기
+Fill Type = 채우기 유형
+[PlaneZone]
+Solid = 솔리드
+[/PlaneZone]
+
+Solid Region do not allow self-intersection! = 솔리드 영역은 자체 교차를 허용하지 않습니다!
+
+The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. = 접두어, 이름 또는 텍스트가 풋프린트에서 너무 멀리 떨어져 있습니다. 표시하지 않으려면 숨겨주세요.
+The prefixes are not allowed to repeat! = 접두어는 반복할 수 없습니다!
+Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = 저장 실패! 캔버스의 원점은 그래픽 내에 존재하지 앖습니다! 원점을 자동으로 설정할까요?
+The origin of the canvas has been set in the graphics now, you can save again. = 이제 그래픽에서 캔버스의 원점이 설정되었으므로 다시 저장할 수 있습니다.
+Backup Project = 프로젝트 백업
+Open Project Directory = 프로젝트 디렉토리 열기
+
+{0} items updated = {0} 아이템 업데이트됨
+
+The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. = 현재 파일 {0}에 업데이트된 버전이 있습니다. 덮어쓰시겠습니까? 최신 버전을 열려면 현재 파일을 닫고 다시 여십시오.
+Yes, Overwrite It = 예, 덮어씁니다.
+No, Keep It = 아니요, 유지합니다.
+
+Download Client = 다운로드 클라이언트
+
+Search tutorial、open source projects etc. = 튜토리얼, 오픈 소스 프로젝트 등 검색
+
+Go to LCSC and search for = LCSC로 이동하여 검색
+Go to LCSC = LCSC로 이동
+
+Hide Ratline Layer and Keep the Component Prefix When Paste Objects = 객체를 붙여넣을 때 랫라인 레이어를 숨기고 부품 접두어 유지
+
+ALL.layer = 전체.레이어
+Copper.layer = 구리도금.레이어
+Non-Copper.layer = 비-구리도금.레이어
+Other.layer = 기타.레이어
+
+Please enter at least 2 characters! = 최소 2글자를 입력해주세요!
+View Datasheet = 데이터시트 보기
+View Datasheet... = 데이터시트 보기...
+
+The corresponding package or network could not be found in the currently open PCB document = 현재 열려 있는 PCB 문서에서 해당 패키지 또는 네트워크를 찾을 수 없습니다.
+delete fail = 삭제 실패
+
+[crashRecovery]
+Libraries = 라이브러리
+[/crashRecovery]
+Canvas origin anomaly! = 컨버스 원점 이상!
+
+Component's Name = 부품 이름
+Component's Prefix = 부품 접두어
+Component's Footprint = 부품 풋프린트
+
+[findlib]
+Clear = 지우기
+Apply Filters = 필터 제공
+Result = 결과
+Place = 위치
+Prev = 이전
+Next = 다음
+Total {count} Count = 전체 {count} 개
+About = 정보
+Items = 아이템
+[/findlib]
+
+Object =
+Layers and Objects = 레이어과 객체
+All = 전체
+
+Add custom = 사용자 추가
+
+Connections = 연결
+Attempted: = 재시도됨:
+Completed: = 완료됨:
+Failed: = 실패:
+Total Vias: = 전체 층간 홀:
+
+Please confirm moving option = 이동 옵션을 확인해주세요
+Only this pad = 이 패드 만
+For this component = 이 부품에 대해서
+View Owner = 소유자 보기
+View Detail = 상세 보기
+
+
+#place batch vias
+Place Vias = 층간 홀 위치
+Placing Vias = 층간 홀 위치
+Removing Vias = 층간 홀 제거
+Batch Vias for Copper = 구리도금에 대한 층간 홀 배치작업
+Add/Remove Vias = 층간 홀 추가/제거
+Diameter = 직경
+Drill Diameter = 드릴 직경
+Column Spacing = 열 간격
+Row Spacing = 행 간격
+Multiple vias have been placed, do you want to rebuild the copper area? = 여러 개의 츨간 홀이 배치되었습니다. 구리도금 영역을 재생성하시겠습니까?
+Remove vias finish, do you want to rebuild the copper area? = 층간 홀 마무리를 제어하세요. 구리도금 영역을 재생성하시겠습니까?
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = 트랙/호/원의 너비는 0.051mm/2mil/0.002inch보다 작을 수 없습니다!
+Save fail! Please try again! = 저장 실패! 다시 시도해 주세요!
+Please select a copper outline = 구리도금 윤곽선을 선택하십시오.
+Can't find copper area at other layers, please add the copper area with the same net at other layer first. = 다른 레이어에서 구리도금 영역을 찾을 수 없습니다. 먼저 다른 레이어에서 동일한 네트로 구리도금 영역을 추가하십시오.
+
+Add favorite success! = 즐겨찾기 추가 성공!
+Remove favorite success! = 즐겨찾기 제거 성공!
+Remove favorite failed! = 즐겨찾기 제거 실패!
+Whether if remove favorite? = 즐겨찾기 제거 여부?
+Split by ';' for multi tags = 다중 태그용으로 ';'에 의해 분할
+
+This size is the determined size! = 이 크기는 결정된 크기입니다!
+The associated pad has been locked = 연결된 패드가 잠겨 있습니다.
+Split by space or , for multi tags = 다중 태그의 경우 "공백 뜨는 ," 으로 분할
+
+Rotation X = X축 회전
+Rotation Y = Y축 회전
+Rotation Z = Z축 회전
+
+Some fields are filled invalid data = 일부 필드는 잘못된 데이터로 채워져 있습니다.
+start time should be earlier than stop time = 시작 시간은 중지 시간보다 이전 이어야 합니다.
+Number of points should be less than 100 in octave variation = 포인트 수는 옥타브 변화에서 100 미만이어야 합니다.
+Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = 시작 주파수는 정지 주파수보다 작아야 합니다. 접미사 meg는 Mega를 나타내고 m은 밀리를 나타냅니다.
+Get historical records fail! = 히스토리 기록 가져오기 실패!
+This 3D model didn't create the outlines successfully, please import it again or contact with us. = 이 3D 모델은 윤곽선을 성공적으로 생성하지 못했습니다. 다시 가져오거나 당사에 문의하십시오.
+There is No Tag! = 태그가 없습니다!
+Assign successful! = 할당 성공!
+Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = 발견된 "실장 부품 형상"의 패드 번호가 회로도 부품의 핀 번호와 일치하지 않습니다. 패드 번호를 수정하고 다시 시도하십시오!
+Update Property = 속성 업데이트
+Update Properties = 속성 업데이트
+Please fill in at least 5 words. = 최소 5단어 이상을 입력해주세요.
+Mouse hovering over the track to highlight the entire network = 트랙 위로 마우스를 가져가면 전체 네트워크가 강조 표시됩니다.
+Net Highlighting While Cursor Hover the Track = 커서가 트랙 위에 있는 동안 네트 선택 강조 표시
+When circle set as "Yes", the Pin length must be more than 6 = 원이 "예"로 설정된 경우 핀 길이는 6보다 커야 합니다.
+Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = 안녕하세요, 라이브러리에 문제가 있습니다. 이 라이브러리가 잘못된 것 같습니다.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\n감사합니다!
+
+Logout fail! Please try again! = 로그아웃 실패! 다시 시도해 주세요!
+Logout success! We look forward you to use LCEDA again! = 로그아웃 성공! LCEDA 재이용하기를 기대합니다!
+Logout success! We look forward you to use EasyEDA again! = 로그아웃 성공! EasyEDA 재이용하기를 기대합니다!
+Click to Preview 3D = 3D 미리보기를 위해 클릭
+[logoutDialog]
+Logout = 로그아웃
+[/logoutDialog]
+
+[findlibTag]
+All = 전체
+[/findlibTag]
+
+Export Pick and Place File = 선택 및 배치 파일 내보내기
+Mirror the bottom component's X coordinate (JLCPCB doesn't need) = 하단 구성요소의 X 좌표 미러링(JLCPCB는 필요하지 않음)
+Work Space = 작업 공간
+Include panelized components' coordinates = 부품 좌표의 패널화 포함
+Personal Workspace = 개인 작업공간
+Work Space - {name} = {name} - 작업 공간
+Work Space - Personal = 개인 작업 공간
+Cloning = 복제
+
+Project Owner = 프로젝트 소유자
+Clone Project = 프로젝트 복제
+Homepage = 홀페이지
+Apply for Education Edition = 교육용 에디션 신청
+Load Organization failed = 조직 가져오기 실패
+Joined = 가입됨
+Favorite = 즐겨찾기
+This operation will unfavorite this project, do you want to continue? = 이 작업은 이 프로젝트를 선호하지 않습니다. 계속하시겠습니까?
+View Homepage = 홈페이지 보기
+Private Project = 개인화 프로젝트
+3-7 days = 3~7일
+Close Tab = 탭 닫기
+Close Other Tabs = 다른 탭 닫기
+Close All Tabs = 모든 탭 닫기
+Open in New Window = 새 창에서 열기
+Cursor Snap to Component's Origin or Pad Center While Dragging Component = 부품을 드래그하는 동안 부품의 원점 또는 패드 중심에 커서 스냅
+Undefined = 미정의
+Input = 입력
+Model Unit = 모델 단위
+File Unit = 파일 단위
+This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? = 이 파트에는 하위 파트가 포함되어 있습니다. 오류를 보고하기 전에 다른 하위 파트를 확인했는지 확인하십시오. 계속하시겠습니까?
+
+[saveAs]
+Power =
+[/saveAs]
+
+Assign LCSC Part# = LCSC 부품번호 할당
+Unexpected error while converting. Perhaps unsupported file type or program bug. = 변환하는 동안 예기치 않은 오류가 발생했습니다. 지원되지 않는 파일 형식 또는 프로그램 버그일 수 있습니다.
+Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = 중복된 부품 아이디를 찾았습니다. "확인"을 클릭하여 부품 아이디를 자동으로 재할당한 다음 문서를 저장하고 다시 시도하십시오.
+
+#electromagneticSimulation
+Electromagnetic Simulation... = 전자기 시뮬레이션
+You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = 전자기 시뮬레이션을 위해 Gerber를 SuperEM에 업로드합니다(계정 데이터는 포함하지 않고 Gerber만 업로드). 계속하시겠습니까?
+SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM은 Faraday Dynamics, Ltd.에서 개발한 고속 PCB 회로 및 안테나를 위한 3D 전파 전자기 시뮬레이션 및 설계 플랫폼입니다.
+Visit the SuperEM = SuperEM 방문
+SuperEM User Guide = SuperEM 사용자 가이드
+Upload Gerber to SuperEM successfully, please click "OK" buttun to continue = Gerber를 SuprEME에 성공적으로 업로드했습니다. 계속하려면 "확인" 버튼을 클릭하십시오.
+
+Format = 포맷
+View = 보기
+Design = 설계
+Simulation = 시뮬레이션
+Advanced = 고급
+Fabrication = 제작
+Check DRC = DRC 확인
+Simulation Setting = 시뮬레이션 설정
+BOM = 부품표
+PCB Fabrication File(Gerber) = PCB 제작 파일(Gerber)
+Pick and Place File = 선택 및 배치 파일
+Parts Order = 부품 주문
+PCB Order = PCB 주문
+One-click Order Parts = 원클릭 부품 주문
+One-click Order PCB/SMT = 원클릭 PCB/SMT 주문
+SIM =
+STD =
+WaveForm = 파형
+
+Place Module = 모듈 배치
+Please enter identification letters: = 식별 문자를 입력하십시오:
+Only support English letters, up to 5. = 최대 5자까지 영문자만 지원합니다.
+
+Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = 모듈의 접두어 부품 주석이 존재하지 않습니다. 먼저 부품의 고유 접두어를 편집하고 주석을 추가하십시오.
+Opening = 열기
+
+Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = 또한 트랙의 네트를 업데이트합니다(접두어/네트레이블이 변경되고 부품/배선이 추가되거나 제거되지 않는 상황에만 적용됨)
+
+#desktop client error feedback
+Cannot open online documents on Project Offline mode. = 프로젝트 오프라인 모드에서 온라인 문서를 열 수 없습니다.
+
+Please select a project = 프로젝트를 선택하세요
+Opened Projects = 열린 프로젝트
+Open Project = 프로젝트 열기
+Close Project = 프로젝트 닫기
+Open All Projects = 모든 프로젝트 열기
+Close All Projects = 모든 프로젝트 닫기
+Select Owner = 소유자 선택
+Select Folder = 폴더 선택
+Select Owner or Folder = 소유자와 폴더 선택
+Select Project = 프로젝트 선택
+Folder = 폴더
+New Folder = 새 폴더
+New Sub Folder = 새 서브 폴더
+Delete Folder = 폴더 삭제
+Move Project = 프로젝트 이동
+Move Folder = 폴더 이동
+#Rename Folder
+Please input the folder name = 폴더명을 입력하세요
+Invalid folder name = 잘못된 폴더명
+Are you sure to delete this folder? = 이 폴더를 삭제하시겠습니까?
+All projects in this folder will be moved to the root directory. = 이 폴더 내의 모든 프로젝트가 루트 디렉토리로 이동되었습니다.
+Create new folder successfully = 새 폴더 생성 성공
+Failed to create new folder = 새 폴더 생성 실패
+Delete folder successfully = 폴더 삭제 성공
+Failed to delete folder = 폴더 삭제 실패
+Rename folder successfully = 폴더 이름 변경 성공
+Failed to rename folder = 폴더 이름 변경 실패
+Move folder successfully = 폴더 이동 성공
+Failed to move folder = 폴더 이동 실패
+Move project successfully = 프로젝트 이동 성공
+Failed to move project = 프로젝트 이동 실패
+The folder depth must not exceed {0} levels = 폴더 깊이는 {0} 레벨을 초과할 수 없습니다.
+Failed to add project to folder = 폴더에 프로젝트를 추가하지 못했습니다.
+
+Doesn't support JLCPCB SMT Service = JLCPCB SMT 서비스를 지원하지 않음
+{0} for JLCPCB SMT Service = JLCPCB SMT 서비스에 대한 {0}
+
+Reset failed! There are duplicate component prefixes in the current schematic: = 재설정 실패! 현재 회로도에 중복된 부품 접두어가 있습니다.
+Reset failed! There are duplicate component prefixes in the current PCB: = 재설정 실패! 현재 PCB에 중복된 부품 접두어가 있습니다.
+Please modify the component prefixes first to ensure that the component prefix is unique. = 부품 접두어가 고유하도록 부품 접두어를 먼저 수정하십시오.
+
+LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA(표준) - 간단하고 강력한 전자 회로 설계 도구
+EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(표준) - 간단하고 강력한 전자 회로 설계 도구
+
+#Dialog for Package Custom Data
+Please input the data title = 데이터 주제를 입력하세요.
+Data title duplicated = 데이터 주제 중복됨
+Cannot be more than {0} characters! = {0}자를 초과할 수 없습니다!
+Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = 라틴 알파벳, 숫자, 밑줄(_) 및 하이픈(-)만 허용됩니다.
+Invalid value of item {0} = 항목 {0}의 값이 잘못되었습니다.
+Update DFM = DFM 업데이트
+Custom DFM Data = 사용자 DFM 데이터
+Saved custom data successfully! = 사용자 데이터 저장 성공!
+Save custom data failed! = 사용자 데이터 저장 실패!
+Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = 현재 문서의 그래픽 및 사용자 정의 데이터를 대체합니다. 가져온 후 3D 모델을 조정하십시오. 계속하시겠습니까?
+Open footprint "Custom Data" dialog = 실장 부품 외형(풋프린트) "사용자 데이터" 대화 상자 열기 =
+
+#Create lead shape
+Create Lead Shape = 리드 형상 생성
+Base on Pad Center = 패드 중심 기준
+Base on Canvas Origin = 팬버스 원점 기준
+Lead shape = 리드 형상
+Footprint Type = 실장 부품 외셩(풋프린트) 유형
+From pad shape = 패드 형상으로부터
+Lead length = 리드 길이
+Lead width = 리드 폭
+Lead diameter = 리드 직경
+Scaling ratio = 축척
+Leads creating direction = 리드 생성 방향
+Auto = 자동
+Horizontal = 수평
+Vertical = 수직
+Canvas origin to lead edge = 캔버스 원점에서 리드 가장자리로
+Canvas origin to body edge = 캔버스 원점에서 바디 가장자리로
+Lead soldering length = 리드 솔더링 길이
+Lead soldering part diameter = 리드 솔더링 부품 직경
+Component shape object doesn't overlap lead shape object, please check carefully. = 부품 형상 객체는 리드 형상 객체와 겹치지 않으므로 주의해서 확인하십시오.
+The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08mm), it will cause the soldering too short, please modify. = 패드({0},{1})의 솔더 마스크 확장 간격이 작습니다(0.08mm 미만). 솔더링이 너무 짧아질 수 있으므로 수정하십시오.
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. = 패드({0},{1})의 붙여넣기 마스크 확장 또는 사용자 지정 붙여넣기 마스크 레이어 개체에 작은 간격(0.15mm 미만)이 있으므로 스텐실 생성이 실패합니다. 수정하십시오.
+System footprint must have pad number 1 or A1, please modify the pad number. = 시스템 풋프린트에는 패드 번호 1 또는 A1이 있어야 합니다. 패드 번호를 수정하십시오.
+System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. = 시스템 풋프린트는 둘 이상의 패드 번호를 허용하지 않습니다. 1 또는 A1입니다. 패드 번호를 수정하십시오.
+Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = 문서 레이어에 원 객체가 있지만 jlcPara의 극성이 0입니다. 사용자 데이터를 확인하십시오.
+There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = 반복 패드 번호가 있습니다: {padNumber}, 확인하십시오. 올바른 경우 무시하십시오.
+Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = 부품 마킹 레이어에서 원을 찾을 수 없거나 이 원이 첫 번째 패드와 동일한 사분면에 없습니다. 올바른지 확인하십시오.
+
+ROUND =
+RECTANGLE =
+OCTAGONAL =
+Upper left = 좌측상단
+Lower left = 우측하단
+Center of Pads = 패드의 중심
+First Pin = 첫번째 핀
+Package Name = 패키지명
+Pins Number = 핀 번호
+Rows Of Pin = 핀의 행
+Columns Of Pin = 핀의 열
+Polarity = 극성
+Pad Shape = 패드 형상
+Body Diameter = 몸체 직경
+Lead Span = 리드 스팬
+Lead Vertical Span = 리드 수직 스팬
+Body Length = 몸체 길이
+Body Height = 몸체 높이
+Pin Diameter = 핀 직경
+Pin Length = 핀 길이
+Pin Height = 핀 높이
+Pin Solid Width = 핀 솔리드 폭
+Pin Solid Height = 핀 솔리드 높이
+Pin Spacing = 핀 간격
+Pin Horizontal Spacing = 핀 가로 간격
+Pin Vertical Spacing = 핀 세로 간격
+ThermalPad = 써멀패드
+Pad Expansion = 패드 확장
+Custom PasteMask = 사용자 정의 패이스트마스크
+Fabrication Tolerance = 제작 공차
+Placement Tolerance = 배치 공차
+FirstPin Position = 첫번째 핀 위치
+Package Origin = 패키지 원점
+Expansion Size = 확장 크기
+Corner = 모서리
+Angle = 각도
+Fillet = 모따기
+Chamfer = 모깍기
+Update Preview = 미리보기 업데이트
+Number of pins (left and right) = 핀 번호(왼쪽과 오른쪽)
+Number of pins (up and down) = 핀 번호(위와 아래)
+Reference Use Cases = 참조 사용 사례
+Package Type = 패키지 유형
+Capacitance = 커패시턴스
+Resistance = 저항
+Bidirectional Diode = 양방향 다이오드
+Inductance = 인덕턴스
+Crystal Oscillator = 크리스탈 오실레이터
+Diode = 다이오드
+LED =
+Fuse = 휴즈
+Entity height = 엔티티 높이
+Lead Overhang = 리드 오버행
+Lead Thickness = 리드 두께
+Unknown mistake = 잘모르는 실수
+Has ThermalVias =
+Polar Capacitance = 극성 커패시턴스
+
+Create Component Marking = 부품 마킹 만들기
+Create component marking successfully! = 부품마킹을 작성 성공!
+No elements on component shape layer! = 부품 형상 레이어에 요소가 없습니다!
+No elements on lead shape layer! = 리드 형상 레이어에 요소가 없습니다!
+No pad of number 1 or A1, please modify the pad number. = 번호 1 또는 A1의 패드가 없습니다. 패드 번호를 수정하십시오.
+Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = 저장 실패! 부품 마킹 원이 축에 있습니다. 부품 마킹을 다시 생성하시겠습니까?
+If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: FreeRouting, Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = 오토 라우팅이 실패하면 오토 라우팅 파일(DSN)을 타사 오토 라우터 도구(예: FreeRouting, Konekt Electra, Eremex TopoR 등)로 내보내고 자동 라우팅이 완료된 후 세션 파일(SES)을 내보내고 PCB로 가져올 수 있습니다.
+Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = 오토 라우팅 실패! 비정상적인 패드 데이터를 찾았습니다. 패드 너비와 높이를 수정하십시오.
+Select Properties = 속성 선택
+Combine the same parts' prefixes in one row = 동일한 부품의 접두어를 한 행에 결합
+Please check at least one item! = 항목을 하나 이상 확인하십시오!
+Pins = 핀
+Check component latest version when open schematic = 회로도를 열 때 부품이 최신 버전인지 확인
+Only show updated components = 업데이트된 부품만 표시
+Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. = 참고: PCB가 변경 가져오기인 경우 회로도가 바인딩된 풋프린트 버전에 따라 PCB가 업데이트됩니다.
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. = 바이너리 형식 DXF 가져오기를 지원하지 않습니다. ASCII 형식 DXF를 가져오십시오.
+
+Find System Similar Footprint = 시스템 유사 풋프린트 찾기
+Found similar footprints at system library, it is recommended to use them first. = 시스템 라이브러리에서 유사한 풋프린트를 찾았습니다. 먼저 사용하는 것이 좋습니다.
+Copy Title = 제목 복사
+Check system similar footprint = 시스템 유사 풋프린트 확인
+Can't find the Similar Footprint = 유사 풋프린트를 찾을 수 없습니다
+Search failed! = 검색 실패!
+No package information! = 패키지 정보가 없습니다!
+Find Parameters = 파라메타 찾기
+Find Results = 결과 찾기
+
+Bill of material(BOM) uploaded finish, please click "OK" to continue. = 부품표(BOM) 업로드가 완료되었습니다. 계속하려면 "확인"을 클릭하십시오.
+Bill of material(BOM) upload failed! = 부품표(BOM) 업로드 실패!
+
+All pads = 모든 패드
+All holes = 모든 홀
+Single layer pads = 하나의 레이어 패드
+Multi-layer pads = 멀티-레이어 패드
+Same X pads = 동일한 X 패드
+Same Y pads = 동일한 Y 패드
+Same Y and clearance pads = 동일한 Y와 클리어런스 패드
+Same X and clearance pads = 동일한 X와 클리어런스 패드
+Same X and clearance pads' clearance = 동일한 X와 클리어런스 패드의 클리어런스
+Same Y and clearance pads' clearance = 동일한 Y와 클리어런스 패드의 클리어런스
+Pad's hole diameter(max) = 패드 홀 직경(최대)
+Pad's hole diameter(min) = 패드 홀 직경(최소)
+Pad's hole diameter(aver) = 패드 홀 직경(평균)
+
+Try Pro Edition = Pro 에디션 사용해 보기
+
+Generate Solid Region by Objects Outline = 객체 윤곽선으로 솔리드 영역 생성
+Generate Polygon Pad by Objects Outline = 객체 윤곽선으로 다각형 패드 생성
+Select the objects that cannot be generated = 생성할 수 없는 개체 선택
+
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 회로도와 PCB를 zip 파일로 압축한 다음 가져오십시오. 회로도만 가져올 경우 발자국과 수동으로 바인딩해야 합니다.
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =  회로도와 PCB를 ASCII 형식의 zip 파일로 압축한 다음 가져오십시오. 회로도만 가져올 경우 풋프린트와 수동으로 바인딩해야 합니다.
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =  가져오기 실패! 가져온 파일은 ASCII 형식이 아니므로 Altium Designer에서 먼저 파일을 "Advanced Schematic ascii(*.SchDoc)" 또는 "PCB ASCII File(*.PcbDoc)"로 저장한 다음 가져오십시오.
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. =  PCB 텍스트는 편집기의 새 글꼴 패밀리를 사용하며 텍스트는 약간의 편위로 나타날 수 있습니다.
+Because of different file format and element, please check carefully after imported. = 파일 형식과 요소가 다르기 때문에 불러온 후 잘 확인하시기 바랍니다.
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = EAGLE 파일이 EAGLE v6.0 이상 버전에 저장되어 있는지 확인하십시오.
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 회로도와 PCB를 KiCad5에서 zip 파일로 압축한 다음 가져오십시오. 회로도만 가져오는 경우 발자국과 수동으로 바인딩해야 합니다.
+Please make sure the Protel file is exported as ASCII format file. = Protel 파일이 ASCII 형식 파일로 내보내졌는지 확인하십시오.
+Please compress the schematic and corresponding symbols as a zip file and then import it. = 회로도 및 해당 기호를 zip 파일로 압축한 다음 가져오십시오.
+
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 먼저 Altium Designer에서 파일을 "Advanced Schematic ascii(*.SchDoc)" 또는 "PCB ASCII File(*.PcbDoc)"로 저장한 후 가져오기를 수행하십시오.
+Tips = 팁
+Exists incomplete connection = 불완전한 연결 존재
+Found that the board has incomplete connection, please check the nets and ratlines = 보드의 연결이 불완전한 것을 발견했습니다. 네트와 랫라인을 확인하십시오.
+creator = 생성자
+You are not logged in or the login status is invalid, please login and try again. = 로그인하지 않았거나 로그인 상태가 잘못되었습니다. 로그인한 후 다시 시도해 주세요.
+Display Board Cutout = 보드 컷아웃 디스플레이
