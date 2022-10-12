@@ -74,3 +74,5 @@ Slovenčina (Slovak) = Slovenčina (Slovak)
 # ui_data_fa.txt
 فارسی (Persian) = فارسی (Persian)
 
+# ui_data_bg.txt
+Български (Bulgarian) = Български (Bulgarian)

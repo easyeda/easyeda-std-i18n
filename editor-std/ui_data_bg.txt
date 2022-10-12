@@ -1,0 +1,3308 @@
+# Menu
+User = Потребител
+Join... = Присъединяване...
+Login... = Вписване...
+Log in = Вписване
+Logout = Изход
+Change password... = Промяна на парола...
+User Preference = Потребителски предпочитания
+System Settings... = Системни настройки...
+System Settings = Системни настройки
+Crash = Срив
+Invite friends... = Покана на приятели...
+Language = Език
+Language Setting = Езикови настройки
+
+Document Recovery = Възстановяване на документ
+Your Preferences Information = Информация за предпочитания
+File = Файл
+New = Нов
+Project... = Проект...
+Schematic = Схема
+Schematic-Simulation = Схема-симулация
+Spice Symbol = Spice символ
+Spice Subckt =
+spicePre =
+PCB = Печатна платка
+Schematic Module = Схемен модул
+PCB Module = Модул платка
+Save... = Запис...
+Save As... = Запис като...
+Save As Module... = Запис като модул...
+Print = Печат
+Export Document = Извличане на документ
+LTspice... =
+Eagle... =
+Altium... =
+Cadence... =
+Pads... =
+DXF =
+Import = Вмъкване
+
+
+Edit = Редактиране
+Undo = Отмяна
+Redo = Преправяне
+Cut = Изрязване
+Copy = Копиране
+Paste = Поставяне
+Select = Избор
+Delete = Изтриване
+Clear All = Изчистване на всичко
+Move = Преместване
+Drag = Влачене
+Bring to Front = На преден план
+Send to Back = На заден план
+Align = Подравняване
+Align Left = Ляво подравняване
+Align Right = Дясно подравняване
+Align Top = Горно подравняване
+Align Bottom = Долно подравняване
+Align Horizontal Centers = Подравняване хоризонтален център
+Align Vertical Centers = Подравняване вертикален център
+Distribute Horizontally = Разпределяне хоризонтално
+Distribute Vertically = Разпределяне вертикално
+Distribute Left Edges Equidistantly = Равномерно разпределяне по ляв ръб
+Distribute Top Edges Equidistantly = Равномерно разпределяне по горен ръб
+Align Grid = Подравняване към мрежата
+Rotate = Завъртане
+Rotate Left = Завъртане на ляво
+Rotate Right = Завъртане на дясно
+Flip Horizontal = Хоризонтално преобръщане
+Flip Vertical = Вертикално преобръщане
+Rotate and Flip = Завъртане и преобръщане
+Group/Ungroup Symbol... = Групиране/Разгрупиране на Символ
+
+[menu_project]
+View = Изглед
+[/menu_project]
+Find = Търсене
+Zoom In = Уголемяване
+Zoom Out = Смаляване
+Fit in Window = Побери в прозорец
+Refresh = Обновяване
+Snap = Прилепване
+Cross Cursor = Кръстат курсор
+Toolbars = Лента с инструменти
+Drawing Tools = Чертожни инструменти
+Wiring Tools = Инструменти за опроводяване
+Power Objects = Мощни обекти
+PCB Tools = Инструменти за платка
+Footprint Tools = Инструменти за отпечатък
+Layers Tool = Инструменти за слоеве
+Layer Manager = Управление на слоеве
+Enable and Show All Layers = Разреши и покажи всички слоеве
+Net Visible = Видима верига
+Auto = Автоматично
+Digital Objects = Цифрови обекти
+Tools = Инструменти
+Arc Center = Център на дъга
+Arc Type = Тип на дъга
+Center Point Arc = Централна точка на дъга
+Two-point Arc = Двуточкова дъга
+
+Place = Поставяне
+Drawing Tools = Чертожни инструменти
+Arc = Дъга
+Elliptical Arc = Елептична дъга
+Ellipse = Елипса
+Circle = Кръг
+Pie = Пай
+Line = Линия
+Polyline = Полилиния
+Rectangle = Правоъгълник
+Rectangular = Правоъгълен
+The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = Правоъгълникът не поддържа завъртане, различно от 90 градуса. Моля използвайте плътен регион, вместо това.
+
+Rect = Прав
+Round Rectangle = Заоблен правоъгълник
+Polygon = многоъгълник
+Bezier = Безие
+Path = Пътека
+Graphic = Графика
+Bus = Шина за данни
+Bus Entry = Данни шина
+Junction = Съединение
+Net Port = Мрежови извод
+Voltage Probe = Напреженова сонда
+Power Port = Захранващ извод
+Wire = Проводник
+Annotation = Бележка
+Track = Писта
+Image = Изображение
+Arrow Head = Острие на стрела
+Arrowhead = Острие на стрела
+Arrow = Стрелка
+No Connect Flag = Маркировка за липса на връзка
+Place = Поставяне
+Pin = Извод
+Lock Selected Objects = Заключване на избраните обекти
+
+Miscellaneous = Разни
+Find Component = Търсене на компонент
+Component = Компонент
+Footprint... = Отпечатък...
+This component is deleted! = Този компонент е изтрит!
+Convert = Преобразуване
+Convert Schematic to PCB = Преобразуване на схема в печатна платка
+The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: = Идентификаторът на компонента ще бъде нулиран, съгласно означението му и това действие ще изчисти историята за отмяна. Моля обърнете внимание:
+Please make sure the component prefixes of the schematic and PCB are corresponding = Моля уверете се, че означението на компонента от схемата отговарят на печатната платка.
+Please reset the component ID of corresponding schematic or corresponding PCB too = Моля нулирайте идентификаторът на компонента и съответната схема или платка.
+Do you want to continue? = Желаете ли да продължите?
+Reset Component Unique ID = Нулиране на уникалният идентификатор на компонента
+Component ID reset successfully! = Идентификаторът на компонента е нулиран успешно!
+Convert to PCB = Преобразуване в печатна платка
+Update PCB = Актуализация на печатна платка
+Shortcut Keys Setting = Настройка на ключове за пряк път
+Edit Symbol... = Редактиране на символ...
+Highlight Net... = Осветяване на верига...
+Simulate = Симулиране
+Simulation = Симулация
+Standard Mode = Стандартен режим
+Simulation Mode = Режим симулация
+Change to Standard Mode = Премини към стандартен режим
+Change to Simulation Mode = Премини към режим симулация
+Welcome to Use LCEDA = Добре дошли в LCEDA
+Welcome to Use EasyEDA = Добре дошли в EasyEDA
+Enable Education Edition Features for Free >>> = Разрешение за употреба на учебни възможности безплатно >>>
+Quick Start = Бързи първи стъпки
+More Help = Допълнителна помощ
+Explore = Преглеждане
+Message = Съобщение
+[start]
+Example = Пример
+Forum = Форум
+Tutorials = Упътвания
+Videos = Видеа
+[/start]
+Custom Data = Персонализирани данни
+LCEDA =
+
+Copy Result Image = Копиране на полученото изображение
+Export Result Image = Извличане на полученото изображение
+Simulation Result = Резултат от симулацията
+Simulation Results... = Резултат от симулация...
+Simulate this Sheet = Симулиране на тази страница
+Simulate this Project = Симулиране на този проект
+Non-simulation mode, please switch to the simulation mode first and then run = Несимулюционен режим, моля първо преминете в режим на симулация и тогава стартирайте
+Run the Document = Стартиране на докумнт
+Run the Project... = Стартиране на проект...
+Netlist for Document = Списък с вериги за документ
+Netlist for Project = Списък с вериги за проект
+LTspice for This Sheet... = LTspice за този лист...
+Spice for this Project... = Spice за този проект...
+Protel/Altium for PCB... = Protel/Altium за печатна платка...
+PADS for PCB... = PADS за печатна платка...
+FreePCB for PCB... = FreePCB за печатна платка...
+Eagle for PCB... = Eagle за печатна платка...
+Kicad for PCB... = Kicad за печатна платка...
+OrCAD for PCB... = OrCAD за печатна платка...
+BOM report... = СнМ отчет...
+BOM for Document... = СнМ за документ...
+BOM for Project... = СнМ за проект...
+Pin Manager... = Управление на изводите...
+Spice Model... = Spice модел...
+Layer Manager... = Управление на слоевете...
+Net Color... = Цвят на веригата...
+Design Rule... = Правила за проектиране...
+Copper Area = Медна площ
+Rebuild Selected = Пресъздаване на избраното
+Rebuild All = Пресъздаване на всичко
+Copper Area Manager... = Управление на медни площи...
+Export Pick and Place File = Извличане на файл за Pick and Place
+Measure Distance = Измерване на отстояние
+Set Canvas Origin by Mouse Location = Задаване на начало на чертожното поле по позиция на мишката
+Generates Pick and Place File = Създаване на файл за Pick and Place
+Unroute All = Премахване на цялото опроводяване
+Auto Route = Автоматично опроводяване
+Export Autorouter File(DSN) = Извличане на файл за автоматично опроводяване(DSN)
+Import Autorouter Session File(SES) = Вмъкване на файл за сесия на автоматично опроводяване(SES)
+Autorouter File(DSN) = Файл за автоматично опроводяване(DSN)
+Autorouter Session File(SES) = Файл за сесия на автоматично опроводяване(SES)
+Terminate Routing Automatically = Автоматично завършване на опроводяване
+Delete Segments = Изтриване на сегмент
+Unroute Connections = Премахване на връзки
+Unroute Connection = Премахване на връзка
+Unroute Nets = Премахване на верига
+Select = Избор
+Segments = Сегмент
+Connection = Връзка
+Net = Верига
+Apply Design Rule While Routing and Auto Placing Via = Прилагане на правило за проектиране при опроводяване и автоматично поставяне на проходник
+
+Add SubPart = Добавяне на подчасти
+Annotate... = Добавяне на бележка...
+Config = Настройка
+
+Help = Помощ
+About = Относно
+Shortcut Keys = Ключове за пряк път
+FAQ = Често задавани въпроси
+Tutorials = Упътвания
+Basic Tutorials = Кратки упътвания
+Video Tutorials = Видео-упътвания
+Essential Check = Проверка по същество
+Simulation Tutorials = Упътвания за симулации
+Updated Instructions = Обновена инструкция
+Open File Format = Отваряне на файлов формат
+About Upgrade = Относно надграждане
+User Forum = Потребителски форум
+Live Q/A = Въпроси и отговори в реално време
+No live broadcast now = В момента не е налично излъчване
+Feature Request = Бъдеща заявка
+Feature Requests = Бъдещи заявки
+Bug Report = Докладване на неизправност
+Bug Reports = Докладвания за неизправност
+Tips & Skill = Съвети и умения
+Ask for Help = Попитърсете помощ
+Schematic Capture = Улавяне на схема
+Spice Simulation = Spice симулация
+Non-simulation mode = Режим без симулация
+PCB Layout = Разпределение на печатна платка
+General Discussion = Обща дискусия
+More Information = Допълнителна информация
+Privacy Policy = Политика за поверителност
+#Terms of Use & Privacy Policy =
+Terms of Service = Условия за поддръжка
+Plans and Pricing = Планове и цени
+Help Translate = Помощ за превод
+About Us = За нас
+Contact Us = Свързване с нас
+Change History = История на промените
+Join Us = Присъединете се
+#PCB Fabrication Capabilities = Възможности за производство на печатни платки
+PCB Fabrication = Производство на печатни платки
+Order Capabilities = Възможности за поръчка
+Order Price = Цена за поръчка
+Order Essential Check = Проверка на поръчка по същество
+Order FAQ = Често задавани въпроси при поръчка
+Order Process = Процес за поръчка
+Full Screen = Цял екран
+
+Support = Поддръжка
+[leftNavTabs]
+Support = Поддръжка
+[/leftNavTabs]
+Historical Records... = История на записване...
+Extensions = Разширения
+Order PCB... = Поръчка на печатна платка...
+Import Changes = Вмъкване на промени
+Press {0}F11{1} to switch to full screen. = Натиснете {0}F11{1} за превключване на цял екран
+Delete Selected = Изтриване на избраното
+Simulate... = Симулиране...
+Config = Настройка
+Terms of Service & Privacy Policy = Условия за поддръжка и политика за сигурност
+Help Topics = Теми за помощ
+3D Model(obj) = 3D мадел(obj)
+3D Model(step) = 3D модел(step)
+SVG Source... = SVG източник...
+File Source = Файлов източник
+Group These Items as a Symbol = Групиране на тези позиции като символ
+Group These Items as a Footprint = Групиране на тези позиции като отпечатък
+Set Canvas Origin = Задаване на начало на чертожното поле
+Document Setting = Настройки на документ
+Sheet Properties = Свойства на лист
+Set Board Outline = Задаване на очертания на платка
+Teardrop... = Капка...
+Panelize... = Панелизация...
+Check Dimension = Проверка на размери
+Smart Dimension = Интелигентни размери
+Footprint Wizard = Помощник за отпечатък
+Footprint Wizard... = Помощник за отпечатък...
+Select package type = Избор тип на корпуса
+Smart Dimension Properties = Интелигентни свойства на размерите
+Global Delete = Глобално изтриване
+Cross Probe = Напречна сонда
+Cross Probe and Place = Напречна сонда и поставяне
+Paper Size = Размер на хартията
+Register = Регистрация
+User Center = Потребителски център
+
+By Mouse Location = По позиция на мишка
+Set Coordinate = Задаване на координати
+By Coordinates... = По координати...
+By Center of Pads = По центърът на площадките
+By Center Grid of Symbols = По централната мрежа от символи
+
+#Schematic Canvas Properties
+Properties = Свойства
+Apply = Приложи
+Save as default = Запазване като по подразбиране
+Canvas Properties = Свойства на чертожното поле
+Width = Широчина
+Height = Височина
+Background = Фон
+Visible Grid = Видима мрежа
+Grid Visible = Показване на мрежа
+Real-Time Track Length = Дължина на писта в реално време
+Display Real-Time Track Length = Показване на дължина на писта в реално време
+Grid Color = Цвят на мрежа
+Grid Size = Размер на мрежа
+Grid Style = Стил на мрежа
+Grid.Line Width = Дебелина на линиите на мрежа
+Grid.Line Spacing = Отстояния между линиите на мрежа
+Copper to Board Outline = Очертания на мед към платка
+Improve Fabrication = Подобряване на производство
+Spoke Width = Ширина на планка
+Stroke Color = Цвят на щрих
+Stroke Width = Ширина на щрих
+Stroke Style = Стил на щрих
+Fill Color = Цвят на запълване
+Selected Objects = Избрани обекти
+Frame Size = Размер на рамката
+Alt Snap = Alt прилепване
+Snap size when pressing the Alt key = Размер на зоната за прилепване, при натискане на Alt клавиш
+Prefix Start = Представка на означение
+
+#Text Properties
+Text Properties = Текстови свойства
+Text = Текст
+Color = Цвят
+Font Family = Семейство на шрифт
+Font Size = Размер на шрифт
+Font Weight = Дебелина на шрифт
+Font Style = Стил на шрифт
+Text Type = Тип на текста
+Text Anchor = Центриране
+Baseline = База
+(Auto) = (Автоматично)
+(auto) = (автоматично)
+start = начало
+middle = среда
+end = край
+inherit = наследяване
+comment = коментар
+spice = spice
+normal = нормален
+italic = курсив
+Default = По подразбиране
+Add = Добавяне
+bold = получерен
+bolder = засилен получерен
+lighter = олекотен
+Failed to parse the font file: {name} = Неуспешен анализ на файл за шрифт: {name}
+Please select a font file of ttf or woff format. = Моля изберете файл за шрифт с формат ttf или woff
+Add font success: {name} = Успешно добавяне на шрифт: {name}
+Failed to add font: {name} = Неуспешно добавяне на шрифт: {name}
+Add Font = Добавяне на шрифт
+Failed to parse cached font: {name} = Неуспешен анализ на буфериран шрифт
+Load cached fonts fail! = Зареждането на буферираните шрифтове е неуспешно!
+
+#Stroke
+Stroke Color = Цвят на щрих
+Stroke Width = Ширина на щрих
+Stroke Style = Стил на щрих
+Fill Color = Цвят на пълнеж
+X Radius = Радиус по X
+Y Radius = Радиус по Y
+
+#spice
+Switch mode = Превключване на режим
+The current documents will be closed, and reopen after switching mode, do you want to continue? = Текущият документ ще бъде затворен, желаете ли да продължите?
+PCB related documents are not allowed in emulation mode = Документите, свързани с печатната платка, не са разрешени в режим на емулация
+Please change the editor to "Simulation" mode first at the top left corner. = Моля първо превключете редактора в режим "Симулация", в левия горен ъгъл.
+Please change the editor to "Standard" mode first at the top left corner. = Моля първо превключете редактора в "Стандартен" режим, в левия горен ъгъл.
+Common = Общ
+spice.open = Отваряне
+spice.close = Затваряне
+Sources = Източници
+Instruments/Meters = Инструменти/Измерватели
+Transistors = Трянзистори
+Digital Circuits = Цифрови схеми
+Operational Amplifier = Операционни усилватели
+multimeter = мултимери
+multimeter Settings = Настройки на мултимери
+FunctionGenerator Settings = Настройки на функционален генератар
+Voltage Source Settings = Настройки на източник на напрежение
+Current Source Settings = Настройки на източник на ток
+Powersw Settings = Настройки на Powersw
+Resistor Settings = Настройки на резистор
+Capacitor Settings = Настройки на кондензатор
+Diode Settings = Настройки на диод
+voltPowersw Settings = Настройки на voltPowersw
+Inductor Settings = Настройки на магнетик
+VCVS Settings = Настройки на VCVS
+CCCS Settings = Настройки на CCCS
+VCCS Settings = Настройки на VCCS
+CCVS Settings = Настройки на CCVS
+JFET Settings = Настройки на JFET
+FET Settings = Настройки на FET
+Transmission Line Settings = Настройки за предавателна линия
+Oscilloscope Settings = Настройки на осцилоскоп
+XFMR Settings = Настройки на XFMR
+LOGIC Settings = Настройки на LOGIC
+LOGICSTATE Settings = Настройки на LOGICSTATE
+DIGITALCLOCK Settings = Настройки на DIGITALCLOCK
+Potentiometer Settings = Настройки на потенциометър
+MUTUAL_INDUCTORS Settings = Настройки на MUTUAL_INDUCTORS
+NE555 Settings = Настройка на NE555
+THREE_PHASE Settings = Настройки на THREE_PHASE
+Logic_Probe Settings = Настройки на Logic_Probe
+78XX Settings = Настройки на 78XX
+79XX Settings = Настройки на 79XX
+OPAMP5PEE Settings = Настройки на OPAMP5PEE
+OPAMP5PEECN Settings = Настройки на OPAMP5PEECN
+OPAMP3PEE Settings = Настройки на OPAMP3PEE
+OPAMP3PEECN Settings = Настройки на OPAMP3PEECN
+DELAY_FUSE Settings = Настройки на DELAY_FUSE
+Ratio = Отношение
+K[%] = K[%]
+Model = Модел
+States = Състояния
+Voltage[V] = Напрежение[V]
+Voltage gain[V/V] = Усилване по напрежение[V/V]
+Current gain[A/A] = Усилване по ток[A/A]
+Transconductance[Mho] = Преходна проводимост[Mho]
+Transresistance[Ω] = Преходно съпротивление[Ω]
+Voltage Source Type = Вид източник на напрежение
+Current Source Type = Вид източник на ток
+multimeter type = Вид мултиметър
+power type = Вид мощност 
+Voltmeter Resistance(R)(Ω) = Вътрешно съпротивление на волтметър(R)(Ω)
+Amperometer Resistance(R)(Ω) = Вътрешно съпротивление на амперметър(R)(Ω)
+mu.V = Волтметър
+mu.A = Амперметър
+Sine Wave = Синусоиден сигнал
+Triangular Wave = Триъгълен сигнал
+Rectangular Wave = Правоъгълен сигнал
+AC = Променлив ток
+DC = Постоянен ток
+SINE = Синусоидален
+PULSE = Импулс
+EXP = Експоненциален
+SFFM = Сигнал със синусоидална честотна модулация SFFM
+PWL = Куплунг PWL
+B.spice =
+DC Value[V] = DC стойност[V]
+DC Value[A] = DC стойност[A]
+DC offset[V] = DC отместване[V]
+DC offset[A] = DC отместване[A]
+Amplitude[V] = Амплитуда[V]
+Amplitude[A] = Амплитуда[A]
+Freq[Hz] = Честота[Hz]
+Theta[1/s] =
+Tdelay[s] = Tпауза[s]
+Phi[deg] =
+Tperiod[s] = Tпериод[s]
+Ton[s] = Tвкл.[s]
+Tfall[s] = Tспад[s]
+Trise[s] = Tнараств.[s]
+Von[V] =
+Von[A] =
+Vinitial[V] =
+Vinitial[A] =
+Vpulsed[V] =
+Vpulsed[A] =
+Rise Delay[s] =
+Rise Tau[s] =
+Fall Delay[s] =
+Fall Tau[s] =
+Carrier Freq[Hz] = Носеща честота[Hz]
+Modulation Index = Дълбочина на модулация
+Signal Freq[Hz] = Честота на сигнала[Hz]
+Time[s] = Време[s]
+Value[V] = Стойност[V]
+Value[A] = Стойност[A]
+Waveforms = Осцилограми
+Duty cycle[%] = Коефициент на запълване[%]
+Amplitude[Vp] = Амплитуда[Vp]
+Offset[V] = Отместване[V]
+Rise/Fall Time[sec] = Време за Нарастване/Спад[sec]
+Capacitance[F] = Капацитет[F]
+sComponent = sКомпонент
+Inductance[H] = Индуктивност[H]
+Gbw =
+Slewrate = Скорост на нарастване
+Avol =
+Rout(Ω) = Rизх.(Ω)
+Rin(Ω) = Rвх.(Ω)
+Ibias[A] =
+Inhi[V] =
+Inlo[V] =
+Isc[A] =
+Outhi[V] =
+Outlo[V] =
+Vabsmax[V] =
+Vmin[V] = Vмин.[V]
+Iq[A] =
+Cin[F] = Cвх.[F]
+high = висок
+low = нисък
+Oscilloscope = Осцилоскоп
+Logic Analyzer = Логически анализатор
+Channel_A = Канал_A
+Channel_B = Канал_B
+Channel A = Канал A
+Channel B = Канал B
+Time = Време
+Reverse = Реверсиране
+Simulation file exceed = Надвишен размер на симулационен файл
+The simulation file is too large and has been stopped for performance reasons. = Размерът на симулационния файл е твърде голям и е спрян, поради недостатъчна производителност.
+Timebase =
+Scale: = Мащаб:
+X pos.(Div): =
+Y pos.(Div): =
+View meter... = Преглед на измервания...
+The circuit has components without simulation model: = Схемата съдържа компоненти без симулационен модел:
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = Симулационният интервал е твърде малък, моля опитайте отново след 5 секунди; В случай, че виждате това съобщение повторно, вероятно сте надвишили максимолните 500 симулации на ден.
+Resistor1_US =
+Resistor1_EU/IEC =
+Resistor1_3D =
+Capacitor1_US =
+Capacitor1_EU/IEC =
+Capacitor1_3D =
+Rheostat_US =
+Rheostat_EU/IEC =
+Rheostat_3D =
+Capacitor_Electrolytic_US =
+Capacitor_Electrolytic_EU/IEC =
+Capacitor_Electrolytic_3D =
+Inductor_US =
+Inductor_EU/IEC =
+Inductor_3D =
+Resistor2_US =
+Resistor2_EU/IEC =
+Resistor2_3D =
+Multimeter = Мултиметър
+Multimeter_3D =
+Oscilloscope = Осцилоскоп
+Oscilloscope_3D =
+Signal_Generator =
+Signal Generator_3D =
+Wattmeter = Ватметър
+Wattmeter_3D =
+NSSWS1080T_3D =
+Voltage_Source_VDC =
+Voltage_Source_VSin =
+Voltage_Source_VPULSE =
+Voltage_Source_VEXP =
+Voltage_Source_VSFFM =
+Voltage_Source_VPWL =
+Voltage_Source_V_Behavioral_Source =
+Current_Source_IDC =
+Current_Source_ISin =
+Current_Source_IPULSE =
+Current_Source_IEXP =
+Current_Source_ISFFM =
+Current_Source_IPWL =
+Current_Source_I_Behavioral_Source =
+CCCS_1 =
+CCCS_2 =
+CCVS_1 =
+CCVS_2 =
+VCCS =
+VCVS =
+Three_Phase_Wye_Load =
+Three_Phase_Delta_Load =
+78XX =
+79XX =
+555 =
+555_3D =
+Transformer_US =
+Transformer_EU/IEC =
+Transformer_Center_Tapped_US =
+Transformer_Center_Tapped_EU/IEC =
+Mutual_Inductor_US =
+Mutual_Inductor_EU/IEC =
+Mutual_Inductor2_US =
+Mutual_Inductor2_EU/IEC =
+OR2EE_US =
+OR3EE_US =
+OR4EE_US =
+OR2EE_CN =
+OR3EE_CN =
+OR4EE_CN =
+NOR2EE_US =
+NOR3EE_US =
+NOR4EE_US =
+NOR2EE_CN =
+NOR3EE_CN =
+NOR4EE_CN =
+AND2EE_US =
+AND3EE_US =
+AND4EE_US =
+AND2EE_CN =
+AND3EE_CN =
+AND4EE_CN =
+NAND2EE_US =
+NAND3EE_US =
+NAND4EE_US =
+NAND2EE_CN =
+NAND3EE_CN =
+NAND4EE_CN =
+XOR2EE_US =
+XOR2EE_CN =
+XNOR2EE_US =
+XNOR2EE_CN =
+Digital_Clock_1Hz =
+Logicstate_0 =
+Logicstate_1 =
+Logic_Probe =
+Buffee = Буфер
+INVEE_US =
+INVEE_CN =
+Schmittbuffee =
+LM358N_US =
+LM358N_CN =
+OPAMP3PEE_US =
+OPAMP3PEE_CN =
+OPAMP5PEE_US =
+OPAMP5PEE_CN =
+Voltage_Controlled_Switch =
+Current_Controlled_Switch =
+FUSE = Предпазител
+Delay_Fuse =
+Transmission_Line =
+Crystal = Кристален резонатор
+DFFEE =
+TFFEE =
+JKFFEE =
+SRFFEE =
+SRLATCHEE =
+SRNANDFFEE =
+SRNORFFEE =
+INVTSEE =
+INVODEE =
+Cbuffer =
+SPDT_Open =
+SPDT_Close =
+SPST_Close =
+SPST_Open =
+Fast_Crystal =
+Lamp = Лампа
+BCD_Segment =
+Seven_Segment =
+Traffic_Light =
+Lamp Settings = Настройки на лампа
+Power[W] = Мощност[W]
+Dropout Voltage[V] = Спад на напрежение[V]
+Current[A] = Ток[A]
+Threshold[V] = Праг[V]
+Clock Rate =
+TrafficLight Settings = Настройки на Светофар
+BCDSegment Settings =
+SevenSegment Settings =
+SPDT Settings =
+SPST Settings =
+LogicAnalyzer Settings = Настройки на логически анализатор
+Fuse Settings = Настройки на предпазител
+Wattmeter Settings = Настройки на Ватметър
+open = отваряне
+close = затваряне
+Common Anode = Общ анод
+Common Cathode = Общ катод
+AC Amplitude = AC амплитуда
+AC Phase = AC фаза
+There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Някои компоненти нямат spice модел. Моля използвайте "EElib" и "Spice Символ" при "Библиотеки" в режим "Симулация" или може да зададете spice модел за тях:
+
+#Pin
+Pin Properties = Свойства на извод
+Orientation = Ориентация
+Line 45° = Линия 45°
+Line 90° = Линия 90°
+Arc 45° = Дъга 45°
+Arc 90° = Дъга 90°
+Free Angle = Произволен ъгъл
+Start X = Начало X
+Start Y = Начало Y
+Length = Дължина
+Name = Име
+name = Име
+Number = Номер
+Spice Pin Order = Изводна подредба в Spice
+Display Number = Екранен номуп
+Clock = Тактова честота
+Show = Показване
+Electric = Електрически
+
+#Junction
+Junction Properties = Свойства на съединението
+X Location = Позиция по X
+Y Location = Позиция по Y
+Size = Размер
+Color = Цвят
+
+#Net Label
+Net Label = Етикет на верига
+
+#Part
+Prefix = Означение
+
+#Image Properties and Dialog
+Add Image = Добавяне на изображение
+Image Properties = Свойства на изображение
+Image URL = URL на изображение
+Input an image URL = Въвеждане URL на изображение
+Invalid image URL = Невалиден URL на изображение
+Invalid Prefix = Невалидно означение
+Failed to load the image = Неуспешно зареждане на изображение
+Image URL contains special characters = URL на изображението съдържа специален символ
+From Web URL = От мрежови URL
+From Local Computer = От локалния компютър
+Please select a png/gif/jpg file. = Моля изберете png/gif/jpg файл.
+Please select an image file. = Моля изберете файл, съдържащ изображение.
+Select an image file = Избиране на файл с изображение
+Insert Image to PCB = Вмъкване на изображение в печатна платка
+Tolerance = Допуск
+tolerance = допуск
+capacitance = капацитет
+frequency = честота
+Rated Voltage = Номинално напрежение
+Rated Current = Номинален ток
+resistance = съпротивление
+Resistance = Съпротивление
+Resistance[Ω] = Съпротивление[Ω]
+inductance = индуктивност
+Operating Temperature = Работна температура
+Shape Invert = Инвертиране на форма
+Image Size = Размер на изображението
+Color Tolerance = Цветен допуск
+Simplify Level = Ниво на опростяване
+Corner Threshold = Граничен праг
+
+#PCB Canvas Properties
+Units = Мерна единица
+Snap Size = Размер на прилепване
+Other = Друго
+Routing Width = Ширина на опроводяване
+[router]
+Routing Width = Ширина на опроводяване
+[/router]
+Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Моля с използване на бързи клавиши {0}{key1}{1} или {2}{key2}{3} да промените ширината на пистата при опроводяване.
+Routing Angle = Ъгъл при опроводяване
+Routing Conflict = Конфликт при опроводяване
+Remove Loop = Премахване на цикъл
+Cut SilkScreen = Изрязване на скрийншот
+Grid = Мрежа
+Grid 90 = Мрежа 90
+Grid 45 = Мрежа 45
+Copper Zone = Медена зона
+Visible = Видим
+Invisible = Невидим
+Ignore = Игнориране
+Block = Блокиране
+RoundTrack = ЗобиколнаПиста
+
+#Track
+Track Properties = Свойства на писта
+Layer = Слой
+Net = Верига
+Start X = Начало X
+Start Y = Начало Y
+End X = Край X
+End Y = Край Y
+ID = Идентификатор
+
+#Pad Properties
+Pad Properties = Свойства на площадка
+Shape = Форма
+Hole(D) = Отвор(D)
+Center X = Център X
+Center Y = Център Y
+Round = Кръг
+Oval = Овал
+Hole Shape = Форма на отвора
+Slot = Канал
+Hole(Length) = Отвор(Дължина)
+Plated = Метализация
+None = Нито едно
+Paste Mask Expansion = Разширяване на маска за паста
+Solder Mask Expansion = Разширяване на маска за запояване
+
+#Via Properties
+Via Properties = Свойства на проходник
+Diameter = Диаметър
+Drill Diameter = Диаметър на свредло
+
+#Hole Properties
+Hole Properties = Свойства на отвор
+
+
+#TEXT
+Text Properties = Свойства на текст
+Line Width = Ширина на линия
+Rotation = Завъртане
+Fonts Management = Управление на шрифт
+
+#Dimension Properties
+Dimension Properties = Свойства на размери
+
+#Footprint Properties
+Component Properties = Свойства на компонент
+Display Prefix = Показване на означение
+Pin Name = Име на извод
+Pin Number = Номер на извод
+Spice Pin Number = Номер на Spice извод
+Graphics = Графика
+Pattern = Шаблон
+
+Pin: = Извод:
+Netflag: = МаркировкаВерига
+Netlabel: = ЕтикетВерига
+NetPort: = ИзводВерига
+Voltage Probe: = Напреженова сонда
+Pin: = Извод:
+Hidden Pin: = Скрит извод:
+Unknown: = Неизвестен:
+#Arc Properties
+Arc Properties = Свойства на дъга
+Start Angle = Начален ъгъл
+End Angle = Краен ъгъл
+Rotation Direction = Посока на завъртане
+
+#Rect Properties
+Rect Properties = Свойства на правоъгълник
+Round radius = Радиус на заобляне
+
+#Circle Properties
+Circle Properties = Свойства на окръжност
+Radius = Радиус
+
+#CopperArea Properties
+CopperArea Properties = Свойства на медна площ
+Clearance = Светло разстояние
+Pad Connection = Връзка на площадка
+Direct = Директин
+Spoke =
+Keep Island = Запазване на остров
+Fill Style = Стил на запълване
+CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Конфликт с медни площи: очертанията на медната площ, в един и същ слой с различни имена на веригите, не трябва да се припокриват
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Пресъздаването на медната площ е завършено! Може да заложите "Медната зона" като "Видима", в панела за свойства отдясно, след единично кликване в празната зона.
+Please create board outline first. = Моля първо създайте очертанията на платката.
+Board outlines are not closed. = Очертанията на платката не са затворени.
+Rebuild CopperArea = Пресъздаване на медна площадка
+Edit Points = Точки за редакция
+Direct = Насочване
+Spoke =
+No Solid = Безплътно
+Board Cutout = Изрез в платката
+Solid = Плътно
+[copperArea]
+None = Нито едно
+[/copperArea]
+
+#Custom Properties
+Custom Properties = Персонализирани свойства
+Fixed Properties = Фиксирани свойства
+Add new parameter = Добавяне на нов параметър
+Add New Parameter = Добавяне на нов параметър
+Add New Supplier = Добавяне на нов доставчик
+Mounted = Монтиран
+Unknown = Неизвестен
+
+Custom = Персонализиране
+Scan the QR code below and open it on the mobile side = Сканирайте QR кодът по-долу и го отворете в мобилния сайт
+How to create a single layer PCB = Как да създадете еднослойна печатна платка
+Currently doesn't support layout single layer directly, please refer at: = Понастоящем не се поддържа разпределение със единичен слой по директен начин, моля обърнете се към:
+
+#Dialog Register
+Create an account = Създаване на акаунт
+Username = Потребителско име
+Password = Парола
+Confirm Password = Потвърждаване на парола
+Email = Електронна поща
+Please read this before you register = Моля прочетете това, преди да се регистрирате
+Hi {username} = Здравейте {username}
+
+#Dialog lostPassword
+Lost Password... = Загубена парола...
+Find the password using your email = Открийте паролата, чрез вашата електронна поща
+
+
+
+#Dialog Login
+Login = Вписване
+Username or Email = Потребителско име или електронна поща
+Remember Me = Запомни ме
+Third party = Трета страна
+Login and Register = Вписване или регистрация
+Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = Вашата информация за вписване изглежда е изтекла, моля впишете се отново. Не е нужно да затваряте отворените файлове, ще продължите да ги записвате, след вписването.
+
+#Dialog Reset Password
+Reset a password using your email = Възстановяване на парола, чрез вашата електронна поща
+Your registered email = Вашата регистрирана електронна поща
+
+#Dialog Reaction
+Re-send an activation code to your email = Код за активация е изпратен повторно на вашата електронна поща
+
+#Dialog Invite
+Invite friends to register = Поканете ваш приятел за регистрация
+Your friend's email = Електронна поща на вашия приятел
+
+#Dialog Add A New Parameter
+Add a new parameter = Добавяне на нов параметър
+Key = Ключ
+Value.new_para = нов параметър
+In BOM = в СнМ
+Add into BOM = Добавяне към СнМ
+Invalid key = Невалиден ключ
+This field is required. = Това поле е необходимо.
+
+#Dialog Change Your Password
+Change your password = Промяна на вашата парола
+Old password = Стара парола
+New Password = Нова парола
+Confirm Password = Потвърждаване на парола
+
+#Dialog Create New Design
+Save as a New Project = Запис като Нов проект
+Save as a schematic = Запис като Схема
+Save as Symbol = Запис като Символ
+Save as a spice Symbol = Запис като spice символ
+Save as a spice subckt = Запис като spice subckt
+YOU MUST CREATE A SPICE SYMBOL WITH EXACTLY THE SAME NAME AS THIS SUBCKT = Трябва да създадете Spice символ с точно същото име като на този SUBCKT
+Save as a PCB file = Запис като файл за печатна платка
+Save as Footprint = Запис като отпечатък
+Save as a Schematic Module = Запис като схемен модул
+Save as a PCB Module = Запис като модул за печатна платка
+Save as 3D Model = Запис като 3D модел
+Save as a WaveForm = Запис като осцилограма
+Title = Заглавие
+Share = Споделяне
+Add file = Добавяне на файл
+Visibility = Видимост
+Allow Comments = Разрешаване на коментари
+Public (Anyone can see this project but only you can modify it.) = Обществен (Всеки може да види този проект, но само вие можете да го редактирате.)
+Private (Only you can see and modify this project) = Личен (Само вие можете да виждате и да управлявате този проект.)
+Create new project success! = Създаването на нов проект е успешно!
+You can now create files under this project = Вече може да създадете файлове в този проект
+This file must be saved under a project, choose other project or create a new project = Файлът трябва да бъде записан в структурата на проект, изберете проект или създайте нов проект
+Please login to save this kind of document = Моля влезте в профилът си за да запишете този тип документ
+Duplicated project title = Дублирано заглавие на проект
+#Duplicated document title = #Дублирано заглавие на документ
+Project does not exist = Проектът не съществува
+Document does not exist = Документът не съществува
+document not exists = документът не съществува
+
+Categories = Категории
+Project = Проекти
+Short description = Кратко описание
+Content = Съдържание
+Modify this project info. = Промяна на информацията към този проект.
+Modify this file info. = Промяна на информацията към този файл.
+Notice = Бележка
+Search for it before creating a new one. = Потърсете го преди да създадете ново.
+Manufacturer Part Number = Производствен код на компонент
+Supplier = Доставчик
+Or = Или
+Supplier Part = Компонент на доставчик
+Supplier Part Number = Код на компонент на доставчик
+Link = Връзка
+link = връзка
+The professional function please refer at: = За професионалната функция, моля обърнете се към:
+
+#Dialog Clone My Part
+#Clone it to a project =  Клониране към проект
+#Clone it, then edit it = Клониране и редактиране
+Clone your file = Дублиране на файл
+
+#Dialog Subckt
+Attach a Subckt to this spice symbol = Прикрепяне на Subckt към този spice модел
+Subckt string = Subckt низ
+Spice symbol title just allow [0-9][a-z][A-Z] and _ = Spice заглавието може да включва само следните символи [0-9][a-z][A-Z] и _
+
+#Design Manager
+Design Manager = Управление на проект
+Nets = Вериги
+DRC Errors = ППП грешки
+Are you sure you want to unroute this net? = Сигурни ли сте, че желаете да премахнете опроводяването за тези вериги?
+Unroute = Премахване на опроводяване
+Track Length = Дължина на пистата
+Via/Hole Outer Size = Външен размер на проходник/отвор
+Filter nets = Филтриране на вериги
+Design Rule Checking = Проверка на правила за проектиране
+Board Outline = Очертания на платка
+Plane Zone = Планарна зона
+[drcRule]
+Width = Ширина
+DRC Width = ППП ширина
+Length = Дължина
+DRC Length = ППП дължина
+Drill Diameter = Диаметър на свредло
+DRC Drill Diameter = Диаметър на свредло при ППП
+Diameter = Диаметър
+DRC Diameter = ППП диаметър
+Object = Обект
+DRC Clearance = ППП светло разстояние
+[/drcRule]
+#It will take a while to unroute this net, do you want to continue? = Ще отнеме време, докато се премахне опроводяването на тази верига, желаете ли да продължи?
+More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Повече от един етикет на верига е открит за този проводник, моля проверете дали това е правилно, ако това е зададено умишлено, може да игнорирате предупреждението.
+Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = Непълна верига, една верига съдържа два или повече извода, ако това е зададено умишлено, може да игнорирате предупреждението.
+This netlabel is not connected with any pin. = Този етикет на верига не е свързан към нито един извод.
+Incomplete connection, please check. = Непълна връзка, моля проверете.
+The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = Светлото разстояние между двата обекта е по-малко от посоченото в Проверката на Правилата за Проектиране (ППП), за такива, които участват в различни вериги.
+The diameter is less than Design Rule Checking (DRC) diameter = Диаметърът е по-малък от посоченият в Проверка на Правилата за Проектиране (ППП)
+The drill diameter is less than Design Rule Checking (DRC) drill diameter = Диаметърът на свредлото е по-малък от посоченият в Проверка на Правилата за Проектиране (ППП)
+The track length is longer than Design Rule Checking (DRC) track length = Дължината на пистата е по-голяма от посочената в Проверка на Правилата за Проектиране (ППП)
+The track width is less than Design Rule Checking (DRC) track width = Ширината на пистата е по-голяма от посочената в Проверка на Правилата за Проектиране (ППП)
+
+#Dialog Simulation
+Show your simulation report = Показване на доклад за симулиция
+Download netlist = Изтегляне на списък с вериги
+Run = Стартиране
+Components = Компоненти
+
+#Dialog Import
+Import file from your computer = Вмъкване на файл от вашия компютър
+Maximum file size: 30 MB = Максимален размер на файла: 30 MB
+Maximum file size: 100 MB = Максимален размер на файла: 100 MB
+Chose file = Затваряне на файл
+File Operation = Файлови действия
+Import File = Вмъкване на файл
+Extract Libs = Извличане на библиотека
+No Libs! = Липсва библиотека
+Import File and Extract Libs = Вмъкване на файл и Извличане на библиотека
+File type = Тип файл
+The file size is too large. = Размерът на файла е твърде голям.
+Please selected the file type. = Моля изберете типа файл
+No component was found! = Нито един компонент не е открит!
+Import successfully = Вмъкването е успешно
+Import failed = Вмъкването е неуспешно
+Click OK to continue with the import = Кликнете ОК за да продължите с вмъкването
+Select None = Нито едно не е избрано
+
+#Dialog Modify Symbol Information
+Modify symbol information = Промяна на информацията за символа
+Spice Prefix = Spice означение
+Hide Pin = Скриване на извод
+Pin Manager = Управление на изводи
+When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = Когато захранващ извод е скрит, той ще бъде маркиран с етикет на верига, не е необходимо да го опроводявате. В случай, че го използвате за симулация, моля разкрийте го или създайте верига GND/VCC за него. 
+Assign = Задаване
+Supplier.bom = Доставчик.bom
+LCSC.bom = LCSC
+Price = Цена
+Quantity.bom = Количество
+Package.bom = Корпус
+Components.bom = Компоненти
+Manufacturer Part.bom = Компонент на производител
+Manufacturer.bom = Производител
+
+One-click Purchasing at LCSC = Покупка с едино кликване от LCSC
+Order Parts = Поръчка на компоненти
+Export BOM = Извличане на СнМ
+Upload to LCSC ERP = Качване в LCSC ERP
+No components, upload failed! = Няма компоненти, качването е неуспешно!
+Upload to LCSC ERP failed, please try again later. = Качването в LCSC ERP е неуспешно, моля опитайте по-късно.
+Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = Текущото качване на СнМ в LCSC Chip Manager е успешно.
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = Качването в LCSC ERP е неуспешно, открити са компоненти с липсващи свойства, моля проверете дали е налична стойност на позиция "Отпечатък, Компонент на производител".
+
+Export PCB BOM = Извличане на СнМ за платка
+Export Schematic BOM = Извличане на СнМ за схема
+ID.bom = Идентификатор
+Name.bom = Име
+[bom]
+Name = Име
+LCSC Assembly = LCSC сглобка
+Value = Стойност
+ID = Идентификатор
+Supplier = Доставчик
+LCSC =
+Price = Цена
+Quantity = Количество
+Package = Корпус
+Components = Компонент
+Manufacturer = Производител
+[/bom]
+Manufacturer Part = Компонент на производител
+
+#Dialog Run
+Run your simulation = Стартиране на вашата симулация
+Transient = Преходен
+Maximum Timestep = Максимална времева стъпка
+Stop Time = Крайно време
+Start Time = Начално време
+
+AC Analysis = AC анализ
+Type of Sweep =
+Number of points = Брой точки
+Start Frequency = Начална честота
+Stop Frequency = Крайна честота
+
+DC sweep =
+Source to Sweep =
+Start Value = Начална стойност
+Stop Value = Крайна стойност
+Increment = Инкремент
+DC Transfer =
+Output = Изход
+Source = Източник
+
+DC op pnt = DC работна точка
+Compute the DC operating point treating capacitances as opens and inductances as shorts = Изчисляване на постояннотоковата работна точка, като капацитетите се считат за отворени вериги, а индуктивностите за проводници.
+
+#Dialog Share Info
+Active File = Активен файл
+Active Project = Активен проект
+Readonly = Само за четене
+Editable = Редактируемо
+Active file's owner project page = Страница на водещия проектант за активния файл
+Active project editor page = Страница за редактиране на активния проект
+
+#Dialog Document Recovery
+All Projects = Всички проекти
+Document Recovery = Възстановяване на документ
+Unsaved files = Незаписани файлове
+Please select a file! = Моля изберете файл!
+Please expand the folder first, then select a document to recover. = Моля първо отворете папката, след това изберете документ за възстановяване.
+Are you sure you want to remove this backup? = Сигурни ли сте, че желаете да премахнете това от архивът?
+
+#Dialog Find Libs
+Search = Търсене
+Search Results = Резултати от търсенето
+Search and press Enter = Търсете и натиснете Enter
+Keywords at least 3 characters = Ключовата дума трябва да има минимум 3 символа
+Assembled = Сглобено
+Verified = Проверено
+In stock = На склад
+{page} of {pagecount} pages = {page} от {pagecount} страници
+Common Modules = Общи модули
+User Contributions = Потребителски приноси
+More = Още
+Modify Model... = Промяна на модел...
+Add Favorite = Добавяне на любим
+Remove Favorite = Премахване на любим
+Add Sub Part = Добавяне на подкомпонент
+Untagged = Неетикитиран
+Package = Корпус
+package = корпус
+Title(PartNO) = Наименование(КодКомпонент)
+No Data! = Няма данни!
+Quantity = Количество
+Manufacturer Part = Компонент на производител
+manufacturer Part = компонент на производител
+Manufacturer = Производител
+manufacturer = производител
+voltage = напрежение
+Library = Библиотека
+LCSC Assembled = Наситено от LCSC
+JLCPCB Assembled = Наситено от JLCPCB
+User Contributed = Потребителски принос
+Symbol = Символ
+Follow = Следване
+Types = Видове
+Classes = Класове
+power = мощност
+Power = Мощност
+LCSC Part# = LCSC компонент#
+Stock = Склад
+Report Error... = Докладване за грешка...
+Report Error = Докладване за грешка
+Thanks for your feedback! = Благодарим за вашата обратна връзка!
+Report error success, thanks for your report! = Успешно изпратено, благодарим за вашия доклад!
+The content must be at least 2 characters! = Съдържанието трябва да бъде минимум 2 символа!
+This library is user contributed, please check before using. = Тази библиотека е принос от потребители, моля направете проверка, преди да я използвате.
+[lib]
+All = Всичко
+System = Система
+Personal = Лично
+Created = Създадено
+Favorite = Любимо
+No Team found. Please join or create a team first. = Няма открит екип. Моля първо се присъединете към или създайте екип.
+Create a team = Създаване на екип
+No follow user found. Please follow your friend first. = Няма открити последвани потребители. Моля първо последвайте ваш приятел.
+[/lib]
+
+
+BUY = Покупка
+In Stock = На склад
+Out of Stock = Изчерпано
+Minimum = Минимално
+Distributor = Дистрибутор
+
+Capacitance = Капацитет
+Frequency Tolerance = Честотен толеранс
+Power (Watts) = Мощност (Watts)
+Power - Max = Мощност - Макс.
+Frequency = Честота
+Voltage Rating(Vdc,Vac) = Номинално напрежение(Vdc,Vac)
+Voltage = Напрежение
+Current Rating = Номинален ток
+Rated current = Номинален ток
+Resistance (Ohms) = Съпротивление (Ohms)
+Resistance(Ohms) = Съпротивление(Ohms)
+Inductance = Индуктивност
+FET Type = FET тип
+Current Rating(Max) = Номинален ток(Макс)
+Impedance @ Frequency = Импеданс @ Честота
+Voltage - Input (Max) = Напрежение - Вход (Макс.)
+Voltage - Input (Min) = Напрежение - Вход (Мин.)
+Voltage - Supply = Напрежение - Захранване
+Voltage - Max = Напрежение - Макс.
+Current - Output = Ток - Изход
+
+#Dialog Export Your Works
+Export your works = Извличане на разработка
+Export to = Извличане на
+Zoom = Уголемяване
+Image Type = Тип на изображение
+Qualify = Квалифициране
+0 means real size = 0 за реален размер
+Merged layer = Обединен слой
+Separated layer = Отделен слой
+Paged layer = Слой на страници
+Layer = Слой
+Export = Извличане
+Mirror = Огледално
+TopLayer = ГоренСлой
+BottomLayer = ДоленСлой
+TopSilkLayer = СлойГоренБялПечат
+Protractor Properties = Свойства на транспортир
+BottomSilkLayer = СлойДоленБялПечат
+
+BoardOutLine = ОчертанияПлатка
+TopAssembly = КомпонентиОтгоре
+BottomAssembly = КомпонентиОтдолу
+Mechanical = Механичен
+DocumentLayer = СлойДокумент
+Inner{number} = Вътрешен{number}
+Substrate{number} = Подложка{number}
+Color = Цвят
+Full Color = Всички цветове
+Canvas Setting = Настройки на чертожно поле
+Full Graphics = Цялостна графика
+Assembly Drawings = Чертежи сглобка
+Object Outlines = Очертания на обект
+Invalid file format = Невалиден файлов формат
+Failed to export file = Неуспешно извличане на файл
+Download now = Изтегляне сега
+Wire Width = Ширина на проводника
+Sheet = Лист
+Merged sheet = Събран лист
+Separated sheet = Отделен лист
+Engine = Алгоритъм
+Exporting PDF = Извличане на PDF
+Export 3D Model = Извличане на Тримерен модел
+[exportDocument]
+Size = Размер
+[/exportDocument]
+
+#Dialog Import Changes
+Confirm Importing changes information = Потвърждаване на промяна на информация за вмъкване
+You can't undo this operation, Please run a Design Rule Checking (DRC) after this operation. = Отмяната на това действие не е възможна, Моля стартирайте Проверка на правилата за проектирани (ППП), след изпълнението му.
+Apply Changes = Прилагане на промените
+This is a simple Design Rule Checking (DRC). = Това е просто правило за проверка на правилата за проектиране (ППП).
+It just can help you to find the obvious errors = Би могло да ви помогне да откриете очевидни грешки.
+There are some unfinished nets, do you want to check the nets first? = Налични са незавършени вериги, желаете ли да се направи проверка първо на веригите?
+Yes, Check Nets = Да, Провери веригите
+No, Keep Going = Не, Продължи
+
+#Dialog Layer Manager
+Configured = Настроен
+Layer Name = Име на слой
+TopPasterLayer = ГоренСлойПаста
+BottomPasterLayer = ДоленСлойПаста
+TopSolderLayer = ГоренСлойСпойка
+BottomSolderLayer = ДоленСлойСпойка
+TopPasteMaskLayer = ГоренСлойМаскаПаста
+BottomPasteMaskLayer = ДоленСлойМаскаПаста
+TopSolderMaskLayer = ГоренСлойМаскаСпойка
+BottomSolderMaskLayer = ДоленСлойМаскаСпойка
+ComponentShapeLayer = СлойФормаКомпонент
+LeadShapeLayer = СлойФормаИзвод
+ComponentMarkingLayer = СлойМаркиранеКомпонент
+Ratlines = Свързващи линии
+Ratlines Color = Цвят на свързващи линии
+Manage Colors = Управление на цветове
+BoardOutline = ОчертаниеПлатка
+Multi-Layer = Многослойна
+Hole = Отвор
+DRCError = ПППГрешка
+Setting = Настройка
+Drawing area = Чертожна зона
+Export area = Зона за извличане
+Transparency(%) = Прозрачност(%)
+Copper Layer = Меден слой
+Signal = Сигнал
+Plane = Равнина
+Non-Signal = Не-сигнален
+Other = Друго
+Please delete all the objects of the layers first! The layers are: = Моля първо изтрийте всички обекти в слоевете! Слоевете са:
+You are converting Signal Layer to Plane Layer, There're some non-track objects remain on following layers. Please delete the objects manually on the canvas. = Преобразувате Сигнален слой в Равнинен слой, Съществуват обекти, които не са част от писти, на слоевете по-долу. Моля изтрийте обектите ръчно.
+Please delete all the objects of this layer first! = Моля първо изтрийте всички обекти в този слой!
+
+#Dialog Fabrication Output
+Create Files = Създаване на файлове
+Check your {0}Gerber files{1} carefully before sending them to the factory = Проверете своите {0}Гербер файлове{1} внимателно, преди да ги изпратите за производство
+Download free Gerber Viewer (gerbv) = Изтеглете безплатен инструмент за преглед на Гербери (gerbv)
+Before generating the Gerber files = Преди генериране на Гербер файлове
+Please check the packages size and orientation carefully. = Моля проверете внимателно размерът на корпусите и ориентацията.
+Please check for Design Rule Checking (DRC) errors in the Design Manager. = Моля проверете грешките засечени от Проверка на Правилата за Проектиране (ППП) в Управление на проекти
+Please rebuild the copper area after modifying tracks and packages. = Моля пресъздайте медната площ, след направената промяна на пътечки и корпуси.
+After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = След създаване на Гербер файлът, моля използвайте {0}Преглед на Гербери{1} за да проверите дали съответства на изискванията за проектиране.
+Order PCB/SMT = Поръчка на PCB/SMT
+Found the complicated polygon that object cannot be generated at Gerber, please remove or replace = Намерен е сложен многоъгълник, чийто обект не може да бъде създаден в гербера, моля премахнете или го подменете
+ID: {id}, Object: {object}, Location: {location} = Идентификатор: {id}, Обект: {object}, Позиция: {location}
+
+#Dialog DRC
+Item = Позиция
+Value = Стойност
+value = стойност
+Unit = мерна единица
+Track Width = Ширина на писта
+Track to Track = Писта към писта
+Track to Pad = Писта към площадка
+Pad to Pad = Площадка към площадка
+Via to Via = Проходник към проходник
+Via Hole Size = Размер на отвор на проходник
+Realtime DRC = ППП в реално време
+{0} is too small! = {0} е твърде малко!
+Invalid DRC Rule = Невалидно ППП правило
+Rule = Правило
+Via Diameter = Диаметър на проходник
+Via Drill Diameter = Диаметър на свредло за проходник
+Net List = Списък с вериги
+Rule = Правило
+Set Rule = Определи правило
+Check Object to Copper Area = Проверете обекта в Медната площ
+Show DRC Boundary while Routing = Показвай Границите на ППП, при опроводяването
+Check Object to Board Outline = Проверяване на отстояние от Обект до Очертания на платка
+Rule name already exists! = Наименованието на правилото вече съществува!
+You should not delete default rule! = Правилата по подразбиране не се изтриват!
+Rule list contains invalid rule setting! = Списъкът с правилата съдържа невалидни настройки!
+Duplicate rule name exists! = Съществува дублирано наименование на правило!
+via diameter is smaller than via drill diameter! = диаметърът на проходника е по-малък от диаметъра на свредлото за него!
+Currently rule name is not allowed to contain magical characters like . and $ = Понастоящем не е позволено наименованието на правилата да съдържат специални символи като . и $
+[drcRule]
+All = Всички
+[/drcRule]
+
+#Dialog Hotkey
+Change Canvas Unit = Промяна на чертожни единици
+Copy Selected Object(s) by Reference Point = Копиране на избран(и) обект(и) чрез отправна точка
+Fullscreen = Цял екран
+Undo the Previous Draw = Отмяна на предишния чертеж
+Set Canvas Origin by Coordinate = Настройка на начало на чертожното поле по координати
+Switch to the Next Signal Layer = Преминаване към следващия сигнален слой
+Switch to the Previous Signal Layer = Преминаване към предишния сигнален слой
+Switch object to top layer or bottom layer = Прехвърляне на обект към горния или долния слой
+Cycle Forward to the Next Open Tabbed Document = Преминете напред към следващия отворен документ с раздели
+Cycle Backward to the Previous Open Tabbed Document = Връщане към предишния отворен документ с раздели
+Switch to the Previous Layer(on the Numeric Keypad) = Прехвърляне към Предишния Слой (на цифровата клавиатура)
+Switch to the Next Layer(on the Numeric Keypad) = Прехвърляне към Следващия Слой (на цифровата клавиатура)
+Toggle Layers Which is Not Active = Превключване на слоеве, които не са активни
+Hotkey Setting = Настройка на бързи клавиши
+Document Type = Тип на докумнта
+Shortcut = Пряк път
+Function = Функция
+ALL = Всички
+SCH = SCH
+Rotate Selected Objects = Завъртане на избраните обекти
+Scroll or Move Selected Left = Превърти или Премести Избраното Наляво
+Scroll or Move Selected Right = Превърти или Премести Избраното Надясно
+Scroll or Move Selected Up = Превърти или Премести Избраното Нагоре
+Scroll or Move Selected Down = Превърти или Премести Избраното Надолу
+Set canvas origin to the center grid of graphics in symbol; Set canvas origin to the center of pads in footprint. = Задаване на начало на чертожното поле върху центъралната мрежа на графиката на символ; Задаване на начало на чертожното поле върху центъра на подложките на отпечатъка.
+Cross Document Paste = Поставяне между различни документи
+Explore & Find Components = Преглед и Търсене на компоненти
+Select All = Избор на всички
+Cancel Current Drawing = Отказ на текущия чертеж
+Save = Запис
+Drag Tool = Инструмент за провлачване
+Draw Wire = Изчертаване на проводник
+Draw Bus = Изчертаване на шина
+Bus Entry = Данни шина
+Junction = Връзка
+Net Flag GND = Маркер GND на верига
+Net Flag = Маркер на верига
+Draw Polyline = Изчертаване на Полилиния
+Draw Polygon = Изчертаване на многоъгълник
+Draw Bezier = Изчертаване на Безие
+Draw Arc = Изчертаване на Дъга
+Draw Rect = Изчертаване на правоъгълник
+Draw Ellipse = Изчертаване на елипса
+Freehand Draw = Свободно изчертаване
+Freedraw = Свободно изчертаване
+Draw Text = Изписване на текст
+Edit Selected Symbol = Редактиране на избрания символ
+Draw Track = Изчертаване на писта
+Draw Circle = Изчертаване на окръжност
+Cycle Select Object at Current Location = Цикличен избор на обект от текущата локация
+Draw Dimension = Поставяне на размерни линии
+Draw Connect = Изчертаване на връзки
+Draw CopperArea = Изчертаване на МеднаПлощ
+Change to TopLayer;<br/>Change Selected Component's Layer to TopLayer; = Прехвърляне в ГоренСлой;<br/>Прехвърляне на избрания компонент в ГоренСлой;
+Change to BottomLayer;<br/>Change Selected Component's Layer to BottomLayer; = Прехвърляне в ДоленСлой;<br/>Прехвърляне на избрания компонент в ДоленСлой;
+Change to Inner1 = Прехвърляне във Вътрешен1
+Change to Inner2 = Прехвърляне във Вътрешен2
+Change to Inner3 = Прехвърляне във Вътрешен3
+Change to Inner4 = Прехвърляне във Вътрешен4
+Highlight Net = Осветяване на верига
+Highlight Network = Осветяване на мрежа
+Unhighlight Network = Изключване на осветяване за мрежа
+Place Pad = Поставяне на площадка
+Place Via = Поставяне на проходник
+Measure = Измерване
+Change Routing Angle = Промяна ъгъл на опроводяване
+Change Routing Conflict = Промяна на конфликт при опроводяване
+Decrease Routing Width = Намаляване ширина на опроводяване
+Increase Routing Width = Увеличаване ширина на опроводяване
+Decrease Snap Size = Намаляване размера на прилепване
+Increase Snap Size = Увеличаване размера на прилепване
+Change Copper Zone Visible or Invisible = Промяна на Медна площ като видима или невидима
+Rebuild All Copper Area = Пресъздаване на всички медни площи
+Toggle PCB Net Display = Показване/Скриване на веригите на платката
+Show Property Dialog When Placing Object;<br/>Show Location Setting Dialog When Pasting Object(s) = Показване на прозорец за свойства, при поставяне на обект;<br/>Показване на прозорец за настройка на позиция, при поставяне на обект(и)
+Show Property Dialog When Placing Object;<br/>Show Absolute Offset Dialog When Selecting Object(s);<br/>Show Location Setting Dialog When Pasting Object(s) = Показване на прозорец за свойства, при поставяне на обект;<br/>Показване на прозорец за абсолютно отместване, при избиране на обект(и);<br/>Показване на прозорец за настройка на позиция, при вмъкване на обект(и)
+Show Relative Offset Dialog When Selecting Object(s) = Показване на прозорец за относително отместване, при избор на обект(и)
+Open the FAQ Page = Отваряне на страницата с често задавани въпроси
+Move Object(s) by Reference Point = Преместване на обект(и) с отправна точка
+Choose Favorite Track Width While Routing = Изберете предпочитана ширина на писта, при опроводяване
+Copy Selected Object(s) and Paste Repeatedly = Копиране на избран(и) Обект(и) и повторно поставяне
+
+#My Projects Tree Menu
+New Project = Нов проект
+New Schematic = Нова схема
+New PCB = Нова печатна платка
+New Spice Subckt = Нов Spice Subckt
+Modify = Промяна
+Delete = Изтриване
+Add sub part = Добавяне на подчасти
+Clone = Клониране
+Version History = История на версията
+Refresh List = Списък с обновления
+Create New Project = Създаване на нов проект
+Delete = Изтриване
+Attachment = Приложение
+Archive = Архив
+Transfer = Трансфер
+Manage Project = Управление на проект
+
+#Dialog Verify Package
+Footprints Verification = Проверка на отпечатъци
+
+#Dialog Edit Polygon Pad points
+Edit Points = Добавяне на точки
+Center point is outside the pad = Центърът е извън площадката
+Hole should be inside the pad = Отворът трябва да бъде в зоната на площадката
+Hole is draggable = Отворът е подвижен
+
+#My Part Tree Menu
+Clone = Клониране
+Reload parts = Презареждане на компоненти
+Layers = Слоеве
+
+#Dialog Preferences
+Language = Език
+Display Name = Заглавие
+HotKey Sync = Синхронизация на бързи клавиши
+My Theme Sync = Синхронизация на моята тема
+Document Recovery Setting = Настройка за възстановяване на документ
+Enable auto backup = Разрешаване на автоматично архивиране
+Maximum backup level = Максимално ниво на архивиране
+Auto backup interval = Интервали за автоматично архивиране
+minutes = минути
+Save to Server = Запис на сървър
+Load from Server = Зареждане от съвръв
+
+
+#Dialog Schematic Library Wizard
+Symbol Wizard = Помощник за символ
+Style = Стил
+Picture = Картина
+Pin Names = Имена на изводи
+Contributor = Сътрудник
+contributor = сътрудник
+owner = притежател
+
+#Dialog Annotate
+Annotate = Поставете забележка
+Scope = Обхват
+All pages = Всички страници
+Current page only = Само текущата страница
+Selected components = Избраните компоненти
+All Opened Schematics = Всички отворени Схеми
+Method = Метод
+Re-annotate all = Обновяване на всички бележки
+Keep existing annotation = Запазване на съществуващите бележки
+Direction = Напътствия
+Rows = Редове
+Cols = Колони
+Reset = Зануляване
+
+#Dialog Order
+Order... = Поръчка...
+PCB Qty. = Количество платки
+PCB Thickness = Дебелина на платка
+PCB Dimension = Размери на платка
+Automatic calculation = Автоматично изчисление
+PCB Color = Цвят на платка
+Green = Зелен
+White = Бял
+Blue = Син
+Red = Червен
+Yellow = Жълт
+Black = Черен
+Purple = Лилав
+Copper = Мед
+Gold = Злато
+Silver = Сребро
+Surface Finish = Покритие на повърхностите
+Hasl = HASL Калаено покритие
+Hasl(Lead Free) = HASL(Безоловно)
+ENIG = Златно покритие
+
+#Dialog Hot Key config
+Restore All Default Shortcuts = Възстановяване на всички Препратки по Подразбиране
+Save Changes = Запис на Промените
+
+
+
+#Dialog Polyline Maybe Wire
+To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = За свързване на електршчески елементи, моля използвайте Проводник (бърз клавиш W), а не Линия (бърз клавиш L).
+
+Anonymous File = Неизвестен файл
+Anonymous File can not be cloned, but you can open it, then save it as a new file. = Неизвестен файл не може да бъде клониран, но можете да го отворите и да го запишете като нов файл.
+Free Documents = Безплатни документи
+You must close the file before delete it! = Трябва да затворите файлът, преди да го изтриете!
+Offline Project = Проект извън линия
+
+#Message box
+Confirmation = Потвърждение
+Alert = Уведомление
+Information = Информация
+information = информация
+Prompt = Подсещане
+Error = Грешка
+error = грешка
+error! = грешка!
+Warning = Предупреждение
+Imported ok! = Вмъкнато!
+Some changes have not been saved. = Някои промени не са записани.
+Your file hasn't been saved. Please save first! = Вашият файл не е записан. Моля първо го запишете!
+Your file hasn't been saved. Are you sure you want to close it? = Вашият файл не е записан. Сигурни ли сте, че желаете да го затворите?
+Error! Please try again later. = Грешка! Моля опитайте пак по-късно.
+Are you sure you want to reload this page? =  Сигурни ли сте, че желаете да презаредите страницата?
+Are you sure you want to leave this page? = Сигурни ли сте, че желаете да напуснете страницата?
+Confirm Reload = Потвърди презареждане
+Confirm Close = Потвърди затваряне
+Reload this page = Презареди страницата
+Leave this page = Напусни страницата
+Stay on this page = Остани на тази страница
+Don't reload = Не презареждай
+No connect flag only can be placed on Pin dot or the wire which is connected one Pin. = Маркировка "Не се свързва" може да бъде поставена само на изводна точка или проводник, към който и свързан само един Извод.
+can not be placed on the wire which is placing No Connect Flag. = не може да се постави на проводник, който има маркировка "Не се свързва".
+The footprint transfer to LCSC library class successfully = Отпечатъкът е успешно прехвърлен към категория LCSC на библиотеката
+Device/Footprint goes into "SMT Device/Footprint Verified" list successfully = Устройството/Отпечатъкът е поставено в списък "SMT проверени Устройства/Отпечатъци"
+
+Load failure! = Зареждането е неуспешно!
+Load projects failed = Зареждането на проекта е неуспешно
+error info = инфо за грешка
+error information = информация за грешка
+Guest can't create a new project. Please login! = Гостите не могат да създават нови проекти. Моля влезте във вашия профил.
+Please create a project before you do this! = Моля създайте проект, преди да направите това!
+Add Part success = Успешно добавяне на компонент
+Click the new part and then edit it! = Кликнете върху новия компонент и после я редактирайте!
+Delete my work = Изтриване на моят труд
+Delete my work. (Only deletes it from this list but not from the server) = Изтриване на моят труд. (Само го изтрива от този списък, но не и от сървъра)
+Do you confirm this? = Желаете ли да потвърдите?
+Successfully deleted! = Успешно изтрито!
+Successfully Copied! = Успешно копирано!
+Cloning success! = Клонирането е успешно!
+Your title is too short! = Заглавието е прекалено кратко!
+Remove this part = Премахване на този компонент
+Find and Jump to ... = Открийте и се прехвърлете на...
+Please type the prefix, such as U1, R1, C1 = Моля въведете означение, например U1, R1, C1
+Zoom as 1:1, you can print it and then create artwork for etching the PCB. = Настройте уголемяването 1:1, Можете да го отпечатате и после да създадете заготовка за гравиране на платка.
+Exporting your works! = Извличане на вашата разработка!
+Guests can't import a file. Please login! = Гостите не могат да вмъкват файл.
+Please create a project before you import a file! = Моля създайте проект, преди да вмъкнете файл!
+Import your LTspice file! = Вмъкнете вашият LTspice файл!
+Open LTspice file = Отваряне на LTspice файл
+Open EasyEDA file = Отваряне на EasyEDA файл
+Please make sure the selected LTspice file is a file saved in LTspice V and above. = Уверете се, че избраният LTspice е записан с версия LTspice V или по-нова.
+Saved successfully! = Записано успешно!
+Save failed! = Неуспешен запис!
+Can not place parts into this document. = Не може да се постави компонент в този документ.
+User Package = Потребителски пакет
+System Package = Системен пакет
+File error = Грешка във файла
+Please save your file first! = Моля първо запишете вашият файл!
+Email address is too short! = Пощенският адрес е прекалено кратък!
+You have not selected a file to upload. = Не сте избрали файл за качване.
+Update = Актуализация
+No changes, the PCB already matches the schematic! = Няма промени, Платката вече съвпада със схемата!
+Only public files can be shared = Само обществени файлове могат да бъдат споделяни
+Conversion to PCB has failed! = Преходът към печатна платка е неуспешен!
+Your username is too short! = Вашето потребителско име е твърде кратко!
+Your password is too short, it must be more than 6 characters! = Вашата парола е твърде кратка, Необходимо е да съдържа повече от 6 символа!
+Conflicting shortcut = Противоречива препратка
+There is an empty PCB file. Please first run Convert Schematic to PCB... from the schematic = Файлът за печатна платка е празен. Моля първо стартирайте Преобразуване на Схема в Печатна платка... от схемата
+This file has been modified, are you sure you want to run this simulation before saving it first? = Този файл беше променен, Сигурни ли сте, че желаете да стартирате тази симулация, преди първо да я запишете?
+Please enter the Maximum Timestep! = Моля въведете Максималната времева стъпка
+Please enter the Stop Time! = Моля въведете Крайното време!
+All of these fields are needed. = Всички тези полета са необходими.
+Either your spice netlist is too big or the server is busy. Please try again later. = Или вашият spice списък с вериги е твърде голям или сървърът е зает. Моля опитайте пак по-късно.
+Your spice netlist is too big! Try breaking your circuit into smaller simulatable blocks. = Вашият spice списък с вериги е твърде голям! Опитайте се да разбиете вашата схема на по-малки блокове, удобни за симулация.
+Too many users in simulation. Please try again later! = Твърде много потребители в симулацията. Моля опитайте пак по-късно!
+Due to limited server resources, please wait 10 seconds for the interval in every time simulation. = Поради ограничени възможности на сървъра, моля изчаквайте по 10 секунди преди всяка времева симулация.
+Your circuit is too complex, we have not enough CPU resource to support this simulation, please reduce your circuit as small as you can. = Вашата схема е твърде сложна, Не разполагаме с достатъчно изчислителни ресурси за поддръжка на тази симулация, Моля редуцирайте вашата верига, колкото е възможно.
+Simulation is queuing, try again after 30s. = Симулацията е заявена, Моля опитайте отново след 30s.
+Timeout =
+Demo accounts don't support simulation, please login first = Демо акаунтите не поддържат сималация, Моля първо влезте в акаунта си.
+Please login first = Моля първо влезте в акаунта си
+The schematic is showing errors, please check the simulation report carefully! = Схемата показва грешки, Моля внимателно проверете доклада от сималацията!
+Simulation too long, maybe your schematic is too complex. = Симулацията продължи твърде дълго, Може би вашата схема е твърде сложна.
+Non-simulated file = Файл без симулации
+This file can only be opened in standard mode. To open it, please switch to standard mode. = Този файл може да се отвори само в стандартен режим. За да го отворите, моля превключете към стандартен режим.
+Load your preferences success! = Зареждането на вашите предпочитания е успешно!
+Save your preferences success! = Вашите предпочитания са записани успешно!
+Update subckt ok! = subckt е актуализирана
+Clone your file = Клониране на вашия файл
+Please type a new file name = Моля въведете ново име на файл
+Create file failure! = Неуспешно Създаването на файл!
+Schematics and PCBs can't be imported under My Libs folder, please choose a different folder = Схемата и Платката не могат да бъдат вмъкнати в папка Моите библиотеки, Моля изберете различна папка
+Libraries to be imported under My Libs folder = Библиотеките ще бъдат вмъкнати в папка Моите библиотеки
+Please choose only the libraries needed = Моля изберете само необходимите библиотеки
+Maximum import is 200 libs at one time! = Максимално могат да се вмъкнат 200 библиотеки наведнъж!
+You libraries will be found under the My Libs folder = Вашите библиотеки ще бъдат налични в папка Моите библиотеки
+Add to Library = Добавяне към Библиотеката
+No items have been checked! = Нито една позиция не беше проверена!
+Nothing was found, please create it for yourself = Нищо не бе открито, Моля създайте го самостоятелно
+Search result = Резултати от търсенето
+At least 3 characters needed = Минимум 3 символа са необходими
+Add to my Favorite Parts = Добавяне към моите Любими компоненти
+Added it OK. Please find it in your Favorite Parts = Успешно добавено. Ще го откриете във вашите Любими компоненти
+Please select its parent node = Моля изберете по-главен възел
+Libraries can not be exported as active project pdf. = Библиотеките не могат да бъдат извличани като pdf активни проекти.
+Error:No GND = Грешка: Няма GND
+This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Тази схема няма GND. Моля изберете GND от инструментите за да добавите заземяване към схемата.
+Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. = Токовата верига не съдържа символ за източник на напрежение или източник на ток, моля поставете го, като го изберете от лявата страна на библиотеката EElib или библиотеката Spice.
+Probe can not connect with ground(GND)! = Сондата не може да се свърже към земя (GND)!
+Spice symbols's properties can't be empty. = Свойствата на Spice символът не може да са празни.
+Error:No Spice Symbol = Грешка: Липсва Spice символ
+Simulation limit = Граници за симулация
+There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = Във веригата има мултиметър, който трябва да бъде симулиран с помощта на команда .tran или .op
+An oscilloscope exists in the circuit and needs to be simulated using the simulation command .tran = Във веригата има осцилоскоп и е необходимо да бъде симулиран с команда .tran
+There are components in this circuit that do not have a simulation model. Please use the base library component of the simulation mode for simulation. = В тази схема има компоненти, които нямат симулационен модел. Моля, използвайте компоненти от основната библиотека в режим на симулация.
+Circuit does not have a probe = Схемата не съдържа сонда
+Make sure your pin numbers are even numbers = Уверете се, че броят на изводите е четен
+Duplicate Components Prefix = Дублиране на означение на компоненти
+All components are hidden successfully! = Всички компоненти са скрити успешно!
+All ratlines are hidden successfully! = Всички свързващи линии са скрити успешно!
+Hidden the ratline of net {netName} successfully! = Свързващата линия на {netName} е скрита успешно!
+Duplicate Component Prefix = Дублиране на означение на компонент
+{0} exist = {0} съществува
+Modify successfully, but {0} already exists = Промяната е успешна, но {0} вече съществува
+There are some invalid packages, are you sure? = Някои корпуси са невалидни, сигурни ли сте?
+Invalid Characters, library only allows [0-9a-zA-Z-_] = Невалидни символи, библиотеката позволява само [0-9a-zA-Z-_]
+Annotation success = Бележката е създадена успешно
+If you accept this annotation operation, please save your files. If not, close your files without saving. = Ако приемете това действие с бележката, моля запишете вашите файлове. В противен случай, затворете файловете без запис.
+This file can't be saved under libs project. Please choose other project or create a new project = Файлът не може да бъде записан в библиотечен проект. Моля, изберете друг проект или създайте нов проект
+Your file is unsaved. = Вашият файл не е записан.
+You can close the editor now. Have a good day! = Вече може да затворите редактора. Приятен ден!
+Successfully logged out = Успешно излизане от профила
+You have at least one unsaved file open. Please save it or close it. = Имате поне един незаписан отворен файл. Моля запишете го или го затворете.
+Please select a reference point = Моля изберете отправна точка
+Please save your file before this operation = Моля запишете вашият файл, преди това действие
+Please open a PCB document = Моля отворете документ за печатна платка
+Please save your file before '{0}'. = Моля запишете вашия файл, преди '{0}'.
+Please try again after saving this file. = Моля опитайте отново преди записването на този файл.
+This text can not be empty! = Текстовото поле не може да е празно!
+Export to Altium fail, please try again or contact us. = Извличането към Altium е неуспешно, моля опитайте отново или се свържете с нас.
+Connecting to server = Свързване към сървър
+Please login before asking for help = Моля впишете се, преди да потърсите помощ
+This file has been modified, please save it first! = Този файл е променен, моля първо запишете промените!
+Remove this param = Премахнете този параметър
+You cannot drag a part to the canvas, please click the part and move the cursor to the canvas and then right-click to place. = Не можете да плъзнете компонента върху чертожното поле, моля  кликнете върху компонента и преместете курсура върху чертожното поле и тогава кликнете десен клавиш за да го поставите.
+Undo/Redo temporary error = Временна грешка на отмяна/преправяне
+We are sorry but there is an unpredictable error in the undo/redo process. This problem will be fixed soon but in the meanwhile it is safe to continue working on your design. = Съжаляваме, но възникна неочаквана грешка по време на процеса на отмяна/преправяне. Този проблем ще бъде отстранен скоро, но засега можете спокойно да продължите да работите върху вашия проект.
+The schematic has duplicate prefixes of the components, please make them unique. You can check them using the Design Manager. = Схемата има дублиращи се означения на компоненти, моля направете ги уникални. Може да ги проверите посредством Управление на проекта.
+Found duplicated prefix components, can not Import Changes, please modify the duplicated prefix or delete related component. = Открити са дублиращи се означения на компоненти, можете да въведете промените, моля променете дублиращите се означения или премахнете съответните компоненти.
+Please click the below help button to find out how to fix this problem. = Моля кликнете върху бутонът за помощ по-долу за да откриете как да решите този проблем.
+Please create a board outline! Click the help button to find out how to create a board outline. = Моля създайте очертания на платката! Кликнете върху бутонът за помощ за да разберете как да създадете очертания на платката.
+Can not fetch files from server, please check your network and try again = Файловете не могат да бъдат изтеглени от сървъра, моля проверете вашата връзка с мрежата и опитайте отново
+Please open a schematic first! = Моля първо отверете схема!
+Can not find the schematic of this PCB = Не може да бъде открита схемата на тази печатна платка
+invalid points! = невалидни точки!
+This file does not support this operation. = Файлът не поддържа това действие.
+Net Name Conflict = Конфликт на имена на вериги
+Net name = Име на верига
+{0} are in the same wire, please remove others and just keep one. = {0} са на един и същ проводник, моля запазете само едно и премахнете останалите.
+This field can't be removed! = Това поле не може да бъде премахнато!
+Annular ring of the pad/via is too small = Пръстенът на площадката/проходника е твърде малък
+The size of the hole cannot exceed the size of the pad = Размерът на отвора не може да надхвърля размера на площадката
+Are you sure you want to create a multi-sheet designs? = Сигурни ли сте, че желаете да създадете многолистов проект?
+Are you sure you want to create a {0}multi-sheet designs{1}? = Сигурни ли сте, че желаете да създадете {0}многолистов проект{1}?
+Please build the copper area! Click the help button to find out how to build the copper area. = Моля създайте медната площ! Натиснете бутона за помощ, за да разберете как да създадете медна площ.
+Suggest to set a package for this component first! = Препоръчително е първо да създадете корпус за този компонент!
+Please select an opened document first. = Моля първо изберете отворен документ.
+Some files failed to load. Please reload the page. = Някои файлове не могат да бъдат заредени. Моля презаредете страницата.
+
+#UI Intro
+Skip = Прескочи
+« Back = « Назад
+Next » = Следващ »
+Done = Готово
+This is the user management menu. = Това е менюто за потребителски настройки.
+This is the toolbar. = Това е лентата с инструменти
+This is the navigation list. Under here you can find projects, files, parts and libraries. = Това е списък за навигация. Тук ще откриете проекти, файлове, компоненти и библиотеки.
+Show or hide the toolbar to the top of the window here. = Показване или скриване на лентата с инструменти в горната част на този прозорец.
+Show, resize or hide the left sidebar to the left of the window here. = Показване, промяна на размера или скриване на лявата странична лента, отляво на този прозорец.
+Show or hide the right sidebar to the right of the window here. = Показване или скриване на дясната странична лента, отляво на този прозорец.
+
+#Standard libs
+Passive Components = Пасивни компоненти
+Power Supply = Захранване
+Diodes = Диоди
+Regulator = Регулатор
+Transistor = Транзистор
+Transformers = Трансформатори
+Gates = Лог. елементи
+Vacuum Tubes = Електронни лампи
+Switch = Ключове
+Relay = Релета
+Capacitor(US) = Кондензатор(САЩ)
+Capacitor(EU) = Кондензатор(ЕС)
+Capacitor(EU)2 = Кондензатор(ЕС)2
+Electrolytic Capacitor(САЩ) = Електролитен кондензатор(САЩ)
+Electrolytic Capacitor(ЕС) = Електролитен кондензатор(ЕС)
+Electrolytic Capacitor(САЩ)2 = Електролитен кондензатор(САЩ)2
+Electrolytic Capacitor(ЕС)2 = Електролитен кондензатор(ЕС)2
+Inductor(US) = Бобина(САЩ)
+Inductor(EU) = Бобина(ЕС)
+Potentiometer_US = Потенциометър_САЩ
+Potentiometer_EU/IEC = Потенциометър_ЕС/IEC
+Potentiometer_3D = Потенциометър_3D
+Resistor(US) = Резистор(САЩ)
+Resistor(EU) = Резистор(ЕС)
+Resistor 45 Deg(US) = Резистор 45 градуса(САЩ)
+Resistor 45 Deg(EU) = Резистор 45 градуса(ЕС)
+Variable Capacitor(US) = Променлив кондензатор(САЩ)
+Variable Capacitor(EU) = Променлив кондензатор(ЕС)
+Variable Resistor(US) = Променлив резистор(САЩ)
+Variable Resistor(EU) = Променлив резистор(ЕС)
+Variable Inductor(US) = Променлива бобина(САЩ)
+Variable Inductor(EU) = Променлива бобина(ЕС)
+Varistor = Варистор
+Inductor2(US) = Бобина2(САЩ)
+Inductor2(EU) = Бобина2(ЕС)
+Battery = Батерия
+Voltage Source = Източник на напрежение
+Current Source = Източник на ток
+CCCS(Current Controlled Current Source) = CCCS(Източник на ток, управляван с ток)
+CCCS2(Current Controlled Current Source) = CCCS2(Източник на ток, управляван с ток)
+VCCS(Voltage Controlled Current Source) = VCCS(Източник на ток, управляван с напрежение)
+VCVS(Voltage Controlled Voltage Source) = VCVS(Източник на напрежение, управляван с напрежение)
+CCVS(Current Controlled Voltage Source) = CCVS(Източник на напрежение, управляван по ток)
+CCVS2(Current Controlled Voltage Source) = CCVS2(Източни на напрежение, управляван по ток)
+
+BV(Behavioral Voltage Sources) = BV(Поведенчески Източник на напрежение)
+BI(Behavioral Voltage Sources) = BI(Поведенчески Източник на ток)
+Epoly(Non-linear Voltage Source) = Epoly(Нелинеен Източник на напрежение)
+Gpoly(Non-linear Current Source) = Gpoly(Нелинеен Източник на ток)
+
+Diode = Диод
+LED = Светодиод
+LED_3D = Светодиод (3D)
+Schottky Diode = Шотки диод
+Varactor Diode =
+Zener = Ценер
+Unidirectional TVS Diode = Еднопосочен супресорен диод
+Bidirectional TVS Diode = Двупосочен супресорен диод
+Diac =
+Bridge = Мост
+78XX =
+79XX =
+LM317 =
+LM337 =
+TL431 =
+BJT(NPN) =
+BJT(PNP) =
+MOSFET(Nch) =
+MOSFET(Nch) Depletion Four-pins =
+MOSFET(Nch) Enhancement =
+MOSFET(Nch) Enhancement Four-pins =
+MOSFET(Pch) =
+MOSFET(Pch) Depletion Four-pins =
+MOSFET(Pch) Enhancement =
+MOSFET(Pch) Enhancement Four-pins =
+JFET(Nch) =
+JFET(Pch) =
+Darlington NPN =
+Darlington PNP =
+MESFET(Nch) =
+MESFET(Pch) =
+
+IGBT =
+SCR =
+Triac =
+Transform(US) =
+Transform(EU) =
+Transfrom(NEUTRAL-CTR TAP)(US) =
+Transfrom(NEUTRAL-CTR TAP)(EU) =
+Mutual Inductors =
+Mutual Inductors2 =
+Or Gate =
+Xor Gate =
+And Gate =
+Nor Gate =
+Nand Gate =
+Not Gate =
+Xnor Gate =
+Tube Diode =
+Tube Triode =
+Tube Tetrode =
+Tube Pentode =
+Voltage Controlled Switch = Превключвател с управление по напрежение
+Current Controlled Switch = Превключвател с управление по ток
+SPST ON = SPST вкл.
+SPST OFF = SPST изкл.
+Fuse = Предпазител
+555 =
+555(Style2) =
+Speaker = Говорител
+XTAL = Кварцов резонатор
+5pin Operational Amplifier = 5изводен Операционен Усилвател
+3pin Operational amplifier = 3изводен Операционен Усилвател
+Transmission Line = Предавателна линия
+Voltmeter = Волтметър
+Ammeter = Амперметър
+LAMP = Лампа
+Opto Transistor = Опто-транзистор
+
+#Server Message
+Need login = Необходимо е вписване
+Bad password = Неправилна парола
+We can't find your username or your email, please check it! = Не можем да открием вашето потребителско име или електронна поща, моля проверете данните!
+Make sure your uploaded file size is less than 3MB! = Уверете се, че прикаченият файл е по-малък от 3MB!
+Bad file type = Неподходящ файлов формат
+Empty file or bad file type, ensure your file is Eagle 6.0+ = Празен файл или неподходящ файлов формат, уверете се, че файлът е създаден в Eagle 6.0+
+This operation not supported on demo account = Това действие не се поддържа за демонстрационния акаунт
+Can not share this file under a private project, please set the active project to public! = Този файл не може да се сподели в личен проект, моля настройте текущия проект като обществен.
+Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = Твърде много опити за вписване. Ако сте забравили паролата си, моля {0}задайте нова парола{1} или изпратете имейл до support@easyeda.com
+
+#Dialog Common Buttons
+Common Buttons Setting = Настройки за общи бутони
+Menu Setting... = Меню Настройки...
+Show/Hide = Показване/Скриване
+Move Up = Преместване нагоре
+Move Down = Преместване надолу
+Reset All = Зануляване на всичко
+Zoom = Уголемяване
+Place Pin = Поставяне на извод
+
+#System Setting Dialog
+System = Система
+Zoom Mode = Режим Уголемяване
+Scroll Key = Бутон за превъртане
+CTRL + Scroll =
+Canvas Coordinate System = Координатна система на чертожното поле
+SVG Coordinate = SVG координати
+Cartesian Coordinate = Декартови координати
+Open Wizard Dialog for New Schematic = Отваряне на Помощника за създаване на Нова Схема
+Default Unit = Мерни единици по подразбиране
+Canvas Zoom Effect = Ефект за уголемяване на чертожното поле
+Quality Priority = Предимство за качество
+Speed Priority = Предимство за скорост
+Rotation Step = Стъпка на завъртане
+Add Teardrop Automatically = Автоматично добавяне на капка
+Assign Net for Free Track/Arc/Circle = Задаване на Мрежа за свободните Писта/Дъга/Кръг
+Open Wizard Dialog for New PCB = Отваряне на Помощник за Нова платка
+Rebuild Plane Automatically = Автоматично пресъздаване на равнината
+The Track's Routing Follows Component's Rotation = Опроводяването на пистата следва ориентацията на компонента
+Display Pad's Number and Net = Показване на пореден номер и верига на площадката
+Favorite Track width = Предпочитана ширина на пистата
+Track Width Setting = Настройки на ширината на пистата
+
+#Dialog Access Control
+Permissions = Позволения
+Operations = Действия
+Access Control = Контрол на достъп
+Project Access Control = Контрол на достъп за проекта
+Reject = Отказ
+Add User = Добавяне на потребител
+Bad email address = Неправилен адрес на eл.поща
+
+#error info from backend
+Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Адресът на ел.поща не е открит в EasyEDA. Вашият партньор трябва да бъде EasyEDA потребител.
+
+#Dialog waveForm
+Grid Background = Фон на мрежата
+Pane Background = Фон на панел
+WaveForm Config = Настройка на осцилограма
+Export Waveform = Извличане на осцилограма
+
+
+#attr-canvas-grid-style
+dot = точка
+line = линия
+
+#attr-canvas-frame-size
+Other = Други
+A4 Portrait = A4 портретно
+A4 Landscape = A4 панорамно
+A3 Portrait = A3 портретно
+A3 Landscape = A3 панорамно
+A2 Portrait = A2 портретно
+A2 Landscape = A2 панорамно
+A1 Portrait = A1 портретно
+A1 Landscape = A1 панорамно
+Landscape = Панорамно
+Portrait = Портретно
+
+#Stroke Style
+solid = Плътен
+dashed = пунктиран с терета
+dotted = пунктиран с точки
+
+#Solid Region
+Solid Region = Плътен регион
+Type = Тип
+type = тип
+
+#Dialog Libs Management
+Report error = Докладване за грешка
+Please give us some information to help us find the problem. = Моля дайте допълнителна информация за да ни помогнете да отквием проблемът.
+Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = Компонентът не може да се постави в този документ: Схематичният символ може да бъде поставен само в схема; Отпечатъкът може да бъде поставен само в печатна платка.
+Save it as a favorite part = Запис като любим компонент
+Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = Само потребителите, които са вписани с личен акаунт, могат да запишат този компонент като любим, но гостите (Анонимни) могат да поставят компонента в своята директория на проекта. Вихте ли желали да го поставите сега?
+
+#Others
+Find libs = Откриване на библиотеки
+My Projects = Моите проекти
+My Parts = Моите компоненти
+My Modules = Моите модули
+Assembly LCSC Components = Сглобени LCSC компоненти
+Modules = Модули
+SCH Module = SCH модул
+PCB Module = Модул за печатна платка
+System IC = Системна идентификация
+LCSC (Official) = LCSC (Официално)
+LCSC Electronics =
+Simple Mode = Опростен режим
+Expand Mode = Разширен режим
+Help Verify = Помощ за проверка
+Favorite Parts = Любими компоненти
+Shared With Me = Споделени с мен
+Preview = Преглед
+Preview Window = Прозорец за преглед
+System Default = По подразбиране за системата
+User Defined = Посочени от потребителя
+Theme = Тема
+Theme Setting = Настройка на тема
+Close = Затваряне
+Open = Отваряне
+Toggle toolbar = Превключване на лента с инструменти
+Toggle left bar = Превключване на лява лента
+Toggle right bar = Превклячване на дясна лента
+Reload = Презареждане
+Mouse-X = Мишка-X
+Mouse-Y = Мишка-Y
+Mouse-DX = Мишка-DX
+Mouse-DY = Мишка-DY
+Bus entry x1 = Данни шина x1
+Bus entry x2 = Данни шина x2
+Bus entry y1 = Данни шина y1
+Bus entry y2 = Данни шина y2
+Yes = Да
+No = Не
+OK = ОК
+Confirm = Потвърждавам
+Continue = Продължи
+Cancel = Отказ
+Update = Актуализация
+Bus entry = Данни шина
+Filter = Филтър
+Check = Проверка
+Share my work = Споделяне на труд
+Share it by e-mail, IM, blog, etc. = Споделяне по ел.поща, IM, blog и други.
+
+Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Копирайте съдържанието на това поле в текстов редактор, след това запазете файла. Поставете редактирания текст обратно в това поле и кликнете върху Приложи, за да актуализирате дисплея.
+Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Копирайте съдържанието на това поле в текстов редактор, след това запазете файла с разширение .svg. Можете да го редактирате в Inkscape или да го отворите в браузъра си.
+Content is too big to show, you can download it directly. = Съдържанието е твърде голямо за да може да се покаже, можете да го изтеглите директно.
+SVG format = SVG формат
+SVG File = SVG файл
+Description should be no more than 250 letters = Описанието трябва да бъде с не повече от 250 символа.
+The file save operation has timed out. Try again and check your Internet connection. = Записването на файла се забави. Моля проверете вашата връзка с интернет.
+Export Netlist = Извличане на списък с вериги
+Notifications = Известия
+Please select txt or json files. = Моля изберете txt или json файлове.
+Please select EasyEDA files. = Моля изберете EasyEDA файлове.
+Failed to read file [{file}] = Неуспешен прочит на файл [{file}]
+[{file}] is not a valid json file = [{file}] не е валиден json файл
+Invalid parameters! = Невалиден параметър!
+Download = Сваляне
+Start = Старт
+You have unsaved files, are you sure you want to log out without saving the files? = Имате незаписани файлове. Сигурни ли сте, че желаете да напуснете, без да направите запис?
+Please use the web version to run this function. = Моля използвайте web версията за да стартирате тази функция.
+Please save this file to you project! = Моля запишете този файл към вашия проект!
+Nothing changed = Нищо не е променено
+Delete Node = Изтриване на възел
+This layer is invisible. = Този слой е невидим.
+When the solid region is Board Cutout, please set the layer to Multi-Layer. = Когато плътният регион е изрез в платката, задайте слоя като Многослоен.
+You should not try to assign a net to a Board Cutout solid region. = Не трябва да се опитвате да присвоите верига към плътен регион, представляващ изрез в платката.
+Net Length = Дължина на верига
+You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Можете да поставите Извод в схема, но не забравяйте да групирате всички Изводи в компонент от схемата. Моля кликнете върху бутона за помощ за да научите как да ги групирате. Ако просто искате да маркирате проводник, използвайте ИзводВерига или ЕтикетВерига.
+Please input the modification = Моля въведете промяна
+The content must be between {0} and {1} characters = Съдържанието трябва да бъде между символи {0} и {1}
+
+Coming soon = Очаквайте скоро
+No tool = Без инструмент
+Help us translate into your language = Помогнете ни да го преведем на вашия език.
+Pad = Площадка
+Via/Hole = Проходник/отвор
+PCB Layers = Слоеве на печатна платка
+Order PCB = Поръчка на печатна платка
+Share = Споделяне
+Free = Свободни
+Small = Малък
+Medium = Среден
+Big = Голям
+
+
+Embed = Вграждане
+HTML =
+URL =
+BBCode =
+PNG =
+Exporting as = Извличане като
+Exporting as image = Извличане като изображение
+Exporting as {0}SVG{1} file. = Извличане като файл {0}SVG{1}
+Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = Извличане като pdf е препоръчително: pdf позволява добро качество при отпечатване и по-малък размер на файла.
+Generate PCB Fabrication File(Gerber) = Създаване на файл за изработка на печатна платка (Гербер)
+PenWidth-Increase = Увеличаване ширината на писалката
+
+#Generate Gerber
+Generate Gerber = Създаване на Гербер
+Gerber View = Изглед Гербер
+Dimensions(Estimated) = Размери (приблизителни)
+PCB Qty = Количество печатни платки
+Copper Weight = Дебелина на медта
+PCB Price = Цена на печатна платка
+Estimated Delivery Time = Очаквано време на доставка
+
+HASL(with lead) = HASL (Оловно)
+LeadFree HASL-RoHS = HASL-RoHS (Безоловно)
+ENIG-RoHS = ENIG-RoHS (Позлатено)
+Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = Желаете ли да направите преглед на резултатите от Проверка на Правилата за Проектиране (ППП), преди генериране Гербер файловете?
+Yes, Check DRC = Да, провери ППП
+No, Generate Gerber = Не, Генериране на Гербери
+This PCB has uncompleted connection(s), do you want to check the connection(s)? = Тази платка има незавършени връзки, желаете ли да проверите връзките?
+Yes, Check Connection(s) = Да, проверяване на връзки
+It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = След това ще ви пренасочи към електронната страница на трета страна JLCPCB, с която работим съвместно. Готови ли сте?
+Failed to submit your order, please contact us via support@easyeda.com for help. = Неуспешно изпращане на поръчка, моля свържете се с нас, чрез support@easyeda.com за получаване на помощ.
+Failed to submit your order, please contact us via QQ 800821856. = Неуспешно изпращане на поръчка, моля свържете се с нас, чрез QQ 800821856.
+Order data generated finish, please click OK button and continue. = Генерирането на данни за поръчката приключи, моля кликнете върху бутона ОК за да продължите.
+[generateGerber]
+Layers = Слоеве
+[/generateGerber]
+
+[version]
+Switch = Превключване
+[/version]
+
+
+Export your file, then print it yourself. = Извлечете файлът и после го отпечатайте.
+Trace width is too small = Ширината на пистата е твърде малка
+Share = Споделяне
+
+Images Property = Свойства на изображението
+Connect Pad to Pad = Свързване на площадка с площадка
+Copper Area = Медна площ
+Dimension = Оразмеряване
+
+
+Please check that you have used Wire and not Line to connect electrical elements. = Моля проверете, че са използвани Проводници, а не Линии, за свързване на електрически елементи.
+PCB Fabrication Prices & capabilities = Цени и възможности за Производство на печатни платки
+Flip all texts on bottom layer = Преобръщане на всички текстове на долен слой
+Create New Document = Създаване на нов документ
+General Package = Корпус по подразбиране
+General Packages = Корпуси по подразбиране
+favorite Package = предпочитан корпус
+Board Cutout = Изрез в платка
+Surface Mount = Повърхностен монтаж
+JLCPCB Part Class = Клас компоненти JLCPCB
+base = основен
+expand = разширен
+recommend = препоръчан
+Basic Part = Обикновен компонент
+Extended Part = Разширен компонент
+Recommended Part = Препоръчан компонент
+smtWeld = SMT запояване
+thtWeld = Запояване на проходни изводи
+manualWeld = Ръчно запояване
+furnaceWeld = Запояване в пещ
+Multi-Layer = Многослойно
+Markdown Syntax = Синтаксис за маркиране
+Markdown supported = Поддръжка за маркиране
+Read only = Само за четене
+Read/Write = Четене/Запис
+More Libraries... = Още библиотеки...
+Decompress failed! = Разархивирането е неуспешно!
+Load failed! = Зареждането е неуспешно!
+Loading = Зареждане
+No Result = Няма резултат
+
+#Dialog Place Pin in schematic warning
+Place Pin in schematic warning = Поставяне на извод във веригата за предупреждение
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = Можете да поставите Извод в схема, но не забравяйте да групирате всички Изводи в компонент от схемата. Моля кликнете върху бутона за помощ за да научите как да ги групирате. Ако просто искате да маркирате проводник, моля използвайте ИзводВерига или ЕтикетВерига.
+I know. Do not show this again. = Известно ми е. Не показвай това повече.
+
+#Extensions Setting
+Extensions Setting = Настройки за Разширенията
+Remove = Премахване
+Disable = Изключване
+Enable = Включване
+(Disabled) = (Изключено)
+(Enabled) = (Включено)
+Load Extension = Зареждане на Разширение
+Enable or disable will be applied after reload page = Включването или Изключването ще бъде приложено след презареждане на страницата
+Your browser cannot run this function. = Вашият браузер не може да работи с тази функция.
+Your browser mode does not support indexedDB. Some features may not work properly. Are you using Private Browsing Mode? = Режимът на вашият браузер не поддържа indexedDB. Някои функции може да не работят правилно. Използвате ли режим на поверително сърфиране?
+Extension Files = Файлове на Разширението
+Extension ID = ID на Разширението
+Select Files = Избор на файлове
+
+#Scripts
+Script = Сценарий
+Scripts = Сценарии
+Script Content = Съдържание на сценарий
+Load from js file = Зареждане от js файл
+UTF-8 encoded js file = UTF-8 кодиран js файл
+Description = Описание
+description = описание
+Not a *.js file = Не е *.js файл
+Failed to read file = Неуспешно четене от файл
+System scripts cannot be modified = Системните сценарии не могат да бъде променяни
+Create Subfolder = Създаване на подпапка
+Create Script = Създаване на сценарий
+Install Script = Инсталиране на сценарий
+Install = Инсталация
+Desktop Client = Клиент за работен плот
+Are you sure you want to remove this script? = Сигурни ли сте, че желаете да премахнете този сценарий?
+Folder Name = Име на папка
+Rename = Преименуване
+Please select a script = Моля изберете сценарий
+Failed to load script = Неуспешно зареждане на сценарий
+Run Script = Стартиране на сценарий
+Load Script = Зареждане на сценарий
+Title is required = Необходимо е заглавие
+Script content is required = Необходимо е съдържание на сценария
+System Scripts = Системен сценарий
+User Scripts = Потребителски сценарий
+You can right click on the tree nodes. = Може да кликните с десен клавиш върху възлите на дървовидната структура.
+
+#PCB photoView toolbar
+Top Side = Горна страна
+Bottom Side = Долна страна
+With Silk Layer = Със слой ситопечат
+No Silk Layer = Без слой ситопечат
+Photo View = Изглед снимка
+
+#check update
+Check Update = Проверка за актуализация
+EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = EasyEDA редактор {ver} е налична. Желаете ли сега да преминете към новата версия?
+LCEDA Editor {ver} is released. Would you like to switch to the new version now? = LCEDA редактор {ver} е налична. Желаете ли сега да преминете към новата версия?
+Switch to New Version = Преминаване към Новата версия
+Next Time = Следващия път
+
+#download project dialog
+Generating download link... = Създаване на връзка за изтегляне
+Download project now = Изтегляне на проекта сега
+
+#Import DXF
+Import DXF = Вмъкване на DXF
+Apply Unit = Прилагане на единици
+Convert circle to HOLE on BoardOutLine layer = Преобразуване на кръг в Отвор в слой Очертание на платка
+No shapes found = Не са открити фигури
+Fail to load the file = Зареждането на файла е неуспешно
+Please select a DXF file. = Моля изберете DXF файл.
+This feature only works for PCB document. = Тази функция работи само за документ Печатна платка
+Select a DXF file = Избор на DXF файл
+
+#Export DXF
+Export DXF = Извличане на DXF
+Plated-Through-Hole Pads = Метализирани проходни площадки
+Non-Plated-Through-Hole Pads = Неметализирани проходни площадки
+Silkscreen = Ситопечат
+Surface Pad = Повърхностна площадка
+
+#Data Sync
+Data Sync = Синхронизация на данни
+Data Conflicts = Конфликти на данни
+Project or Document = Проект или Документ
+Cloud-Side = В облак
+Local-Side = Локално
+Decision = Решение
+Modified = Изменено
+Deleted = Изтрито
+As Cloud = Като облачно
+As Local = Като локално
+Skip = Пропускане
+Data sync completed = Синхронизацията на данни е завършена
+
+#Team
+Team = Екип
+Teams = Екипи
+Switching team = Смяна на екип
+Switch team failed = Неуспешна смяна на екип
+Load team info fail! = Неуспешно зареждане на информация за екип!
+Load team info fail! Please reload. = Неуспешно зареждане на информация за екип! Моля презеради.
+My Teams = Моят екип
+Create Team = Създаване на екип
+
+#Dialog Footprint Manager
+Footprint Manager = Управление на отпечатък
+Open Footprint Manager = Отваряне на управление за отпечатък
+Schematic Components = Схемни компоненти
+Edit Pin Map Information = Редактиране на информация за карта на изводи
+Package Categories = Категории на корпуси
+Components List = Списък с компоненти
+Personal = Лично
+Component PIN information = Информация за Извод на компонент
+Footprint PAD information = Информация за Площадка на отпечатък
+Footprint Categories = Категории на отпечатъци
+Pad Number = Номер на площадка
+Search Footprint = Търсене на отпечатък
+Select Footprint = Избор на отпечатък
+Search 3D Model = Търсене на 3D модел
+Select 3D Model = Избор на 3D модел
+Filter by keyword = Филтриране по ключова дума
+System Libs = Системни библиотеки
+
+#dialog global delete
+Drawings = Чертежи
+Netlabel and netFlag = ЕтикетВерига и МаркировкаВерига
+Texts = Текстове
+Wires = Проводници
+Board outlines = Очертания на платка
+Footprints = Отпечатъци
+Footprint = Отпечатък
+Tracks = Писти
+
+#dialog board outline settings
+Current Size = Текущ размер
+Paramenters = Параметри
+Start X: = Начало по X:
+Start Y: = Начало по Y:
+Round Rectangular = Заоблен правоъгълник
+radius = радиус
+only number is allowed! = само цифри са позволени!
+please input valid value of width! = моля въведете валидни входни стойности за ширина!
+please input valid value of height! = моля въведете валидни входни стойности за височина!
+please input valid value of radius! = моля въведете валидни входни стойности за радиус!
+
+#cross probe
+The object you selected was not found in other documents. = Обектът, който сте избрали, не е намерен в други документи.
+No valid object for cross probe selected. = Не е избран валиден обект за напречната сонда.
+Can not probe. Refreshing the window may get it to work. = Тестването не работи. Опитайте да опресните прозореца.
+You need to login for this function to work. = За да заработи тази функция е необходимо да се впишете.
+
+#About Dialog
+An Easier EDA Experience = По-лесен EDA начин за работа
+Version = Версия
+BuiltDate = Дата на компилация
+
+#Auto Router Dialog
+Auto Router Config = Настройка на Автоматично опроводяване
+General Options = Възможности по подразбиране
+All Layers = Всички слоеве
+Configure = Конфигуриране
+Sorry, your web browser does not support this feature. Please run a modern browser. = За съжаление вашият браузер не поддържа тази функция. Моля използвайте съвременен браузер.
+Please make sure all objects with net are inside the board outline! = Уверете се, че всички обекти, участващи във веригите, са в очертанията на платката!
+Cannot start again before previous activity is stopped = Не може да стартира повторно, преди предишната дейност да е приключила.
+Please select a net = Моля изберете верига
+TrackWidth cannot be empty = Ширината на пистата не може да бъде без стойност
+Clearance cannot be empty = Светлото разстояние не може да бъде без стойност
+Router is time out. = Времето за опроводяване е пресрочено.
+Server is busy, please try again later. = Сървърът е зает, моля опитайте по-късно.
+Due to the limitation of {0}router server{1} resources, multiple routers executing concurrently are not supported, please try again later or do it manually :-) = Поради ограничени ресурси на {0}сървъра за опроводяване{1}, изпълнението на множество опроводявания едновременно не се поддържа. Опитайте отново по-късно или го направете ръчно :-)
+Track Width is invalid = Ширината на пистата е невалидна
+General Clearance is invalid = Невалидно светлото разстояние по подразбиране
+SMD Clearance is invalid = Невалидно светлото разстояние по подразбиране между SMD
+Diameter is invalid = Невалиден диаметър
+Drill Diameter is invalid = Невалиден диаметър на свредло
+Track width cannot be less than Design Rule Checking (DRC) setting value. = Ширината на пистата не може да бъде по-малка от зададената в Проверка на Правилата за Проектиране (ППП).
+General Clearance cannot be less than Design Rule Checking (DRC) setting value. = Светлото разстояние по подразбиране не може да бъде по-малко от зададеното в Проверка на Правилата за Проектиране (ППП).
+SMD Clearance cannot be less than Design Rule Checking (DRC) setting value. = Светлото разстояние между SMD не може да бъде по-малко от зададеното в Проверка на Правилата за Проектиране (ППП).
+Hole size cannot be less than Design Rule Checking (DRC) setting value. = Размерът на отвора не може да бъде по-малък от зададения в Проверка на Правилата за Проектиране (ППП).
+Design Rule's via diameter must be larger than via drill diameter = Диаметърът на отвора в правилата за проектиране трябва да бъде по-голям от диаметъра на свредлото.
+Clearance cannot be less than Design Rule Checking (DRC) setting value. = Светлото разстояние не може да бъде по-малко от зададеното в Проверка на Правилата за Проектиране (ППП).
+Not a valid PCB, please check it again = Не е валидна печатна платка, моля проверете отново
+Previous connection must be closed = Предходната връзка трябва да бъде затворена
+Network error. Please try again. = Мрежова грешка. Моля опитайте отново.
+Router error. = Грешка при опроводяването.
+Invalid PCB. = Невалидна печатна платка.
+General Clearance = Светло разстояние по подразбиране
+SMD Clearance = SMD светло разстояние
+#Ripup Nets = Разкъсани вериги
+Skip Routed Nets = Пропускане на опроводените вериги
+Remove Existing Tracks = Премахване на съществуващите писти
+Real-time Display = Показване в реално време
+Router Layers = Слой за опроводяване
+Via = Проходник
+Special = Специален
+Special Nets = Специални вериги
+Skip Nets = Пропускане на вериги
+Router Server = Сървър за опроводяване
+Local = Локално
+Cloud = Облак
+Available = Достъпно
+Unavailable = Недостъпно
+Checking = Проверяване
+Install Local Auto Router = Инсталиране на локалено автоматично опроводяване
+Checking local auto router server... = Проверяване на локален сървър за автоматично опроводяване...
+Stop Router = Спиране на опроводяване
+Auto Router is running... = Автоматичното опроводяване е стартирано...
+
+#Left Siderbar
+Commonly Library = Обща библиотека
+Basic = Основен
+Extend = Разширен
+Design Manager = Управление на проект
+Library = Библиотека
+Spice Library = Spice библиотека
+Shared = Споделен
+LCSC =
+LCSC Parts = Компоненти LCSC
+Supply Flag = Маркировка за доставка
+US = САЩ
+EU/IEC = ЕС/IEC
+US Style = Американски стил
+Resistor = Резистор
+Capacitor = Кондензатор
+Inductor = Индоктивност
+Switch/Key = Превключвател/бутон
+EU/IEC Style = Европейски стил (IEC)
+CN = Китай
+Connector = Куплунг
+Switch/Relay = Превключвател/Реле
+JLCPCB =
+Recycle Bin = Кошче
+
+#Protractor
+Font Height = Височина на шрифта
+Precision = Точност
+Protractor = Транспортир
+
+#attr-pcbtext-line-width
+Only default font family supports to change font width. = Само семейството шрифтове по подразбиране поддържа промяна на ширината на шрифта.
+Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = Шрифтът липсва! Може да потвърдите и да използвате шрифта по подразбиране или да откажете, да качите ваш шрифт и да опитате отново.
+
+#Common
+Owner = Притежател
+License = Лиценз
+Part Pins = Изводи на компонент
+Part Properties = Свойства на компонент
+Net Pins = Вириги на изводи
+Net Ratlines = Свързващи линии на верига
+Add Parameter = Добавяне на параметър
+Histories record = Исторически записи
+Create Team = Създаване на екип
+Can't find this footprint on the server, please re-associate it. = Този отпечатък не е намерен на сървъра, моля асоциирайте го повторно.
+The footprint name associated with the component and the footprint name on the server are inconsistent, please re-associate it. = Името на отпечатъка асоциирано с компонента и името на отпечатъка на сървъра не съвпадат, моля асоциирайте го повторно.
+The symbol pin number(s) of the component does not match the associated footprint pad number(s), please modify the symbol pin number(s) or re-associate the footprint = Номерът(ата) на извода(ите) на компонентния символ не съвпада(т) с номера(та) на площадката(ите) на асоциирания отпечатък, моля променете номера(та) на символа или асоциирайте повторно отпечатъка
+No footprint, please associate the footprint first. = Липсва отпечатък, моля първо асоциирайте отпечатъка.
+Can't find the package = Не може да бъде открит корпус
+The path is for the project URL identify, it is unique (the identity of the project owned by the user cannot be the same) = Пътят е за идентифициране на URL адреса на проекта, той е уникален (идентификацията на проекта, притежавана от потребителя, не може да съвпада)
+It's with a letter or a number and can contain only numbers, letters, line-through, underscores, and points. It cannot be modified after saving. = Състои се от буква или цифра и може да съдържа само цифри, букви, зачертани символи, долни черти и точки. Не може да се променя след запазване.
+Updating document to new format, please wait......After finishing please save your document with Ctrl + S. = Актуализация на документа към нов формат, моля изчакайте... След приключване, моля запишете документа с Ctrl+S.
+Open at current project? = Отваряне в текущия проект?
+Please select a history to recover. = Моля изберете исторически запис за възстановяване.
+Be careful! When you click the "Recover" button, this sheet will be overwritten! = Внимание! При кликване върху бутонът "Възстановяване", този лист ще бъде презаписан!
+Recover = Възстановяване
+There is no PCB under this project, would you like to create one? = Няма печатна платка в този проект, желаете ли да създадете такава?
+Please make sure that the chose Altium Designer files are saved as ASCII files. = Моля уверете се, че избраните файлове на Altium Designer са записани с ASCII кодиране.
+Export to Altium function is currently in beta: = Функцията за извличане в Altium все още е бета версия:
+1. Please be sure to read the notice before exporting: = 1. Моля уверете се, че сте прочели уведомлението:
+Export Altium notice and disclaimer = Уведомление и отказ за отговорност, при извличане във формат Altium
+2. Please be sure to check again after export! = 2. Моля уверете се, че ще проверите отново, след извличане!
+I have read and agree = Прочетох и съм съгласен
+Export to Altium = Извличане в Altium
+Please make sure that the chose Eagle files are saved in Eagle v6.0 and above. = Моля уверете се, че избраните Eagle файлове са записани с Eagle v6.0 или по-нова.
+Please make sure that the Kicad files were compressed as the .zip file. = Моля уверете се, че Kicad файловете са архивирани като .zip файлове.
+Open Altium Designer file = Отваряне на Altium Designer файл
+The more information please refer at : = За повече информация се обърнете към:
+Please use Gerber file instead of exporting Altium if you are going to do PCB manufacturing. All PCB factories support the Gerber file. Is it ok to Generate the Gerber file? = Моля използвайте Гербер файл, вместо извлечение Altium, ако планирате производство на печатна платка. Всички производители на печатни платки поддържат Гербер файлове. Създаване на Гербер файл?
+Yes, Generate Gerber = Да, създай Геребер
+No, Export Altium = Не, извлечи Altium
+Open Eagle file = Отваряне на Eagle файл
+Open Kicad file = Отваряне на Kicad файл
+Select file(s) = Избор на файл(ове)
+Append to current project? = Добавяне в текущия проект?
+Append = Добавяне
+Open as new project = Отваряне като нов проект
+Tip: Press {0}SPACE{1} or {2}R{3} to rotate the placing object or selected object. = Съвет: Натиснете {0}SPACE{1} или {2}R{3} за завъртане на поставения или избрания обект.
+Hotkeys Setting = Настройки за бързи клавиши
+I know. Don't show this again. = Известно ми е. Не показвай това повече.
+Manufacturer Part Number can not be less than 2 characters. = Производственият код на компонента не може за съдържа по-малко от 2 символа.
+This prefix was changed to non-subpart format. = Представката е променена във формат без подкомпоненти.
+Save as New Project = Запис като Нов проект
+Save to Existing Project = Запис в Съществуващ проект
+Sheet Setting = Настройки на листа
+Sheet Size = Размер на листа
+Pre =
+pre =
+Invalid Data = Невалидна дата
+Others = Други
+You are not authorized to share this project. = Нямате права за да споделите този проект.
+This project is private: if you continue sharing it will be made public. = Този проект е личен, ако продължите споделянето, ще го направите обществен.
+Modify file info = Промяна на информацията за файла
+Please input search keyword = Моля въведете ключова дума за търсене
+Sort Projects by = Подреждане на проекти по
+Date Created = Дата на създаване
+Date Modified = Дата на промяна
+Title = Заглавие
+Ascending = Възходящ
+Descending = Нисходящ
+Pin to Top = Задайте като водещ
+Unpin from Top = Премахнете като водещ
+Collapse / Expand = Събиране / Разпъване
+Expand = Разширяване
+Expand All = Разширяване на Всичко
+Collapse = Събиране
+Collapse All = Събиране на Всичко
+Your file hasn't been saved, do you want to save it? = Вашият файл не е зарисван, Желаете ли да го запишете?
+Don't Save = Не записвай
+Library Owner: = Притежател на библиотеката:
+verifyPkg.Value =
+State = Статус
+Please select! = Моля изберете!
+Route = Опроводяване
+Import successfully: = Вмъкването е успешно:
+Import failed: = Вмъкването е неуспешно:
+Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Файловата пътека съдържа само 'a-z、A-Z、- 、 _ 、0-9'! 
+Path must begin as 'a-z、A-Z、0-9'! = Файловата пътека трябва да започва с 'a-z、A-Z、0-9'!
+The path length must be between 4~128 characters! = Файловата пътека трябва да бъде между 4 и 128 символа!
+The title length must be between 2 ~ 128 characters. = Заглавието трябва да бъде между 2 и 128 символа.
+Please select an owner = Моля изберете притежател
+Please select obj, wrl or zip file. = Моля изберете файл тип obj, wrl или zip.
+Do you want to delete this file? = Желаете ли да изтриете този файл?
+Add sub part success = Добавянето на подкомпонент е успешно
+Please input name and prefix! = Моля въведете име и представка!
+Board outlines are not closed = Очертанията на платката не са затворени
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Неуспешно вмъкване! Вмъкнатите файлове не са в ASCII формат, първо запазете файловете като "Advanced Schematic ascii (*.SchDoc)" или "PCB ASCII File (*.PcbDoc)" в Altium Designer и след това ги вмъкнете.
+The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = Изводи "{0}" не са прилепени към мрежовите точки! Този компонент може да причини някои грешки в схемата.
+Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} = Неуспешен запис! Не е допустимо да се повтаря номер на извод! Следният номер на извод се повтаря: {0}
+Check Pin = Проверка на извод
+Failed to read {0} = Неуспешно прочитане на {0}
+{0} is invalid = {0} е невалиден
+{0} not found = {0} не е намерен
+Failed to execute script: = Неуспешно изпълнение на сценарий:
+One or more js files not found = Един или повече js файлове не са открити
+Only ONE {0} file is required = Само Един {0} файл е необходим
+Extension ID is required = Изисква се ID на Разширението
+Extension ID is invalid = Невалидно ID на Разширението
+Extension ID is duplicated = Дублирано ID на Разширението
+No Result! = Няма резултат!
+Load Error = Грешка при зареждане
+loading = зареждане
+Failed to load spice data = Неуспешно зареждане на spice данните
+Netlist = Списък с вериги
+Tags = Етикет
+Pin Information: = Информация за извод:
+Format incorrect, please check for the extra spaces or commas! = Форматът е некоректен, моля проверете за допълнителни интервали или запетаи!
+Round Radius = Радиус на кръг
+Keyword: = Ключова дума:
+Image = Изображение
+Image copied. = Изображението е копирано.
+Copy failed. = Копирането е неуспешно.
+Copy success. = Копирането е успешно.
+Image Property = Свойства на изображение
+Locked = Заключени
+Unlock All = Отключване на Всичко
+Unlock = Отключване
+Lock = Заключване
+Please input pin name and pin number! = Моля въведете име и номер на извод!
+Left-Hand Panel = Ляв панел
+Right-Hand Panel = Десен панел
+Update Components from Library = Актуализация на компонент от библиотеката
+The pin number(s) can't find the same pad number(s) = Не са намерени номера на изводи, съвпадащи с номерата на изводи на площадките.
+Designator = Обозначение
+Replace = Подмяна
+Update failed = Актуализацията е неуспешна
+Successfully updated = Успешна актуализация
+Update failed! = Актуализацията е неуспешна!
+Successfully updated! = Успешна актуализация!
+Successfully updated {0} component(s)! = Успешна актуализация на {0} компоненти!
+Change = Промяна
+Check Footprints = Проверка на отпечатъци
+Network Error! = Мрежова Грешка!
+Find Similar Objects = Откриване на подобни Обекти
+Current Sheet = Текущ лист
+All Sheets = Всички листове
+Kind = Тип
+Range = Обхват
+Net Label/Net Flag/Net Port/Voltage Probe = Етикет на верига/Маркировка на Верига/Извод на верига/Напреженова сонда
+Bezier/Freehand Draw = Безие/Свободно изчертаване
+Arc/Pie = Дъга/Пай
+Objects Properties = Свойства на Обекти
+Any = Всеки
+Same = Същия
+Different = Различен
+Circular = Кръгъл
+Expose Copper = Открита мед
+"{0}" font is missing. Please add the font to the font family list. = Шрифт "{0}" липсва. Моля добавете шрифта към списъка с шрифтове.
+Place Component = Поставяне на компонент
+Delete Segment = Изтриване на сегмент
+Angle = Ъгъл
+Board Thickness = Дебелина на платката
+Layer Distance = Разстояние между слоевете
+Silk Screen = Ситопечат
+Surface Finish Color = Цвят на покритието
+Colors = Цветове
+Board Color = Цвят на платката
+Board Side = Страна на платката
+Silk Screen = Ситопечат
+Silk Screen Color = Цвят на Ситопечата
+Display = Екран
+
+#Array and Clone
+Distribute Array = Разпределяне на масив
+Array Type = Тип на масив
+Matrix Array = Матричен масив
+Circular Array = Кръгов масив
+Item Rotation = Завъртане на обект
+Location = Позиция
+Items per Column = Обекти в колона
+Items per Row = Обекти на ред
+#Column Spacing = #Отстояние колони
+#Row Spacing = #Отстояние редове
+Spacing(Degrees) = Отстояние(градуси)
+Start Degree = Начален градус
+Rotate Item to Match = Завъртане на обект за съвпадение
+Clockwise = По часовата стрелка
+Anti-Clockwise = Срещу часовата стрелка
+Distribute by = Разпределяне по
+Column = Колона
+Row = Ред
+Array Clone = Клониране на масив
+Number of Rows = Брой редове
+Number of Columns = Брой колони
+Number of Copies = Брой копия
+Distribute Range(Degrees) = Обхват на разпределяне(градуси)
+
+#Theme color dialog
+BusEntry = ВходШина
+Foreground = Фон
+Common Used = Често използвани
+Original Theme = Оригинална тема
+Theme Setting = Настройка на тема
+Change the theme colors of your design = Промяна на цветовете на темата във вашия проект
+White on Black = Бяло на черен фон
+Black on White = Черно на бял фон
+Custom Theme = Персонализирана тема
+Color Setting = Настройка на цветове
+Apply Setting = Прилагане на настройки
+Theme Setting... = Настройки на тема...
+Bus Entry = Вход Шина
+Foreground = Фон
+Symbol Graphics = Графичен символ
+Common Used = Често използвани
+Draw = Начертай
+Sheet = Лист
+The original theme only works for placing the new symbols. = Оригиналната тема работи само за поставяне на новите символи.
+Selection Highlight = Осветяване на избраното
+Net Label / Port = Етикет на верига / извод
+
+My Theme = Моята тема
+My Theme Settings = Настройки на моята тема
+Apply 'Custom Theme' On = Приложете включване на 'Персонализирана тема'
+Creating New Schematic = Създаване на нова схема
+Opening Existed Schematic = Отваряне на съществуваща схема
+Please fill in all parameters! = Моля попълнете всички параметри!
+Convert to Board Cutout = Преобразуване в Изрез в платката
+Prefix Position = Позиция на представка
+Name Position = Позиция на наименованието
+Center = Център
+Top = Отгоре
+Bottom = Отдолу
+Left = Отляво
+Right = Отдясно
+Does not support multiple objects to convert to Board Cutout at the same time = Не се поддържа Преобразуване в Изрез в платката на няколко обекта едновременно
+Does not support multiple objects to convert to pad at the same time = Не се поддържа Преобразуване в площадка на няколко обекта едновременно
+Convert to Board Cutout = Преобразуване в Изрез в платката
+Convert to Pad = Преобразуване в площадка
+Convert to Component Shape = Преобразуване във форма на компонент
+Combine to Continuous Track = Комбиниране цяла писта
+Convert to Solid Region = Преобразуване в плътен регион
+Substrate = Подложка
+3D View = 3D изглед
+2D View = 2D изглед
+Pin Color = Цвят на извода
+Name Color = Цвят на наименованието
+Number Color = Цвят на номера
+Dot = Точка
+
+[theme]
+Sheet = Лист
+[/theme]
+
+
+#history dialog
+[history-dlg]
+Number = Номер
+Editor = Редактор
+[/history-dlg]
+View File History = Преглед на файловата история
+Save Time = Врезе на запазване
+
+Invalid Format = Невалиден формат
+
+#Dialog Teardrop
+Round Pad / Via = Кръгла площадка / Проходник
+Rectangle / Oval / Polygon Pad = Правоъгълна / Овална / Многоъгълна Площадка
+Applying Teardrops = Прилагане на Капка
+Removing Teardrops = Премахване на Капка
+Waiting = Изчакване
+Progressing... = Напредване...
+
+No schematic in the project! = Липсва схема в проекта!
+
+Move Forward = Придвижване Напред
+Move Backward = Придвижване Назад
+
+#Dialog Panelize
+V-CUT = Скрайбиране
+Stamp Hole = Отвори за депанелизация
+No Panelize = Без панелизация
+Border and Marking = Рамка и Маркировка
+Create Border = Създаване на Рамка
+Border Height = Височина на Рамка
+Border Position = Позиция на Рамка
+Create Positioning Holes = Създаване на отвори за позициониране
+Create Fiducial Marks = Създаване на Фидюшелни маркировки
+Top and Bottom = Отгоре и Отдолу
+Left and Right = Отляво и Отдясно
+Stamp Hole Group - Column = Група отвори за панелизация - Колона
+Stamp Hole Group - Row = Column = Група отвори за панелизация - Ред
+The number of rows and columns cannot be set to 1 simultaneously = Броят на редовете и колоните не може да бъде зададен 1 едновременно
+
+#edit path point
+[editPathPoints-dlg]
+Arc(R) = Дъга (R)
+Type = Тип
+Action = Действие
+add before = добавяне преди
+add after = добавяне след
+delete = изтриване
+[/editPathPoints-dlg]
+
+#edit polygon point
+[editPolygonPoints-dlg]
+Action = Действие
+add before = добавяне преди
+add after = добавяне след
+delete = изтриване
+[/editPolygonPoints-dlg]
+You have unconfirmed edit! = Отменихте редакцията!
+Invalid edit! = Невалидна редакция!
+
+#Dialog PCB Information
+PCB Information... = Информация за печатна платка...
+Signal Layers = Сигнални слоеве
+None Signal Layers = Нито един от сигналните слоеве
+Pads = Площадки
+Surface Pads = Повърхностни площадки
+Plated Through-hole Pads = Проходни площадки с метализация
+None Plated Through-hole Pads = Проходни площадки без метализация
+Holes = Отвори
+Vias = Проходници
+Length of Tracks = Дължина на пътечки
+Copper Areas = Медна площ
+
+#Differential Pair Routing
+Differential Pair Routing = Опроводяване на диференциална двойка
+Differential Pair Rule Setting = Настройка за правило при диференциална двойка
+Please input track width = Моля въведете широчина на пистата
+Please input clearance = Моля въведете светло разстояние
+Routing Rules = Правила за опроводяване
+
+#Route Length Tuning
+Track Length Tuning... = Настройка за дължина на писта
+Tracks with different net or non-track found in current targets. = Писти от различни вериги или не са открити писти в текущите цели.
+Please select the signal tracks to be tuning. = Моля изберете сигналните писти, които да бъдат настроени.
+The total length exceeds the Design Rule Checking (DRC) constraint, continue ? = Цялата дължина надвишава заложените в Проверката на Правилата за Проектиране (ППП) граници, Продължаване?
+45° Angle = Ъгъл 45°
+90° Angle = Ъгъл 90°
+DRC Track Length : = ППП дължина на пистата
+Current Length : = Текуща дължина:
+Additional Length : = Допълнителна дължина:
+Target Length: = Целева дължина:
+Current Length: = Текуща дължина:
+Adjust Type = Настройка на тип
+Double Side = Двустранна
+Single Side = Едностранна
+
+can not connect to the server = не може да се свърже със сървъра
+
+#Dialog Copper Area Manager
+Copper Area Manager... = Управление на медна площ...
+Copper Area Manager = Управление на медна площ
+Order = Подредба
+Name = Име
+Layer = Слой
+Color = Цвят
+Net = Верига
+Move Up = Преместване нагоре
+Move Down = Преместване надолу
+Apply = Приложи
+Cancel = Отказ
+Copper Area do not allow self-intersection! = Не се допуска самопресичане на медната площ!
+No copper area! = Липсва медна площ!
+#Dialog report error
+Datasheet = Спецификация
+Verification = Проверяване
+Symbol = Символ
+Pad Number = Номер на извод
+Pad Size = Размер на площадка
+Remark = Забележка
+Correct = Коректно
+Incorrect = Некоректно
+Submit = Изпращане
+Tip = Съвет
+Please select one component = Моля изберете един компонент
+Location X = Позиция по X
+Location Y = Позиция по Y
+Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. =
+EasyEDA Client = EasyEDA потребител
+LCEDA Client = LCEDA потребител
+Chrome =
+FireFox =
+New Version = Нова версия
+Switch Version = Превключване на версия
+Members = Членове
+Update Time = Интервал за обновяване
+Editor = Редактор
+Current Version = Текуща версия
+Latest Version = Последна версия
+Please select a different version to switch; If you want to edit different version in the same time, please open them in different browsers. = Моля изберете друга версия за да превключите на нея; Ако желаете да редактирате и друга версия, моля отворете я в отделен браузер.
+3D Model = Триизмерен модел
+Board Side = Страна на платката
+Display = Дисплей
+Copper = Мед
+Create New Version = Създаване на нова версия
+Create new version success! = Създаването на новата версия е успешно!
+Version Management = Управление на версии
+Switch success! = Превключването е успешно!
+Please close current version's documents first! = Моля първо затворете текущата версия на документа!
+Creator = Създател
+Create Time = Дата на създаване
+Fail to connect to server! Please check your internet connection status and try again! = Свързването към сървъра е неуспешно! Моля проверете статуса на вашата интернет връзка и опитайте отново!
+Spice Number = Spice Номер
+Create = Създаване
+3D Outline = 3D Очертания
+Cannot create the slot hole via the board outline, please use the following methods: = Не може да се създаде овален отвор по очертанието на платката, моля използвайте някой от следните методи:
+Use the solid region and set its type as Board Cutout = Използвайте плътен регион и го задайте като Изрез в платката
+Select a Track/Arc, right-click to use the "Convert to Board Cutout" = Изберете Писта / Дъга, десен-клик за да използвате "Преобразуване в Изрез в платката"
+Select all the closed Tracks/Arcs, right-click to use the "Convert to Board Cutout" = Изберете всички най-близки  Писти /Дъги, десен-клик за да използвате "Преобразуване в Изрез в платката"
+The more information please refer at = За повече информация се обърнете към
+Save "{0}" success! = Запис "{0}" е успешен!
+Save "{0}" failed! = Запис "{0}" е неуспешен!
+Invalid Size = Невалиден размер
+Processing = Обработка
+Invalid Size = Невалиден Размер
+NetFlag GND = МаркировкаВерига GND
+NetFlag VCC = МаркировкаВерига VCC
+NetFlag +5v = МаркировкаВерига +5V
+No Useful Data! = Няма Полезни Данни!
+SVG Preview = SVG Преглед
+Prefix contains not supported charater(s) ! = Представката съдържа неподдържани символи
+Name contains not supported charater(s) ! = Името съдържа неподдържани символи
+Create Grid Path =
+Please Input Name = Моля въведете име
+Building Copper Area = Изграждане на медна площ
+Processing = Обработване
+Opening File = Отваряне на Файл
+Update from Library = Актуализиране на Библиотека
+Update Footprint = Актуализиране на Отпечатък
+Update 3D Model = Актуализиране на 3D Модел
+Find footprint(s) have been updated, do you want to update? = Открити са отпечатъци с актуализация, желаете ли да ги актуализирате?
+3D File: = 3D Файл
+Model List = Списък с Модели
+Are you sure merge net {0} and net {1}? = Сигурни ли сте, че желаете да свържете верига {0} с верига {1}?
+Display Footprint = Изобразяване на Отпечатък
+Display Footprint Name While Placing Component = Показване Името на Отпечатъка, при поставяне на Компонент
+Annotate Prefix Automatically After Placing Component = Добавяне на бележка към представката, автоматично след поставяне на компонента
+Program Error, Please Contact Technical Support! = Програмна грешка, моля свържете се с техническата поддръжка!
+Search Engine = Метод за търсене
+Keyword to Filter = Ключова дума за филтриране
+Normal Mode = Нормален режим
+Expand Mode = Разширен режим
+3D Model Manager = Управление на 3D Модел
+3D Model Preview = Преглед на 3D Модел
+3D Model = 3D Модел
+3DModel = 3DМодел
+Document = Документ
+
+[pcblayer]
+3DModel = 3DМодел
+Document = Документ
+[/pcblayer]
+
+Adjustment = Настройка
+View Larger Image = Преглед на По-голямо изображение
+Previous = Предишен
+Previous Image = Предишно Изображение
+Next Image = Следващо Изображение
+Notice: For reference only, please refer to the real product = Забележка: Само за пример, моля обърнете се към истинския продукт
+It's under designing, please wait. = Все още е в процес на разработка, моля изчакайте.
+The width of track/arc/circle cannot be less than 0.1mil! = Ширината на пистата/дъгата/кръгът не могат да бъдат по-малки от 0.1mil
+Clone success ! = Клонирането е успешно!
+Footprint Naming Reference = Пример за наименование на Отпечатък
+3D Model Manager = Управление на 3D Модел
+Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve the information and share. Whether to continue? = Прехвърляне към Lichuang хардуерна платформа с отворен код (OSHWHub.com) за подобряване на информацията и споделяне. Ще продължите ли?
+Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? = Прехвърляне към EasyEDA хардуерна платформа с отворен код (OSHWHub.com) за подобряване на информацията и споделяне. Ще продължите ли?
+The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. = Страницата със съдържанието на този проект няма да се отвори. След добавяне на задаване на проекта като обществен, може да кликнете върху бутона за споделяне и да получите линк за споделяне.
+This project is not public, can not view homepage! = Този проект не е обществен, няма достъп до началната страница!
+
+[grid]
+None = Нито едно
+[/grid]
+
+#lib verify and mounted
+This component is verified = Този компонент е проверен
+This component is unmounted = Този компонент не е установен
+
+#find component
+Find Next = Откриване на Следващ
+Pin not found = Изводът не е открит
+Pad not found = Подложката не е открита
+Object not found = Обектът не е открит
+
+#offset Elements
+Offset X = Отместване по X
+Offset Y = Отместване по Y
+Offset = Отместване
+Absolute Offset = Абсолютно Отместване
+Relative Offset = Относително Отместване
+Absolute Offset... = Абсолютно Отместване...
+Relative Offset... = Относително Отместване...
+Reference Point X = Отправна точка по X
+Reference Point Y = Отправна точка по Y
+
+#Inner Plane layer
+Rebuild Plane = Пресъздаване на равнина
+PlaneZone Properties = Свойства на РавниннаЗона
+Change to a plane layer is not allowed during track routing. = Прехвърлянето в равнинния слой не е позволено по време на опроводяването на пътечките
+#pcblib rect
+Fill = Запълване
+Fill Type = Тип на Запълване
+[PlaneZone]
+Solid = Плътно
+[/PlaneZone]
+
+Solid Region do not allow self-intersection! = Не се допуска Плътният Регион да пресича сам себе си!
+
+The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. = Представката или името, или текстът е твърде отдалечен от отпечатъкът, ако желаете да не се вижда, моля скрийте го.
+The prefixes are not allowed to repeat! = Не е позволено да се повтарят представките!
+Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = Записът е неуспешен! Началото на чертожното поле не е в рамките на чертежа! Да бъде ли зададено начало автоматично?
+The origin of the canvas has been set in the graphics now, you can save again. = Началото на чертожното поле е зададено в чертежа, можете да запишете отново.
+Backup Project = Архивиране на Проект
+Open Project Directory = Отваряне на Папка на Проекта
+
+{0} items updated = {0} позиции са актуализирани
+
+The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. = Текущият файл {0} има обновена версия. Желаете ли да я презапишете? Ако желаете да отворите най-новата версия, моля затворете текущия файл и го отворете повторно.
+Yes, Overwrite It = Да, Презапиши го
+No, Keep It = Да, Запази го
+
+Download Client = Изтегляне на потребител
+
+Search tutorial、open source projects etc. = Търсене на упътване, проект с отворен код и др.
+
+Go to LCSC and search for = Отидете в LCSC и търсете за
+Go to LCSC = Отидете в LCSC
+
+Hide Ratline Layer and Keep the Component Prefix When Paste Objects = Скриване на свързваща линия и запазване на представката, при поставяне на обекти.
+
+ALL.layer = Всички Слоеве
+Copper.layer = Меден слой
+Non-Copper.layer = Слой без мед
+Other.layer = Друг слой
+
+Please enter at least 2 characters! = Моля въведете поне 2 символа!
+View Datasheet = Преглед на Спецификация
+View Datasheet... = Преглед на Спецификация...
+
+The corresponding package or network could not be found in the currently open PCB document = Съответният пакет или мрежа не могат да бъдат открити в текущо отвореният документ за платка
+delete fail = изтриването е неуспешно
+
+[crashRecovery]
+Libraries = Библиотеки
+[/crashRecovery]
+Canvas origin anomaly! = Аномалия при началото на чертожното поле!
+
+Component's Name = Име на компонента
+Component's Prefix = Представка на компонента
+Component's Footprint = Отпечатък на компонента
+
+[findlib]
+Clear = Изчистване
+Apply Filters = Прилагане на филтрите
+Result = Резултат
+Place = Поставяне
+Prev = Предишен
+Next = Следващ
+Total {count} Count = Общо {count} броя
+About = Относно
+Items = Позиции
+[/findlib]
+
+Object = Обект
+Layers and Objects = Слоеве и обекти
+All = Всички
+
+Add custom = Добавяне на Персонален
+
+Connections = Връзки
+Attempted: = Опити:
+Completed: = Завършени:
+Failed: = Неуспешни:
+Total Vias: = Общо проходници:
+
+Please confirm moving option = Моля потвърдете възможност за преместване
+Only this pad = Само тази площадка
+For this component = За този компонент
+View Owner = Преглед на притежател
+View Detail = Преглед на детайли
+
+
+#place batch vias
+Place Vias = Постави проходник
+Placing Vias = Поставяне на проходник
+Removing Vias = Премахване на проходник
+Batch Vias for Copper = Пакет профодни отвори за меден слой
+Add/Remove Vias = Добавяне/Премахване на проходник
+Diameter = Диаметър
+Drill Diameter = Диаметър на свредло
+Column Spacing = Стъпка на колоните
+Row Spacing = Стъпка на редовете
+Multiple vias have been placed, do you want to rebuild the copper area? = Множество проходници бяха поставени, желаете ли да пресъздадете медната площ?
+Remove vias finish, do you want to rebuild the copper area? = Премахнато е покритието на проходника, желаете ли да пресъздадете медната площ?
+The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = Ширината на пистата/дъгата/кръга не могат да бъдат под 0,051mm/2mil/0,002inch!
+Save fail! Please try again! = Записът е неуспешен! Моля опитайте отново!
+Please select a copper outline = Моля изберене очертанията на медта.
+Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Не могат да бъдат открити медни площи в другите слоеве, моля първо добавете медни площи, от същата верига, в другите слоеве.
+
+Add favorite success! = Добавянето към любими е успешно!
+Remove favorite success! = Премахването от любими е успешно!
+Remove favorite failed! = Премахването от любими е неуспешно!
+Whether if remove favorite? = Дали да бъде премахнато от любими?
+Split by ';' for multi tags = Разделяйте чрез ';' при допълнителни етикети
+
+This size is the determined size! = Този размер е определения размер!
+The associated pad has been locked = Асоциираната площадка е заклучена
+Split by space or , for multi tags = Разделянето на множество етеките с "интервал" или ","
+
+Rotation X = Завъртане по X
+Rotation Y = Завъртане по Y
+Rotation Z = Завъртане по Z
+
+Some fields are filled invalid data = Някои полета са запълнени с невалидни данни
+start time should be earlier than stop time = началното време трябва да бъде преди крайното време
+Number of points should be less than 100 in octave variation = Броят на точките трябва да е по-малко от 100, при октавен вариант
+Start frequency should be less than stop frequency. The suffix meg stands for Mega,m stands for milli = Стартовата честота трябва да бъде по-малка от крайната честота. Надставка "meg" означава Mega, а "m" означава mili.
+Get historical records fail! = Неуспешно четене на историята на записване!
+This 3D model didn't create the outlines successfully, please import it again or contact with us. = Този 3D модел не създаде очертанията успешно, моля вмъкнете го отново или се свържете с нас.
+There is No Tag! = Липсва етикет!
+Assign successful! = Подравняването е успешно!
+Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = Открито е несъответствие между номер на извод на отпечатък и номер на извод на компонент от схемата, Моля корегирайте номера на извода и опитайте отново!
+Update Property = Актуализиране на свойство
+Update Properties = Актуализиране на свойства
+Please fill in at least 5 words. = Моля попълнете поне 5 думи.
+Mouse hovering over the track to highlight the entire network = Поставете курсура на мишката върху някоя писта за да осветите цялата мрежа
+Net Highlighting While Cursor Hover the Track = Осветяване на верига, докато курсорът е върху писта
+When circle set as "Yes", the Pin length must be more than 6 = Когато кръгът е поставен на "Да", дължината на изводите трябва да бъде повече от 6
+Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! =
+
+Logout fail! Please try again! = Излизането е неуспешно! Моля опитайте отново.
+Logout success! We look forward you to use LCEDA again! = Излязохте успешно! Очакваме да използвате отново LCEDA!
+Logout success! We look forward you to use EasyEDA again! = Излязохте успешно! Очакваме да използвате отново EasyEDA!
+Click to Preview 3D = Кликнете за 3D изглед
+[logoutDialog]
+Logout = Изход
+[/logoutDialog]
+
+[findlibTag]
+All = Всички
+[/findlibTag]
+
+Export Pick and Place File = Извличане на Pick and Place
+Mirror the bottom component's X coordinate (JLCPCB doesn't need) = Обръщане огледално на координата X на долните компоненти (за JLCPCB не е необходимо)
+Work Space = Работно пространство
+Include panelized components' coordinates = Включване на координатите на компоненти от панелизацията
+Personal Workspace = Лично работно пространство
+Work Space - {name} = Работно пространство - {name}
+Work Space - Personal = Работно пространство - Лично
+Cloning = Клониране
+
+Project Owner = Водещ проектант
+Clone Project = Клониране на проект
+Homepage = Начална страница
+Apply for Education Edition = Кандидатствай за учебна версия
+Load Organization failed = Провалено зареждане на организацията
+Joined = Присъединен
+Favorite = Любими
+This operation will unfavorite this project, do you want to continue? = Това действие ще премахне проектът от любими, желаете ли да продължите?
+View Homepage = Вижте началната страница
+Private Project = Лични проекти
+3-7 days = 3-7 дни
+Close Tab = Затваряне на раздел
+Close Other Tabs = Затваряне на други раздели
+Close All Tabs = Затваряне на всички раздели
+Open in New Window = Отваряне в нов прозорец
+Cursor Snap to Component's Origin or Pad Center While Dragging Component =
+Undefined = Недефиниран
+Input = Въвеждане
+Model Unit = Мерна единица на модела
+File Unit = Мерна единица на файла
+This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? = Този част съдържа подчасти, моля уверете се, че сте проверили другите подчасти, преди да съобщите за грешка, желаете ли да продължите?
+
+[saveAs]
+Power = Мощност
+[/saveAs]
+
+Assign LCSC Part# = Задаване номер на компонент LCSC
+Unexpected error while converting. Perhaps unsupported file type or program bug. = Неочаквана грежка, при преобразуването. Вероятно неподдържан файлов формат или грешка в програмата.
+Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = Открити са дублирани ИД на компоненти, моля натиснете ОК за автоматично задаване на идентификатори, след това запишете документа и опитайте отново.
+
+#electromagneticSimulation
+Electromagnetic Simulation... = Електромагнитна симулация...
+You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = Ще прикачите Гербер към SuperEM за електромагнитна симулация (само прикачване на Гербер, без данни за акаунт), желаете ли да продължите?
+SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM е 3-D електромагнитен симулатор и платформа за проектиране на високоскоростни вериги и антени, който е разработен от Faraday Dynamics, Ltd.
+Visit the SuperEM = Посетете SuperEM
+SuperEM User Guide = SuperEM Потребителско ръководство
+Upload Gerber to SuperEM successfully, please click "OK" buttun to continue =
+
+Format = Форматиране
+View = Изглед
+Design = Проект
+Simulation = Симулация
+Advanced = Разширени
+Fabrication = Производство
+Check DRC = Проверка на ППП
+Simulation Setting = Настройки за симулация
+BOM = СнМ
+PCB Fabrication File(Gerber) = Файл за производство на печатна платка (Gerber)
+Pick and Place File = Файл за машинно насищане
+Parts Order = Поръчка на компоненти
+PCB Order = Поръчка на печатна платка
+One-click Order Parts = Поръчка на компоненти с едно натискане
+One-click Order PCB/SMT = Поръчка на платка/компоненти за повърхностен монтаж с едно натискане
+SIM =
+STD =
+WaveForm = Осцилограма
+
+Place Module = Поставяне на модул
+Please enter identification letters: = Моля въведете иденфикационни символи:
+Only support English letters, up to 5. = Поддържа само Латински символи, до 5 броя.
+
+Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = Exist не отбелязва представката на компонента(ите), в модула, моля първо редактирайте и отбележете уникалният(те) представка(и) на компонента(ите).
+Opening = Отваряне
+
+Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = Актуализация и на веригите на пътечките (Приложимо е в случай на промени по представки/етикети на вериги и без добавени или премахнати компоненти/опроводяване)
+
+#desktop client error feedback
+Cannot open online documents on Project Offline mode. = Не може да отвори интернет документи в режим Проекти извън линия.
+
+Please select a project = Моля изберете проект
+Opened Projects = Отворени проекти
+Open Project = Отваряне на проект
+Close Project = Затваряне на проект
+Open All Projects = Отваряне на всички проекти
+Close All Projects = Затваряне на всички проекти
+Select Owner = Избор на притежател
+Select Folder = Избор на папка
+Select Owner or Folder = Избор на притежател или на папка
+Select Project = Избор на проект
+Folder = Папка
+New Folder = Нова папка
+New Sub Folder = Нова подпапка
+Delete Folder = Изтриване на папка
+Move Project = Преместване на проект
+Move Folder = Преместване на папка
+#Rename Folder
+Please input the folder name = Моля въведете име на папка
+Invalid folder name = Невалидно име на папка
+Are you sure to delete this folder? = Сигурни ли сте, че желаете да изтриете тази папка?
+All projects in this folder will be moved to the root directory. = Всички проекти в тази папка ще бъдат преместени в основната директория.
+Create new folder successfully = Създаването на нова папка е успешно.
+Failed to create new folder = Неуспешно създаване на нова папка.
+Delete folder successfully = Изтриването на папката е успешно.
+Failed to delete folder = Неуспешно изтриване на папката.
+Rename folder successfully = Преименуването на папката е успешно.
+Failed to rename folder = Неуспешно преименуване на папката.
+Move folder successfully = Преместването на папката е успешно.
+Failed to move folder = Неуспешно преместване на папката.
+Move project successfully = Прместването на проекта е успешно.
+Failed to move project = Неуспешно преместване на проекта.
+The folder depth must not exceed {0} levels = Дълбочината на папката не може да надвишава {0} нива
+Failed to add project to folder = Неуспешно добавяне на проекта към папката.
+
+Doesn't support JLCPCB SMT Service = Не се поддържа JLCPCB SMT обслужване.
+{0} for JLCPCB SMT Service = {0} за JLCPCB SMT обслужване
+
+Reset failed! There are duplicate component prefixes in the current schematic: = Нулирането е неуспешно! Има дублиране на представки на компоненти в текущата схема:
+Reset failed! There are duplicate component prefixes in the current PCB: = Нулирането е неуспешно! Има дублиране на представки на компоненти в текущата печатна платка:
+Please modify the component prefixes first to ensure that the component prefix is unique. = Моля променете представките на компонентите за да осигурите уникалност на представките.
+
+LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA(Стандартен) - Опростен и мощен инструмент за проектиране на електронни схеми
+EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(Стандартен) - Опростен и мощен инструмент за проектиране на електронни схеми
+
+#Dialog for Package Custom Data
+Please input the data title = Моля въведете заглавие
+Data title duplicated = Заглавието е дублирано
+Cannot be more than {0} characters! = Не може да бъде повече от {0} символа!
+Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = Допускат се само символи от латинската азбука, цифри, долна черта (_) и тере (-).
+Invalid value of item {0} = Невалидна стойност на позиция {0}
+Update DFM = Актуализация на DFM
+Custom DFM Data = Персонализиране на DFM данни
+Saved custom data successfully! = Персонализираните данни са записани успешно!
+Save custom data failed! = Персонализираните данни не са записани!
+Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = Ще бъдат подменени графиката и персоналните данни на текущия документ, След вмъкването, моля настройте тримерния модел. Продължаване?
+Open footprint "Custom Data" dialog = Отваряне на прозорец "Персонализирани данни"
+
+#Create lead shape
+Create Lead Shape = Създаване на форма на извод
+Base on Pad Center = Основа в центъра на подложката
+Base on Canvas Origin = Основа в началото на чертожното поле
+Lead shape = Форма на извод
+Footprint Type = Тип на отпечатъка
+From pad shape = От формата на площадката
+Lead length = Дължина на извода
+Lead width = Ширина на извода
+Lead diameter = Диаметър на извода
+Scaling ratio = Мащаб
+Leads creating direction = Посока на създаване на изводи
+Auto = Автоматично
+Horizontal = Хоризонтално
+Vertical = Вертикално
+Canvas origin to lead edge = Начало на чертожното поле по водещ ръб
+Canvas origin to body edge = Начало на чертожното поле по ръба на тялото
+Lead soldering length = Дължина на извод за запояване
+Lead soldering part diameter = Диаметър на извод за запояване
+Component shape object doesn't overlap lead shape object, please check carefully. = Формата на компонента не се припокрива с формата на изводите, моля проверете внимателно.
+The solder mask expansion of pads ({0},{1}) has a small clearance(less than 0.08mm), it will cause the soldering too short, please modify. = Уголемяването на маската за запояване на площадките ({0},{1}) има малко отстояние (по-малко от 0,08 mm), това ще доведе до твърде малко място за запояване, моля променете го.
+The paste mask expansion or custom paste mask layer objects of pads ({0},{1}) has a small clearance(less than 0.15mm), it will cause the stencil to create fail, please modify. = Уголемяването на маската за спояваща паста или слоя за персонализирана маска за спояваща паста ({0},{1}) имат малко отстояние (по-малко от 0,15 mm), това ще доведе до неуспешно създаване на шаблон, моля променете го.
+System footprint must have pad number 1 or A1, please modify the pad number. = Системните отпечатъци трябва да имат номера на площадките 1 или A1, моля променете номерата на площадките.
+System footprint doesn't allow two or more pad numbers are 1 or A1, please modify the pad number. = Системните отпечатъци не позволяват две или повече площадки да са 1 или A1, моля променете номерата на площадките.
+Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = В слоят "документи" има кръгъл обект, но полярността на jlcPara е 0, проверете персонализираните данни.
+There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = Съществуват повтарящи се номера на площадки: {padNumber}, моля проверете и ако са коректни, игнорирайте това съобщение.
+Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = Кръгът не може да бъде открит в слоя за компонентна маркировка или този кръг не е в един и същ квадрант с първата площадка, моля направете проверка.
+
+ROUND = ОВАЛ
+RECTANGLE = ПРАВОЪГЪЛНИК
+OCTAGONAL = ОСМОЪГЪЛНИК
+Upper left = Горен ляв
+Lower left = Долен ляв
+Center of Pads = Център на площадките
+First Pin = Първи извод
+Package Name = Име на корпус
+Pins Number = Брой изводи
+Rows Of Pin = Ред от изводи
+Columns Of Pin = Колона от изводи
+Polarity = Поляритет
+Pad Shape = Форма на площадка
+Body Diameter = Диаметър на тяло
+Lead Span = Отстояние между изводи
+Lead Vertical Span = Вертикално отстояние между изводите
+Body Length = Дължина на тялото
+Body Height = Височина на тялото
+Pin Diameter = Диаметър на извода
+Pin Length = Дължина на извода
+Pin Height = Височина на извода
+Pin Solid Width = Плътна ширина на извода
+Pin Solid Height = Плътна височина на извода
+Pin Spacing = Стъпка на изводите
+Pin Horizontal Spacing = Хоризонтална стъпка на изводите
+Pin Vertical Spacing = Вертикална стъпка на изводите
+ThermalPad = Термоподложка
+Pad Expansion = Ушерение на площадка
+Custom PasteMask = Персонализирана маска за паста
+Fabrication Tolerance = Производствен допуск
+Placement Tolerance = Монтажен допуск
+FirstPin Position = Позиция на първи извод
+Package Origin = Базова точка на корпус
+Expansion Size = Размер на ушерение
+Corner = Ръб
+Angle = Ъгъл
+Fillet = Заобляне
+Chamfer = Скосяване
+Update Preview = Преглед на актуализация
+Number of pins (left and right) = Брой изводи (ляво и дясно)
+Number of pins (up and down) = Брой изводи (отгоре и отдолу)
+Reference Use Cases = Примери за приложение
+Package Type = Тип на корпуса
+Capacitance = Капацитет
+Resistance = Съпротивление
+Bidirectional Diode = Двупосочен диод
+Inductance = Индуктивност
+Crystal Oscillator = Кристален генератор
+Diode = Диод
+LED = Светодиод
+Fuse = Предпазител
+Entity height = Височина на обекта
+Lead Overhang = Отместване на извода
+Lead Thickness = Дебелина на извода
+Unknown mistake = Неизвестна грешка
+Has ThermalVias = Наличие на термопроходник
+Polar Capacitance = Полярен кондензатор
+
+Create Component Marking = Създаване на маркировка на компонент
+Create component marking successfully! = Създаването на маркировка за компонент е успешно!
+No elements on component shape layer! = Няма елементи в слоя с формата на компонента!
+No elements on lead shape layer! = Няма елементи в слоя с формата на изводите!
+No pad of number 1 or A1, please modify the pad number. = Няма площадка с номер 1 или A1, моля променете номера на площадката.
+Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = Записът е неуспешен! Кръгът за маркиране на компонента лежи върху осите. Желаете ли да пресъздадете маркировката на компонента?
+If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: FreeRouting, Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = В случай, че автоматичното опроводяване е неуспешно, можете да извлечете файла за автоматично опроводяване (DSN) към външен инструмент за автоматично опроводяване (напр. FreeRouting, Konekt Electra, Eremex TopoR и т.н.) и да извлечете файла на сесията (SES) след завършване на автоматичното опроводяване и след това да го вмъкнете в печатната платка.
+Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = Автоматичното опроводяване е неуспешно! Открити са необичайни данни за площадката(ите), моля променете ширината и височината на площадката(ите):
+Select Properties = Свойства за избор
+Combine the same parts' prefixes in one row = Комбинация на еднаквите представки на компонентите, в един ред
+Please check at least one item! = Моля проверете поне една позиция!
+Pins = Изводи
+Check component latest version when open schematic =
+Only show updated components =
+Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. = Забележка: При вмъкване на промените, печатната платка се актуализира съгласно версията на отпечатъка, към който е обвързана схемата.
+Doesn't support to import the binary format DXF, please import the ASCII format DXF. = Бинарният формат на DXF не се поддържа, моля вмъкнете ASCII DXF.
+
+Find System Similar Footprint = Откриване на подобен отпечатък в системата
+Found similar footprints at system library, it is recommended to use them first. = Открити са подобни отпечатъци в системата, препоръчително е да използвате първо тях.
+Copy Title = Копиране на заглавие
+Check system similar footprint = Проверка за подобен отпечатък в системата
+Can't find the Similar Footprint = Не е открит подобен отпечатък
+Search failed! = Търсенето е неуспешно!
+No package information! = Няма информация за корпуса!
+Find Parameters = Откриване на параметри
+Find Results = Откриване на резултати
+
+Bill of material(BOM) uploaded finish, please click "OK" to continue. = Качването на Спецификацията на материалите (СнМ) завърши, моля натиснете "ОК" за да продължите.
+Bill of material(BOM) upload failed! = Качването на Спецификацията на материалите (СнМ) е неуспешно!
+
+All pads = Всички площадки
+All holes = Всички отвори
+Single layer pads = Еднослойни площадки
+Multi-layer pads = Многослойни площадки
+Same X pads = Същите X площадки
+Same Y pads = Същите Y площадки
+Same Y and clearance pads =
+Same X and clearance pads =
+Same X and clearance pads' clearance =
+Same Y and clearance pads' clearance =
+Pad's hole diameter(max) = Диаметър(max) на отвора в площадката
+Pad's hole diameter(min) = Диаметър(min) на отвора в площадката
+Pad's hole diameter(aver) = Диаметър(aver) на отвора в площадката
+
+Try Pro Edition = Опитай професионалната версия
+
+Generate Solid Region by Objects Outline = Създаване на плътен регион, според очертанията на обектите
+Generate Polygon Pad by Objects Outline = Създаване на многоъгълна площадка, според очертанията на обектите
+Select the objects that cannot be generated = Избиране на обектите, които не могат да бъдат генерирани
+
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Моля архивирайте схемата и печатната платка, във zip файл и тогава ги вмъкнете, в слечай, че вмъквате само схемата, ще е необходимо ръчно свързване с отпечатъка.
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Моля компресирайте в zip файл схемата и печатната платка, която е в ASCII формат и тогава я вмъкнете. Ако само вмъкнете схемата, ще е необходимо ръчно да се обвърже с отпечатъка.
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Вмъкването е неуспешно! Вмъкваните файлове не са в ASCII формат, моля първо запишете файловете като "Схеми ascii(*.SchDoc)" или "ASCII файл за печатни платки(*.PcbDoc)" в Altium Designer и тогава ги вмъкнете.
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. = За текста на платката ще бъде използван шрифт от ново семейство, текстът може да изглежда различно.
+Because of different file format and element, please check carefully after imported. = Поради различния файлов формат, моля внимателно проверете вмъкнатото.
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = Моля уверете се, че файлът е записан с EAGLE версия 6.0 или по-нова.
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = Моля архивирайте схемата и печатната платка в zip файл, чрез KiCad5 и тогава ги вмъкнете, в случай че вмъквате само схемата, ще е необходимо ръчно свързване с отпечатъка.
+Please make sure the Protel file is exported as ASCII format file. = Моля уверете се, че Protel файлът е извлечен в ASCII файлов формат.
+Please compress the schematic and corresponding symbols as a zip file and then import it. = Моля архивирайте схемата и съответните символи в zip файл и тогава ги вмъкнете.
+
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Моля първо запишете файловете като "Схеми ascii(*.SchDoc)" или "ASCII файл за печатни платки(*.PcbDoc)" в Altium Designer и тогава го вмъкнете.
+Tips = Съвети
+Exists incomplete connection = Съществува незатворена верига
+Found that the board has incomplete connection, please check the nets and ratlines = На платката е открита незатворена верига, моля проверете веригите и свързващите линии
+creator = създател
+You are not logged in or the login status is invalid, please login and try again. = Не сте вписани или статусът на вписването е невалиден, моля впишете се и опитайте отново. 
+Display Board Cutout = Показване на изрези в платката
