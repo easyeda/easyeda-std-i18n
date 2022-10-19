@@ -2869,8 +2869,8 @@ Absolute Offset =
 Relative Offset =
 Absolute Offset... =
 Relative Offset... =
-Reference Point X =
-Reference Point Y =
+Reference Point X = Referenčný Bod X
+Reference Point Y = Referenčný bod Y
 
 # Inner Plane layer
 Rebuild Plane =
@@ -3021,11 +3021,11 @@ All = Všetko
 
 Export Pick and Place File = Exportovat súbor Pick & Place
 Mirror the bottom component's X coordinate (JLCPCB doesn't need) =
-Work Space = Pracovn0 miesto
+Work Space = Pracovné miesto
 Include panelized components' coordinates =
-Personal Workspace = Osobn0 pracovn0 miesto
+Personal Workspace = Osobné pracovné miesto
 Work Space - {name} = Pracovné miest = {name}
-Work Space - Personal = Pracovný priestor - Osobn0
+Work Space - Personal = Pracovný priestor - Osobný
 Cloning = Klonovať
 
 Project Owner = Vlastník projektu
