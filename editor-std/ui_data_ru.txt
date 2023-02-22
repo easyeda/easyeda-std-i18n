@@ -14,7 +14,7 @@ Language = Язык
 Language Setting = Выбор языка
 
 Document Recovery = Восстановить файл
-Your Preferences Information = Информация о ваших предпочтиниях
+Your Preferences Information = Информация о ваших предпочтениях
 File = Файл
 New = Новый
 Project... = Проект...
@@ -40,7 +40,7 @@ DXF = DXF
 Import = Импорт
 
 
-Edit = Правка
+Edit = Изменить
 Undo = Отменить
 Redo = Повторить
 Cut = Вырезать
@@ -62,8 +62,8 @@ Align Horizontal Centers = Выровнять центры по горизонт
 Align Vertical Centers = Выровнять центры по вертикали
 Distribute Horizontally = Распределить по горизонтали
 Distribute Vertically = Распределить по вертикали
-Distribute Left Edges Equidistantly = Распределить равномерно левого края
-Distribute Top Edges Equidistantly = Распределить равномерно верхнего края
+Distribute Left Edges Equidistantly = Распределить равномерно по левому краю
+Distribute Top Edges Equidistantly = Распределить равномерно по верхнему краю
 Align Grid = Выровнять по сетке
 Rotate = Повернуть
 Rotate Left = Повернуть влево
@@ -112,7 +112,7 @@ Line = Линия
 Polyline = Полилиния
 Rectangle = Прямоугольник
 Rectangular = Прямоугольный
-The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = Прямоугольник не поддерживает поворот не кратный 90-градусам. Пожалуйста, используйте сплошную область.
+The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = Прямоугольник не поддерживает поворот, не кратный 90-градусам. Пожалуйста, используйте сплошную область.
 
 Rect = Прямоугольник
 Round Rectangle = Скругленный прямоугольник
@@ -145,8 +145,8 @@ Footprint... = Посадочное место...
 This component is deleted! = Этот компонент удалён!
 Convert = Конвертировать
 Convert Schematic to PCB = Преобразовать схему в печатную плату
-The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: = ID компонента будет сброшен согласно префиксу, эта операция очистит историю последних действий. Пожалуйста, имейте ввиду:
-Please make sure the component prefixes of the schematic and PCB are corresponding = Пожалуйста, убедитесь, что префиксы компонентов соответствуют для схемы и печатной платы
+The component ID will be reset according to the component prefix, this operation will clear Undo histories. Please notice: = ID компонента будет сброшен согласно префиксу, эта операция очистит историю последних действий. Пожалуйста, имейте в виду:
+Please make sure the component prefixes of the schematic and PCB are corresponding = Пожалуйста, убедитесь, что префиксы компонентов и печатной платы совпадают
 Please reset the component ID of corresponding schematic or corresponding PCB too = Пожалуйста, сбросьте ID компонента для соответствующей схемы или печатной платы
 Do you want to continue? = Вы хотите продолжить?
 Reset Component Unique ID = Сбросить уникальный ID компонента
@@ -155,7 +155,7 @@ Convert to PCB = Конвертировать в печатную плату
 Update PCB = Обновить печатную плату
 Shortcut Keys Setting = Настройки горячих клавиш
 Edit Symbol... = Изменить символ...
-Highlight Net... = Подстветить Цепь...
+Highlight Net... = Подсветить Цепь...
 Simulate = Симулировать
 Simulation = Симуляция
 Standard Mode = Стандартный
@@ -178,13 +178,13 @@ Videos = Видео
 Custom Data = Пользовательские данные
 LCEDA = LCEDA
 
-Copy Result Image = Копировать как изображение
-Export Result Image = Экспортировать как изображение
+Copy Result Image = Копировать итоговое изображение
+Export Result Image = Экспортировать итоговое изображение
 Simulation Result = Результат Симуляции
 Simulation Results... = Результаты Симуляции...
 Simulate this Sheet = Симуляция листа
 Simulate this Project = Симуляция проекта
-Non-simulation mode, please switch to the simulation mode first and then run = Режим без симуляции, пожалуйста, сначала переключитесь в режим симуляции и запустите
+Non-simulation mode, please switch to the simulation mode first and then run = Режим без симуляции, пожалуйста, сначала переключитесь в режим симуляции, а затем запустите
 Run the Document = Запустить документ
 Run the Project... = Запустить проект...
 Netlist for Document = Netlist для документа
@@ -242,7 +242,7 @@ Tutorials = Обучение
 Basic Tutorials = Базовое обучение
 Video Tutorials = Видеоуроки
 Essential Check = Основная проверка
-Simulation Tutorials = Инстукции по симуляции
+Simulation Tutorials = Инструкции по симуляции
 Updated Instructions = Обновлённые инструкции
 Open File Format = Открыть файл в формате
 About Upgrade = Об обновлении
@@ -261,7 +261,7 @@ Non-simulation mode = Режим без симуляции
 PCB Layout = Макет печатной платы
 General Discussion = Общие Обсуждения
 More Information = Больше информации
-Privacy Policy = Политика приватности
+Privacy Policy = Политика конфиденциальности
 #Terms of Use & Privacy Policy
 Terms of Service = Условия Использования
 Plans and Pricing = Планы и цены
@@ -291,7 +291,7 @@ Press {0}F11{1} to switch to full screen. = Нажмите {0}F11{1} для пе
 Delete Selected = Удалить выбранное
 Simulate... = Симулировать...
 Config = Конфигурация
-Terms of Service & Privacy Policy = Условия использования и политикаа конфиденциальности
+Terms of Service & Privacy Policy = Условия использования и политика конфиденциальности
 Help Topics = Темы Помощи
 3D Model(obj) = 3D Модель(obj)
 3D Model(step) = 3D Модель(step)
@@ -312,8 +312,8 @@ Footprint Wizard... = Мастер Посадочных мест...
 Select package type = Выбрать тип корпуса
 Smart Dimension Properties = Свойства умного измерения
 Global Delete = Глобальное удаление
-Cross Probe = Проверкаа курсорных линий
-Cross Probe and Place = Проверкаа и установка курсорных линий
+Cross Probe = Проверка курсорных линий
+Cross Probe and Place = Проверка и установка курсорных линий
 Paper Size = Размер Листа
 Register = Зарегистрироваться
 User Center = Центр пользователя
@@ -327,7 +327,7 @@ By Center Grid of Symbols = По центру сетки символов
 #Schematic Canvas Properties
 Properties = Свойства
 Apply = Применить
-Save as default = Сохранить по-умолчанию
+Save as default = Сохранить по умолчанию
 Canvas Properties = Параметры окна редактора
 Width = Ширина
 Height = Высота
@@ -400,8 +400,8 @@ Y Radius = Радиус по Y
 Switch mode = Режим работы
 The current documents will be closed, and reopen after switching mode, do you want to continue? = Текущий документ будет закрыт и автоматически открыт после переключения режима, продолжить?
 PCB related documents are not allowed in emulation mode = Документы печатных плат не доступны в режиме эмуляции
-Please change the editor to "Simulation" mode first at the top left corner. = Пожалуйста измените режим редактора на "Симуляция" в левом верхнем углу.
-Please change the editor to "Standard" mode first at the top left corner. = Пожалуйста измените режим редактора на "Стандартный" в левом верхнем углу.
+Please change the editor to "Simulation" mode first at the top left corner. = Пожалуйста, сначала измените режим редактора на "Симуляция" в левом верхнем углу.
+Please change the editor to "Standard" mode first at the top left corner. = Пожалуйста, сначала измените режим редактора на "Стандартный" в левом верхнем углу.
 Common = Общие
 spice.open = Открыть
 spice.close = Закрыть
@@ -544,7 +544,7 @@ X pos.(Div): = X позиция (Дел):
 Y pos.(Div): = Y позиция (Дел):
 View meter... = Просмотр измерений...
 The circuit has components without simulation model: = Эта цепь содержит элементы, которые не имеют модели для проведения симуляции
-Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = Интервал симуляции слишком короткий, пожалуйста, подождите 5 секунд и  повторите снова; если данное сообщение появляется снова, возможно вы превысили лимит по запуску симуляции в 500 раз в день.
+Your simulation interval is too short to simulate, please wait 5 seconds later and try again; if still show this message, may be you simulated over 500 times the maximum simulation times per day. = Интервал симуляции слишком короткий, пожалуйста, подождите 5 секунд и повторите снова; если данное сообщение появляется снова, вероятно, вы превысили лимит по запуску симуляции в 500 раз в день.
 Resistor1_US = Резистор1_US
 Resistor1_EU/IEC = Резистор1_EU/IEC
 Resistor1_3D = Резистор1_3D
@@ -635,8 +635,8 @@ XOR2EE_CN =
 XNOR2EE_US =
 XNOR2EE_CN =
 Digital_Clock_1Hz = Цифровое_тактирование_1Гц
-Logicstate_0 =
-Logicstate_1 =
+Logicstate_0 = Логическое_состояние_0
+Logicstate_1 = Логическое_состояние_1
 Logic_Probe =
 Buffee =
 INVEE_US =
@@ -650,7 +650,7 @@ OPAMP5PEE_US =
 OPAMP5PEE_CN =
 Voltage_Controlled_Switch =
 Current_Controlled_Switch =
-FUSE =
+FUSE = Предохранитель
 Delay_Fuse =
 Transmission_Line =
 Crystal =
@@ -693,7 +693,7 @@ Common Anode = Общий Анод
 Common Cathode = Общий Катод
 AC Amplitude = Амплитуда Переменного Тока
 AC Phase = Фаза Переменного Тока
-There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Некоторые элементы не имеют SPICE-модели, пожалуйста используйте "EElib" и "Spice Symbol" в "Libraries" из Режима Симуляции, или присвойте им SPICE-модель
+There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Некоторые элементы не имеют SPICE-модели, пожалуйста, используйте "EElib" и "Spice Symbol" в "Libraries" из Режима Симуляции или присвойте им SPICE-модель:
 
 #Pin
 Pin Properties = Параметры контакта
@@ -867,7 +867,7 @@ Spoke = Ступенька
 Keep Island = Сохранять островок
 Fill Style = Стиль заполнения
 CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Конфликт медной области: контуры медных областей в одном слое с разными именами цепей не должны перекрываться.
-Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Перестроение медной области завершено! Вы можете установить "Медная Зона" как "Видимая" на правой панели свойств после одного щелчка по пустой области.
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = Перестроение медной области завершено! Вы можете установить "Медная Зона" как "Видимая" на правой панели свойств после одиночного щелчка по пустой области.
 Please create board outline first. = Пожалуйста, сначала создайте границы платы.
 Board outlines are not closed. = Границы платы не замкнуты.
 Rebuild CopperArea = Перестроить медную область
@@ -875,7 +875,7 @@ Edit Points = Редактировать точки
 Direct = Напрямую
 Spoke = Ступенька
 No Solid = Не заполнять
-Board Cutout = Граница платы
+Board Cutout = Вырез в плате
 Solid = Сплошной
 [copperArea]
 None = Нет
@@ -891,9 +891,9 @@ Mounted = Установлен
 Unknown = Неизвестно
 
 Custom = Пользовательский
-Scan the QR code below and open it on the mobile side = Сосканируйте QR-код указанный ниже и откройте его на мобильном устройстве
+Scan the QR code below and open it on the mobile side = Отсканируйте QR-код, указанный ниже, и откройте его на мобильном устройстве
 How to create a single layer PCB = Как создать однослойную плату
-Currently doesn't support layout single layer directly, please refer at: = В настоящее время нет поодержки однойслойных плат, смотрите информацию:
+Currently doesn't support layout single layer directly, please refer at: = В настоящее время нет поодержки однослойных плат, смотрите информацию:
 
 #Dialog Register
 Create an account = Создать аккаунт
@@ -919,11 +919,11 @@ Login and Register = Войти и зарегистрироваться
 Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = Похоже, срок действие сессии истек, пожалуйста, войдите снова. Не нужно закрывать открытые файлы, Вы можете сохранить их после входа в систему.
 
 #Dialog Reset Password
-Reset a password using your email = Сбросить пароль, используя ваш email
+Reset a password using your email = Сбросить пароль, используя Ваш email
 Your registered email = Ваш зарегистрированный email
 
 #Dialog Reaction
-Re-send an activation code to your email = Повторно отправить код активации на вашу email
+Re-send an activation code to your email = Повторно отправить код активации на Ваш email
 
 #Dialog Invite
 Invite friends to register = Пригласить друзей зарегистрироваться
@@ -932,10 +932,10 @@ Your friend's email = Эл. почта вашего друга
 #Dialog Add A New Parameter
 Add a new parameter = Добавить новый параметр
 Key = Ключ
-Value.new_para = новый параметр
+Value.new_para = Новый параметр
 In BOM = В BOM-е
 Add into BOM = Добавить в BOM
-Invalid key = Неправильный ключ
+Invalid key = Неверный ключ
 This field is required. = Это поле обязательное.
 
 #Dialog Change Your Password
@@ -963,7 +963,7 @@ Add file = Добавить файл
 Visibility = Видимость
 Allow Comments = Разрешить комментарии
 Public (Anyone can see this project but only you can modify it.) = Публично (Каждый может видеть этот проект, но только Вы можете вносить изменения)
-Private (Only you can see and modify this project) = Приватный (Только вы можете просматривать и редактировать этот проект)
+Private (Only you can see and modify this project) = Приватный (Только Вы можете просматривать и редактировать этот проект)
 Create new project success! = Новый проект создан!
 You can now create files under this project = Теперь Вы можете создавать файлы в этом проекте
 This file must be saved under a project, choose other project or create a new project = Этот файл необходимо сохранить в рамках проекта, выбрать другой проект или создать новый проект
@@ -1026,19 +1026,19 @@ Object = Объект
 DRC Clearance = Программа контроля проектных норм Зазор
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
-More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Одно или более имени соединения соответствует этому проводнику. Пожалуйста, проверьте правильно ли это. Если это вами задумано, то проигнорируйте это предупреждение
-Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = Неполное соединение, полное соединение должно содержать два или более контакта. Если это вами задумано, то проигнорируйте это предупреждение
+More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Одно или более имя соединения соответствует этому проводнику. Пожалуйста, проверьте, правильно ли это. Если это вами задумано, то проигнорируйте это предупреждение.
+Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = Неполное соединение, полное соединение должно содержать два или более контакта. Если это вами задумано, то проигнорируйте это предупреждение.
 This netlabel is not connected with any pin. = Это соединение не подключено ни к одному контакту.
-Incomplete connection, please check. = Неполнота подключений, пожалуйста проверьте.
-The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = Зазор между объектами меньше, чем определено правилами проверки (DRC) для зазора между соединениями
+Incomplete connection, please check. = Неполное подключение, пожалуйста, проверьте.
+The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. = Зазор между объектами меньше, чем определено правилами проверки (DRC) для зазора между соединениями.
 The diameter is less than Design Rule Checking (DRC) diameter = Диаметр меньше, чем определено правилами проверки (DRC) для диаметра
-The drill diameter is less than Design Rule Checking (DRC) drill diameter = Диаметр сверловки меньше, чем определено правилами проверки (DRC), для диаметра сверловки
+The drill diameter is less than Design Rule Checking (DRC) drill diameter = Диаметр сверловки меньше, чем определено правилами проверки (DRC) для диаметра сверловки
 The track length is longer than Design Rule Checking (DRC) track length = Длина дорожки больше, чем определено правилами проверки (DRC) для длиныы дорожки
 The track width is less than Design Rule Checking (DRC) track width = Ширина дорожки меньше, чем определено правилами проверки (DRC) для ширины дорожки
 
 #Dialog Simulation
 Show your simulation report = Показать отчёт о симуляции
-Download netlist = Скачать netlist
+Download netlist = Скачать список соединений
 Run = Запустить
 Components = Компоненты
 
@@ -1055,7 +1055,7 @@ Import File and Extract Libs = Импортировать файл и извле
 File type = Тип файла
 The file size is too large. = Размер файла слишком большой.
 Please selected the file type. = Пожалуйста, выберите тип файла.
-No component was found! = Компонентов не найдено!
+No component was found! = Компоненты не найдены!
 Import successfully = Успешно импортировано
 Import failed = Импорт не удался
 Click OK to continue with the import = Нажмите ОК, чтобы продолжить импорт.
@@ -1066,7 +1066,7 @@ Modify symbol information = Изменить информацию о симво�
 Spice Prefix = Префикс Spice
 Hide Pin = Скрыть контакт
 Pin Manager = Менеджер контактов
-When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = Когда контакт питания спрятан, он может иметь имя соединения и вам не нужно его соединять проводом. Если вы используете симуляцию, то отобразите контакт или создайте для этого область(Цепь) GND/VCC.
+When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = Когда контакт питания скрыт, он может иметь имя соединения, и Вам не нужно его соединять проводом. Если вы используете симуляцию, пожалуйста, отобразите контакт или создайте для этого область (Цепь) GND/VCC.
 Assign = Назначить
 Supplier.bom = Список поставщика
 LCSC.bom =  Список LCSC
@@ -1084,7 +1084,7 @@ Upload to LCSC ERP = Загрузить в LCSC ERP
 No components, upload failed! = Нет компонентов, ошибка при загруке!
 Upload to LCSC ERP failed, please try again later. = Ошибка при загрузке в LCSC ERP, пожалуйста повторите позже
 Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = Текущий BOM загружен в Менеджер компонентов LCSC, нажмите кнопку "ОК" для доступа к Менеджеру компонентов.
-Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = Ошибка при загрузке в LCSC ERP, обнаружено, что в некоторых компонентах отсутствует значение некоторых свойств, проверьте значение свойства «Посадочное место, Производитель компонента», если оно существует.
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = Ошибка при загрузке в LCSC ERP, обнаружено, что у некоторых компонентов отсутствуют значение некоторых свойств, проверьте значение свойства «Посадочное место, Производитель компонента», если оно существует.
 
 Export PCB BOM = Экспорт PCB BOM
 Export Schematic BOM = Экспорт схемного BOM
@@ -1281,8 +1281,8 @@ Confirm Importing changes information = Подтвердите импорт ин
 You can't undo this operation, Please run a Design Rule Checking (DRC) after this operation. = Вы не можете отменить эту операцию. Пожалуйста, запустите проверку правил проектирования (DRC) после этой операции.
 Apply Changes = Применить изменения
 This is a simple Design Rule Checking (DRC). = Это простая проверка правил проектирования (DRC).
-It just can help you to find the obvious errors = Это проще пожет найти вам очевидные ошибки
-There are some unfinished nets, do you want to check the nets first? = Есть несколько незавершенных цепей, вы хотите сначала проверить цепи?
+It just can help you to find the obvious errors = Это поможет найти Вам очевидные ошибки
+There are some unfinished nets, do you want to check the nets first? = Есть несколько незавершенных цепей, Вы хотите сначала проверить цепи?
 Yes, Check Nets = Да, проверить Цепи
 No, Keep Going = Нет, продолжить
 
@@ -1318,7 +1318,7 @@ Non-Signal = Несигнальный
 Other = Другое
 Please delete all the objects of the layers first! The layers are: = Пожалуйста, сначала удалите все объекты со слоев! Слои:
 You are converting Signal Layer to Plane Layer, There're some non-track objects remain on following layers. Please delete the objects manually on the canvas. = Вы конвертируете сигнальный слой в слой Plane. На некоторых слоях остаются некоторые объекты без трассировки. Пожалуйста, удалите объекты вручную на холсте.
-Please delete all the objects of this layer first! = Пожалуйста, сначала улалите все объекты с этого слоя!
+Please delete all the objects of this layer first! = Пожалуйста, сначала удалите все объекты с этого слоя!
 
 #Dialog Fabrication Output
 Create Files = Создать файлы
@@ -1346,7 +1346,7 @@ Via to Via = Переходное к переходному
 Via Hole Size = Диаметр переходного отверстия
 Realtime DRC = Realtime DRC
 {0} is too small! = {0} слишком маленький!
-Invalid DRC Rule = Ошибочное правило DRC
+Invalid DRC Rule = Неверное правило DRC
 Rule = Правило
 Via Diameter = Диаметр переходного отверстия
 Via Drill Diameter = Диаметр сверловки переходного отверстия
@@ -1354,20 +1354,20 @@ Net List = Список Цепей
 Rule = Правило
 Set Rule = Установить правило
 Check Object to Copper Area = Проверить объект в медной области
-Show DRC Boundary while Routing = Показывать границу DRC при трассировке
+Show DRC Boundary while Routing = Показать границу DRC при трассировке
 Check Object to Board Outline = Показать объект на линии границы платы
 Rule name already exists! = Имя правила уже существует!
-You should not delete default rule! = Вы не можете удалить правило по-умолчанию!
+You should not delete default rule! = Вы не можете удалить правило по умолчанию!
 Rule list contains invalid rule setting! = Список правил содержит неправильные настройки!
 Duplicate rule name exists! = Существует дубликат в имени правил!
 via diameter is smaller than via drill diameter! = Диаметр переходного отверстия меньше, чем диаметр сверла переходного отверстия!
-Currently rule name is not allowed to contain magical characters like . and $ = Текущее имя правила не разрешено из-за содержащихся в нем спец. символов, таких как . и $
+Currently rule name is not allowed to contain magical characters like . and $ = Текущее имя правила не разрешено из-за содержащихся в нем спец.символов, таких как . и $
 [drcRule]
 All = Все
 [/drcRule]
 
 #Dialog Hotkey
-Change Canvas Unit = Изменить единицы иземерния рабочего поля
+Change Canvas Unit = Изменить единицы измерения рабочего поля
 Copy Selected Object(s) by Reference Point = Копировать выбранный(е) объект(ы) по контрольной точке
 Fullscreen = Во весь экран
 Undo the Previous Draw = Отменить предыдущие действия на чертеже
@@ -2351,7 +2351,7 @@ Basic = Базовый
 Extend = Расширенный
 Design Manager = Менеджер проектирования
 Library = Библиотека
-Spice Library = Библиотекаа Spice
+Spice Library = Библиотека Spice
 Shared = Общий
 LCSC = LCSC
 LCSC Parts = LCSC компоненты
@@ -3137,8 +3137,8 @@ Reset failed! There are duplicate component prefixes in the current schematic: =
 Reset failed! There are duplicate component prefixes in the current PCB: = Сброс не выполнен! В текущей плате есть повторяющиеся префиксы компонентов:
 Please modify the component prefixes first to ensure that the component prefix is unique. = Сначала измените префиксы компонентов, чтобы убедиться, что префикс компонента уникален.
 
-LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA (стандарт) — простой и мощный инструмент для проектирования электронных схем
-EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA (стандарт) — простой и мощный инструмент для проектирования электронных схем
+LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA (стандарт) — Простой и мощный инструмент для проектирования электронных схем
+EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA (стандарт) — Простой и мощный инструмент для проектирования электронных схем
 
 #Dialog for Package Custom Data
 Please input the data title = Пожалуйста, введите заголовок данных
@@ -3260,7 +3260,7 @@ Find System Similar Footprint = Найти похожее системное п�
 Found similar footprints at system library, it is recommended to use them first. = Найдены похожие посадочные места в системной библиотеке, рекомендуется использовать их в первую очередь.
 Copy Title = Копировать Наименование
 Check system similar footprint = Проверьте системное аналогичное посадочное место
-Can't find the Similar Footprint = Невозможно найти похожее посадочное место
+Can't find the Similar Footprint = Невозможно найти аналогичное посадочное место
 Search failed! = Не найдено!
 No package information! = Нет информации о корпусе
 Find Parameters = Найти параметры
@@ -3283,7 +3283,7 @@ Pad's hole diameter(max) = Диаметр отверстия площадки(м
 Pad's hole diameter(min) = Диаметр отверстия площадки(мин)
 Pad's hole diameter(aver) = Диаметр отверстия площадки(средн)
 
-Try Pro Edition = Попробуйте версию Про
+Try Pro Edition = Попробуйте Pro версию
 
 Generate Solid Region by Objects Outline = Генерация сплошной области по контуру объектов
 Generate Polygon Pad by Objects Outline =  Генерация площадки-полигона  по контуру объектов
