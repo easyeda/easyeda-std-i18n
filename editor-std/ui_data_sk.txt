@@ -2816,7 +2816,7 @@ Display Footprint = Zobraziť pôdorys
 Display Footprint Name While Placing Component =
 Annotate Prefix Automatically After Placing Component = Automatická anotácia prefixu po umiestnení komponentu
 Program Error, Please Contact Technical Support! = Programová chyba, kontaktujte peosím Technickú podporu!
-Search Engine = Vzhľadávací stroj
+Search Engine = Vyhľadávací stroj
 Keyword to Filter = Kľúčové slová filtra
 Normal Mode = Normálny mód
 Expand Mode = Rošírený mód
@@ -3267,7 +3267,7 @@ Can't find the Similar Footprint = Podobný pôdorys sa nenašiel
 Search failed! = Vyhľadávanie zlyhalo!
 No package information! = Žiadne informácie o balíku!
 Find Parameters = Vyhľadať parametre
-Find Results = Vzhľadať výsledkyBOM) uploaded finish, please click "OK" to continue. = Nahratie účetu za materiál (BOM) je ukončené, kliknite prosím na "OK"
+Find Results = Vyhľadať výsledkyBOM) uploaded finish, please click "OK" to continue. = Nahratie účetu za materiál (BOM) je ukončené, kliknite prosím na "OK"
 Bill of material(BOM) upload failed! = Nahratie účetu za materiál (BOM) zlyhal
 All pads = Všetky plôšky
 All holes = Všetky otvory
