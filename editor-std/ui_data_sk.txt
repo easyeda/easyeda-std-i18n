@@ -342,7 +342,7 @@ Grid.Line Width = Šírka čiary mriežky
 Grid.Line Spacing = Riadkovanie mriežky
 Copper to Board Outline = Obrys medi na doske
 Improve Fabrication = Zlepšiť výrobu
-Spoke Width =
+Spoke Width = Šírka lúčov
 Stroke Color = Farba čiary
 Stroke Width = Šířka čiary
 Stroke Style = Styl čiary
@@ -433,7 +433,7 @@ LOGIC Settings = Nastavenie LOGIC
 LOGICSTATE Settings = Nastavenia LOGICSTATE
 DIGITALCLOCK Settings = Nastavenia DIGITALCLOCK
 Potentiometer Settings = Nastavenia potencimetra
-MUTUAL_INDUCTORS Settings =
+MUTUAL_INDUCTORS Settings = Nastavenia MUTUAL_INDUCTORS
 NE555 Settings = Nastavenia NE555
 THREE_PHASE Settings = Nastavenia THREE_PHASE
 Logic_Probe Settings = Nastavenia Logic_Probe
@@ -534,7 +534,7 @@ Channel_B = Kanál B
 Channel A = Kanál A
 Channel B = Kanál B
 Time = Čas
-Reverse = Reverz
+Reverse = Spätný
 Simulation file exceed =
 The simulation file is too large and has been stopped for performance reasons. = Súbor simulácie je príliš veľký a bol zastavený z dôvodov výkonu.
 Timebase = Časová základňa
@@ -780,7 +780,7 @@ Visible = Zobraziť
 Invisible = Skryť
 Ignore = Ignorovať
 Block = Blok
-RoundTrack =
+RoundTrack = Oblá cesta
 
 #Track
 Track Properties = Vlastnosti cesty
@@ -873,7 +873,7 @@ Rebuild CopperArea = Obnoviť oblasť medi
 Edit Points = Upraviť body
 Direct = Priamy
 Spoke = Lúč
-No Solid =
+No Solid = žiadna pevná
 Board Cutout = Výrez dosky
 Solid = Pevný
 [copperArea]
@@ -881,8 +881,8 @@ None = Nič
 [/copperArea]
 
 #Custom Properties
-Custom Properties = Vlastné atribúty
-Fixed Properties = Pevné atribúty
+Custom Properties = Vlastné vlastnosti
+Fixed Properties = Pevné vlastnosti
 Add new parameter = Pridať nový parameter
 Add New Parameter = Pridať nový Parameter
 Add New Supplier = Pridať nového dodávateľa
@@ -955,7 +955,7 @@ Save as Footprint = Uložiť ako pôdorys
 Save as a Schematic Module = Uložiť ako modul schémy
 Save as a PCB Module = Uložiť ako modul DPS
 Save as 3D Model = Uložiť ako 3D model
-Save as a WaveForm =
+Save as a WaveForm = Uložiť ako tvar vlny
 Title = Názov
 Share = Zdielať
 Add file = Pridať súbor
@@ -1028,12 +1028,12 @@ DRC Clearance = Ochranná oblasť DRC
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. =
 Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. =
 This netlabel is not connected with any pin. =
-Incomplete connection, please check. =
+Incomplete connection, please check. = Neúplné pripojenie, skontrolujte prosím.
 The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. =
-The diameter is less than Design Rule Checking (DRC) diameter =
-The drill diameter is less than Design Rule Checking (DRC) drill diameter =
+The diameter is less than Design Rule Checking (DRC) diameter = Priemer je menší ako priemer pri kontrole Pravidla dizajnu (DRC)
+The drill diameter is less than Design Rule Checking (DRC) drill diameter = Priemer vrtáka je menší ako priemer vrtáka pri kontrole Ptavidla dizajnu (DRC)
 The track length is longer than Design Rule Checking (DRC) track length =
-The track width is less than Design Rule Checking (DRC) track width = Šírka vedenia je menšia ako šírka vedenia pri Kontrole Dizajnu pravidla (DRC)
+The track width is less than Design Rule Checking (DRC) track width = Šírka vedenia je menšia ako šírka vedenia pri kontrole Pravidla dizajnu (DRC)
  
 #Dialog Simulation
 Show your simulation report = Zobraziť správu simulácie
@@ -1076,7 +1076,7 @@ Components.bom = Components.bom
 Manufacturer Part.bom = Manufacturer Part.bom
 Manufacturer.bom = Manufacturer.bom
 
-One-click Purchasing at LCSC = Objednať na LSCS jedným kliknutím
+One-click Purchasing at LCSC = Objednať na LCSC jedným kliknutím
 Order Parts = Objednávka diel/Kontrola zásob
 Export BOM = Exportovať BOM
 
@@ -1204,7 +1204,7 @@ No follow user found. Please follow your friend first. = Nesledujete žiadneho p
 [/lib]
 
 
-BUY = KOUPIT
+BUY = KÚPIŤ
 In Stock = Na sklade
 Out of Stock = Nie je na sklade
 Minimum = Minimum
@@ -1272,7 +1272,7 @@ Merged sheet = Spojené listy
 Separated sheet = Oddelené listy
 Engine =
 Exporting PDF = Exportujem PDF
-Export 3D Model =
+Export 3D Model = Exportovať 3D Model
 [exportDocument]
 Size = Veľkosť
 [/exportDocument]
@@ -1284,8 +1284,8 @@ Apply Changes = Použiť zmeny
 This is a simple Design Rule Checking (DRC). =
 It just can help you to find the obvious errors = Pomôže vám nájsť bežné chyby.
 There are some unfinished nets, do you want to check the nets first? =
-Yes, Check Nets =
-No, Keep Going =
+Yes, Check Nets = Áno, skontrolovať spoje
+No, Keep Going = Nie, Pokračovať
 
 #Dialog Layer Manager
 Configured = Zobraziť
@@ -1351,17 +1351,17 @@ Invalid DRC Rule = Neplatné pravidlo DRC
 Rule = Pravidlo
 Via Diameter = Priemer priechodu
 Via Drill Diameter = Priemer vrtáku priechodu
-Net List =
+Net List = Zoznam spojov
 Rule = Pravidlo
 Set Rule = Nastavenie pravidla
 Check Object to Copper Area =
 Show DRC Boundary while Routing =
 Check Object to Board Outline =
-Rule name already exists! =
-You should not delete default rule! =
-Rule list contains invalid rule setting! =
-Duplicate rule name exists! =
-via diameter is smaller than via drill diameter! =
+Rule name already exists! = Názov pravidla už existuje!
+You should not delete default rule! = Predvolené pravidlo nemôžete odstrániť!
+Rule list contains invalid rule setting! = Zoznam pravidiel obsahuje chybu v nastavení!
+Duplicate rule name exists! = Meno ptavidla už existuje!
+via diameter is smaller than via drill diameter! = priemer prechodu je menší ako priemer vrtáka prechodu!
 Currently rule name is not allowed to contain magical characters like . and $ =
 [drcRule]
 All = Všetko
@@ -3198,7 +3198,7 @@ Columns Of Pin = Stĺpce Pin-ov
 Polarity = Polarita
 Pad Shape =
 Body Diameter =
-Lead Span =
+Lead Span = 
 Lead Vertical Span =
 Body Length =
 Body Height =
@@ -3215,7 +3215,7 @@ Pad Expansion =
 Custom PasteMask =
 Fabrication Tolerance =
 Placement Tolerance =
-FirstPin Position =
+FirstPin Position = 
 Package Origin =
 Expansion Size =
 Corner = Roh
@@ -3267,7 +3267,9 @@ Can't find the Similar Footprint = Podobný pôdorys sa nenašiel
 Search failed! = Vyhľadávanie zlyhalo!
 No package information! = Žiadne informácie o balíku!
 Find Parameters = Vyhľadať parametre
-Find Results = Vyhľadať výsledkyBOM) uploaded finish, please click "OK" to continue. = Nahratie účetu za materiál (BOM) je ukončené, kliknite prosím na "OK"
+Find Results = Vyhľadať výsledky
+
+Bill of material(BOM) uploaded finish, please click "OK" to continue. = Nahratie účetu za materiál (BOM) je ukončené, kliknite prosím na "OK"
 Bill of material(BOM) upload failed! = Nahratie účetu za materiál (BOM) zlyhal
 All pads = Všetky plôšky
 All holes = Všetky otvory
