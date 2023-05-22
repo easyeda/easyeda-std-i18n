@@ -1032,7 +1032,7 @@ Incomplete connection, please check. = Neúplné pripojenie, skontrolujte prosí
 The clearance between two objects is less than the Design Rule Checking (DRC) clearance which has different nets. =
 The diameter is less than Design Rule Checking (DRC) diameter = Priemer je menší ako priemer pri kontrole Pravidla dizajnu (DRC)
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = Priemer vrtáka je menší ako priemer vrtáka pri kontrole Ptavidla dizajnu (DRC)
-The track length is longer than Design Rule Checking (DRC) track length =
+The track length is longer than Design Rule Checking (DRC) track length = Dĺžka vedenia je dhšia ako dĺžka vedenia pri kontrole Pravdla dizajnu (DRC)
 The track width is less than Design Rule Checking (DRC) track width = Šírka vedenia je menšia ako šírka vedenia pri kontrole Pravidla dizajnu (DRC)
  
 #Dialog Simulation
@@ -1362,7 +1362,7 @@ You should not delete default rule! = Predvolené pravidlo nemôžete odstráni�
 Rule list contains invalid rule setting! = Zoznam pravidiel obsahuje chybu v nastavení!
 Duplicate rule name exists! = Meno ptavidla už existuje!
 via diameter is smaller than via drill diameter! = priemer prechodu je menší ako priemer vrtáka prechodu!
-Currently rule name is not allowed to contain magical characters like . and $ =
+Currently rule name is not allowed to contain magical characters like . and $ = V súčasnosti pravidlo nedovoluje zadávať znaky . a $
 [drcRule]
 All = Všetko
 [/drcRule]
@@ -1371,7 +1371,7 @@ All = Všetko
 Change Canvas Unit = Zmeniť jednotku plátna
 Copy Selected Object(s) by Reference Point =
 Fullscreen = Na celú obrazovku
-Undo the Previous Draw =
+Undo the Previous Draw = Vrátiť späť predchádzajúci výkres
 Set Canvas Origin by Coordinate =
 Switch to the Next Signal Layer = Prepnúť na ďalšiu signálnu vrstvu
 Switch to the Previous Signal Layer = Prepnúť na ďpredchádzajúcu signálnu vrstvu
@@ -1473,9 +1473,9 @@ Footprints Verification =
 
 #Dialog Edit Polygon Pad points
 Edit Points = Upravit body
-Center point is outside the pad =
-Hole should be inside the pad =
-Hole is draggable =
+Center point is outside the pad = Stredový bod je mimo plôšky
+Hole should be inside the pad = Otvor by mal byť vo vnútri plôšky
+Hole is draggable = Otvor je ťahateľný
 
 #My Part Tree Menu
 Clone = Duplikovať
@@ -2255,9 +2255,9 @@ Footprint PAD information = Informácie o plôške pôdorysu
 Footprint Categories = Kategórie pôdorysov
 Pad Number = Číslo plôšky
 Search Footprint = Vyhľadávanie pôdorysu
-Select Footprint =
-Search 3D Model =
-Select 3D Model =
+Select Footprint = Výber pôdorysu
+Search 3D Model = Hľadať 3D Model
+Select 3D Model = Vybrať 3D Model
 Filter by keyword = Filtrovať podľa kľúčového slova
 System Libs = Systémové knižnice
 
