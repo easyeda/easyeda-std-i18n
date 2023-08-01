@@ -3024,7 +3024,7 @@ Mirror the bottom component's X coordinate (JLCPCB doesn't need) =
 Work Space = Pracovné miesto
 Include panelized components' coordinates =
 Personal Workspace = Osobné pracovné miesto
-Work Space - {name} = Pracovné miest = {name}
+Work Space - {name} = Pracovné miesto = {name}
 Work Space - Personal = Pracovný priestor - Osobný
 Cloning = Klonovať
 
