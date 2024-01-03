@@ -39,6 +39,7 @@ Pads... = Pads...
 DXF = DXF
 Import = Import
 
+
 Edit = Upraviť
 Undo = Späť
 Redo = Vrátiť späť
@@ -2465,9 +2466,9 @@ Import failed: = Import zlyhal:
 Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Cesta môže obsahovať len znaky 'a-z, A-Z, -, _, 0-9'!
 Path must begin as 'a-z、A-Z、0-9'! = Cesta musí začínať znakmi 'a-z, A-Z, 0-9'!
 The path length must be between 4~128 characters! = Dĺžka cesty musí byť medzi 4 až 128 znakmi!
-The title length must be between 2~128 characters! = Dĺžka názvu musí byť medzi 2 až 128 znakmi!
-Please select an owner =
-Please select obj, wrl or zip file. =
+The title length must be between 2 ~ 128 characters. = Dĺžka názvu musí byť medzi 2 až 128 znakmi!
+Please select an owner = Vyberte prosím vlastníka
+Please select obj, wrl or zip file. = Vyberte prosím obj, wrl alebo zip súbor
 Do you want to delete this file? = Chcete zmazať tento súbor?
 Add sub part success = Určitá časť pridaná
 Please input name and prefix! = Zadajte názov a prefix, prosím!
@@ -3290,6 +3291,21 @@ Try Pro Edition = Vyskúšajte Pro verziu
 Generate Solid Region by Objects Outline = Generovať Pevnú Oblasť podľa obrysu objektov
 Generate Polygon Pad by Objects Outline = Generovať mnohouhoľníkový blok podľa obrysu objektov
 Select the objects that cannot be generated = Vyberte objekty, ktoré sa nedajú vygenerovať
+
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Komprimujte schému a DPS ako súbor zip a potom ich importujte, ak importujete iba schému, musíte ju priradiť k pôdorysu ručne.
+Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Komprimujte schému a DPS vo formáte ASCII ako súbor zip a potom ho importujte, ak importujete iba schému, musíte ju priradiť k pôdorysu ručne.
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Import zlyhal! Importované súbory nemali formát ASCII, najskôr ich uložte ako "Rozšírené schéma ascii(*.SchDoc)" alebo "DPS ASCII súbor(*.PcbDoc)" v programe Altium Designer a potom importujte.
+The PCB text will use the editor new font family, the text maybe will appear a little excursion. = Text DPS bude v editore používať nové typy písma, text sa možno bude javiť ako malý exkurz.
+Because of different file format and element, please check carefully after imported. = Z dôvodu odlišného formátu súboru a prvku ich po importe dôkladne skontrolujte.
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = Uistite sa, že súbor EAGLE je uložený vo verzii EAGLE v6.0 a vyššej.
+Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = Komprimujte schému a DPS ako zip súbor pomocou KiCad5 a potom ho importujte, ak importujete iba schému, musíte ju priradiť k pôdorysu ručne.
+Please make sure the Protel file is exported as ASCII format file. = Uistite sa, že súbor Protel je exportovaný ako súbor vo formáte ASCII.
+Please compress the schematic and corresponding symbols as a zip file and then import it. = Komprimujte prosím schému a príslušné symboly do zip súboru, a potom importujte.
+
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Uložte prosím najprv súbor v Altium Designer-i ako "Rošírené schéma ascii (*.SchDoc) alebo "DPS ASCII súbor(*.PcbDoc)" a potom importujte.
+Tips = Tipy
+Exists incomplete connection = Vyskstujú sa nekompletné spojenia
+Found that the board has incomplete connection, please check the nets and ratlines = Zistilo sa, že doska má neúplné pripojenie, skontrolujte spoje
 creator = vytvoril
 You are not logged in or the login status is invalid, please login and try again. = Nie ste prihlásený, alebo stav prihlásenia je neplatný, prihláste sa prosím a skúste to znova.
 Display Board Cutout = Zobrazenie Výrezu Dosky
