@@ -1,3 +1,5 @@
+# 繁體中文 (Chinese - Traditional)
+
 # Menu
 User=用戶
 Join...=註冊...
@@ -162,7 +164,7 @@ Standard Mode = 標準模式
 Simulation Mode = 仿真模式
 Change to Standard Mode = 切換至標準模式
 Change to Simulation Mode = 切換至仿真模式
-Welcome to Use LCEDA = 歡迎使用立創EDA
+Welcome to Use JLCEDA = 歡迎使用嘉立創EDA
 Welcome to Use EasyEDA = 歡迎使用EasyEDA
 Enable Education Edition Features for Free >>> = 免費開啟教育版功能>>>
 Quick Start = 快速開始
@@ -176,7 +178,7 @@ Tutorials = 文檔教程
 Videos = 視頻教程
 [/start]
 Custom Data = 自定義數據
-LCEDA = 立創EDA
+JLCEDA = 嘉立創EDA
 
 Copy Result Image = 複製圖形結果
 Export Result Image = 導出圖形結果
@@ -236,6 +238,7 @@ Config=配置
 
 Help=幫助
 About=關於
+Online Chat =
 Shortcut Keys = 快捷鍵
 FAQ = 常見問題
 Tutorials = 使用教程
@@ -323,7 +326,6 @@ By Center of Pads = 從焊盤中央
 By Center Grid of Symbols = 從圖形中心格點
 
 #Schematic Canvas Properties
-Properties=屬性
 Properties=屬性
 Apply=應用
 Save as default=存為默認值
@@ -758,6 +760,7 @@ Image Size = 圖片尺寸
 Color Tolerance = 顏色容差
 Simplify Level = 簡化水平
 Corner Threshold = 平滑尖角
+Despeckle Size =
 
 #PCB Canvas Properties
 Units = 單位
@@ -834,6 +837,15 @@ Pin Number = 引腳編號
 Spice Pin Number = 仿真引腳編號
 Graphics = 圖形
 Pattern = 形狀
+
+Pin: =
+Netflag: =
+Netlabel: =
+NetPort: =
+Voltage Probe: =
+Pin: =
+Hidden Pin: =
+Unknown: =
 
 #Arc Properties
 Arc Properties = 圓弧屬性
@@ -948,6 +960,7 @@ Save as a Schematic Module = 保存為原理圖模塊
 Save as a PCB Module = 保存為PCB模塊
 Save as 3D Model = 保存為3D模型
 Save as a WaveForm = 保存為波形
+Do not allow saving to target project =
 Title = 標題
 Share = 分享
 Add file = 添加文件
@@ -1041,6 +1054,7 @@ Chose file  = 選擇文件
 File Operation = 文件操作
 Import File = 導入文件
 Extract Libs = 提取庫文件
+No Libs! =
 Import File and Extract Libs = 導入文件並提取庫
 File type = 文件類型
 The file size is too large. = 文件尺寸過大
@@ -1070,6 +1084,12 @@ Manufacturer.bom = 製造商
 One-click Purchasing at LCSC = 從立創商城購買
 Order Parts = 購買元件/檢查庫存
 Export BOM = 導出BOM
+Upload to LCSC ERP =
+Order SMT Parts =
+No components, upload failed! =
+Upload to LCSC ERP failed, please try again later. =
+Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. =
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. =
 Export PCB BOM = 導出 PCB BOM
 Export Schematic BOM = 導出原理圖BOM
 ID.bom = 編號
@@ -1088,6 +1108,8 @@ Components = 元件編號
 Manufacturer = 製造商
 [/bom]
 Manufacturer Part = 製造商料號
+Part Number =
+Part Code =
 
 #Dialog Run
 Run your simulation = 運行仿真
@@ -1142,9 +1164,12 @@ In stock = 可購買
 Common Modules = 通用模塊
 User Contributions = 用戶貢獻
 More = 更多
+Modify Model... =
 Add Favorite = 添加收藏
 Remove Favorite = 取消收藏
 Add Sub Part = 添加子庫
+Add Sub Parts... =
+Please enter how many sub parts need to be added =
 Untagged = 無標籤
 Package = 封裝
 package = 封裝
@@ -1167,7 +1192,7 @@ Classes = 庫別
 power = 功率
 Power = 功率
 LCSC Part# = 立創商城編號
-Stock = 庫存
+LCSC Stock = LCSC 庫存
 Report Error... = 報告錯誤...
 Report Error = 報告錯誤
 Thanks for your feedback! = 感謝您的反饋！
@@ -1345,6 +1370,11 @@ Rule list contains invalid rule setting! = 發現有無效的規則設置！
 Duplicate rule name exists! = 發現有重複的規則名稱！
 via diameter is smaller than via drill diameter! = 孔外徑比孔內徑還小！
 Currently rule name is not allowed to contain magical characters like . and $ = 目前規則名稱不允許出現「.」及「$」等特殊字符！
+Track Width (min) =
+Clearance (min) =
+Via Diameter (min) =
+Via Drill Diameter (min) =
+Track Length (max) =
 [drcRule]
 All = 全部
 [/drcRule]
@@ -1410,6 +1440,8 @@ Change to Inner2=切換到內層2
 Change to Inner3=切換到內層3
 Change to Inner4=切換到內層4
 Highlight Net=高亮網絡
+Highlight Network =
+Unhighlight Network =
 Place Pad=放置焊盤
 Place Via=放置過孔
 Measure=測量距離
@@ -1471,7 +1503,10 @@ Document Recovery Setting = 文檔恢復設置
 Enable auto backup = 啟用自動備份
 Maximum backup level = 最大備份級數
 Auto backup interval = 自動備份間隔
+days =
+hours =
 minutes = 分鐘
+seconds =
 Save to Server = 保存到服務器
 Load from Server = 從服務器加載
 
@@ -1488,7 +1523,9 @@ owner = 所有者
 #Dialog Annotate
 Annotate =標註
 Scope=應用範圍
-Active Schematic only =僅當前原理圖
+All pages =
+Current page only = 僅當前原理圖
+Selected components =
 All Opened Schematics = 所有打開的原理圖
 Method=方法
 Re-annotate all=重新標註
@@ -1587,6 +1624,7 @@ Guests can't import a file. Please login! = 訪客不能導入文件，請登錄
 Please create a project before you import a file! = 導入文件前請先創建一個工程
 Import your LTspice file! = 導入你的LTspice文件!
 Open LTspice file = 打開LTspice文件
+Open EasyEDA file =
 Please make sure the selected LTspice file is a file saved in LTspice V and above. = 請確保選擇的LTspice文件是LTspice V 及以上版本保存的文件.
 Saved successfully! = 保存成功
 Save failed! = 保存失敗
@@ -1660,6 +1698,7 @@ All ratlines are hidden successfully! = 全部飛線已隱藏成功！
 Hidden the ratline of net {netName} successfully! = 網絡 {netName} 的飛線隱藏成功！
 Duplicate Component Prefix = 元件標註重複
 {0} exist = {0} 已存在
+Modify successfully, but {0} already exists =
 There are some invalid packages, are you sure? = 有些封裝是無效的，你確認該操作?
 Invalid Characters, library only allows [0-9a-zA-Z-_] = 非法字符，庫文件只允許[0-9a-zA-Z-_]等字符
 Annotation success = 標註成功
@@ -1881,7 +1920,6 @@ Display Pad's Number and Net = 焊盤同時顯示網絡與編號
 Favorite Track width = 常用導線寬度
 Track Width Setting = 導線寬度設置
 
-
 #Dialog Access Control
 Permissions = 權限
 Operations = 操作
@@ -1890,6 +1928,7 @@ Project Access Control = 工程訪問控制
 Reject = 拒絕
 Add User = 添加用戶
 Bad email address = 錯誤的郵件地址
+Permissions Error =
 
 # error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = 用戶不存在.
@@ -1982,6 +2021,8 @@ Update = 更新
 Bus entry= 總線分支
 Filter = 過濾
 Check = 檢查
+Share my work =
+Share it by e-mail, IM, blog, etc. =
 
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = 拷貝文本框中的內容到記事本中，並保存它。你可以把內容粘貼到這裡並再次編輯它。
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = 拷貝文本框中的內容到記事本中，以.svg後綴保存之。你可以用inkscape編輯它，也可以用瀏覽器打開它.
@@ -1993,6 +2034,7 @@ The file save operation has timed out. Try again and check your Internet connect
 Export Netlist = 導出網表
 Notifications = 通知
 Please select txt or json files. = 請選擇txt或json文件
+Please select EasyEDA files. =
 Failed to read file [{file}] = 讀取文件 [{file}] 失敗
 [{file}] is not a valid json file = [{file}] 不是一個有效的JSON文件
 Invalid parameters! = 無效參數
@@ -2010,6 +2052,7 @@ Net Length = 網絡長度
 You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = 原理圖中可以直接放置引腳，但別忘了將引腳組合到元件中。點擊幫助按鈕查看組合功能的使用。如果只是需要為導線做標記，請使用網絡端口或網絡標籤。
 Please input the modification = 請填寫修改的內容
 The content must be between {0} and {1} characters = 內容必須在 {0} 到 {1} 個字符之間
+Please input a number between {0} and {1} =
 
 Coming soon = 敬請期待
 No tool = 無
@@ -2040,6 +2083,9 @@ PenWidth-Increase = 線寬增量
 #Generate Gerber
 Generate Gerber = 生成Gerber
 Gerber View = Gerber預覽
+Dimensions =
+1-2 days =
+Build Time =
 Dimensions(Estimated) = 尺寸(估算)
 PCB Qty = 板子數量
 Copper Weight = 銅厚
@@ -2052,12 +2098,13 @@ ENIG-RoHS = 沉金
 Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = 在生成Gerber之前是否檢查設計規則(DRC)？
 Yes, Check DRC = 是，檢查DRC
 No, Generate Gerber = 否，生成Gerber
+No, Continue to order =
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = 該PCB存在未完成布線的網絡連接，是否檢查網絡？
 Yes, Check Connection(s) = 是，檢查網絡
 It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = 即將前往我們的兄弟公司JLCPCB完成訂單，是否繼續？
 Failed to submit your order, please contact us via support@easyeda.com for help. = 下單失敗，請聯繫support@easyeda.com獲取幫助。
-Failed to submit your order, please contact us via QQ 800821856.  = 提交訂單失敗，請聯繫技術支持：QQ 800821856
-Order data generated finish, please click OK button and continue. = 下單數據生成完畢，請點擊「 確定 」按鈕繼續。
+Failed to submit your order, please contact us.  = 提交訂單失敗，請聯繫技術支持企業微信尋求幫助
+Order data(Gerber, Pick and Place file, BOM) generated finish, please click OK button and continue. = 下單數據生成完畢，請點擊「 確定 」按鈕繼續。
 [generateGerber]
 Layers = 層數
 [/generateGerber]
@@ -2143,6 +2190,7 @@ Create Subfolder = 創建子目錄
 Create Script = 創建腳本
 Install Script = 安裝腳本
 Install = 安裝
+Desktop Client =
 Are you sure you want to remove this script? = 確定要移除該腳本嗎？
 Folder Name = 目錄名稱
 Rename = 重命名
@@ -2166,7 +2214,7 @@ Photo View = 照片預覽
 #check update
 Check Update = 檢查更新
 EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = EasyEDA V{ver} 已發布，是否現在切換到新版本？
-LCEDA Editor {ver} is released. Would you like to switch to the new version now? = 立創EDA V{ver} 已發布，是否現在切換到新版本？
+JLCEDA Editor {ver} is released. Would you like to switch to the new version now? = 嘉立創EDA V{ver} 已發布，是否現在切換到新版本？
 Switch to New Version = 切換到新版本
 Next Time = 下次再說
 
@@ -2228,6 +2276,9 @@ Footprint PAD information = 封裝焊盤信息
 Footprint Categories = 封裝分類
 Pad Number = 焊盤編號
 Search Footprint = 搜索封裝
+Select Footprint =
+Search 3D Model =
+Select 3D Model =
 Filter by keyword = 關鍵字篩選
 System Libs = 系統庫
 
@@ -2243,7 +2294,7 @@ Tracks = 導線
 
 #dialog board outline settings
 Current Size = 當前大小
-Paramenters = 參數
+Parameters = 參數
 Start X: = 起始X:
 Start Y: = 起始Y:
 Round Rectangular = 圓角矩形
@@ -2317,7 +2368,7 @@ Stop Router = 停止布線
 Auto Router is running... = 自動布線運行中...
 
 #Left Sidebar
-EELib = 基礎庫
+Common Library = 基礎庫
 Basic = 基礎
 Extend = 擴展
 Design Manager = 設計管理器
@@ -2354,6 +2405,7 @@ Font is missing! You can confirm the dialog and use default font instead or canc
 Owner = 所有者
 License = 協議
 Part Pins = 元件引腳
+Part Properties =
 Net Pins = 網絡引腳
 Net Ratlines = 網絡飛線
 Add Parameter = 添加新參數
@@ -2431,17 +2483,17 @@ Please select! = 請選擇！
 Route = 布線
 Import successfully: = 導入成功：
 Import failed: = 導入失敗：
-The title length must be between 2~128 characters. = 標題長度必須在2~128字符
 Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = 路徑只能包含'a-z、A-Z、- 、_ 、0-9'！
 Path must begin as 'a-z、A-Z、0-9'! = 路徑必須以'a-z、A-Z、0-9'開頭！
 The path length must be between 4~128 characters! = 路徑長度必須為4~128字節！
-The title length must be between 2~256 characters! = 標題長度必須為2~256字節！
-The title cannot be less than 3 characters! = 標題不能少於3個字符！
+The title length must be between 2 ~ 128 characters. = 標題長度必須為2~128字符.
+Please select an owner =
+Please select obj, wrl or zip file. =
 Do you want to delete this file? = 你確認你需要刪除該文件嗎？
 Add sub part success = 添加子庫成功
 Please input name and prefix! = 請輸入編號和名稱
 Board outlines are not closed = 板子邊框沒有閉合
-Import Altium file fail, the file needs to be an ASCII file encoded in UTF-8. = 導入Altium文件失敗，文件需為 UTF-8 編碼的 ASCII 格式的文件。
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = 引腳「{0}」沒有吸附在格點上！這個庫在原理圖里可能會產生錯誤。
 Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} = 保存失敗！引腳編號不允許重複！以下引腳編號重複：{0}
 Check Pin = 引腳檢測
@@ -2556,7 +2608,6 @@ Color Setting = 顏色配置
 Apply Setting = 應用設置
 Theme Setting... = 主題設置...
 Bus Entry = 總線分支
-Foreground = 前景色
 Symbol Graphics = 元件圖形
 Common Used = 常用
 Draw = 繪圖
@@ -2637,6 +2688,7 @@ Left and Right = 左邊和右邊
 Stamp Hole Group - Column = 郵票孔組數 - 列
 Stamp Hole Group - Row = 郵票孔組數 - 行
 The number of rows and columns cannot be set to 1 simultaneously = 行數或列數不能同時設置為1
+When panelize number is 1 x 1, you need to enable the "Create Boarder" =
 
 #edit path point
 [editPathPoints-dlg]
@@ -2726,7 +2778,7 @@ Location X = X 坐標
 Location Y = Y 坐標
 Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = 您當前的瀏覽器版本可能不支持某些功能。請使用最新的谷歌或者火狐瀏覽器，或使用客戶端。
 EasyEDA Client = EasyEDA客戶端
-LCEDA Client = 立創EDA客戶端
+JLCEDA Client = 嘉立創EDA客戶端
 Chrome = 谷歌瀏覽器
 FireFox = 火狐瀏覽器
 New Version = 新建版本
@@ -2736,7 +2788,7 @@ Update Time = 更新時間
 Editor = 編輯者
 Current Version = 當前版本
 Latest Version = 最新版本
-Select a version to switch = 請選擇一個版本切換
+Please select a different version to switch; If you want to edit different version in the same time, please open them in different browsers. =
 3D Model = 3D庫
 Board Side = 板面
 Display = 顯示
@@ -2747,6 +2799,7 @@ Version Management = 版本管理
 Switch success! = 切換成功！
 Please close current version's documents first! = 請先關閉當前版本的所有文檔！
 Creator = 創建者
+creator =
 Create Time = 創建時間
 Fail to connect to server! Please check your internet connection status and try again! = 連接服務器失敗！請檢查你的聯網狀態並再次嘗試！
 Spice Number = 仿真編號
@@ -2761,7 +2814,6 @@ Save "{0}" success! = 保存 "{0}" 成功！
 Save "{0}" failed! = 保存 "{0}" 失敗！
 Invalid Size = 非法尺寸
 Processing = 處理
-Invalid Size = 非法尺寸
 NetFlag GND = 標識符GND
 NetFlag VCC = 標識符VCC
 NetFlag +5v = 標識符+5v
@@ -2776,6 +2828,7 @@ Processing = 處理中
 Opening File = 正在打開文件
 Update from Library = 從庫里更新
 Update Footprint = 更新封裝
+Update 3D Model =
 Find footprint(s) have been updated, do you want to update? = 發現一些封裝有更新，是否更新？
 3D File: = 3D文件
 Model List = 模型列表
@@ -2825,6 +2878,8 @@ This component is unmounted = 元件不上件
 
 #find component
 Find Next = 下一個
+Pin not found =
+Pad not found =
 Object not found = 沒有找到相應元件
 
 #offset Elements
@@ -2904,6 +2959,8 @@ Next = 下一頁
 Total {count} Count = 共{count}條記錄
 About = 約
 Items = 條結果
+Apply New Part =
+No Part Yet =
 [/findlib]
 
 Object = 元素
@@ -2966,6 +3023,7 @@ There is No Tag! = 沒有分類！
 Assign successful! = 分配成功！
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = 發現封裝焊盤編號不匹配原理圖器件的引腳編號，請手動修正焊盤編號後再重試！
 Update Property = 更新屬性
+Update Properties =
 Please fill in at least 5 words. = 請至少填寫 5 個字。
 Mouse hovering over the track to highlight the entire network = 鼠標懸浮在導線上高亮整個網絡
 Net Highlighting While Cursor Hover the Track = 鼠標在導線上時高亮網絡
@@ -2973,7 +3031,7 @@ When circle set as "Yes", the Pin length must be more than 6 = 當圓圈設置�
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = 你好，我發現了你的一個庫可能存在錯誤。\n標題：{title}\n類型：{type}\n鏈接：{link}\n{content}\n謝謝！
 
 Logout fail! Please try again! = 退出登錄失敗！請再次嘗試！
-Logout success! We look forward you to use LCEDA again! = 退出成功！期待您再次使用立創EDA！
+Logout success! We look forward you to use JLCEDA again! = 退出成功！期待您再次使用嘉立創EDA！
 Logout success! We look forward you to use EasyEDA again! = 退出成功！期待您再次使用EasyEDA！
 Click to Preview 3D = 點擊預覽3D
 [logoutDialog]
@@ -2985,9 +3043,11 @@ All = 全部
 [/findlibTag]
 
 Export Pick and Place File = 導出坐標文件
-Mirror the bottom component's X coordinate (JLCPCB doesn't need) = 鏡像底層元件X坐標(嘉立創不需要)
+Mirror the bottom components' coordinate (JLCPCB doesn't need) = 鏡像底層元件X坐標(嘉立創不需要)
+Mirror coordinate Y =
+Mirror coordinate X =
 Work Space = 工作區
-Include panelized components' coordinates = 包含拼板後的元件坐標
+Include panelized components' coordinates(JLCPCB doesn't need) = 包含拼板後的元件坐標
 Personal Workspace = 個人工作區
 Work Space - {name} = 工作區 - {name}
 Work Space - Personal = 工作區 - 個人
@@ -3023,14 +3083,6 @@ Assign LCSC Part# = 分配立創編號
 Unexpected error while converting. Perhaps unsupported file type or program bug. = 轉換時出現意外錯誤。可能是不支持的文件類型或程序錯誤
 Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = 發現重複的器件ID，請點擊「確認」後重新自動分配器件ID，並保存文檔，再次重試。
 
-#electromagneticSimulation
-Electromagnetic Simulation... = 電磁仿真...
-You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = 你將上傳 Gerber 到 SuperEM 進行電磁仿真(僅上傳 Gerber 數據，不包含賬號數據)，是否繼續？
-SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM 是杭州法動科技推出的一款用於高速印刷電路板電路與微帶天線結構的，三維全波電磁仿真設計軟件
-Visit the SuperEM = 訪問 SuperEM
-SuperEM User Guide = SuperEM使用手冊
-Upload Gerber to SuperEM successfully, please click "OK" buttun to continue  = 已經成功上傳 Gerber 到 SuperEM，請點擊「確定」按鈕繼續
-
 Format = 格式
 View = 視圖
 Design = 設計
@@ -3044,6 +3096,9 @@ PCB Fabrication File(Gerber) = PCB制板文件(Gerber)
 Pick and Place File = 坐標文件
 Parts Order = 元件購買
 PCB Order = PCB下單
+One-click Order Parts =
+One-click Order PCB/SMT =
+JLCPCB Layout Service =
 SIM = 仿真
 STD = 標準
 WaveForm = 波形
@@ -3080,6 +3135,7 @@ Move Folder = 移動文件夾
 Please input the folder name = 請輸入文件夾名稱
 Invalid folder name = 無效的文件夾名稱
 Are you sure to delete this folder? = 確定要刪除該文件夾嗎？
+All projects in this folder will be moved to the root directory. =
 Create new folder successfully = 新建文件夾成功
 Failed to create new folder = 新建文件夾失敗
 Delete folder successfully = 刪除文件夾成功
@@ -3093,14 +3149,15 @@ Failed to move project = 移動工程失敗
 The folder depth must not exceed {0} levels = 文件夾深度不得超過{0}層
 Failed to add project to folder = 添加工程到文件夾失敗
 
-Doesn't support JLCPCB SMT Service = 不支持嘉立創貼片
-{0} for JLCPCB SMT Service = 嘉立創貼片庫存 {0}
+Doesn't support SMT = 不支持嘉立創貼片
+JLCPCB SMT Stock: {0} = 嘉立創貼片庫存 {0}
 
 Reset failed! There are duplicate component prefixes in the current schematic: = 重置失敗！當前原理圖存在重複的元件編號：
 Reset failed! There are duplicate component prefixes in the current PCB: = 重置失敗！當前PCB存在重複的元件編號：
 Please modify the component prefixes first to ensure that the component prefix is unique. = 請先修改編號確保元件編號是唯一的。
 
-LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = 立創EDA(標準版) - 免費、易用、強大的在線電路設計軟件
+JLCEDA(YALONG Edition) - A Simple and Powerful Electronic Circuit Design Tool =
+JLCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = 嘉立創EDA(標準版) - 免費、易用、強大的在線電路設計軟件
 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(標準版) - 免費、易用、強大的在線電路設計軟件
 
 #Dialog for Package Custom Data
@@ -3143,6 +3200,9 @@ System footprint doesn't allow two or more pad numbers are 1 or A1, please modif
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = 封裝文檔層存在圓，但 jlcPara 的 polarity 是 0，請注意檢查自定義數據。
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = 焊盤編號存在重複: {padNumber}，請檢查是否正常，如果正常請忽略該提示。
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = 封裝沒有繪製元件極性層的圓形，或者標識層的圓和第一腳焊盤不在相同象限，請檢查是否正常。
+This footprint is LED, CASE or DIO type, please check if need to draw the polarity marking(or special polarity marking), if exits polarity marking please ignore this message. =
+This footprint is DIP type, please check if haven't place multi-layer pads. =
+This footprint is SMD type, please check if haven't placed single-layer pads. =
 
 ROUND = 圓形
 RECTANGLE = 矩形
@@ -3161,7 +3221,7 @@ Body Diameter = 本體直徑
 Lead Span = 引腳跨距
 Lead Vertical Span = 引腳縱向跨距
 Body Length = 本體長度
-Body Height = 本體寬度
+Body Width = 本體寬度
 Pin Diameter = 引腳直徑
 Pin Length = 引腳長度
 Pin Height = 引腳寬度
@@ -3208,17 +3268,19 @@ No elements on component shape layer! = 元件外形層沒有圖元！
 No elements on lead shape layer! = 引腳外形層沒有圖元！
 No pad of number 1 or A1, please modify the pad number. = 焊盤編號是 1 或者 A1 的焊盤，請修改焊盤編號。
 Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = 保存失敗！元件標識層的圓在坐標軸上，是否重新生成元件標識？
-If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = 如果自動布線失敗，你可以導出自動布線文件(DSN)到第三方布線工具(如 Konekt Electra、Eremex TopoR等)，完成自動布線後導出會話文件(SES)，再導入PCB。
+If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: FreeRouting, Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = 如果自動布線失敗，你可以導出自動布線文件(DSN)到第三方布線工具(如 FreeRouting、Konekt Electra、Eremex TopoR等)，完成自動布線後導出會話文件(SES)，再導入PCB。
 Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = 自動布線失敗！發現異常焊盤數據異常，請手動重新調整焊盤寬高：
 Select Properties = 選擇屬性
 Combine the same parts' prefixes in one row = 合併相同元件的編號在同一行
 Please check at least one item! = 請至少勾選一項!
 Pins = 引腳數
 Check component latest version when open schematic = 當打開原理圖時檢測元件最新版本
+Only show updated components =
 Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. = 注意：當 PCB 導入變更時會根據原理圖綁定的封裝版本進行更新 PCB。
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. = 不支持二進制的 DXF 導入，請導入 ASCII 格式的 DXF
 
 Find System Similar Footprint = 查找系統相似封裝
+Download fingerprint data =
 Found similar footprints at system library, it is recommended to use them first. = 發現存在相似的系統封裝，建議優先使用系統封裝。
 Copy Title = 復製標題
 Check system similar footprint = 檢查系統相似封裝
@@ -3256,7 +3318,8 @@ Please compress schematic and PCB in ASCII format as a zip file and then import 
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 導入失敗！你導入的文件不是 ASCII 格式的，請先在 Altium Designer 另存為「Advanced Schematic ascii(*.SchDoc)」或「PCB ASCII File(*.PcbDoc)」後再導入。
 Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 請先在 Altium Designer 另存為「Advanced Schematic ascii(*.SchDoc)」或「PCB ASCII File(*.PcbDoc)」後再導入
 The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 導入的 PCB 文本將使用編輯器新的字體，文本可能會出現輕微變形和偏移。
-Because of different file format and element, please check carefully after imported. = 因格式和圖元不一致，導入後請仔細檢查。
+Because of different file format and element design, the imported element may have some differences, please check carefully. The more information please refer the tutorials. =
+EasyEDA is not responsible for any losses caused by format conversion differences, if you do not agree, please do not import. =
 Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 請確保選擇的 EAGLE 文件是 EAGLE v6.0 及以上版本保存的文件。
 Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 請把原理圖和 PCB 使用 KiCad5 壓縮成 zip 壓縮包後導入，只導入原理圖需要手動重新綁定封裝。
 Please make sure the Protel file is exported as ASCII format file. = 請確保 Protel 文件是導出為 ASCII 格式的文件。
@@ -3270,8 +3333,65 @@ Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(
 Tips =
 Exists incomplete connection =
 Found that the board has incomplete connection, please check the nets and ratlines =
-creator =
 
 You are not logged in or the login status is invalid, please login and try again. = 尚未登錄或登錄狀態失效，請登錄後再試。
 
 Display Board Cutout = 顯示板子挖槽
+
+Apply New Part =
+Apply New Parts for Free =
+
+Migrate to Pro Edition... =
+Recommended migrate the Std edition projects to the Pro edition, the Pro edition is more features powerful, and more more smoother. How to migrate: =
+1. Download and login the Pro edition. =
+2. Via: Top Menu - File - Migrate Standard... =
+3. Select the projects or libraries to migrate. =
+4. If your projects are saved at local, you can compress the schematic and PCB as a zip file, and then import it to the Pro edition. Via: Top Menu - File - Import - EasyEDA(Standard). =
+Open Pro Edition =
+Feedback =
+
+Datasheet Extract Wizard =
+Or double click here to add image(<5MB) =
+Pins Information =
+Next Step =
+Drop graphic files here =
+Please drag graphic file =
+Click to cancel loading =
+Use rolling wheels to zoom preview screen =
+Please add pin information first =
+The current environment does not support the paste content from the clipboard =
+The current environment does not read the permissions of the clipboard =
+Please copy a picture and paste the paste =
+Image compression failure =
+Please drag or paste image at here =
+Pins Data without extraction =
+Please make sure the editor is connect with internet, the extraction need some time, please wait a while =
+Add image failed, please add an image which small than 5MB =
+The image size cannot be more than 2 MB =
+Image Type =
+SOP type =
+QFN type =
+Table type =
+Clear =
+Side =
+No permission, please contact project manager to enable permission, after enable please refresh the project list and try again =
+During the exam, cross -engineering paste =
+The exam has ended and cannot be edited =
+Exam remaining time =
+Exam is over =
+The exam is over and the test papers are being corrected =
+Quit out =
+The current account does not belong to the current engineering member and cannot create a new documentation =
+
+The generated pads size will little bigger than input size, good for welding =
+
+The project has been published, but after editing, the project becomes unpublished. Do you want to continue? =
+You are trying to update components from library, please check the difference before update, if the flipped(mirrored) component(s) on the canvas updated, they will be reset to original status, please notice. Do you want to continue? =
+{value}{unit-name}, need more than DRC({drc-value}{unit-name}) =
+{value}{unit-name}, need less than DRC({drc-value}{unit-name}) =
+Need more than DRC({drc-value}{unit-name}) =
+Need less than DRC({drc-value}{unit-name}) =
+Incomplete Connection =
+Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
+
+Auto Pin Placement =

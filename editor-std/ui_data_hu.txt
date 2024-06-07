@@ -1,3 +1,5 @@
+# Magyar (Hungarian)
+
 #Menu
 User = Felhasználó
 Join... = Regisztráció...
@@ -12,6 +14,7 @@ Crash = Összeomlás
 Invite friends... = Barátok meghívása...
 Language = Nyelv
 Language Setting = Nyelvi beállítások
+
 Document Recovery = Dokumentum-helyreállítás
 Your Preferences Information = Az Ön preferenciáira vonatkozó információk
 File = Fájl
@@ -37,6 +40,8 @@ Cadence... = Cadence...
 Pads... = Pad-ek...
 DXF = DXF
 Import = Importálás
+
+
 Edit = Szerkesztés
 Undo = Visszavonás
 Redo = Mégis
@@ -69,9 +74,10 @@ Flip Horizontal = Vízszintes tükrözés
 Flip Vertical = Függőleges tükrözés
 Rotate and Flip = Forgatás és tükrözés
 Group/Ungroup Symbol... = Szimbólum csoportosítása/csoport bontása...
-[menu_project]	[menu_project]
+
+[menu_project]
 View = Nézet
-[/menu_project]	[/menu_project]
+[/menu_project]
 Find = Keresés
 Zoom In = Nagyítás
 Zoom Out = Kicsinyítés
@@ -96,6 +102,7 @@ Arc Center = Ív középpontja
 Arc Type = Ív típusa
 Center Point Arc = Középpontos ív
 Two-point Arc = Kétpontos ív
+
 Place = Elhelyezés
 Drawing Tools = Rajzeszközök
 Arc = Ív
@@ -108,6 +115,7 @@ Polyline = Vonallánc
 Rectangle = Téglalap
 Rectangular = Négyszögletes
 The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = A téglalap nem támogatja a 90 foktól eltérő elforgatást. Használja inkább a Kitöltött területet.
+
 Rect = Téglalap
 Round Rectangle = Lekerekített téglalap
 Polygon = Sokszög
@@ -131,6 +139,7 @@ No Connect Flag = Nincs csatlakoztatva
 Place = Elhelyez
 Pin = Kitűz
 Lock Selected Objects = Kijelölt objektumok zárolása
+
 Miscellaneous = Vegyes
 Find Component = Alkatrész keresése
 Component = Alkatrész
@@ -155,21 +164,22 @@ Standard Mode = Normál mód
 Simulation Mode = Szimulációs mód
 Change to Standard Mode = Normál módra váltás
 Change to Simulation Mode = Szimulációs módra váltás
-Welcome to Use LCEDA = Üdvözöljük az LCEDA használata
+Welcome to Use JLCEDA = Üdvözöljük az JLCEDA használata
 Welcome to Use EasyEDA = Üdvözöljük az EasyEDA
 Enable Education Edition Features for Free >>> = Az Education Edition funkcióinak ingyenes engedélyezése  >>>
 Quick Start = Gyorsindítás
 More Help = További segítség
 Explore = Felfedezés
 Message = Üzenet
-[start]	[start]
+[start]
 Example = Példa
 Forum = Fórum
 Tutorials = Oktatóanyagok
 Videos = Videók
-[/start]	[/start]
+[/start]
 Custom Data = Egyéni adatok
-LCEDA = LCEDA
+JLCEDA = JLCEDA
+
 Copy Result Image = Eredménykép másolása
 Export Result Image = Eredménykép exportálása
 Simulation Result = Szimulációs eredmény
@@ -221,11 +231,14 @@ Segments = Szegmensek
 Connection = Kapcsolat
 Net = Nettó
 Apply Design Rule While Routing and Auto Placing Via = Tervezési szabály alkalmazása útválasztás és automatikus elhelyezés közben
+
 Add SubPart = Alrész hozzáadása
 Annotate... = Jegyzetelés...
 Config = Config
+
 Help = Súgó
 About = Körülbelül
+Online Chat =
 Shortcut Keys = Billentyűparancsok
 FAQ = GYIK
 Tutorials = Oktatóanyagok
@@ -266,10 +279,11 @@ Order Essential Check = Rendelési alapvető ellenőrzés
 Order FAQ = Rendelés GYIK
 Order Process = Rendelési folyamat
 Full Screen = Teljes képernyő
+
 Support = Támogatás
-[leftNavTabs]	[leftNavTabs]
+[leftNavTabs]
 Support = Támogatás
-[/leftNavTabs]	[/leftNavTabs]
+[/leftNavTabs]
 Historical Records... = Történelmi feljegyzések...
 Extensions = Bővítmények
 Order PCB... = PCB rendelése...
@@ -304,11 +318,13 @@ Cross Probe and Place = Keresztszonda és hely
 Paper Size = Papírméret
 Register = Regisztráció
 User Center = Felhasználói központ
+
 By Mouse Location = Egér helye szerint
 Set Coordinate = Koordináta beállítása
 By Coordinates... = Koordináták szerint...
 By Center of Pads = A Pads középpontja
 By Center Grid of Symbols = A szimbólumok középső rácsa
+
 #Schematic Canvas Properties
 Properties = Tulajdonságok
 Apply = Alkalmaz
@@ -338,6 +354,7 @@ Frame Size = Keretméret
 Alt Snap = Alt Snap
 Snap size when pressing the Alt key = Illesztési méret az Alt billentyű lenyomásakor
 Prefix Start = Kezdő előtag
+
 #Text Properties
 Text Properties = Szövegattribútumok
 Text = Szöveg
@@ -371,6 +388,7 @@ Failed to add font: {name} = Nem sikerült betűtípust hozzáadni: {név}
 Add Font = Betűtípus hozzáadása
 Failed to parse cached font: {name} = Nem sikerült elemezni a gyorsítótárazott betűtípust: {név}
 Load cached fonts fail! = A gyorsítótárazott betűtípusok betöltése sikertelen!
+
 #Stroke
 Stroke Color = Körvonal színe
 Stroke Width = Körvonal szélessége
@@ -378,6 +396,7 @@ Stroke Style = Körvonal stílusa
 Fill Color = Szín kitöltése
 X Radius = X sugár
 Y Radius = Y sugár
+
 #spice
 Switch mode = Váltási mód
 The current documents will be closed, and reopen after switching mode, do you want to continue? =  Az aktuális dokumentumok bezárnak , és a váltási módután újra megnyílnak , folytatja a következőt :
@@ -676,6 +695,7 @@ Common Cathode = Közönséges katód
 AC Amplitude = AC amplitúdó
 AC Phase = AC fázis
 There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = Vannak olyan részek, amelyek nem fűszer modell, kérjük, használja "EElib" és "Spice Symbol" a "Könyvtárak" a"Szimuláció" mód, vagy hozzárendelheti a fűszer modell őket:
+
 #Pin
 Pin Properties = Pin attribútumok
 Orientation = Tájolás
@@ -695,16 +715,20 @@ Display Number = Megjelenítési szám
 Clock = Óra
 Show = Megjelenítés
 Electric = Elektromos
+
 #Junction
 Junction Properties = Elágazás attribútumai
 X Location = X hely
 Y Location = Y Bérlés
 Size = Méret
 Color = Szín
+
 #Net Label
 Net Label = Nettó címke
+
 #Part
 Prefix = Előtag
+
 #Image Properties and Dialog
 Add Image = Kép hozzáadása
 Image Properties = Képattribútumok
@@ -736,14 +760,16 @@ Image Size = Képméret
 Color Tolerance = Színtűrés
 Simplify Level = Szint egyszerűsítése
 Corner Threshold = Sarokküszöb
+Despeckle Size =
+
 #PCB Canvas Properties
 Units = Egységek
 Snap Size = Illesztett méret
 Other = Egyéb
 Routing Width = Útválasztási szélesség
-[router]	[router]
+[router]
 Routing Width = Útválasztási szélesség
-[/router]	[/router]
+[/router]
 Please using hotkey {0}{key1}{1} or {2}{key2}{3} to change track width while on routing. = Kérjük, használja a gyorsbillentyű {0}{key1}{1} vagy {2}{lap}{3} változtatni track szélessége útválasztás közben .
 Routing Angle = Útválasztási szög
 Routing Conflict = Útválasztási ütközés
@@ -758,6 +784,7 @@ Invisible = Láthatatlan
 Ignore = Figyelmen kívül hagyás
 Block = Blokk
 RoundTrack = RoundTrack
+
 #Track
 Track Properties = Tulajdonságok nyomon követése
 Layer = Réteg
@@ -767,6 +794,7 @@ Start Y = Y indítása
 End X = X vége
 End Y = Y vége
 ID = ID
+
 #Pad Properties
 Pad Properties = Pad tulajdonságai
 Shape = Alak
@@ -782,19 +810,25 @@ Plated = Bevont
 None = Nincs
 Paste Mask Expansion =  Maszkbővítés beillesztése
 Solder Mask Expansion = Forrasztómaszk bővítés
+
 #Via Properties
 Via Properties = Tulajdonságokon keresztül
 Diameter = Átmérő
 Drill Diameter = Fúró átmérője
+
 #Hole Properties
 Hole Properties = Furat tulajdonságai
+
+
 #TEXT
 Text Properties = Szövegtulajdonságok
 Line Width = Vonalszélesség
 Rotation = Rotáció
 Fonts Management = Betűtípusok kezelése
+
 #Dimension Properties
 Dimension Properties = Dimenzióattribútumok
+
 #Footprint Properties
 Component Properties = Összetevőattribútumok
 Display Prefix = Előtag megjelenítése
@@ -803,17 +837,30 @@ Pin Number = PIN-kód
 Spice Pin Number = Fűszer pin száma
 Graphics = Grafika
 Pattern = Minta
+
+Pin: =
+Netflag: =
+Netlabel: =
+NetPort: =
+Voltage Probe: =
+Pin: =
+Hidden Pin: =
+Unknown: =
+
 #Arc Properties
 Arc Properties = Ív tulajdonságai
 Start Angle = Indítási szög
 End Angle = Végszög
 Rotation Direction = Forgási irány
+
 #Rect Properties
 Rect Properties = Ingatlanok helyesbítése
 Round radius = Kerek sugár
+
 #Circle Properties
 Circle Properties = Kör tulajdonságai
 Radius = Sugár
+
 #CopperArea Properties
 CopperArea Properties = CopperArea tulajdonságai
 Clearance = Clearance
@@ -833,9 +880,10 @@ Spoke = Küllő
 No Solid = Nincs szilárd
 Board Cutout = Táblakivágás
 Solid = Szilárd
-[copperArea]	[copperArea]
+[copperArea]
 None = Nincs
-[/copperArea]	[/copperArea]
+[/copperArea]
+
 #Custom Properties
 Custom Properties = Egyéni attribútumok
 Fixed Properties = Rögzített attribútumok
@@ -844,10 +892,12 @@ Add New Parameter = Új paraméter hozzáadása
 Add New Supplier = Új szállító hozzáadása
 Mounted = Szerelt
 Unknown = Ismeretlen
+
 Custom = Egyéni
 Scan the QR code below and open it on the mobile side = Szkennelje be az alábbi QR-kódot, és nyissa ki a mobil oldalon
 How to create a single layer PCB =  Hogyan hozzunk létre egy réteg PCB
 Currently doesn't support layout single layer directly, please refer at: = Jelenleg nem támogatja az elrendezés egyrétegű közvetlenül,kérjük, olvassa el:
+
 #Dialog Register
 Create an account = Fiók létrehozása
 Username = Felhasználónév
@@ -856,9 +906,13 @@ Confirm Password = Jelszó megerősítése
 Email = E-mail
 Please read this before you register = Kérjük, olvassa el ezt, mielőtt regisztrálna
 Hi {username} = Szia {felhasználónév}
+
 #Dialog lostPassword
 Lost Password... = Elveszett jelszó...
 Find the password using your email = Keresse meg a jelszót az e-mail használatával
+
+
+
 #Dialog Login
 Login = Bejelentkezés
 Username or Email = Felhasználónév vagy e-mail
@@ -866,14 +920,18 @@ Remember Me = Emlékezz rám
 Third party = Harmadik fél
 Login and Register = Bejelentkezés és regisztráció
 Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = A bejelentkezési adatai lejártnak tűnnek, kérjük, jelentkezzen be újra. Nem kell bezárnia a nyitófájlokat, a bejelentkezés után is mentheti őket.
+
 #Dialog Reset Password
 Reset a password using your email = Jelszó alaphelyzetbe állítása az e-mail használatával
 Your registered email = A regisztrált e-mail
+
 #Dialog Reaction
 Re-send an activation code to your email = Küldjön újra egy aktiváló kódot az e-mail címére
+
 #Dialog Invite
 Invite friends to register = Barátok meghívása regisztrációra
 Your friend's email = A barátod e-mailje
+
 #Dialog Add A New Parameter
 Add a new parameter = Új paraméter hozzáadása
 Key = Kulcs
@@ -882,11 +940,13 @@ In BOM = És AJ
 Add into BOM = Hozzáadás az anyagjegyzékbe
 Invalid key = Érvénytelen kulcs
 This field is required. = Ez a mező szükséges.
+
 #Dialog Change Your Password
 Change your password = Jelszó módosítása
 Old password = Régi jelszó
 New Password = Új jelszó
 Confirm Password = Jelszó megerősítése
+
 #Dialog Create New Design
 Save as a New Project = Mentés új projektként
 Save as a schematic = Mentés sematikusként
@@ -900,6 +960,7 @@ Save as a Schematic Module = Mentés sematikus modulként
 Save as a PCB Module = Mentés PCB modulként
 Save as 3D Model = Mentés 3D modellként
 Save as a WaveForm = Mentés WaveForm
+Do not allow saving to target project =
 Title = Cím
 Share = Megosztás
 Add file = Fájl hozzáadása
@@ -916,6 +977,7 @@ Duplicated project title = Duplikált projekt címe
 Project does not exist = A projekt nem létezik
 Document does not exist = A dokumentum nem létezik
 document not exists = dokumentum nem létezik
+
 Categories = Kategóriák
 Project = Projekt
 Short description = Rövid leírás
@@ -932,14 +994,17 @@ Supplier Part Number = Szállítói cikkszám
 Link = Link
 link = link
 The professional function please refer at: = A szakmai funkció kérjük, olvassa el:
+
 #Dialog Clone My Part
 #Clone it to a project
 #Clone it, then edit it
 Clone your file = A fájl klónozása
+
 #Dialog Subckt
 Attach a Subckt to this spice symbol = Csatoljon egy subckt-et ehhez a fűszer szimbólumhoz
 Subckt string = Subckt karakterlánc
 Spice symbol title just allow [0-9][a-z][A-Z] and _ = Spice szimbólum címe csak lehetővé teszi [0-9][a-z][A-Z] és _
+
 #Design Manager
 Design Manager = Design Manager
 Nets = Hálók
@@ -952,7 +1017,7 @@ Filter nets = Szűrőhálók
 Design Rule Checking = Tervezési szabály ellenőrzése
 Board Outline = Tábla vázlata
 Plane Zone = Sík zóna
-[drcRule]	[drcRule]
+[drcRule]
 Width = Szélesség
 DRC Width = DRC szélesség
 Length = Hossz
@@ -963,7 +1028,7 @@ Diameter = Átmérő
 DRC Diameter = KDK átmérő
 Object = Objektum
 DRC Clearance = KDK clearance
-[/drcRule]	[/drcRule]
+[/drcRule]
 #It will take a while to unroute this net, do you want to continue?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = Több netlabel található a huzalban, kérjük, ellenőrizze, hogy ez helyes-e , ha szándékosan tervezte meg , kérjük, hagyja figyelmen kívül ezt a figyelmeztetést.
 Incomplete net, a complete net should contain two or more pins, if you design it on purpose, please ignore this warning. = Hiányos háló, a teljes hálónak két vagy több csapot kell tartalmaznia , ha szándékosan tervezi , kérjük, hagyja figyelmen kívül ezt a figyelmeztetést.
@@ -974,11 +1039,13 @@ The diameter is less than Design Rule Checking (DRC) diameter = Az átmérő kis
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = A fúró átmérője kisebb, mint a tervezési szabályellenőrzés (DRC) fúró átmérője
 The track length is longer than Design Rule Checking (DRC) track length = A pálya hossza hosszabb, mint a tervezési szabályellenőrzés (DRC) sáv hossza
 The track width is less than Design Rule Checking (DRC) track width = A sáv szélessége kisebb, mint a tervezési szabályellenőrzés (DRC) sávszélesség
+
 #Dialog Simulation
 Show your simulation report = Szimulációs jelentés megjelenítése
 Download netlist = Letöltés netlist
 Run = Futtatás
 Components = Összetevők
+
 #Dialog Import
 Import file from your computer = Fájl importálása a számítógépről
 Maximum file size: 30 MB = Maximális fájlméret: 30 MB
@@ -987,6 +1054,7 @@ Chose file = Kiválasztott fájl
 File Operation = Fájlművelet
 Import File = Fájl importálása
 Extract Libs = Kivonat Libs
+No Libs! =
 Import File and Extract Libs = Fájl importálása és kivonat libs
 File type = Fájl típusa
 The file size is too large. = A fájl mérete túl nagy.
@@ -996,6 +1064,7 @@ Import successfully = Importálás sikeresen
 Import failed = Az importálás sikertelen
 Click OK to continue with the import = Kattintson az OK gombra az importálás
 Select None = Válassza a Nincs
+
 #Dialog Modify Symbol Information
 Modify symbol information = Szimbólumadatok módosítása
 Spice Prefix = Spice előtag
@@ -1011,14 +1080,21 @@ Package.bom = Package.bom
 Components.bom = Components.bom
 Manufacturer Part.bom = Gyártó Part.bom
 Manufacturer.bom = Manufacturer.bom
+
 One-click Purchasing at LCSC = Egy kattintásos vásárlás az LCSC-nél
 Order Parts = Alkatrészekmegrendelése /Készlet ellenőrzése
 Export BOM = Anyagjegyzék exportálása
+Upload to LCSC ERP =
+Order SMT Parts =
+No components, upload failed! =
+Upload to LCSC ERP failed, please try again later. =
+Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. =
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. =
 Export PCB BOM = PCB-anyagjegyzék exportálása
 Export Schematic BOM = Sematikus anyagjegyzék exportálása
 ID.bom = ID.bom
 Name.bom = Name.bom
-[bom]	[jó]
+[bom]
 Name = Név
 LCSC Assembly = LCSC összeszerelés
 Value = Érték
@@ -1030,19 +1106,24 @@ Quantity = Mennyiség
 Package = Csomag
 Components = Összetevők
 Manufacturer = Gyártó
-[/bom]	[/jó]
+[/bom]
 Manufacturer Part = Gyártói rész
+Part Number =
+Part Code =
+
 #Dialog Run
 Run your simulation = A szimuláció futtatása
 Transient = Átmeneti
 Maximum Timestep = Maximális időbélyeg
 Stop Time = Stop Time
 Start Time = Kezdési idő
+
 AC Analysis = AC elemzés
 Type of Sweep = A sweep típusa
 Number of points = Pontok száma
 Start Frequency = Indítási gyakoriság
 Stop Frequency = Stop frequency
+
 DC sweep = EGYENÁRAMú sweep
 Source to Sweep = Forrás sweep
 Start Value = Kezdő érték
@@ -1051,8 +1132,10 @@ Increment = Növekmény
 DC Transfer = EGYENÁRAMú átvitel
 Output = Kimenet
 Source = Forrás
+
 DC op pnt = DC pnt
 Compute the DC operating point treating capacitances as opens and inductances as shorts = Számítsa ki az egyenáramú működési pontot, amely a kapacitásokat nyitásként, az induktance-eket pedig rövidnadrágként kezeli
+
 #Dialog Share Info
 Active File = Aktív fájl
 Active Project = Aktív projekt
@@ -1060,6 +1143,7 @@ Readonly = Readonly
 Editable = Szerkeszthető
 Active file's owner project page = Az aktív fájl tulajdonosának projektoldala
 Active project editor page = Aktív projektszerkesztő lap
+
 #Dialog Document Recovery
 All Projects = Minden projekt
 Document Recovery = Dokumentum-helyreállítás
@@ -1067,6 +1151,7 @@ Unsaved files = Nem mentett fájlok
 Please select a file! = Válasszon ki egy fájlt!
 Please expand the folder first, then select a document to recover. = Először bontsa ki a mappát, majd jelöljön ki egy helyreállítandó dokumentumot
 Are you sure you want to remove this backup? =  Biztosan eltávolítja ezt a biztonsági mentést?
+
 #Dialog Find Libs
 Search = Keresés
 Search Results = Keresési eredmények
@@ -1079,9 +1164,12 @@ In stock = Raktáron
 Common Modules = Közös modulok
 User Contributions = Felhasználói hozzájárulások
 More = Több
+Modify Model... =
 Add Favorite = Kedvenc hozzáadása
 Remove Favorite = Kedvenc eltávolítása
 Add Sub Part = Rész hozzáadása
+Add Sub Parts... =
+Please enter how many sub parts need to be added =
 Untagged = Nem zacskózatlan
 Package = Csomag
 package = csomag
@@ -1104,14 +1192,14 @@ Classes = Osztályok
 power = teljesítmény
 Power = Teljesítmény
 LCSC Part# = LCSC Part# =
-Stock = Készlet
+LCSC Stock = LCSC Készlet
 Report Error... = Jelentési hiba...
 Report Error = Jelentési hiba
 Thanks for your feedback! = Köszönöm a visszajelzést!
 Report error success, thanks for your report! = Jelentés hiba siker, köszönöm a jelentést!
 The content must be at least 2 characters! = A tartalomnak legalább 2 karakternek kell lennie !
 This library is user contributed, please check before using. = Ez a könyvtár a felhasználó által hozzájárult, kérjük, ellenőrizze, mielőtt a.
-[lib]	[lib]
+[lib]
 All = Minden
 System = Rendszer
 Personal = Személyes
@@ -1120,12 +1208,15 @@ Favorite = Kedvenc
 No Team found. Please join or create a team first. = Nem találhatócsapat. Először csatlakozzon vagy hozzon létre egy csapatot .
 Create a team = Csapat létrehozása
 No follow user found. Please follow your friend first. = Nem található követő felhasználó. Kérjük, kövesse a barátja először.
-[/lib]	[/lib]
+[/lib]
+
+
 BUY = VÁSÁRLÁS
 In Stock = Raktáron
 Out of Stock = Készleten kívül
 Minimum = Minimum
 Distributor = Forgalmazó
+
 Capacitance = Kapacitás
 Frequency Tolerance = Frekvenciatűrés
 Power (Watts) = Teljesítmény (Watt)
@@ -1146,6 +1237,7 @@ Voltage - Input (Min) = Feszültség - Bemenet (Min)
 Voltage - Supply = Feszültség - Tápellátás
 Voltage - Max = Feszültség - Max
 Current - Output = Áram - Kimenet
+
 #Dialog Export Your Works
 Export your works = Művei exportálása
 Export to = Exportálás
@@ -1164,6 +1256,7 @@ BottomLayer = BottomLayer
 TopSilkLayer = TopSilkLayer
 Protractor Properties = Szögmérő attribútumok
 BottomSilkLayer = BottomSilkLayer
+
 BoardOutLine = BoardOutLine
 TopAssembly = TopAssembly
 BottomAssembly = BottomAssembly
@@ -1187,9 +1280,10 @@ Separated sheet = Elválasztott lap
 Engine = Motor
 Exporting PDF = PDF exportálása
 Export 3D Model = 3D modell exportálása
-[exportDocument]	[exportDocument]
+[exportDocument]
 Size = Méret
-[/exportDocument]	[/exportDocument]
+[/exportDocument]
+
 #Dialog Import Changes
 Confirm Importing changes information = Módosítások importálásának megerősítése
 You can't undo this operation, Please run a Design Rule Checking (DRC) after this operation. = A műveletet nem vonhatja vissza , A művelet után futtasson tervezési szabályellenőrzést (DRC).
@@ -1199,6 +1293,7 @@ It just can help you to find the obvious errors = Ez csak segíthet megtalálni 
 There are some unfinished nets, do you want to check the nets first? = Van néhány befejezetlen hálók, szeretné ellenőrizni a hálók először?
 Yes, Check Nets = Igen, Hálók ellenőrzése
 No, Keep Going = Nem, folytasd
+
 #Dialog Layer Manager
 Configured = Konfigurálva
 Layer Name = Réteg neve
@@ -1232,6 +1327,7 @@ Other = Egyéb
 Please delete all the objects of the layers first! The layers are: = Először törölje a rétegek összes objektumát! A rétegek:
 You are converting Signal Layer to Plane Layer, There're some non-track objects remain on following layers. Please delete the objects manually on the canvas. =  A Jelréteget síkréteggé konvertálja , Néhány nem sávos objektum a következő rétegeken marad. Törölje manuálisan az objektumokat a vásznon.
 Please delete all the objects of this layer first! = Először törölje a réteg összes objektumát !
+
 #Dialog Fabrication Output
 Create Files = Fájlok létrehozása
 Check your {0}Gerber files{1} carefully before sending them to the factory = Ellenőrizze a {0}Gerber fájlokat{1} gondosan, mielőtt elküldené őket a gyárba
@@ -1244,6 +1340,7 @@ After generating the Gerber file, please use the {0}Gerber Viewer{1} to check wh
 Order PCB/SMT = PCB/SMT megrendelése a JLCPCB-nél
 Found the complicated polygon that object cannot be generated at Gerber, please remove or replace = Megállapította, hogy a bonyolult sokszög objektum nem generálható a Gerbernél, kérjük, távolítsa el vagy cserélje ki
 ID: {id}, Object: {object}, Location: {location} = ID: {id}, Objektum: {objektum}, Hely: {hely}
+
 #Dialog DRC
 Item = Elem
 Value = Érték
@@ -1273,9 +1370,15 @@ Rule list contains invalid rule setting! = A szabálylista érvénytelen szabál
 Duplicate rule name exists! = Ismétlődő szabálynév létezik!
 via diameter is smaller than via drill diameter! = átmérője kisebb, mint a fúró átmérője!
 Currently rule name is not allowed to contain magical characters like . and $ = Jelenleg a szabálynév nem tartalmazhat olyan mágikus karaktereket, mint a . és $
-[drcRule]	[drcRule]
+Track Width (min) =
+Clearance (min) =
+Via Diameter (min) =
+Via Drill Diameter (min) =
+Track Length (max) =
+[drcRule]
 All = Minden
-[/drcRule]	[/drcRule]
+[/drcRule]
+
 #Dialog Hotkey
 Change Canvas Unit = Vászonegység módosítása
 Copy Selected Object(s) by Reference Point = Kijelölt objektum(ok) másolása hivatkozási pont szerint
@@ -1337,6 +1440,8 @@ Change to Inner2 = Váltás Belső2
 Change to Inner3 = Váltás Belső3
 Change to Inner4 = Váltás Belső4
 Highlight Net = Háló kiemelése
+Highlight Network =
+Unhighlight Network =
 Place Pad = Hely pad
 Place Via = Hely Via
 Measure = Mérték
@@ -1356,6 +1461,7 @@ Open the FAQ Page = A GYIK oldal megnyitása
 Move Object(s) by Reference Point = Objektum(ok)áthelyezése hivatkozási pont szerint
 Choose Favorite Track Width While Routing = Válassza a Kedvenc sávszélesség kiválasztása útválasztás közben
 Copy Selected Object(s) and Paste Repeatedly = Kijelölt objektum(ok) másolása és Beillesztés többször
+
 #My Projects Tree Menu
 New Project = Új projekt
 New Schematic = Új vázlat
@@ -1373,17 +1479,21 @@ Attachment = Melléklet
 Archive = Archívum
 Transfer = Átvitel
 Manage Project = Projekt kezelése
+
 #Dialog Verify Package
 Footprints Verification = Lábkiosztások ellenőrzése
+
 #Dialog Edit Polygon Pad points
 Edit Points = Pontok szerkesztése
 Center point is outside the pad = A középpont a padon kívül van
 Hole should be inside the pad = A lyuknak a pad belsejében kell lennie
 Hole is draggable = A lyuk húzható
+
 #My Part Tree Menu
 Clone = Klón
 Reload parts = Alkatrészek újratöltése
 Layers = Rétegek
+
 #Dialog Preferences
 Language = Nyelv
 Display Name = Megjelenítendő név
@@ -1393,9 +1503,14 @@ Document Recovery Setting = Dokumentum-helyreállítási beállítás
 Enable auto backup = Automatikus biztonsági mentés engedélyezése
 Maximum backup level = Maximális biztonsági mentési szint
 Auto backup interval = Automatikus biztonsági mentési időköz
+days =
+hours =
 minutes = perc
+seconds =
 Save to Server = Mentés a kiszolgálóra
 Load from Server = Betöltés a kiszolgálóról
+
+
 #Dialog Schematic Library Wizard
 Symbol Wizard = Szimbólum varázsló
 Style = Stílus
@@ -1404,10 +1519,13 @@ Pin Names = Pin nevek
 Contributor = Közreműködő
 contributor = közreműködő
 owner = tulajdonos
+
 #Dialog Annotate
 Annotate = Jegyzet
 Scope = Hatály
-Active Schematic only = Csak aktív sematikus
+All pages =
+Current page only = Csak aktív sematikus
+Selected components =
 All Opened Schematics = Minden megnyitott vázlat
 Method = Módszer
 Re-annotate all = Az összes újrajegyzetesítő
@@ -1416,6 +1534,7 @@ Direction = Irány
 Rows = Sorok
 Cols = Bérletek
 Reset = Visszaállítás
+
 #Dialog Order
 Order... = Rendelés...
 PCB Qty. = PCB Qty.
@@ -1437,16 +1556,22 @@ Surface Finish = Felületi befejezés
 Hasl = Hasl
 Hasl(Lead Free) = Hasl(Ólommentes)
 ENIG = CSAK
+
 #Dialog Hot Key config
 Restore All Default Shortcuts = Az összes alapértelmezett parancsikon visszaállítása
 Save Changes = Módosítások mentése
+
+
+
 #Dialog Polyline Maybe Wire
 To connect electrical elements, please use Wire (W hotkey) and not Line (L hotkey). = Az elektromos elemek csatlakoztatásához használja a Huzalt (W gyorsbillentyű)és ne a Sort (L gyorsbillentyű).
+
 Anonymous File = Névtelen fájl
 Anonymous File can not be cloned, but you can open it, then save it as a new file. = Névtelen fájl nem klónozható, de megnyithatja , majd mentheti új fájlként
 Free Documents = Ingyenes dokumentumok
 You must close the file before delete it! = A törlés előtt be kell zárnia a fájlt !
 Offline Project = Offline projekt
+
 #Message box
 Confirmation = Megerősítés
 Alert = Riasztás
@@ -1474,6 +1599,7 @@ No connect flag only can be placed on Pin dot or the wire which is connected one
 can not be placed on the wire which is placing No Connect Flag. = nem helyezhető a vezetékre, amely nem kapcsol be jelzőt.
 The footprint transfer to LCSC library class successfully = A lábkiosztás átvitele az LCSC könyvtári osztályba sikeresen
 Device/Footprint goes into "SMT Device/Footprint Verified" list successfully = Eszköz/Lábkiosztás megy "SMT eszköz /lábkiosztás ellenőrzött" lista sikeresen
+
 Load failure! = Terhelési hiba!
 Load projects failed = A projektek betöltése nem sikerült
 error info = hibainformáció
@@ -1498,6 +1624,7 @@ Guests can't import a file. Please login! = A vendégek nem importálhatnak fáj
 Please create a project before you import a file! = A fájl importálása előtt hozzon létre egy projektet!
 Import your LTspice file! = Importálja a TTspice fájlt!
 Open LTspice file = Tetksz fájl megnyitása
+Open EasyEDA file =
 Please make sure the selected LTspice file is a file saved in LTspice V and above. = Győződjön meg arról, hogy a kiválasztott TTspice fájl egy TTspice V és annál magasabb.
 Saved successfully! = Sikeresen mentve!
 Save failed! = Mentés sikertelen!
@@ -1571,6 +1698,7 @@ All ratlines are hidden successfully! = Minden ratlines van elrejtve sikeresen!
 Hidden the ratline of net {netName} successfully! = Rejtette el a net {netName} ratline-ját sikeresen!
 Duplicate Component Prefix = Összetevő előtagja
 {0} exist = {0} létezik
+Modify successfully, but {0} already exists =
 There are some invalid packages, are you sure? = Van néhány érvénytelen csomag, biztosbenne ?
 Invalid Characters, library only allows [0-9a-zA-Z-_] = Érvénytelen karakterek, könyvtár csak engedélyezi [0-9a-zA-Z-_]
 Annotation success = Jegyzetelési siker
@@ -1615,6 +1743,7 @@ Please build the copper area! Click the help button to find out how to build the
 Suggest to set a package for this component first! = Javasoljuk, hogy először állítson be egy csomagot ehhez az összetevőhöz !
 Please select an opened document first. = Először válasszon ki egy megnyitott dokumentumot .
 Some files failed to load. Please reload the page. = Egyes fájlok betöltése nem sikerült . Töltse be újra az oldalt.
+
 #UI Intro
 Skip = Kihagyás
 « Back = « Vissza
@@ -1626,6 +1755,7 @@ This is the navigation list. Under here you can find projects, files, parts and 
 Show or hide the toolbar to the top of the window here. = Az eszköztár megjelenítése vagy elrejtése az ablak tetejére itt.
 Show, resize or hide the left sidebar to the left of the window here. = Jelenítse meg, átméretezzék vagy rejtsék el a bal oldalsávot az ablak bal oldalán.
 Show or hide the right sidebar to the right of the window here. = Jelenesse meg vagy rejtse el az  ablaktól jobbra található jobb oldalsávot.
+
 #Standard libs
 Passive Components = Passzív komponensek
 Power Supply = Tápegység
@@ -1671,10 +1801,12 @@ VCCS(Voltage Controlled Current Source) = VCCS ( Feszültségvezérelt áramforr
 VCVS(Voltage Controlled Voltage Source) = VCVS ( Feszültségvezérelt feszültségforrás )
 CCVS(Current Controlled Voltage Source) = CCVS ( Áramvezérelt feszültségforrás )
 CCVS2(Current Controlled Voltage Source) = CCVS2 ( Áramvezérelt feszültségforrás )
+
 BV(Behavioral Voltage Sources) = BV (Viselkedési feszültségforrások )
 BI(Behavioral Voltage Sources) = BI (Viselkedési feszültségforrások )
 Epoly(Non-linear Voltage Source) = Epoly(nemlineáris feszültségforrás )
 Gpoly(Non-linear Current Source) = Gpoly(Nemlineáris áramforrás )
+
 Diode = Dióda
 LED = LED
 LED_3D = LED_3D
@@ -1706,6 +1838,7 @@ Darlington NPN = Darlington NPN
 Darlington PNP = Darlington PNP
 MESFET(Nch) = MESFET(Nch)
 MESFET(Pch) = MESFET(Pch)
+
 IGBT = IGBT
 SCR = SCR
 Triac = Triac
@@ -1742,6 +1875,7 @@ Voltmeter = Voltmérő
 Ammeter = Ammeter
 LAMP = LÁMPA
 Opto Transistor = Opto Tranzisztor
+
 #Server Message
 Need login = Bejelentkezésre van szükség
 Bad password = Rossz jelszó
@@ -1752,6 +1886,7 @@ Empty file or bad file type, ensure your file is Eagle 6.0+ = Üres fájl vagy r
 This operation not supported on demo account = Ez a művelet nem támogatott demo számlán
 Can not share this file under a private project, please set the active project to public! = Nem oszthatja meg ezt a fájlt egy privát projekt alatt, kérjük, állítsa be az aktív projektet nyilvánosra !
 Login Failed Too many attempts. If you forgot your password, please {0}reset your password{1} or send an email to support@easyeda.com = Bejelentkezés Nem sikerült Túl sok kísérlet. Ha elfelejtette jelszavát , kérjük , {0}állítsa vissza a jelszavát{1} vagy küldjön e-mailt a support@easyeda.com
+
 #Dialog Common Buttons
 Common Buttons Setting = Gyakori gombok beállítása
 Menu Setting... = Menübeállítás ...
@@ -1761,6 +1896,7 @@ Move Down = Lefelé
 Reset All = Az összes visszaállítása
 Zoom = Nagyítás
 Place Pin = Hely kitűző
+
 #System Setting Dialog
 System = Rendszer
 Zoom Mode = Nagyítási mód
@@ -1783,6 +1919,8 @@ The Track's Routing Follows Component's Rotation = A sáv útválasztása az ös
 Display Pad's Number and Net = A Pad számának és hálójának megjelenítése
 Favorite Track width = Kedvenc sávszélesség
 Track Width Setting = Sávszélesség beállítása
+
+
 #Dialog Access Control
 Permissions = Engedélyek
 Operations = Művelet
@@ -1791,16 +1929,22 @@ Project Access Control = Projekthozzáférés-vezérlés
 Reject = Elutasítás
 Add User = Felhasználó hozzáadása
 Bad email address = Rossz e-mail cím
+Permissions Error =
+
 #error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Nem található ez az e-mail-cím az EasyEDA-ban. Partnerének EasyEDA felhasználónak kell lennie .
+
 #Dialog waveForm
 Grid Background = Rács háttere
 Pane Background = Ablaktábla háttere
 WaveForm Config = WaveForm Config
 Export Waveform = Hullámforma exportálása
+
+
 #attr-canvas-grid-style
 dot = dot
 line = sor
+
 #attr-canvas-frame-size
 Other = Egyéb
 A4 Portrait = A4 Portré
@@ -1813,20 +1957,24 @@ A1 Portrait = A1 Portré
 A1 Landscape = A1 Fekvő
 Landscape = Fekvő
 Portrait = Álló
+
 #Stroke Style
 solid = szilárd
 dashed = szaggatott
 dotted = pontozott
+
 #Solid Region
 Solid Region = Szilárd régió
 Type = Típus
 type = típus
+
 #Dialog Libs Management
 Report error = Jelentési hiba
 Please give us some information to help us find the problem. = Kérjük, adjon nekünk néhány információt, hogy segítsen megtalálni a problémát.
 Cannot place parts into this document: Schematic Symbols can only be placed into a Schematic; PCB Footprints can only be placed into a PCB. = Nem lehet részeket helyezni ebbe a dokumentumba : Sematikus szimbólumok csak sematikus; A PCB lábkiosztások csak PCB-be helyezhetők.
 Save it as a favorite part = Mentse kedvenc részként
 Only logged-in users can save this component as a Favorite Part but guest (Anonymous) users can place this component into their design directly. Would you like to place this component now? = Csaka bejelentkezett felhasználók menthetik ezt az összetevőt kedvenc alkatrészként, de a vendég (Névtelen) felhasználók közvetlenül elhelyezhetik ezt az összetevőt a tervükbe . Most szeretné elhelyezni ezt az összetevőt ?
+
 #Others
 Find libs = Libs keresése
 My Projects = Saját projektek
@@ -1874,6 +2022,9 @@ Update = Frissítés
 Bus entry = Buszbelépő
 Filter = Szűrő
 Check = Ellenőrzés
+Share my work =
+Share it by e-mail, IM, blog, etc. =
+
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Másolja a mező tartalmát egy szövegszerkesztőbe, majd mentse a fájlt. Illessze be a szerkesztett szöveget ebbe a mezőbe, majd kattintson a Alkalmaz gombra a kijelző frissítéséhez.
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Másolja a mező tartalmát egy szövegszerkesztőbe, majd mentse a fájlt egy . svg kiterjesztés. Szerkesztheti az Inkscape-ben, vagy megnyithatja a böngészőben.
 Content is too big to show, you can download it directly. = A tartalom túl nagy ahhoz, hogy megmutassa, közvetlenül letöltheti .
@@ -1884,6 +2035,7 @@ The file save operation has timed out. Try again and check your Internet connect
 Export Netlist = Netlista exportálása
 Notifications = Értesítések
 Please select txt or json files. = Válassza ki a txt vagy json fájlokat.
+Please select EasyEDA files. =
 Failed to read file [{file}] = Nem sikerült olvasni a fájlt [{file}]
 [{file}] is not a valid json file = [{file}] nem érvényes json fájl
 Invalid parameters! = Érvénytelen paraméterek!
@@ -1901,6 +2053,8 @@ Net Length = Nettó hossz
 You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Elhelyezhet egy pint a sematikus területen, de ne felejtse el az összes pint sematikus összetevőhöz csoportosítani. Kérjük, kattintson a súgó gombra, hogy megtudja, hogyan csoportosítja őket. Ha csak meg szeretné jelölni a vezetéket, kérjük, használja a NetPort vagy a NetLabel.
 Please input the modification = Kérjük, adja meg a módosítást
 The content must be between {0} and {1} characters = A tartalomnak {0} és {1} karakter között kell lennie
+Please input a number between {0} and {1} =
+
 Coming soon = Hamarosan
 No tool = Nincs eszköz
 Help us translate into your language = Segítsen nekünk lefordítani az Ön nyelvére
@@ -1913,6 +2067,8 @@ Free = Ingyenes
 Small = Kicsi
 Medium = Közepes
 Big = Nagy
+
+
 Embed = Beágyazás
 HTML = HTML
 URL = URL
@@ -1924,39 +2080,51 @@ Exporting as {0}SVG{1} file. = Exportálás {0}SVG{1} fájlként.
 Exporting as pdf is recommended: pdf gives good quality printed output and a small file size. = Exportálás pdf formátumban ajánlott:pdf ad jó minőségű nyomtatott kimenet és egy kis fájlméret .
 Generate PCB Fabrication File(Gerber) = PCB gyártási fájl létrehozása (Gerber)
 PenWidth-Increase = PenWidth-Increase
+
 #Generate Gerber
 Generate Gerber = Gerber létrehozása
 Gerber View = Gerber nézet
+Dimensions =
+1-2 days =
+Build Time =
 Dimensions(Estimated) = Méretek(Becsült)
 PCB Qty = PCB Qty
 Copper Weight = Réz súlya
 PCB Price = PCB ár
 Estimated Delivery Time = Becsült szállítási idő
+
 HASL(with lead) = HASL (ólommal)
 LeadFree HASL-RoHS = LeadFree HASL-RoHS
 ENIG-RoHS = ENIG-RoHS
 Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = A Gerber-fájlok létrehozása előtt szeretné elvégezni a Tervezési szabályellenőrzést (DRC) ?
 Yes, Check DRC = Igen, Ellenőrizze a DRC
 No, Generate Gerber = Nem, Gerber generálása
+No, Continue to order =
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = Ez a NYÁK befejezetlen kapcsolattal(ok) rendelkezik, ellenőrzi a kapcsolatot(ek)t?
 Yes, Check Connection(s) = Igen, Csatlakozás(ok) ellenőrzése
 It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? =  Ezután átirányítja a weboldalra egy harmadik fély JLCPCB, amellyel együttműködünk . Készen állsz?
 Failed to submit your order, please contact us via support@easyeda.com for help. = Nem sikerült leadni a megrendelést, kérjük, vegye fel velünk a kapcsolatot support@easyeda.com keresztül segítségért .
-Failed to submit your order, please contact us via QQ 800821856. = Nem sikerült leadni a megrendelést, kérjük, vegye fel velünk a kapcsolatot a QQ 800821856.
-Order data generated finish, please click OK button and continue. = A generált adatok sorrendje , kattintson az OK gombra, és folytassaa .
-[generateGerber]	[generateGerber]
+Failed to submit your order, please contact us. = Nem sikerült leadni a megrendelést, kérjük, vegye fel velünk a kapcsolatot.
+Order data(Gerber, Pick and Place file, BOM) generated finish, please click OK button and continue. = A generált adatok sorrendje , kattintson az OK gombra, és folytassaa .
+[generateGerber]
 Layers = Rétegek
-[/generateGerber]	[/generateGerber]
-[version]	[verzió]
+[/generateGerber]
+
+[version]
 Switch = Kapcsoló
-[/version]	[/verzió]
+[/version]
+
+
 Export your file, then print it yourself. = Exportálja a fájlt, majd maga nyomtassa ki .
 Trace width is too small = A nyomkövetési szélesség túl kicsi
 Share = Megosztás
+
 Images Property = Képek attribútum
 Connect Pad to Pad = Csatlakoztassa a padot a padhoz
 Copper Area = Réz terület
 Dimension = Dimenzió
+
+
 Please check that you have used Wire and not Line to connect electrical elements. = Kérjük, ellenőrizze, hogy a Huzalt használta-e, és nem a Line-t az elektromos elemek csatlakoztatásához .
 PCB Fabrication Prices & capabilities = PCB gyártási árak és képességek
 Flip all texts on bottom layer = Az összes szöveg tükrözés az alsó rétegen
@@ -1987,10 +2155,12 @@ Decompress failed! = A dekompresszió nem sikerült!
 Load failed! = A terhelés nem sikerült!
 Loading = Betöltés
 No Result = Nincs eredmény
+
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning = Pin helyezve a sematikus figyelmeztetést
 You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Elhelyezhet egy pint a sematikus, de ne felejtse el az összes pint sematikus összetevőre csoportosítani , kérjük, kattintson a súgógombra, hogy  megtudja, hogyan csoportosíthatja őket . Ha csak meg szeretné jelölni a vezetéket, kérjük, használja a NetPortot vagy a NetLabel -t.
 I know. Do not show this again. = Tudom , tudom. Ne jelenjen meg még egyszer
+
 #Extensions Setting
 Extensions Setting = Bővítmények beállítása
 Remove = Eltávolítás
@@ -2005,6 +2175,7 @@ Your browser mode does not support indexedDB. Some features may not work properl
 Extension Files = Kiterjesztési fájlok
 Extension ID = Kiterjesztés azonosító
 Select Files = Fájlok kiválasztása
+
 #Scripts
 Script = Script
 Scripts = Szkriptek
@@ -2020,6 +2191,7 @@ Create Subfolder = Almappa létrehozása
 Create Script = Parancsfájl létrehozása
 Install Script = Parancsfájl telepítése
 Install = Telepítés
+Desktop Client =
 Are you sure you want to remove this script? =  Biztosan eltávolítja ezt a szkriptet?
 Folder Name = Mappa neve
 Rename = Átnevezés
@@ -2032,21 +2204,25 @@ Script content is required = Parancsfájltartalom szükséges
 System Scripts = Rendszerszkriptök
 User Scripts = Felhasználói parancsfájlok
 You can right click on the tree nodes. = Kattintson a jobb gombbal a facsomópontokra.
+
 #PCB photoView toolbar
 Top Side = Felső oldal
 Bottom Side = Alsó oldal
 With Silk Layer = Selyemréteg
 No Silk Layer = Nincs selyemréteg
 Photo View = Fotó nézet
+
 #check update
 Check Update = Frissítés ellenőrzése
 EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = Megjelentaz EasyEDA Editor {ver} . Szeretne most átváltani az új verzióra ?
-LCEDA Editor {ver} is released. Would you like to switch to the new version now? = Megjelentaz LCEDA Editor {ver}. Szeretne most átváltani az új verzióra ?
+JLCEDA Editor {ver} is released. Would you like to switch to the new version now? = Megjelentaz JLCEDA Editor {ver}. Szeretne most átváltani az új verzióra ?
 Switch to New Version = Váltás új verzióra
 Next Time = Következő alkalommal
+
 #download project dialog
 Generating download link... = Letöltési link generálása...
 Download project now = Projekt letöltése most
+
 #Import DXF
 Import DXF = DXF importálása
 Apply Unit = Egység alkalmazása
@@ -2056,12 +2232,14 @@ Fail to load the file = Nem sikerült betölteni a fájlt
 Please select a DXF file. = Válasszon ki egy DXF fájlt.
 This feature only works for PCB document. = Ez a funkció csak PCB-dokumentum esetén működik .
 Select a DXF file = Válasszon ki egy DXF fájlt
+
 #Export DXF
 Export DXF = DXF exportálása
 Plated-Through-Hole Pads = Bevont lyukú párnák
 Non-Plated-Through-Hole Pads = Nem bevont-áttetsző furatpárnák
 Silkscreen = Selyemvédő
 Surface Pad = Surface Pad
+
 #Data Sync
 Data Sync = Adatszinkronizálás
 Data Conflicts = Adatütközések
@@ -2075,6 +2253,7 @@ As Cloud = Felhőként
 As Local = Helyiként
 Skip = Kihagyás
 Data sync completed = Adatszinkronizálás befejeződött
+
 #Team
 Team = Csapat
 Teams = Csapatok
@@ -2084,6 +2263,7 @@ Load team info fail! = A csapatadatok betöltése sikertelen!
 Load team info fail! Please reload. = A csapatadatok betöltése sikertelen! Kérjük, töltse be újra.
 My Teams = Saját csapatok
 Create Team = Csapat létrehozása
+
 #Dialog Footprint Manager
 Footprint Manager = Lábkiosztáskezelő
 Open Footprint Manager = Footprint Manager megnyitása
@@ -2097,8 +2277,12 @@ Footprint PAD information = Footprint PAD információk
 Footprint Categories = Lábkiosztás kategóriák
 Pad Number = Pad száma
 Search Footprint = Keresési lábkiosztás
+Select Footprint =
+Search 3D Model =
+Select 3D Model =
 Filter by keyword = Szűrés kulcsszó szerint
 System Libs = Rendszer Libs
+
 #dialog global delete
 Drawings = Rajzok
 Netlabel and netFlag = Netlabel és netFlag
@@ -2108,9 +2292,10 @@ Board outlines = Tábla körvonalai
 Footprints = Lábkiosztások
 Footprint = Lábkiosztás
 Tracks = Zeneszámok
+
 #dialog board outline settings
 Current Size = Aktuális méret
-Paramenters = Paramenters
+Parameters = Parameters
 Start X: = X kezdet:
 Start Y: = Y indítása:
 Round Rectangular = Kerek téglalap
@@ -2119,15 +2304,18 @@ only number is allowed! = csak a szám megengedett!
 please input valid value of width! = kérjük, adja meg a szélesség érvényes értékét!
 please input valid value of height! = kérjük, adja meg a magasság érvényes értékét!
 please input valid value of radius! = kérjük, adja meg a sugár érvényes értékét !
+
 #cross probe
 The object you selected was not found in other documents. = A kijelölt objektum nem található más dokumentumokban .
 No valid object for cross probe selected. = Nincs érvényes objektum a kijelölt keresztszonda számára .
 Can not probe. Refreshing the window may get it to work. = Nem lehet szondázni. Az ablak frissítése működőképes lehet .
 You need to login for this function to work. = Be kell jelentkeznie ahhoz, hogy ez a funkció működjön.
+
 #About Dialog
 An Easier EDA Experience = Könnyebb EDA élmény
 Version = Verzió
 BuiltDate = BuiltDate
+
 #Auto Router Dialog
 Auto Router Config = Automatikus útválasztó konfiguráció
 General Options = Általános beállítások
@@ -2179,8 +2367,9 @@ Install Local Auto Router = Helyi automatikus útválasztó telepítése
 Checking local auto router server... = A helyi automatikus útválasztó-kiszolgáló ellenőrzése...
 Stop Router = Stop Router
 Auto Router is running... = Automatikus router fut...
+
 #Left Sidebar
-EELib = EELib
+Common Library =
 Basic = Alap
 Extend = Extend
 Design Manager = Design Manager
@@ -2203,17 +2392,21 @@ Connector = Csatlakozó
 Switch/Relay = Kapcsoló/Relé
 JLCPCB = JLCPCB
 Recycle Bin = Lomtár
+
 #Protractor
 Font Height = Betűmagasság
 Precision = Pontosság
 Protractor = Szögmérő
+
 #attr-pcbtext-line-width
 Only default font family supports to change font width. = Csak az alapértelmezett betűcsalád támogatja a betűszélesség módosítását .
 Font is missing! You can confirm the dialog and use default font instead or cancel the dialog then upload your font and do it again. = Betűtípus hiányzik! Megerősítheti a párbeszédpanelt, és használhatja az alapértelmezett betűtípust, vagy megszakíthatja a párbeszédpanelt, majd feltöltheti a betűtípust, és újra megteheti.
+
 #Common
 Owner = Tulajdonos
 License = Licenc
 Part Pins = Alkatrészcsapok
+Part Properties =
 Net Pins = Nettó csapok
 Net Ratlines = Nettó ratlines
 Add Parameter = Paraméter hozzáadása
@@ -2291,17 +2484,17 @@ Please select! = Kérjük, válassza a!
 Route = Útvonal
 Import successfully: = Importálás sikeresen:
 Import failed: = Az importálás sikertelen :
-The title length must be between 2~128 characters. = A cím hosszának 2~128 karakter között kell lennie .
 Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Path csak tartalmaz "a-z、A-Z、- 、 _ 、0-9"!
 Path must begin as 'a-z、A-Z、0-9'! = Az elérési útnak "a-zA-Z、0-9" néven kell kezdődnie!
 The path length must be between 4~128 characters! = Az útvonal hosszának 4~128 karakter között kell lennie !
-The title length must be between 2~256 characters! = A cím hosszának 2~256 karakter között kell lennie !
-The title cannot be less than 3 characters! = A cím nem lehet kevesebb, mint 3 characters!
+The title length must be between 2 ~ 128 characters. = A cím hosszának 2~128 karakter között kell lennie .
+Please select an owner =
+Please select obj, wrl or zip file. =
 Do you want to delete this file? = Törli ezt a fájlt?
 Add sub part success = Rész sikerességi hozzáadása
 Please input name and prefix! = Kérjük, adja meg a nevét és az előtagot!
 Board outlines are not closed = A tábla körvonalai nincsenek lezárva
-Import Altium file fail, the file needs to be an ASCII file encoded in UTF-8. = Az Altium fájl importálása sikertelen, a fájlnak UTF-8 kódolású ASCII fájlnak kell lennie.
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Az Altium fájl importálása sikertelen, a fájlnak UTF-8 kódolású ASCII fájlnak kell lennie.
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = A "{0}" csapok nincsenek bekattanva a rácspontra! Ez a rész talán hibákat okoz a sematikus.
 Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} = Mentés nem sikerült! A PIN-kód nem teszi lehetővé az ismétlést! Az alábbi PIN-kód ismétlése:{0}
 Check Pin = Pin ellenőrzése
@@ -2376,6 +2569,7 @@ Board Side = Táblaoldal
 Silk Screen = Selyem képernyő
 Silk Screen Color = Selyem képernyő színe
 Display = Kijelző
+
 #Array and Clone
 Distribute Array = Tömb kiosztása
 Array Type = Tömb típusa
@@ -2400,6 +2594,7 @@ Number of Rows = Sorok száma
 Number of Columns = Oszlopok száma
 Number of Copies = Másolatok száma
 Distribute Range(Degrees) = Tartomány(fokok)elosztatás
+
 #Theme color dialog
 BusEntry = BusEntry
 Foreground = Előtér
@@ -2414,7 +2609,6 @@ Color Setting = Színbeállítás
 Apply Setting = Beállítás alkalmazása
 Theme Setting... = Téma beállítása...
 Bus Entry = Buszbelépő
-Foreground = Előtér
 Symbol Graphics = Szimbólum grafika
 Common Used = Gyakori használat
 Draw = Rajzolás
@@ -2422,6 +2616,7 @@ Sheet = Lap
 The original theme only works for placing the new symbols. = Az eredeti téma csak az új szimbólumok elhelyezésére szolgál .
 Selection Highlight = Kijelölés kiemelés
 Net Label / Port = Nettó címke / port
+
 My Theme = Saját téma
 My Theme Settings = Saját téma beállításai
 Apply 'Custom Theme' On = Apply 'Custom Theme' On
@@ -2450,17 +2645,22 @@ Pin Color = Pin színe
 Name Color = Név Színe
 Number Color = Szám színe
 Dot = Dot
-[theme]	[téma]
+
+[theme]
 Sheet = Lap
-[/theme]	[/téma]
+[/theme]
+
+
 #history dialog
-[history-dlg]	[történelem-dlg]
+[history-dlg]
 Number = Szám
 Editor = Szerkesztő
-[/history-dlg]	[/történelem-dlg]
+[/history-dlg]
 View File History =  Fájlelőzmények megtekintése
 Save Time = Időt takarít meg
+
 Invalid Format = Érvénytelen formátum
+
 #Dialog Teardrop
 Round Pad / Via = Kerek pad / Via
 Rectangle / Oval / Polygon Pad = Téglalap / Ovális / Sokszög Pad
@@ -2468,9 +2668,12 @@ Applying Teardrops = Könnycseppek alkalmazása
 Removing Teardrops = Teardrops eltávolítása
 Waiting = Várakozás
 Progressing... = Haladás...
+
 No schematic in the project! = Nincs sematikus a projektben!
+
 Move Forward = Előrelépni
 Move Backward = Hátrafelé
+
 #Dialog Panelize
 V-CUT = V-CUT
 Stamp Hole = Bélyegző lyuk
@@ -2486,24 +2689,28 @@ Left and Right = Bal és jobb
 Stamp Hole Group - Column = Bélyegzőlyuk csoport - Oszlop
 Stamp Hole Group - Row = Bélyegzőlyuk csoport - Sor
 The number of rows and columns cannot be set to 1 simultaneously = A sorok és oszlopok száma nem állítható egyszerre 1-re
+When panelize number is 1 x 1, you need to enable the "Create Boarder" =
+
 #edit path point
-[editPathPoints-dlg]	[editPathPoints-dlg]
+[editPathPoints-dlg]
 Arc(R) = Ív(R)
 Type = Típus
 Action = Művelet
 add before = hozzáadás előtt
 add after = hozzáadás után
 delete = törlés
-[/editPathPoints-dlg]	[/editPathPoints-dlg]
+[/editPathPoints-dlg]
+
 #edit polygon point
-[editPolygonPoints-dlg]	[editPolygonPoints-dlg]
+[editPolygonPoints-dlg]
 Action = Művelet
 add before = hozzáadás előtt
 add after = hozzáadás után
 delete = törlés
-[/editPolygonPoints-dlg]	[/editPolygonPoints-dlg]
+[/editPolygonPoints-dlg]
 You have unconfirmed edit! = Meg nem erősített szerkesztésed van!
 Invalid edit! = Érvénytelen szerkesztés!
+
 #Dialog PCB Information
 PCB Information... = PCB információk...
 Signal Layers = Jelrétegek
@@ -2516,12 +2723,14 @@ Holes = Lyukak
 Vias = Utak
 Length of Tracks = A pályák hossza
 Copper Areas = Réz területek
+
 #Differential Pair Routing
 Differential Pair Routing = Differenciálpár útválasztása
 Differential Pair Rule Setting = Differenciálpár szabálybeállítás
 Please input track width = Kérjük, adja meg a sáv szélességét
 Please input clearance = Kérjük, adja meg a clearance
 Routing Rules = Útválasztási szabályok
+
 #Route Length Tuning
 Track Length Tuning... = Hosszhangolás nyomon követése...
 Tracks with different net or non-track found in current targets. = Az aktuális célokban különböző nettó vagy nemtrack sávok találhatók .
@@ -2538,6 +2747,7 @@ Adjust Type = Típus beállítása
 Double Side = Két oldal
 Single Side =  Egyoldalas
 can not connect to the server = nem tud csatlakozni a szerverhez
+
 #Dialog Copper Area Manager
 Copper Area Manager... = Réz területkezelő...
 Copper Area Manager = Réz területkezelő
@@ -2568,7 +2778,7 @@ Location X = Hely X
 Location Y = Bérlés Y
 Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = Előfordulhat, hogy a jelenlegi böngészőverzió nem támogat bizonyos funkciókat. Használja a Chrome vagy a Firefox legújabb verzióját, vagy próbálja ki az asztali klienst.
 EasyEDA Client = EasyEDA ügyfél
-LCEDA Client = LCEDA ügyfél
+JLCEDA Client = JLCEDA ügyfél
 Chrome = Chrome
 FireFox = FireFox
 New Version = Új verzió
@@ -2578,7 +2788,7 @@ Update Time = Frissítési idő
 Editor = Szerkesztő
 Current Version = Aktuális verzió
 Latest Version = Legújabb verzió
-Select a version to switch = Válassza ki a váltandó verziót
+Please select a different version to switch; If you want to edit different version in the same time, please open them in different browsers. = Válassza ki a váltandó verziót
 3D Model = 3D modell
 Board Side = Táblaoldal
 Display = Kijelző
@@ -2589,6 +2799,7 @@ Version Management = Verziókezelés
 Switch success! = Váltás siker!
 Please close current version's documents first! = Először zárja be az aktuális verzió dokumentumait !
 Creator = Alkotó
+creator = Alkotó
 Create Time = Idő létrehozása
 Fail to connect to server! Please check your internet connection status and try again! = Nem tud csatlakozni a szerverhez! Kérjük, ellenőrizze az internetkapcsolat állapotát, és próbálkozzon újra!
 Spice Number = Fűszerszám
@@ -2603,7 +2814,6 @@ Save "{0}" success! = Mentsd meg a "{0}" sikert!
 Save "{0}" failed! = A "{0}" mentése nem sikerült!
 Invalid Size = Érvénytelen méret
 Processing = Feldolgozás
-Invalid Size = Érvénytelen méret
 NetFlag GND = NetFlag GND
 NetFlag VCC = NetFlag VCC
 NetFlag +5v = NetFlag +5v
@@ -2618,6 +2828,7 @@ Processing = Feldolgozás
 Opening File = Fájl megnyitása
 Update from Library = Frissítés a könyvtárból
 Update Footprint = Lábkiosztás frissítése
+Update 3D Model =
 Find footprint(s) have been updated, do you want to update? =  A lábkiosztás(ok) frissítése, frissíteni szeretné?
 3D File: = 3D fájl:
 Model List = Modelllista
@@ -2635,10 +2846,12 @@ Expand Mode = Bontsa ki a módot
 3D Model = 3D modell
 3DModel = 3DModel
 Document = Dokumentum
-[pcblayer]	[pcblayer]
+
+[pcblayer]
 3DModel = 3DModel
 Document = Dokumentum
-[/pcblayer]	[/pcblayer]
+[/pcblayer]
+
 Adjustment = Beállítás
 View Larger Image = Nagyobb kép megtekintése
 Previous = Előző
@@ -2654,15 +2867,21 @@ Will jump to the Lichuang open source hardware platform (OSHWHub.com) to improve
 Will jump to the EasyEDA open source hardware platform (OSHWLab.com) to improve the information and share. Whether to continue? = Az EasyEDA nyílt forráskódú hardverplatformjára (OSHWLab.com) ugrik az információk javítása és megosztása érdekében. Folytatjuk-e?
 The project content page will open. After adding a description and setting the project to public, you can click the share button to get the share link. = Megnyílik a projekt tartalomoldala. Miután hozzáadott egy leírást, és nyilvánossá állította a projektet , a megosztás gombra kattintva megkaphatja a megosztási linket.
 This project is not public, can not view homepage! = Ez a projekt nem nyilvános, nem lehet megtekinteni a honlapot!
-[grid]	[rács]
+
+[grid]
 None = Nincs
-[/grid]	[/rács]
+[/grid]
+
 #lib verify and mounted
 This component is verified = Ez az összetevő ellenőrzött
 This component is unmounted = Ez az összetevő nincs csatlakoztatva
+
 #find component
 Find Next = Keresés Következő
+Pin not found =
+Pad not found =
 Object not found = Az objektum nem található
+
 #offset Elements
 Offset X = Eltolás X
 Offset Y = Eltolás Y
@@ -2673,6 +2892,7 @@ Absolute Offset... = Abszolút eltolás...
 Relative Offset... = Relatív eltolás...
 Reference Point X = X referenciapont
 Reference Point Y = Y referenciapont
+
 #Inner Plane layer
 Rebuild Plane = Sík újraépítése
 PlaneZone Properties = PlaneZone tulajdonságai
@@ -2680,42 +2900,56 @@ Change to a plane layer is not allowed during track routing. =  A síkrétegre v
 #pcblib rect
 Fill = Kitöltés
 Fill Type = Kitöltés típusa
-[PlaneZone]	[PlaneZone]
+[PlaneZone]
 Solid = Szilárd
-[/PlaneZone]	[/PlaneZone]
+[/PlaneZone]
+
 Solid Region do not allow self-intersection! = A szilárd terület nem teszi lehetővé az önkereszteződést!
+
 The prefix or name or text too far away from the footprint, if you don't want it to show up please make it hidden. = Az előtag, a név vagy a szöveg túl messze van a lábkiosztástól , ha nem szeretné, hogy megjelenjen, kérjük, rejtse el.
 The prefixes are not allowed to repeat! = Az előtagok nem ismételhetnekmeg !
 Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = Mentés nem sikerült! A vászon eredete nem a grafikában van! Hogy automatikusan be kell-e állítani a származást?
 The origin of the canvas has been set in the graphics now, you can save again. = A vászon eredete most be van állítva a grafikában , újra mentheti.
 Backup Project = Biztonsági mentési projekt
 Open Project Directory = Projektkönyvtár megnyitása
+
 {0} items updated = {0} elem frissítve
+
 The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. = Az aktuális fájl {0} frissített verzióval rendelkezik.  Felülírja? Ha meg szeretné nyitni a legújabb verziót, zárja be az aktuális fájlt, és nyissa meg újra .
 Yes, Overwrite It = Igen, Felülírja
 No, Keep It = Nem, tartsd
+
 Download Client = Ügyfél letöltése
+
 Search tutorial、open source projects etc. = Keresési bemutató、nyílt forráskódú projektek stb
+
 Go to LCSC and search for = Lépjen az LCSC-be, és keressen
 Go to LCSC = Tovább az LCSC
+
 Hide Ratline Layer and Keep the Component Prefix When Paste Objects = A ratline réteg elrejtése és az összetevő előtagjának megtartása objektumok beillesztésekor
+
 ALL.layer = ALL.layer
 Copper.layer = Copper.layer
 Non-Copper.layer = Nemréz.layer
 Other.layer = Egyéb.layer
+
 Please enter at least 2 characters! = Adjon meg legalább 2 karaktert!
 View Datasheet = Adatlap megtekintése
 View Datasheet... = Adatlapmegtekintése...
+
 The corresponding package or network could not be found in the currently open PCB document = A megfelelő csomag vagy hálózat nem található a jelenleg megnyitott PCB dokumentumban
 delete fail = hiba törlése
-[crashRecovery]	[crashRecovery]
+
+[crashRecovery]
 Libraries = Könyvtárak
-[/crashRecovery]	[/crashRecovery]
+[/crashRecovery]
 Canvas origin anomaly! = Vászon eredet anomália!
+
 Component's Name = Az összetevő neve
 Component's Prefix = Összetevő előtag
 Component's Footprint = Az alkatrész lábkiosztása
-[findlib]	[findlib]
+
+[findlib]
 Clear = Törlés
 Apply Filters = Szűrők alkalmazása
 Result = Eredmény
@@ -2725,21 +2959,29 @@ Next = Következő
 Total {count} Count = Összesen {szám} Darab
 About = Körülbelül
 Items = Tételek
-[/findlib]	[/findlib]
+Apply New Part =
+No Part Yet =
+[/findlib]
+
 Object = Objektum
 Layers and Objects = Rétegek és objektumok
 All = Minden
+
 Add custom = Egyéni
+
 Connections = Kapcsolatok
 Attempted: = Megkísérelt:
 Completed: = Befejeződött:
 Failed: = Nem sikerült:
 Total Vias: = Útvonalak összesen:
+
 Please confirm moving option = Ellenőrizze a mozgó opciót
 Only this pad = Csak ez a pad
 For this component = Ehhez az összetevőhöz
 View Owner = Tulajdonos megtekintése
 View Detail = Részletek megtekintése
+
+
 #place batch vias
 Place Vias = Vias Square
 Placing Vias = Vias elhelyezése
@@ -2756,17 +2998,21 @@ The width of track/arc/circle cannot be less than 0.051mm/2mil/0.002inch! = A p�
 Save fail! Please try again! = Mentés sikertelen! Próbálkozzon újra!
 Please select a copper outline = Válasszon egy réz körvonal
 Can't find copper area at other layers, please add the copper area with the same net at other layer first. = Nem található réz terület más rétegek,kérjük, adja hozzá a réz terület ugyanazzal a hálóval a másik réteg először.
+
 Add favorite success! = Add hozzá kedvenc siker!
 Remove favorite success! = Távolítsa el kedvenc sikerét!
 Remove favorite failed! = Kedvenc eltávolítása nem sikerült!
 Whether if remove favorite? = Hogy eltávolítja-e kedvencét?
 Split by ';' for multi tags = Felosztás ";" szerint több címke
+
 This size is the determined size! = Ez a méret a meghatározott méret!
 The associated pad has been locked = A társított pad zárolva
 Split by space or , for multi tags = Felosztás szóköz vagy , több címke
+
 Rotation X = Rotáció X
 Rotation Y = Y forgás
 Rotation Z = Z forgás
+
 Some fields are filled invalid data = Egyes mezők érvénytelen adatok
 start time should be earlier than stop time = kezdési időnek korábban kell lennie, mint a megállási idő
 Number of points should be less than 100 in octave variation = A pontok számának oktávvari változatban 100-nál kisebbnek kell lennie
@@ -2777,29 +3023,36 @@ There is No Tag! = Nincs címke!
 Assign successful! = Sikeres hozzárendelés!
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! = A talált lábkiosztás padszáma nem egyezik meg a sematikus összetevő PIN-kódjával, kérjük, javítsa ki a pad számát, és próbálkozzon újra!
 Update Property = Frissítési attribútum
+Update Properties =
 Please fill in at least 5 words. = Kérjük, töltsön ki legalább 5 szót.
 Mouse hovering over the track to highlight the entire network = Egér lebeg a pálya felett, hogy kiemelje a teljes hálózatot
 Net Highlighting While Cursor Hover the Track = Nettó kiemelés, míg a kurzor a sávot viszi
 When circle set as "Yes", the Pin length must be more than 6 = Ha a kör "Igen" értékre van állítva, a pin hosszának több mint 6
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = Szia, Találtam egy problémát a könyvtár, ez a könyvtár úgy tűnik, helytelen.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you!
+
 Logout fail! Please try again! = Logout nem sikerül! Próbálkozzon újra!
-Logout success! We look forward you to use LCEDA again! = Logout siker! Bízunk benne, hogy újra használhatja az LCEDA-t!
+Logout success! We look forward you to use JLCEDA again! = Logout siker! Bízunk benne, hogy újra használhatja az JLCEDA-t!
 Logout success! We look forward you to use EasyEDA again! = Logout siker! Bízunk benne, hogy újra használhatja az EasyEDA-t!
 Click to Preview 3D = Kattintson a 3D előnézetére
-[logoutDialog]	[logoutDialog]
+[logoutDialog]
 Logout = Kijelentkezés
-[/logoutDialog]	[/logoutDialog]
-[findlibTag]	[findlibTag]
+[/logoutDialog]
+
+[findlibTag]
 All = Minden
-[/findlibTag]	[/findlibTag]
+[/findlibTag]
+
 Export Pick and Place File = Kivétel és helyfájl exportálása
-Mirror the bottom component's X coordinate (JLCPCB doesn't need) = Tükrözze az alsó komponens X koordinátáját (a JLCPCB-nek nincs szüksége)
+Mirror the bottom components' coordinate (JLCPCB doesn't need) = Tükrözze az alsó komponens X koordinátáját (a JLCPCB-nek nincs szüksége)
+Mirror coordinate Y =
+Mirror coordinate X =
 Work Space = Munkaterület
-Include panelized components' coordinates = Panelezett összetevők " koordinátáinak belefoglalása
+Include panelized components' coordinates(JLCPCB doesn't need) = Panelezett összetevők " koordinátáinak belefoglalása
 Personal Workspace = Személyes munkaterület
 Work Space - {name} = Munkaterület - {név}
 Work Space - Personal = Munkaterület - Személyes
 Cloning = Klónozás
+
 Project Owner = Projekttulajdonos
 Clone Project = Klónozási projekt
 Homepage = Honlap
@@ -2821,19 +3074,15 @@ Input = Bemenet
 Model Unit = Modellegység
 File Unit = Fájlegység
 This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? =  Ez a rész alrészeket tartalmaz , kérjük, ellenőrizze a többi alrészeket a hiba bejelentése előtt , folytatja a következőt :
-[saveAs]	[saveAs]
+
+[saveAs]
 Power = Teljesítmény
-[/saveAs]	[/saveAs]
-Assign LCSC Part# = Assign LCSC Part# =
+[/saveAs]
+
+Assign LCSC Part# =
 Unexpected error while converting. Perhaps unsupported file type or program bug. = Váratlan hiba a konvertálás közben. Talán nem támogatott fájltípus vagy programhiba.
 Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = Talált duplikált összetevőazonosítók, kattintson az "OK" gombra az összetevőazonosító automatikus újrakiosztásához , majd mentse a dokumentumot, és próbálkozzon újra.
-#electromagneticSimulation
-Electromagnetic Simulation... = Elektromágneses szimuláció...
-You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? =  Feltölti Gerber SuperEM elektromágneses szimuláció (csak feltölteni Gerber, nem tartalmazza a fiók adatait), szeretné folytatni?
-SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = A SuperEM egy 3D teljeshullámú elektromágneses szimulációs és tervezési platform nagy sebességű PCB áramkörökhöz és antennákhoz, amelyet a Faraday Dynamics, Ltd. fejlesztett ki
-Visit the SuperEM = Látogasson el a SuperEM
-SuperEM User Guide = SuperEM felhasználói útmutató
-Upload Gerber to SuperEM successfully, please click "OK" buttun to continue = Töltse fel Gerber SuperEM sikeresen, kérjük, kattintson az "OK" fenek a folytatáshoz
+
 Format = Formátum
 View = Nézet
 Design = Design
@@ -2847,17 +3096,25 @@ PCB Fabrication File(Gerber) = PCB gyártási fájl(Gerber)
 Pick and Place File = Pick and Place Fájl
 Parts Order = Alkatrész sorrend
 PCB Order = PCB sorrend
+One-click Order Parts =
+One-click Order PCB/SMT =
+JLCPCB Layout Service =
 SIM = IGEN
 STD = STD
 WaveForm = WaveForm
+
 Place Module = Hely modul
 Please enter identification letters: = Kérjük, írja be az azonosító betűket:
 Only support English letters, up to 5. = Csak az angol betűket támogatja , legfeljebb 5.
+
 Exist doesn't annotate prefix component(s) in the module, please edit and annotate the unique prefix(s) for component(s) first. = A Exist nem jegyzetekkel fűzi az előtag összetevőt(ek)t a modulban,kérjük, szerkessze és jegyzetelje meg az összetevő(ek) egyedi előtagját (i) először.
 Opening = Nyitás
+
 Also update track's net (Only applies to circumstance under which prefix/netlabel changes and no component/wire is added or removed) = A pálya hálójának frissítése is (Csak arra a körülményre vonatkozik, amikor az előtag /netlabel megváltozik, és nem ad hozzá vagy távolít el alkatrészt/huzalt)
+
 #desktop client error feedback
 Cannot open online documents on Project Offline mode. = Nem lehet megnyitni az online dokumentumokat Project Offline módban.
+
 Please select a project = Válasszon ki egy projektet
 Opened Projects = Megnyitott projektek
 Open Project = Projekt megnyitása
@@ -2878,6 +3135,7 @@ Move Folder = Mappa áthelyezése
 Please input the folder name = Kérjük, adja meg a mappa nevét
 Invalid folder name = Érvénytelen mappanév
 Are you sure to delete this folder? =  Biztosan törli ezt a mappát?
+All projects in this folder will be moved to the root directory. =
 Create new folder successfully = Új mappa létrehozása sikeresen
 Failed to create new folder = Nem sikerült új mappát létrehozni
 Delete folder successfully = Mappa törlése sikeresen
@@ -2890,13 +3148,18 @@ Move project successfully = Projekt sikeres áthelyezése
 Failed to move project = Nem sikerült áthelyezni a projektet
 The folder depth must not exceed {0} levels = A mappa mélysége nem haladhatja meg {0} szint
 Failed to add project to folder = Nem sikerült projekt hozzáadása a mappához
-Doesn't support JLCPCB SMT Service = Nem támogatja a JLCPCB SMT szolgáltatást
-for JLCPCB SMT Service = JLCPCB SMT szolgáltatáshoz
+
+Doesn't support SMT = Nem támogatja a SMT szolgáltatást
+JLCPCB SMT Stock: {0} =
+
 Reset failed! There are duplicate component prefixes in the current schematic: = Reset nem sikerült! Az aktuális sémaképben ismétlődő összetevő előtagjai vannak:
 Reset failed! There are duplicate component prefixes in the current PCB: = Reset nem sikerült! Az aktuális PCB-ben ismétlődő összetevő előtagok vannak:
 Please modify the component prefixes first to ensure that the component prefix is unique. = Először módosítsa az összetevő előtagokat, hogy az összetevő előtagja egyedilegyen .
-LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA (Standard) - Egy egyszerű és hatékony elektronikus áramkör tervező eszköz
+
+JLCEDA(YALONG Edition) - A Simple and Powerful Electronic Circuit Design Tool =
+JLCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = JLCEDA (Standard) - Egy egyszerű és hatékony elektronikus áramkör tervező eszköz
 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(Standard) - Egy egyszerű és hatékony elektronikus áramkör tervező eszköz
+
 #Dialog for Package Custom Data
 Please input the data title = Kérjük, adja meg az adatok címét
 Data title duplicated = Duplikált adatcím
@@ -2909,6 +3172,7 @@ Saved custom data successfully! = Az egyéni adatok mentése sikeresen!
 Save custom data failed! = Az egyéni adatok mentése nem sikerült!
 Will replace the graphics and custom data of current document, after imported please adjust the 3D model. Continue or not? = Az importálás után cserélje ki az aktuális dokumentum grafikáját és egyéni adatait , módosítsa a 3D modellt. Folytatás vagy sem?
 Open footprint "Custom Data" dialog = "Egyéni adatok" párbeszédpanel megnyitása
+
 #Create lead shape
 Create Lead Shape = Érdeklődő alakzat létrehozása
 Base on Pad Center = Alap a Pad Center
@@ -2936,6 +3200,10 @@ System footprint doesn't allow two or more pad numbers are 1 or A1, please modif
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = A dokumentumréteg körobjektummal rendelkezik, de a jlcPara polaritása 0, ellenőrizze az Egyéni adatokat.
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = Vannak ismétlődő padszámok : {padNumber}, kérjük, ellenőrizze, ha helyes, kérjük, hagyja figyelmen kívül ezt.
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = Nem található a kör az alkatrész jelölő rétegnél , vagy ez a kör nem ugyanabban a kvadránsban van az 1. paddal, ellenőrizze, hogy helyes-e .
+This footprint is LED, CASE or DIO type, please check if need to draw the polarity marking(or special polarity marking), if exits polarity marking please ignore this message. =
+This footprint is DIP type, please check if haven't place multi-layer pads. =
+This footprint is SMD type, please check if haven't placed single-layer pads. =
+
 ROUND = KEREK
 RECTANGLE = TÉGLALAP
 OCTAGONAL = NYOLCSZÖGLETŰ
@@ -2953,7 +3221,7 @@ Body Diameter = Testátmérő
 Lead Span = Ólomfesztávolság
 Lead Vertical Span = Ólom függőleges fesztáv
 Body Length = Testhossz
-Body Height = Testmagasság
+Body Width = Testmagasság
 Pin Diameter = Csap átmérője
 Pin Length = Pin hossza
 Pin Height = Csap magassága
@@ -2993,23 +3261,26 @@ Lead Thickness = Ólomvastagság
 Unknown mistake = Ismeretlen hiba
 Has ThermalVias = Van ThermalVias
 Polar Capacitance = Poláris kapacitás
+
 Create Component Marking =  Összetevőjelölés létrehozása
 Create component marking successfully! = Az alkatrész jelölésének létrehozása sikeresen!
 No elements on component shape layer! = Nincsenek elemek az alkatrészalakzat rétegen !
 No elements on lead shape layer! = Nincs elem az ólom alakú rétegen!
 No pad of number 1 or A1, please modify the pad number. = Nincs 1-es vagy A1-es számú párna, kérjük, módosítsa a pad számát.
 Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? = Mentés nem sikerült! Az alkatrész jelölőköre a tengelyen van . Újra létre szeretné hozni az összetevő jelölését?
-If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = Ha az autoroute sikertelen, exportálhatja az autoroute fájlt(DSN) harmadik fél autorouter eszközére (például : Konekt Electra, Eremex TopoR stb.), és exportálhatja a munkamenetfájlt (SES) a befejezett autoroute után , majd importálja a PCB-be.
+If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: FreeRouting, Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. = Ha az autoroute sikertelen, exportálhatja az autoroute fájlt(DSN) harmadik fél autorouter eszközére (például : FreeRouting, Konekt Electra, Eremex TopoR stb.), és exportálhatja a munkamenetfájlt (SES) a befejezett autoroute után , majd importálja a PCB-be.
 Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: = Az automatikus útvonal nem sikerült! Talált rendellenes pad (ok) adatok, kérjük, módosítsa a pad szélessége és magassága:
 Select Properties = Tulajdonságok kiválasztása
 Combine the same parts' prefixes in one row = Kombinálja ugyanazokat a részeket' előtagokat egy sorban
 Please check at least one item! = Kérjük, ellenőrizze legalább egy elemet!
 Pins = Csapok
 Check component latest version when open schematic = Az összetevő legújabb verziójának ellenőrzése a sematikus
+Only show updated components =
 Note: When a PCB is Import Changes, the PCB is updated according to the footprint version to which the schematic is bound. = Megjegyzés: Ha egy PCB Importálási módosítások, a PCB frissül annak a lábkiosztásverziónak megfelelően, amelyhez a sematikus kötődik .
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. = Nem támogatja a DXF bináris formátum importálását, kérjük, importálja az ASCII formátumot DXF.
 
 Find System Similar Footprint =
+Download fingerprint data =
 Found similar footprints at system library, it is recommended to use them first. =
 Copy Title =
 Check system similar footprint =
@@ -3045,17 +3316,82 @@ Select the objects that cannot be generated =
 Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
 Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
 The PCB text will use the editor new font family, the text maybe will appear a little excursion. =
-Because of different file format and element, please check carefully after imported. =
+Because of different file format and element design, the imported element may have some differences, please check carefully. The more information please refer the tutorials. =
+EasyEDA is not responsible for any losses caused by format conversion differences, if you do not agree, please do not import. =
 Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
 Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
 Please make sure the Protel file is exported as ASCII format file. =
 Please compress the schematic and corresponding symbols as a zip file and then import it. =
+Tips =
+
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
 
 Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
 Tips =
 Exists incomplete connection =
 Found that the board has incomplete connection, please check the nets and ratlines =
-creator =
-You are not logged in or the login status is invalid, please login and try again. =
+
+You are not logged in or the login status is invalid, please login and try again. =
+
 Display Board Cutout =
+
+Apply New Part =
+Apply New Parts for Free =
+
+Migrate to Pro Edition... =
+Recommended migrate the Std edition projects to the Pro edition, the Pro edition is more features powerful, and more more smoother. How to migrate: =
+1. Download and login the Pro edition. =
+2. Via: Top Menu - File - Migrate Standard... =
+3. Select the projects or libraries to migrate. =
+4. If your projects are saved at local, you can compress the schematic and PCB as a zip file, and then import it to the Pro edition. Via: Top Menu - File - Import - EasyEDA(Standard). =
+Open Pro Edition =
+Feedback =
+
+Datasheet Extract Wizard =
+Or double click here to add image(<5MB) =
+Pins Information =
+Next Step =
+Drop graphic files here =
+Please drag graphic file =
+Click to cancel loading =
+Use rolling wheels to zoom preview screen =
+Please add pin information first =
+The current environment does not support the paste content from the clipboard =
+The current environment does not read the permissions of the clipboard =
+Please copy a picture and paste the paste =
+Image compression failure =
+Please drag or paste image at here =
+Pins Data without extraction =
+Please make sure the editor is connect with internet, the extraction need some time, please wait a while =
+Add image failed, please add an image which small than 5MB =
+The image size cannot be more than 2 MB =
+Image Type =
+SOP type =
+QFN type =
+Table type =
+Clear =
+Side =
+No permission, please contact project manager to enable permission, after enable please refresh the project list and try again =
+During the exam, cross -engineering paste =
+The exam has ended and cannot be edited =
+Exam remaining time =
+Exam is over =
+The exam is over and the test papers are being corrected =
+Quit out =
+The current account does not belong to the current engineering member and cannot create a new documentation =
+
+The generated pads size will little bigger than input size, good for welding =
+
+The project has been published, but after editing, the project becomes unpublished. Do you want to continue? =
+You are trying to update components from library, please check the difference before update, if the flipped(mirrored) component(s) on the canvas updated, they will be reset to original status, please notice. Do you want to continue? =
+{value}{unit-name}, need more than DRC({drc-value}{unit-name}) =
+{value}{unit-name}, need less than DRC({drc-value}{unit-name}) =
+Need more than DRC({drc-value}{unit-name}) =
+Need less than DRC({drc-value}{unit-name}) =
+Incomplete Connection =
+Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
+
+Auto Pin Placement =

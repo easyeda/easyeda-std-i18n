@@ -1,3 +1,5 @@
+# Française (French)
+
 # Menu
 User = Utilisateur
 Join... = Inscription...
@@ -38,6 +40,7 @@ Cadence... = Cadence...
 Pads... = Pastilles...
 DXF = DXF
 Import = Importer
+
 
 Edit = Editer
 Undo = Défaire
@@ -148,7 +151,7 @@ The component ID will be reset according to the component prefix, this operation
 Please make sure the component prefixes of the schematic and PCB are corresponding = Assurez-vous que les préfixes du composant du Schéma et du PCB correspondent
 Please reset the component ID of corresponding schematic or corresponding PCB too = Veillez aussi réinitialiser l'ID des schémas ou PCB correspondant
 Do you want to continue? = Voulez-vous continuer ?
-Reset Component ID = Réinitialiser l'ID du composant
+Reset Component Unique ID = Réinitialiser l'ID du composant
 Component ID reset successfully! = L'ID du composant réinitialisé !
 Convert to PCB = Convertir en PCB
 Update PCB = Mettre à jour le PCB
@@ -161,7 +164,7 @@ Standard Mode = Mode Standard
 Simulation Mode = Mode Simulation
 Change to Standard Mode = Changer vers le Mode Standard
 Change to Simulation Mode = Changer vers le Mode Simulation
-Welcome to Use LCEDA = Bienvenue dans l'utilisation de LCEDA
+Welcome to Use JLCEDA = Bienvenue dans l'utilisation de JLCEDA
 Welcome to Use EasyEDA = Bienvenue dans l'utilisation de EasyEDA
 Enable Education Edition Features for Free >>> = Activez gratuitement les fonctionnalités de l'édition Éducation >>>
 Quick Start = Démarrage rapide
@@ -175,7 +178,7 @@ Tutorials = Tutoriels
 Videos = Vidéos
 [/start]
 Custom Data = Données personnalisées
-LCEDA = LCEDA
+JLCEDA = JLCEDA
 
 Copy Result Image = Copier les résultats de l'Image
 Export Result Image = Exporter les résultats de l'Image
@@ -235,6 +238,7 @@ Config = Configurer
 
 Help = Aide
 About = A Propos de
+Online Chat =
 Shortcut Keys = raccourcies
 FAQ = Questions fréquentes
 Tutorials = Tutorial
@@ -309,7 +313,7 @@ Footprint Wizard... = Assistant d'empreintes...
 Select package type = Séléctionner le type de paquet
 Smart Dimension Properties = Propriétés de dimensions intelligentes
 Global Delete = Suppression globale
-Cross Probe = 
+Cross Probe =
 Cross Probe and Place =
 Paper Size = Taille du papier
 Register = Enregistrer
@@ -319,7 +323,7 @@ By Mouse Location = Par l'emplacement de la souris
 Set Coordinate = Determiné les coordonées
 By Coordinates... = Par coordonnées
 By Center of Pads = Du centre des pads
-By Center Grid of Symbols = 
+By Center Grid of Symbols =
 
 #Schematic Canvas Properties
 Properties = Propriétés
@@ -348,8 +352,8 @@ Fill Color = Couleur de remplissage
 Selected Objects = Objets sélectionnés
 Frame Size = Taille du cadre
 Alt Snap =
-Snap size when pressing the Alt key = 
-Prefix Start = 
+Snap size when pressing the Alt key =
+Prefix Start =
 
 #Text Properties
 Text Properties = Attributs du texte
@@ -435,11 +439,11 @@ MUTUAL_INDUCTORS Settings = Paramètres des MUTUAL_INDUCTORS
 NE555 Settings = Paramètres du NE555
 THREE_PHASE Settings = Paramètres du Paramètres du
 Logic_Probe Settings = Paramètres des sondes logiques
-78XX Settings = Paramètres du 
-79XX Settings = Paramètres du 
+78XX Settings = Paramètres du
+79XX Settings = Paramètres du
 OPAMP5PEE Settings = Paramètres de OPAMP5PEE
 OPAMP5PEECN Settings = Paramètres de OPAMP5PEECN
-OPAMP3PEE Settings = Paramètres de OPAMP3PEE 
+OPAMP3PEE Settings = Paramètres de OPAMP3PEE
 OPAMP3PEECN Settings = Paramètres de OPAMP3PEECN
 DELAY_FUSE Settings = Paramètres du fusible retardé
 Ratio = Ratio
@@ -466,7 +470,7 @@ AC = Alernatif
 DC = Continu
 SINE = Sinus
 PULSE = Impultion
-EXP = 
+EXP =
 SFFM =
 PWL =
 B.spice =
@@ -481,19 +485,19 @@ Theta[1/s] = Théta[1/s]
 Tdelay[s] = Tdelai[s]
 Phi[deg] = Phi[deg]
 Tperiod[s] = Tperiode[s]
-Ton[s] = 
-Tfall[s] = 
-Trise[s] = 
-Von[V] = 
-Von[A] = 
-Vinitial[V] = 
-Vinitial[A] = 
-Vpulsed[V] = 
-Vpulsed[A] = 
-Rise Delay[s] = 
-Rise Tau[s] = 
-Fall Delay[s] = 
-Fall Tau[s] = 
+Ton[s] =
+Tfall[s] =
+Trise[s] =
+Von[V] =
+Von[A] =
+Vinitial[V] =
+Vinitial[A] =
+Vpulsed[V] =
+Vpulsed[A] =
+Rise Delay[s] =
+Rise Tau[s] =
+Fall Delay[s] =
+Fall Tau[s] =
 Carrier Freq[Hz] = Fréquence Porteuse[Hz]
 Modulation Index = Taux de modulation
 Signal Freq[Hz] = Fréquence du signal[Hz]
@@ -660,7 +664,6 @@ SRNANDFFEE =
 SRNORFFEE =
 INVTSEE =
 INVODEE =
-Schmittbuffee =
 Cbuffer =
 SPDT_Open =
 SPDT_Close =
@@ -669,14 +672,14 @@ SPST_Open =
 Fast_Crystal =
 Lamp =
 BCD_Segment =
-Seven_Segment = 
+Seven_Segment =
 Traffic_Light =
 Lamp Settings =
 Power[W] = Puissance[W]
 Dropout Voltage[V]
 Current[A]
 Threshold[V]
-Clock Rate = 
+Clock Rate =
 TrafficLight Settings =
 BCDSegment Settings =
 SevenSegment Settings =
@@ -700,14 +703,14 @@ Line 45° = Ligne à 45°
 Line 90° = Ligne à 90°
 Arc 45° = Arc à 45°
 Arc 90° = Arc à 90°
-Free Angle = 
+Free Angle =
 Start X = Début X
 Start Y = Début Y
 Length = Longueur
 Name = Nom
 name = Nom
 Number = Nombre
-Spice Pin Order = 
+Spice Pin Order =
 Display Number = Numéro d'affichage
 Clock = Horloge
 Show = Montrer
@@ -757,6 +760,7 @@ Image Size = Taille de l'image
 Color Tolerance = Tolérance de couleur
 Simplify Level = Simplifier le niveau
 Corner Threshold = Seuil d'angle
+Despeckle Size =
 
 #PCB Canvas Properties
 Units = Unités
@@ -804,7 +808,7 @@ Slot = Fente
 Hole(Length) = Trou(Taille)
 Plated = Plaqué
 None = Aucun
-Paste Mask Expansion = Elargissement du masque de la pate à souder 
+Paste Mask Expansion = Elargissement du masque de la pate à souder
 Solder Mask Expansion = Elargissement du masque de soudure
 
 #Via Properties
@@ -834,6 +838,15 @@ Spice Pin Number = Numéro de la broche Spice
 Graphics =
 Pattern =
 
+Pin: =
+Netflag: =
+Netlabel: =
+NetPort: =
+Voltage Probe: =
+Pin: =
+Hidden Pin: =
+Unknown: =
+
 #Arc Properties
 Arc Properties = Propriétés des arcs de cercles
 Start Angle = Angle de débart
@@ -857,8 +870,8 @@ Spoke = Rayon
 Keep Island = Conserver les zones orphelines
 Fill Style = Style de remplissage
 CopperArea conflict: copper area outlines in same layer with different net names must not overlap = Conflit de zones de cuivre : les différentes zones de cuivre d'une même couche ne peuvent pas se superposer.
-Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = La reconstruction de la zone cuivre est terminée ! Vous pouvez définir la "Zone de cuivre" comme "Visible" dans le panneau de propriétés de droite après avoir cliqué sur la zone vide. 
-Please create board outline first. = Veuillez d'abord créer le contour de la carte. 
+Copper area rebuild complete! You can set "Copper Zone" as "Visible" at the right-hand property panel after single click the empty area. = La reconstruction de la zone cuivre est terminée ! Vous pouvez définir la "Zone de cuivre" comme "Visible" dans le panneau de propriétés de droite après avoir cliqué sur la zone vide.
+Please create board outline first. = Veuillez d'abord créer le contour de la carte.
 Board outlines are not closed. = le contour n'est pas fermé.
 Rebuild CopperArea = Reconstruire les zones de cuivre
 Edit Points = Modifier les points
@@ -881,7 +894,7 @@ Mounted = Monté
 Unknown = Inconnue
 
 Custom = Personnalisé
-Scan the QR code below and open it on the mobile side = Scannez le code QR ci-dessous et ouvrez-le sur mobile =.
+Scan the QR code below and open it on the mobile side = Scannez le code QR ci-dessous et ouvrez-le sur mobile
 How to create a single layer PCB = Comment créer un PCB à une seule couche
 Currently doesn't support layout single layer directly, please refer at: =
 
@@ -947,6 +960,7 @@ Save as a Schematic Module = Enregistrer en tant que module d'un schéma
 Save as a PCB Module =  Enregistrer en tant que module d'un PCB
 Save as 3D Model = Enregistrer en tant que modèle 3D
 Save as a WaveForm =
+Do not allow saving to target project =
 Title = Titre
 Share = Partager
 Add file = Ajouter un fichier
@@ -956,7 +970,7 @@ Public (Anyone can see this project but only you can modify it.) = Publique (Vou
 Private (Only you can see and modify this project) = Privé (Vous seul pouvez modifier ou afficher le Projet.)
 Create new project success! = Création d'un nouveau project réussite!
 You can now create files under this project = Vous pouvez maintenant créer des fichiers sous ce projet
-This file must be saved under a project, choose other project or create a new project = Ce fichier doit être sauvegardé sous un projet, choisissez un autre projet ou créez un nouveau projet 
+This file must be saved under a project, choose other project or create a new project = Ce fichier doit être sauvegardé sous un projet, choisissez un autre projet ou créez un nouveau projet
 Please login to save this kind of document = Veuillez vous connecter pour sauvegarder ce genre de document
 Duplicated project title = Titre du project dupliqué
 #Duplicated document title
@@ -979,7 +993,7 @@ Supplier Part = Pièce du distributeur
 Supplier Part Number = Numéro de pièce du distributeur
 Link = Lien
 link = lien
-The professional function please refer at: = Pour la fonction professionnelle, veuillez vous référer à : 
+The professional function please refer at: = Pour la fonction professionnelle, veuillez vous référer à :
 
 #Dialog Clone My Part
 #Clone it to a project
@@ -1040,6 +1054,7 @@ Chose file = Choisir un fichier
 File Operation = Opération sur le fichier
 Import File = Importer le fichier
 Extract Libs = Êxtraire les Librairies
+No Libs! =
 Import File and Extract Libs = Importer un fichier et extraire les librairies
 File type = Type de fichier
 The file size is too large. = La taille du fichier est trop grande.
@@ -1067,8 +1082,14 @@ Manufacturer Part.bom = Pièce du fabricant.bom
 Manufacturer.bom =fabricant.bom
 
 One-click Purchasing at LCSC = Achat en un clic sur LCSC
-Order Parts = Commander des composants 
+Order Parts = Commander des composants
 Export BOM = Exporter la nommencature
+Upload to LCSC ERP =
+Order SMT Parts =
+No components, upload failed! =
+Upload to LCSC ERP failed, please try again later. =
+Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. =
+Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. =
 Export PCB BOM = Exporter la nommencature PCB
 Export Schematic BOM = Exporter la nommencature du schéma
 ID.bom =
@@ -1087,6 +1108,8 @@ Components = Composants
 Manufacturer = Fabricant
 [/bom]
 Manufacturer Part = Pièce du fabricant
+Part Number =
+Part Code =
 
 #Dialog Run
 Run your simulation = Lancer la Simulation
@@ -1105,7 +1128,7 @@ DC sweep = Modulation DC
 Source to Sweep =
 Start Value = Valeur de départ
 Stop Value = Valeur d'arrivée
-Increment = 
+Increment =
 DC Transfer = Transfert DC :
 Output = Sortie
 Source = Source
@@ -1141,13 +1164,16 @@ In stock = En stock
 Common Modules = Modules communs
 User Contributions = Contributions des utilisateurs
 More = Plus
+Modify Model... =
 Add Favorite = Ajouter aux favoris
 Remove Favorite = Retirer des favoris
 Add Sub Part = Ajouter un sous-composant
+Add Sub Parts... =
+Please enter how many sub parts need to be added =
 Untagged = Non balisé
 Package = Boitier
 package = boitier
-Title(PartNO) =Titre(NuméroPièce) 
+Title(PartNO) =Titre(NuméroPièce)
 No Data! = Pas de données !
 Quantity = Quantité
 Manufacturer Part = Pièce fabricant
@@ -1166,7 +1192,7 @@ Classes = Classes
 power = alimentation
 Power = Alimentation
 LCSC Part# = Pièce LCSC
-Stock = Stock
+LCSC Stock = LCSC Stock
 Report Error... = Signaler une erreur...
 Report Error = Signaler une erreur
 Thanks for your feedback! = Merci pour vos retours!
@@ -1253,7 +1279,7 @@ Merged sheet = Feuille fusionnée
 Separated sheet = Feuille séparée
 Engine = Moteur
 Exporting PDF = Exportation de PDF
-Export 3D Model = Exportation du modèle 3D 
+Export 3D Model = Exportation du modèle 3D
 [exportDocument]
 Size = Taille
 [/exportDocument]
@@ -1275,7 +1301,7 @@ TopPasterLayer = Couche dessus
 BottomPasterLayer = Couche dessous
 TopSolderLayer = Couche Cuivre dessus
 BottomSolderLayer = Couche Cuivre dessous
-TopPasteMaskLayer = 
+TopPasteMaskLayer =
 BottomPasteMaskLayer =
 TopSolderMaskLayer =
 BottomSolderMaskLayer =
@@ -1291,7 +1317,7 @@ Hole = Trous
 DRCError = Erreurs de véricication Règles de Routage
 Setting = Réglages
 Drawing area = Zone de dessin
-Export area = Zone d'exportation 
+Export area = Zone d'exportation
 Transparency(%) =
 Copper Layer = Couche de cuivre
 Signal =
@@ -1312,7 +1338,7 @@ Please check for Design Rule Checking (DRC) errors in the Design Manager. =
 Please rebuild the copper area after modifying tracks and packages. = Veuillez reconstruire la zone de cuivre après avoir modifié les pistes et les boitiers.
 After generating the Gerber file, please use the {0}Gerber Viewer{1} to check whether it conforms to the design requirements. = Après avoir généré le fichier Gerber, veuillez utiliser le {0}Gerber Viewer{1} pour vérifier s'il est conforme aux exigences de conception.
 Order PCB/SMT = Commande PCB/CMS
-Found the complicated polygon that object cannot be generated at Gerber, please remove or replace = 
+Found the complicated polygon that object cannot be generated at Gerber, please remove or replace =
 ID: {id}, Object: {object}, Location: {location} = ID: {id}, Objet: {object}, Emplacement: {location}
 
 #Dialog DRC
@@ -1344,19 +1370,20 @@ Rule list contains invalid rule setting! = La liste de règles contient un param
 Duplicate rule name exists! = Un nom de règle en double existe !
 via diameter is smaller than via drill diameter! = Le diamètre du via est inférieur au diamètre du foret du via !
 Currently rule name is not allowed to contain magical characters like . and $ = Actuellement, le nom de la règle n'est pas autorisé à contenir des caractères complexes comme . et $.
+Track Width (min) =
+Clearance (min) =
+Via Diameter (min) =
+Via Drill Diameter (min) =
+Track Length (max) =
 [drcRule]
 All = Tous
 [/drcRule]
-
-#Dialog  Update PCB
-Update PCB(Synchronizing PCB from schematics) = Mise à jour du PCB (synchronisation du PCB depuis les schémas)
-
 
 #Dialog Hotkey
 Change Canvas Unit =
 Copy Selected Object(s) by Reference Point =
 Fullscreen = Plein écran
-Undo the Previous Draw = Annuler le trait précédent 
+Undo the Previous Draw = Annuler le trait précédent
 Set Canvas Origin by Coordinate =
 Switch to the Next Signal Layer =
 Switch to the Previous Signal Layer =
@@ -1413,6 +1440,8 @@ Change to Inner2 =
 Change to Inner3 =
 Change to Inner4 =
 Highlight Net = onnecion en Surbrillance
+Highlight Network =
+Unhighlight Network =
 Place Pad = Placer une pastille
 Place Via = Placer un Via
 Measure = Mesurer
@@ -1474,13 +1503,16 @@ Document Recovery Setting = Réglage de la récupération des documents
 Enable auto backup = Activer la sauvegarde automatique
 Maximum backup level = Niveau de sauvegarde maximum
 Auto backup interval = Intervalle de sauvegarde automatique
+days =
+hours =
 minutes =  minutes
+seconds =
 Save to Server = Enregistrer sur le serveur
 Load from Server = Charger à partir du serveur
 
 
 #Dialog Schematic Library Wizard
-Symbol Wizard = 
+Symbol Wizard =
 Style = Style
 Picture = Image
 Pin Names = Noms des broches
@@ -1491,7 +1523,9 @@ owner = propriétaire
 #Dialog Annotate
 Annotate = Annoter
 Scope = Pointer
-Active Schematic only = Uniquement le Schéma actif
+All pages =
+Current page only = Uniquement le Schéma actif
+Selected components =
 All Opened Schematics = Tous les Schémas ouverts
 Method = Méthode
 Re-annotate all = Ré-annoter Tout
@@ -1535,7 +1569,7 @@ To connect electrical elements, please use Wire (W hotkey) and not Line (L hotke
 Anonymous File = Fichier anonyme
 Anonymous File can not be cloned, but you can open it, then save it as a new file. = Un fichier anonyme ne peut pas être cloné, mais vous pouvez l'ouvrir, puis l'enregistrer comme un nouveau fichier.
 Free Documents = Documents gratuits
-You must close the file before delete it! = Vous devez fermer le fichier avant de le supprimer ! 
+You must close the file before delete it! = Vous devez fermer le fichier avant de le supprimer !
 Offline Project = Projet hors ligne
 
 #Message box
@@ -1590,6 +1624,7 @@ Guests can't import a file. Please login! = Les invités ne peuvent pas importer
 Please create a project before you import a file! = Vous devez créer un projet avant d'omporter un fichier !
 Import your LTspice file! = Importer votre fichier LTspice !
 Open LTspice file = Ouvrir le fichier LTspice
+Open EasyEDA file =
 Please make sure the selected LTspice file is a file saved in LTspice V and above. = Veuillez vous assurer que le fichier LTspice sélectionné est un fichier enregistré dans la version V ou supérieur.
 Saved successfully! = Enregistrement réussi !
 Save failed! = Enregistrement échoué !
@@ -1617,7 +1652,7 @@ Your spice netlist is too big! Try breaking your circuit into smaller simulatabl
 Too many users in simulation. Please try again later! = Trop de connexions pour la simulation. Réessayez plus tard.
 Due to limited server resources, please wait 10 seconds for the interval in every time simulation. =
 Your circuit is too complex, we have not enough CPU resource to support this simulation, please reduce your circuit as small as you can. =
-Simulation is queuing, try again after 30s. = La simulation est en attente, réessayez après 30s. 
+Simulation is queuing, try again after 30s. = La simulation est en attente, réessayez après 30s.
 Timeout = Délai d'attente
 Demo accounts don't support simulation, please login first = Les comptes de démonstration ne permettent pas la simulation, veuillez d'abord vous connecter.
 Please login first = Veuillez vous connecter d'abord
@@ -1649,10 +1684,10 @@ Error:No GND = Erreur : pas de GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Ce circuit n'a pas de GND. Veuillez sélectionner GND dans l'outil de circuit pour l'ajouter au circuit.
 Current circuit doesn't has Voltage Resource or Current Resource symbol, please place it first at left side EElib or Spice Library. =
 Probe can not connect with ground(GND)! = La sonde ne peut pas se connecter à la masse (GND) !
-Spice symbols's properties can't be empty. = Les propriétés des symboles Spices ne peuvent pas être vides. 
+Spice symbols's properties can't be empty. = Les propriétés des symboles Spices ne peuvent pas être vides.
 Error:No Spice Symbol = Erreur : Aucun symbole Spice
 Simulation limit = Limite de simulation
-There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = Le circuit contient un multimètre qui doit être simulé à l'aide de la commande d'émulation .tran ou .op. 
+There is a multimeter in the circuit that needs to be simulated using the emulation command .tran or .op = Le circuit contient un multimètre qui doit être simulé à l'aide de la commande d'émulation .tran ou .op.
 An oscilloscope exists in the circuit and needs to be simulated using the simulation command .tran = Un oscilloscope existe dans le circuit et doit être simulé à l'aide de la commande de simulation .tran.
 There are components in this circuit that do not have a simulation model. Please use the base library component of the simulation mode for simulation. = Certains composants de ce circuit ne disposent pas d'un modèle de simulation. Veuillez utiliser le composant de la bibliothèque de base du mode de simulation pour la simulation.
 Circuit does not have a probe = Le circuit n'a pas de sonde
@@ -1663,6 +1698,7 @@ All ratlines are hidden successfully! =
 Hidden the ratline of net {netName} successfully! =
 Duplicate Component Prefix = Préfixe de composant en double
 {0} exist = {0} existe
+Modify successfully, but {0} already exists =
 There are some invalid packages, are you sure? = Il y a des boitiers non valides, confirmez-vous ?
 Invalid Characters, library only allows [0-9a-zA-Z-_]
 Annotation success = Annotation réussie
@@ -1701,7 +1737,7 @@ Net name =
 This field can't be removed! = Ce champ ne peut pas être supprimé !
 Annular ring of the pad/via is too small =
 The size of the hole cannot exceed the size of the pad = La taille du trou ne peut pas dépasser la taille de la pastille.
-Are you sure you want to create a multi-sheet designs? = Êtes-vous sûr de vouloir créer un modèle à feuilles multiples ? 
+Are you sure you want to create a multi-sheet designs? = Êtes-vous sûr de vouloir créer un modèle à feuilles multiples ?
 Are you sure you want to create a {0}multi-sheet designs{1}? = Etes-vous sûr de vouloir créer un {0}modèle à feuilles multiples{1} ?
 Please build the copper area! Click the help button to find out how to build the copper area. = Veuillez construire la zone de cuivre ! Cliquez sur le bouton d'aide pour savoir comment construire la zone de cuivre.
 Suggest to set a package for this component first! = Il est conseillé de définir d'abord un boitier pour ce composant !
@@ -1884,7 +1920,6 @@ Display Pad's Number and Net =
 Favorite Track width = Largeur de piste préférée
 Track Width Setting = Réglage de la largeur des pistes
 
-
 #Dialog Access Control
 Permissions = Autorisations
 Operations = Opération
@@ -1893,6 +1928,8 @@ Project Access Control = Contrôle d'accès aux projets
 Reject = Rejeter
 Add User = Ajouter un utilisateur
 Bad email address = Adresse mail invalide
+Permissions Error =
+
 # error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Impossible de trouver cet e-mail dans EasyEDA. Votre partenaire doit être un utilisateur de EasyEDA.
 
@@ -1955,7 +1992,7 @@ Help Verify = Aide à la vérification
 Favorite Parts = Composants Favoris
 Shared With Me = Partager avec moi
 Preview = Aperçu
-Preview Window = Fenêtre d'aperçu 
+Preview Window = Fenêtre d'aperçu
 System Default = Système par défaut
 User Defined = Défini par l'utilisateur
 Theme = Thème
@@ -1984,6 +2021,9 @@ Update = Mettre à jour
 Bus entry = Entrés de Bus
 Filter = Filtre
 Check = Vérifier
+Share my work =
+Share it by e-mail, IM, blog, etc. =
+
 Copy the contents of this box into a text editor, then save the file. Paste the edited text back into this box and click Apply to update the display. = Copiez le contenu de cette case dans un éditeur de texte, puis enregistrez le fichier. Collez à nouveau le texte modifié dans cette zone et cliquez sur Appliquer pour mettre à jour l'affichage.
 Copy the contents of this box into a text editor, then save the file with a .svg extension. You can edit it in Inkscape or open it in your browser. = Copier le contenu de cette fenêtre dans le Bloc-notes et enregistrer le fichier avec une extension SVG. Vous pouvez alors le modifier avec Inkscape ou l'ouvrir dans un navigateur.
 Content is too big to show, you can download it directly. = Le contenu est trop volumineux pour être affiché, vous pouvez le télécharger directement.
@@ -1994,6 +2034,7 @@ The file save operation has timed out. Try again and check your Internet connect
 Export Netlist = Exporter la NetList
 Notifications = Notifications
 Please select txt or json files. = Veuillez sélectionner des fichiers txt ou json.
+Please select EasyEDA files. =
 Failed to read file [{file}] = Impossible de lire le fichier [{file}].
 [{file}] is not a valid json file =[{file}] n'est pas un fichier json valide
 Invalid parameters! = Paramètres invalides !
@@ -2011,6 +2052,7 @@ Net Length =
 You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. =
 Please input the modification = Veuillez saisir la modification
 The content must be between {0} and {1} characters = Le contenu doit être compris entre {0} et {1} caractères.
+Please input a number between {0} and {1} =
 
 Coming soon = Bientôt disponible
 No tool = Aucun outils
@@ -2041,6 +2083,9 @@ PenWidth-Increase =
 #Generate Gerber
 Generate Gerber = Générer Gerber
 Gerber View = Visualisation du Gerber
+Dimensions =
+1-2 days =
+Build Time =
 Dimensions(Estimated) = Dimensions(Estimées)
 PCB Qty = Qté PCB
 Copper Weight = Poids du cuivre
@@ -2049,16 +2094,17 @@ Estimated Delivery Time = Temps de livraison estimé
 
 HASL(with lead) = Etain(avec plomb)
 LeadFree HASL-RoHS = Etain sans plomb ROHS
-ENIG-RoHS = 
+ENIG-RoHS =
 Would you like to do Design Rule Checking (DRC) before generating the Gerber files? =
 Yes, Check DRC = Oui, vérifiez le RDC
 No, Generate Gerber = Non, générer le Gerber
+No, Continue to order =
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = Ce PCB a une ou plusieurs connexions non complétées, voulez-vous vérifier la ou les connexions ?
 Yes, Check Connection(s) = Oui, vérifier la ou les connexions
 It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = Il sera alors redirigé vers le site web tiers JLCPCB avec lequel nous coopérons. Êtes-vous prêts ?
 Failed to submit your order, please contact us via support@easyeda.com for help. =  Impossible de soumettre votre commande, veuillez nous contacter via support@easyeda.com pour obtenir de l'aide.
-Failed to submit your order, please contact us via QQ 800821856. = Impossible de soumettre votre commande, veuillez nous contacter via QQ 800821856.
-Order data generated finish, please click OK button and continue. = Les données de la commande générées sont terminées, veuillez cliquer sur le bouton OK et continuer.
+Failed to submit your order, please contact us. = Impossible de soumettre votre commande, veuillez nous contacter.
+Order data(Gerber, Pick and Place file, BOM) generated finish, please click OK button and continue. = Les données de la commande générées sont terminées, veuillez cliquer sur le bouton OK et continuer.
 [generateGerber]
 Layers = Couches
 [/generateGerber]
@@ -2088,10 +2134,10 @@ favorite Package = boitier préféré
 Board Cutout = Découpe de la carte
 Surface Mount = Montage en surface
 JLCPCB Part Class =
-base = 
+base =
 expand =
 recommend = recommandé
-Basic Part = Composant de base 
+Basic Part = Composant de base
 Extended Part = Composant supplémentaire
 Recommended Part = Composant recommandé
 smtWeld =
@@ -2144,6 +2190,7 @@ Create Subfolder = Créer un sous-dossier
 Create Script = Créer un script
 Install Script = Installer le script
 Install = Installer
+Desktop Client =
 Are you sure you want to remove this script? = Êtes-vous sûr de vouloir supprimer ce script ?
 Folder Name = Nom du dossier
 Rename = Renommer
@@ -2167,7 +2214,7 @@ Photo View = Vue photo
 #check update
 Check Update = Vérifier les mises à jour
 EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = EasyEDA Editor {ver} est disponible. Voulez-vous passer à la nouvelle version maintenant ?
-LCEDA Editor {ver} is released. Would you like to switch to the new version now? = LCEDA Editor {ver} est disponible. Voulez-vous passer à la nouvelle version maintenant ?
+JLCEDA Editor {ver} is released. Would you like to switch to the new version now? = JLCEDA Editor {ver} est disponible. Voulez-vous passer à la nouvelle version maintenant ?
 Switch to New Version = Passer à la nouvelle version
 Next Time = Une prochaine fois
 
@@ -2187,7 +2234,7 @@ Select a DXF file = Sélectionnez un fichier DXF
 
 #Export DXF
 Export DXF = Exporter en DXF
-Plated-Through-Hole Pads = 
+Plated-Through-Hole Pads =
 Non-Plated-Through-Hole Pads =
 Silkscreen = Sérigraphie
 Surface Pad = Pastille en surface
@@ -2201,7 +2248,7 @@ Local-Side = Côté Client
 Decision = Décision
 Modified = Modifié
 Deleted = Supprimé
-As Cloud = 
+As Cloud =
 As Local =
 Skip = Passer
 Data sync completed = Synchronisation des données terminée
@@ -2229,6 +2276,9 @@ Footprint PAD information =
 Footprint Categories = Catégories d'empreintes
 Pad Number = Numéro de pastille
 Search Footprint = Recherche une empreinte
+Select Footprint =
+Search 3D Model =
+Select 3D Model =
 Filter by keyword = Filtrer par mot-clé
 System Libs = Librairies système
 
@@ -2244,7 +2294,7 @@ Tracks = Pistes
 
 #dialog board outline settings
 Current Size = Dimension actuelle
-Paramenters =
+Parameters =
 Start X: = Début X:
 Start Y: = Début Y:
 Round Rectangular = Rectangle avec coin arrondi
@@ -2269,7 +2319,7 @@ BuiltDate = Date de construction
 Auto Router Config = Configuration du routeur automatique
 General Options = Options générales
 All Layers = Toutes les couches
-Configure = Configurer 
+Configure = Configurer
 Sorry, your web browser does not support this feature. Please run a modern browser. = Désolé, votre navigateur Web ne prend pas en charge cette fonctionnalité. Veuillez utiliser un navigateur récent.
 Please make sure all objects with net are inside the board outline! =
 Cannot start again before previous activity is stopped =
@@ -2318,7 +2368,7 @@ Stop Router = Arrêter le routeur
 Auto Router is running... = Le routeur automatique est en fonctionnement...
 
 #Left Sidebar
-EELib =
+Common Library =
 Basic =
 Extend =
 Design Manager = Gestionnaire de Projets
@@ -2344,7 +2394,7 @@ Recycle Bin = Corbeille
 
 # Protractor
 Font Height = Hauteur de la police
-Precision = Précision 
+Precision = Précision
 Protractor = Rapporteur
 
 #attr-pcbtext-line-width
@@ -2355,7 +2405,8 @@ Font is missing! You can confirm the dialog and use default font instead or canc
 Owner = Propriétaire
 License = License
 Part Pins = Broches du composant
-Net Pins = 
+Part Properties =
+Net Pins =
 Net Ratlines =
 Add Parameter = Ajouter un paramètre
 Histories record =
@@ -2377,7 +2428,7 @@ Please make sure that the chose Altium Designer files are saved as ASCII files. 
 Export to Altium function is currently in beta: = La fonction d'exportation vers Altium est actuellement en version bêta :
 1. Please be sure to read the notice before exporting: = 1. Veillez à lire la notice avant d'exporter :
 Export Altium notice and disclaimer = Avis et clause de non-responsabilité concernant l'exportation d'Altium
-2. Please be sure to check again after export! = 2. Veuillez vérifier à nouveau après l'exportation ! 
+2. Please be sure to check again after export! = 2. Veuillez vérifier à nouveau après l'exportation !
 I have read and agree = J'ai lu et j'accepte
 Export to Altium = Exporter vers Altium
 Please make sure that the chose Eagle files are saved in Eagle v6.0 and above. = Veuillez vous assurer que les fichiers Eagle choisis sont enregistrés dans Eagle v6.0 et plus.
@@ -2408,9 +2459,9 @@ Invalid Data = Données incorrectes
 Others = Autres
 You are not authorized to share this project. = Vous n'êtes pas autorisé à partager ce projet.
 This project is private: if you continue sharing it will be made public. = Ce projet est privé : si vous continuez à le partager, il sera rendu public.
-Modify file info = Modifier les informations du fichier 
+Modify file info = Modifier les informations du fichier
 Please input search keyword = Veuillez saisir le mot clé de recherche
-Sort Projects by = Trier les projets par 
+Sort Projects by = Trier les projets par
 Date Created = Date de création
 Date Modified = Date de modification
 Title = Titre
@@ -2420,8 +2471,8 @@ Pin to Top = Épingler en haut
 Unpin from Top = Déspingler en haut
 Collapse / Expand = Réduire / Développer
 Expand =  Développer
-Collapse = Réduire
 Expand All = Tout développer
+Collapse = Réduire
 Collapse All = Tout réduire
 Your file hasn't been saved, do you want to save it? = Votre fichier n'a pas été enregistré, voulez-vous l'enregistrer ?
 Don't Save = Ne pas enregistrer
@@ -2432,21 +2483,22 @@ Please select! = Veuillez sélectionner !
 Route =
 Import successfully: = Importation réussie :
 Import failed: = L'importation a échoué :
-The title length must be between 2~128 characters. = La longueur du titre doit être comprise entre 2 et 128 caractères.
 Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Le chemin contient seulement 'a-z、A-Z、- 、 _ 、0-9'!
 Path must begin as 'a-z、A-Z、0-9'! = Le chemin doit commencer par 'a-z、A-Z、0-9'!
 The path length must be between 4~128 characters! = La longueur du chemin doit être comprise entre 4~128 caractères !
-The title length must be between 2~256 characters! = La longueur du titre doit être comprise entre 2~256 caractères !
-The title cannot be less than 3 characters! = Le titre ne peut pas comporter moins de 3 caractères !
+The title length must be between 2 ~ 128 characters. = La longueur du titre doit être comprise entre 2 et 128 caractères.
+Please select an owner =
+Please select obj, wrl or zip file. =
 Do you want to delete this file? = Voulez-vous supprimer ce fichier ?
 Add sub part success = Ajout du sous-composant avec succès
 Please input name and prefix! = Veuillez saisir le nom et le préfixe !
 Board outlines are not closed = Les contours de la carte ne sont pas fermés
-Import Altium file fail, the file needs to be an ASCII file encoded in UTF-8. = L'importation d'un fichier Altium a échoué, le fichier doit être un fichier ASCII codé en UTF-8.
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = L'importation d'un fichier Altium a échoué, le fichier doit être un fichier ASCII codé en UTF-8.
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = Les broches "{0}" ne sont pas fixées sur un point de la grille ! Ce composant peut provoquer des erreurs dans le schéma.
+Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} =
 Check Pin = Vérification de la broche
 Failed to read {0} = Impossible de lire {0}
-{0} is invalid = {0} n'est pas valide 
+{0} is invalid = {0} n'est pas valide
 {0} not found = {0} non trouvé
 Failed to execute script: = Échec de l'exécution du script :
 One or more js files not found = Un ou plusieurs fichiers js n'ont pas été trouvés
@@ -2460,7 +2512,7 @@ loading = chargement
 Failed to load spice data = Impossible de charger les données de spice.
 Netlist = Netlist
 Tags =
-Pin Information: = Informations sur la broche : 
+Pin Information: = Informations sur la broche :
 Format incorrect, please check for the extra spaces or commas! = Le format est incorrect, veuillez vérifier les espaces ou les virgules supplémentaires !
 Round Radius = Rayon de courbure
 Keyword: = Mot clé:
@@ -2476,7 +2528,7 @@ Lock = Bloquer
 Please input pin name and pin number! = Veuillez saisir le nom et le numéro de la broche !
 Left-Hand Panel = Panneau latéral de gauche
 Right-Hand Panel = Panneau latéral de droite
-Update All = Tout mettre à jour
+Update Components from Library =
 The pin number(s) can't find the same pad number(s) =
 Designator =
 Replace = Remplacer
@@ -2504,10 +2556,10 @@ Circular = Circulaire
 Expose Copper = Exposer le cuivre
 "{0}" font is missing. Please add the font to the font family list. = La police "{0}" est manquante. Veuillez ajouter la police à la liste des familles de polices.
 Place Component = Placer le composant
-Delete Segment = Supprimer le segment 
+Delete Segment = Supprimer le segment
 Angle = Angle
 Board Thickness = Epaisseur de la carte
-Layer Distance = 
+Layer Distance =
 Silk Screen = Sérigraphie
 Surface Finish Color = Couleur de la finition de surface
 Colors = Couleur
@@ -2519,7 +2571,7 @@ Display = Afficher
 
 # Array and Clone
 Distribute Array =
-Array Type = 
+Array Type =
 Matrix Array =
 Circular Array =
 Item Rotation =
@@ -2529,7 +2581,7 @@ Items per Row = Éléments par ligne
 # Column Spacing
 # Row Spacing
 Spacing(Degrees) = Espacement (degrés)
-Start Degree = 
+Start Degree =
 Rotate Item to Match =
 Clockwise = Sens des aiguilles d'une montre
 Anti-Clockwise = Sens inverse des aiguilles d'une montre
@@ -2549,14 +2601,13 @@ Common Used = Utilisé couramment
 Original Theme = Thème original
 Theme Setting = Réglage du thème
 Change the theme colors of your design = Modifier les couleurs du thème de votre conception
-White on Black = Blanc sur noir 
+White on Black = Blanc sur noir
 Black on White = Noir sur blanc
 Custom Theme = Thème personnalisé
 Color Setting = Réglage de la couleur
 Apply Setting = Appliquer le paramètre
 Theme Setting... = Réglage du thème...
 Bus Entry = Entrée de Bus
-Foreground = Premier plan
 Symbol Graphics =
 Common Used = Utilisé couramment
 Draw =
@@ -2628,7 +2679,7 @@ Stamp Hole =
 No Panelize = Pas de panélisation
 Border and Marking =
 Create Border = Créer une bordure
-Border Height = Hauteur de la bordure 
+Border Height = Hauteur de la bordure
 Border Position = Position de la bordure
 Create Positioning Holes =
 Create Fiducial Marks =
@@ -2637,6 +2688,7 @@ Left and Right = Gauche et droite
 Stamp Hole Group - Column =
 Stamp Hole Group - Row =
 The number of rows and columns cannot be set to 1 simultaneously = Le nombre de lignes et de colonnes ne peut pas être fixé à 1 simultanément.
+When panelize number is 1 x 1, you need to enable the "Create Boarder" =
 
 #edit path point
 [editPathPoints-dlg]
@@ -2674,7 +2726,7 @@ Copper Areas = Zones de cuivre
 #Differential Pair Routing
 Differential Pair Routing = Routage des paires différentielles
 Differential Pair Rule Setting = Réglage de la règle pour les paires différentielles
-Please input track width = Veuillez indiquer la largeur de la piste 
+Please input track width = Veuillez indiquer la largeur de la piste
 Please input clearance = Veuillez saisir l'espace de dégagement
 Routing Rules = Règles de routage
 
@@ -2690,6 +2742,9 @@ Current Length : =
 Additional Length : =
 Target Length: =
 Current Length: =
+Adjust Type =
+Double Side =
+Single Side =
 
 can not connect to the server = ne peut pas se connecter au serveur
 
@@ -2723,7 +2778,7 @@ Location X = Emplacement X
 Location Y = Emplacement Y
 Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = La version actuelle de votre navigateur peut ne pas prendre en charge certaines fonctionnalités. Veuillez utiliser la dernière version de Chrome ou Firefox, ou essayer le client de bureau.
 EasyEDA Client =
-LCEDA Client =
+JLCEDA Client =
 Chrome =
 FireFox =
 New Version = Nouvelle version
@@ -2731,8 +2786,9 @@ Switch Version = Changer de version
 Members = Membres
 Update Time =
 Editor = Editeur
-Current Version: = Version actuelle :
-Select a version to switch =
+Current Version = Version actuelle
+Latest Version =
+Please select a different version to switch; If you want to edit different version in the same time, please open them in different browsers. =
 3D Model = Modèle 3D
 Board Side =
 Display =
@@ -2743,6 +2799,7 @@ Version Management =
 Switch success! =
 Please close current version's documents first! =
 Creator =
+creator =
 Create Time =
 Fail to connect to server! Please check your internet connection status and try again! =
 Spice Number =
@@ -2757,7 +2814,6 @@ Save "{0}" success! =
 Save "{0}" failed! =
 Invalid Size =
 Processing =
-Invalid Size =
 NetFlag GND = Drapeau Piste Gnd
 NetFlag VCC = Drapeau Piste Vcc
 NetFlag +5v = Drapeau Piste +5V
@@ -2772,6 +2828,7 @@ Processing =
 Opening File =
 Update from Library =
 Update Footprint =
+Update 3D Model =
 Find footprint(s) have been updated, do you want to update? =
 3D File: =
 Model List =
@@ -2801,7 +2858,7 @@ Previous = Précédent
 Previous Image = Image précédente
 Next Image = Image suivante
 Notice: For reference only, please refer to the real product = Avis : Pour référence uniquement, veuillez vous référer au produit réel.
-It's under designing, please wait. = Il est en cours de conception, veuillez patienter. 
+It's under designing, please wait. = Il est en cours de conception, veuillez patienter.
 The width of track/arc/circle cannot be less than 0.1mil! =
 Clone success ! = Clonage réussi !
 Footprint Naming Reference =
@@ -2821,6 +2878,8 @@ This component is unmounted =
 
 #find component
 Find Next = Trouver le suivant
+Pin not found =
+Pad not found =
 Object not found = Objet non trouvé
 
 #offset Elements
@@ -2835,7 +2894,7 @@ Reference Point X = Point de référence X
 Reference Point Y = Point de référence Y
 
 # Inner Plane layer
-Rebuild Plane = Rebuild Plane 
+Rebuild Plane = Rebuild Plane
 PlaneZone Properties =
 Change to a plane layer is not allowed during track routing. = Le passage à une couche plane n'est pas autorisé pendant le routage des pistes.
 #pcblib rect
@@ -2852,7 +2911,7 @@ The prefixes are not allowed to repeat! = Les préfixes ne sont pas autorisés �
 Save failed! The origin of the canvas is not in the graphics! Whether to set the origin automatically? = La sauvegarde a échoué ! L'origine de la toile n'est pas dans les graphiques ! Faut-il définir l'origine automatiquement ?
 The origin of the canvas has been set in the graphics now, you can save again. =
 Backup Project =
-Open Project Directory = 
+Open Project Directory =
 
 {0} items updated = {0} éléments mis à jour
 
@@ -2876,7 +2935,7 @@ Other.layer =
 
 Please enter at least 2 characters! = Veuillez saisir au moins 2 caractères !
 View Datasheet = Voir la fiche technique
-View Datasheet... = Voir la fiche technique... 
+View Datasheet... = Voir la fiche technique...
 
 The corresponding package or network could not be found in the currently open PCB document =
 delete fail =
@@ -2900,6 +2959,8 @@ Next = Suivant
 Total {count} Count =
 About = A Propos de
 Items = Objets
+Apply New Part =
+No Part Yet =
 [/findlib]
 
 Object = Objet
@@ -2940,7 +3001,7 @@ Can't find copper area at other layers, please add the copper area with the same
 
 Add favorite success! = Ajouté aux favoris avec succès
 Remove favorite success! = Retiré des favoris avec succès
-Remove favorite failed! = 
+Remove favorite failed! =
 Whether if remove favorite? =
 Split by ';' for multi tags =
 
@@ -2962,6 +3023,7 @@ There is No Tag! =
 Assign successful! =
 Found footprint's pad number doesn't match the schematic component's pin number, please correct the pad number and try again! =
 Update Property =
+Update Properties =
 Please fill in at least 5 words. =
 Mouse hovering over the track to highlight the entire network =
 Net Highlighting While Cursor Hover the Track =
@@ -2969,8 +3031,8 @@ When circle set as "Yes", the Pin length must be more than 6 =
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! =
 
 Logout fail! Please try again! = Échec de la déconnexion ! Veuillez réessayer !
-Logout success! We look forward you to use LCEDA again! = Déconnexion réussie ! Nous espérons que vous utiliserez à nouveau LCEDA !
-Logout success! We look forward you to use EasyEDA again! = Déconnexion réussie ! Nous espérons que vous utiliserez à nouveau EasyEDA ! 
+Logout success! We look forward you to use JLCEDA again! = Déconnexion réussie ! Nous espérons que vous utiliserez à nouveau JLCEDA !
+Logout success! We look forward you to use EasyEDA again! = Déconnexion réussie ! Nous espérons que vous utiliserez à nouveau EasyEDA !
 Click to Preview 3D = Cliquez pour visualiser la 3D
 [logoutDialog]
 Logout = Déconnexion
@@ -2981,9 +3043,11 @@ All = Tous
 [/findlibTag]
 
 Export Pick and Place File = Exportation du fichier Pick and Place
-Mirror the bottom component's X coordinate (JLCPCB doesn't need) =
+Mirror the bottom components' coordinate (JLCPCB doesn't need) =
+Mirror coordinate Y =
+Mirror coordinate X =
 Work Space = Espace de travail
-Include panelized components' coordinates =
+Include panelized components' coordinates(JLCPCB doesn't need) =
 Personal Workspace = Espace de travail personnel
 Work Space - {name} =
 Work Space - Personal =
@@ -2999,7 +3063,7 @@ Favorite =
 This operation will unfavorite this project, do you want to continue? =
 View Homepage = Voir la page d'accueil
 Private Project = Projet Privé
-3-7 days = 3 à 7 jours 
+3-7 days = 3 à 7 jours
 Close Tab = Fermer l'onglet
 Close Other Tabs = Fermer les autres onglets
 Close All Tabs = Fermer tous les onglets
@@ -3007,25 +3071,17 @@ Open in New Window = Ouvrir dans une nouvelle fenêtre
 Cursor Snap to Component's Origin or Pad Center While Dragging Component =
 Undefined = Indéfini
 Input = Entrée
-Model Unit = Unité du modèle 
+Model Unit = Unité du modèle
 File Unit = Unité du fichier
 This part contains subparts, please make sure you have checked other subparts before reporting error, do you want to continue? =
 
 [saveAs]
-Power = 
+Power =
 [/saveAs]
 
 Assign LCSC Part# =
 Unexpected error while converting. Perhaps unsupported file type or program bug. =
 Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. =
-
-#electromagneticSimulation
-Electromagnetic Simulation... =
-You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? =
-SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. =
-Visit the SuperEM =
-SuperEM User Guide =
-Upload Gerber to SuperEM successfully, please click "OK" buttun to continue =
 
 Format =
 View = Vues
@@ -3040,6 +3096,9 @@ PCB Fabrication File(Gerber) =
 Pick and Place File =
 Parts Order =
 PCB Order =
+One-click Order Parts =
+One-click Order PCB/SMT =
+JLCPCB Layout Service =
 SIM =
 STD =
 WaveForm = Courbe
@@ -3056,7 +3115,7 @@ Also update track's net (Only applies to circumstance under which prefix/netlabe
 # desktop client error feedback
 Cannot open online documents on Project Offline mode. =
 
-Please select a project = Veuillez sélectionner un projet 
+Please select a project = Veuillez sélectionner un projet
 Opened Projects = Projets ouverts
 Open Project = Projet ouvert
 Close Project = Fermer le projet
@@ -3076,6 +3135,7 @@ Move Folder = Déplacer le dossier
 Please input the folder name = Veuillez saisir le nom du dossier
 Invalid folder name = Nom de dossier non valide
 Are you sure to delete this folder? = Etes-vous sûr de vouloir supprimer ce dossier ?
+All projects in this folder will be moved to the root directory. =
 Create new folder successfully = Nouveau dossier créé avec succès
 Failed to create new folder = Échec de la création d'un nouveau dossier
 Delete folder successfully = Suppression du dossier avec succès
@@ -3089,19 +3149,20 @@ Failed to move project = Impossible de déplacer le projet
 The folder depth must not exceed {0} levels = La profondeur du dossier ne doit pas dépasser {0} niveaux.
 Failed to add project to folder = Impossible d'ajouter le projet au dossier
 
-Doesn't support JLCPCB SMT Service = Ne supporte pas le service CMS de JLCPCB
-{0} for JLCPCB SMT Service = {0} pour le Service Comments de JLCPCB
+Doesn't support SMT = Ne supporte pas le service SMT
+JLCPCB SMT Stock: {0} =
 
 Reset failed! There are duplicate component prefixes in the current schematic: = La réinitialisation a échoué ! Il y a des préfixes de composants en double dans le schéma actuel :
 Reset failed! There are duplicate component prefixes in the current PCB: = La réinitialisation a échoué ! Il y a des préfixes de composants en double dans le PCB actuel :
-Please modify the component prefixes first to ensure that the component prefix is unique. = Veuillez d'abord modifier les préfixes des composants afin de vous assurer que le préfixe du composant est unique. 
+Please modify the component prefixes first to ensure that the component prefix is unique. = Veuillez d'abord modifier les préfixes des composants afin de vous assurer que le préfixe du composant est unique.
 
-LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA(Standard) - Un outil de conception de circuits électroniques simple et puissant
+JLCEDA(YALONG Edition) - A Simple and Powerful Electronic Circuit Design Tool =
+JLCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = JLCEDA(Standard) - Un outil de conception de circuits électroniques simple et puissant
 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(Standard) - Un outil de conception de circuits électroniques simple et puissant
 
 #Dialog for Package Custom Data
 Please input the data title = Veuillez saisir le titre des données
-Data title duplicated = Titre des données dupliqué 
+Data title duplicated = Titre des données dupliqué
 Cannot be more than {0} characters! = Il ne peut y avoir plus de {0} caractères !
 Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. =
 Invalid value of item {0} = Valeur non valide de l'élément {0}
@@ -3139,6 +3200,9 @@ System footprint doesn't allow two or more pad numbers are 1 or A1, please modif
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. =
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. =
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. =
+This footprint is LED, CASE or DIO type, please check if need to draw the polarity marking(or special polarity marking), if exits polarity marking please ignore this message. =
+This footprint is DIP type, please check if haven't place multi-layer pads. =
+This footprint is SMD type, please check if haven't placed single-layer pads. =
 
 ROUND =
 RECTANGLE =
@@ -3157,7 +3221,7 @@ Body Diameter =
 Lead Span =
 Lead Vertical Span =
 Body Length =
-Body Height =
+Body Width =
 Pin Diameter = Diamètre de la broche
 Pin Length = Longueur de la broche
 Pin Height = Hauteur de la broche
@@ -3172,7 +3236,7 @@ Custom PasteMask =
 Fabrication Tolerance =
 Placement Tolerance =
 FirstPin Position =
-Package Origin = Origine du boitier 
+Package Origin = Origine du boitier
 Expansion Size =
 Corner = Coin
 Angle = Angle
@@ -3204,9 +3268,9 @@ No elements on component shape layer! =
 No elements on lead shape layer! =
 No pad of number 1 or A1, please modify the pad number. =
 Save failed! Component marking circle is at the axis. Do you want to recreate the component marking? =
-If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. =
+If autoroute fail, you can export the autoroute file(DSN) to third-party autorouter tool(Such as: FreeRouting, Konekt Electra, Eremex TopoR etc.), and export the session file(SES) after finished autoroute, and then import to PCB. =
 Auto route failed! Found abnormal pad(s) data, please modify the pad width and height: =
-Select Properties = Sélectionner les propriétés 
+Select Properties = Sélectionner les propriétés
 Combine the same parts' prefixes in one row = Combiner les préfixes des mêmes composants sur une seule ligne.
 Please check at least one item! = Veuillez cocher au moins un élément !
 Pins = Broches
@@ -3216,6 +3280,7 @@ Note: When a PCB is Import Changes, the PCB is updated according to the footprin
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. = Ne supporte pas l'importation du format binaire DXF, veuillez importer le format ASCII DXF.
 
 Find System Similar Footprint =
+Download fingerprint data =
 Found similar footprints at system library, it is recommended to use them first. =
 Copy Title =
 Check system similar footprint =
@@ -3228,7 +3293,7 @@ Find Results = Trouver des résultats
 Bill of material(BOM) uploaded finish, please click "OK" to continue. = Le téléchargement de la nomenclature est terminé, veuillez cliquer sur "OK" pour continuer.
 Bill of material(BOM) upload failed! = Le téléchargement de la nomenclature a échoué !
 
-All pads = Toutes les pastilles 
+All pads = Toutes les pastilles
 All holes = Tous les trous
 Single layer pads = Pastilles à une seule couche
 Multi-layer pads = Pastilles multicouches
@@ -3248,20 +3313,85 @@ Generate Solid Region by Objects Outline =
 Generate Polygon Pad by Objects Outline =
 Select the objects that cannot be generated = Sélectionnez les objets qui ne peuvent pas être générés
 
-Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Veuillez compresser le schéma et le PCB dans un fichier zip, puis importez-les. Si vous importez uniquement le schéma, vous devez lier l'empreinte manuellement. 
+Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Veuillez compresser le schéma et le PCB dans un fichier zip, puis importez-les. Si vous importez uniquement le schéma, vous devez lier l'empreinte manuellement.
 Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Veuillez compresser le schéma et le PCB au format ASCII dans un fichier zip, puis importez-les. Si vous importez uniquement le schéma, vous devez lier l'empreinte manuellement.
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
 The PCB text will use the editor new font family, the text maybe will appear a little excursion. = Le texte du PCB utilisera la nouvelle famille de polices de l'éditeur, le texte apparaîtra peut-être un peu en retrait.
-Because of different file format and element, please check carefully after imported. = En raison des différences de format de fichier et d'éléments, veuillez vérifier attentivement après l'importation.
-Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = Veuillez vous assurer que le fichier EAGLE est enregistré dans la version EAGLE v6.0 et supérieure. 
+Because of different file format and element design, the imported element may have some differences, please check carefully. The more information please refer the tutorials. = En raison des différences de format de fichier et d'éléments, veuillez vérifier attentivement après l'importation.
+EasyEDA is not responsible for any losses caused by format conversion differences, if you do not agree, please do not import. =
+Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = Veuillez vous assurer que le fichier EAGLE est enregistré dans la version EAGLE v6.0 et supérieure.
 Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = Veuillez compresser le schéma et le PCB dans un fichier zip avec KiCad5, puis importez-les. Si vous importez uniquement le schéma, vous devez lier l'empreinte manuellement.
 Please make sure the Protel file is exported as ASCII format file. = Veuillez vous assurer que le fichier Protel est exporté au format ASCII.
 Please compress the schematic and corresponding symbols as a zip file and then import it. = Veuillez compresser le schéma et les symboles correspondants dans un fichier zip, puis importez-le.
+Tips =
+
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
 
 Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
 Tips = Astuces
 Exists incomplete connection = Il existe une connexion incomplète
 Found that the board has incomplete connection, please check the nets and ratlines =
-creator = créateur
-You are not logged in or the login status is invalid, please login and try again. = Vous n'êtes pas connecté ou le statut de connexion est invalide, veuillez vous connecter et réessayer.
+
+You are not logged in or the login status is invalid, please login and try again. = Vous n'êtes pas connecté ou le statut de connexion est invalide, veuillez vous connecter et réessayer.
+
 Display Board Cutout =
+
+Apply New Part =
+Apply New Parts for Free =
+
+Migrate to Pro Edition... =
+Recommended migrate the Std edition projects to the Pro edition, the Pro edition is more features powerful, and more more smoother. How to migrate: =
+1. Download and login the Pro edition. =
+2. Via: Top Menu - File - Migrate Standard... =
+3. Select the projects or libraries to migrate. =
+4. If your projects are saved at local, you can compress the schematic and PCB as a zip file, and then import it to the Pro edition. Via: Top Menu - File - Import - EasyEDA(Standard). =
+Open Pro Edition =
+Feedback =
+
+Datasheet Extract Wizard =
+Or double click here to add image(<5MB) =
+Pins Information =
+Next Step =
+Drop graphic files here =
+Please drag graphic file =
+Click to cancel loading =
+Use rolling wheels to zoom preview screen =
+Please add pin information first =
+The current environment does not support the paste content from the clipboard =
+The current environment does not read the permissions of the clipboard =
+Please copy a picture and paste the paste =
+Image compression failure =
+Please drag or paste image at here =
+Pins Data without extraction =
+Please make sure the editor is connect with internet, the extraction need some time, please wait a while =
+Add image failed, please add an image which small than 5MB =
+The image size cannot be more than 2 MB =
+Image Type =
+SOP type =
+QFN type =
+Table type =
+Clear =
+Side =
+No permission, please contact project manager to enable permission, after enable please refresh the project list and try again =
+During the exam, cross -engineering paste =
+The exam has ended and cannot be edited =
+Exam remaining time =
+Exam is over =
+The exam is over and the test papers are being corrected =
+Quit out =
+The current account does not belong to the current engineering member and cannot create a new documentation =
+
+The generated pads size will little bigger than input size, good for welding =
+
+The project has been published, but after editing, the project becomes unpublished. Do you want to continue? =
+You are trying to update components from library, please check the difference before update, if the flipped(mirrored) component(s) on the canvas updated, they will be reset to original status, please notice. Do you want to continue? =
+{value}{unit-name}, need more than DRC({drc-value}{unit-name}) =
+{value}{unit-name}, need less than DRC({drc-value}{unit-name}) =
+Need more than DRC({drc-value}{unit-name}) =
+Need less than DRC({drc-value}{unit-name}) =
+Incomplete Connection =
+Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
+
+Auto Pin Placement =

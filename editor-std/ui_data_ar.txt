@@ -1,3 +1,5 @@
+# العربية (Arabic)
+
 #Menu
 User = المستخدم
 Join... = الأنضمام
@@ -162,7 +164,7 @@ Standard Mode = الوضع الأعتيادي
 Simulation Mode = وضع المحاكاة
 Change to Standard Mode = التغيير للوضع الأعتيادي
 Change to Simulation Mode = التغيير لوضع المحاكاة
-Welcome to Use LCEDA = مرحباً بكم لأستخدام LCEDA
+Welcome to Use JLCEDA = مرحباً بكم لأستخدام JLCEDA
 Welcome to Use EasyEDA = مرحباً بكم (تمت الترجمة بواسطة عمار العاني)
 Enable Education Edition Features for Free >>> = تفعيل خصائص النسخة التعليمية مجاناً
 Quick Start = بدء سريع
@@ -176,7 +178,7 @@ Tutorials = تعليم
 Videos = فيديوات
 [/start]
 Custom Data = بيانات مخصصة
-LCEDA = LCEDA
+JLCEDA = JLCEDA
 
 Copy Result Image =أنسخ صورة النتيجة
 Export Result Image =تصدير صورة النتيجة
@@ -236,6 +238,7 @@ Config = تعديلات
 
 Help = مساعدة
 About = نبذة عنا
+Online Chat =
 Shortcut Keys = مفاتيح أختصارات
 FAQ = أسئلة متداولة
 Tutorials = تعليمية
@@ -247,8 +250,6 @@ Updated Instructions = التعليمات المحدثة
 Open File Format = أفتح صيغة الملف
 About Upgrade = عن التحديث
 User Forum = منتدى المستخدم
-Live Q/A = أسئلة و أجوبة مباشرة
-No live broadcast now = لا يوجد بث مباشر الآن
 Feature Request = طلب مستقبلي
 Feature Requests = طلبات مستقبلية
 Bug Report = تقرير الخطأ
@@ -693,8 +694,7 @@ Common Anode = انود عام
 Common Cathode = كاثود عام
 AC Amplitude =
 AC Phase =
-There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = هناك بعض العناصر التي لا تحتوي موديل سبايس للمحاكاة , الرجاء استخدام "EElib"  و Spice Symbol في المكتبة في وضع المحاكاة
-يمكنك تحديد موديل سبايس لهذه العناصر
+There are some parts haven't spice model, please use "EElib" and "Spice Symbol" at "Libraries" of "Simulation" mode, or you can assign the spice model for them: = هناك بعض العناصر التي لا تحتوي موديل سبايس للمحاكاة , الرجاء استخدام "EElib"  و Spice Symbol في المكتبة في وضع المحاكاة يمكنك تحديد موديل سبايس لهذه العناصر
 
 #Pin
 Pin Properties = خصائص المأخذ
@@ -760,6 +760,7 @@ Image Size = حجم الصورة
 Color Tolerance = تحمل اللون
 Simplify Level = تبسيط المرحلة
 Corner Threshold = حد الزاوية
+Despeckle Size =
 
 #PCB Canvas Properties
 Units = الوحدات
@@ -917,8 +918,7 @@ Username or Email = أسم المستخدم أو البريد الألكترون
 Remember Me = تذكر معلوماتي
 Third party = طرف ثالث
 Login and Register = الدخول و التسجيل
-Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. =
-معلوماتك للتسجيل اصبحت قديمة, الرجاء تسجيل الدخول مجدداً, لا تحتاج لغلق ملفاتك الحالية حيث يمكنك متابعة خزنهم بعد تسجيل الدخول
+Your login information seems expired, please login again. Don't need to close the opening files, you can continue to save them after login. = معلوماتك للتسجيل اصبحت قديمة, الرجاء تسجيل الدخول مجدداً, لا تحتاج لغلق ملفاتك الحالية حيث يمكنك متابعة خزنهم بعد تسجيل الدخول
 
 #Dialog Reset Password
 Reset a password using your email = تصفير الكلمة السرية بأستخدام البريد الألكتروني
@@ -959,6 +959,7 @@ Save as a Schematic Module = حفظ كموديل مخطط
 Save as a PCB Module = حفظ كموديل خريطة مطبوعة
 Save as 3D Model = حفظ كموديل ثلاثي الأبعاد
 Save as a WaveForm = حفظ كموجة
+Do not allow saving to target project =
 Title = العنوان
 Share = مشاركة
 Add file = أضافة ملف
@@ -1083,11 +1084,11 @@ One-click Purchasing at LCSC = شراء بضغطة واحدة من LCSC
 Order Parts = أطلب المواد
 Export BOM = تصدير قائمة المواد المطلوبة
 Upload to LCSC ERP = تصعيد الى شركة LCSC
+Order SMT Parts =
 No components, upload failed! = لا يوجد مواد , فشل الأرسال
 Upload to LCSC ERP failed, please try again later. =  فشل الأرسال لشركة LCSC  الرجاء المحاولة مرة أخرى
 Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = قائمة المواد تم أرسالها للشركة بنجاح , اضغط اوكي للدخول لمدير المواد
 Upload to LCSC ERP failed, found some components miss some properties value, please check property "Footprint, Manufacturer Part" value if exist. = الأرسال للشركة فشل , هنالك بعض المواد لا تحتوي على تفاصيل كاملة الرجاء التأكد من بصمة القدم , جزء المصنع أن وجد
-
 Export PCB BOM = تصدير قائمة المواد للخريطة المطبوعة
 Export Schematic BOM = تصدير قائمة المواد للمخطط
 ID.bom = الهوية
@@ -1106,6 +1107,8 @@ Components = الأجزاء
 Manufacturer = المصنع
 [/bom]
 Manufacturer Part = جزء المصنع
+Part Number =
+Part Code =
 
 #Dialog Run
 Run your simulation = شغل المحاكاة
@@ -1164,6 +1167,8 @@ Modify Model... = تعديل الموديل
 Add Favorite = أضافة للمفضلة
 Remove Favorite = ازالة من المفضلة
 Add Sub Part = أضافة جزء ثانوي
+Add Sub Parts... =
+Please enter how many sub parts need to be added =
 Untagged = بدون أشارة
 Package = علبة
 package = علبة
@@ -1186,7 +1191,7 @@ Classes = دروس
 power = طاقة
 Power = طاقة
 LCSC Part# = رقم قطعة LCSC
-Stock = خزين
+LCSC Stock = LCSC خزين
 Report Error... = خطأ بالتقرير
 Report Error = خطأ بالتقرير
 Thanks for your feedback! = شكراً لمساهمتك
@@ -1364,6 +1369,11 @@ Rule list contains invalid rule setting! = قائمة القواعد تحتوي 
 Duplicate rule name exists! = أسم قاعدة متكرر
 via diameter is smaller than via drill diameter! = قطر ثقب الفايا أصغر من قطر بريمة التثقيب , لا يجوز في المنطق ولا بأي مكان يكون الثقب أصغر من بريمة الدريل , أضحك أضحك ههههه
 Currently rule name is not allowed to contain magical characters like . and $ =
+Track Width (min) =
+Clearance (min) =
+Via Diameter (min) =
+Via Drill Diameter (min) =
+Track Length (max) =
 [drcRule]
 All = الكل
 [/drcRule]
@@ -1492,7 +1502,10 @@ Document Recovery Setting = أعدادات أسترجاع الملفات
 Enable auto backup = تفعيل النسخ الأحتياطي
 Maximum backup level = أعلى مرحلة نسخ
 Auto backup interval = زمن النسخ الأحتياطي التلقائي
+days =
+hours =
 minutes = دقائق
+seconds =
 Save to Server = خزن على الخادم/سيرفر
 Load from Server = تحميل من الخادم/سيرفر
 
@@ -1914,6 +1927,7 @@ Project Access Control = التحكم بالوصول للمشروع
 Reject = رفض
 Add User = أضافة مستخدم
 Bad email address = بريد ألكتروني غير صالح
+Permissions Error =
 
 #error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = لا يمكن أيجاد هذا البريد الألكتروني في سجلاتنا, صديقك المدعو يجب أن يكون عضواً مسجلاً معنا
@@ -2037,6 +2051,7 @@ Net Length = طول النيت
 You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = يمكنك وضع مأخذ في المخطط, لكن لا تنسى أن تضعهم في مجموعة تضم كل المآخذ للمكونات , أضغط على المساعدة في حال أردت تعلم كيفية عمل مجموعة, أذا أردت فقط أن تضع علامة على السلك أستخدم زر مأخذ التوصيلة أو علامة المأخذ
 Please input the modification = الرجاء أدخل التعديلات
 The content must be between {0} and {1} characters ={1} المحتوى يجب أن يكون بين {0} و
+Please input a number between {0} and {1} =
 
 Coming soon = عن قريب
 No tool = بلا أداة
@@ -2067,6 +2082,9 @@ PenWidth-Increase = زيادة عرض القلم
 #Generate Gerber
 Generate Gerber = أنشاء ملف جيربر
 Gerber View = عرض الجيربر
+Dimensions =
+1-2 days =
+Build Time =
 Dimensions(Estimated) = الأبعاد (تقديري)
 PCB Qty = عدد اللوحات
 Copper Weight = وزن النحاس
@@ -2079,12 +2097,13 @@ ENIG-RoHS =RoHS  طلاء بالذهب و النيكل مطابق للمواصف
 Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = هل تريد عمل (تدقيق قواعد التصميم) قبل أنشاء ملف الجيربر ؟
 Yes, Check DRC = نعم قم بتدقيق قواعد التصميم
 No, Generate Gerber = لا , قم بعمل ملف الجيربر أنا متأكد من صحة التصميم
+No, Continue to order =
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = خريطتك المطبوعة تحتوي على أتصالات غير مكتملة , هل تريد تدقيق مكان هذه التوصيلات ؟
 Yes, Check Connection(s) = نعم دقق التوصيلات
 It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? =هل أنت جاهز ؟ JLCPCB  هذه ستعيدك الى موقع شركة
 Failed to submit your order, please contact us via support@easyeda.com for help. =support@easyeda.com فشل في تسليم طلبك , الرجاء تواصل مع فريقنا على
-Failed to submit your order, please contact us via QQ 800821856. =800821856 فشل في تسليم طلبك , الرجاء الأتصال على
-Order data generated finish, please click OK button and continue. =معلومات الطلب تمت بنجاح , اضغط موافق للأستمرار
+Failed to submit your order, please contact us. = فشل في تسليم طلبك , الرجاء الأتصال على
+Order data(Gerber, Pick and Place file, BOM) generated finish, please click OK button and continue. =معلومات الطلب تمت بنجاح , اضغط موافق للأستمرار
 [generateGerber]
 Layers = الطبقات
 [/generateGerber]
@@ -2194,8 +2213,7 @@ Photo View = عرض الصورة
 #check update
 Check Update = أبحث عن تحديثات
 EasyEDA Editor {ver} is released. Would you like to switch to the new version now? =هل تريد التحديث ؟ {ver} EasyEDA هناك أصدار جديد من  البرنامج
-LCEDA Editor {ver} is released. Would you like to switch to the new version now? = هل تريد التحديث ؟ {ver} LCEDA هناك أصدار جديد من  البرنامج
-
+JLCEDA Editor {ver} is released. Would you like to switch to the new version now? = هل تريد التحديث ؟ {ver} JLCEDA هناك أصدار جديد من  البرنامج
 Switch to New Version = الأنتقال للأصدار الجديد
 Next Time = المرة القادمة
 
@@ -2275,7 +2293,7 @@ Tracks = المسارات
 
 #dialog board outline settings
 Current Size = الحجم الحالي
-Paramenters = المؤشرات
+Parameters = المؤشرات
 Start X: = البداية X
 Start Y: = البداية Y
 Round Rectangular = مستطيل ذو زوايا مدورة
@@ -2349,7 +2367,7 @@ Stop Router = اوقف التسليك
 Auto Router is running... = جاري تسليك الممرات التلقائي
 
 #Left Sidebar
-Commonly Library = المكتبة الأعتيادية
+Common Library = المكتبة الأعتيادية
 Basic = الأساسي
 Extend = الأضافي
 Design Manager = مدير التصميم
@@ -2474,7 +2492,7 @@ Do you want to delete this file? = هل تريد حذف هذا الملف ؟
 Add sub part success =تم أضافة جزء ثانوي
 Please input name and prefix! = الرجاء أدخال الأسم و البادئة
 Board outlines are not closed = حدود البورد الخارجية غير مغلقة
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. ="Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" الرجاء قم بحفظها كـ ASCII فشل الأستيراد , الملفات المستوردة لم تكن بصيغة
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. ="Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" الرجاء قم بحفظها كـ ASCII فشل الأستيراد , الملفات المستوردة لم تكن بصيغة
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = غير متصلة بالشبكة ,هذا سوف يسبب خطأ في المخطط "{0}" المآخذ
 Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} =فشل الحفظ , رقم المأخذ لا يسمح بتكراره , كما في أدناه الرقم مكرر {0}
 Check Pin = تأكد من الموصل (المأخذ)
@@ -2535,8 +2553,7 @@ Same = نفس
 Different = مختلف
 Circular = دائري
 Expose Copper = اعرض النحاس
-"{0}" font is missing. Please add the font to the font family list. = {0} الخط مفقود
-الرجاء أضافة الخط الى قائمة عائلة الخطوط
+"{0}" font is missing. Please add the font to the font family list. = {0} الخط مفقود الرجاء أضافة الخط الى قائمة عائلة الخطوط
 Place Component = ضع المكون
 Delete Segment = أحذف القسم
 Angle = زاوية
@@ -2590,7 +2607,6 @@ Color Setting = أعدادات اللون
 Apply Setting = تطبيق الأعدادات
 Theme Setting... = أعدادات البيئة
 Bus Entry = مدخل الربط المشترك
-Foreground = الخلفية الأمامية
 Symbol Graphics = رسومات الرموز
 Common Used = المستعمل عادة
 Draw = أرسم
@@ -2671,6 +2687,7 @@ Left and Right = اليسارو اليمين
 Stamp Hole Group - Column = مجموعة ثقب الختم (عمود)
 Stamp Hole Group - Row = مجموعة ثقب الختم (صف)
 The number of rows and columns cannot be set to 1 simultaneously = رقم الأعمدة و الصفوف لا يمكن أن يكون 1 في نفس الوقت
+When panelize number is 1 x 1, you need to enable the "Create Boarder" =
 
 #edit path point
 [editPathPoints-dlg]
@@ -2760,7 +2777,7 @@ Location X = موقع المحور الأفقي
 Location Y = موقع المحور العمودي
 Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = متصفحك الحالي قد لا يدعم كل الخواص , الرجاء أستخدم أحدث نسخة من متصفحات كروم أو فايرفوكس أو أستخدم برنامج الكومبيوتر
 EasyEDA Client =EasyEDA  زبون
-LCEDA Client =LCEDA  زبون
+JLCEDA Client =JLCEDA  زبون
 Chrome = كروم
 FireFox = فايرفوكس
 New Version = أصدار جديد
@@ -2781,6 +2798,7 @@ Version Management = أدارة الأصدارات
 Switch success! = التحويل تم بنجاح
 Please close current version's documents first! = الرجاء قم بأغلاق أصدارات الملفات المفتوحة أولاً
 Creator = المنشيء
+creator = المنشيء
 Create Time = وقت الأنشاء
 Fail to connect to server! Please check your internet connection status and try again! = فشل الأتصال مع الخادم/السيرفر, الرجاء التأكد من أتصالك و المحاولة مرة أخرى
 Spice Number = رقم سبايس
@@ -2795,7 +2813,6 @@ Save "{0}" success! = حفظ "{0}" بنجاح
 Save "{0}" failed! ="{0}" فشل حفظ
 Invalid Size =حجم غير صحيح
 Processing = جاري المعالجة
-Invalid Size =حجم غير صحيح
 NetFlag GND =GND  أشارة المأخذ
 NetFlag VCC =VCC  أشارة المأخذ
 NetFlag +5v =+5v  أشارة المأخذ
@@ -2897,9 +2914,7 @@ Open Project Directory = افتح مسار المشروع
 
 {0} items updated = تم تحديث الأشياء {0}
 
-The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. =  {0} الملف
-تم تحديثه, هل تريد أعادة حفظه فوق القديم ؟ أذا كنت تريد فتح أحدث أصدار الرجاء أغلق الملف الحالي و أعد فتحه
-
+The current file {0} has an updated version. Do you want to overwrite it? If you want to open the latest version, please close the current file and reopen it. =  {0} الملف تم تحديثه, هل تريد أعادة حفظه فوق القديم ؟ أذا كنت تريد فتح أحدث أصدار الرجاء أغلق الملف الحالي و أعد فتحه
 Yes, Overwrite It = نعم أحفظه و أستبدله بالقديم
 No, Keep It = لا , أبقه كما هو
 
@@ -2943,6 +2958,8 @@ Next = التالي
 Total {count} Count ={count} المجموع الكلي
 About = نبذة عن
 Items = الأشياء
+Apply New Part =
+No Part Yet =
 [/findlib]
 
 Object = العناصر
@@ -3013,7 +3030,7 @@ When circle set as "Yes", the Pin length must be more than 6 = عندما يتم
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! =\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\ مرحباً, لقد وجدنا خطأ في مكتبتك التالية
 
 Logout fail! Please try again! = فشل في تسجيل الخروج , حاول مرة أخرى
-Logout success! We look forward you to use LCEDA again! = تم تسجيل الخروج بنجاح , سننتظر رؤيتك قريباً
+Logout success! We look forward you to use JLCEDA again! = تم تسجيل الخروج بنجاح , سننتظر رؤيتك قريباً
 Logout success! We look forward you to use EasyEDA again! = تم تسجيل الخروج بنجاح , سننتظر رؤيتك قريباً
 Click to Preview 3D = أضغط لمشاهدة مجسم ثلاثي
 [logoutDialog]
@@ -3025,9 +3042,11 @@ All = الكل
 [/findlibTag]
 
 Export Pick and Place File = تصدير ملف الألتقاط و الوضع بالروبوت
-Mirror the bottom component's X coordinate (JLCPCB doesn't need) =(JLCPCB  أقلب أحداثيات الأفق للطبقة السفلية (لا يحتاج عملها مع
+Mirror the bottom components' coordinate (JLCPCB doesn't need) =(JLCPCB  أقلب أحداثيات الأفق للطبقة السفلية (لا يحتاج عملها مع
+Mirror coordinate Y =
+Mirror coordinate X =
 Work Space = مساحة العمل
-Include panelized components' coordinates = أضف أحداثيات المواد المقطعة
+Include panelized components' coordinates(JLCPCB doesn't need) = أضف أحداثيات المواد المقطعة
 Personal Workspace = مساحة العمل الشخصية
 Work Space - {name} ={name} مساحة العمل
 Work Space - Personal = مساحة العمل-شخصية
@@ -3063,14 +3082,6 @@ Assign LCSC Part# =LCSC  تعيين قطعة من
 Unexpected error while converting. Perhaps unsupported file type or program bug. = حدث خطأ أثناء التحويل, أحتمال ملف غير مدعوم أو وجود مشكلة من البرنامج
 Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = تم العثور على هوية مكونات مكررة, اضغط موافق لأعادة تعيين هوية تلقائياً و من ثم حفظ الملف و المحاولة من جديد
 
-#electromagneticSimulation
-Electromagnetic Simulation... = محاكاة كهرومغناطيسية
-You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = سيتم رفع ملف الجيربر الى الموقع لأجراء محاكاة, فقط ضع ملف الجيربر و ليس شي أخر , هل تود المتابعة ؟
-SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = سوبر أي أم هو برنامج محاكاة الكهرومغناطيس ثلاثي الأبعاد مصمم للوحات السرع العالية و الهوائيات, مطور بواسطة شركة فارادي دايناميكس المحدودة
-Visit the SuperEM = زور موقع الشركة
-SuperEM User Guide = دليل المستخدم
-Upload Gerber to SuperEM successfully, please click "OK" buttun to continue = تم رفع الملف بنجاح, اضغط موافق للأستمرار
-
 Format = تهيئة الصيغة
 View = العرض
 Design = التصميم
@@ -3085,7 +3096,8 @@ Pick and Place File =ملف الألتقاط و الوضع بالروبوت
 Parts Order = طلبية المواد
 PCB Order = طلبية الخرائط المطبوعة
 One-click Order Parts = طلب المواد بضغطة واحدة
-One-click Order PCB/SMT = طلب الخريطة بضغطة واحدة
+One-click Order PCB/SMT = طلب الخريطة بضغطة واحدة
+JLCPCB Layout Service =
 SIM = محاكاة
 STD = أساسي
 WaveForm = رسم الموجة
@@ -3136,14 +3148,15 @@ Failed to move project = فشل نقل المشروع
 The folder depth must not exceed {0} levels = عمق الملفات يجب أن لا يتجاوز {0} مراحل
 Failed to add project to folder = فشل في أضافة المشروع للمجلد
 
-Doesn't support JLCPCB SMT Service =JLCPCB SMT لا يدعم خدمات
-{0} for JLCPCB SMT Service =JLCPCB SMT Service  لصالح {0}
+Doesn't support SMT = SMT لا يدعم خدمات
+JLCPCB SMT Stock: {0} =JLCPCB SMT Stock  لصالح {0}
 
 Reset failed! There are duplicate component prefixes in the current schematic: = فشل التصفير, هنالك بادئات تسمية عناصر مكررة في المخطط الحالي
 Reset failed! There are duplicate component prefixes in the current PCB: = فشل التصفير هناك بادئات تسمية للعناصر مكررة في تصميم الخريطة المطبوعة
 Please modify the component prefixes first to ensure that the component prefix is unique. = قم بتصحيح البادئات أولاً لضمان أن كل بادئة فريدة من نوعها و لا يوجد تضارب في الأسماء
 
-LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA أداة بسيطة لتصميم الدوائر الالكترونية
+JLCEDA(YALONG Edition) - A Simple and Powerful Electronic Circuit Design Tool =
+JLCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = JLCEDA أداة بسيطة لتصميم الدوائر الالكترونية
 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA أداة بسيطة لتصميم الدوائر الالكترونية
 
 #Dialog for Package Custom Data
@@ -3186,6 +3199,9 @@ System footprint doesn't allow two or more pad numbers are 1 or A1, please modif
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = طبقة الملف تحتوي على جسم دائرة, لكن قيمة الأستقطاب تساوي صفراً, الرجاء التحقق من المتغيرات
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. =  هناك تكرار في ارقام المنصات  الرجاء تحقق منها أو تجاهل الرسالة {padNumber}
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = لا يمكن أيجاد الدائرة في طبقة تعيين المكونات , او انها ليست في نفس الطبقة مع أول منصة, الرجاء التحقق منها
+This footprint is LED, CASE or DIO type, please check if need to draw the polarity marking(or special polarity marking), if exits polarity marking please ignore this message. =
+This footprint is DIP type, please check if haven't place multi-layer pads. =
+This footprint is SMD type, please check if haven't placed single-layer pads. =
 
 ROUND = مدور
 RECTANGLE = مستطيل
@@ -3204,7 +3220,7 @@ Body Diameter = قطر الجسم
 Lead Span = مساحة الرصاص
 Lead Vertical Span = مساحة الرصاص العمودية
 Body Length = طول الجسم
-Body Height = أرتفاع الجسم
+Body Width =
 Pin Diameter = قطر المأخذ
 Pin Length = طول المأخذ
 Pin Height = أرتفاع المأخذ
@@ -3263,6 +3279,7 @@ Note: When a PCB is Import Changes, the PCB is updated according to the footprin
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. = لا يدعم فتح DXF الملفات الثنائية, الرجاء فتح ملف ASCII بترميز من نوع اسكي
 
 Find System Similar Footprint = أوجد بصمة قدم مشابهة
+Download fingerprint data =
 Found similar footprints at system library, it is recommended to use them first. = أوجد بصمات قدم مشابهة في مكتبة النظام, من المفضل أن تستخدمهم أولاً
 Copy Title = أنسخ العنوان
 Check system similar footprint = تأكد من بصمات القدم المشابهة في النظام
@@ -3298,17 +3315,82 @@ Select the objects that cannot be generated = أختر الجسم اللذي ل�
 Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
 Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
 The PCB text will use the editor new font family, the text maybe will appear a little excursion. =
-Because of different file format and element, please check carefully after imported. =
+Because of different file format and element design, the imported element may have some differences, please check carefully. The more information please refer the tutorials. =
+EasyEDA is not responsible for any losses caused by format conversion differences, if you do not agree, please do not import. =
 Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. =
 Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. =
 Please make sure the Protel file is exported as ASCII format file. =
 Please compress the schematic and corresponding symbols as a zip file and then import it. =
+Tips =
+
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
 
 Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
 Tips =
 Exists incomplete connection =
 Found that the board has incomplete connection, please check the nets and ratlines =
-creator =
-You are not logged in or the login status is invalid, please login and try again. =
+
+You are not logged in or the login status is invalid, please login and try again. =
+
 Display Board Cutout =
+
+Apply New Part =
+Apply New Parts for Free =
+
+Migrate to Pro Edition... =
+Recommended migrate the Std edition projects to the Pro edition, the Pro edition is more features powerful, and more more smoother. How to migrate: =
+1. Download and login the Pro edition. =
+2. Via: Top Menu - File - Migrate Standard... =
+3. Select the projects or libraries to migrate. =
+4. If your projects are saved at local, you can compress the schematic and PCB as a zip file, and then import it to the Pro edition. Via: Top Menu - File - Import - EasyEDA(Standard). =
+Open Pro Edition =
+Feedback =
+
+Datasheet Extract Wizard =
+Or double click here to add image(<5MB) =
+Pins Information =
+Next Step =
+Drop graphic files here =
+Please drag graphic file =
+Click to cancel loading =
+Use rolling wheels to zoom preview screen =
+Please add pin information first =
+The current environment does not support the paste content from the clipboard =
+The current environment does not read the permissions of the clipboard =
+Please copy a picture and paste the paste =
+Image compression failure =
+Please drag or paste image at here =
+Pins Data without extraction =
+Please make sure the editor is connect with internet, the extraction need some time, please wait a while =
+Add image failed, please add an image which small than 5MB =
+The image size cannot be more than 2 MB =
+Image Type =
+SOP type =
+QFN type =
+Table type =
+Clear =
+Side =
+No permission, please contact project manager to enable permission, after enable please refresh the project list and try again =
+During the exam, cross -engineering paste =
+The exam has ended and cannot be edited =
+Exam remaining time =
+Exam is over =
+The exam is over and the test papers are being corrected =
+Quit out =
+The current account does not belong to the current engineering member and cannot create a new documentation =
+
+The generated pads size will little bigger than input size, good for welding =
+
+The project has been published, but after editing, the project becomes unpublished. Do you want to continue? =
+You are trying to update components from library, please check the difference before update, if the flipped(mirrored) component(s) on the canvas updated, they will be reset to original status, please notice. Do you want to continue? =
+{value}{unit-name}, need more than DRC({drc-value}{unit-name}) =
+{value}{unit-name}, need less than DRC({drc-value}{unit-name}) =
+Need more than DRC({drc-value}{unit-name}) =
+Need less than DRC({drc-value}{unit-name}) =
+Incomplete Connection =
+Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
+
+Auto Pin Placement =

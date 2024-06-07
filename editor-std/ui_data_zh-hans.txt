@@ -1,3 +1,5 @@
+# 简体中文 (Chinese - Simplified)
+
 #Menu
 User=用户
 Join...=注册...
@@ -236,6 +238,7 @@ Config=配置
 
 Help=帮助
 About=关于
+Online Chat=在线交谈
 Shortcut Keys = 快捷键
 FAQ = 常见问题
 Tutorials = 使用教程
@@ -247,8 +250,6 @@ Updated Instructions = 更新说明
 Open File Format = 文件格式
 About Upgrade = 关于升级
 User Forum = 用户论坛
-Live Q/A = 直播答疑
-No live broadcast now = 当前尚未直播
 Feature Request = 功能建议
 Feature Requests = 功能建议
 Bug Report = Bug 报告
@@ -759,6 +760,7 @@ Image Size = 图片尺寸
 Color Tolerance = 颜色容差
 Simplify Level = 简化水平
 Corner Threshold = 平滑尖角
+Despeckle Size = 去斑大小
 
 #PCB Canvas Properties
 Units = 单位
@@ -958,6 +960,7 @@ Save as a Schematic Module = 保存为原理图模块
 Save as a PCB Module = 保存为PCB模块
 Save as 3D Model = 保存为3D模型
 Save as a WaveForm = 保存为波形
+Do not allow saving to target project = 不允许保存到目标工程
 Title = 标题
 Share = 分享
 Add file = 添加文件
@@ -1082,6 +1085,7 @@ One-click Purchasing at LCSC = 从立创商城购买
 Order Parts = 元件下单
 Export BOM = 导出BOM
 Upload to LCSC ERP = 上传立创ERP
+Order SMT Parts = 下单SMT元件
 No components, upload failed! = 元件不存在，上传失败！
 Upload to LCSC ERP failed, please try again later. = 上传立创ERP失败，请稍后再试。
 Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = 当前 BOM 已经成功上传至立创商城立创ERP，点击“确定”按钮打开立创ERP查看
@@ -1104,6 +1108,8 @@ Components = 元件位号
 Manufacturer = 制造商
 [/bom]
 Manufacturer Part = 制造商料号
+Part Number = 元件编码
+Part Code = 料号
 
 #Dialog Run
 Run your simulation = 运行仿真
@@ -1162,6 +1168,8 @@ Modify Model...  = 修改模型...
 Add Favorite = 添加收藏
 Remove Favorite = 取消收藏
 Add Sub Part = 添加子库
+Add Sub Parts... = 添加多个子库...
+Please enter how many sub parts need to be added = 请输入需要添加子库的数量
 Untagged = 无标签
 Package = 封装
 package = 封装
@@ -1184,7 +1192,7 @@ Classes = 库别
 power = 功率
 Power = 功率
 LCSC Part# = 立创商城编号
-Stock = 库存
+LCSC Stock = 立创商城库存
 Report Error... = 报告错误...
 Report Error = 报告错误
 Thanks for your feedback! = 感谢您的反馈！
@@ -1362,6 +1370,11 @@ Rule list contains invalid rule setting! = 发现有无效的规则设置！
 Duplicate rule name exists! = 发现有重复的规则名称！
 via diameter is smaller than via drill diameter! = 孔外径比孔内径还小！
 Currently rule name is not allowed to contain magical characters like . and $ = 目前规则名称不允许出现“.”及“$”等特殊字符！
+Track Width (min) = 线宽(最小)
+Clearance (min) = 间距(最小)
+Via Diameter (min) = 孔外径(最小)
+Via Drill Diameter (min) = 孔内径(最小)
+Track Length (max) = 线长(最大)
 [drcRule]
 All = 全部
 [/drcRule]
@@ -1490,7 +1503,10 @@ Document Recovery Setting = 文档恢复设置
 Enable auto backup = 启用自动备份
 Maximum backup level = 最大备份级数
 Auto backup interval = 自动备份间隔
+days = 天
+hours = 小时
 minutes = 分钟
+seconds = 秒
 Save to Server = 保存到服务器
 Load from Server = 从服务器加载
 
@@ -1912,6 +1928,7 @@ Project Access Control = 工程访问控制
 Reject = 拒绝
 Add User = 添加用户
 Bad email address = 错误的邮件地址
+Permissions Error = 权限错误
 
 #error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = 用户不存在.
@@ -2035,6 +2052,7 @@ Net Length = 网络长度
 You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = 原理图中可以直接放置引脚，但别忘了将引脚组合到元件中。点击帮助按钮查看组合功能的使用。如果只是需要为导线做标记，请使用网络端口或网络标签。
 Please input the modification = 请填写修改的内容
 The content must be between {0} and {1} characters = 内容必须在 {0} 到 {1} 个字符之间
+Please input a number between {0} and {1} = 请输入 {0} ~ {1} 之间的数值
 
 Coming soon = 敬请期待
 No tool = 无
@@ -2065,10 +2083,13 @@ PenWidth-Increase = 线宽增量
 #Generate Gerber
 Generate Gerber = 生成Gerber
 Gerber View = Gerber预览
+Dimensions = 尺寸
+1-2 days = 1-2天
+Build Time = 生产时间
 Dimensions(Estimated) = 尺寸(估算)
 PCB Qty = 板子数量
 Copper Weight = 铜厚
-PCB Price = PCB参考价格
+PCB Price = PCB价格
 Estimated Delivery Time = 快递时间
 
 HASL(with lead) = 有铅喷锡
@@ -2077,12 +2098,13 @@ ENIG-RoHS = 沉金
 Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = 在生成Gerber之前是否检查设计规则(DRC)？
 Yes, Check DRC = 是，检查DRC
 No, Generate Gerber = 否，生成Gerber
+No, Continue to order = 否，继续下单
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = 该PCB存在未完成布线的网络连接，是否检查网络？
 Yes, Check Connection(s) = 是，检查网络
 It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = 即将前往我们的兄弟公司JLCPCB完成订单，是否继续？
 Failed to submit your order, please contact us via support@easyeda.com for help. = 下单失败，请联系support@easyeda.com获取帮助。
-Failed to submit your order, please contact us via QQ 800821856.  = 提交订单失败，请联系技术支持：QQ 800821856
-Order data generated finish, please click OK button and continue. = 下单数据生成完毕，请点击“ 确定 ”按钮继续。
+Failed to submit your order, please contact us. = PCB下单失败，请联系技术支持企业微信寻求帮助
+Order data(Gerber, Pick and Place file, BOM) generated finish, please click OK button and continue. = 下单数据(Gerber, 坐标文件、BOM)生成完毕，请点击“确认”按钮继续。
 [generateGerber]
 Layers = 层数
 [/generateGerber]
@@ -2272,7 +2294,7 @@ Tracks = 导线
 
 #dialog board outline settings
 Current Size = 当前大小
-Paramenters = 参数
+Parameters = 参数
 Start X: = 起始X:
 Start Y: = 起始Y:
 Round Rectangular = 圆角矩形
@@ -2346,7 +2368,7 @@ Stop Router = 停止布线
 Auto Router is running... = 自动布线运行中...
 
 #Left Sidebar
-Commonly Library = 常用库
+Common Library = 常用库
 Basic = 基础
 Extend = 扩展
 Design Manager = 设计管理器
@@ -2471,7 +2493,7 @@ Do you want to delete this file? = 你确认你需要删除该文件吗？
 Add sub part success = 添加子库成功
 Please input name and prefix! = 请输入位号和名称
 Board outlines are not closed = 板子边框没有闭合
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 导入失败！你导入的文件不是 ASCII 格式的，请先在 Altium Designer 另存为“Advanced Schematic ascii(*.SchDoc)”或“PCB ASCII File(*.PcbDoc)”后再导入。
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 导入失败！你导入的文件不是 ASCII 格式的，请先在 Altium Designer 另存为“Advanced Schematic ascii(*.SchDoc)”或“PCB ASCII File(*.PcbDoc)”后再导入。
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = 引脚“{0}”没有吸附在格点上！这个库在原理图里可能会产生错误。
 Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} = 保存失败！引脚编号不允许重复！以下引脚编号重复：{0}
 Check Pin = 引脚检测
@@ -2586,7 +2608,6 @@ Color Setting = 颜色配置
 Apply Setting = 应用设置
 Theme Setting... = 主题设置...
 Bus Entry = 总线分支
-Foreground = 前景色
 Symbol Graphics = 元件图形
 Common Used = 常用
 Draw = 绘图
@@ -2667,6 +2688,7 @@ Left and Right = 左边和右边
 Stamp Hole Group - Column = 邮票孔组数 - 列
 Stamp Hole Group - Row = 邮票孔组数 - 行
 The number of rows and columns cannot be set to 1 simultaneously = 行数或列数不能同时设置为1
+When panelize number is 1 x 1, you need to enable the "Create Boarder" = 拼板数量是 1 x 1 时需要开启“创建边界”
 
 #edit path point
 [editPathPoints-dlg]
@@ -2792,7 +2814,6 @@ Save "{0}" success! = 保存 "{0}" 成功！
 Save "{0}" failed! = 保存 "{0}" 失败！
 Invalid Size = 非法尺寸
 Processing = 处理
-Invalid Size = 非法尺寸
 NetFlag GND = 标识符GND
 NetFlag VCC = 标识符VCC
 NetFlag +5v = 标识符+5v
@@ -2938,6 +2959,8 @@ Next = 下一页
 Total {count} Count = 共{count}条记录
 About = 约
 Items = 条结果
+Apply New Part = 申请新元件
+No Part Yet = 无元件库
 [/findlib]
 
 Object = 元素
@@ -3020,9 +3043,11 @@ All = 全部
 [/findlibTag]
 
 Export Pick and Place File = 导出坐标文件
-Mirror the bottom component's X coordinate (JLCPCB doesn't need) = 镜像底层元件X坐标(嘉立创不需要)
+Mirror the bottom components' coordinate (JLCPCB doesn't need) = 镜像底层元件坐标(嘉立创不需要)
+Mirror coordinate Y = 镜像 Y 坐标
+Mirror coordinate X = 镜像 X 坐标
 Work Space = 工作区
-Include panelized components' coordinates = 包含拼板后的元件坐标
+Include panelized components' coordinates(JLCPCB doesn't need) = 包含拼板后的元件坐标(嘉立创不需要)
 Personal Workspace = 个人工作区
 Work Space - {name} = 工作区 - {name}
 Work Space - Personal = 工作区 - 个人
@@ -3058,14 +3083,6 @@ Assign LCSC Part# = 分配立创编号
 Unexpected error while converting. Perhaps unsupported file type or program bug. = 转换时出现意外错误。可能是不支持的文件类型或程序错误
 Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = 发现重复的器件ID，请点击“确认”后重新自动分配器件ID，并保存文档，再次重试。
 
-#electromagneticSimulation
-Electromagnetic Simulation... = 电磁仿真...
-You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = 你将上传 Gerber 到 SuperEM 进行电磁仿真(仅上传 Gerber 数据，不包含账号数据)，是否继续？
-SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM 是杭州法动科技推出的一款用于高速印刷电路板电路与微带天线结构的，三维全波电磁仿真设计软件
-Visit the SuperEM = 访问 SuperEM
-SuperEM User Guide = SuperEM使用手册
-Upload Gerber to SuperEM successfully, please click "OK" buttun to continue  = 已经成功上传 Gerber 到 SuperEM，请点击“确定”按钮继续
-
 Format = 格式
 View = 视图
 Design = 设计
@@ -3080,7 +3097,8 @@ Pick and Place File = 坐标文件
 Parts Order = 元件购买
 PCB Order = PCB下单
 One-click Order Parts = 一键元件下单
-One-click Order PCB/SMT =  一键PCB/SMT下单
+One-click Order PCB/SMT =  一键PCB/SMT下单
+JLCPCB Layout Service = 嘉立创Layout服务
 SIM = 仿真
 STD = 标准
 WaveForm = 波形
@@ -3131,13 +3149,14 @@ Failed to move project = 移动工程失败
 The folder depth must not exceed {0} levels = 文件夹深度不得超过{0}层
 Failed to add project to folder = 添加工程到文件夹失败
 
-Doesn't support JLCPCB SMT Service = 不支持嘉立创贴片
-{0} for JLCPCB SMT Service = 嘉立创贴片库存 {0}
+Doesn't support SMT = 不支持贴片
+JLCPCB SMT Stock: {0} = 嘉立创贴片库存：{0}
 
 Reset failed! There are duplicate component prefixes in the current schematic: = 重置失败！当前原理图存在重复的元件位号：
 Reset failed! There are duplicate component prefixes in the current PCB: = 重置失败！当前PCB存在重复的元件位号：
 Please modify the component prefixes first to ensure that the component prefix is unique. = 请先修改位号确保元件位号是唯一的。
 
+JLCEDA(YALONG Edition) - A Simple and Powerful Electronic Circuit Design Tool = 嘉立创EDA(亚龙智能合作版) - 免费、易用、强大的在线电路设计软件
 JLCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = 嘉立创EDA(标准版) - 免费、易用、强大的在线电路设计软件
 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(标准版) - 免费、易用、强大的在线电路设计软件
 
@@ -3181,6 +3200,9 @@ System footprint doesn't allow two or more pad numbers are 1 or A1, please modif
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = 封装文档层存在圆，但 jlcPara 的 polarity 是 0，请注意检查自定义数据。
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = 焊盘编号存在重复: {padNumber}，请检查是否正常，如果正常请忽略该提示。
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = 封装没有绘制元件极性层的圆形，或者标识层的圆和第一脚焊盘不在相同象限，请检查是否正常。
+This footprint is LED, CASE or DIO type, please check if need to draw the polarity marking(or special polarity marking), if exits polarity marking please ignore this message. = 这个是LED、CASE或DIO封装，请注意是否需要绘制极性(或特殊极性)标识，已有极性标识请忽略该提示。
+This footprint is DIP type, please check if haven't place multi-layer pads. = 这个是DIP封装，请注意是否没有绘制多层焊盘。
+This footprint is SMD type, please check if haven't placed single-layer pads. = 这个是SMD封装，请注意是否没有绘制单层焊盘。
 
 ROUND = 圆形
 RECTANGLE = 矩形
@@ -3199,7 +3221,7 @@ Body Diameter = 本体直径
 Lead Span = 引脚跨距
 Lead Vertical Span = 引脚纵向跨距
 Body Length = 本体长度
-Body Height = 本体宽度
+Body Width = 本体宽度
 Pin Diameter = 引脚直径
 Pin Length = 引脚长度
 Pin Height = 引脚宽度
@@ -3296,7 +3318,8 @@ Please compress schematic and PCB in ASCII format as a zip file and then import 
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 导入失败！你导入的文件不是 ASCII 格式的，请先在 Altium Designer 另存为“Advanced Schematic ascii(*.SchDoc)”或“PCB ASCII File(*.PcbDoc)”后再导入。
 Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 请先在 Altium Designer 另存为“Advanced Schematic ascii(*.SchDoc)”或“PCB ASCII File(*.PcbDoc)”后再导入
 The PCB text will use the editor new font family, the text maybe will appear a little excursion. = 导入的 PCB 文本将使用编辑器新的字体，文本可能会出现轻微变形和偏移。
-Because of different file format and element, please check carefully after imported. = 因格式和图元不一致，导入后请仔细检查。
+Because of different file format and element design, the imported element may have some differences, please check carefully. The more information please refer the tutorials. = 因格式和图元设计不一致，图元导入后可能会有一定差异，请仔细检查。具体差异请查看帮助文档。
+EasyEDA is not responsible for any losses caused by format conversion differences, if you do not agree, please do not import. = 嘉立创EDA不承担任何因格式转换差异产生的损失，如不同意请不要导入。
 Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = 请确保选择的 EAGLE 文件是 EAGLE v6.0 及以上版本保存的文件。
 Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 请把原理图和 PCB 使用 KiCad5 压缩成 zip 压缩包后导入，只导入原理图需要手动重新绑定封装。
 Please make sure the Protel file is exported as ASCII format file. = 请确保 Protel 文件是导出为 ASCII 格式的文件。
@@ -3310,8 +3333,65 @@ Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(
 Tips =
 Exists incomplete connection =
 Found that the board has incomplete connection, please check the nets and ratlines =
-creator =
 
-You are not logged in or the login status is invalid, please login and try again. = 尚未登录或登录状态失效，请登录后再试。
+You are not logged in or the login status is invalid, please login and try again. = 尚未登录或登录状态失效，请登录后再试。
 
 Display Board Cutout = 显示板子挖槽
+
+Apply New Part = 申请新元件
+Apply New Parts for Free = 免费申请画库/封装
+
+Migrate to Pro Edition... = 迁移到专业版...
+Recommended migrate the Std edition projects to the Pro edition, the Pro edition is more features powerful, and more more smoother. How to migrate: = 推荐标准版的工程迁移到专业版，专业版功能更强大，更流畅。迁移方法：
+1. Download and login the Pro edition. = 1、下载并登录专业版
+2. Via: Top Menu - File - Migrate Standard... = 2、在开始页：顶部菜单 - 文件 - 迁移标准版
+3. Select the projects or libraries to migrate. = 3、选择对应的工程或者库进行迁移即可。
+4. If your projects are saved at local, you can compress the schematic and PCB as a zip file, and then import it to the Pro edition. Via: Top Menu - File - Import - EasyEDA(Standard). = 4、如果你的工程保存在本地，可以把原理图和PCB一起压缩为 zip 文件，再导入到专业版。通过：顶部菜单 - 文件 - 导入 - 嘉立创EDA(标准版)。
+Open Pro Edition = 打开专业版
+Feedback = 反馈
+
+Datasheet Extract Wizard = 规格书提取向导
+Or double click here to add image(<5MB) = 或双击添加图片(<5MB)
+Pins Information = 引脚信息
+Next Step = 下一步
+Drop graphic files here = 在此处放置图形文件
+Please drag graphic file = 请拖选图形类文件
+Click to cancel loading = 单击取消loading
+Use rolling wheels to zoom preview screen = 使用滚轮来缩放预览画面
+Please add pin information first = 请先添加引脚信息
+The current environment does not support the paste content from the clipboard = 当前环境不支持从剪贴板粘贴内容
+The current environment does not read the permissions of the clipboard = 当前环境没有读取剪贴板的权限
+Please copy a picture and paste the paste = 请复制一张图片再进行粘贴
+Image compression failure = 图片压缩失败
+Please drag or paste image at here = 请拖拽或粘贴图片在此处
+Pins Data without extraction = 未提取到引脚数据
+Please make sure the editor is connect with internet, the extraction need some time, please wait a while = 请确保编辑器已经连接互联网，提取需要一定时间，请稍候
+Add image failed, please add an image which small than 5MB = 图片添加失败，请添加小于5MB的图片
+The image size cannot be more than 2 MB = 图片大小不能超过 2MB
+Image Type = 图片类型
+SOP type = SOP类型
+QFN type = QFN类型
+Table type = 表格类型
+Clear = 清空
+Side = 方向
+No permission, please contact project manager to enable permission, after enable please refresh the project list and try again = 没有权限，请联系工程管理员开启，开启后请刷新工程列表再次尝试
+During the exam, cross -engineering paste = 考试中禁止跨工程粘贴
+The exam has ended and cannot be edited = 考试已结束，无法编辑
+Exam remaining time = 考试剩余时间
+Exam is over = 考试结束
+The exam is over and the test papers are being corrected = 考试结束，试卷批改中
+Quit out = 退出
+The current account does not belong to the current engineering member and cannot create a new documentation = 当前账号不属于当前工程成员，无法新建文档到该工程
+
+The generated pads size will little bigger than input size, good for welding = 生成的焊盘尺寸将稍微大于填写的尺寸，便于焊接
+
+The project has been published, but after editing, the project becomes unpublished. Do you want to continue? = 该工程已发布，编辑后工程转为未发布，是否继续？
+You are trying to update components from library, please check the difference before update, if the flipped(mirrored) component(s) on the canvas updated, they will be reset to original status, please notice. Do you want to continue? = 你正在尝试更新元件库文件，更新前请仔细检查版本差异，如果画布中已经翻转或镜像后的元件更新后会重新调整为原始状态，请务必留意。是否继续？
+{value}{unit-name}, need more than DRC({drc-value}{unit-name}) = {value}{unit-name}，需要比DRC({drc-value}{unit-name})大
+{value}{unit-name}, need less than DRC({drc-value}{unit-name}) = {value}{unit-name}，需要比DRC({drc-value}{unit-name})小
+Need more than DRC({drc-value}{unit-name}) = 需要比DRC({drc-value}{unit-name})大
+Need less than DRC({drc-value}{unit-name}) = 需要比DRC({drc-value}{unit-name})小
+Incomplete Connection = 未完成连接
+Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? = 发现有图元偏离板框较远，是否将这些图元移动在板子右下角以便调整？
+
+Auto Pin Placement = 自动引脚布局

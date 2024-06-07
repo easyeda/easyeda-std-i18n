@@ -1,3 +1,5 @@
+# 한국인 (Korean)
+
 # Menu
 User = 사용자
 Join... = 가입...
@@ -162,7 +164,7 @@ Standard Mode = 일반 모드
 Simulation Mode = 시뮬레이션 모드
 Change to Standard Mode = 일반 모드로 변경
 Change to Simulation Mode = 시뮬레이션 모드로 변경
-Welcome to Use LCEDA = LCEDA 사용을 환영합니다.
+Welcome to Use JLCEDA = JLCEDA 사용을 환영합니다.
 Welcome to Use EasyEDA = EasyEDA 사용을 환영합니다.
 Enable Education Edition Features for Free >>> = 교육용 버전 기능을 무료로 활성화 >>>
 Quick Start = 빠른 시작
@@ -176,7 +178,7 @@ Tutorials = 연습
 Videos = 비디오
 [/start]
 Custom Data = 사용자 데이터
-LCEDA = LCEDA
+JLCEDA = JLCEDA
 
 Copy Result Image = 결과 이미지 복사
 Export Result Image = 결과 이미지 내보내기
@@ -236,6 +238,7 @@ Config = 구성
 
 Help = 도움말
 About = 정보
+Online Chat =
 Shortcut Keys = 단축키
 FAQ = 자주묻는 질문
 Tutorials = 연습
@@ -247,8 +250,6 @@ Updated Instructions = 업데이트된 지침
 Open File Format = 파일 형식 열기
 About Upgrade = 업그레이드 정보
 User Forum = 사용자 포럼
-Live Q/A = 실시간 묻고/답하기
-No live broadcast now = 현재는 생방송하지 않음
 Feature Request = 기능 요청
 Feature Requests = 기능 요청
 Bug Report = 문제점 보고서
@@ -759,6 +760,7 @@ Image Size = 이미지 크기
 Color Tolerance = 색상 공차
 Simplify Level = 레벨 단순화
 Corner Threshold = 코너 임계값
+Despeckle Size =
 
 #PCB Canvas Properties
 Units = 단위
@@ -844,6 +846,7 @@ Voltage Probe: = 전압 프로브:
 Pin: = 핀:
 Hidden Pin: = 숨김 핀:
 Unknown: = 모름:
+
 #Arc Properties
 Arc Properties = 원호 속성
 Start Angle = 시작 각도
@@ -957,6 +960,7 @@ Save as a Schematic Module = 회로도 모듈을 다른 이름으로 저장
 Save as a PCB Module = PCB 모듈을 다른 이름으로 저장
 Save as 3D Model = 3D 모델을 다른 이름으로 저장
 Save as a WaveForm = 파형을 다른 이름으로 저장
+Do not allow saving to target project =
 Title = 제목
 Share = 공유
 Add file = 파일 추가
@@ -1081,6 +1085,7 @@ One-click Purchasing at LCSC = LCSC에서 원클릭 구매
 Order Parts = 부품 주문
 Export BOM = BOM 내보내기
 Upload to LCSC ERP = LCSC ERP에 업로드
+Order SMT Parts =
 No components, upload failed! = 부품이 없습니다. 업로드 실패!
 Upload to LCSC ERP failed, please try again later. = LCSC ERP에 업로드 실패, 나중에 다시 시도하세요.
 Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = 현재 BOM이 LCSC의 Chip Manager에 성공적으로 업로드되었습니다. "확인" 버튼을 클릭하여 Chip Manager에 액세스하십시오.
@@ -1104,6 +1109,8 @@ Components = 부품
 Manufacturer = 제조사
 [/bom]
 Manufacturer Part = 제조사 부품
+Part Number =
+Part Code =
 
 #Dialog Run
 Run your simulation = 시뮬레이션 실행
@@ -1162,6 +1169,8 @@ Modify Model... = 모델 수정...
 Add Favorite = 즐겨찾기 추가
 Remove Favorite = 즐겨찾기 삭제
 Add Sub Part = 서브 부품 추가
+Add Sub Parts... =
+Please enter how many sub parts need to be added =
 Untagged = 언태그됨
 Package = 패키지
 package = 패키지
@@ -1184,7 +1193,7 @@ Classes = 클래스
 power = 전원
 Power = 전원
 LCSC Part# = LCSC 부품 번호
-Stock = 재고
+LCSC Stock = LCSC 재고
 Report Error... = 오류 보고...
 Report Error = 오류 보고
 Thanks for your feedback! = 피드팩에 감사드립니다!
@@ -1362,6 +1371,11 @@ Rule list contains invalid rule setting! = 규칙 리스트에 잘못된 규칙 
 Duplicate rule name exists! = 규칙이름이 중복됩니다!
 via diameter is smaller than via drill diameter! = 층간 홀 직경이 층간 홀 드릴 직경보다 작습니다!
 Currently rule name is not allowed to contain magical characters like . and $ = 현재 규칙이름은 .과 $와 같은 문자를 허용하지 않습니다.
+Track Width (min) =
+Clearance (min) =
+Via Diameter (min) =
+Via Drill Diameter (min) =
+Track Length (max) =
 [drcRule]
 All = 전체
 [/drcRule]
@@ -1490,7 +1504,10 @@ Document Recovery Setting = 문서 복원 설정
 Enable auto backup = 자동 백업 가능
 Maximum backup level = 최대 백업 레벨
 Auto backup interval = 자동 백업 간격
+days =
+hours =
 minutes = 분
+seconds =
 Save to Server = 서버로 저장
 Load from Server = 서버로부터 불러오기
 
@@ -1787,7 +1804,7 @@ CCVS(Current Controlled Voltage Source) = CCVS(전류 제어 전압 소스)
 CCVS2(Current Controlled Voltage Source) = CCVS2(전류 제어 전압 소스)
 
 BV(Behavioral Voltage Sources) = BV(행동 전압 소스)
-BI(Behavioral Current Sources) = BI(행동 전류 소스)
+BI(Behavioral Voltage Sources) = BI(행동 전류 소스)
 Epoly(Non-linear Voltage Source) = Epoly(비-선형 전압 소스)
 Gpoly(Non-linear Current Source) = Gpoly(비-선형 전류 소스)
 
@@ -1912,6 +1929,7 @@ Project Access Control = 프로젝트 접근 제어
 Reject = 거부
 Add User = 사용자 추가
 Bad email address = 잘못된 이메일 주소
+Permissions Error =
 
 #error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = EasyEDA에서 이 이메일 주소를 찾을 수 없습니다. 파트너는 EasyEDA 사용자여야 합니다.
@@ -2035,6 +2053,7 @@ Net Length = Net 길이
 You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = 회로도에 핀을 배치할 수 있지만 모든 핀을 회로도 부품으로 그룹화하는 것을 잊지 마십시오. 그룹화 방법을 알아보려면 도움말 버튼을 클릭하세요. 배선만 표시하고 싶다면 NetPort나 NetLabel을 사용하세요.
 Please input the modification = 수정사항을 입력해주세요
 The content must be between {0} and {1} characters = 콘텐츠는 {0}~{1}자 사이여야 합니다.
+Please input a number between {0} and {1} =
 
 Coming soon = 출시 예정
 No tool = 툴이 없음
@@ -2065,6 +2084,9 @@ PenWidth-Increase = 펜 두께-증가
 #Generate Gerber
 Generate Gerber = Gerber 생성
 Gerber View = Gerber 보기
+Dimensions =
+1-2 days =
+Build Time =
 Dimensions(Estimated) = 치수(추정)
 PCB Qty = PCB 수량
 Copper Weight = 구리도금 중량
@@ -2077,12 +2099,13 @@ ENIG-RoHS = 무전해 니켈 도금-RoHS
 Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = Gerber 파일을 생성하기 전에 DRC(Design Rule Checking)를 하시겠습니까?
 Yes, Check DRC = 예, DRC 확인
 No, Generate Gerber = 아니오, Gerber 생성
+No, Continue to order =
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = 이 PCB에 연결이 완료되지 않았습니다. 연결을 확인하시겠습니까?
 Yes, Check Connection(s) = 예, 연결 확인
 It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = 그런 다음 우리가 협력하는 타사 JLCPCB의 웹 사이트로 리디렉션됩니다. 준비 되었나요?
 Failed to submit your order, please contact us via support@easyeda.com for help. = 주문서를 제출하지 못했습니다. support@easyeda.com을 통해 도움을 요청하세요.
-Failed to submit your order, please contact us via QQ 800821856. = 주문서를 제출하지 못했습니다. QQ 800821856을 통해 문의하십시오.
-Order data generated finish, please click OK button and continue. = 주문 데이터 생성이 완료되었습니다. 확인 버튼을 클릭하고 계속하십시오.
+Failed to submit your order, please contact us. = 주문서를 제출하지 못했습니다. 을 통해 문의하십시오.
+Order data(Gerber, Pick and Place file, BOM) generated finish, please click OK button and continue. = 주문 데이터 생성이 완료되었습니다. 확인 버튼을 클릭하고 계속하십시오.
 [generateGerber]
 Layers = 레이어
 [/generateGerber]
@@ -2135,7 +2158,7 @@ No Result = 결과 없음
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning = 회로 경고에 핀 배치
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = 회로도에 핀을 배치할 수 있지만 모든 핀을 회로도 부품으로 그룹화하는 것을 잊지 마십시오. 그룹화 방법을 알아보려면 도움말 버튼을 클릭하십시오. 배선만 표시하고 싶다면 NetPort나 NetNabel을 사용하세요.
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = 회로도에 핀을 배치할 수 있지만 모든 핀을 회로도 부품으로 그룹화하는 것을 잊지 마십시오. 그룹화 방법을 알아보려면 도움말 버튼을 클릭하십시오. 배선만 표시하고 싶다면 NetPort나 NetLabel 을 사용하세요.
 I know. Do not show this again. = 알아요. 이것을 다시 표시하지 마십시오.
 
 #Extensions Setting
@@ -2192,7 +2215,7 @@ Photo View = 포토 보기
 #check update
 Check Update = 업데이트 확인
 EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = EasyEDA Editor {ver}가 출시되었습니다. 지금 새 버전으로 전환하시겠습니까?
-LCEDA Editor {ver} is released. Would you like to switch to the new version now? = LCEDA Editor {ver}가 출시되었습니다. 지금 새 버전으로 전환하시겠습니까?
+JLCEDA Editor {ver} is released. Would you like to switch to the new version now? = JLCEDA Editor {ver}가 출시되었습니다. 지금 새 버전으로 전환하시겠습니까?
 Switch to New Version = 새 버전으로 전환
 Next Time = 다음에
 
@@ -2346,7 +2369,7 @@ Stop Router = 라우터 정지
 Auto Router is running... = 오토 라우터 실행 중...
 
 #Left Siderbar
-Commonly Library = 공통 라이브러리
+Common Library = 공통 라이브러리
 Basic = 기본
 Extend = 확장
 Design Manager = 설제 관리자
@@ -2471,7 +2494,7 @@ Do you want to delete this file? = 이 파일을 삭제하시겠습니까?
 Add sub part success = 하위 부품 추가 성공
 Please input name and prefix! = 이름과 접두어를 입력하세요!
 Board outlines are not closed = 보드 윤곽선이 닫히지 않았습니다.
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 가져오기 실패! 가져온 파일은 ASCII 형식이 아니므로 Altium Designer에서 먼저 파일을 'Advanced Schematic ascii(*.SchDoc)' 또는 'PCB ASCII File(*.PcbDoc)'로 저장한 다음 가져오세요.
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 가져오기 실패! 가져온 파일은 ASCII 형식이 아니므로 Altium Designer에서 먼저 파일을 'Advanced Schematic ascii(*.SchDoc)' 또는 'PCB ASCII File(*.PcbDoc)'로 저장한 다음 가져오세요.
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = 핀 "{0}"이(가) 그리드 포인트에 스냅되지 않습니다! 이 부분은 회로도에 약간의 오류를 일으킬 수 있습니다.
 Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} = 저장 실패! 핀 번호는 반복을 허용하지 않습니다! 아래 핀 번호 반복: {0}
 Check Pin = 핀 확인
@@ -2586,7 +2609,6 @@ Color Setting = 색상 설정
 Apply Setting = 설정 적용
 Theme Setting... = 테마 설정...
 Bus Entry = 버스 진입
-Foreground = 전경
 Symbol Graphics = 심볼 그래픽
 Common Used = 일반적인 사용
 Draw = 그리기
@@ -2667,6 +2689,7 @@ Left and Right = 왼쪽과 오른쪽
 Stamp Hole Group - Column = 스탬프 홀 그룹 - 열
 Stamp Hole Group - Row = 스탬프 홀 그룹 - 행
 The number of rows and columns cannot be set to 1 simultaneously = 행과 열의 수는 동시에 1로 설정할 수 없습니다.
+When panelize number is 1 x 1, you need to enable the "Create Boarder" =
 
 #edit path point
 [editPathPoints-dlg]
@@ -2756,7 +2779,7 @@ Location X = 위치 X
 Location Y = 위치 Y
 Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. = 현재 브라우저 버전은 일부 기능을 지원하지 않을 수 있습니다. 최신 버전의 Chrome 또는 Firefox를 사용하거나 데스크톱 클라이언트를 사용해 보세요.
 EasyEDA Client = EasyEDA 클라이언트
-LCEDA Client = LCEDA 클라이언트
+JLCEDA Client = JLCEDA 클라이언트
 Chrome = 구글크롬
 FireFox = 파이어폭스
 New Version = 새 버전
@@ -2777,6 +2800,7 @@ Version Management = 버전 관리
 Switch success! = 버전 전환 성공!
 Please close current version's documents first! = 현재 버전의 문서를 먼저 닫으십시오!
 Creator = 생성자
+creator = 생성자
 Create Time = 생성 시간
 Fail to connect to server! Please check your internet connection status and try again! = 서버 접속 실패! 인터넷 연결 상태를 확인하고 다시 시도하십시오!
 Spice Number = Spice 번호
@@ -2791,7 +2815,6 @@ Save "{0}" success! = "{0}" 저장 성공!
 Save "{0}" failed! = "{0}" 저장 실패!
 Invalid Size = 잘못된 크기
 Processing = 처리 중
-Invalid Size = 잘못된 크기
 NetFlag GND = Net 플래그 GND
 NetFlag VCC = Net 플래그 VCC
 NetFlag +5v = Net 플래그 +5V
@@ -2864,8 +2887,8 @@ Object not found = 객체를 찾을 수 없습니다
 Offset X = 옵셋 X
 Offset Y = 옵셋 Y
 Offset = 옵셋
-Absolute Offset = 절대 옵셋 
-Relative Offset = 상대 옵셋 
+Absolute Offset = 절대 옵셋
+Relative Offset = 상대 옵셋
 Absolute Offset... = 절대 옵셋...
 Relative Offset... = 상대 옵셋...
 Reference Point X = 참조 포인트 X
@@ -2937,6 +2960,8 @@ Next = 다음
 Total {count} Count = 전체 {count} 개
 About = 정보
 Items = 아이템
+Apply New Part =
+No Part Yet =
 [/findlib]
 
 Object = 객체
@@ -3007,7 +3032,7 @@ When circle set as "Yes", the Pin length must be more than 6 = 원이 "예"로 �
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! = 안녕하세요, 라이브러리에 문제가 있습니다. 이 라이브러리가 잘못된 것 같습니다.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\n감사합니다!
 
 Logout fail! Please try again! = 로그아웃 실패! 다시 시도해 주세요!
-Logout success! We look forward you to use LCEDA again! = 로그아웃 성공! LCEDA 재이용하기를 기대합니다!
+Logout success! We look forward you to use JLCEDA again! = 로그아웃 성공! JLCEDA 재이용하기를 기대합니다!
 Logout success! We look forward you to use EasyEDA again! = 로그아웃 성공! EasyEDA 재이용하기를 기대합니다!
 Click to Preview 3D = 3D 미리보기를 위해 클릭
 [logoutDialog]
@@ -3019,9 +3044,11 @@ All = 전체
 [/findlibTag]
 
 Export Pick and Place File = 선택 및 배치 파일 내보내기
-Mirror the bottom component's X coordinate (JLCPCB doesn't need) = 하단 구성요소의 X 좌표 미러링(JLCPCB는 필요하지 않음)
+Mirror the bottom components' coordinate (JLCPCB doesn't need) = 하단 구성요소의 X 좌표 미러링(JLCPCB는 필요하지 않음)
+Mirror coordinate Y =
+Mirror coordinate X =
 Work Space = 작업 공간
-Include panelized components' coordinates = 부품 좌표의 패널화 포함
+Include panelized components' coordinates(JLCPCB doesn't need) = 부품 좌표의 패널화 포함
 Personal Workspace = 개인 작업공간
 Work Space - {name} = {name} - 작업 공간
 Work Space - Personal = 개인 작업 공간
@@ -3057,14 +3084,6 @@ Assign LCSC Part# = LCSC 부품번호 할당
 Unexpected error while converting. Perhaps unsupported file type or program bug. = 변환하는 동안 예기치 않은 오류가 발생했습니다. 지원되지 않는 파일 형식 또는 프로그램 버그일 수 있습니다.
 Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = 중복된 부품 아이디를 찾았습니다. "확인"을 클릭하여 부품 아이디를 자동으로 재할당한 다음 문서를 저장하고 다시 시도하십시오.
 
-#electromagneticSimulation
-Electromagnetic Simulation... = 전자기 시뮬레이션
-You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = 전자기 시뮬레이션을 위해 Gerber를 SuperEM에 업로드합니다(계정 데이터는 포함하지 않고 Gerber만 업로드). 계속하시겠습니까?
-SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM은 Faraday Dynamics, Ltd.에서 개발한 고속 PCB 회로 및 안테나를 위한 3D 전파 전자기 시뮬레이션 및 설계 플랫폼입니다.
-Visit the SuperEM = SuperEM 방문
-SuperEM User Guide = SuperEM 사용자 가이드
-Upload Gerber to SuperEM successfully, please click "OK" buttun to continue = Gerber를 SuprEME에 성공적으로 업로드했습니다. 계속하려면 "확인" 버튼을 클릭하십시오.
-
 Format = 포맷
 View = 보기
 Design = 설계
@@ -3079,7 +3098,8 @@ Pick and Place File = 선택 및 배치 파일
 Parts Order = 부품 주문
 PCB Order = PCB 주문
 One-click Order Parts = 원클릭 부품 주문
-One-click Order PCB/SMT = 원클릭 PCB/SMT 주문
+One-click Order PCB/SMT = 원클릭 PCB/SMT 주문
+JLCPCB Layout Service =
 SIM = SIM
 STD = STD
 WaveForm = 파형
@@ -3130,14 +3150,15 @@ Failed to move project = 프로젝트 이동 실패
 The folder depth must not exceed {0} levels = 폴더 깊이는 {0} 레벨을 초과할 수 없습니다.
 Failed to add project to folder = 폴더에 프로젝트를 추가하지 못했습니다.
 
-Doesn't support JLCPCB SMT Service = JLCPCB SMT 서비스를 지원하지 않음
-{0} for JLCPCB SMT Service = JLCPCB SMT 서비스에 대한 {0}
+Doesn't support SMT = JLCPCB SMT 서비스를 지원하지 않음
+JLCPCB SMT Stock: {0} = JLCPCB SMT 서비스에 대한 {0}
 
 Reset failed! There are duplicate component prefixes in the current schematic: = 재설정 실패! 현재 회로도에 중복된 부품 접두어가 있습니다.
 Reset failed! There are duplicate component prefixes in the current PCB: = 재설정 실패! 현재 PCB에 중복된 부품 접두어가 있습니다.
 Please modify the component prefixes first to ensure that the component prefix is unique. = 부품 접두어가 고유하도록 부품 접두어를 먼저 수정하십시오.
 
-LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA(표준) - 간단하고 강력한 전자 회로 설계 도구
+JLCEDA(YALONG Edition) - A Simple and Powerful Electronic Circuit Design Tool =
+JLCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = JLCEDA(표준) - 간단하고 강력한 전자 회로 설계 도구
 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(표준) - 간단하고 강력한 전자 회로 설계 도구
 
 #Dialog for Package Custom Data
@@ -3180,6 +3201,9 @@ System footprint doesn't allow two or more pad numbers are 1 or A1, please modif
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = 문서 레이어에 원 객체가 있지만 jlcPara의 극성이 0입니다. 사용자 데이터를 확인하십시오.
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = 반복 패드 번호가 있습니다: {padNumber}, 확인하십시오. 올바른 경우 무시하십시오.
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = 부품 마킹 레이어에서 원을 찾을 수 없거나 이 원이 첫 번째 패드와 동일한 사분면에 없습니다. 올바른지 확인하십시오.
+This footprint is LED, CASE or DIO type, please check if need to draw the polarity marking(or special polarity marking), if exits polarity marking please ignore this message. =
+This footprint is DIP type, please check if haven't place multi-layer pads. =
+This footprint is SMD type, please check if haven't placed single-layer pads. =
 
 ROUND = ROUND
 RECTANGLE = RECTANGLE
@@ -3198,7 +3222,7 @@ Body Diameter = 몸체 직경
 Lead Span = 리드 스팬
 Lead Vertical Span = 리드 수직 스팬
 Body Length = 몸체 길이
-Body Height = 몸체 높이
+Body Width =
 Pin Diameter = 핀 직경
 Pin Length = 핀 길이
 Pin Height = 핀 높이
@@ -3257,6 +3281,7 @@ Note: When a PCB is Import Changes, the PCB is updated according to the footprin
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. = 바이너리 형식 DXF 가져오기를 지원하지 않습니다. ASCII 형식 DXF를 가져오십시오.
 
 Find System Similar Footprint = 시스템 유사 풋프린트 찾기
+Download fingerprint data =
 Found similar footprints at system library, it is recommended to use them first. = 시스템 라이브러리에서 유사한 풋프린트를 찾았습니다. 먼저 사용하는 것이 좋습니다.
 Copy Title = 제목 복사
 Check system similar footprint = 시스템 유사 풋프린트 확인
@@ -3292,17 +3317,81 @@ Select the objects that cannot be generated = 생성할 수 없는 개체 선택
 Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = 회로도와 PCB를 zip 파일로 압축한 다음 가져오십시오. 회로도만 가져올 경우 발자국과 수동으로 바인딩해야 합니다.
 Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. =  회로도와 PCB를 ASCII 형식의 zip 파일로 압축한 다음 가져오십시오. 회로도만 가져올 경우 풋프린트와 수동으로 바인딩해야 합니다.
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =  가져오기 실패! 가져온 파일은 ASCII 형식이 아니므로 Altium Designer에서 먼저 파일을 "Advanced Schematic ascii(*.SchDoc)" 또는 "PCB ASCII File(*.PcbDoc)"로 저장한 다음 가져오십시오.
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
 The PCB text will use the editor new font family, the text maybe will appear a little excursion. =  PCB 텍스트는 편집기의 새 글꼴 패밀리를 사용하며 텍스트는 약간의 편위로 나타날 수 있습니다.
-Because of different file format and element, please check carefully after imported. = 파일 형식과 요소가 다르기 때문에 불러온 후 잘 확인하시기 바랍니다.
+Because of different file format and element design, the imported element may have some differences, please check carefully. The more information please refer the tutorials. = 파일 형식과 요소가 다르기 때문에 불러온 후 잘 확인하시기 바랍니다.
+EasyEDA is not responsible for any losses caused by format conversion differences, if you do not agree, please do not import. =
 Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = EAGLE 파일이 EAGLE v6.0 이상 버전에 저장되어 있는지 확인하십시오.
 Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = 회로도와 PCB를 KiCad5에서 zip 파일로 압축한 다음 가져오십시오. 회로도만 가져오는 경우 발자국과 수동으로 바인딩해야 합니다.
 Please make sure the Protel file is exported as ASCII format file. = Protel 파일이 ASCII 형식 파일로 내보내졌는지 확인하십시오.
 Please compress the schematic and corresponding symbols as a zip file and then import it. = 회로도 및 해당 기호를 zip 파일로 압축한 다음 가져오십시오.
+Tips =
+
+Exists incomplete connection =
+Found that the board has incomplete connection, please check the nets and ratlines =
 
 Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = 먼저 Altium Designer에서 파일을 "Advanced Schematic ascii(*.SchDoc)" 또는 "PCB ASCII File(*.PcbDoc)"로 저장한 후 가져오기를 수행하십시오.
 Tips = 팁
 Exists incomplete connection = 불완전한 연결 존재
 Found that the board has incomplete connection, please check the nets and ratlines = 보드의 연결이 불완전한 것을 발견했습니다. Net와 랫라인을 확인하십시오.
-creator = 생성자
-You are not logged in or the login status is invalid, please login and try again. = 로그인하지 않았거나 로그인 상태가 잘못되었습니다. 로그인한 후 다시 시도해 주세요.
+
+You are not logged in or the login status is invalid, please login and try again. = 로그인하지 않았거나 로그인 상태가 잘못되었습니다. 로그인한 후 다시 시도해 주세요.
 Display Board Cutout = 보드 컷아웃 디스플레이
+
+Apply New Part =
+Apply New Parts for Free =
+
+Migrate to Pro Edition... =
+Recommended migrate the Std edition projects to the Pro edition, the Pro edition is more features powerful, and more more smoother. How to migrate: =
+1. Download and login the Pro edition. =
+2. Via: Top Menu - File - Migrate Standard... =
+3. Select the projects or libraries to migrate. =
+4. If your projects are saved at local, you can compress the schematic and PCB as a zip file, and then import it to the Pro edition. Via: Top Menu - File - Import - EasyEDA(Standard). =
+Open Pro Edition =
+Feedback =
+
+Datasheet Extract Wizard =
+Or double click here to add image(<5MB) =
+Pins Information =
+Next Step =
+Drop graphic files here =
+Please drag graphic file =
+Click to cancel loading =
+Use rolling wheels to zoom preview screen =
+Please add pin information first =
+The current environment does not support the paste content from the clipboard =
+The current environment does not read the permissions of the clipboard =
+Please copy a picture and paste the paste =
+Image compression failure =
+Please drag or paste image at here =
+Pins Data without extraction =
+Please make sure the editor is connect with internet, the extraction need some time, please wait a while =
+Add image failed, please add an image which small than 5MB =
+The image size cannot be more than 2 MB =
+Image Type =
+SOP type =
+QFN type =
+Table type =
+Clear =
+Side =
+No permission, please contact project manager to enable permission, after enable please refresh the project list and try again =
+During the exam, cross -engineering paste =
+The exam has ended and cannot be edited =
+Exam remaining time =
+Exam is over =
+The exam is over and the test papers are being corrected =
+Quit out =
+The current account does not belong to the current engineering member and cannot create a new documentation =
+
+The generated pads size will little bigger than input size, good for welding =
+
+The project has been published, but after editing, the project becomes unpublished. Do you want to continue? =
+You are trying to update components from library, please check the difference before update, if the flipped(mirrored) component(s) on the canvas updated, they will be reset to original status, please notice. Do you want to continue? =
+{value}{unit-name}, need more than DRC({drc-value}{unit-name}) =
+{value}{unit-name}, need less than DRC({drc-value}{unit-name}) =
+Need more than DRC({drc-value}{unit-name}) =
+Need less than DRC({drc-value}{unit-name}) =
+Incomplete Connection =
+Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
+
+Auto Pin Placement =

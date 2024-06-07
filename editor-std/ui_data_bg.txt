@@ -1,3 +1,5 @@
+# Български (Bulgarian)
+
 # Menu
 User = Потребител
 Join... = Присъединяване...
@@ -162,7 +164,7 @@ Standard Mode = Стандартен режим
 Simulation Mode = Режим симулация
 Change to Standard Mode = Премини към стандартен режим
 Change to Simulation Mode = Премини към режим симулация
-Welcome to Use LCEDA = Добре дошли в LCEDA
+Welcome to Use JLCEDA = Добре дошли в JLCEDA
 Welcome to Use EasyEDA = Добре дошли в EasyEDA
 Enable Education Edition Features for Free >>> = Разрешение за употреба на учебни възможности безплатно >>>
 Quick Start = Бързи първи стъпки
@@ -176,7 +178,7 @@ Tutorials = Упътвания
 Videos = Видеа
 [/start]
 Custom Data = Персонализирани данни
-LCEDA =
+JLCEDA =
 
 Copy Result Image = Копиране на полученото изображение
 Export Result Image = Извличане на полученото изображение
@@ -236,6 +238,7 @@ Config = Настройка
 
 Help = Помощ
 About = Относно
+Online Chat = Онлайн чат
 Shortcut Keys = Ключове за пряк път
 FAQ = Често задавани въпроси
 Tutorials = Упътвания
@@ -247,8 +250,6 @@ Updated Instructions = Обновена инструкция
 Open File Format = Отваряне на файлов формат
 About Upgrade = Относно надграждане
 User Forum = Потребителски форум
-Live Q/A = Въпроси и отговори в реално време
-No live broadcast now = В момента не е налично излъчване
 Feature Request = Бъдеща заявка
 Feature Requests = Бъдещи заявки
 Bug Report = Докладване на неизправност
@@ -457,7 +458,7 @@ Transresistance[Ω] = Преходно съпротивление[Ω]
 Voltage Source Type = Вид източник на напрежение
 Current Source Type = Вид източник на ток
 multimeter type = Вид мултиметър
-power type = Вид мощност 
+power type = Вид мощност
 Voltmeter Resistance(R)(Ω) = Вътрешно съпротивление на волтметър(R)(Ω)
 Amperometer Resistance(R)(Ω) = Вътрешно съпротивление на амперметър(R)(Ω)
 mu.V = Волтметър
@@ -759,6 +760,7 @@ Image Size = Размер на изображението
 Color Tolerance = Цветен допуск
 Simplify Level = Ниво на опростяване
 Corner Threshold = Граничен праг
+Despeckle Size =
 
 #PCB Canvas Properties
 Units = Мерна единица
@@ -957,6 +959,7 @@ Save as a Schematic Module = Запис като схемен модул
 Save as a PCB Module = Запис като модул за печатна платка
 Save as 3D Model = Запис като 3D модел
 Save as a WaveForm = Запис като осцилограма
+Do not allow saving to target project =
 Title = Заглавие
 Share = Споделяне
 Add file = Добавяне на файл
@@ -1066,7 +1069,7 @@ Modify symbol information = Промяна на информацията за с
 Spice Prefix = Spice означение
 Hide Pin = Скриване на извод
 Pin Manager = Управление на изводи
-When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = Когато захранващ извод е скрит, той ще бъде маркиран с етикет на верига, не е необходимо да го опроводявате. В случай, че го използвате за симулация, моля разкрийте го или създайте верига GND/VCC за него. 
+When a power pin is hidden, it will be marked as netlabel, you don't need to wire it. If you use it as simulation, please show it or create a GND/VCC Net for it. = Когато захранващ извод е скрит, той ще бъде маркиран с етикет на верига, не е необходимо да го опроводявате. В случай, че го използвате за симулация, моля разкрийте го или създайте верига GND/VCC за него.
 Assign = Задаване
 Supplier.bom = Доставчик.bom
 LCSC.bom = LCSC
@@ -1081,6 +1084,7 @@ One-click Purchasing at LCSC = Покупка с едино кликване о�
 Order Parts = Поръчка на компоненти
 Export BOM = Извличане на СнМ
 Upload to LCSC ERP = Качване в LCSC ERP
+Order SMT Parts =
 No components, upload failed! = Няма компоненти, качването е неуспешно!
 Upload to LCSC ERP failed, please try again later. = Качването в LCSC ERP е неуспешно, моля опитайте по-късно.
 Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = Текущото качване на СнМ в LCSC Chip Manager е успешно.
@@ -1104,6 +1108,8 @@ Components = Компонент
 Manufacturer = Производител
 [/bom]
 Manufacturer Part = Компонент на производител
+Part Number =
+Part Code =
 
 #Dialog Run
 Run your simulation = Стартиране на вашата симулация
@@ -1162,6 +1168,8 @@ Modify Model... = Промяна на модел...
 Add Favorite = Добавяне на любим
 Remove Favorite = Премахване на любим
 Add Sub Part = Добавяне на подкомпонент
+Add Sub Parts... =
+Please enter how many sub parts need to be added =
 Untagged = Неетикитиран
 Package = Корпус
 package = корпус
@@ -1184,7 +1192,7 @@ Classes = Класове
 power = мощност
 Power = Мощност
 LCSC Part# = LCSC компонент#
-Stock = Склад
+LCSC Stock = LCSC  Склад
 Report Error... = Докладване за грешка...
 Report Error = Докладване за грешка
 Thanks for your feedback! = Благодарим за вашата обратна връзка!
@@ -1362,6 +1370,11 @@ Rule list contains invalid rule setting! = Списъкът с правилат�
 Duplicate rule name exists! = Съществува дублирано наименование на правило!
 via diameter is smaller than via drill diameter! = диаметърът на проходника е по-малък от диаметъра на свредлото за него!
 Currently rule name is not allowed to contain magical characters like . and $ = Понастоящем не е позволено наименованието на правилата да съдържат специални символи като . и $
+Track Width (min) =
+Clearance (min) =
+Via Diameter (min) =
+Via Drill Diameter (min) =
+Track Length (max) =
 [drcRule]
 All = Всички
 [/drcRule]
@@ -1490,7 +1503,10 @@ Document Recovery Setting = Настройка за възстановяване
 Enable auto backup = Разрешаване на автоматично архивиране
 Maximum backup level = Максимално ниво на архивиране
 Auto backup interval = Интервали за автоматично архивиране
+days =
+hours =
 minutes = минути
+seconds =
 Save to Server = Запис на сървър
 Load from Server = Зареждане от съвръв
 
@@ -1754,10 +1770,10 @@ Relay = Релета
 Capacitor(US) = Кондензатор(САЩ)
 Capacitor(EU) = Кондензатор(ЕС)
 Capacitor(EU)2 = Кондензатор(ЕС)2
-Electrolytic Capacitor(САЩ) = Електролитен кондензатор(САЩ)
-Electrolytic Capacitor(ЕС) = Електролитен кондензатор(ЕС)
-Electrolytic Capacitor(САЩ)2 = Електролитен кондензатор(САЩ)2
-Electrolytic Capacitor(ЕС)2 = Електролитен кондензатор(ЕС)2
+Electrolytic Capacitor(US) = Електролитен кондензатор(САЩ)
+Electrolytic Capacitor(EU) = Електролитен кондензатор(ЕС)
+Electrolytic Capacitor(US)2 = Електролитен кондензатор(САЩ)2
+Electrolytic Capacitor(EU)2 = Електролитен кондензатор(ЕС)2
 Inductor(US) = Бобина(САЩ)
 Inductor(EU) = Бобина(ЕС)
 Potentiometer_US = Потенциометър_САЩ
@@ -1912,6 +1928,7 @@ Project Access Control = Контрол на достъп за проекта
 Reject = Отказ
 Add User = Добавяне на потребител
 Bad email address = Неправилен адрес на eл.поща
+Permissions Error = Грешка в разрешенията
 
 #error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Адресът на ел.поща не е открит в EasyEDA. Вашият партньор трябва да бъде EasyEDA потребител.
@@ -2035,6 +2052,7 @@ Net Length = Дължина на верига
 You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Можете да поставите Извод в схема, но не забравяйте да групирате всички Изводи в компонент от схемата. Моля кликнете върху бутона за помощ за да научите как да ги групирате. Ако просто искате да маркирате проводник, използвайте ИзводВерига или ЕтикетВерига.
 Please input the modification = Моля въведете промяна
 The content must be between {0} and {1} characters = Съдържанието трябва да бъде между символи {0} и {1}
+Please input a number between {0} and {1} =
 
 Coming soon = Очаквайте скоро
 No tool = Без инструмент
@@ -2065,6 +2083,9 @@ PenWidth-Increase = Увеличаване ширината на писалка�
 #Generate Gerber
 Generate Gerber = Създаване на Гербер
 Gerber View = Изглед Гербер
+Dimensions =
+1-2 days =
+Build Time =
 Dimensions(Estimated) = Размери (приблизителни)
 PCB Qty = Количество печатни платки
 Copper Weight = Дебелина на медта
@@ -2077,12 +2098,13 @@ ENIG-RoHS = ENIG-RoHS (Позлатено)
 Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = Желаете ли да направите преглед на резултатите от Проверка на Правилата за Проектиране (ППП), преди генериране Гербер файловете?
 Yes, Check DRC = Да, провери ППП
 No, Generate Gerber = Не, Генериране на Гербери
+No, Continue to order =
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = Тази платка има незавършени връзки, желаете ли да проверите връзките?
 Yes, Check Connection(s) = Да, проверяване на връзки
 It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = След това ще ви пренасочи към електронната страница на трета страна JLCPCB, с която работим съвместно. Готови ли сте?
 Failed to submit your order, please contact us via support@easyeda.com for help. = Неуспешно изпращане на поръчка, моля свържете се с нас, чрез support@easyeda.com за получаване на помощ.
-Failed to submit your order, please contact us via QQ 800821856. = Неуспешно изпращане на поръчка, моля свържете се с нас, чрез QQ 800821856.
-Order data generated finish, please click OK button and continue. = Генерирането на данни за поръчката приключи, моля кликнете върху бутона ОК за да продължите.
+Failed to submit your order, please contact us. = Неуспешно изпращане на поръчка, моля свържете се с нас.
+Order data(Gerber, Pick and Place file, BOM) generated finish, please click OK button and continue. = Генерирането на данни за поръчката приключи, моля кликнете върху бутона ОК за да продължите.
 [generateGerber]
 Layers = Слоеве
 [/generateGerber]
@@ -2135,7 +2157,7 @@ No Result = Няма резултат
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning = Поставяне на извод във веригата за предупреждение
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetNabel. = Можете да поставите Извод в схема, но не забравяйте да групирате всички Изводи в компонент от схемата. Моля кликнете върху бутона за помощ за да научите как да ги групирате. Ако просто искате да маркирате проводник, моля използвайте ИзводВерига или ЕтикетВерига.
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Можете да поставите Извод в схема, но не забравяйте да групирате всички Изводи в компонент от схемата. Моля кликнете върху бутона за помощ за да научите как да ги групирате. Ако просто искате да маркирате проводник, моля използвайте ИзводВерига или ЕтикетВерига.
 I know. Do not show this again. = Известно ми е. Не показвай това повече.
 
 #Extensions Setting
@@ -2192,7 +2214,7 @@ Photo View = Изглед снимка
 #check update
 Check Update = Проверка за актуализация
 EasyEDA Editor {ver} is released. Would you like to switch to the new version now? = EasyEDA редактор {ver} е налична. Желаете ли сега да преминете към новата версия?
-LCEDA Editor {ver} is released. Would you like to switch to the new version now? = LCEDA редактор {ver} е налична. Желаете ли сега да преминете към новата версия?
+JLCEDA Editor {ver} is released. Would you like to switch to the new version now? = JLCEDA редактор {ver} е налична. Желаете ли сега да преминете към новата версия?
 Switch to New Version = Преминаване към Новата версия
 Next Time = Следващия път
 
@@ -2272,7 +2294,7 @@ Tracks = Писти
 
 #dialog board outline settings
 Current Size = Текущ размер
-Paramenters = Параметри
+Parameters = Параметри
 Start X: = Начало по X:
 Start Y: = Начало по Y:
 Round Rectangular = Заоблен правоъгълник
@@ -2346,7 +2368,7 @@ Stop Router = Спиране на опроводяване
 Auto Router is running... = Автоматичното опроводяване е стартирано...
 
 #Left Siderbar
-Commonly Library = Обща библиотека
+Common Library = Обща библиотека
 Basic = Основен
 Extend = Разширен
 Design Manager = Управление на проект
@@ -2461,7 +2483,7 @@ Please select! = Моля изберете!
 Route = Опроводяване
 Import successfully: = Вмъкването е успешно:
 Import failed: = Вмъкването е неуспешно:
-Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Файловата пътека съдържа само 'a-z、A-Z、- 、 _ 、0-9'! 
+Path only contain 'a-z、A-Z、- 、 _ 、0-9'! = Файловата пътека съдържа само 'a-z、A-Z、- 、 _ 、0-9'!
 Path must begin as 'a-z、A-Z、0-9'! = Файловата пътека трябва да започва с 'a-z、A-Z、0-9'!
 The path length must be between 4~128 characters! = Файловата пътека трябва да бъде между 4 и 128 символа!
 The title length must be between 2 ~ 128 characters. = Заглавието трябва да бъде между 2 и 128 символа.
@@ -2471,7 +2493,7 @@ Do you want to delete this file? = Желаете ли да изтриете т�
 Add sub part success = Добавянето на подкомпонент е успешно
 Please input name and prefix! = Моля въведете име и представка!
 Board outlines are not closed = Очертанията на платката не са затворени
-Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Неуспешно вмъкване! Вмъкнатите файлове не са в ASCII формат, първо запазете файловете като "Advanced Schematic ascii (*.SchDoc)" или "PCB ASCII File (*.PcbDoc)" в Altium Designer и след това ги вмъкнете.
+Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Неуспешно вмъкване! Вмъкнатите файлове не са в ASCII формат, първо запазете файловете като "Advanced Schematic ascii (*.SchDoc)" или "PCB ASCII File (*.PcbDoc)" в Altium Designer и след това ги вмъкнете.
 The Pins "{0}" are not snapped on the grid point! This part maybe will cause some errors in the schematic. = Изводи "{0}" не са прилепени към мрежовите точки! Този компонент може да причини някои грешки в схемата.
 Save failed! Pin number doesn't allow repeat! As below pin number repeat: {0} = Неуспешен запис! Не е допустимо да се повтаря номер на извод! Следният номер на извод се повтаря: {0}
 Check Pin = Проверка на извод
@@ -2586,7 +2608,6 @@ Color Setting = Настройка на цветове
 Apply Setting = Прилагане на настройки
 Theme Setting... = Настройки на тема...
 Bus Entry = Вход Шина
-Foreground = Фон
 Symbol Graphics = Графичен символ
 Common Used = Често използвани
 Draw = Начертай
@@ -2667,6 +2688,7 @@ Left and Right = Отляво и Отдясно
 Stamp Hole Group - Column = Група отвори за панелизация - Колона
 Stamp Hole Group - Row = Column = Група отвори за панелизация - Ред
 The number of rows and columns cannot be set to 1 simultaneously = Броят на редовете и колоните не може да бъде зададен 1 едновременно
+When panelize number is 1 x 1, you need to enable the "Create Boarder" =
 
 #edit path point
 [editPathPoints-dlg]
@@ -2756,7 +2778,7 @@ Location X = Позиция по X
 Location Y = Позиция по Y
 Your current browser version may not support some features. Please use the latest version of Chrome or Firefox, or try the desktop client. =
 EasyEDA Client = EasyEDA потребител
-LCEDA Client = LCEDA потребител
+JLCEDA Client = JLCEDA потребител
 Chrome =
 FireFox =
 New Version = Нова версия
@@ -2777,6 +2799,7 @@ Version Management = Управление на версии
 Switch success! = Превключването е успешно!
 Please close current version's documents first! = Моля първо затворете текущата версия на документа!
 Creator = Създател
+creator = Създател
 Create Time = Дата на създаване
 Fail to connect to server! Please check your internet connection status and try again! = Свързването към сървъра е неуспешно! Моля проверете статуса на вашата интернет връзка и опитайте отново!
 Spice Number = Spice Номер
@@ -2791,7 +2814,6 @@ Save "{0}" success! = Запис "{0}" е успешен!
 Save "{0}" failed! = Запис "{0}" е неуспешен!
 Invalid Size = Невалиден размер
 Processing = Обработка
-Invalid Size = Невалиден Размер
 NetFlag GND = МаркировкаВерига GND
 NetFlag VCC = МаркировкаВерига VCC
 NetFlag +5v = МаркировкаВерига +5V
@@ -2937,6 +2959,8 @@ Next = Следващ
 Total {count} Count = Общо {count} броя
 About = Относно
 Items = Позиции
+Apply New Part =
+No Part Yet =
 [/findlib]
 
 Object = Обект
@@ -3007,7 +3031,7 @@ When circle set as "Yes", the Pin length must be more than 6 = Когато кр
 Hi, I found a problem of your library, this library seems incorrect.\ntitle:{title}\nType:{type}\nlink:{link}\n{content}\nThank you! =
 
 Logout fail! Please try again! = Излизането е неуспешно! Моля опитайте отново.
-Logout success! We look forward you to use LCEDA again! = Излязохте успешно! Очакваме да използвате отново LCEDA!
+Logout success! We look forward you to use JLCEDA again! = Излязохте успешно! Очакваме да използвате отново JLCEDA!
 Logout success! We look forward you to use EasyEDA again! = Излязохте успешно! Очакваме да използвате отново EasyEDA!
 Click to Preview 3D = Кликнете за 3D изглед
 [logoutDialog]
@@ -3019,9 +3043,11 @@ All = Всички
 [/findlibTag]
 
 Export Pick and Place File = Извличане на Pick and Place
-Mirror the bottom component's X coordinate (JLCPCB doesn't need) = Обръщане огледално на координата X на долните компоненти (за JLCPCB не е необходимо)
+Mirror the bottom components' coordinate (JLCPCB doesn't need) = Обръщане огледално на координата X на долните компоненти (за JLCPCB не е необходимо)
+Mirror coordinate Y =
+Mirror coordinate X =
 Work Space = Работно пространство
-Include panelized components' coordinates = Включване на координатите на компоненти от панелизацията
+Include panelized components' coordinates(JLCPCB doesn't need) = Включване на координатите на компоненти от панелизацията
 Personal Workspace = Лично работно пространство
 Work Space - {name} = Работно пространство - {name}
 Work Space - Personal = Работно пространство - Лично
@@ -3057,14 +3083,6 @@ Assign LCSC Part# = Задаване номер на компонент LCSC
 Unexpected error while converting. Perhaps unsupported file type or program bug. = Неочаквана грежка, при преобразуването. Вероятно неподдържан файлов формат или грешка в програмата.
 Found duplicated component IDs, please click "OK" to re-assign component ID automatically, and then save the document and try again. = Открити са дублирани ИД на компоненти, моля натиснете ОК за автоматично задаване на идентификатори, след това запишете документа и опитайте отново.
 
-#electromagneticSimulation
-Electromagnetic Simulation... = Електромагнитна симулация...
-You will upload Gerber to SuperEM for electromagnetic simulation (only upload Gerber, not including account data), do you want to continue? = Ще прикачите Гербер към SuperEM за електромагнитна симулация (само прикачване на Гербер, без данни за акаунт), желаете ли да продължите?
-SuperEM is a 3-D full-wave electromagnetic simulation and design platform for high-speed PCB circuits and antennas, which is developed by Faraday Dynamics, Ltd. = SuperEM е 3-D електромагнитен симулатор и платформа за проектиране на високоскоростни вериги и антени, който е разработен от Faraday Dynamics, Ltd.
-Visit the SuperEM = Посетете SuperEM
-SuperEM User Guide = SuperEM Потребителско ръководство
-Upload Gerber to SuperEM successfully, please click "OK" buttun to continue =
-
 Format = Форматиране
 View = Изглед
 Design = Проект
@@ -3079,7 +3097,8 @@ Pick and Place File = Файл за машинно насищане
 Parts Order = Поръчка на компоненти
 PCB Order = Поръчка на печатна платка
 One-click Order Parts = Поръчка на компоненти с едно натискане
-One-click Order PCB/SMT = Поръчка на платка/компоненти за повърхностен монтаж с едно натискане
+One-click Order PCB/SMT = Поръчка на платка/компоненти за повърхностен монтаж с едно натискане
+JLCPCB Layout Service =
 SIM =
 STD =
 WaveForm = Осцилограма
@@ -3130,14 +3149,15 @@ Failed to move project = Неуспешно преместване на прое
 The folder depth must not exceed {0} levels = Дълбочината на папката не може да надвишава {0} нива
 Failed to add project to folder = Неуспешно добавяне на проекта към папката.
 
-Doesn't support JLCPCB SMT Service = Не се поддържа JLCPCB SMT обслужване.
-{0} for JLCPCB SMT Service = {0} за JLCPCB SMT обслужване
+Doesn't support SMT = Не поддържа SMT
+JLCPCB SMT Stock: {0} = SMT запас: {0}
 
 Reset failed! There are duplicate component prefixes in the current schematic: = Нулирането е неуспешно! Има дублиране на представки на компоненти в текущата схема:
 Reset failed! There are duplicate component prefixes in the current PCB: = Нулирането е неуспешно! Има дублиране на представки на компоненти в текущата печатна платка:
 Please modify the component prefixes first to ensure that the component prefix is unique. = Моля променете представките на компонентите за да осигурите уникалност на представките.
 
-LCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = LCEDA(Стандартен) - Опростен и мощен инструмент за проектиране на електронни схеми
+JLCEDA(YALONG Edition) - A Simple and Powerful Electronic Circuit Design Tool = JLCEDA(YALONG) - Опростен и мощен инструмент за проектиране на електронни схеми
+JLCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = JLCEDA(Стандартен) - Опростен и мощен инструмент за проектиране на електронни схеми
 EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(Стандартен) - Опростен и мощен инструмент за проектиране на електронни схеми
 
 #Dialog for Package Custom Data
@@ -3180,6 +3200,9 @@ System footprint doesn't allow two or more pad numbers are 1 or A1, please modif
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = В слоят "документи" има кръгъл обект, но полярността на jlcPara е 0, проверете персонализираните данни.
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = Съществуват повтарящи се номера на площадки: {padNumber}, моля проверете и ако са коректни, игнорирайте това съобщение.
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = Кръгът не може да бъде открит в слоя за компонентна маркировка или този кръг не е в един и същ квадрант с първата площадка, моля направете проверка.
+This footprint is LED, CASE or DIO type, please check if need to draw the polarity marking(or special polarity marking), if exits polarity marking please ignore this message. =
+This footprint is DIP type, please check if haven't place multi-layer pads. =
+This footprint is SMD type, please check if haven't placed single-layer pads. =
 
 ROUND = ОВАЛ
 RECTANGLE = ПРАВОЪГЪЛНИК
@@ -3198,7 +3221,7 @@ Body Diameter = Диаметър на тяло
 Lead Span = Отстояние между изводи
 Lead Vertical Span = Вертикално отстояние между изводите
 Body Length = Дължина на тялото
-Body Height = Височина на тялото
+Body Width = Ширина на тялото
 Pin Diameter = Диаметър на извода
 Pin Length = Дължина на извода
 Pin Height = Височина на извода
@@ -3257,6 +3280,7 @@ Note: When a PCB is Import Changes, the PCB is updated according to the footprin
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. = Бинарният формат на DXF не се поддържа, моля вмъкнете ASCII DXF.
 
 Find System Similar Footprint = Откриване на подобен отпечатък в системата
+Download fingerprint data =
 Found similar footprints at system library, it is recommended to use them first. = Открити са подобни отпечатъци в системата, препоръчително е да използвате първо тях.
 Copy Title = Копиране на заглавие
 Check system similar footprint = Проверка за подобен отпечатък в системата
@@ -3292,17 +3316,82 @@ Select the objects that cannot be generated = Избиране на обекти
 Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Моля архивирайте схемата и печатната платка, във zip файл и тогава ги вмъкнете, в слечай, че вмъквате само схемата, ще е необходимо ръчно свързване с отпечатъка.
 Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Моля компресирайте в zip файл схемата и печатната платка, която е в ASCII формат и тогава я вмъкнете. Ако само вмъкнете схемата, ще е необходимо ръчно да се обвърже с отпечатъка.
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Вмъкването е неуспешно! Вмъкваните файлове не са в ASCII формат, моля първо запишете файловете като "Схеми ascii(*.SchDoc)" или "ASCII файл за печатни платки(*.PcbDoc)" в Altium Designer и тогава ги вмъкнете.
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
 The PCB text will use the editor new font family, the text maybe will appear a little excursion. = За текста на платката ще бъде използван шрифт от ново семейство, текстът може да изглежда различно.
-Because of different file format and element, please check carefully after imported. = Поради различния файлов формат, моля внимателно проверете вмъкнатото.
+Because of different file format and element design, the imported element may have some differences, please check carefully. The more information please refer the tutorials. = Поради различния файлов формат и дизайна на елемента, импортираният елемент може да има някои разлики, моля, проверете внимателно. За повече информация, моля, вижте турориалите.
+EasyEDA is not responsible for any losses caused by format conversion differences, if you do not agree, please do not import. = EasyEDA не носи отговорност за каквито и да било загуби, причинени от разлики в преобразуването на формата, ако не сте съгласни, моля, не импортирайте.
 Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = Моля уверете се, че файлът е записан с EAGLE версия 6.0 или по-нова.
 Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = Моля архивирайте схемата и печатната платка в zip файл, чрез KiCad5 и тогава ги вмъкнете, в случай че вмъквате само схемата, ще е необходимо ръчно свързване с отпечатъка.
 Please make sure the Protel file is exported as ASCII format file. = Моля уверете се, че Protel файлът е извлечен в ASCII файлов формат.
 Please compress the schematic and corresponding symbols as a zip file and then import it. = Моля архивирайте схемата и съответните символи в zip файл и тогава ги вмъкнете.
+Tips = Съвети
+
+Exists incomplete connection = Съществува непълна връзка
+Found that the board has incomplete connection, please check the nets and ratlines = Установено е, че платката има непълна връзка, моля, проверете мрежите и плъховете
 
 Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Моля първо запишете файловете като "Схеми ascii(*.SchDoc)" или "ASCII файл за печатни платки(*.PcbDoc)" в Altium Designer и тогава го вмъкнете.
 Tips = Съвети
 Exists incomplete connection = Съществува незатворена верига
 Found that the board has incomplete connection, please check the nets and ratlines = На платката е открита незатворена верига, моля проверете веригите и свързващите линии
-creator = създател
-You are not logged in or the login status is invalid, please login and try again. = Не сте вписани или статусът на вписването е невалиден, моля впишете се и опитайте отново. 
+
+You are not logged in or the login status is invalid, please login and try again. = Не сте вписани или статусът на вписването е невалиден, моля впишете се и опитайте отново.
+
 Display Board Cutout = Показване на изрези в платката
+
+Apply New Part =
+Apply New Parts for Free =
+
+Migrate to Pro Edition... =
+Recommended migrate the Std edition projects to the Pro edition, the Pro edition is more features powerful, and more more smoother. How to migrate: =
+1. Download and login the Pro edition. =
+2. Via: Top Menu - File - Migrate Standard... =
+3. Select the projects or libraries to migrate. =
+4. If your projects are saved at local, you can compress the schematic and PCB as a zip file, and then import it to the Pro edition. Via: Top Menu - File - Import - EasyEDA(Standard). =
+Open Pro Edition =
+Feedback =
+
+Datasheet Extract Wizard =
+Or double click here to add image(<5MB) =
+Pins Information =
+Next Step =
+Drop graphic files here =
+Please drag graphic file =
+Click to cancel loading =
+Use rolling wheels to zoom preview screen =
+Please add pin information first =
+The current environment does not support the paste content from the clipboard =
+The current environment does not read the permissions of the clipboard =
+Please copy a picture and paste the paste =
+Image compression failure =
+Please drag or paste image at here =
+Pins Data without extraction =
+Please make sure the editor is connect with internet, the extraction need some time, please wait a while =
+Add image failed, please add an image which small than 5MB =
+The image size cannot be more than 2 MB =
+Image Type =
+SOP type =
+QFN type =
+Table type =
+Clear =
+Side =
+No permission, please contact project manager to enable permission, after enable please refresh the project list and try again =
+During the exam, cross -engineering paste =
+The exam has ended and cannot be edited =
+Exam remaining time =
+Exam is over =
+The exam is over and the test papers are being corrected =
+Quit out =
+The current account does not belong to the current engineering member and cannot create a new documentation =
+
+The generated pads size will little bigger than input size, good for welding =
+
+The project has been published, but after editing, the project becomes unpublished. Do you want to continue? =
+You are trying to update components from library, please check the difference before update, if the flipped(mirrored) component(s) on the canvas updated, they will be reset to original status, please notice. Do you want to continue? =
+{value}{unit-name}, need more than DRC({drc-value}{unit-name}) =
+{value}{unit-name}, need less than DRC({drc-value}{unit-name}) =
+Need more than DRC({drc-value}{unit-name}) =
+Need less than DRC({drc-value}{unit-name}) =
+Incomplete Connection =
+Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
+
+Auto Pin Placement =
