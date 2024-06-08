@@ -238,7 +238,7 @@ Config = Configura
 
 Help = Aiuto
 About = Informazioni
-Online Chat =
+Online Chat = Chat online
 Shortcut Keys = Tasti di scelta rapida
 FAQ = FAQ
 Tutorials = Tutorial
@@ -760,7 +760,7 @@ Image Size = Dimensione immagine
 Color Tolerance = Tolleranza colore
 Simplify Level = Livello di semplificazione
 Corner Threshold = Soglia dell'angolo
-Despeckle Size =
+Despeckle Size = Dimensione del despeckle
 
 #PCB Canvas Properties
 Units = Unità
@@ -959,7 +959,7 @@ Save as a Schematic Module = Salva come modulo schema
 Save as a PCB Module = Salva come modulo PCB
 Save as 3D Model = Salva come modello 3D
 Save as a WaveForm = Salva come forma d'onda
-Do not allow saving to target project =
+Do not allow saving to target project = Non consentire il salvataggio nel progetto di destinazione
 Title = Titolo
 Share = Condividi
 Add file = Aggiungi file
@@ -1084,7 +1084,7 @@ One-click Purchasing at LCSC = Acquista su LCSC con un clic
 Order Parts = Ordina componenti
 Export BOM = Esporta BOM
 Upload to LCSC ERP = Carica su LCSC ERP
-Order SMT Parts =
+Order SMT Parts = Ordine di componenti SMT
 No components, upload failed! = Nessun componente, il caricamento non è andato a buon fine!
 Upload to LCSC ERP failed, please try again later. = Il caricamento su LCSC ERP non è andato a buon fine, riprova più tardi.
 Current BOM upload to Chip Manager of LCSC successfully, click "OK" button to access Chip Manager. = Il caricamento dell'attuale BOM sul Chip Manager di LCSC è andato a buon fine, clicca sul pulsante "OK" per accedere al Chip Manager.
@@ -1108,8 +1108,8 @@ Components = Componenti
 Manufacturer = Produttore
 [/bom]
 Manufacturer Part = Componente del produttore
-Part Number =
-Part Code =
+Part Number = Numero componente
+Part Code = Codice componente
 
 #Dialog Run
 Run your simulation = Esegui la tua simulazione
@@ -1168,8 +1168,8 @@ Modify Model... = Modifica modello...
 Add Favorite = Aggiungi ai preferiti
 Remove Favorite = Rimuovi dai preferiti
 Add Sub Part = Aggiungi sottoparte
-Add Sub Parts... =
-Please enter how many sub parts need to be added =
+Add Sub Parts... = Aggiungi sottoparti...
+Please enter how many sub parts need to be added = Inserire il numero di sottoparti da aggiungere
 Untagged = Senza tag
 Package = Involucro
 package = involucro
@@ -1370,11 +1370,11 @@ Rule list contains invalid rule setting! = Alcune regole contengono impostazioni
 Duplicate rule name exists! = Il nome della regola è presente più volte!
 via diameter is smaller than via drill diameter! = il diametro via è più piccolo rispetto al diametro del foro!
 Currently rule name is not allowed to contain magical characters like . and $ = Al momento i nomi delle regole non possono contenere caratteri del tipo . e $
-Track Width (min) =
-Clearance (min) =
-Via Diameter (min) =
-Via Drill Diameter (min) =
-Track Length (max) =
+Track Width (min) = Larghezza della pista (min)
+Clearance (min) = Distanza (min)
+Via Diameter (min) = Diametro via (min)
+Via Drill Diameter (min) = Diametro foro via (min)
+Track Length (max) = Lunghezza della pista (max)
 [drcRule]
 All = Tutto
 [/drcRule]
@@ -1503,10 +1503,10 @@ Document Recovery Setting = Impostazioni per il ripristino dei documenti
 Enable auto backup = Abilita backup automatico
 Maximum backup level = Livello massimo di backup
 Auto backup interval = Intervallo automatico di backup
-days =
-hours =
+days = giorni
+hours = ore
 minutes = minuti
-seconds =
+seconds = secondi
 Save to Server = Salva sul server
 Load from Server = Carica dal server
 
@@ -1928,7 +1928,7 @@ Project Access Control = Controllo dell'accesso al progetto
 Reject = Rifiuta
 Add User = Aggiungi utente
 Bad email address = Indirizzo email non corretto
-Permissions Error =
+Permissions Error = Errore di permessi
 
 #error info from backend
 Can't find this email address in EasyEDA. Your partner must be an EasyEDA user. = Questo indirizzo email non è associato ad alcun utente registrato su EasyEDA.
@@ -2052,7 +2052,7 @@ Net Length = Lunghezza net
 You can place a Pin in the schematic, but don't forget to group all of the Pins to a schematic component. Please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Puoi posizionare un pin nello schema, ma non dimenticarti di raggruppare tutti i pin nello schema del componente. Premi il pulsante aiuto per scoprire come raggrupparli. Se vuoi semplicemente marcare il filo, usa NetPort o NetLabel.
 Please input the modification = Inserisci la modifica
 The content must be between {0} and {1} characters = Il contenuto deve essere compreso tra {0} e {1} caratteri
-Please input a number between {0} and {1} =
+Please input a number between {0} and {1} = Inserisci un numero compreso tra {0} e {1}
 
 Coming soon = Prossimamente
 No tool = Nessuno strumento
@@ -2083,9 +2083,9 @@ PenWidth-Increase = Aumenta la larghezza del tratto
 #Generate Gerber
 Generate Gerber = Genera Gerber
 Gerber View = Visualizza Gerber
-Dimensions =
-1-2 days =
-Build Time =
+Dimensions = Dimensioni
+1-2 days = 1-2 giorni
+Build Time = Tempo di realizzazione
 Dimensions(Estimated) = Dimensioni stimate
 PCB Qty = Quantità PCB
 Copper Weight = Spessore rame
@@ -2098,13 +2098,13 @@ ENIG-RoHS = ENIG-RoHS
 Would you like to do Design Rule Checking (DRC) before generating the Gerber files? = Vuoi fare un controllo delle regole di progettazione (DRC) prima di generare i file Gerber?
 Yes, Check DRC = Sì, controlla DRC
 No, Generate Gerber = No, genera Gerber
-No, Continue to order =
+No, Continue to order = No, continua ad ordinare
 This PCB has uncompleted connection(s), do you want to check the connection(s)? = Questo PCB contiene una connessione o più connessioni incomplete, le vuoi controllare?
 Yes, Check Connection(s) = Sì, controlla le connessioni
 It will then redirect to the web site of a third-party JLCPCB with which we cooperate. Are you ready? = Sarai, quindi, reindirizzato al sito web esterno di JLCPCB con cui collaboriamo. Sei pronto?
 Failed to submit your order, please contact us via support@easyeda.com for help. = Impossibile inviare il tuo ordine, contattaci tramite support@easyeda.com per risolvere il problema.
-Failed to submit your order, please contact us. = Impossibile inviare il tuo ordine, contattaci tramite.
-Order data(Gerber, Pick and Place file, BOM) generated finish, please click OK button and continue. = I dati dell'ordine sono stati generati, clicca su OK per continuare.
+Failed to submit your order, please contact us. = Impossibile inviare il tuo ordine, contattaci.
+Order data(Gerber, Pick and Place file, BOM) generated finish, please click OK button and continue. = I dati dell'ordine (Gerber, Pick and place, BOM) sono stati generati, clicca su OK per continuare.
 [generateGerber]
 Layers = Strati
 [/generateGerber]
@@ -2157,7 +2157,7 @@ No Result = Nessun risultato
 
 #Dialog Place Pin in schematic warning
 Place Pin in schematic warning = Posiziona il pin nell'avviso dello schema
-You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Puoi posizionare un pin nello schema, ma non dimenticarti di raggruppare tutti i pin nello schema del componente. Premi il pulsante help per scoprire come raggrupparli. Se vuoi semplicemente marcare il filo, usa NetPort o NetLabel.
+You can place a Pin in schematic, but don't forget to group all of the Pins to a schematic component, please click the help button to find out how to group them. If you just want to mark the wire, please use NetPort or NetLabel. = Puoi posizionare un pin nello schema, ma non dimenticarti di raggruppare tutti i pin nello schema del componente. Premi il pulsante aiuto per scoprire come raggrupparli. Se vuoi semplicemente marcare il filo, usa NetPort o NetLabel.
 I know. Do not show this again. = Lo so. Non mostrarmelo di nuovo.
 
 #Extensions Setting
@@ -2688,7 +2688,7 @@ Left and Right = Sinistra e destra
 Stamp Hole Group - Column = Raggruppa testimoni - Colonna
 Stamp Hole Group - Row = Raggruppa testimoni - Riga
 The number of rows and columns cannot be set to 1 simultaneously = Il numero di righe e di colonne non può essere impostato contemporaneamente a 1
-When panelize number is 1 x 1, you need to enable the "Create Boarder" =
+When panelize number is 1 x 1, you need to enable the "Create Boarder" = Quando il numero dei pannelli è 1 x 1, è necessario attivare la funzione "Crea bordo"
 
 #edit path point
 [editPathPoints-dlg]
@@ -2959,8 +2959,8 @@ Next = Successivo
 Total {count} Count = Conteggio totale {count}
 About = Informazioni
 Items = Elementi
-Apply New Part =
-No Part Yet =
+Apply New Part = Applica nuovo componente
+No Part Yet = Ancora nessun componente
 [/findlib]
 
 Object = Oggetto
@@ -3044,10 +3044,10 @@ All = Tutti
 
 Export Pick and Place File = Esporta file Pick and Place
 Mirror the bottom components' coordinate (JLCPCB doesn't need) = Specchia sull'asse X i componenti sullo strato inferiore (JLCPCB non richiede questa opzione)
-Mirror coordinate Y =
-Mirror coordinate X =
+Mirror coordinate Y = Coordinata speculare Y
+Mirror coordinate X = Coordinata speculare X
 Work Space = Area di lavoro
-Include panelized components' coordinates(JLCPCB doesn't need) = Includi le coordinate dei componenti pannellizzati
+Include panelized components' coordinates(JLCPCB doesn't need) = Includi le coordinate dei componenti pannellizzati (JLCPCB non ne ha bisogno)
 Personal Workspace = Area di lavoro personale
 Work Space - {name} = Area di lavoro - {name}
 Work Space - Personal = Area di lavoro - personale
@@ -3098,7 +3098,7 @@ Parts Order = Ordina componenti
 PCB Order = Ordina PCB
 One-click Order Parts = Ordina componenti con un clic
 One-click Order PCB/SMT = Ordina PCB/SMT con un clic
-JLCPCB Layout Service =
+JLCPCB Layout Service = Servizio layout di JLCPCB
 SIM = SIM
 STD = STD
 WaveForm = Forma d'onda
@@ -3149,16 +3149,16 @@ Failed to move project = Impossibile spostare il progetto
 The folder depth must not exceed {0} levels = La profondità della cartella non deve superare i {0} livelli
 Failed to add project to folder = Impossibile aggiungere il progetto nella cartella
 
-Doesn't support SMT = Non supporta il servizio SMT
-JLCPCB SMT Stock: {0} =
+Doesn't support SMT = Non supporta SMT
+JLCPCB SMT Stock: {0} = JLCPCB SMT disponibili: {0}
 
 Reset failed! There are duplicate component prefixes in the current schematic: = Errore! Ci sono prefissi duplicati nello schema attuale:
 Reset failed! There are duplicate component prefixes in the current PCB: = Errore! Ci sono prefissi duplicati nel PCB attuale:
 Please modify the component prefixes first to ensure that the component prefix is unique. = Modifica prima i prefissi del componente e assicurati che il prefisso del componente sia univoco.
 
-JLCEDA(YALONG Edition) - A Simple and Powerful Electronic Circuit Design Tool =
-JLCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = JLCEDA(Standard) - Un semplice e potente strumento di progettazione circuitale
-EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(Standard) - Un semplice e potente strumento di progettazione circuitale
+JLCEDA(YALONG Edition) - A Simple and Powerful Electronic Circuit Design Tool = JLCEDA (edizione YALONG) - Uno strumento semplice e potente per la progettazione di circuiti elettronici
+JLCEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = JLCEDA(Standard) - Un semplice e potente strumento per la progettazione di circuiti elettronici
+EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyEDA(Standard) - Un semplice e potente strumento per la progettazione di circuiti elettronici
 
 #Dialog for Package Custom Data
 Please input the data title = Inserisci il titolo dei dati
@@ -3200,9 +3200,9 @@ System footprint doesn't allow two or more pad numbers are 1 or A1, please modif
 Document layer has circle object, but jlcPara's polarity is 0, please check the Custom Data. = Lo strato del documento ha un oggetto cerchio, ma la polarità di jlcPara è 0, controlla i dati personalizzati.
 There are exist repeat pad numbers: {padNumber}, please check, if it is correct please ignore this. = Ci sono numeri di pad ripetuti: controlla {padNumber}, se fosse corretto, ignora questo messaggio.
 Can't find the circle at the component marking layer, or this circle doesn't at the same quadrant with the 1st pad, please check whether it is correct. = Non è stato possibile trovare il cerchio nello strato di demarcazione dei componenti oppure questo cerchio non si trova nello stesso quadrante del primo pad, verifica se è corretto.
-This footprint is LED, CASE or DIO type, please check if need to draw the polarity marking(or special polarity marking), if exits polarity marking please ignore this message. =
-This footprint is DIP type, please check if haven't place multi-layer pads. =
-This footprint is SMD type, please check if haven't placed single-layer pads. =
+This footprint is LED, CASE or DIO type, please check if need to draw the polarity marking(or special polarity marking), if exits polarity marking please ignore this message. = Questa footprint è di tipo LED, CASE o DIO, verifica se è necessario tracciare la marcatura di polarità (o la marcatura di polarità speciale), se la marcatura di polarità non è presente, ignora questo messaggio.
+This footprint is DIP type, please check if haven't place multi-layer pads. = Questa footprint è di tipo DIP, controlla se non sono state posizionate piazzole multistrato.
+This footprint is SMD type, please check if haven't placed single-layer pads. = Questa footprint è di tipo SMD, controlla se non sono stati posizionati pad a strato singolo.
 
 ROUND = CERCHIO
 RECTANGLE = RETTANGOLO
@@ -3280,7 +3280,7 @@ Note: When a PCB is Import Changes, the PCB is updated according to the footprin
 Doesn't support to import the binary format DXF, please import the ASCII format DXF. = L'importazione dei file DXF in formato binario non è supportata, importa i DXF in formato ASCII.
 
 Find System Similar Footprint = Trova footprint di sistema simili
-Download fingerprint data =
+Download fingerprint data = Scarica i dati della fingerprint
 Found similar footprints at system library, it is recommended to use them first. = Sono state trovate footprint simili nella libreria di sistema, si consiglia di usarle.
 Copy Title = Copia titolo
 Check system similar footprint = Controlla footprint di sistema simili
@@ -3316,18 +3316,18 @@ Select the objects that cannot be generated = Seleziona gli oggetti che non poss
 Please compress schematic and PCB as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Comprimi lo schema ed il PCB in un file zip ed importali, se importi solo lo schema dovrai associarlo manualmente con la footprint.
 Please compress schematic and PCB in ASCII format as a zip file and then import it, if you only import the schematic you need to binding with the footprint manually. = Comprimi lo schema ed il PCB in formato ASCII in un file zip ed importali, se importi solo lo schema dovrai associarlo manualmente con la footprint.
 Import failed! The imported files were not ASCII format, please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = L'importazione non è andata a buon fine! I file importati non erano in formato ASCII, salva i file come "Advanced Schematic ascii(*.SchDoc)" oppure "PCB ASCII File(*.PcbDoc)" in Altium Designer ed importali.
-Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. =
+Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Salva i file come "Advanced Schematic ascii(*.SchDoc)" oppure "PCB ASCII File(*.PcbDoc)" in Altium Designer ed importali.
 The PCB text will use the editor new font family, the text maybe will appear a little excursion. = Il testo del PCB userà la nuova famiglia dei font dell'editor, il testo potrebbe apparire leggermente distorto e sfalsato.
-Because of different file format and element design, the imported element may have some differences, please check carefully. The more information please refer the tutorials. = A causa del diverso formato ed elemento del file, controllare attentamente dopo l'importazione.
-EasyEDA is not responsible for any losses caused by format conversion differences, if you do not agree, please do not import. =
+Because of different file format and element design, the imported element may have some differences, please check carefully. The more information please refer the tutorials. = A causa del diverso formato dei file e del design degli elementi, l'elemento importato potrebbe presentare alcune differenze. Per ulteriori informazioni, consultare i tutorial.
+EasyEDA is not responsible for any losses caused by format conversion differences, if you do not agree, please do not import. = EasyEDA non è responsabile di eventuali perdite causate da differenze di conversione di formato, se non siete d'accordo, non importate.
 Please make sure the EAGLE file is saved in EAGLE v6.0 and higher version. = Assicurati che il file di EAGLE sia stato salvato con EAGLE v6.0 e versioni successive.
 Please compress schematic and PCB as a zip file by KiCad5 and then import it, if you only import the schematic you need to binding with the footprint manually. = Comprimi lo schema ed il PCB da KiCad5 in un file zip ed importalo, se importi solo lo schema dovrai associarlo manualmente con la footprint.
 Please make sure the Protel file is exported as ASCII format file. = Assicurati che il file Protel sia stato esportato in un file formato ASCII.
 Please compress the schematic and corresponding symbols as a zip file and then import it. = Comprimi lo schema e i simboli corrispondenti in un file zip ed importali.
-Tips =
+Tips = Suggerimenti
 
-Exists incomplete connection =
-Found that the board has incomplete connection, please check the nets and ratlines =
+Exists incomplete connection = C'è un collegamento incompleto
+Found that the board has incomplete connection, please check the nets and ratlines = La scheda presenta un collegamento incompleto, controlla le reti e le linee di collegamento.
 
 Please save the files as "Advanced Schematic ascii(*.SchDoc)" or"PCB ASCII File(*.PcbDoc)" at Altium Designer first, and then import. = Salva i file come "Advanced Schematic ascii(*.SchDoc)" oppure "PCB ASCII File(*.PcbDoc)" in Altium Designer e successivamente importali.
 Tips = Suggerimenti
@@ -3338,60 +3338,60 @@ You are not logged in or the login status is invalid, please login and try again
 
 Display Board Cutout = Mostra ritaglio della scheda
 
-Apply New Part =
-Apply New Parts for Free =
+Apply New Part = Applica nuovo componente
+Apply New Parts for Free = Applica nuovo componente gratuitamente
 
-Migrate to Pro Edition... =
-Recommended migrate the Std edition projects to the Pro edition, the Pro edition is more features powerful, and more more smoother. How to migrate: =
-1. Download and login the Pro edition. =
-2. Via: Top Menu - File - Migrate Standard... =
-3. Select the projects or libraries to migrate. =
-4. If your projects are saved at local, you can compress the schematic and PCB as a zip file, and then import it to the Pro edition. Via: Top Menu - File - Import - EasyEDA(Standard). =
-Open Pro Edition =
-Feedback =
+Migrate to Pro Edition... = Passa all'edizione Pro...
+Recommended migrate the Std edition projects to the Pro edition, the Pro edition is more features powerful, and more more smoother. How to migrate: = Si consiglia di trasferire i progetti dell'edizione Std all'edizione Pro, poiché quest'ultima è più potente e più fluida. Come migrare:
+1. Download and login the Pro edition. = 1. Scarica ed accedi all'edizione Pro.
+2. Via: Top Menu - File - Migrate Standard... = 2. Tramite: Menu - File - Migrate Standard...
+3. Select the projects or libraries to migrate. = 3. Seleziona i progetti o le librerie da trasferire.
+4. If your projects are saved at local, you can compress the schematic and PCB as a zip file, and then import it to the Pro edition. Via: Top Menu - File - Import - EasyEDA(Standard). = 4. Se i progetti sono salvati in locale, è possibile comprimere lo schema ed il PCB in un file zip e quindi importarlo nell'edizione Pro. Tramite: Menu - File - Importa - EasyEDA(Standard).
+Open Pro Edition = Apri l'edizione Pro
+Feedback = Feedback
 
-Datasheet Extract Wizard =
-Or double click here to add image(<5MB) =
-Pins Information =
-Next Step =
-Drop graphic files here =
-Please drag graphic file =
-Click to cancel loading =
-Use rolling wheels to zoom preview screen =
-Please add pin information first =
-The current environment does not support the paste content from the clipboard =
-The current environment does not read the permissions of the clipboard =
-Please copy a picture and paste the paste =
-Image compression failure =
-Please drag or paste image at here =
-Pins Data without extraction =
-Please make sure the editor is connect with internet, the extraction need some time, please wait a while =
-Add image failed, please add an image which small than 5MB =
-The image size cannot be more than 2 MB =
-Image Type =
-SOP type =
-QFN type =
-Table type =
+Datasheet Extract Wizard = Estrazione guidata del datasheet
+Or double click here to add image(<5MB) = Oppure fare doppo clic qui per aggiungere un'immagine (<5MB)
+Pins Information = Informazione dei pin
+Next Step = Passo successivo
+Drop graphic files here = Lascia qui i file grafici
+Please drag graphic file = Trascina il file grafico
+Click to cancel loading = Fare clic per annullare il caricamento
+Use rolling wheels to zoom preview screen = Usate le rotelle per ingrandire la schermata di anteprima
+Please add pin information first = Aggiungi prima le informazioni sul pin
+The current environment does not support the paste content from the clipboard = L'ambiente attuale non supporta la funziona incolla del contenuto dagli appunti.
+The current environment does not read the permissions of the clipboard = L'ambiente attuale non legge i permessi della clipboard
+Please copy a picture and paste the paste = Copia un'immagine e incollala
+Image compression failure = Si è verificato un errore durante la compressione dell'immagine
+Please drag or paste image at here = Trascina o incolla l'immagine qui
+Pins Data without extraction = Pin dati senza estrazione
+Please make sure the editor is connect with internet, the extraction need some time, please wait a while = Assicurarsi che l'editor sia connesso a Internet, l'estrazione richiede un certo tempo, attendere prego.
+Add image failed, please add an image which small than 5MB = L'aggiunta di un'immagine non è riuscita, aggiungi un'immagine di dimensioni inferiori a 5MB.
+The image size cannot be more than 2 MB = La dimensione dell'immagine non può essere superiore a 2 MB
+Image Type = Tipo di immagine
+SOP type = Tipo di SOP
+QFN type = Tipo di QFN
+Table type = Tipo di tabella
 Clear =
-Side =
-No permission, please contact project manager to enable permission, after enable please refresh the project list and try again =
+Side = Lato
+No permission, please contact project manager to enable permission, after enable please refresh the project list and try again = Nessun permesso, contatta il project manager per abilitare il permesso, dopo l'abilitazione aggiornare l'elenco dei progetti e riprovare.
 During the exam, cross -engineering paste =
 The exam has ended and cannot be edited =
 Exam remaining time =
 Exam is over =
 The exam is over and the test papers are being corrected =
-Quit out =
-The current account does not belong to the current engineering member and cannot create a new documentation =
+Quit out = Esci
+The current account does not belong to the current engineering member and cannot create a new documentation = L'account non appartiene all'attuale membro dell'ingegneria e non può creare una nuova documentazione.
 
-The generated pads size will little bigger than input size, good for welding =
+The generated pads size will little bigger than input size, good for welding = La dimensione dei pad generati sarà leggermente più grande della dimensione richiesta, ottima per la saldatura.
 
-The project has been published, but after editing, the project becomes unpublished. Do you want to continue? =
-You are trying to update components from library, please check the difference before update, if the flipped(mirrored) component(s) on the canvas updated, they will be reset to original status, please notice. Do you want to continue? =
-{value}{unit-name}, need more than DRC({drc-value}{unit-name}) =
-{value}{unit-name}, need less than DRC({drc-value}{unit-name}) =
-Need more than DRC({drc-value}{unit-name}) =
-Need less than DRC({drc-value}{unit-name}) =
-Incomplete Connection =
-Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? =
+The project has been published, but after editing, the project becomes unpublished. Do you want to continue? = Il progetto è stato pubblicato, ma dopo la modifica il progetto diventa non pubblicato. Vuoi continuare?
+You are trying to update components from library, please check the difference before update, if the flipped(mirrored) component(s) on the canvas updated, they will be reset to original status, please notice. Do you want to continue? = Si sta tentando di aggiornare i componenti dalla libreria, controlla la differenza prima dell'aggiornamento, se i componenti capovolti (speculari) sulla canvas vengono aggiornati, saranno ripristinati allo stato originale. Vuoi continuare?
+{value}{unit-name}, need more than DRC({drc-value}{unit-name}) = {value}{unit-name}, necessita di una maggiore DRC ({drc-value}{unit-name})
+{value}{unit-name}, need less than DRC({drc-value}{unit-name}) = {value}{unit-name}, necessita di una minore DRC ({drc-value}{unit-name})
+Need more than DRC({drc-value}{unit-name}) = Necessita di una maggiore DRC ({drc-value}{unit-name})
+Need less than DRC({drc-value}{unit-name}) = Necessita di una minore DRC ({drc-value}{unit-name})
+Incomplete Connection = Connessione incompleta
+Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? = Alcuni oggetti sono distanti dal contorno della scheda, se si spostano nell'angolo in basso a destra, è possibile regolarli?
 
-Auto Pin Placement =
+Auto Pin Placement = Posizionamento automatico dei pin
