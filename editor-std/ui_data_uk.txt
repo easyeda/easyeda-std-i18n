@@ -1,4 +1,4 @@
-# Украинский (Ukrainian)
+# Українська (Ukrainian)
 
 # Menu
 User = Користувач
@@ -114,7 +114,7 @@ Line = Лінія
 Polyline = Ламана лінія
 Rectangle = Прямокутник
 Rectangular = Приямокутний
-The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = Прямокутник не підтримує поворот не на 90 градусів. Натомість використовуйте суцільний регіон.
+The rectangle does not support non-90 degree rotation. Please use Solid Region instead. = Прямокутник підтримує поворот лише на 90 градусів. Натомість використовуйте Суцільний регіон.
 
 Rect = Пряма
 Round Rectangle = Округлений прямокутник
@@ -131,7 +131,7 @@ Power Port = Контакт живлення
 Wire = Провідник
 Annotation = Опис
 Track = Доріжка
-Image = Рисунок
+Image = Картинка
 Arrow Head = Наконечник стрілки
 Arrowhead = Наконечник стрілки
 Arrow = Стрілка
