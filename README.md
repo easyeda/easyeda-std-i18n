@@ -52,12 +52,14 @@ Add font success: {name} = 字体添加成功: {name}
 The word inside the braces has meaning to the software and should not be translated but it should be included in your translated text on the right.
 
 If a line stars with a hash character, it can be ignored, as hash characters signify a comment in the document and have no impact on the program.
+
 ```js
 #spice            //this is comment line, don't need to translate
 Switch mode = 切换模式
 ```
 
 When translating a dotted layer notation, it is not necessary to put the dot in the translation. Just translate the words. However, don't remove the dot from the left side of the `=`
+
 ```
 ALL.layer = 全部层
 Copper.layer = 铜箔层
@@ -92,7 +94,7 @@ Français (French) = Française (French)
 Deutsch (German) = Deutsch (German)
 
 ```
-The language list can be found here https://github.com/EasyEDA2021/easyeda-i18n/blob/main/editor-std/language_list.txt
+The language list can be found here [language_list.txt](/translations/language_list.txt)
 
 
 The process for doing this, is to first Fork the project on Git over to your account. Then, you clone the repository to your computer - which you can do with the git software client or any number of free git clients.
@@ -108,7 +110,7 @@ Add a comment to the pull request, and we will then look at your translation and
 ## Notice
 
 1) The file named `ui_data_CLEAN.txt` is a root file that is the common template used for all new language translations. Please don't edit this file, but instead make a copy of it, rename it to have your language code in the name, then edit the copy that you made.
-2) It is important to edit the file you copied, correctly, making sure you follow the rules listed above. The software looks for the file name that is associated with a given language and if it cannot find the English words that are on the left side of the `=` it will default to showing English instead of the translated text. This is why it's so important to understand the guidlines stated above.
+2) It is important to edit the file you copied, correctly, making sure you follow the rules listed above. The software looks for the file name that is associated with a given language and if it cannot find the English words that are on the left side of the `=` it will default to showing English instead of the translated text. This is why it's so important to understand the guidelines stated above.
 3) We do not need any English translations such as `ui_data_en.txt`, because we have the English language hard coded into the software already and it is the foundation from which the software generates all language translations from the files that you help us create in this project.
 4) Before create the pull request, please make sure all line separators change to Unix style(LF), you can set the git config as `git config --global core.autocrlf input`, when your pull request, the separator will changes to LF automatically. 
 
@@ -116,7 +118,7 @@ Add a comment to the pull request, and we will then look at your translation and
 
 **Special Thanks to everyone who has helped translate and for their hard work and dedication to our community. You have helped make EasyEDA more accessible around the globe. THANK YOU**
 
-https://github.com/EasyEDA2021/easyeda-i18n/graphs/contributors
+https://github.com/easyeda/easyeda-std-i18n/graphs/contributors
 
 Previous contributors:
 
