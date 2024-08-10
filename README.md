@@ -114,6 +114,10 @@ Add a comment to the pull request, and we will then look at your translation and
 3) We do not need any English translations such as `ui_data_en.txt`, because we have the English language hard coded into the software already and it is the foundation from which the software generates all language translations from the files that you help us create in this project.
 4) Before create the pull request, please make sure all line separators change to Unix style(LF), you can set the git config as `git config --global core.autocrlf input`, when your pull request, the separator will changes to LF automatically. 
 
+### translation effective
+
+It needs EasyEDA Std editor release new version after using new translation files.
+
 ## Contributor
 
 **Special Thanks to everyone who has helped translate and for their hard work and dedication to our community. You have helped make EasyEDA more accessible around the globe. THANK YOU**
