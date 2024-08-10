@@ -1,7 +1,4 @@
 
-> [!WARNING]
-> This project was closed, the new project was tranfered to https://github.com/easyeda/easyeda-std-i18n, please use the new address, thank you
-
 
 # easyeda-i18n
 
