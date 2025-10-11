@@ -1017,8 +1017,8 @@ Filter nets = নেট ফিল্টার
 Design Rule Checking = ডিজাইন নিয়ম পরীক্ষা
 Board Outline = বোর্ড আউটলাইন
 Plane Zone = প্লেন জোন
-Non-Plated =
-Non-Plated Pad =
+Non-Plated = নন-প্লেটেড
+Non-Plated Pad = নন-প্লেটেড প্যাড
 [drcRule]
 Width = প্রস্থ
 DRC Width = DRC প্রস্থ
@@ -1030,7 +1030,7 @@ Diameter = ব্যাস
 DRC Diameter = DRC ব্যাস
 Object = অবজেক্ট
 DRC Clearance = DRC ক্লিয়ারেন্স
-Clearance =
+Clearance = ক্লিয়ারেন্স
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue? = এই নেট আনরুট করতে কিছুটা সময় লাগবে, আপনি কি চালিয়ে যেতে চান?
 More than one netlabel is found in wire, please checked whether this is correct, if you design it on purpose, please ignore this warning. = তারে একাধিক নেটলেবেল পাওয়া গেছে, দয়া করে পরীক্ষা করুন এটি সঠিক কিনা, যদি আপনি ইচ্ছাকৃতভাবে এটি ডিজাইন করেন তাহলে এই সতর্কতা উপেক্ষা করুন।
@@ -1042,7 +1042,7 @@ The diameter is less than Design Rule Checking (DRC) diameter = ব্যাস 
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = ড্রিল ব্যাস ডিজাইন রুল চেকিং (DRC) ড্রিল ব্যাসের চেয়ে কম
 The track length is longer than Design Rule Checking (DRC) track length = ট্র্যাক দৈর্ঘ্য ডিজাইন রুল চেকিং (DRC) ট্র্যাক দৈর্ঘ্যের চেয়ে দীর্ঘ
 The track width is less than Design Rule Checking (DRC) track width = ট্র্যাক প্রস্থ ডিজাইন রুল চেকিং (DRC) ট্র্যাক প্রস্থের চেয়ে কম
-The pad is non-plated. Please check whether it is correct. =
+The pad is non-plated. Please check whether it is correct. = প্যাডটি নন-প্লেটেড। দয়া করে পরীক্ষা করুন এটি সঠিক কিনা।
 
 #Dialog Simulation
 Show your simulation report = আপনার সিমুলেশন রিপোর্ট দেখান
@@ -2927,8 +2927,8 @@ Download Client = ক্লায়েন্ট ডাউনলোড
 
 Search tutorial, open source projects etc. = টিউটোরিয়াল, ওপেন সোর্স প্রকল্প ইত্যাদি অনুসন্ধান করুন
 [search]
-Tutorials =
-OSHWLAB =
+Tutorials = টিউটোরিয়াল
+OSHWLAB = OSHWLAB
 [/search]
 
 Go to LCSC and search for = LCSC-তে যান এবং অনুসন্ধান করুন
@@ -3403,22 +3403,22 @@ Incomplete Connection = অসম্পূর্ণ সংযোগ
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? = বোর্ড আউটলাইন থেকে দূরে কিছু অবজেক্ট পাওয়া গেছে। ভালভাবে সামঞ্জস্য করতে এগুলোকে বোর্ডের নিচের ডান কোণে সরিয়ে নেবেন?
 
 Auto Pin Placement = অটো পিন প্লেসমেন্ট
-About the Library Files Note =
+About the Library Files Note = লাইব্রেরি ফাইল নোট সম্পর্কে
 
 # upgrade notice
-New project notice =
-EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. =
-1. The features are more comprehensive and powerful. =
-2. Better performance and no pressure on large designs. =
-3. The feature is constantly updated, making drawing more efficient. =
-4. Support the batch migration of EasyEDA Std libraries and projects. =
-5. Support on premise hosting for enterprise. =
-It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  =
-The EasyEDA Std will no longer add new features, and enter maintenance phase. =
-Features comparison =
-Projects migration tutorials. =
-Apply trial for free =
-Migration Assistance Group =
-Don't show this notice again today. =
-New Pro Project =
-New Std Project =
+New project notice = নতুন প্রকল্প নোটিশ
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. = EasyEDA Pro কয়েক বছর আগে প্রকাশিত হয়েছে এবং সম্পূর্ণরূপে EasyEDA Std প্রতিস্থাপন করতে পারে।
+1. The features are more comprehensive and powerful. = ১. বৈশিষ্ট্যগুলি আরও ব্যাপক এবং শক্তিশালী।
+2. Better performance and no pressure on large designs. = ২. ভালো পারফরম্যান্স এবং বড় ডিজাইনে কোনো চাপ নেই।
+3. The feature is constantly updated, making drawing more efficient. = ৩. বৈশিষ্ট্যগুলি ক্রমাগত আপডেট করা হয়, যা অঙ্কনকে আরও দক্ষ করে তোলে।
+4. Support the batch migration of EasyEDA Std libraries and projects. = ৪. EasyEDA Std লাইব্রেরি এবং প্রকল্পের ব্যাচ মাইগ্রেশন সমর্থন করে।
+5. Support on premise hosting for enterprise. = ৫. এন্টারপ্রাইজের জন্য অন-প্রিমাইস হোস্টিং সমর্থন করে।
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  = এখন থেকে প্রকল্প তৈরির জন্য ধীরে ধীরে EasyEDA Pro-তে স্থানান্তর করার সুপারিশ করা হচ্ছে।
+The EasyEDA Std will no longer add new features, and enter maintenance phase. = EasyEDA Std আর নতুন বৈশিষ্ট্য যোগ করবে না এবং রক্ষণাবেক্ষণ পর্যায়ে প্রবেশ করবে।
+Features comparison = বৈশিষ্ট্য তুলনা
+Projects migration tutorials. = প্রকল্প মাইগ্রেশন টিউটোরিয়াল।
+Apply trial for free = বিনামূল্যে ট্রায়ালের জন্য আবেদন করুন
+Migration Assistance Group = মাইগ্রেশন সহায়তা গ্রুপ
+Don't show this notice again today. = আজ এই নোটিশ আর দেখাবেন না।
+New Pro Project = নতুন Pro প্রকল্প
+New Std Project = নতুন Std প্রকল্প
