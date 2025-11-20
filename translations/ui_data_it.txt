@@ -33,7 +33,7 @@ Save As... = Salva come...
 Save As Module... = Salva come modulo...
 Print = Stampa
 Export Document = Esporta documento
-LTspice... =  LTspice...
+LTspice... = LTspice...
 Eagle... = Eagle...
 Altium... = Altium...
 Cadence... = Cadence...
@@ -1016,8 +1016,8 @@ Filter nets = Filtra net
 Design Rule Checking = Controllo delle regole di progettazione
 Board Outline = Contorno della scheda
 Plane Zone = Zona del piano
-Non-Plated =
-Non-Plated Pad =
+Non-Plated = Non metallizzata
+Non-Plated Pad = Piazzola non metallizzata
 [drcRule]
 Width = Larghezza
 DRC Width = Larghezza DRC
@@ -1041,7 +1041,7 @@ The diameter is less than Design Rule Checking (DRC) diameter = Il diametro è p
 The drill diameter is less than Design Rule Checking (DRC) drill diameter = Il diametro del foro è più piccolo di quello impostato nel controllo delle regole di progettazione (DRC)
 The track length is longer than Design Rule Checking (DRC) track length = La lunghezza della pista è più lunga di quella impostata nel controllo delle regole di progettazione (DRC)
 The track width is less than Design Rule Checking (DRC) track width = La larghezza della pista è più piccola di quella impostata nel controllo delle regole di progettazione (DRC)
-The pad is non-plated. Please check whether it is correct. =
+The pad is non-plated. Please check whether it is correct. = La piazzola non è metallizzata. Verifica che sia corretto.
 
 #Dialog Simulation
 Show your simulation report = Mostra rapporto della simulazione
@@ -1126,7 +1126,7 @@ AC Analysis = Analisi AC
 Type of Sweep = Tipo di analisi
 Number of points = Numero di punti
 Start Frequency = Frequenza iniziale
-Stop Frequency =  Frequenza finale
+Stop Frequency = Frequenza finale
 
 DC sweep = Analisi DC
 Source to Sweep = Sorgente per l'analisi
@@ -1686,7 +1686,7 @@ Please select its parent node = Seleziona il nodo principale
 Libraries can not be exported as active project pdf. = Le librerie non possono essere esportate come pdf di un progetto attivo.
 Error:No GND = Errore: nessuna GND
 This circuit does not have GND. Please select GND from the circuit tool to add to the circuit. = Questo circuito non ha GND. Seleziona una GND dagli strumenti e aggiungila al circuito.
-This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. = L'attuale circuito non ha il simbolo di un generatore di tensione o di corrente, cercalo nelle librerie visibili a sinistra o nelle librerie Spice, quindi inseriscilo.
+This circuit doesn't have a Voltage Source or Current Source symbol. Please place one from the EElib or Spice Library on the left side. = Questo circuito non contiene un simbolo di sorgente di tensione o di corrente. Inseriscine uno dalla EElib o dalla libreria Spice presente sul lato sinistro.
 Probe can not connect with ground(GND)! = La sonda non può essere collegata con la GND!
 Spice symbols's properties can't be empty. = Le proprietà dei simboli Spice non possono essere vuote.
 Error:No Spice Symbol = Errore: nessun simbolo Spice
@@ -1733,7 +1733,7 @@ Please create a board outline! Click the help button to find out how to create a
 Can not fetch files from server, please check your network and try again = Impossibile recuperare i file dal server, controlla la tua rete e riprova
 Please open a schematic first! = Apri prima uno schema!
 Can not find the schematic of this PCB = Impossibile trovare lo schema di questo PCB
-Invalid points! = punti non validi!
+Invalid points! = Punti non validi!
 This file does not support this operation. = Questo file non supporta questa operazione.
 Net Name Conflict = Conflitto nome net
 Net name = Nome net
@@ -2738,19 +2738,19 @@ Routing Rules = Regole dello sbroglio
 Track Length Tuning... = Regolazione lunghezza della pista...
 Tracks with different net or non-track found in current targets. = Nell'oggetto attuale sono presenti piste con net differenti o elementi non collegati.
 Please select the signal tracks to be tuning. = Seleziona le piste del segnale da regolare.
-The total length exceeds the Design Rule Checking (DRC) constraint, continue? = La lunghezza totale supera il vincolo imposto dal controllo delle regole di progettazione (DRC), continuare ?
+The total length exceeds the Design Rule Checking (DRC) constraint, continue? = La lunghezza totale supera il limite impostato dal controllo delle regole di progettazione (DRC), continuare ?
 45° Angle = Angolo di 45°
 90° Angle = Angolo di 90°
-DRC Track Length: = Lunghezza della pista DRC :
-Current Length: = Lunghezza attuale :
-Additional Length: = Lunghezza aggiuntiva :
+DRC Track Length: = Lunghezza della pista DRC:
+Current Length: = Lunghezza attuale:
+Additional Length: = Lunghezza aggiuntiva:
 Target Length: = Lunghezza dell'oggetto:
 Current Length: = Lunghezza attuale:
 Adjust Type = Tipo di regolazione
 Double Side = Doppio lato
 Single Side = Lato singolo
 
-Cannot connect to the server = impossibile connettersi al server
+Cannot connect to the server = Impossibile connettersi al server
 
 #Dialog Copper Area Manager
 Copper Area Manager... = Gestisci area di rame...
@@ -2927,8 +2927,8 @@ Download Client = Scarica client
 
 Search tutorial, open source projects etc. = Cerca tutorial, progetti open source ecc.
 [search]
-Tutorials =
-OSHWLAB =
+Tutorials = Tutorial
+OSHWLAB = OSHWLAB
 [/search]
 
 Go to LCSC and search for = Vai su LCSC e cerca
@@ -3170,7 +3170,7 @@ EasyEDA(Standard) - A Simple and Powerful Electronic Circuit Design Tool = EasyE
 
 #Dialog for Package Custom Data
 Please input the data title = Inserisci il titolo dei dati
-Data title duplicated =  Il titolo dei dati è duplicato
+Data title duplicated = Il titolo dei dati è duplicato
 Cannot be more than {0} characters! = Non può contenere più di {0} caratteri!
 Only latin alphabets, digits, underscore(_) and hyphen(-) are allowed. = Sono consentiti solo caratteri latini, cifre, trattino basso (_) e trattino (-).
 Invalid value of item {0} = Il valore dell'elemento {0} non è valido
@@ -3403,22 +3403,22 @@ Incomplete Connection = Connessione incompleta
 Found some objects are far away from board outline, whether if move them at board bottom right corner to good to adjust? = Alcuni oggetti sono distanti dal contorno della scheda, se si spostano nell'angolo in basso a destra, è possibile regolarli?
 
 Auto Pin Placement = Posizionamento automatico dei pin
-About the Library Files Note =
+About the Library Files Note = Informazioni sulla nota relativa ai file della libreria
 
 # upgrade notice
-New project notice =
-EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. =
-1. The features are more comprehensive and powerful. =
-2. Better performance and no pressure on large designs. =
-3. The feature is constantly updated, making drawing more efficient. =
-4. Support the batch migration of EasyEDA Std libraries and projects. =
-5. Support on premise hosting for enterprise. =
-It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  =
-The EasyEDA Std will no longer add new features, and enter maintenance phase. =
-Features comparison =
-Projects migration tutorials. =
-Apply trial for free =
-Migration Assistance Group =
-Don't show this notice again today. =
-New Pro Project =
-New Std Project =
+New project notice = Avviso per il nuovo progetto
+EasyEDA Pro has been released for several years and can completely replace the EasyEDA Std. = EasyEDA Pro è stato rilasciato da diversi anni e può sostituire completamente EasyEDA Std.
+1. The features are more comprehensive and powerful. = Le funzionalità sono più complete e potenti.
+2. Better performance and no pressure on large designs. = Prestazioni superiori e nessuna difficoltà con progetti di grandi dimensioni.
+3. The feature is constantly updated, making drawing more efficient. = Le funzioni vengono aggiornate continuamente, rendendo la progettazione più efficiente.
+4. Support the batch migration of EasyEDA Std libraries and projects. = Supporta la migrazione in batch delle librerie e dei progetti di EasyEDA Std.
+5. Support on premise hosting for enterprise. = Supporta l’hosting on-premise per le aziende.
+It is recommended to gradually transfer to the EasyEDA Pro for project creation starting from now.  = Si consiglia di passare gradualmente a EasyEDA Pro per la creazione dei nuovi progetti a partire da ora.
+The EasyEDA Std will no longer add new features, and enter maintenance phase. = EasyEDA Std non riceverà più nuove funzionalità ed entrerà nella fase di manutenzione.
+Features comparison = Confronto delle funzionalità
+Projects migration tutorials. = Tutorial per la migrazione dei progetti.
+Apply trial for free = Richiedi una prova gratuita
+Migration Assistance Group = Gruppo di assistenza per la migrazione
+Don't show this notice again today. = Per oggi, non mostrare più questo avviso.
+New Pro Project = Nuovo progetto Pro
+New Std Project = Nuovo progetto Std
